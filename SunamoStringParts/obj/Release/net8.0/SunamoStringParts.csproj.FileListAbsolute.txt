@@ -1,0 +1,12 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\bin\Release\net8.0\SunamoStringParts.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\bin\Release\net8.0\SunamoStringParts.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\bin\Release\net8.0\SunamoStringParts.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\SunamoStringParts.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\SunamoStringParts.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\SunamoStringParts.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\SunamoStringParts.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\SunamoStringParts.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\SunamoStringParts.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\refint\SunamoStringParts.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\SunamoStringParts.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringParts\obj\Release\net8.0\ref\SunamoStringParts.dll

@@ -1,0 +1,13 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\bin\Release\net8.0\SunamoText.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\bin\Release\net8.0\SunamoText.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\bin\Release\net8.0\SunamoText.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.csproj.AssemblyReference.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\refint\SunamoText.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\SunamoText.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoText\obj\Release\net8.0\ref\SunamoText.dll

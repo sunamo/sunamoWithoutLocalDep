@@ -1,0 +1,13 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\bin\Release\net8.0\SunamoStringFormat.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\bin\Release\net8.0\SunamoStringFormat.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\bin\Release\net8.0\SunamoStringFormat.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.csproj.AssemblyReference.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\refint\SunamoStringFormat.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\SunamoStringFormat.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\obj\Release\net8.0\ref\SunamoStringFormat.dll

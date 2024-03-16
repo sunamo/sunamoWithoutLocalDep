@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SunamoXliffParser</id>
+    <version>24.2.6.2</version>
+    <authors>SunamoXliffParser</authors>
+    <description>Just fork from https://www.nuget.org/packages/fmdev.XliffParser, due to .NET 5+</description>
+    <repository type="git" commit="fb47098ae41f1aa2fbe76a7c4f7c83bc5ad888a4" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="ResXResourceReader.NetStandard" version="1.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\bin\Release\net8.0\SunamoXliffParser.dll" target="lib\net8.0\SunamoXliffParser.dll" />
+  </files>
+</package>

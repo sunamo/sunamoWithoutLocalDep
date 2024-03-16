@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SunamoXlfKeys</id>
+    <version>24.2.6.2</version>
+    <authors>SunamoXlfKeys</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="fb47098ae41f1aa2fbe76a7c4f7c83bc5ad888a4" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\vs\Projects\sunamoWithoutLocalDep\SunamoXlfKeys\bin\Release\net8.0\SunamoXlfKeys.dll" target="lib\net8.0\SunamoXlfKeys.dll" />
+  </files>
+</package>

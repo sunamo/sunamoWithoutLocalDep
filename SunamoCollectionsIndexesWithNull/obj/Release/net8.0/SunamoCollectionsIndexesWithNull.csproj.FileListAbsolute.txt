@@ -1,0 +1,12 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\bin\Release\net8.0\SunamoCollectionsIndexesWithNull.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\bin\Release\net8.0\SunamoCollectionsIndexesWithNull.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\bin\Release\net8.0\SunamoCollectionsIndexesWithNull.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\SunamoCollectionsIndexesWithNull.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\SunamoCollectionsIndexesWithNull.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\SunamoCollectionsIndexesWithNull.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\SunamoCollectionsIndexesWithNull.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\SunamoCollectionsIndexesWithNull.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\SunamoCollectionsIndexesWithNull.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\refint\SunamoCollectionsIndexesWithNull.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\SunamoCollectionsIndexesWithNull.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsIndexesWithNull\obj\Release\net8.0\ref\SunamoCollectionsIndexesWithNull.dll

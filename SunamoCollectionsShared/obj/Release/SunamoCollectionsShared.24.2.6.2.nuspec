@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SunamoCollectionsShared</id>
+    <version>24.2.6.2</version>
+    <authors>SunamoCollectionsShared</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="fb47098ae41f1aa2fbe76a7c4f7c83bc5ad888a4" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="SunamoArgs" version="24.2.6.3" exclude="Build,Analyzers" />
+        <dependency id="SunamoAttributes" version="24.2.6.1" exclude="Build,Analyzers" />
+        <dependency id="SunamoExceptions" version="24.2.6.2" exclude="Build,Analyzers" />
+        <dependency id="SunamoValues" version="24.2.6.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsShared\bin\Release\net8.0\SunamoCollectionsShared.dll" target="lib\net8.0\SunamoCollectionsShared.dll" />
+  </files>
+</package>

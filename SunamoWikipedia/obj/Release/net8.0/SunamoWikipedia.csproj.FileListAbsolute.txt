@@ -1,0 +1,5 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoWikipedia\obj\Release\net8.0\SunamoWikipedia.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoWikipedia\obj\Release\net8.0\SunamoWikipedia.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoWikipedia\obj\Release\net8.0\SunamoWikipedia.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoWikipedia\obj\Release\net8.0\SunamoWikipedia.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoWikipedia\obj\Release\net8.0\SunamoWikipedia.sourcelink.json

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SunamoStringFormat</id>
+    <version>24.2.6.1</version>
+    <authors>SunamoStringFormat</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="fb47098ae41f1aa2fbe76a7c4f7c83bc5ad888a4" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="SunamoExceptions" version="24.2.5.1" exclude="Build,Analyzers" />
+        <dependency id="SunamoValues" version="24.2.5.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringFormat\bin\Release\net8.0\SunamoStringFormat.dll" target="lib\net8.0\SunamoStringFormat.dll" />
+  </files>
+</package>

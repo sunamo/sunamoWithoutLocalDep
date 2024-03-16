@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t1h7/5xy5ltXqwH9zBrvBNt2nfv6nnJaZgyZ+k1rOPcq0RIP4AcSrgbv6NSUYGxpp3snReKXpt/0rYrUoMqvyw==",
+  "success": true,
+  "projectFilePath": "E:\\vs\\Projects\\sunamoWithoutLocalDep\\SunamoXliffParser\\SunamoXliffParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\r\\.nuget\\packages\\resxresourcereader.netstandard\\1.2.0\\resxresourcereader.netstandard.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

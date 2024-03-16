@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>24.2.6.2</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\SunamoDelegates\TaskVoid.cs" Link="_sunamo\TaskVoid.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_sunamo\Types.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_sunamo\" />
+  </ItemGroup>
+</Project>

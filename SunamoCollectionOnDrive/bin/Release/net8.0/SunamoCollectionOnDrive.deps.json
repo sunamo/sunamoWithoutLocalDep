@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SunamoCollectionOnDrive/24.2.6.3": {
+        "runtime": {
+          "SunamoCollectionOnDrive.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SunamoCollectionOnDrive/24.2.6.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

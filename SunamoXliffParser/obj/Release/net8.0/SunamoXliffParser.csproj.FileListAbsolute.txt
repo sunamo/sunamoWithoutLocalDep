@@ -1,0 +1,13 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\bin\Release\net8.0\SunamoXliffParser.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\bin\Release\net8.0\SunamoXliffParser.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\bin\Release\net8.0\SunamoXliffParser.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.csproj.AssemblyReference.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\refint\SunamoXliffParser.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\SunamoXliffParser.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoXliffParser\obj\Release\net8.0\ref\SunamoXliffParser.dll

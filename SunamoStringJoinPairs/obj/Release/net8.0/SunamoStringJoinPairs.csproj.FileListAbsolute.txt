@@ -1,0 +1,12 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\bin\Release\net8.0\SunamoStringJoinPairs.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\bin\Release\net8.0\SunamoStringJoinPairs.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\bin\Release\net8.0\SunamoStringJoinPairs.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\SunamoStringJoinPairs.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\SunamoStringJoinPairs.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\SunamoStringJoinPairs.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\SunamoStringJoinPairs.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\SunamoStringJoinPairs.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\SunamoStringJoinPairs.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\refint\SunamoStringJoinPairs.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\SunamoStringJoinPairs.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringJoinPairs\obj\Release\net8.0\ref\SunamoStringJoinPairs.dll

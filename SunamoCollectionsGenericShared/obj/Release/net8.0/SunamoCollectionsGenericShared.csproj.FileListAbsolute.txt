@@ -1,0 +1,13 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\bin\Release\net8.0\SunamoCollectionsGenericShared.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\bin\Release\net8.0\SunamoCollectionsGenericShared.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\bin\Release\net8.0\SunamoCollectionsGenericShared.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.csproj.AssemblyReference.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\refint\SunamoCollectionsGenericShared.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\SunamoCollectionsGenericShared.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoCollectionsGenericShared\obj\Release\net8.0\ref\SunamoCollectionsGenericShared.dll

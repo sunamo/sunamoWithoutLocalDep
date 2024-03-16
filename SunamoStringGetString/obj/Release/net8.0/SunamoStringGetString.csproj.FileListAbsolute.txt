@@ -1,0 +1,13 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\bin\Release\net8.0\SunamoStringGetString.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\bin\Release\net8.0\SunamoStringGetString.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\bin\Release\net8.0\SunamoStringGetString.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.csproj.AssemblyReference.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\refint\SunamoStringGetString.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\SunamoStringGetString.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoStringGetString\obj\Release\net8.0\ref\SunamoStringGetString.dll

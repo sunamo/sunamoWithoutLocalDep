@@ -1,0 +1,13 @@
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\bin\Release\net8.0\SunamoEmbeddedResources.deps.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\bin\Release\net8.0\SunamoEmbeddedResources.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\bin\Release\net8.0\SunamoEmbeddedResources.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.csproj.AssemblyReference.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.AssemblyInfoInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.AssemblyInfo.cs
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.csproj.CoreCompileInputs.cache
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.sourcelink.json
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\refint\SunamoEmbeddedResources.dll
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\SunamoEmbeddedResources.pdb
+E:\vs\Projects\sunamoWithoutLocalDep\SunamoEmbeddedResources\obj\Release\net8.0\ref\SunamoEmbeddedResources.dll
