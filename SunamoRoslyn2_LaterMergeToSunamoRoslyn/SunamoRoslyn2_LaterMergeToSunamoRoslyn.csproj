@@ -8,4 +8,10 @@
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.9.2" />
     <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="4.9.2" />
   </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);SunamoRoslyn2_LaterMergeToSunamoRoslyn</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);SunamoRoslyn2_LaterMergeToSunamoRoslyn</DefineConstants>
+  </PropertyGroup>
 </Project>

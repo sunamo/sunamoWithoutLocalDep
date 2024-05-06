@@ -6,10 +6,10 @@
     <Version>24.2.6.2</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;SunamoCollectionsGenericShared</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;SunamoCollectionsGenericShared</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SunamoCollectionWithoutDuplicates" Version="24.2.6.1" />

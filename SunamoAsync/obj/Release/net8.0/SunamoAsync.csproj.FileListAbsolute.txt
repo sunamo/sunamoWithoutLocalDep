@@ -1,7 +1,6 @@
 E:\vs\Projects\sunamoWithoutLocalDep\SunamoAsync\bin\Release\net8.0\SunamoAsync.deps.json
 E:\vs\Projects\sunamoWithoutLocalDep\SunamoAsync\bin\Release\net8.0\SunamoAsync.dll
 E:\vs\Projects\sunamoWithoutLocalDep\SunamoAsync\bin\Release\net8.0\SunamoAsync.pdb
-E:\vs\Projects\sunamoWithoutLocalDep\SunamoAsync\obj\Release\net8.0\SunamoAsync.csproj.AssemblyReference.cache
 E:\vs\Projects\sunamoWithoutLocalDep\SunamoAsync\obj\Release\net8.0\SunamoAsync.GeneratedMSBuildEditorConfig.editorconfig
 E:\vs\Projects\sunamoWithoutLocalDep\SunamoAsync\obj\Release\net8.0\SunamoAsync.AssemblyInfoInputs.cache
 E:\vs\Projects\sunamoWithoutLocalDep\SunamoAsync\obj\Release\net8.0\SunamoAsync.AssemblyInfo.cs

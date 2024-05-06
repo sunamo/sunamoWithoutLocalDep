@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoCollectionOnDrive")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("24.2.6.3")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.3+fb47098ae41f1aa2fbe76a7c4f7c83bc5ad888a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.3+445f4f39ca5a0e854f9607585d7c350c77655228")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoCollectionOnDrive")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoCollectionOnDrive")]
 [assembly: System.Reflection.AssemblyVersionAttribute("24.2.6.3")]

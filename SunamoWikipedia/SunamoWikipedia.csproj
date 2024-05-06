@@ -7,4 +7,10 @@
   <ItemGroup>
     <PackageReference Include="SunamoHtml" Version="24.2.7.1" />
   </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);SunamoWikipedia</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);SunamoWikipedia</DefineConstants>
+  </PropertyGroup>
 </Project>

@@ -10,9 +10,9 @@
     <PackageReference Include="SunamoShared" Version="*" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;SunamoHttp</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;SunamoHttp</DefineConstants>
   </PropertyGroup>
 </Project>

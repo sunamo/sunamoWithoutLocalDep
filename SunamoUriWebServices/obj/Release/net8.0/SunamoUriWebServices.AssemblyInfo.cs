@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoUriWebServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("24.2.7.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.7.1+fb47098ae41f1aa2fbe76a7c4f7c83bc5ad888a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.7.1+445f4f39ca5a0e854f9607585d7c350c77655228")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoUriWebServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoUriWebServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("24.2.7.1")]

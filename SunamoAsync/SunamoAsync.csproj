@@ -6,16 +6,18 @@
     <Version>24.2.6.2</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;SunamoAsync</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
+    <DefineConstants>$(DefineConstants);ASYNC;SunamoAsync</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\SunamoDelegates\TaskVoid.cs" Link="_sunamo\TaskVoid.cs" />
+    <Compile Include="..\SunamoDelegates\TaskVoid.cs" Link="_linked\TaskVoid.cs" />
+    <Compile Include="..\SunamoDelegates\VoidVoid.cs" Link="_linked\VoidVoid.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_sunamo\Types.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="_linked\" />
     <Folder Include="_sunamo\" />
   </ItemGroup>
 </Project>
