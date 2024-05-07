@@ -585,7 +585,7 @@ public class SHSH
     }
     public static string WrapWithBs(string commitMessage)
     {
-        return WrapWithChar(commitMessage, AllCharsSE.bs);
+        return WrapWithChar(commitMessage, AllChars.bs);
     }
 
     #region MyRegion

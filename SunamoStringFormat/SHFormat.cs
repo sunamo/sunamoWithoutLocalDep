@@ -56,7 +56,7 @@ public partial class SHFormat
             return string.Empty;
         }
 
-        if (status.Contains(AllCharsSE.lcub) && !status.Contains("{0}"))
+        if (status.Contains(AllChars.lcub) && !status.Contains("{0}"))
         {
             return status;
         }
