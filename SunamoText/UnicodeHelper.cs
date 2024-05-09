@@ -1,8 +1,9 @@
+
+namespace SunamoText;
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SunamoShared.Helpers.Text;
 
 public class UnicodeHelper
 {
@@ -42,4 +43,4 @@ public class UnicodeHelper
                 (char)ushort.Parse(m.Groups[1].Value, NumberStyles.AllowHexSpecifier))));
         return sb;
     }
-}
+

@@ -246,4 +246,4 @@ public class XlfFile
             return XmlUtil.GetAttributeIfExists(node, name);
         }
     }
-}
+

@@ -1,7 +1,7 @@
 
+namespace SunamoUriWebServices.Ads;
 using SunamoUriWebServices;
 
-namespace SunamoShared.Generators.Uri.Ads;
 public class AdsRegionBase
 {
     /// <summary>
@@ -40,4 +40,4 @@ bazarCz, sBazarCz, avizoCz, bazosCz, aukroCz };
     {
         UriWebServices.SearchInAll(All, what);
     }
-}
+

@@ -1,7 +1,8 @@
+
+namespace SunamoStringFormat._sunamo;
 using SunamoExceptions.InSunamoIsDerivedFrom;
 using System.Collections;
 
-namespace SunamoStringFormat._sunamo;
 
 internal class CASH
 {
@@ -32,4 +33,4 @@ internal class CASH
 
         return innerMain;
     }
-}
+

@@ -1,9 +1,10 @@
-﻿using SunamoEmbeddedResources._sunamo;
+
+namespace SunamoEmbeddedResources;
+using SunamoEmbeddedResources._sunamo;
 using SunamoValues;
 using System.Reflection;
 using System.Text;
 
-namespace SunamoEmbeddedResources;
 /// <summary>
 ///
 /// Require assembly and default namespace.
@@ -80,4 +81,4 @@ GetString(uri.ToString()) - the same string as passed in ctor Uri
         var vr = entryAssembly.GetManifestResourceStream(s);
         return vr;
     }
-}
+

@@ -1,7 +1,8 @@
+
+namespace SunamoCollectionOnDrive;
 using SunamoCollectionOnDrive.Args;
 using System.Text;
 
-namespace SunamoCollectionOnDrive;
 
 
 public abstract class PpkOnDriveBase<T> : List<T>
@@ -169,4 +170,4 @@ void
     {
         return ReturnContent();
     }
-}
+

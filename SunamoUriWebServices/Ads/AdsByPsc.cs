@@ -1,4 +1,4 @@
-namespace SunamoShared.Generators.Uri.Ads;
+namespace SunamoUriWebServices.Ads;
 
 
 public class AdsByPsc

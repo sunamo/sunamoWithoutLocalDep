@@ -1,6 +1,7 @@
+
+namespace SunamoText;
 using SunamoText._sunamo;
 
-namespace SunamoShared.Helpers.Text;
 /// <summary>
 /// Alternatives: TextFormatData - can check whether on position is expected char (letter, digit, etc.) but then not allow variable lenght of parsed
 /// </summary>
@@ -56,4 +57,4 @@ public class FormatOfString
         var p = GetParsedParts(input, format);
         return p.Count == countOfVerbar;
     }
-}
+

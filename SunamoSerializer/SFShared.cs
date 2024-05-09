@@ -1,7 +1,7 @@
 
+namespace SunamoSerializer;
 using SunamoSerializer._sunamo;
 
-namespace SunamoSerializer;
 public partial class SF
 {
     private static SerializeContentArgs s_contentArgs = new SerializeContentArgs();
@@ -268,4 +268,4 @@ public partial class SF
 #endif
         File.AppendAllTextAsync(v, sb.ToString() + Environment.NewLine);
     }
-}
+

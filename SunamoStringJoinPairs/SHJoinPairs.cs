@@ -1,5 +1,5 @@
-
 namespace SunamoStringJoinPairs;
+
 using System.Text;
 
 

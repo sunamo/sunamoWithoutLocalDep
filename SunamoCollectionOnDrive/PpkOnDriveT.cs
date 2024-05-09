@@ -1,7 +1,8 @@
+
+namespace SunamoCollectionOnDrive;
 using SunamoCollectionOnDrive._public;
 using SunamoCollectionOnDrive.Args;
 
-namespace SunamoCollectionOnDrive;
 
 
 public class PpkOnDrive<T> : PpkOnDriveBase<T> where T : IParserCollectionOnDrive
@@ -44,4 +45,4 @@ void
     public PpkOnDrive(string file, bool load, bool save) : base(new PpkOnDriveArgs { file = file, load = load, save = save })
     {
     }
-}
+

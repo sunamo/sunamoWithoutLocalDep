@@ -1,7 +1,8 @@
+
+namespace SunamoWikipedia;
 using SunamoHtml;
 using SunamoHtml.Html;
 
-namespace SunamoShared;
 
 
 public class WikipediaHelper
@@ -102,4 +103,4 @@ public class WikipediaHelper
     }
 
 
-}
+
