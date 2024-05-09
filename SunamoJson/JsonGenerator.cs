@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace SunamoShared.Generators;
+namespace SunamoJson;
 
 public class JsonGenerator
 {

@@ -2,7 +2,7 @@ using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SunamoShared.Helpers.Text;
+namespace SunamoText;
 
 public class UnicodeHelper
 {

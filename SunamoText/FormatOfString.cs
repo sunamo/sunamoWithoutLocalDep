@@ -1,6 +1,6 @@
 using SunamoText._sunamo;
 
-namespace SunamoShared.Helpers.Text;
+namespace SunamoText;
 /// <summary>
 /// Alternatives: TextFormatData - can check whether on position is expected char (letter, digit, etc.) but then not allow variable lenght of parsed
 /// </summary>

@@ -1,7 +1,7 @@
 using SunamoHtml;
 using SunamoHtml.Html;
 
-namespace SunamoShared;
+namespace SunamoWikipedia;
 
 
 public class WikipediaHelper

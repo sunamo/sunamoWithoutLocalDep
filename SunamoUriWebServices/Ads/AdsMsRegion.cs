@@ -1,5 +1,5 @@
 
-namespace SunamoShared.Generators.Uri.Ads;
+namespace SunamoUriWebServices.Ads;
 /// <summary>
 /// For phones, etc. is better repas sites as mp.cz
 /// </summary>
