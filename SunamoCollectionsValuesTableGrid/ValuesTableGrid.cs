@@ -1,8 +1,7 @@
-
-namespace SunamoCollectionsValuesTableGrid;
 using SunamoCollectionsValuesTableGrid._sunamo;
 using System.Data;
 
+namespace SunamoCollectionsValuesTableGrid;
 
 /// <summary>
 /// Similar class with two dimension array is UniqueTableInWhole
@@ -124,4 +123,4 @@ public class ValuesTableGrid<T> : List<List<T>>//, IValuesTableGrid<T>
         }
         return true;
     }
-
+}

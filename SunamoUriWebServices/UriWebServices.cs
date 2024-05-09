@@ -1,5 +1,5 @@
-namespace SunamoUriWebServices;
 
+namespace SunamoUriWebServices;
 using SunamoData.Data;
 using System.Diagnostics;
 using System.Net;

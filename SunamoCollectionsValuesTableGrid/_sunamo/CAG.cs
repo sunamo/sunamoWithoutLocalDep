@@ -1,4 +1,4 @@
-namespace SunamoCollectionsValuesTableGrid._sunamo;
+﻿namespace SunamoCollectionsValuesTableGrid._sunamo;
 internal class CAG
 {
     internal static int MinElementsItemsInnerList<T>(List<List<T>> exists)

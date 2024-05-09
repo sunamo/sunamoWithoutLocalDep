@@ -1,5 +1,5 @@
 
-namespace SunamoUriWebServices.Ads;
+namespace SunamoShared.Generators.Uri.Ads;
 /// <summary>
 /// For phones, etc. is better repas sites as mp.cz
 /// </summary>
@@ -49,4 +49,4 @@ public static class AdsMsRegion
         return FromChromeReplacement(bazarCz, what);
     }
     #endregion
-
+}

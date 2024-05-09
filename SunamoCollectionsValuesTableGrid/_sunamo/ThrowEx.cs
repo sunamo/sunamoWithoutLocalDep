@@ -1,4 +1,4 @@
-namespace SunamoCollectionsValuesTableGrid._sunamo;
+﻿namespace SunamoCollectionsValuesTableGrid._sunamo;
 internal class ThrowEx
 {
     internal static void DifferentCountInLists(string namefc, int countfc, string namesc, int countsc)

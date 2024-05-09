@@ -1,7 +1,6 @@
-
-namespace SunamoSerializer;
 using SunamoSerializer._sunamo;
 
+namespace SunamoSerializer;
 
 public partial class SF
 {
@@ -74,4 +73,4 @@ public partial class SF
 
         return (hlavicka, vr);
     }
-
+}

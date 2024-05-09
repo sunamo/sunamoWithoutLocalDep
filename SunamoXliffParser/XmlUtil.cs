@@ -1,5 +1,5 @@
-namespace SunamoXliffParser;
 
+namespace SunamoXliffParser;
 using SunamoXliffParser._sunamo;
 
 

@@ -1,4 +1,4 @@
-namespace SunamoSerializer._sunamo;
+﻿namespace SunamoSerializer._sunamo;
 internal class SHSplit
 {
     internal static List<string> Split(string p, params string[] newLine)

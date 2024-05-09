@@ -1,4 +1,4 @@
-namespace SunamoUriWebServices.Ads;
+namespace SunamoShared.Generators.Uri.Ads;
 
 public class AdsHkRegion
 {

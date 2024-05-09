@@ -1,7 +1,6 @@
+﻿using SunamoExceptions;
 
 namespace SunamoStringFormat._sunamo;
-using SunamoExceptions;
-
 internal class SHReplace
 {
     internal static string ReplaceAll2(string vstup, string zaCo, string co, bool pairLines)
@@ -29,4 +28,4 @@ internal class SHReplace
     {
         return vstup.Replace(co, zaCo);
     }
-
+}

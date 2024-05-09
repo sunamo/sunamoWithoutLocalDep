@@ -1,6 +1,4 @@
-
-namespace SunamoText._sunamo;
-using SunamoEnums.Enums;
+﻿using SunamoEnums.Enums;
 using SunamoValues;
 using System;
 using System.Collections.Generic;
@@ -9,6 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
+namespace SunamoText._sunamo;
 internal class SH
 {
     internal static bool MatchWildcard(string name, string mask)
@@ -116,4 +115,4 @@ internal class SH
 
         return (false, contains);
     }
-
+}

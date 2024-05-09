@@ -1,5 +1,5 @@
-namespace SunamoCollectionsShared;
 
+namespace SunamoCollectionsShared;
 using SunamoAttributes;
 using SunamoCollectionsShared.Args;
 using SunamoExceptions.InSunamoIsDerivedFrom;
