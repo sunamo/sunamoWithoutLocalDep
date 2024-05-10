@@ -6,6 +6,10 @@
     <Version>24.2.7.1</Version>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\SunamoData\Data\AzureBuildUriArgs.cs" Link="_linked\SunamoData\Data\AzureBuildUriArgs.cs" />
+    <Compile Include="..\SunamoValues\Values\RepairMobileValues.cs" Link="_linked\SunamoValues\Values\RepairMobileValues.cs" />
+    <Compile Include="..\SunamoValues\AllStrings.cs" Link="_linked\SunamoValues\AllStrings.cs" />
+    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoUriWebServices</DefineConstants>

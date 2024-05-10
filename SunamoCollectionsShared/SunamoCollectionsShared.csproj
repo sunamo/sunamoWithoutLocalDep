@@ -6,6 +6,9 @@
     <Version>24.2.6.2</Version>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\SunamoAttributes\ObjectParamsObsoleteAttribute.cs" Link="_linked\SunamoAttributes\ObjectParamsObsoleteAttribute.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\SunamoExceptions\OnlyInSE\Types.cs" />
+    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Args\" />

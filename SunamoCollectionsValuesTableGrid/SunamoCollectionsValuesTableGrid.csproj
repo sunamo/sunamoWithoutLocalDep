@@ -11,4 +11,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoCollectionsValuesTableGrid</DefineConstants>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\SunamoInterfaces\Interfaces\IValuesTableGrid.cs" Link="_linked\SunamoInterfaces\Interfaces\IValuesTableGrid.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
+  </ItemGroup>
 </Project>

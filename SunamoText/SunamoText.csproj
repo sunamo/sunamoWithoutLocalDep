@@ -6,6 +6,8 @@
     <Version>24.2.7.2</Version>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\SunamoData\Data\TextFormatData.cs" Link="_linked\SunamoData\Data\TextFormatData.cs" />
+    <Compile Include="..\SunamoValues\AllStrings.cs" Link="_linked\SunamoValues\AllStrings.cs" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoText</DefineConstants>
