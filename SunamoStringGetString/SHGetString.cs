@@ -40,7 +40,7 @@ public class SHGetString
             List<string> enumerable = value; //CASH.ToListStringIEnumerable2((IList)value);
             // I dont know why is needed SHReplace.Replace delimiterS(,) for space
             // This setting remove , before RoutedEventArgs etc.
-            //CA.SHReplace.Replace(enumerable, delimiterS, AllStringsSE.space);
+            //CA.SHReplace.Replace(enumerable, delimiterS, AllStrings.space);
             text = string.Join(delimiter, enumerable);
         }
         //else if (valueType == Types.tDateTime)
