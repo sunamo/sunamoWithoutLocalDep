@@ -15,6 +15,7 @@
     <Compile Include="..\SunamoDelegates\TaskVoid.cs" Link="_linked\TaskVoid.cs" />
     <Compile Include="..\SunamoDelegates\VoidVoid.cs" Link="_linked\VoidVoid.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\Types.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\TypesDelegates.cs" Link="_linked\SunamoExceptions\OnlyInSE\TypesDelegates.cs" />
     <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Exceptions.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exceptions.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\TranslateAble.cs" Link="_linked\SunamoExceptions\OnlyInSE\TranslateAble.cs" />
@@ -24,6 +25,7 @@
     <Compile Include="..\SunamoValues\AllChars.cs" Link="_linked\SunamoValues\AllChars.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Exc.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exc.cs" />
+    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="_linked\NewFolder\" />

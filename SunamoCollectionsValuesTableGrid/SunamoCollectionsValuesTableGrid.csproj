@@ -12,6 +12,8 @@
     <DefineConstants>$(DefineConstants);SunamoCollectionsValuesTableGrid</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\SunamoArgs\RemoveStartingWithArgs.cs" Link="_linked\SunamoArgs\RemoveStartingWithArgs.cs" />
+    <Compile Include="..\SunamoExceptions\InSunamoIsDerivedFrom\CASE.cs" Link="_linked\SunamoExceptions\CASE.cs" />
     <Compile Include="..\SunamoInterfaces\Interfaces\IValuesTableGrid.cs" Link="_linked\SunamoInterfaces\Interfaces\IValuesTableGrid.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
     <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
@@ -23,5 +25,9 @@
     <Compile Include="..\SunamoValues\AllChars.cs" Link="_linked\SunamoValues\AllChars.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Exc.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exc.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\SunamoExceptions\OnlyInSE\Types.cs" />
+    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_linked\SunamoArgs\" />
   </ItemGroup>
 </Project>

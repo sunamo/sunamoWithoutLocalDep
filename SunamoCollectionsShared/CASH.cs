@@ -1,9 +1,8 @@
 
 namespace SunamoCollectionsShared;
-using SunamoAttributes;
+
 using SunamoCollectionsShared.Args;
-using SunamoExceptions.InSunamoIsDerivedFrom;
-using SunamoValues;
+
 using System.Collections;
 using System.Text.RegularExpressions;
 
@@ -167,7 +166,7 @@ public class CASH : CASE
         if (createNewArray)
         {
             outArr = new List<string>(ss.Count);
-            CASE.InitFillWith(outArr, ss.Count);
+            CASunamoExceptions.InitFillWith(outArr, ss.Count);
         }
 
         for (int i = 0; i < ss.Count; i++)

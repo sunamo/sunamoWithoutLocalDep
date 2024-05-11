@@ -13,7 +13,7 @@ public class CAGSH
     public static List<T> GetDuplicities<T>(List<T> clipboardL, out List<T> alreadyProcessed)
     {
         alreadyProcessed = new List<T>(clipboardL.Count);
-        CollectionWithoutDuplicates<T> duplicated = new CollectionWithoutDuplicates<T>();
+        List<T> duplicated = new List<T>();
         foreach (var item in clipboardL)
         {
             if (alreadyProcessed.Contains(item))
@@ -25,7 +25,8 @@ public class CAGSH
                 alreadyProcessed.Add(item);
             }
         }
-        return duplicated.c;
+        duplicated = duplicated.Distinct().ToList();
+        return duplicated;
     }
 
     /// <summary>

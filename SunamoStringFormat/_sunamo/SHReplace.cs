@@ -7,8 +7,8 @@ internal class SHReplace
     {
         if (pairLines)
         {
-            var from2 = SHSE.Split(co, Environment.NewLine);
-            var to2 = SHSE.Split(zaCo, Environment.NewLine);
+            var from2 = SHSunamoExceptions.Split(co, Environment.NewLine);
+            var to2 = SHSunamoExceptions.Split(zaCo, Environment.NewLine);
             ThrowEx.DifferentCountInLists("from2", from2, "to2", to2);
 
             for (int i = 0; i < from2.Count; i++)
