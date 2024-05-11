@@ -1,6 +1,0 @@
-E:\vs\Projects\sunamoWithoutLocalDep\SunamoHttp\obj\Release\net8.0-windows\SunamoHttp.csproj.AssemblyReference.cache
-E:\vs\Projects\sunamoWithoutLocalDep\SunamoHttp\obj\Release\net8.0-windows\SunamoHttp.GeneratedMSBuildEditorConfig.editorconfig
-E:\vs\Projects\sunamoWithoutLocalDep\SunamoHttp\obj\Release\net8.0-windows\SunamoHttp.AssemblyInfoInputs.cache
-E:\vs\Projects\sunamoWithoutLocalDep\SunamoHttp\obj\Release\net8.0-windows\SunamoHttp.AssemblyInfo.cs
-E:\vs\Projects\sunamoWithoutLocalDep\SunamoHttp\obj\Release\net8.0-windows\SunamoHttp.csproj.CoreCompileInputs.cache
-E:\vs\Projects\sunamoWithoutLocalDep\SunamoHttp\obj\Release\net8.0-windows\SunamoHttp.sourcelink.json

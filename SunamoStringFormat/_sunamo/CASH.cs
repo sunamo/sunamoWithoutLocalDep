@@ -1,4 +1,4 @@
-using SunamoExceptions.InSunamoIsDerivedFrom;
+
 using System.Collections;
 
 namespace SunamoStringFormat._sunamo;

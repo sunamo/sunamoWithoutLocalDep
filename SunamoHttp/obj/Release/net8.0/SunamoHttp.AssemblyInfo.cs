@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoHttp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ab5489fd0e1ba63fff206bddc13942cafb7cd28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f167cd362ba7cedff56af70bf3805c5b95f5c88c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoHttp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoHttp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

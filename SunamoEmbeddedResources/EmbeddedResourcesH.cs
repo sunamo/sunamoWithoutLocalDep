@@ -1,5 +1,5 @@
-﻿using SunamoEmbeddedResources._sunamo;
-using SunamoValues;
+using SunamoEmbeddedResources._sunamo;
+
 using System.Reflection;
 using System.Text;
 
