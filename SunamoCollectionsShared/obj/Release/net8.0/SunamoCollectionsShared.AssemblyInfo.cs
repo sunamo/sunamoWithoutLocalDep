@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoCollectionsShared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("24.2.6.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+6ab5489fd0e1ba63fff206bddc13942cafb7cd28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+fbbffbec06f5d7d6bec9d2858dbc42a1d6b3060d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoCollectionsShared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoCollectionsShared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("24.2.6.2")]
