@@ -1,4 +1,4 @@
-namespace SunamoUriWebServices._sunamo;
+namespace SunamoUriWebServices;
 
 internal class SHReplace
 {

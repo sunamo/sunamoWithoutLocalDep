@@ -1,7 +1,7 @@
 
 using System.Collections;
 
-namespace SunamoStringFormat._sunamo;
+namespace SunamoStringFormat;
 
 internal class CASH
 {

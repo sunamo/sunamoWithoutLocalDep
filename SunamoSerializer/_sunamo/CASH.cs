@@ -1,4 +1,4 @@
-namespace SunamoSerializer._sunamo;
+namespace SunamoSerializer;
 
 internal class CASH
 {

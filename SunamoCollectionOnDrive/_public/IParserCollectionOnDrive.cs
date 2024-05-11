@@ -1,4 +1,4 @@
-﻿namespace SunamoCollectionOnDrive._public;
+namespace SunamoCollectionOnDrive;
 
 public interface IParserCollectionOnDrive
 {

@@ -1,5 +1,5 @@
 
-namespace SunamoHttp.Code;
+namespace SunamoHttp;
 /// Here it cant be, is already in SunamoHttp.standard and even if I not directly reference SunamoHttp.standard, VS see it
 public class HttpRequestDataHttp
 {

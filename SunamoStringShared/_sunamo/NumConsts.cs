@@ -1,5 +1,5 @@
 
-namespace SunamoStringShared._sunamo;
+namespace SunamoStringShared;
 //namespace SunamoStringShared._sunamo;
 
 //internal class NumConsts

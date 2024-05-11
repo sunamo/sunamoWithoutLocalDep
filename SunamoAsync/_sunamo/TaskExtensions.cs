@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace SunamoAsync._sunamo;
+namespace SunamoAsync;
 
 public static class TaskExtensions
 {

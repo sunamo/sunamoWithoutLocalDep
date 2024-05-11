@@ -1,4 +1,4 @@
-﻿namespace SunamoEmbeddedResources._sunamo;
+namespace SunamoEmbeddedResources;
 
 internal class FS
 {

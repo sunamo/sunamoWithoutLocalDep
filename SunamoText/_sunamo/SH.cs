@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace SunamoText._sunamo;
+namespace SunamoText;
 internal class SH
 {
     internal static bool MatchWildcard(string name, string mask)

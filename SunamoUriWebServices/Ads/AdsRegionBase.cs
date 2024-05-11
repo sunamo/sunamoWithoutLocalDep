@@ -1,7 +1,7 @@
 
 using SunamoUriWebServices;
 
-namespace SunamoUriWebServices.Ads;
+namespace SunamoUriWebServices;
 public class AdsRegionBase
 {
     /// <summary>

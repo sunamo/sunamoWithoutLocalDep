@@ -1,5 +1,5 @@
 
-namespace SunamoHttp.Code;
+namespace SunamoHttp;
 //using sunamo.Data;
 //using System;
 //using System.Collections.Generic;

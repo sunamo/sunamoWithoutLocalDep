@@ -2,7 +2,7 @@ using SunamoAsync;
 using SunamoAsync._sunamo;
 using System.Runtime.CompilerServices;
 
-namespace SunamoShared.Helpers.Runtime;
+namespace SunamoAsync;
 public class AsyncHelper : AsyncHelperSEShared
 {
     public static AsyncHelper ci = new AsyncHelper();

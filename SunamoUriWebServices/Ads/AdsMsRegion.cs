@@ -1,5 +1,5 @@
 
-namespace SunamoUriWebServices.Ads;
+namespace SunamoUriWebServices;
 /// <summary>
 /// For phones, etc. is better repas sites as mp.cz
 /// </summary>

@@ -1,5 +1,5 @@
 
-namespace SunamoHttp.Code;
+namespace SunamoHttp;
 using SunamoDelegates;
 using SunamoEnums.Enums;
 using SunamoHttp._sunamo;

@@ -1,4 +1,4 @@
-namespace SunamoCollectionOnDrive.Args;
+namespace SunamoCollectionOnDrive;
 
 public class PpkOnDriveArgs
 {

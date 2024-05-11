@@ -1,4 +1,4 @@
-namespace SunamoUriWebServices.Ads;
+namespace SunamoUriWebServices;
 
 
 public class AdsByPsc

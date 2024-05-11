@@ -1,6 +1,6 @@
 
 
-namespace SunamoStringFormat._sunamo;
+namespace SunamoStringFormat;
 internal class SHReplace
 {
     internal static string ReplaceAll2(string vstup, string zaCo, string co, bool pairLines)
