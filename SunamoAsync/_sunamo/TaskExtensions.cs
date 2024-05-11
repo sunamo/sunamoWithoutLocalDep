@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 namespace SunamoAsync._sunamo;
 
 public static class TaskExtensions

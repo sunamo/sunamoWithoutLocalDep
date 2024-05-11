@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoXlfKeys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("24.2.6.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+1d1070b495431de048e7e1080bed9b2cf7e27ada")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+6ab5489fd0e1ba63fff206bddc13942cafb7cd28")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoXlfKeys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoXlfKeys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("24.2.6.2")]

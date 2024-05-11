@@ -9,3 +9,6 @@ global using System.Collections.Immutable;
 global using System.Diagnostics.CodeAnalysis;
 global using System.ComponentModel.Design;
 global using System.Resources.NetStandard;
+global using System.Collections.Generic;
+global using System.Collections;
+

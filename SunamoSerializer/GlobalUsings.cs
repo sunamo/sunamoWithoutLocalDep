@@ -10,3 +10,6 @@ global using System.IO;
 global using System.Threading.Tasks;
 global using SunamoData.Data;
 global using System.Data;
+global using System.Collections.Generic;
+global using System.Collections;
+
