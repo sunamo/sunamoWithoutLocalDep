@@ -14,5 +14,6 @@
   <ItemGroup>
     <Compile Include="..\SunamoInterfaces\Interfaces\IValuesTableGrid.cs" Link="_linked\SunamoInterfaces\Interfaces\IValuesTableGrid.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
+    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
   </ItemGroup>
 </Project>

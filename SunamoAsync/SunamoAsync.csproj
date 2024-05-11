@@ -14,10 +14,10 @@
   <ItemGroup>
     <Compile Include="..\SunamoDelegates\TaskVoid.cs" Link="_linked\TaskVoid.cs" />
     <Compile Include="..\SunamoDelegates\VoidVoid.cs" Link="_linked\VoidVoid.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_sunamo\Types.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\Types.cs" />
+    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="_linked\" />
-    <Folder Include="_sunamo\" />
   </ItemGroup>
 </Project>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Just fork from https://www.nuget.org/packages/fmdev.XliffParser, due to .NET 5+")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("24.2.6.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+060a5f76e529a65ed998b5ed0d9709dd56647128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+1d1070b495431de048e7e1080bed9b2cf7e27ada")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoXliffParser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoXliffParser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("24.2.6.2")]

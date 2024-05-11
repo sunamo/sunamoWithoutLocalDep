@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoAsync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("24.2.6.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+63a6496d46fb24e64a2cfb7da3ad8e82ad382254")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.6.2+1d1070b495431de048e7e1080bed9b2cf7e27ada")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoAsync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoAsync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("24.2.6.2")]

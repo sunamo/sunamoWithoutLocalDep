@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoWikipedia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+060a5f76e529a65ed998b5ed0d9709dd56647128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d1070b495431de048e7e1080bed9b2cf7e27ada")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoWikipedia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoWikipedia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,5 +14,6 @@
   <ItemGroup>
     <PackageReference Include="SunamoCollectionWithoutDuplicates" Version="24.2.6.1" />
     <Compile Include="..\SunamoEnums\Enums\FromToUse.cs" Link="_linked\SunamoEnums\Enums\FromToUse.cs" />
+    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
   </ItemGroup>
 </Project>

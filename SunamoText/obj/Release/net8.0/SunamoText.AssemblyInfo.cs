@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SunamoText")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("24.2.7.2")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.7.2+060a5f76e529a65ed998b5ed0d9709dd56647128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("24.2.7.2+1d1070b495431de048e7e1080bed9b2cf7e27ada")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoText")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoText")]
 [assembly: System.Reflection.AssemblyVersionAttribute("24.2.7.2")]

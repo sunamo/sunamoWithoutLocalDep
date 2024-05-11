@@ -11,4 +11,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC;SunamoNumbersShared</DefineConstants>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
+  </ItemGroup>
 </Project>
