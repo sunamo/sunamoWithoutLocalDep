@@ -1,7 +1,7 @@
 
 namespace SunamoXliffParser;
-using SunamoXliffParser._sunamo;
-using SunamoXliffParser.fmdev.ResX;
+
+
 
 
 public enum XlfDialect

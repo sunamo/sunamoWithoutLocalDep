@@ -1,5 +1,5 @@
 
-using SunamoStringFormat._sunamo;
+
 
 namespace SunamoStringFormat;
 public partial class SHFormat

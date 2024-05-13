@@ -1,6 +1,6 @@
 
 namespace SunamoXliffParser;
-using SunamoXliffParser._sunamo;
+
 
 
 public static class XmlUtil

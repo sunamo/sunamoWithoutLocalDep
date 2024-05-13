@@ -1,7 +1,7 @@
 
 namespace SunamoUriWebServices;
-using SunamoData.Data;
-using SunamoUriWebServices._sunamo;
+
+
 
 public partial class UriWebServices
 {
