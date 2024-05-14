@@ -17,6 +17,8 @@
     <Compile Include="..\SunamoExceptions\OnlyInSE\Exc.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exc.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\SunamoExceptions\OnlyInSE\Types.cs" />
     <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
+    <Compile Include="..\SunamoHtml\Html\HtmlTableParser.cs" Link="_linked\SunamoHtml\Html\HtmlTableParser.cs" />
+    <Compile Include="..\SunamoHtml\HtmlAgilityHelper.cs" Link="_linked\SunamoHtml\HtmlAgilityHelper.cs" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoWikipedia</DefineConstants>

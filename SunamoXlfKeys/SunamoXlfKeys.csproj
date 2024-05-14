@@ -29,5 +29,16 @@
     <Compile Include="..\SunamoExceptions\OnlyInSE\Exc.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exc.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\SunamoExceptions\OnlyInSE\Types.cs" />
     <Compile Include="XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
+    <Compile Include="..\SunamoParsing\Parse.cs" Link="_linked\SunamoParsing\Parse.cs" />
+    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\Templating\Graph\Template.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\Templating\Graph\Template.cs" />
+    <Compile Include="..\SunamoFubuCore\Util\TextWriting\Line.cs" Link="_linked\SunamoFubuCore\Util\TextWriting\Line.cs" />
+    <Compile Include="..\SunamoFubuCore\Descriptions\Description.cs" Link="_linked\SunamoFubuCore\Descriptions\Description.cs" />
+    <Compile Include="..\SunamoCollectionsGeneric\Collections\Joiner.cs" Link="_linked\SunamoCollectionsGeneric\Collections\Joiner.cs" />
+    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\Templating\TextFile.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\Templating\TextFile.cs" />
+    <Compile Include="..\SunamoShared\RL\RL.cs" Link="_linked\SunamoShared\RL\RL.cs" />
+    <Compile Include="..\SunamoShared\Crypting\Hash.cs" Link="_linked\SunamoShared\Crypting\Hash.cs" />
+    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\Content.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\Content.cs" />
+    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\None.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\None.cs" />
+    <Compile Include="..\SunamoShared\Crypting\Password.cs" Link="_linked\SunamoShared\Crypting\Password.cs" />
   </ItemGroup>
 </Project>
