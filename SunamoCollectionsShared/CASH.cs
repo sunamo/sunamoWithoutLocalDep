@@ -199,7 +199,7 @@ public class CASH : CASE
     /// <typeparam name="T"></typeparam>
     /// <param name="innerMain"></param>
     /// <returns></returns>
-    [ObjectParamsObsolete]
+    [ObjectParamsObsoleteAttribute]
     public static Object[] ConvertListStringWrappedInArray(Object[] innerMain)
     {
         if (CASE.IsListStringWrappedInArray(innerMain))
