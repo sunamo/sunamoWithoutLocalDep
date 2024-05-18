@@ -2,6 +2,8 @@
 namespace
 #if SunamoClipboard
 SunamoClipboard
+#elif SunamoCollections
+SunamoCollections
 #else
 SunamoCollectionsShared
 #endif
