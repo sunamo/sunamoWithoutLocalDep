@@ -12,7 +12,6 @@
     <DefineConstants>$(DefineConstants);ASYNC;SunamoCollectionsGenericShared</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SunamoCollectionWithoutDuplicates" Version="24.2.6.1" />
     <Compile Include="..\SunamoData\Data\FromTo.cs" Link="_linked\SunamoData\FromTo.cs" />
     <Compile Include="..\SunamoData\Data\FromToTSH.cs" Link="_linked\SunamoData\FromToTSH.cs" />
     <Compile Include="..\SunamoEnums\Enums\FromToUse.cs" Link="_linked\SunamoEnums\Enums\FromToUse.cs" />

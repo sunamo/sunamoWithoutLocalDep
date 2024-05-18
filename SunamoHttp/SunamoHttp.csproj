@@ -30,7 +30,6 @@
     <Compile Include="..\SunamoFileExtensions\AllExtensions.cs" Link="_linked\SunamoFileExtensions\AllExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SunamoShared" Version="*" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC;SunamoHttp</DefineConstants>
