@@ -1,5 +1,11 @@
 
-namespace SunamoCollectionsShared;
+namespace
+#if SunamoClipboard
+SunamoClipboard
+#else
+SunamoCollectionsShared
+#endif
+;
 
 
 
