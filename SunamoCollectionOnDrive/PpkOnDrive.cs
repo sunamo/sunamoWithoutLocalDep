@@ -1,6 +1,12 @@
 
 
-namespace SunamoCollectionOnDrive;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoCollectionOnDrive
+#endif
+;
 
 
 /// <summary>

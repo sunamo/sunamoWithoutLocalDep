@@ -26,8 +26,6 @@
     <Compile Include="..\SunamoExceptions\OnlyInSE\Exc.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exc.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\SunamoExceptions\OnlyInSE\Types.cs" />
     <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
-    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\None.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\None.cs" />
-    <Compile Include="..\SunamoCollections\CAContainsElementsOrTheirPartsShared.cs" Link="_linked\SunamoCollections\CAContainsElementsOrTheirPartsShared.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="_linked\SunamoData\" />

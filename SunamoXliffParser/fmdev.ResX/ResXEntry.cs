@@ -1,4 +1,10 @@
-namespace SunamoXliffParser;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoXliffParser
+#endif
+;
 // <copyright file="ResXEntry.cs" company="Florian Mücke">
 // Copyright (c) Florian Mücke. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.

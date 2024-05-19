@@ -1,7 +1,13 @@
 
 using System.Text;
 
-namespace SunamoCollectionOnDrive;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoCollectionOnDrive
+#endif
+;
 
 
 public abstract class PpkOnDriveBase<T> : List<T>

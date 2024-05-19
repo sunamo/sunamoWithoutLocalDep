@@ -1,5 +1,11 @@
 
-namespace SunamoXliffParser;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoXliffParser
+#endif
+;
 
 
 

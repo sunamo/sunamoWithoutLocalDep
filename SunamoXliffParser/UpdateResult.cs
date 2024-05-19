@@ -1,6 +1,12 @@
-namespace SunamoXliffParser;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoXliffParser
+#endif
+;
 
-    public class UpdateResult
+public class UpdateResult
     {
         public UpdateResult(IEnumerable<string> addedItems, IEnumerable<string> removedItems,
             IEnumerable<string> updatedItems)

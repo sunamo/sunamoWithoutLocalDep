@@ -1,4 +1,10 @@
-namespace SunamoCollectionOnDrive;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoCollectionOnDrive
+#endif
+;
 
 public class PpkOnDriveArgs
 {

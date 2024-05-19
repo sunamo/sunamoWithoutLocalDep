@@ -1,4 +1,10 @@
-namespace SunamoCollectionsNonGeneric;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoCollectionsNonGeneric
+#endif
+;
 
 /// <summary>
 /// In values contains without extension

@@ -1,4 +1,10 @@
-namespace SunamoStringShared;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoStringShared
+#endif
+;
 
 
 
