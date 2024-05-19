@@ -12,33 +12,5 @@
     <DefineConstants>$(DefineConstants);SunamoXlfKeys</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\SunamoEnums\Enums\SearchIn.cs" Link="_linked\SunamoEnums\Enums\SearchIn.cs" />
-    <Compile Include="..\SunamoEnums\Enums\Display.cs" Link="_linked\SunamoEnums\Enums\Display.cs" />
-    <Compile Include="..\SunamoEnums\Enums\Platforms.cs" Link="_linked\SunamoEnums\Enums\Platforms.cs" />
-    <Compile Include="..\SunamoEnums\Enums\Langs.cs" Link="_linked\SunamoEnums\Enums\Langs.cs" />
-    <Compile Include="..\SunamoData\Data\Date.cs" Link="_linked\SunamoData\Data\Date.cs" />
-    <Compile Include="..\SunamoData\Data\Speed.cs" Link="_linked\SunamoData\Data\Speed.cs" />
-    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\Exceptions.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exceptions.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\TranslateAble.cs" Link="_linked\SunamoExceptions\OnlyInSE\TranslateAble.cs" />
-    <Compile Include="..\SunamoExceptions\_AddedToAllCsproj\SHSunamoExceptions.cs" Link="_linked\SunamoExceptions\_AddedToAllCsproj\SHSunamoExceptions.cs" />
-    <Compile Include="..\SunamoExceptions\_AddedToAllCsproj\CASunamoExceptions.cs" Link="_linked\SunamoExceptions\_AddedToAllCsproj\CASunamoExceptions.cs" />
-    <Compile Include="..\SunamoValues\AllStrings.cs" Link="_linked\SunamoValues\AllStrings.cs" />
-    <Compile Include="..\SunamoValues\AllChars.cs" Link="_linked\SunamoValues\AllChars.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\Exc.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exc.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\SunamoExceptions\OnlyInSE\Types.cs" />
-    <Compile Include="XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
-    <Compile Include="..\SunamoParsing\Parse.cs" Link="_linked\SunamoParsing\Parse.cs" />
-    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\Templating\Graph\Template.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\Templating\Graph\Template.cs" />
-    <Compile Include="..\SunamoFubuCore\Util\TextWriting\Line.cs" Link="_linked\SunamoFubuCore\Util\TextWriting\Line.cs" />
-    <Compile Include="..\SunamoFubuCore\Descriptions\Description.cs" Link="_linked\SunamoFubuCore\Descriptions\Description.cs" />
-    <Compile Include="..\SunamoCollectionsGeneric\Collections\Joiner.cs" Link="_linked\SunamoCollectionsGeneric\Collections\Joiner.cs" />
-    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\Templating\TextFile.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\Templating\TextFile.cs" />
-    <Compile Include="..\SunamoShared\RL\RL.cs" Link="_linked\SunamoShared\RL\RL.cs" />
-    <Compile Include="..\SunamoShared\Crypting\Hash.cs" Link="_linked\SunamoShared\Crypting\Hash.cs" />
-    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\Content.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\Content.cs" />
-    <Compile Include="..\SunamoFubuCsProjFile\_NotMine\None.cs" Link="_linked\SunamoFubuCsProjFile\_NotMine\None.cs" />
-    <Compile Include="..\SunamoShared\Crypting\Password.cs" Link="_linked\SunamoShared\Crypting\Password.cs" />
   </ItemGroup>
 </Project>
