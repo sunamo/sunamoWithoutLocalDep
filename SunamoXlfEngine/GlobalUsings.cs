@@ -24,3 +24,4 @@ global using SunamoDevCode.Helpers;
 global using SunamoXlf;
 global using SunamoClipboard;
 global using XliffParser;
+global using System.Collections;

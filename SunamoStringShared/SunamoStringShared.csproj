@@ -21,5 +21,11 @@
     <Compile Include="..\SunamoValues\AllChars.cs" Link="_linked\SunamoValues\AllChars.cs" />
     <Compile Include="..\SunamoValues\AllStrings.cs" Link="_linked\SunamoValues\AllStrings.cs" />
     <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
+    <Compile Include="..\SunamoEnums\Enums\SearchStrategy.cs" Link="_linked\SunamoEnums\Enums\SearchStrategy.cs" />
+    <Compile Include="..\SunamoEnums\Enums\ContainsCompareMethod.cs" Link="_linked\SunamoEnums\Enums\ContainsCompareMethod.cs" />
+    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
+    <Compile Include="..\SunamoValues\Constants\NumConsts.cs" Link="_linked\SunamoValues\Constants\NumConsts.cs" />
+    <Compile Include="..\SunamoStringData\SHData.cs" Link="_linked\SunamoStringData\SHData.cs" />
   </ItemGroup>
 </Project>

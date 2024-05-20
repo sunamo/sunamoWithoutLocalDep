@@ -1,3 +1,5 @@
+using SunamoGetFiles;
+
 namespace
 #if SunamoFileSystem
 SunamoFileSystem
@@ -151,7 +153,7 @@ public partial class FSGetFiles
             e.InsertPbTime(60);
             e.UpdateTbPb(m);
         }
-        dirs = GetFoldersEveryFolder(folder, "*", new GetFoldersEveryFolderArgs(e)).ToList();
+        dirs = FSGetFolders.GetFoldersEveryFolder(folder, "*", new GetFoldersEveryFolderArgs(e)).ToList();
 #if DEBUG
         //int before = dirs.Count;
 #endif
@@ -486,7 +488,7 @@ Dictionary<string, string>
             foreach (var item2 in masks)
             {
                 //if(SH.ContainsOnlyCase())
-                var item = AllIncludeIfOnlyLetters(item2);
+                var item = FS.AllIncludeIfOnlyLetters(item2);
                 try
                 {
                     result.AddRange(GetFiles(path, item, searchOption));
@@ -504,7 +506,7 @@ Dictionary<string, string>
         {
             foreach (var item2 in masks)
             {
-                var item = AllIncludeIfOnlyLetters(item2);
+                var item = FS.AllIncludeIfOnlyLetters(item2);
                 result.AddRange(GetFiles(path, item, searchOption));
             }
         }
@@ -524,7 +526,7 @@ Dictionary<string, string>
 #endif
         return result;
     }
-    public static void FilterByGetFilesArgs(List<string> list, List<string> folders, GetFilesArgs a)
+    public static void FilterByGetFilesArgs(List<string> list, IEnumerable<string> folders, GetFilesArgs a)
     {
         if (a == null)
         {
@@ -599,7 +601,7 @@ Dictionary<string, string>
             FileInfo fi = new FileInfo(item);
             size += fi.Length;
         }
-        return GetSizeInAutoString(size);
+        return FS.GetSizeInAutoString(size);
     }
     public static List<string> AllFilesInFolders(IList<string> folders, IList<string> exts, SearchOption so, GetFilesArgs a = null)
     {

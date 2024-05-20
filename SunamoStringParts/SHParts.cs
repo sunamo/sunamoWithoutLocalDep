@@ -1,5 +1,10 @@
-namespace SunamoStringParts;
-
+namespace
+#if SunamoString
+SunamoString
+#else
+SunamoStringParts
+#endif
+;
 public class SHParts
 {
     /// <summary>
@@ -19,12 +24,10 @@ public class SHParts
         }
         return nameSolution;
     }
-
     public static string RemoveAfterFirstChar(string name, char dot)
     {
         return RemoveAfterFirst(name, dot.ToString());
     }
-
     public static string RemoveAfterFirstFunc(string v, Func<char, bool> isSpecial, params char[] canBe)
     {
         v = v.Trim();
@@ -41,7 +44,6 @@ public class SHParts
         }
         return v;
     }
-
     /// <summary>
     ///     Usage: Exc.TypeAndMethodName
     ///     Remove with A2
@@ -53,7 +55,6 @@ public class SHParts
         int dex = t.IndexOf(ch);
         return dex == -1 || dex == t.Length - 1 ? t : t.Substring(0, dex);
     }
-
     /// <summary>
     /// Remove also A2
     /// Don't trim
@@ -67,24 +68,19 @@ public class SHParts
         {
             return t;
         }
-
         string vr = t.Remove(dex);
         return vr;
     }
-
     private static string TrimStart(string target, string trimString)
     {
         if (string.IsNullOrEmpty(trimString)) return target;
-
         string result = target;
         while (result.StartsWith(trimString))
         {
             result = result.Substring(trimString.Length);
         }
-
         return result;
     }
-
     public static string KeepAfterFirst(string searchQuery, string after, bool keepDeli = false)
     {
         var dx = searchQuery.IndexOf(after);
@@ -98,7 +94,6 @@ public class SHParts
         }
         return searchQuery;
     }
-
     public static string KeepAfterLast(string searchQuery, string after)
     {
         var dx = searchQuery.LastIndexOf(after);

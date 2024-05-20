@@ -1,4 +1,6 @@
-﻿namespace SunamoGetFolders;
+﻿using SunamoGetFolders;
+
+namespace SunamoGetFolders;
 
 public class FSGetFolders
 {
@@ -16,7 +18,7 @@ public class FSGetFolders
         //CA.TrimEnd(folders, new char[] { AllChars.bs });
         for (int i = folders.Count - 1; i >= 0; i--)
         {
-            if (!SunamoRegex.Wildcard.IsMatch(Path.GetFileName(folders[i]), contains))
+            if (!Wildcard.IsMatch(Path.GetFileName(folders[i]), contains))
             {
                 folders.RemoveAt(i);
             }
@@ -228,7 +230,7 @@ public class FSGetFolders
 
         foreach (var item in f)
         {
-            var files = GetFiles(item, masc, topDirectoryOnly);
+            var files = FSGetFiles.GetFiles(item, masc, topDirectoryOnly);
             if (files.Count != 0)
             {
                 result.Add(item);

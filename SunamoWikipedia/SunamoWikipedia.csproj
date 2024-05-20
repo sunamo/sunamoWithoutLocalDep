@@ -14,6 +14,22 @@
     <Compile Include="..\SunamoValues\AllChars.cs" Link="_linked\SunamoValues\AllChars.cs" />
     <Compile Include="..\SunamoValues\AllStrings.cs" Link="_linked\SunamoValues\AllStrings.cs" />
     <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
+    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
+    <Compile Include="..\SunamoValues\Values\AspxConsts.cs" Link="_linked\SunamoValues\Values\AspxConsts.cs" />
+    <Compile Include="..\SunamoData\Data\CreateHtmlDocumentInitData.cs" Link="_linked\SunamoData\Data\CreateHtmlDocumentInitData.cs" />
+    <Compile Include="..\SunamoCollectionsChangeContent\CAChangeContent.cs" Link="_linked\SunamoCollectionsChangeContent\CAChangeContent.cs" />
+    <Compile Include="..\SunamoRegex\RegexHelper.cs" Link="_linked\SunamoRegex\RegexHelper.cs" />
+    <Compile Include="..\SunamoValues\Constants\HtmlTags.cs" Link="_linked\SunamoValues\Constants\HtmlTags.cs" />
+    <Compile Include="..\SunamoEnums\Enums\HtmlTagSyntax.cs" Link="_linked\SunamoEnums\Enums\HtmlTagSyntax.cs" />
+    <Compile Include="..\SunamoArgs\ChangeContentArgs.cs" Link="_linked\SunamoArgs\ChangeContentArgs.cs" />
+    <Compile Include="..\SunamoData\Data\NTree.cs" Link="_linked\SunamoData\Data\NTree.cs" />
+    <Compile Include="..\SunamoInterfaces\Interfaces\IXmlGenerator.cs" Link="_linked\SunamoInterfaces\Interfaces\IXmlGenerator.cs" />
+    <Compile Include="..\SunamoDictionary\DictionaryHelper.cs" Link="_linked\SunamoDictionary\DictionaryHelper.cs" />
+    <Compile Include="..\SunamoExceptions\InSunamoIsDerivedFrom\TFSE.cs" Link="_linked\SunamoExceptions\InSunamoIsDerivedFrom\TFSE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoWikipedia</DefineConstants>

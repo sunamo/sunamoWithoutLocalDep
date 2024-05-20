@@ -1,19 +1,16 @@
-
 namespace
 #if SunamoClipboard
 SunamoClipboard
 #elif SunamoCollections
 SunamoCollections
+#elif SunamoString
+SunamoString
 #else
 SunamoCollectionsShared
 #endif
 ;
-
-
-
 using System.Collections;
 using System.Text.RegularExpressions;
-
 public class CASH : CASE
 {
     public static List<string> WrapWithIfFunc(Func<string, string, bool, bool> f, bool invert, string mustContains, string wrapWith, params string[] whereIsUsed2)
@@ -27,7 +24,6 @@ public class CASH : CASE
         }
         return whereIsUsed2.ToList();
     }
-
     /// <summary>
     /// Return null if A1 will be null
     /// </summary>
@@ -45,7 +41,6 @@ public class CASH : CASE
         }
         return captions[i];
     }
-
     /// <summary>
     /// ToListString2 - simply for all items call ToString()
     /// ToListString - working with type of every element
@@ -77,14 +72,10 @@ public class CASH : CASE
         //            // zde to musí být IEnumerable protože spousta věcí z .netu může takhle přijít (např. string)
         //            var enumerable = (System.Collections.IEnumerable)item;
         //            Type type = enumerable.GetType();
-
         //            bool isEnumerableChar = RHSE.IsOrIsDeriveFromBaseClass(type, typeof(IList<char>));
         //            bool isEnumerableString = RHSE.IsOrIsDeriveFromBaseClass(type, typeof(IList<string>));
-
         //            if (type == typeof(string))
         //            {
-
-
         //                result.Add(string.Join(string.Empty, enumerable));
         //            }
         //            else if (isEnumerableChar)
@@ -119,10 +110,8 @@ public class CASH : CASE
         //{
         //    result.Add(enumerable2.ToString());
         //}
-
         //return result;
     }
-
     public static bool HasIndex(int dex, Array col)
     {
         return col.Length > dex;
@@ -139,13 +128,11 @@ public class CASH : CASE
         }
         return false;
     }
-
     public static string DoubleOrMoreMultiLinesToSingle(string list)
     {
         DoubleOrMoreMultiLinesToSingle(ref list);
         return list;
     }
-
     /// <summary>
     /// Return true if A1 is null or have zero elements
     /// </summary>
@@ -162,7 +149,6 @@ public class CASH : CASE
         }
         return false;
     }
-
     /// <summary>
     /// Pro vyssi vykon uklada primo do zdrojoveho pole, pokud neni A2
     /// </summary>
@@ -170,31 +156,26 @@ public class CASH : CASE
     public static List<string> ToLower(List<string> ss, bool createNewArray = false)
     {
         List<string> outArr = ss;
-
         if (createNewArray)
         {
             outArr = new List<string>(ss.Count);
             CASunamoExceptions.InitFillWith(outArr, ss.Count);
         }
-
         for (int i = 0; i < ss.Count; i++)
         {
             outArr[i] = ss[i].ToLower();
         }
         return outArr;
     }
-
     public static void DoubleOrMoreMultiLinesToSingle(ref string list)
     {
         var n = Environment.NewLine;
         list = Regex.Replace(list, @"(\r?\n\s*){2,}", Environment.NewLine + Environment.NewLine);
         list = list.Trim();
         //list = list.Replace(n, n + n);
-
         // 27-10-23 dříve to bylo takhle
         //return list.Trim();
     }
-
     /// <summary>
     /// A1 musí být string[], kdyby byl string[] nemůžu vložit List<string>, tj. object ale ne string
     /// </summary>
@@ -208,7 +189,6 @@ public class CASH : CASE
         {
             List<object> result = null;
             var first = (IEnumerable)innerMain[0];
-
             if (first is List<object>)
             {
                 result = (List<object>)first;
@@ -216,20 +196,15 @@ public class CASH : CASE
             else
             {
                 result = new List<object>();
-
                 foreach (var item in first)
                 {
                     result.Add(item);
                 }
             }
-
-
             return result.ToArray();
         }
-
         return innerMain;
     }
-
     public static (bool, string) IsNegationTuple(string contains)
     {
         if (contains[0] == '!')
@@ -239,7 +214,6 @@ public class CASH : CASE
         }
         return (false, contains);
     }
-
     /// <summary>
     /// Remove elements starting with A1
     /// Direct edit
@@ -252,10 +226,8 @@ public class CASH : CASE
         {
             a = new RemoveStartingWithArgs();
         }
-
         var (negate, start2) = IsNegationTuple(start);
         start = start2;
-
         for (int i = mySites.Count - 1; i >= 0; i--)
         {
             var val = mySites[i];
@@ -263,7 +235,6 @@ public class CASH : CASE
             {
                 val = val.Trim();
             }
-
             if (negate)
             {
                 if (!StartingWith(val, start, a.caseSensitive))
@@ -280,7 +251,6 @@ public class CASH : CASE
             }
         }
     }
-
     /// <summary>
     /// Direct edit
     /// </summary>
@@ -298,7 +268,6 @@ public class CASH : CASE
         }
         return l;
     }
-
     public static bool StartingWith(string val, string start, bool caseSensitive)
     {
         if (caseSensitive)
@@ -310,7 +279,6 @@ public class CASH : CASE
             return val.ToLower().StartsWith(start.ToLower());
         }
     }
-
     public static List<string> RemoveStringsEmpty2(List<string> mySites)
     {
         for (int i = mySites.Count - 1; i >= 0; i--)
@@ -326,7 +294,6 @@ public class CASH : CASE
     {
         return s.Replace(from, to);
     }
-
     /// <summary>
     /// Direct edit
     /// </summary>
@@ -341,7 +308,6 @@ public class CASH : CASE
         }
         //CAChangeContent.ChangeContent2(null, files_in, Replace, what, forWhat);
     }
-
     /// <summary>
     /// ToListString2 - simply for all items call ToString()
     /// ToListString - working with type of every element    
@@ -366,7 +332,6 @@ public class CASH : CASE
                 result.Add(item.ToString());
             }
         }
-
         return result;
     }
 }

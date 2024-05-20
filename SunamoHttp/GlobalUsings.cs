@@ -1,7 +1,5 @@
-global using HtmlAgilityPack;
+
 global using Microsoft.AspNetCore.Http;
-global using sunamo.Helpers;
-global using sunamo.Html;
 global using System.Collections.Generic;
 global using System.Diagnostics;
 global using System.IO;

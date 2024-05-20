@@ -1,22 +1,20 @@
+using System.Xml.Linq;
 
 namespace
 #if SunamoDevCode
 SunamoDevCode
+#elif SunamoLang
+SunamoLang
 #else
 SunamoXliffParser
 #endif
 ;
-
-
-
-
 public enum XlfDialect
 {
     Standard = 0,
     RCWinTrans11 = 1,
     MultilingualAppToolkit = 2
 }
-
 public class XlfDocument
 {
     [Flags]
@@ -26,15 +24,12 @@ public class XlfDocument
         SortEntries = 1,
         IncludeComments = 2
     }
-
     private const string AttributeOriginal = "original";
     private const string ElementFile = "file";
     private const string AttributeVersion = "version";
     public static Type type = typeof(XlfDocument);
     private XDocument doc;
-
     public string FileName { get; }
-
     public IEnumerable<XlfFile> Files
     {
         get
@@ -43,24 +38,19 @@ public class XlfDocument
             return doc.Descendants(ns + ElementFile).Select(f => new XlfFile(f, ns));
         }
     }
-
     public string Version
     {
         get => doc.Root.Attribute(AttributeVersion).Value;
         set => doc.Root.SetAttributeValue(AttributeVersion, value);
     }
-
     public XlfDialect Dialect { get; set; }
-
     public XlfFile AddFile(string original, string dataType, string sourceLang)
     {
         XNamespace ns = doc.Root.Name.Namespace;
         XElement f = new XElement(ns + ElementFile);
         doc.Descendants(ns + ElementFile).Last().AddAfterSelf(f);
-
         return new XlfFile(f, ns, original, dataType, sourceLang);
     }
-
     public void RemoveFile(string original)
     {
         XNamespace ns = doc.Root.Name.Namespace;
@@ -70,13 +60,10 @@ public class XlfDocument
             return a != null && a.Value == original;
         }).Remove();
     }
-
-
     public void SaveAsResX(string fileName)
     {
         SaveAsResX(fileName, ResXSaveOption.None);
     }
-
     public void SaveAsResX(string fileName, ResXSaveOption options)
     {
         List<ResXEntry> entries = new List<ResXEntry>();
@@ -85,25 +72,20 @@ public class XlfDocument
             foreach (XlfTransUnit u in f.TransUnits)
             {
                 ResXEntry entry = new ResXEntry { Id = u.GetId(Dialect), Value = u.Target };
-
                 if (options.HasFlag(ResXSaveOption.IncludeComments) && u.Optional.Notes.Count() > 0)
                 {
                     entry.Comment = u.Optional.Notes.First().Value;
                 }
-
                 entries.Add(entry);
             }
         }
-
         if (options.HasFlag(ResXSaveOption.SortEntries))
         {
             entries.Sort();
         }
-
         ResXFile.Write(fileName, entries,
             options.HasFlag(ResXSaveOption.IncludeComments) ? ResXFile.Option.None : ResXFile.Option.SkipComments);
     }
-
     public UpdateResult UpdateFromSource()
     {
         switch (Version)
@@ -112,18 +94,15 @@ public class XlfDocument
             case "1.1":
             case "1.2":
                 return UpdateFromSource("new", "new");
-
             case "2.0":
                 return UpdateFromSource("initial", "initial");
         }
     }
-
     public UpdateResult UpdateFromSource(string updatedResourceStateString, string addedResourceStateString)
     {
         string sourceFile = Path.Combine(Path.GetDirectoryName(FileName), Files.Single().Original);
         return Update(sourceFile, updatedResourceStateString, addedResourceStateString);
     }
-
     /// <summary>
     ///     Updates the xlf data from the provided resx source file.
     /// </summary>
@@ -135,12 +114,10 @@ public class XlfDocument
         string addedResourceStateString)
     {
         Dictionary<string, ResXEntry> resxData = new Dictionary<string, ResXEntry>(); // id, value, comment
-
         foreach (ResXEntry entry in ResXFile.Read(sourceFile))
         {
             resxData.Add(entry.Id, entry);
         }
-
         List<string> updatedItems = new List<string>();
         List<string> addedItems = new List<string>();
         List<string> removedItems = new List<string>();
@@ -157,7 +134,6 @@ public class XlfDocument
                         u.Source = resxData[key].Value;
                         u.Optional.TargetState = updatedResourceStateString;
                         u.Optional.SetCommentFromResx(resxData[key].Comment);
-
                         updatedItems.Add(key);
                     }
                 }
@@ -165,38 +141,30 @@ public class XlfDocument
                 {
                     removedItems.Add(key);
                 }
-
                 resxData.Remove(key);
             }
-
             foreach (string id in removedItems)
             {
                 f.RemoveTransUnit(id, Dialect);
             }
-
             foreach (KeyValuePair<string, ResXEntry> d in resxData)
             {
                 XlfTransUnit unit = f.AddTransUnit(d.Key, d.Value.Value, d.Value.Value, XlfFile.AddMode.FailIfExists,
                     Dialect);
                 unit.Optional.TargetState = addedResourceStateString;
                 unit.Optional.SetCommentFromResx(d.Value.Comment);
-
                 addedItems.Add(d.Key);
             }
         }
-
         return new UpdateResult(addedItems, removedItems, updatedItems);
     }
-
     private XlfDialect DetermineDialect()
     {
         return Files.First().Optional.ToolId == "MultilingualAppToolkit"
             ? XlfDialect.MultilingualAppToolkit
             : doc.Root.GetNamespaceOfPrefix("rwt") == "http://www.schaudin.com/xmlns/rwt11" ? XlfDialect.RCWinTrans11 : XlfDialect.Standard;
     }
-
     #region Changed to load also from Embedded Resources
-
     /// <summary>
     ///     A1 can be null but then is need to call LoadXml
     /// </summary>
@@ -210,27 +178,22 @@ public class XlfDocument
             Dialect = DetermineDialect();
         }
     }
-
     public XlfDocument()
     {
     }
-
     public void LoadXml(string xml)
     {
         byte[] b = Encoding.UTF8.GetBytes(xml);
         LoadXml(b);
     }
-
     public void LoadXml(byte[] xml)
     {
         using (MemoryStream xmlStream = new MemoryStream(xml))
         {
             doc = XDocument.Load(xmlStream);
         }
-
         Dialect = DetermineDialect();
     }
-
     public void Save()
     {
         if (FileName != null)
@@ -242,6 +205,5 @@ public class XlfDocument
             ThrowEx.IsNull("FileName");
         }
     }
-
     #endregion
 }

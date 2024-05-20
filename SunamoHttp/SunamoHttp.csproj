@@ -14,6 +14,13 @@
     <Compile Include="..\SunamoValues\AllChars.cs" Link="_linked\SunamoValues\AllChars.cs" />
     <Compile Include="..\SunamoValues\AllStrings.cs" Link="_linked\SunamoValues\AllStrings.cs" />
     <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
+    <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
+    <Compile Include="..\SunamoDelegates\BoolString.cs" Link="_linked\SunamoDelegates\BoolString.cs" />
+    <Compile Include="..\SunamoEnums\Enums\FileMoveCollisionOption.cs" Link="_linked\SunamoEnums\Enums\FileMoveCollisionOption.cs" />
+    <Compile Include="..\SunamoFileExtensions\AllExtensions.cs" Link="_linked\SunamoFileExtensions\AllExtensions.cs" />
+    <Compile Include="..\SunamoEnums\Enums\AppFolders.cs" Link="_linked\SunamoEnums\Enums\AppFolders.cs" />
+    <Compile Include="..\SunamoFileExtensions\Attributes\TypeOfExtensionAttribute.cs" Link="_linked\SunamoFileExtensions\Attributes\TypeOfExtensionAttribute.cs" />
+    <Compile Include="..\SunamoFileExtensions\Enums\TypeOfExtension.cs" Link="_linked\SunamoFileExtensions\Enums\TypeOfExtension.cs" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

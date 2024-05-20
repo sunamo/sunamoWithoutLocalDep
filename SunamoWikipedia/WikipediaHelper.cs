@@ -1,6 +1,8 @@
 
 
 
+using SunamoWikipedia._sunamo;
+
 namespace SunamoWikipedia;
 
 
@@ -41,7 +43,7 @@ public class WikipediaHelper
 
         foreach (var item in subNodes)
         {
-            var theads = HtmlAgilityHelper.Nodes(item, true, "th");
+            List<HtmlNode> theads = HtmlAgilityHelper.Nodes(item, true, "th");
 
             var headers = new List<string>(theads.Count);
             foreach (var th in theads)
@@ -82,9 +84,9 @@ public class WikipediaHelper
 
         hd.LoadHtml(html);
 
-        var mwParserOutputNode = HtmlAgilityHelper.NodeWithAttr(hd.DocumentNode, true, "*", "class", "mw-parser-output");
+        HtmlNode mwParserOutputNode = HtmlAgilityHelper.NodeWithAttr(hd.DocumentNode, true, "*", "class", "mw-parser-output");
 
-        var subNodes = HtmlAgilityHelper.NodesWithAttr(mwParserOutputNode, false, "*", "class", "div-col columns column-width");
+        List<HtmlNode> subNodes = HtmlAgilityHelper.NodesWithAtstr(mwParserOutputNode, false, "*", "class", "div-col columns column-width");
 
         List<string> result = new List<string>();
 

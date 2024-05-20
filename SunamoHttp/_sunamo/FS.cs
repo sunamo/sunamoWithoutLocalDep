@@ -72,4 +72,24 @@ nad
     {
         throw new NotImplementedException();
     }
+
+    internal static void GetPathAndFileNameWithoutExtension(string path, out string p, out string fn, out string ext)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static string GetTempFilePath()
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static void MoveFile(string tempPath, string to, FileMoveCollisionOption co)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static string ReplaceInvalidFileNameChars(object v)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -43,7 +43,7 @@ public partial class SF
         List<List<string>> vr = new List<List<string>>();
         // Sync protože mám v deklaraci out
         List<string> lines = File.ReadAllLines(file).ToList();
-        lines = CASE.Trim(lines);
+        CASE.Trim(lines);
         if (lines.Count > 0)
         {
             hlavicka = GetAllElementsLine(lines[0], oddelovaciZnak);

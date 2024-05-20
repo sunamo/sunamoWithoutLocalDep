@@ -1,5 +1,12 @@
-namespace SunamoFileSystem;
-
+namespace
+#if SunamoGetFiles
+SunamoGetFiles
+#elif SunamoGetFolders
+    SunamoGetFolders
+#else
+SunamoFileSystem
+#endif
+;
 public class GetFoldersEveryFolderArgs : GetFilesArgs
 {
     /// <summary>
@@ -10,17 +17,13 @@ public class GetFoldersEveryFolderArgs : GetFilesArgs
     // nevím k čemu to je ale zdá se nesmysl, ověřovat můžu přes excludeFromLocationsCOntains != null
     //public bool excludeFromLocationsCOntainsBool = false;
     public bool writeToDebugEveryLoadedFolder = false;
-
-
     public GetFoldersEveryFolderArgs(GetFilesEveryFolderArgs e)
     {
         _trimA1AndLeadingBs = e._trimA1AndLeadingBs;
         followJunctions = e.followJunctions;
         dIsJunctionPoint = e.dIsJunctionPoint;
     }
-
     public GetFoldersEveryFolderArgs()
     {
-
     }
 }

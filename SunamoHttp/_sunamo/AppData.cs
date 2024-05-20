@@ -1,13 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoHttp;
-internal class SHParts
+internal class AppData
 {
-    internal static string RemoveAfterFirst(string ext, char q)
+    public static AppData ci = new AppData();
+
+    internal string GetFolder(AppFolders cache)
     {
         throw new NotImplementedException();
     }

@@ -31,6 +31,5 @@
     <Folder Include="_linked\SunamoData\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SunamoCollectionsIndexesWithNull\SunamoCollectionsIndexesWithNull.csproj" />
   </ItemGroup>
 </Project>

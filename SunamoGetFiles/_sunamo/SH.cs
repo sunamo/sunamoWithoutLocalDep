@@ -1,13 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SunamoHttp;
-internal class SHParts
+namespace SunamoGetFiles;
+internal class SH
 {
-    internal static string RemoveAfterFirst(string ext, char q)
+    internal static string FirstCharUpper(string d)
     {
         throw new NotImplementedException();
     }

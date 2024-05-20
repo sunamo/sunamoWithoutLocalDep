@@ -1,13 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SunamoHttp;
-internal class SHParts
+namespace SunamoWikipedia._sunamo;
+public class HtmlDocument
 {
-    internal static string RemoveAfterFirst(string ext, char q)
+    internal object DocumentNode;
+
+    internal void LoadHtml(string html)
     {
         throw new NotImplementedException();
     }

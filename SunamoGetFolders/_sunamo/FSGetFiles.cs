@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SunamoEmbeddedResources;
-internal class ThrowEx
+namespace SunamoGetFolders;
+internal class FSGetFiles
 {
-    internal static void NotImplementedCase(List<char> generalChars)
+    internal static List<string> GetFiles(string item, string masc, SearchOption topDirectoryOnly)
     {
         throw new NotImplementedException();
     }

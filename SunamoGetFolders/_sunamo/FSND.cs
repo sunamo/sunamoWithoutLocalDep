@@ -1,13 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SunamoHttp;
-internal class SHParts
+namespace SunamoGetFolders;
+internal class FSND
 {
-    internal static string RemoveAfterFirst(string ext, char q)
+    internal static string WithEndSlash(string arg)
     {
         throw new NotImplementedException();
     }
