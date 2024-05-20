@@ -5,7 +5,6 @@ SunamoDevCode
 SunamoCollectionOnDrive
 #endif
 ;
-
 public class PpkOnDriveArgs
 {
     public string file;
@@ -16,5 +15,4 @@ public class PpkOnDriveArgs
     public bool load = true;
     public bool save = true;
     public bool loadChangesFromDrive = true;
-
 }

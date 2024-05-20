@@ -1,5 +1,4 @@
 using SunamoGetFiles;
-
 namespace
 #if SunamoFileSystem
 SunamoFileSystem

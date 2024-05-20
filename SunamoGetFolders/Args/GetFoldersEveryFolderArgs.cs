@@ -2,7 +2,7 @@ namespace
 #if SunamoGetFiles
 SunamoGetFiles
 #elif SunamoGetFolders
-    SunamoGetFolders
+SunamoGetFolders
 #else
 SunamoGetFolders
 #endif

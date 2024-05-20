@@ -5,7 +5,6 @@ SunamoDevCode
 SunamoCollectionsNonGeneric
 #endif
 ;
-
 /// <summary>
 /// In values contains without extension
 /// if file has no exception, will be grouped under empty string
@@ -14,7 +13,6 @@ SunamoCollectionsNonGeneric
 public class ExtensionSortedCollection
 {
     public Dictionary<string, List<string>> dictionary = new Dictionary<string, List<string>>();
-
     /// <summary>
     /// Entries in A1 must be only filenames without paths
     /// </summary>
@@ -23,12 +21,10 @@ public class ExtensionSortedCollection
     {
         d.ToList().ForEach(fileName => AddOnlyFileName(fileName));
     }
-
     public void AddOnlyFileName(string fileName)
     {
         string key = Path.GetExtension(fileName).ToLower();
         string value = Path.GetFileNameWithoutExtension(fileName).ToLower();
-
         if (dictionary.ContainsKey(key))
         {
             if (!dictionary[key].Contains(value))
@@ -43,7 +39,6 @@ public class ExtensionSortedCollection
             dictionary.Add(key, ad);
         }
     }
-
     public void AddWholeFilePath(string filePath)
     {
         AddOnlyFileName(Path.GetFileName(filePath));

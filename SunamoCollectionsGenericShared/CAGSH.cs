@@ -7,7 +7,6 @@ SunamoCollectionsValuesTableGrid
 SunamoCollectionsGenericShared
 #endif
 ;
-
 public class CAGSH
 {
     /// <summary>
@@ -36,7 +35,6 @@ public class CAGSH
         duplicated = duplicated.Distinct().ToList();
         return duplicated;
     }
-
     /// <summary>
     /// Get every duplicated item once
     /// </summary>
@@ -48,7 +46,6 @@ public class CAGSH
         List<T> alreadyProcessed;
         return GetDuplicities<T>(clipboardL, out alreadyProcessed);
     }
-
     /// <summary>
     /// Return equal ranges of in A1
     ///
@@ -104,7 +101,6 @@ public class CAGSH
         }
         return result;
     }
-
     #region 2) IsEqualToAnyElement - For easy copy from CAContainsElementsOrTheirPartsShared
     /// <summary>
     /// ContainsAnyFromElement - Contains string elements of list. Return List<string>
@@ -130,7 +126,6 @@ public class CAGSH
         }
         return false;
     }
-
     /// <summary>
     /// CA.ContainsAnyFromElement - Contains string elements of list. Return List<string>
     /// CAG.IsEqualToAnyElement - same as ContainsElement, only have switched elements. return bool
