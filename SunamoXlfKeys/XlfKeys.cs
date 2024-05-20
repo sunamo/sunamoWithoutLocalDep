@@ -219,6 +219,12 @@ SunamoYaml
 SunamoYouTube
 #elif SunamoGetFiles
 SunamoGetFiles
+#elif SunamoCollectionsTo
+SunamoCollectionsTo
+#elif SunamoGetFolders
+SunamoGetFolders
+#elif SunamoXlfEngine
+SunamoXlfEngine
 #else
 SunamoXlfKeys
 #endif
