@@ -1,4 +1,4 @@
-﻿using SunamoGetFolders;
+using SunamoGetFolders;
 
 namespace SunamoGetFolders;
 

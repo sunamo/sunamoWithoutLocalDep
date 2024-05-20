@@ -4,7 +4,7 @@ SunamoGetFiles
 #elif SunamoGetFolders
     SunamoGetFolders
 #else
-SunamoFileSystem
+SunamoGetFolders
 #endif
 ;
 public class GetFoldersEveryFolderArgs : GetFilesArgs
