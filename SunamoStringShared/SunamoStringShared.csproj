@@ -26,6 +26,6 @@
     <Compile Include="..\SunamoEnums\Enums\ContainsCompareMethod.cs" Link="_linked\SunamoEnums\Enums\ContainsCompareMethod.cs" />
     <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
     <Compile Include="..\SunamoValues\Constants\NumConsts.cs" Link="_linked\SunamoValues\Constants\NumConsts.cs" />
-    <Compile Include="..\SunamoStringData\SHData.cs" Link="_linked\SunamoStringData\SHData.cs" />
+    <Compile Include="..\SunamoExceptions\SHSE.cs" Link="_linked\SunamoExceptions\SHSE.cs" />
   </ItemGroup>
 </Project>

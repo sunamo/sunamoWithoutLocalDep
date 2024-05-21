@@ -16,6 +16,7 @@ public class HtmlTableParser
 
     internal List<string> ColumnValues(string character, bool v1, bool v2)
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
+        return null;
     }
 }

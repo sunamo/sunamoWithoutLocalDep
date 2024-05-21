@@ -7,8 +7,12 @@ using System.Threading.Tasks;
 namespace SunamoHttp;
 internal class SH
 {
-    internal static string AppendIfDontEndingWith(string fn, string html)
+    internal static string AppendIfDontEndingWith(string text, string append)
     {
-        throw new NotImplementedException();
+        if (text.EndsWith(append))
+        {
+            return text;
+        }
+        return text + append;
     }
 }

@@ -1,4 +1,4 @@
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,43 +54,79 @@ nad
         }
     }
 
-    internal static string Combine(string folder2, string v)
+    internal static string Combine(params string[] folder2)
     {
-        throw new NotImplementedException();
+        return Path.Combine(folder2);
     }
 
     internal static bool ExistsFile(string path)
     {
-        throw new NotImplementedException();
+        return FS.ExistsFile(path);
     }
 
-    internal static int GetFileSize(string path)
+    public static long GetFileSize(string item)
     {
-        throw new NotImplementedException();
+        FileInfo fi = null;
+        try
+        {
+            fi = new FileInfo(item);
+        }
+        catch (Exception ex)
+        {
+            // Například příliš dlouhý název souboru
+            return 0;
+        }
+        if (fi.Exists)
+        {
+            return fi.Length;
+        }
+        return 0;
     }
 
     internal static string GetExtension(string href)
     {
-        throw new NotImplementedException();
+        return Path.GetExtension(href);
     }
 
-    internal static void GetPathAndFileNameWithoutExtension(string path, out string p, out string fn, out string ext)
+    public static void GetPathAndFileNameWithoutExtension(string fn, out string path, out string file, out string ext)
     {
-        throw new NotImplementedException();
+        path = Path.GetDirectoryName(fn) + AllChars.bs;
+        file = Path.GetFileNameWithoutExtension(fn);
+        ext = Path.GetExtension(fn);
     }
 
     internal static string GetTempFilePath()
     {
-        throw new NotImplementedException();
+        return Path.Combine(System.IO.Path.GetTempPath(), System.IO.Path.GetTempFileName());
     }
 
-    internal static void MoveFile(string tempPath, string to, FileMoveCollisionOption co)
-    {
-        throw new NotImplementedException();
-    }
+    //internal static void MoveFile(string item, string fileTo, FileMoveCollisionOption co)
+    //{
+    //    if (CopyMoveFilePrepare(ref item, ref fileTo, co))
+    //    {
+    //        try
+    //        {
+    //            item = FS.MakeUncLongPath(item);
+    //            fileTo = FS.MakeUncLongPath(fileTo);
 
-    internal static string ReplaceInvalidFileNameChars(object v)
+    //            if (co == FileMoveCollisionOption.DontManipulate && File.Exists(fileTo))
+    //            {
+    //                return;
+    //            }
+    //            File.Move(item, fileTo);
+    //        }
+    //        catch (Exception ex)
+    //        {
+    //            //ThisApp.Error(item + " : " + ex.Message);
+    //        }
+    //    }
+    //    else
+    //    {
+    //    }
+    //}
+
+    internal static string ReplaceInvalidFileNameChars(string v)
     {
-        throw new NotImplementedException();
+        return string.Concat(v.Split(Path.GetInvalidFileNameChars()));
     }
 }

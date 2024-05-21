@@ -1,7 +1,7 @@
 
 
 
-using SunamoWikipedia._sunamo;
+using SunamoWikipedia;
 
 namespace SunamoWikipedia;
 

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace SunamoHttp;
 internal class UH
 {
-    internal static object GetFileName(string uri)
+    internal static string GetFileName(string uri)
     {
-        throw new NotImplementedException();
+        return Path.GetFileName(uri);
     }
 }

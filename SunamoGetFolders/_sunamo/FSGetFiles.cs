@@ -9,6 +9,6 @@ internal class FSGetFiles
 {
     internal static List<string> GetFiles(string item, string masc, SearchOption topDirectoryOnly)
     {
-        throw new NotImplementedException();
+        return Directory.GetFiles(item, masc, topDirectoryOnly).ToList() ;
     }
 }

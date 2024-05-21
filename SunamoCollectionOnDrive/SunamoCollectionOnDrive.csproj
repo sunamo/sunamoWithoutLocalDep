@@ -26,5 +26,6 @@
     <Compile Include="..\SunamoExceptions\OnlyInSE\Types.cs" Link="_linked\SunamoExceptions\OnlyInSE\Types.cs" />
     <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
     <Compile Include="..\SunamoParsing\Parse.cs" Link="_linked\SunamoParsing\Parse.cs" />
+    <Compile Include="..\SunamoExceptions\_AddedToAllCsproj\FSSunamoExceptions.cs" Link="_linked\SunamoExceptions\_AddedToAllCsproj\FSSunamoExceptions.cs" />
   </ItemGroup>
 </Project>

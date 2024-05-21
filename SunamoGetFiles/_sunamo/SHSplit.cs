@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace SunamoGetFiles;
 internal class SHSplit
 {
-    internal static List<string> Split(string masc, string sc)
+    internal static List<string> Split(string p, params string[] newLine)
     {
-        throw new NotImplementedException();
+        return p.Split(newLine, StringSplitOptions.RemoveEmptyEntries).ToList();
     }
 }

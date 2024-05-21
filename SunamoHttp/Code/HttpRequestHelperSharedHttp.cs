@@ -14,7 +14,7 @@ public static partial class HttpRequestHelperHttp{
     /// <param name="path"></param>
     /// <param name="uri"></param>
     /// <returns></returns>
-    public static string DownloadOrRead(string path, string uri)
+    public static string DownloadOrReadWorker(string path, string uri)
     {
         string html = null;
 
@@ -33,12 +33,12 @@ public static partial class HttpRequestHelperHttp{
     /// </summary>
     /// <param name="cache"></param>
     /// <param name="uri"></param>
-    public static string DownloadOrRead(string uri)
+    public static string DownloadOrRead(string uri, string appDataCachePath)
     {
         var v = UH.GetFileName(uri);
         var fn = FS.ReplaceInvalidFileNameChars(v);
-        fn = FS.Combine(AppData.ci.GetFolder(AppFolders.Cache), SH.AppendIfDontEndingWith(fn, AllExtensions.html));
-        return DownloadOrRead(fn, uri);
+        fn = FS.Combine(appDataCachePath, SH.AppendIfDontEndingWith(fn, AllExtensions.html));
+        return DownloadOrReadWorker(fn, uri);
     }
 
     public static bool ExistsPage(string url)

@@ -21,6 +21,7 @@
     <Compile Include="..\SunamoEnums\Enums\AppFolders.cs" Link="_linked\SunamoEnums\Enums\AppFolders.cs" />
     <Compile Include="..\SunamoFileExtensions\Attributes\TypeOfExtensionAttribute.cs" Link="_linked\SunamoFileExtensions\Attributes\TypeOfExtensionAttribute.cs" />
     <Compile Include="..\SunamoFileExtensions\Enums\TypeOfExtension.cs" Link="_linked\SunamoFileExtensions\Enums\TypeOfExtension.cs" />
+    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

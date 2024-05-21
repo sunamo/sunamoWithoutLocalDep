@@ -12,31 +12,37 @@ public class HtmlAgilityHelper
 {
     internal static HtmlDocument CreateHtmlDocument()
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
+        return null;
     }
 
     internal static List<HtmlNode> Nodes(object item, bool v1, string v2)
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
+        return null;
     }
 
     internal static IEnumerable<object> NodesWhichContainsInAttr(object documentNode, bool v1, string v2, string v3, string v4)
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
+        return null;
     }
 
     internal static List<HtmlNode> NodesWithAtstr(HtmlNode mwParserOutputNode, bool v1, string v2, string v3, string v4)
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
+        return null;
     }
 
     internal static List<HtmlNode> NodesWithAttr(object mwParserOutputNode, bool v1, string v2, string v3, string v4)
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
+        return null;
     }
 
     internal static HtmlNode NodeWithAttr(object documentNode, bool v1, string v2, string v3, string v4)
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
+        return null;
     }
 }

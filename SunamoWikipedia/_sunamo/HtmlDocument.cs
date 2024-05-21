@@ -11,6 +11,6 @@ public class HtmlDocument
 
     internal void LoadHtml(string html)
     {
-        throw new NotImplementedException();
+        ThrowEx.NotImplementedMethod();
     }
 }

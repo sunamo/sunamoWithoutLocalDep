@@ -7,7 +7,7 @@ internal class CASH
 {
     internal static Object[] ConvertListStringWrappedInArray(Object[] innerMain)
     {
-        if (CASE.IsListStringWrappedInArray(innerMain))
+        if (CASE.IsListStringWrappedInArray(innerMain.ToList()))
         {
             List<object> result = null;
             var first = (IEnumerable)innerMain[0];

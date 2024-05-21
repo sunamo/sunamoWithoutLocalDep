@@ -81,7 +81,7 @@ public partial class UriWebServices
             //UriWebServices.SearchInAll(RepairMobileValues.allRepairKitShops, what);
             if (opened % 10 == 0)
             {
-                Debugger.Break();
+                System.Diagnostics.Debugger.Break();
             }
         }
     }

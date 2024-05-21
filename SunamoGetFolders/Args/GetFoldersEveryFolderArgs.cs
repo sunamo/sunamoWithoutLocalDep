@@ -3,6 +3,8 @@ namespace
 SunamoGetFiles
 #elif SunamoGetFolders
 SunamoGetFolders
+#elif SunamoFileSystem
+SunamoFileSystem
 #else
 SunamoGetFolders
 #endif

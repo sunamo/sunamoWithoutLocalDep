@@ -20,6 +20,7 @@
     <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
     <Compile Include="..\SunamoExceptions\InSunamoIsDerivedFrom\CASE.cs" Link="_linked\SunamoExceptions\InSunamoIsDerivedFrom\CASE.cs" />
     <Compile Include="..\SunamoArgs\RemoveStartingWithArgs.cs" Link="_linked\SunamoArgs\RemoveStartingWithArgs.cs" />
+    <Compile Include="..\SunamoExceptions\_AddedToAllCsproj\FSSunamoExceptions.cs" Link="_linked\SunamoExceptions\_AddedToAllCsproj\FSSunamoExceptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Args\" />

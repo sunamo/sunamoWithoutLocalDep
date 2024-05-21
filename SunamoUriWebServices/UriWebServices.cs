@@ -36,7 +36,7 @@ public partial class UriWebServices
 
             if (opened % 10 == 0)
             {
-                Debugger.Break();
+                System.Diagnostics.Debugger.Break();
             }
         }
     }
@@ -52,7 +52,7 @@ public partial class UriWebServices
             Process.Start(topRecepty.Invoke(item));
             if (opened % 10 == 0)
             {
-                Debugger.Break();
+                System.Diagnostics.Debugger.Break();
             }
         }
     }
@@ -99,7 +99,7 @@ public partial class UriWebServices
         {
             if (opened % 10 == 0 && opened != 0)
             {
-                //Debugger.Break();
+                //System.Diagnostics.Debugger.Break();
 #if DEBUG
 
 #endif

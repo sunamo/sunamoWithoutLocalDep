@@ -1,19 +1,17 @@
-
-
 using System.Runtime.CompilerServices;
-
-namespace SunamoAsync;
+namespace
+#if SunamoShared
+SunamoShared
+#else
+SunamoAsync
+#endif
+;
 public class AsyncHelper : AsyncHelperSEShared
 {
     public static AsyncHelper ci = new AsyncHelper();
-
     private AsyncHelper()
     {
-
     }
-
-
-
     /// <summary>
     /// To all regions insert comments whats not and what working
     ///
@@ -25,43 +23,33 @@ public class AsyncHelper : AsyncHelperSEShared
     public T GetResult<T>(Task<T> task)
     {
         T result = default;
-
         task.LogExceptions();
-
         #region 1. ConfigureAwait(true)
         ConfiguredTaskAwaitable<T> t = task.Conf();
         ConfiguredTaskAwaitable<T>.ConfiguredTaskAwaiter t2 = t.GetAwaiter();
         result = t2.GetResult();
         #endregion
-
         #region 2. Sync
         //result = task.Result;
-
         #endregion
-
         #region 3. await
         //result = Await<T>(task);
         #endregion
-
         return result;
     }
-
     async Task<T> Await<T>(Task<T> t)
     {
         return await t;
     }
-
     public void GetResult(Task task)
     {
         task.LogExceptions();
         task.Conf();
     }
-
     async Task Await(Task t)
     {
         await t;
     }
-
     /// <summary>
     /// Execute's an T> method which has a void return value synchronously
     /// </summary>
@@ -88,17 +76,13 @@ public class AsyncHelper : AsyncHelperSEShared
             }
         }, null);
         synch.BeginMessageLoop();
-
         SynchronizationContext.SetSynchronizationContext(oldContext);
-
         synch.Dispose();
     }
-
     public async Task RunAsync(Task task)
     {
         await task;
     }
-
     public void RunSyncWithoutReturnValue<T1>(Func<T1, Task> task, T1 a1)
     {
         var oldContext = SynchronizationContext.Current;
@@ -121,10 +105,8 @@ public class AsyncHelper : AsyncHelperSEShared
             }
         }, null);
         synch.BeginMessageLoop();
-
         SynchronizationContext.SetSynchronizationContext(oldContext);
     }
-
     public void RunSyncWithoutReturnValue<T1, T2>(Func<T1, T2, Task> task, T1 a1, T2 a2)
     {
         var oldContext = SynchronizationContext.Current;
@@ -147,11 +129,9 @@ public class AsyncHelper : AsyncHelperSEShared
             }
         }, null);
         synch.BeginMessageLoop();
-
         SynchronizationContext.SetSynchronizationContext(oldContext);
         synch.Dispose();
     }
-
     public void RunSyncWithoutReturnValue<T1, T2, T3>(Func<T1, T2, T3, Task> task, T1 a1, T2 a2, T3 a3)
     {
         var oldContext = SynchronizationContext.Current;
@@ -174,11 +154,9 @@ public class AsyncHelper : AsyncHelperSEShared
             }
         }, null);
         synch.BeginMessageLoop();
-
         SynchronizationContext.SetSynchronizationContext(oldContext);
         synch.Dispose();
     }
-
     /// <summary>
     /// Execute's an T> method which has a T return type synchronously
     /// </summary>
@@ -208,12 +186,9 @@ public class AsyncHelper : AsyncHelperSEShared
         }, null);
         synch.BeginMessageLoop();
         SynchronizationContext.SetSynchronizationContext(oldContext);
-
         synch.Dispose();
         return ret;
     }
-
-
     /// <summary>
     /// Execute's an T> method which has a T return type synchronously
     /// </summary>
@@ -246,7 +221,6 @@ public class AsyncHelper : AsyncHelperSEShared
         synch.Dispose();
         return ret;
     }
-
     /// <summary>
     /// Execute's an T> method which has a T return type synchronously
     /// </summary>
@@ -279,7 +253,6 @@ public class AsyncHelper : AsyncHelperSEShared
         synch.Dispose();
         return ret;
     }
-
     private class ExclusiveSynchronizationContext : SynchronizationContext, IDisposable
     {
         private bool done;
@@ -288,12 +261,10 @@ public class AsyncHelper : AsyncHelperSEShared
         readonly Queue<Tuple<SendOrPostCallback, object>> items =
             new Queue<Tuple<SendOrPostCallback, object>>();
         static Type type = typeof(ExclusiveSynchronizationContext);
-
         public override void Send(SendOrPostCallback d, object state)
         {
             throw new Exception("WeCannotSendToOurSameThread");
         }
-
         public override void Post(SendOrPostCallback d, object state)
         {
             lock (items)
@@ -302,12 +273,10 @@ public class AsyncHelper : AsyncHelperSEShared
             }
             workItemsWaiting.Set();
         }
-
         public void EndMessageLoop()
         {
             Post(_ => done = true, null);
         }
-
         public void BeginMessageLoop()
         {
             while (!done)
@@ -334,17 +303,14 @@ public class AsyncHelper : AsyncHelperSEShared
                 }
             }
         }
-
         public override SynchronizationContext CreateCopy()
         {
             return this;
         }
-
         public void Dispose()
         {
             workItemsWaiting.Dispose();
         }
     }
-
     // Udělat pro IAsyncResult (dědí z něho Task) i IAsyncOperation
 }

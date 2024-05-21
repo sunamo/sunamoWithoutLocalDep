@@ -7,8 +7,19 @@ using System.Threading.Tasks;
 namespace SunamoGetFiles;
 internal class SH
 {
-    internal static string FirstCharUpper(string d)
+    public static void FirstCharUpper(ref string nazevPP)
     {
-        throw new NotImplementedException();
+        nazevPP = FirstCharUpper(nazevPP);
+    }
+
+    public static string FirstCharUpper(string nazevPP)
+    {
+        if (nazevPP.Length == 1)
+        {
+            return nazevPP.ToUpper();
+        }
+
+        string sb = nazevPP.Substring(1);
+        return nazevPP[0].ToString().ToUpper() + sb;
     }
 }

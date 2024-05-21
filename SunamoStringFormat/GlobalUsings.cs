@@ -1,6 +1,6 @@
 global using System;
 
-global using SunamoStringFormat._sunamo;
+global using SunamoStringFormat;
 global using System.Text;
 global using System.Collections.Generic;
 global using System.Collections;

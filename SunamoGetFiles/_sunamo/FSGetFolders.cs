@@ -9,6 +9,11 @@ internal class FSGetFolders
 {
     internal static List<string> GetFoldersEveryFolder(string folder, string v, GetFoldersEveryFolderArgs getFoldersEveryFolderArgs)
     {
-        throw new NotImplementedException();
+        // implementaci která má za attr GetFoldersEveryFolderArgs jsem ztratil
+        if (getFoldersEveryFolderArgs != null)
+        {
+            ThrowEx.Custom("There is some parameters in " + nameof(getFoldersEveryFolderArgs));
+        }
+        return Directory.GetDirectories(folder, v, SearchOption.AllDirectories).ToList();
     }
 }

@@ -28,5 +28,6 @@
     <Compile Include="..\SunamoArgs\ChangeContentArgs.cs" Link="_linked\SunamoArgs\ChangeContentArgs.cs" />
     <Compile Include="..\SunamoArgs\GetFilesEveryFolderArgs.cs" Link="_linked\SunamoArgs\GetFilesEveryFolderArgs.cs" />
     <Compile Include="..\SunamoEnums\Enums\HtmlTagSyntax.cs" Link="_linked\SunamoEnums\Enums\HtmlTagSyntax.cs" />
+    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
   </ItemGroup>
 </Project>

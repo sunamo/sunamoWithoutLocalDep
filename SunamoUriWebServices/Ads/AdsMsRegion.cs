@@ -27,8 +27,8 @@ public static class AdsMsRegion
 
     public static string FromChromeReplacement(string uri, string term)
     {
-        throw new NotImplementedException();
-        //return UriWebServices.FromChromeReplacement(uri, term);
+        //ThrowEx.NotImplementedMethod();
+        return UriWebServices.FromChromeReplacement(uri, term);
     }
 
     /// <summary>

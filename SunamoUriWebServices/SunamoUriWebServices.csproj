@@ -17,6 +17,7 @@
     <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
     <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
     <Compile Include="..\SunamoData\Data\AzureBuildUriArgs.cs" Link="_linked\SunamoData\Data\AzureBuildUriArgs.cs" />
+    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoUriWebServices</DefineConstants>

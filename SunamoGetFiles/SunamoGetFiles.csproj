@@ -31,5 +31,7 @@
     <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
     <Compile Include="..\SunamoArgs\GetFilesBaseArgs.cs" Link="_linked\SunamoArgs\GetFilesBaseArgs.cs" />
     <Compile Include="..\SunamoGetFolders\Args\GetFoldersEveryFolderArgs.cs" Link="_linked\SunamoGetFolders\Args\GetFoldersEveryFolderArgs.cs" />
+    <Compile Include="..\SunamoEnums\Enums\ComputerSizeUnits.cs" Link="_linked\SunamoEnums\Enums\ComputerSizeUnits.cs" />
+    <Compile Include="..\SunamoValues\Constants\NumConsts.cs" Link="_linked\SunamoValues\Constants\NumConsts.cs" />
   </ItemGroup>
 </Project>

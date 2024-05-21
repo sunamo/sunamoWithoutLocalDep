@@ -8,8 +8,15 @@ using System.Threading.Tasks;
 namespace SunamoHttp;
 internal class SHParts
 {
-    internal static string RemoveAfterFirst(string ext, char q)
+    internal static string RemoveAfterFirst(string t, string ch)
     {
-        throw new NotImplementedException();
+        int dex = t.IndexOf(ch);
+        if (dex == -1 || dex == t.Length - 1)
+        {
+            return t;
+        }
+
+        string vr = t.Remove(dex);
+        return vr;
     }
 }

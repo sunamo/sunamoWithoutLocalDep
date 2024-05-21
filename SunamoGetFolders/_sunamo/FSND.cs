@@ -7,8 +7,40 @@ using System.Threading.Tasks;
 namespace SunamoGetFolders;
 internal class FSND
 {
-    internal static string WithEndSlash(string arg)
+    public static string WithEndSlash(string v)
     {
-        throw new NotImplementedException();
+        return WithEndSlash(ref v);
+    }
+
+    /// <summary>
+    ///     Usage: Exceptions.FileWasntFoundInDirectory
+    /// </summary>
+    /// <param name="v"></param>
+    /// <returns></returns>
+    public static string WithEndSlash(ref string v)
+    {
+        if (v != string.Empty)
+        {
+            v = v.TrimEnd(AllChars.bs) + AllChars.bs;
+        }
+
+        FirstCharUpper(ref v);
+        return v;
+    }
+
+    public static void FirstCharUpper(ref string nazevPP)
+    {
+        nazevPP = FirstCharUpper(nazevPP);
+    }
+
+    public static string FirstCharUpper(string nazevPP)
+    {
+        if (nazevPP.Length == 1)
+        {
+            return nazevPP.ToUpper();
+        }
+
+        string sb = nazevPP.Substring(1);
+        return nazevPP[0].ToString().ToUpper() + sb;
     }
 }

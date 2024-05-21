@@ -39,6 +39,11 @@ public static partial class HttpRequestHelperHttp
     /// <param name="ext"></param>
     public static void DownloadAll(List<string> hrefs, BoolString DontHaveAllowedExtension, string folder2, FileMoveCollisionOption co, string ext = null)
     {
+        if (co != FileMoveCollisionOption.Overwrite)
+        {
+            ThrowEx.Custom("Is allowed only Overwrite. Due to deps FS.MoveFile is not possible to use.");
+        }
+
         foreach (var item in hrefs)
         {
             var tempPath = FS.GetTempFilePath();
@@ -46,7 +51,7 @@ public static partial class HttpRequestHelperHttp
             Download(item, DontHaveAllowedExtension, tempPath);
             var to = FS.Combine(folder2, Path.GetFileName(item) + ext);
 
-            FS.MoveFile(tempPath, to, co);
+            File.Move(tempPath, to, true);
         }
     }
 
@@ -75,10 +80,10 @@ public static partial class HttpRequestHelperHttp
         if (string.IsNullOrWhiteSpace(ext))
         {
             ext = FS.GetExtension(href);
-            ext = SHParts.RemoveAfterFirst(ext, AllChars.q);
+            ext = SHParts.RemoveAfterFirst(ext, AllStrings.q);
         }
 
-        fn = SHParts.RemoveAfterFirst(fn, AllChars.q);
+        fn = SHParts.RemoveAfterFirst(fn, AllStrings.q);
         string path = FS.Combine(folder2, fn + ext);
         FS.CreateFoldersPsysicallyUnlessThere(folder2);
 
