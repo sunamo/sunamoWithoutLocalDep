@@ -3,6 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>24.5.21.1</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoGetFiles;ASYNC</DefineConstants>
@@ -11,27 +12,5 @@
     <DefineConstants>$(DefineConstants);SunamoGetFiles;ASYNC</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\SunamoExceptions\OnlyInSE\Exc.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exc.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\Exceptions.cs" Link="_linked\SunamoExceptions\OnlyInSE\Exceptions.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\TranslateAble.cs" Link="_linked\SunamoExceptions\OnlyInSE\TranslateAble.cs" />
-    <Compile Include="..\SunamoExceptions\_AddedToAllCsproj\CASunamoExceptions.cs" Link="_linked\SunamoExceptions\_AddedToAllCsproj\CASunamoExceptions.cs" />
-    <Compile Include="..\SunamoExceptions\_AddedToAllCsproj\FSSunamoExceptions.cs" Link="_linked\SunamoExceptions\_AddedToAllCsproj\FSSunamoExceptions.cs" />
-    <Compile Include="..\SunamoExceptions\_AddedToAllCsproj\SHSunamoExceptions.cs" Link="_linked\SunamoExceptions\_AddedToAllCsproj\SHSunamoExceptions.cs" />
-    <Compile Include="..\SunamoValues\AllChars.cs" Link="_linked\SunamoValues\AllChars.cs" />
-    <Compile Include="..\SunamoValues\AllStrings.cs" Link="_linked\SunamoValues\AllStrings.cs" />
-    <Compile Include="..\SunamoValues\Consts.cs" Link="_linked\SunamoValues\Consts.cs" />
-    <Compile Include="..\SunamoExceptions\OnlyInSE\ThrowEx.cs" Link="_linked\SunamoExceptions\OnlyInSE\ThrowEx.cs" />
-    <Compile Include="..\SunamoArgs\GetFilesArgs.cs" Link="_linked\SunamoArgs\GetFilesArgs.cs" />
-    <Compile Include="..\SunamoArgs\GetFilesEveryFolderArgs.cs" Link="_linked\SunamoArgs\GetFilesEveryFolderArgs.cs" />
-    <Compile Include="..\SunamoArgs\GetFilesMoreMascArgs.cs" Link="_linked\SunamoArgs\GetFilesMoreMascArgs.cs" />
-    <Compile Include="..\SunamoCollectionsChangeContent\CAChangeContent.cs" Link="_linked\SunamoCollectionsChangeContent\CAChangeContent.cs" />
-    <Compile Include="..\SunamoArgs\ChangeContentArgs.cs" Link="_linked\SunamoArgs\ChangeContentArgs.cs" />
-    <Compile Include="..\SunamoValues\Constants\NetFxExceptionsNotTranslateAble.cs" Link="_linked\SunamoValues\Constants\NetFxExceptionsNotTranslateAble.cs" />
-    <Compile Include="..\SunamoLang\SunamoI18N\sess.cs" Link="_linked\SunamoLang\SunamoI18N\sess.cs" />
-    <Compile Include="..\SunamoXlfKeys\XlfKeys.cs" Link="_linked\SunamoXlfKeys\XlfKeys.cs" />
-    <Compile Include="..\SunamoArgs\GetFilesBaseArgs.cs" Link="_linked\SunamoArgs\GetFilesBaseArgs.cs" />
-    <Compile Include="..\SunamoGetFolders\Args\GetFoldersEveryFolderArgs.cs" Link="_linked\SunamoGetFolders\Args\GetFoldersEveryFolderArgs.cs" />
-    <Compile Include="..\SunamoEnums\Enums\ComputerSizeUnits.cs" Link="_linked\SunamoEnums\Enums\ComputerSizeUnits.cs" />
-    <Compile Include="..\SunamoValues\Constants\NumConsts.cs" Link="_linked\SunamoValues\Constants\NumConsts.cs" />
   </ItemGroup>
 </Project>
