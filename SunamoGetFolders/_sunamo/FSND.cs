@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SunamoGetFolders;
 internal class FSND
 {
-    public static string WithEndSlash(string v)
+    internal static string WithEndSlash(string v)
     {
         return WithEndSlash(ref v);
     }
@@ -17,7 +17,7 @@ internal class FSND
     /// </summary>
     /// <param name="v"></param>
     /// <returns></returns>
-    public static string WithEndSlash(ref string v)
+    internal static string WithEndSlash(ref string v)
     {
         if (v != string.Empty)
         {
@@ -28,12 +28,12 @@ internal class FSND
         return v;
     }
 
-    public static void FirstCharUpper(ref string nazevPP)
+    internal static void FirstCharUpper(ref string nazevPP)
     {
         nazevPP = FirstCharUpper(nazevPP);
     }
 
-    public static string FirstCharUpper(string nazevPP)
+    internal static string FirstCharUpper(string nazevPP)
     {
         if (nazevPP.Length == 1)
         {

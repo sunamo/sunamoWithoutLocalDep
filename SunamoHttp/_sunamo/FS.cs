@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -64,7 +64,7 @@ nad
         return FS.ExistsFile(path);
     }
 
-    public static long GetFileSize(string item)
+    internal static long GetFileSize(string item)
     {
         FileInfo fi = null;
         try
@@ -88,7 +88,7 @@ nad
         return Path.GetExtension(href);
     }
 
-    public static void GetPathAndFileNameWithoutExtension(string fn, out string path, out string file, out string ext)
+    internal static void GetPathAndFileNameWithoutExtension(string fn, out string path, out string file, out string ext)
     {
         path = Path.GetDirectoryName(fn) + AllChars.bs;
         file = Path.GetFileNameWithoutExtension(fn);

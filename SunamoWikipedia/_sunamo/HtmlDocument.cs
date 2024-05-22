@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoWikipedia;
-public class HtmlDocument
+internal class HtmlDocument
 {
     internal object DocumentNode;
 

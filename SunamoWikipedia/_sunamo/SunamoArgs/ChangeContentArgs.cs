@@ -1,9 +1,9 @@
 namespace SunamoWikipedia;
 
 
-public class ChangeContentArgs
+internal class ChangeContentArgs
 {
-    public bool removeNull = false;
-    public bool removeEmpty = false;
-    public bool switchFirstAndSecondArg = false;
+    internal bool removeNull = false;
+    internal bool removeEmpty = false;
+    internal bool switchFirstAndSecondArg = false;
 }

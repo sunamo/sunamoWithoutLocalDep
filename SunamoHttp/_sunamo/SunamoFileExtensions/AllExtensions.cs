@@ -4,759 +4,759 @@ namespace SunamoHttp;
 /// <summary>
 ///     Use Generate for AllExtensions when is adding more than 1 new extension
 /// </summary>
-public class AllExtensions
+internal class AllExtensions
 {
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string editorconfig = ".editorconfig";
+    internal const string editorconfig = ".editorconfig";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string gitignore = ".gitignore";
+    internal const string gitignore = ".gitignore";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string hintrc = ".hintrc";
+    internal const string hintrc = ".hintrc";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string npmrc = ".npmrc";
+    internal const string npmrc = ".npmrc";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string nvmrc = ".nvmrc";
+    internal const string nvmrc = ".nvmrc";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string yarnrc = ".yarnrc";
+    internal const string yarnrc = ".yarnrc";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string properties = ".properties";
+    internal const string properties = ".properties";
     [TypeOfExtension(TypeOfExtension.contentText)]
-    public const string _lock = ".lock";
+    internal const string _lock = ".lock";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string env = ".env";
+    internal const string env = ".env";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string development = ".development";
+    internal const string development = ".development";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string production = ".production";
+    internal const string production = ".production";
     [TypeOfExtension(TypeOfExtension.contentText)]
-    public const string json = ".json";
+    internal const string json = ".json";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string eslintrc = ".eslintrc";
+    internal const string eslintrc = ".eslintrc";
     [TypeOfExtension(TypeOfExtension.configText)]
-    public const string prettierrc = ".prettierrc";
+    internal const string prettierrc = ".prettierrc";
     /// <summary>
     ///     ano, vcf je opravdu textový soubor
     /// </summary>
     [TypeOfExtension(TypeOfExtension.contentText)]
-    public const string vcf = ".vcf";
+    internal const string vcf = ".vcf";
     [TypeOfExtension(TypeOfExtension.archive)]
-    public const string zip = ".zip";
+    internal const string zip = ".zip";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string gif = ".gif";
+    internal const string gif = ".gif";
     [TypeOfExtension(TypeOfExtension.archive)]
-    public const string rar = ".rar";
+    internal const string rar = ".rar";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string cs = ".cs";
+    internal const string cs = ".cs";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string vue = ".vue";
+    internal const string vue = ".vue";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string aspx = ".aspx";
+    internal const string aspx = ".aspx";
     [TypeOfExtension(TypeOfExtension.archive)]
-    public const string _7z = ".7z";
+    internal const string _7z = ".7z";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string jpg = ".jpg";
+    internal const string jpg = ".jpg";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string js = ".js";
+    internal const string js = ".js";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string asmx = ".asmx";
+    internal const string asmx = ".asmx";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string htm = ".htm";
+    internal const string htm = ".htm";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string html = ".html";
+    internal const string html = ".html";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string master = ".master";
+    internal const string master = ".master";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string txt = ".txt";
+    internal const string txt = ".txt";
     [TypeOfExtension(TypeOfExtension.binary)]
-    public const string dll = ".dll";
+    internal const string dll = ".dll";
     [TypeOfExtension(TypeOfExtension.contentText)]
-    public const string xml = ".xml";
+    internal const string xml = ".xml";
     [TypeOfExtension(TypeOfExtension.database)]
-    public const string db = ".db";
+    internal const string db = ".db";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string whtt = ".whtt";
+    internal const string whtt = ".whtt";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string config = ".config";
+    internal const string config = ".config";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string gitattributes = ".gitattributes";
+    internal const string gitattributes = ".gitattributes";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string sln = ".sln";
+    internal const string sln = ".sln";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sample = ".sample";
+    internal const string sample = ".sample";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string idx = ".idx";
+    internal const string idx = ".idx";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pack = ".pack";
+    internal const string pack = ".pack";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string suo = ".suo";
+    internal const string suo = ".suo";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string csproj = ".csproj";
+    internal const string csproj = ".csproj";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string ico = ".ico";
+    internal const string ico = ".ico";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string xaml = ".xaml";
+    internal const string xaml = ".xaml";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string bmp = ".bmp";
+    internal const string bmp = ".bmp";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string png = ".png";
+    internal const string png = ".png";
     [TypeOfExtension(TypeOfExtension.executable)]
-    public const string exe = ".exe";
+    internal const string exe = ".exe";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string pdb = ".pdb";
+    internal const string pdb = ".pdb";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string manifest = ".manifest";
+    internal const string manifest = ".manifest";
     [TypeOfExtension(TypeOfExtension.settingsText)]
-    public const string ini = ".ini";
+    internal const string ini = ".ini";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string cache = ".cache";
+    internal const string cache = ".cache";
     [TypeOfExtension(TypeOfExtension.resource)]
-    public const string resources = ".resources";
+    internal const string resources = ".resources";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string lref = ".lref";
+    internal const string lref = ".lref";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string baml = ".baml";
+    internal const string baml = ".baml";
     [TypeOfExtension(TypeOfExtension.resource)]
-    public const string resx = ".resx";
+    internal const string resx = ".resx";
     /// <summary>
     ///     vs export = xml
     /// </summary>
     [TypeOfExtension(TypeOfExtension.settingsText)]
-    public const string settings = ".settings";
+    internal const string settings = ".settings";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string nupkg = ".nupkg";
+    internal const string nupkg = ".nupkg";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string nuspec = ".nuspec";
+    internal const string nuspec = ".nuspec";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pri = ".pri";
+    internal const string pri = ".pri";
     [TypeOfExtension(TypeOfExtension.script)]
-    public const string ps1 = ".ps1";
+    internal const string ps1 = ".ps1";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string rtf = ".rtf";
+    internal const string rtf = ".rtf";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string css = ".css";
+    internal const string css = ".css";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string recovery = ".recovery";
+    internal const string recovery = ".recovery";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pfx = ".pfx";
+    internal const string pfx = ".pfx";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string targets = ".targets";
+    internal const string targets = ".targets";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string user = ".user";
+    internal const string user = ".user";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string def = ".def";
+    internal const string def = ".def";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string props = ".props";
+    internal const string props = ".props";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xdt = ".xdt";
+    internal const string xdt = ".xdt";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string asax = ".asax";
+    internal const string asax = ".asax";
     [TypeOfExtension(TypeOfExtension.font)]
-    public const string eot = ".eot";
+    internal const string eot = ".eot";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string svg = ".svg";
+    internal const string svg = ".svg";
     [TypeOfExtension(TypeOfExtension.font)]
-    public const string ttf = ".ttf";
+    internal const string ttf = ".ttf";
     [TypeOfExtension(TypeOfExtension.font)]
-    public const string woff = ".woff";
+    internal const string woff = ".woff";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string map = ".map";
+    internal const string map = ".map";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string cshtml = ".cshtml";
+    internal const string cshtml = ".cshtml";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string xproj = ".xproj";
+    internal const string xproj = ".xproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string bowerrc = ".bowerrc";
+    internal const string bowerrc = ".bowerrc";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string cmd = ".cmd";
+    internal const string cmd = ".cmd";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string patch = ".patch";
+    internal const string patch = ".patch";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string md = ".md";
+    internal const string md = ".md";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string npmignore = ".npmignore";
+    internal const string npmignore = ".npmignore";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string yml = ".yml";
+    internal const string yml = ".yml";
     [TypeOfExtension(TypeOfExtension.script)]
-    public const string sh = ".sh";
+    internal const string sh = ".sh";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string markdown = ".markdown";
+    internal const string markdown = ".markdown";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string jsm = ".jsm";
+    internal const string jsm = ".jsm";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string jshintrc = ".jshintrc";
+    internal const string jshintrc = ".jshintrc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string gnu = ".gnu";
+    internal const string gnu = ".gnu";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string c = ".c";
+    internal const string c = ".c";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string opts = ".opts";
+    internal const string opts = ".opts";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string name = ".name";
+    internal const string name = ".name";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string iml = ".iml";
+    internal const string iml = ".iml";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hbs = ".hbs";
+    internal const string hbs = ".hbs";
     [TypeOfExtension(TypeOfExtension.font)]
-    public const string woff2 = ".woff2";
+    internal const string woff2 = ".woff2";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string snk = ".snk";
+    internal const string snk = ".snk";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string xslt = ".xslt";
+    internal const string xslt = ".xslt";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string transform = ".transform";
+    internal const string transform = ".transform";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xamarin = ".xamarin";
+    internal const string xamarin = ".xamarin";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string axml = ".axml";
+    internal const string axml = ".axml";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string htaccess = ".htaccess";
+    internal const string htaccess = ".htaccess";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string phar = ".phar";
+    internal const string phar = ".phar";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string php = ".php";
+    internal const string php = ".php";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string phpproj = ".phpproj";
+    internal const string phpproj = ".phpproj";
     [TypeOfExtension(TypeOfExtension.font)]
-    public const string otf = ".otf";
+    internal const string otf = ".otf";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string less = ".less";
+    internal const string less = ".less";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string scss = ".scss";
+    internal const string scss = ".scss";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mdnobuild = ".md-nobuild";
+    internal const string mdnobuild = ".md-nobuild";
     [TypeOfExtension(TypeOfExtension.documentBinary)]
-    public const string pdf = ".pdf";
+    internal const string pdf = ".pdf";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string swf = ".swf";
+    internal const string swf = ".swf";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string csslintrc = ".csslintrc";
+    internal const string csslintrc = ".csslintrc";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string rb = ".rb";
+    internal const string rb = ".rb";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mo = ".mo";
+    internal const string mo = ".mo";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string po = ".po";
+    internal const string po = ".po";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pot = ".pot";
+    internal const string pot = ".pot";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pem = ".pem";
+    internal const string pem = ".pem";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string crt = ".crt";
+    internal const string crt = ".crt";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xap = ".xap";
+    internal const string xap = ".xap";
     [TypeOfExtension(TypeOfExtension.archive)]
-    public const string gz = ".gz";
+    internal const string gz = ".gz";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string ppt = ".ppt";
+    internal const string ppt = ".ppt";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string ashx = ".ashx";
+    internal const string ashx = ".ashx";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string ascx = ".ascx";
+    internal const string ascx = ".ascx";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string psd1 = ".psd1";
+    internal const string psd1 = ".psd1";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string psm1 = ".psm1";
+    internal const string psm1 = ".psm1";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pp = ".pp";
+    internal const string pp = ".pp";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string py = ".py";
+    internal const string py = ".py";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string chm = ".chm";
+    internal const string chm = ".chm";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string log2 = ".log2";
+    internal const string log2 = ".log2";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mte = ".mte";
+    internal const string mte = ".mte";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string src = ".src";
+    internal const string src = ".src";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mta = ".mta";
+    internal const string mta = ".mta";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string application = ".application";
+    internal const string application = ".application";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string tlog = ".tlog";
+    internal const string tlog = ".tlog";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string index = ".index";
+    internal const string index = ".index";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string log = ".log";
+    internal const string log = ".log";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string lnk = ".lnk";
+    internal const string lnk = ".lnk";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string cz = ".cz";
+    internal const string cz = ".cz";
     [TypeOfExtension(TypeOfExtension.executable)]
-    public const string msi = ".msi";
+    internal const string msi = ".msi";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string dict = ".dict";
+    internal const string dict = ".dict";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string done = ".done";
+    internal const string done = ".done";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string lst = ".lst";
+    internal const string lst = ".lst";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string cxx = ".cxx";
+    internal const string cxx = ".cxx";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string readme = ".readme";
+    internal const string readme = ".readme";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mk = ".mk";
+    internal const string mk = ".mk";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hxx = ".hxx";
+    internal const string hxx = ".hxx";
     [TypeOfExtension(TypeOfExtension.binary)]
-    public const string dat = ".dat";
+    internal const string dat = ".dat";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pl = ".pl";
+    internal const string pl = ".pl";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string scc = ".scc";
+    internal const string scc = ".scc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string atlas = ".atlas";
+    internal const string atlas = ".atlas";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string cd = ".cd";
+    internal const string cd = ".cd";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string datasource = ".datasource";
+    internal const string datasource = ".datasource";
     [TypeOfExtension(TypeOfExtension.database)]
-    public const string mdf = ".mdf";
+    internal const string mdf = ".mdf";
     [TypeOfExtension(TypeOfExtension.database)]
-    public const string ldf = ".ldf";
+    internal const string ldf = ".ldf";
     [TypeOfExtension(TypeOfExtension.database)]
-    public const string sdf = ".sdf";
+    internal const string sdf = ".sdf";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string njsproj = ".njsproj";
+    internal const string njsproj = ".njsproj";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string vb = ".vb";
+    internal const string vb = ".vb";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string svcinfo = ".svcinfo";
+    internal const string svcinfo = ".svcinfo";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string svcmap = ".svcmap";
+    internal const string svcmap = ".svcmap";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string disco = ".disco";
+    internal const string disco = ".disco";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string wsdl = ".wsdl";
+    internal const string wsdl = ".wsdl";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string svnwork = ".svn-work";
+    internal const string svnwork = ".svn-work";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string svnbase = ".svn-base";
+    internal const string svnbase = ".svn-base";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string old = ".old";
+    internal const string old = ".old";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string svc = ".svc";
+    internal const string svc = ".svc";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string bat = ".bat";
+    internal const string bat = ".bat";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string csdproj = ".csdproj";
+    internal const string csdproj = ".csdproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string prx = ".prx";
+    internal const string prx = ".prx";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xsc = ".xsc";
+    internal const string xsc = ".xsc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xsd = ".xsd";
+    internal const string xsd = ".xsd";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xss = ".xss";
+    internal const string xss = ".xss";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vssscc = ".vssscc";
+    internal const string vssscc = ".vssscc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xsx = ".xsx";
+    internal const string xsx = ".xsx";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vspscc = ".vspscc";
+    internal const string vspscc = ".vspscc";
     [TypeOfExtension(TypeOfExtension.script)]
-    public const string sql = ".sql";
+    internal const string sql = ".sql";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string jpeg = ".jpeg";
+    internal const string jpeg = ".jpeg";
     [TypeOfExtension(TypeOfExtension.multimedia)]
-    public const string mp3 = ".mp3";
+    internal const string mp3 = ".mp3";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pak = ".pak";
+    internal const string pak = ".pak";
     [TypeOfExtension(TypeOfExtension.temporary)]
-    public const string tmp = ".tmp";
+    internal const string tmp = ".tmp";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string force = ".force";
+    internal const string force = ".force";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string chk = ".chk";
+    internal const string chk = ".chk";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string jrs = ".jrs";
+    internal const string jrs = ".jrs";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string ide = ".ide";
+    internal const string ide = ".ide";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string ts = ".ts";
+    internal const string ts = ".ts";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string tsx = ".tsx";
+    internal const string tsx = ".tsx";
     [TypeOfExtension(TypeOfExtension.multimedia)]
-    public const string wav = ".wav";
+    internal const string wav = ".wav";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string psd = ".psd";
+    internal const string psd = ".psd";
     [TypeOfExtension(TypeOfExtension.archive)]
-    public const string gzip = ".gzip";
+    internal const string gzip = ".gzip";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string gpx = ".gpx";
+    internal const string gpx = ".gpx";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sbf = ".sbf";
+    internal const string sbf = ".sbf";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string jpg2 = ".jpg2";
+    internal const string jpg2 = ".jpg2";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string analysisoptions = ".analysis_options";
+    internal const string analysisoptions = ".analysis_options";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string packages = ".packages";
+    internal const string packages = ".packages";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string yaml = ".yaml";
+    internal const string yaml = ".yaml";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string dart = ".dart";
+    internal const string dart = ".dart";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string buildlog = ".buildlog";
+    internal const string buildlog = ".buildlog";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string _1 = ".1";
+    internal const string _1 = ".1";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string _2 = ".2";
+    internal const string _2 = ".2";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string snapshot = ".snapshot";
+    internal const string snapshot = ".snapshot";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string bak = ".bak";
+    internal const string bak = ".bak";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sitemap = ".sitemap";
+    internal const string sitemap = ".sitemap";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string deploy = ".deploy";
+    internal const string deploy = ".deploy";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string reg = ".reg";
+    internal const string reg = ".reg";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string command = ".command";
+    internal const string command = ".command";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string rss = ".rss";
+    internal const string rss = ".rss";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string htc = ".htc";
+    internal const string htc = ".htc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string net = ".net";
+    internal const string net = ".net";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string inc = ".inc";
+    internal const string inc = ".inc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mid = ".mid";
+    internal const string mid = ".mid";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mht = ".mht";
+    internal const string mht = ".mht";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string projdata = ".projdata";
+    internal const string projdata = ".projdata";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string incr = ".incr";
+    internal const string incr = ".incr";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string projdata1 = ".projdata1";
+    internal const string projdata1 = ".projdata1";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hhc = ".hhc";
+    internal const string hhc = ".hhc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hhk = ".hhk";
+    internal const string hhk = ".hhk";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hhp = ".hhp";
+    internal const string hhp = ".hhp";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string appxmanifest = ".appxmanifest";
+    internal const string appxmanifest = ".appxmanifest";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string projitems = ".projitems";
+    internal const string projitems = ".projitems";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string shproj = ".shproj";
+    internal const string shproj = ".shproj";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string proj = ".proj";
+    internal const string proj = ".proj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string addin = ".addin";
+    internal const string addin = ".addin";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string template = ".template";
+    internal const string template = ".template";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xfrm = ".xfrm";
+    internal const string xfrm = ".xfrm";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string cur = ".cur";
+    internal const string cur = ".cur";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string doc = ".doc";
+    internal const string doc = ".doc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string wxs = ".wxs";
+    internal const string wxs = ".wxs";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string wixproj = ".wixproj";
+    internal const string wixproj = ".wixproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string url = ".url";
+    internal const string url = ".url";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string vbproj = ".vbproj";
+    internal const string vbproj = ".vbproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string build = ".build";
+    internal const string build = ".build";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string atg = ".atg";
+    internal const string atg = ".atg";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string frame = ".frame";
+    internal const string frame = ".frame";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string wixlib = ".wixlib";
+    internal const string wixlib = ".wixlib";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string wxl = ".wxl";
+    internal const string wxl = ".wxl";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string appx = ".appx";
+    internal const string appx = ".appx";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string appxupload = ".appxupload";
+    internal const string appxupload = ".appxupload";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string appxbundle = ".appxbundle";
+    internal const string appxbundle = ".appxbundle";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string cer = ".cer";
+    internal const string cer = ".cer";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string p12 = ".p12";
+    internal const string p12 = ".p12";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string refresh = ".refresh";
+    internal const string refresh = ".refresh";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pubxml = ".pubxml";
+    internal const string pubxml = ".pubxml";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string syn = ".syn";
+    internal const string syn = ".syn";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string config2 = ".config2";
+    internal const string config2 = ".config2";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string skin = ".skin";
+    internal const string skin = ".skin";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string pptx = ".pptx";
+    internal const string pptx = ".pptx";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string docx = ".docx";
+    internal const string docx = ".docx";
     [TypeOfExtension(TypeOfExtension.multimedia)]
-    public const string mp4 = ".mp4";
+    internal const string mp4 = ".mp4";
     [TypeOfExtension(TypeOfExtension.multimedia)]
-    public const string wmv = ".wmv";
+    internal const string wmv = ".wmv";
     [TypeOfExtension(TypeOfExtension.documentText)]
-    public const string pps = ".pps";
+    internal const string pps = ".pps";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string rsp = ".rsp";
+    internal const string rsp = ".rsp";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string xlf = ".xlf";
+    internal const string xlf = ".xlf";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string h = ".h";
+    internal const string h = ".h";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string lib = ".lib";
+    internal const string lib = ".lib";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string glade = ".glade";
+    internal const string glade = ".glade";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string dsw = ".dsw";
+    internal const string dsw = ".dsw";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string myapp = ".myapp";
+    internal const string myapp = ".myapp";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pidb = ".pidb";
+    internal const string pidb = ".pidb";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string userprefs = ".userprefs";
+    internal const string userprefs = ".userprefs";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string usertasks = ".usertasks";
+    internal const string usertasks = ".usertasks";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string cpp = ".cpp";
+    internal const string cpp = ".cpp";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string cproj = ".cproj";
+    internal const string cproj = ".cproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string tfsbase = ".tfs-base";
+    internal const string tfsbase = ".tfs-base";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string dbml = ".dbml";
+    internal const string dbml = ".dbml";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string layout = ".layout";
+    internal const string layout = ".layout";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string appxrecipe = ".appxrecipe";
+    internal const string appxrecipe = ".appxrecipe";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pckgdep = ".pckgdep";
+    internal const string pckgdep = ".pckgdep";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string intermediate = ".intermediate";
+    internal const string intermediate = ".intermediate";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string resfiles = ".resfiles";
+    internal const string resfiles = ".resfiles";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string backup = ".backup";
+    internal const string backup = ".backup";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string jsproj = ".jsproj";
+    internal const string jsproj = ".jsproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string resjson = ".resjson";
+    internal const string resjson = ".resjson";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string vcxproj = ".vcxproj";
+    internal const string vcxproj = ".vcxproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string filters = ".filters";
+    internal const string filters = ".filters";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string idl = ".idl";
+    internal const string idl = ".idl";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string jxr = ".jxr";
+    internal const string jxr = ".jxr";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vtt = ".vtt";
+    internal const string vtt = ".vtt";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hlsl = ".hlsl";
+    internal const string hlsl = ".hlsl";
     [TypeOfExtension(TypeOfExtension.multimedia)]
-    public const string mpg = ".mpg";
+    internal const string mpg = ".mpg";
     [TypeOfExtension(TypeOfExtension.resource)]
-    public const string resw = ".resw";
+    internal const string resw = ".resw";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xbf = ".xbf";
+    internal const string xbf = ".xbf";
     [TypeOfExtension(TypeOfExtension.binary)]
-    public const string winmd = ".winmd";
+    internal const string winmd = ".winmd";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string state = ".state";
+    internal const string state = ".state";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string winmdobj = ".winmdobj";
+    internal const string winmdobj = ".winmdobj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string appcontentms = ".appcontent-ms";
+    internal const string appcontentms = ".appcontent-ms";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string fxlib = ".fxlib";
+    internal const string fxlib = ".fxlib";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string fzz = ".fzz";
+    internal const string fzz = ".fzz";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string ino = ".ino";
+    internal const string ino = ".ino";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string dds = ".dds";
+    internal const string dds = ".dds";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string rc = ".rc";
+    internal const string rc = ".rc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string srt = ".srt";
+    internal const string srt = ".srt";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hlsli = ".hlsli";
+    internal const string hlsli = ".hlsli";
     [TypeOfExtension(TypeOfExtension.multimedia)]
-    public const string wma = ".wma";
+    internal const string wma = ".wma";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string vdproj = ".vdproj";
+    internal const string vdproj = ".vdproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string dsp = ".dsp";
+    internal const string dsp = ".dsp";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string rc2 = ".rc2";
+    internal const string rc2 = ".rc2";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string tlb = ".tlb";
+    internal const string tlb = ".tlb";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string m4 = ".m4";
+    internal const string m4 = ".m4";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string _in = ".in";
+    internal const string _in = ".in";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string ac = ".ac";
+    internal const string ac = ".ac";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string win32 = ".win32";
+    internal const string win32 = ".win32";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string wince = ".wince";
+    internal const string wince = ".wince";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string am = ".am";
+    internal const string am = ".am";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string guess = ".guess";
+    internal const string guess = ".guess";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string rpath = ".rpath";
+    internal const string rpath = ".rpath";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sub = ".sub";
+    internal const string sub = ".sub";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sgml = ".sgml";
+    internal const string sgml = ".sgml";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string help = ".help";
+    internal const string help = ".help";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string lircrc = ".lircrc";
+    internal const string lircrc = ".lircrc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string bas = ".bas";
+    internal const string bas = ".bas";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string frm = ".frm";
+    internal const string frm = ".frm";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string frx = ".frx";
+    internal const string frx = ".frx";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vbp = ".vbp";
+    internal const string vbp = ".vbp";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vbw = ".vbw";
+    internal const string vbw = ".vbw";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string init = ".init";
+    internal const string init = ".init";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string suppressions = ".suppressions";
+    internal const string suppressions = ".suppressions";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vim = ".vim";
+    internal const string vim = ".vim";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mak = ".mak";
+    internal const string mak = ".mak";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string diff = ".diff";
+    internal const string diff = ".diff";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string gpe = ".gpe";
+    internal const string gpe = ".gpe";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string h3600 = ".h3600";
+    internal const string h3600 = ".h3600";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string opie = ".opie";
+    internal const string opie = ".opie";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string zaurus = ".zaurus";
+    internal const string zaurus = ".zaurus";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string desktop = ".desktop";
+    internal const string desktop = ".desktop";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string plist = ".plist";
+    internal const string plist = ".plist";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string icns = ".icns";
+    internal const string icns = ".icns";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string rsrc = ".rsrc";
+    internal const string rsrc = ".rsrc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string scpt = ".scpt";
+    internal const string scpt = ".scpt";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string strings = ".strings";
+    internal const string strings = ".strings";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string pbxproj = ".pbxproj";
+    internal const string pbxproj = ".pbxproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string scriptsuite = ".scriptsuite";
+    internal const string scriptsuite = ".scriptsuite";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string scriptterminology = ".scriptterminology";
+    internal const string scriptterminology = ".scriptterminology";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string nib = ".nib";
+    internal const string nib = ".nib";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string spec = ".spec";
+    internal const string spec = ".spec";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string nsh = ".nsh";
+    internal const string nsh = ".nsh";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string s = ".s";
+    internal const string s = ".s";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string m = ".m";
+    internal const string m = ".m";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string hpp = ".hpp";
+    internal const string hpp = ".hpp";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string gladep = ".gladep";
+    internal const string gladep = ".gladep";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string qrc = ".qrc";
+    internal const string qrc = ".qrc";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xpm = ".xpm";
+    internal const string xpm = ".xpm";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string ui = ".ui";
+    internal const string ui = ".ui";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string gmo = ".gmo";
+    internal const string gmo = ".gmo";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sed = ".sed";
+    internal const string sed = ".sed";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string header = ".header";
+    internal const string header = ".header";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sin = ".sin";
+    internal const string sin = ".sin";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string r = ".r";
+    internal const string r = ".r";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string hosts = ".hosts";
+    internal const string hosts = ".hosts";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string access = ".access";
+    internal const string access = ".access";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string lua = ".lua";
+    internal const string lua = ".lua";
     /// <summary>
     ///     Co jsem je otevřel tak všechny byly textové
     /// </summary>
     [TypeOfExtension(TypeOfExtension.settingsText)]
-    public const string cfg = ".cfg";
+    internal const string cfg = ".cfg";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xcf = ".xcf";
+    internal const string xcf = ".xcf";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string catalog = ".catalog";
+    internal const string catalog = ".catalog";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string dtd = ".dtd";
+    internal const string dtd = ".dtd";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sym = ".sym";
+    internal const string sym = ".sym";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vsdisco = ".vsdisco";
+    internal const string vsdisco = ".vsdisco";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string kdevses = ".kdevses~";
+    internal const string kdevses = ".kdevses~";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string xls = ".xls";
+    internal const string xls = ".xls";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vsk = ".vsk";
+    internal const string vsk = ".vsk";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string web = ".web";
+    internal const string web = ".web";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string sol = ".sol";
+    internal const string sol = ".sol";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string fx = ".fx";
+    internal const string fx = ".fx";
     [TypeOfExtension(TypeOfExtension.visual_studioText)]
-    public const string pyproj = ".pyproj";
+    internal const string pyproj = ".pyproj";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pyd = ".pyd";
+    internal const string pyd = ".pyd";
     [TypeOfExtension(TypeOfExtension.image)]
-    public const string tiff = ".tiff";
+    internal const string tiff = ".tiff";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string clientconfig = ".clientconfig";
+    internal const string clientconfig = ".clientconfig";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string vs10x = ".vs10x";
+    internal const string vs10x = ".vs10x";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string exclude = ".exclude";
+    internal const string exclude = ".exclude";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string mno = ".mno";
+    internal const string mno = ".mno";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string pfb = ".pfb";
+    internal const string pfb = ".pfb";
     [TypeOfExtensionAttribute(TypeOfExtension.other)]
-    public const string pfm = ".pfm";
+    internal const string pfm = ".pfm";
     [TypeOfExtension(TypeOfExtension.other)]
-    public const string fla = ".fla";
+    internal const string fla = ".fla";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public const string java = ".java";
+    internal const string java = ".java";
     [TypeOfExtension(TypeOfExtension.source_code)]
-    public static string go = ".go";
-    public static string wmf = ".wmf";
-    public static string emf = ".emf";
-    public static string exif = ".exif";
-    public static string webp = ".webp";
+    internal static string go = ".go";
+    internal static string wmf = ".wmf";
+    internal static string emf = ".emf";
+    internal static string exif = ".exif";
+    internal static string webp = ".webp";
 }

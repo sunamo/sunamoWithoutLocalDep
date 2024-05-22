@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace SunamoGetFiles;
 internal class SH
 {
-    public static void FirstCharUpper(ref string nazevPP)
+    internal static void FirstCharUpper(ref string nazevPP)
     {
         nazevPP = FirstCharUpper(nazevPP);
     }
 
-    public static string FirstCharUpper(string nazevPP)
+    internal static string FirstCharUpper(string nazevPP)
     {
         if (nazevPP.Length == 1)
         {

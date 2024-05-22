@@ -4,9 +4,9 @@ namespace SunamoWikipedia;
 /// <summary>
 /// 
 /// </summary>
-public partial class DictionaryHelper
+internal partial class DictionaryHelper
 {
-    public static Dictionary<Key, Value> GetDictionary<Key, Value>(List<Key> keys, List<Value> values)
+    internal static Dictionary<Key, Value> GetDictionary<Key, Value>(List<Key> keys, List<Value> values)
     {
         ThrowEx.DifferentCountInLists("keys", keys.Count, "values", values.Count);
         Dictionary<Key, Value> result = new Dictionary<Key, Value>();
@@ -16,7 +16,7 @@ public partial class DictionaryHelper
         }
         return result;
     }
-    public static Value GetFirstItemValue<Key, Value>(Dictionary<Key, Value> dict)
+    internal static Value GetFirstItemValue<Key, Value>(Dictionary<Key, Value> dict)
     {
         foreach (var item in dict)
         {
@@ -24,7 +24,7 @@ public partial class DictionaryHelper
         }
         return default(Value);
     }
-    public static void AddOrCreateIfDontExists<Key, Value>(Dictionary<Key, List<Value>> sl, Key key, Value value)
+    internal static void AddOrCreateIfDontExists<Key, Value>(Dictionary<Key, List<Value>> sl, Key key, Value value)
     {
         if (sl.ContainsKey(key))
         {

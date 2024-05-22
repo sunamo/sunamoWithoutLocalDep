@@ -10,7 +10,7 @@ namespace SunamoWikipedia;
 /// </summary>
 public class HtmlTableParser
 {
-    public HtmlTableParser(object item, bool v)
+    internal HtmlTableParser(object item, bool v)
     {
     }
 

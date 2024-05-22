@@ -5,32 +5,32 @@ using System.Text.RegularExpressions;
 /// <summary>
 /// Most NotTranslateAble class due to many regex and duplicated \
 /// </summary>
-public static class RegexHelper
+internal static class RegexHelper
 {
-    public static Regex rHtmlScript = new Regex(@"<script[^>]*>[\s\S]*?</script>", RegexOptions.IgnoreCase | RegexOptions.Compiled);
-    public static Regex rHtmlComment = new Regex(@"<!--[^>]*>[\s\S]*?-->", RegexOptions.IgnoreCase | RegexOptions.Compiled);
-    public static Regex rYtVideoLink = new Regex("youtu(?:\\.be|be\\.com)/(?:.*v(?:/|=)|(?:.*/)?)([a-zA-Z0-9-_]+)", RegexOptions.Compiled);
-    public static Regex rBrTagCaseInsensitive = new Regex(@"<br\s*/?>");
-    public static bool IsEmail(string email)
+    internal static Regex rHtmlScript = new Regex(@"<script[^>]*>[\s\S]*?</script>", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    internal static Regex rHtmlComment = new Regex(@"<!--[^>]*>[\s\S]*?-->", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    internal static Regex rYtVideoLink = new Regex("youtu(?:\\.be|be\\.com)/(?:.*v(?:/|=)|(?:.*/)?)([a-zA-Z0-9-_]+)", RegexOptions.Compiled);
+    internal static Regex rBrTagCaseInsensitive = new Regex(@"<br\s*/?>");
+    internal static bool IsEmail(string email)
     {
         Regex r = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
         return r.IsMatch(email);
     }
-    public static Regex rUri = new Regex(@"(https?://[^\s]+)");
+    internal static Regex rUri = new Regex(@"(https?://[^\s]+)");
     //static Regex rUriOnlyOutsideTags = new Regex("https?:\/\/[^\s]*|<\/?\w+\b(?=\s|>)(?:='[^']*'|="[^ "]*" |=[^ '"][^\s>]*|[^>])*>|\&nbsp;John|(John)/gi");
     //static Regex rUriOnlyOutsideTags = new Regex("(text|simple)(?![^<]*>|[^<>]*</)");
     // cant compile
     //static Regex rHtmlTag = new Regex(@"(?<==)["']?((?:.(?!["']?\\s+(?:\S+)=|[>"']))+.)["']?");
-    public static Regex rHtmlTag = new Regex("<\\s*([A-Za-z])*?[^>]*/?>");
-    public static Regex rgColor6 = new Regex(@"^(?:[0-9a-fA-F]{3}){1,2}$");
-    public static Regex rgColor8 = new Regex(@"^(?:[0-9a-fA-F]{3}){1,2}(?:[0-9a-fA-F]){2}$");
-    public static Regex rPreTagWithContent = new Regex(@"<\s*pre[^>]*>(.*?)<\s*/\s*pre>", RegexOptions.Multiline);
-    public static Regex isGuid = new Regex(@"^(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}$", RegexOptions.Compiled);
-    public static Regex rImgTag = new Regex(@"<img\s+([^>]*)(.*?)[^>]*>");
-    public static Regex rWpImgThumbnail = new Regex(@"(https?:\/\/([^\s]+)-([0-9]*)x([0-9]*).jpg)");
-    public static Regex rNonPairXmlTagsUnvalid = new Regex("<(?:\"[^\"]*\"['\"]*|'[^']*'['\"]*|[^'\">])+>");
-    public static readonly Regex rWhitespace = new Regex(@"\s+");
-    public static bool IsColor(string entry)
+    internal static Regex rHtmlTag = new Regex("<\\s*([A-Za-z])*?[^>]*/?>");
+    internal static Regex rgColor6 = new Regex(@"^(?:[0-9a-fA-F]{3}){1,2}$");
+    internal static Regex rgColor8 = new Regex(@"^(?:[0-9a-fA-F]{3}){1,2}(?:[0-9a-fA-F]){2}$");
+    internal static Regex rPreTagWithContent = new Regex(@"<\s*pre[^>]*>(.*?)<\s*/\s*pre>", RegexOptions.Multiline);
+    internal static Regex isGuid = new Regex(@"^(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}$", RegexOptions.Compiled);
+    internal static Regex rImgTag = new Regex(@"<img\s+([^>]*)(.*?)[^>]*>");
+    internal static Regex rWpImgThumbnail = new Regex(@"(https?:\/\/([^\s]+)-([0-9]*)x([0-9]*).jpg)");
+    internal static Regex rNonPairXmlTagsUnvalid = new Regex("<(?:\"[^\"]*\"['\"]*|'[^']*'['\"]*|[^'\">])+>");
+    internal static readonly Regex rWhitespace = new Regex(@"\s+");
+    internal static bool IsColor(string entry)
     {
         entry = entry.Trim().TrimStart('#');
         if (entry.Length == 6)
@@ -43,7 +43,7 @@ public static class RegexHelper
         }
         return false;
     }
-    public static bool IsYtVideoUri(string text)
+    internal static bool IsYtVideoUri(string text)
     {
         return rYtVideoLink.IsMatch(text);
     }
@@ -52,7 +52,7 @@ public static class RegexHelper
     /// Not working - keep in plain text, use ReplacePlainUrlWithLinks2
     /// </summary>
     /// <param name="plainText"></param>
-    public static string ReplacePlainUrlWithLinks(string plainText)
+    internal static string ReplacePlainUrlWithLinks(string plainText)
     {
         var html = Regex.Replace(plainText, @"^(http|https|ftp)\://[a-zA-Z0-9\-\.]+" +
         @"\.[a-zA-Z]{2,3}(:[a-zA-Z0-9]*)?/?" +
@@ -60,11 +60,11 @@ public static class RegexHelper
         "<a href=\"$1\">$1</a>");
         return html;
     }
-    public static bool IsUri(string text)
+    internal static bool IsUri(string text)
     {
         return rUri.IsMatch(text) && (text.StartsWith("http://") || text.StartsWith("https://"));
     }
-    public static List<string> AllFromGroup(MatchCollection m, int v)
+    internal static List<string> AllFromGroup(MatchCollection m, int v)
     {
         List<string> vr = new List<string>(m.Count);
         foreach (Match item in m)
@@ -73,8 +73,8 @@ public static class RegexHelper
         }
         return vr;
     }
-    public static string lastTelephone = null;
-    public static bool IsTelephone(string innerText)
+    internal static string lastTelephone = null;
+    internal static bool IsTelephone(string innerText)
     {
         lastTelephone = null;
         innerText = rWhitespace.Replace(innerText, string.Empty);
@@ -100,7 +100,7 @@ public static class RegexHelper
         }
         return result;
     }
-    public static string SanitizePhone(string s)
+    internal static string SanitizePhone(string s)
     {
         if (string.IsNullOrWhiteSpace(s))
         {

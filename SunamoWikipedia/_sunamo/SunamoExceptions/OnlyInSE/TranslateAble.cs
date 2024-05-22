@@ -1,7 +1,7 @@
 namespace SunamoWikipedia;
 
 
-public class TranslateAble
+internal class TranslateAble
 {
     /// <summary>
     ///     je tu jen protože se mi nechce editovat všechny výskyty SunamoPageHelperSunamo kdy byvch musel druhou závorku ručně
@@ -11,7 +11,7 @@ public class TranslateAble
     /// <param name="notSupported"></param>
     /// <returns></returns>
     /// <exception cref="NotImplementedException"></exception>
-    public static string i18n(string xlfKey)
+    internal static string i18n(string xlfKey)
     {
         return xlfKey;
     }

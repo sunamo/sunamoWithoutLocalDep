@@ -1,9 +1,9 @@
 namespace SunamoStringShared;
 
 
-public class SHSE
+internal class SHSE
 {
-    public static string JoinNL(List<string> l)
+    internal static string JoinNL(List<string> l)
     {
         StringBuilder sb = new();
         foreach (var item in l) sb.AppendLine(item);
@@ -17,7 +17,7 @@ public class SHSE
     ///     Not auto remove empty
     /// </summary>
     /// <param name="p"></param>
-    public static List<string> GetLines(string p, bool autoTrim = false)
+    internal static List<string> GetLines(string p, bool autoTrim = false)
     {
         List<string> vr = new();
         StringReader sr = new(p);
@@ -30,7 +30,7 @@ public class SHSE
         }
         return vr;
     }
-    public static string FirstCharLower(string nazevPP)
+    internal static string FirstCharLower(string nazevPP)
     {
         if (nazevPP.Length < 2) return nazevPP;
         var sb = nazevPP.Substring(1);
@@ -40,7 +40,7 @@ public class SHSE
     ///     Convert \r\n to NewLine etc.
     /// </summary>
     /// <param name="delimiter"></param>
-    public static string ConvertTypedWhitespaceToString(string delimiter)
+    internal static string ConvertTypedWhitespaceToString(string delimiter)
     {
         const string nl = @"
 ";
@@ -64,15 +64,15 @@ public class SHSE
     /// <param name="dot"></param>
     /// <returns></returns>
     /// <exception cref="NotImplementedException"></exception>
-    public static List<string> SplitChar(string s, params char[] dot)
+    internal static List<string> SplitChar(string s, params char[] dot)
     {
         return s.Split(dot, StringSplitOptions.RemoveEmptyEntries).ToList();
     }
-    public static List<string> Split(string s, params string[] dot)
+    internal static List<string> Split(string s, params string[] dot)
     {
         return s.Split(dot, StringSplitOptions.RemoveEmptyEntries).ToList();
     }
-    public static List<string> SplitNone(string text, params string[] deli)
+    internal static List<string> SplitNone(string text, params string[] deli)
     {
         return text.Split(deli, StringSplitOptions.None).ToList();
     }
@@ -84,7 +84,7 @@ public class SHSE
     /// <param name="n"></param>
     /// <param name="v"></param>
     /// <returns></returns>
-    public static string NullToStringOrDefault(object n, string v)
+    internal static string NullToStringOrDefault(object n, string v)
     {
         throw new Exception(
         "Tahle metoda vypadala jinak ale jak idiot jsem ji změnil. Tím jak jsem poté přesouval metody tam zpět už je těžké se k tomu dostat.");
@@ -98,7 +98,7 @@ public class SHSE
     /// </summary>
     /// <param name="n"></param>
     /// <returns></returns>
-    public static string NullToStringOrDefault(object n)
+    internal static string NullToStringOrDefault(object n)
     {
         //return NullToStringOrDefault(n, null);
         return n == null ? " " + Consts.nulled : AllStrings.space + n;
@@ -110,7 +110,7 @@ public class SHSE
     /// <param name="name"></param>
     /// <param name="ext"></param>
     /// <returns></returns>
-    public static string TrimEnd(string name, string ext)
+    internal static string TrimEnd(string name, string ext)
     {
         while (name.EndsWith(ext)) return name.Substring(0, name.Length - ext.Length);
         return name;

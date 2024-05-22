@@ -3,7 +3,7 @@ namespace SunamoHttp;
 
 internal class SHSunamoExceptions
 {
-    public static string JoinNL(List<string> l)
+    internal static string JoinNL(List<string> l)
     {
         StringBuilder sb = new();
         foreach (var item in l) sb.AppendLine(item);
@@ -11,24 +11,24 @@ internal class SHSunamoExceptions
         r = sb.ToString();
         return r;
     }
-    public static List<string> SplitChar(string s, params char[] dot)
+    internal static List<string> SplitChar(string s, params char[] dot)
     {
         return s.Split(dot, StringSplitOptions.RemoveEmptyEntries).ToList();
     }
-    public static List<string> Split(string s, params string[] dot)
+    internal static List<string> Split(string s, params string[] dot)
     {
         return s.Split(dot, StringSplitOptions.RemoveEmptyEntries).ToList();
     }
-    public static List<string> SplitNone(string text, params string[] deli)
+    internal static List<string> SplitNone(string text, params string[] deli)
     {
         return text.Split(deli, StringSplitOptions.None).ToList();
     }
-    public static string NullToStringOrDefault(object n)
+    internal static string NullToStringOrDefault(object n)
     {
         //return NullToStringOrDefault(n, null);
         return n == null ? " " + Consts.nulled : AllStrings.space + n;
     }
-    public static string TrimEnd(string name, string ext)
+    internal static string TrimEnd(string name, string ext)
     {
         while (name.EndsWith(ext)) return name.Substring(0, name.Length - ext.Length);
         return name;

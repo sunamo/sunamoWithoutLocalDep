@@ -8,9 +8,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-public static class ListExtensions
+internal static class ListExtensions
 {
-    public static string ChangeFilename(string filepath, string newFilename)
+    internal static string ChangeFilename(string filepath, string newFilename)
     {
         // filepath = @"photo\myFolder\image.jpg";
         // newFileName = @"image-resize";
@@ -18,7 +18,7 @@ public static class ListExtensions
         string ext = Path.GetExtension(filepath);        // @".jpg"
         return Path.Combine(dir, newFilename + ext); // @"photo\myFolder\image-resize.jpg"
     }
-    public static async Task<List<T>> RemoveAllAlsoFromFile<T>(this List<T> cl, Predicate<T> match, string path) where T : BaseTypeDeclarationSyntax
+    internal static async Task<List<T>> RemoveAllAlsoFromFile<T>(this List<T> cl, Predicate<T> match, string path) where T : BaseTypeDeclarationSyntax
     {
         var directoryName = Path.GetDirectoryName(path);
         var toRemove = cl.FindAll(match);
@@ -95,7 +95,7 @@ public static class ListExtensions
         await File.WriteAllTextAsync(newFp2, ts);
         return cl;
     }
-    public static async Task<List<T>> RemoveAlsoFromFile<T>(this List<T> cl, T item, string path) where T : BaseTypeDeclarationSyntax
+    internal static async Task<List<T>> RemoveAlsoFromFile<T>(this List<T> cl, T item, string path) where T : BaseTypeDeclarationSyntax
     {
         var directoryName = Path.GetDirectoryName(path);
         var newFp = ChangeFilename(path, item.Identifier.Text);

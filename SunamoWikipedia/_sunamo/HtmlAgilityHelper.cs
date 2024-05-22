@@ -8,7 +8,7 @@ namespace SunamoWikipedia;
 /// <summary>
 /// Protože klasický HtmlAgilityHelper chce HtmlHelper který má miliardu deps
 /// </summary>
-public class HtmlAgilityHelper
+internal class HtmlAgilityHelper
 {
     internal static HtmlDocument CreateHtmlDocument()
     {
