@@ -1,7 +1,7 @@
 namespace SunamoGetFiles;
 
 
-internal enum ComputerSizeUnits : byte
+public enum ComputerSizeUnits : byte
 {
     /// <summary>
     /// Když se má automaticky vyhodnotit nejsprávnější jednotka

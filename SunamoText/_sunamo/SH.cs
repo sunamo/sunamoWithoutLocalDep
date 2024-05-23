@@ -8,9 +8,9 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace SunamoText;
-internal class SH
+public class SH
 {
-    internal static bool MatchWildcard(string name, string mask)
+    public static bool MatchWildcard(string name, string mask)
     {
         return IsMatchRegex(name, mask, AllChars.q, AllChars.asterisk);
     }
@@ -31,11 +31,11 @@ internal class SH
         Regex reg = new Regex(pat);
         return reg.IsMatch(str);
     }
-    internal static int OccurencesOfStringIn(string source, string p_2)
+    public static int OccurencesOfStringIn(string source, string p_2)
     {
         return source.Split(new string[] { p_2 }, StringSplitOptions.None).Length - 1;
     }
-    internal static bool ContainsAll(string input, IList<string> allWords, ContainsCompareMethod ccm = ContainsCompareMethod.WholeInput)
+    public static bool ContainsAll(string input, IList<string> allWords, ContainsCompareMethod ccm = ContainsCompareMethod.WholeInput)
     {
         if (ccm == ContainsCompareMethod.SplitToWords)
         {
@@ -71,7 +71,7 @@ internal class SH
         return true;
     }
 
-    internal static bool IsContained(string item, ref string contains)
+    public static bool IsContained(string item, ref string contains)
     {
         var (negation, contains2) = IsNegationTuple(contains);
         contains = contains2;
@@ -88,7 +88,7 @@ internal class SH
         return true;
     }
 
-    internal static bool IsContained(string item, string contains)
+    public static bool IsContained(string item, string contains)
     {
         var (negation, contains2) = IsNegationTuple(contains);
         contains = contains2;
@@ -105,7 +105,7 @@ internal class SH
         return true;
     }
 
-    internal static (bool, string) IsNegationTuple(string contains)
+    public static (bool, string) IsNegationTuple(string contains)
     {
         if (contains[0] == '!')
         {

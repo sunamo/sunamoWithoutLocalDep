@@ -1,7 +1,7 @@
 namespace SunamoCollectionOnDrive;
 
 
-internal class TranslateAble
+public class TranslateAble
 {
     /// <summary>
     ///     je tu jen protože se mi nechce editovat všechny výskyty SunamoPageHelperSunamo kdy byvch musel druhou závorku ručně
@@ -11,7 +11,7 @@ internal class TranslateAble
     /// <param name="notSupported"></param>
     /// <returns></returns>
     /// <exception cref="NotImplementedException"></exception>
-    internal static string i18n(string xlfKey)
+    public static string i18n(string xlfKey)
     {
         return xlfKey;
     }

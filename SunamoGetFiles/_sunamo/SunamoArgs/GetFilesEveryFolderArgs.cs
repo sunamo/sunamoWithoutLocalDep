@@ -1,17 +1,17 @@
 namespace SunamoGetFiles;
 
 
-internal class GetFilesEveryFolderArgs : GetFilesBaseArgs
+public class GetFilesEveryFolderArgs : GetFilesBaseArgs
 {
-    internal bool usePbTime = false;
-    internal Action<double> InsertPbTime = null;
-    internal Action<string> UpdateTbPb = null;
-    internal bool usePb = false;
-    internal Action<double> InsertPb = null;
-    internal Action DoneOnePercent;
-    internal Action Done;
+    public bool usePbTime = false;
+    public Action<double> InsertPbTime = null;
+    public Action<string> UpdateTbPb = null;
+    public bool usePb = false;
+    public Action<double> InsertPb = null;
+    public Action DoneOnePercent;
+    public Action Done;
     // return false if no to indexed. otherwise true
-    internal Func<string, bool> FilterFoundedFiles;
-    internal Func<string, bool> FilterFoundedFolders;
-    internal int getNullIfThereIsMoreThanXFiles = -1;
+    public Func<string, bool> FilterFoundedFiles;
+    public Func<string, bool> FilterFoundedFolders;
+    public int getNullIfThereIsMoreThanXFiles = -1;
 }

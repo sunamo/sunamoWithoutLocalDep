@@ -1,8 +1,8 @@
 namespace SunamoGetFiles;
 
 
-internal class NetFxExceptionsNotTranslateAble
+public class NetFxExceptionsNotTranslateAble
 {
-    internal const string TheNameOfTheFileCannotBeResolvedByTheSystem
+    public const string TheNameOfTheFileCannotBeResolvedByTheSystem
     = "The name of the file cannot be resolved by the system";
 }

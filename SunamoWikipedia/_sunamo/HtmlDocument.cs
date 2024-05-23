@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoWikipedia;
-internal class HtmlDocument
+public class HtmlDocument
 {
-    internal object DocumentNode;
+    public object DocumentNode;
 
-    internal void LoadHtml(string html)
+    public void LoadHtml(string html)
     {
         ThrowEx.NotImplementedMethod();
     }

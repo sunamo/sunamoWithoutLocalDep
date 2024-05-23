@@ -2,20 +2,20 @@ using System.Runtime.CompilerServices;
 
 namespace SunamoAsync;
 
-internal static class TaskExtensions
+public static class TaskExtensions
 {
     #region For easy copy from TaskExtensionsSunamo.cs
-    internal static ConfiguredTaskAwaitable Conf(this Task t)
+    public static ConfiguredTaskAwaitable Conf(this Task t)
     {
         return t.ConfigureAwait(true);
     }
 
-    internal static ConfiguredTaskAwaitable<T> Conf<T>(this Task<T> t)
+    public static ConfiguredTaskAwaitable<T> Conf<T>(this Task<T> t)
     {
         return t.ConfigureAwait(true);
     }
 
-    internal static void LogExceptions(this Task task)
+    public static void LogExceptions(this Task task)
     {
         task.ContinueWith(t =>
             {

@@ -6,13 +6,13 @@ using System.Text.RegularExpressions;
 /// Represents a wildcard running on the
 /// <see cref="System.Text.RegularExpressions"/> engine.
 /// </summary>
-internal class Wildcard : Regex
+public class Wildcard : Regex
 {
     /// <summary>
     /// Initializes a wildcard with the given search pattern.
     /// </summary>
     /// <param name="pattern">The wildcard pattern to match.</param>
-    internal Wildcard(string pattern)
+    public Wildcard(string pattern)
     : base(WildcardToRegex(pattern))
     {
     }
@@ -22,7 +22,7 @@ internal class Wildcard : Regex
     /// <param name="pattern">The wildcard pattern to match.</param>
     /// <param name="options">A combination of one or more
     /// <see cref="RegexOptions"/>.</param>
-    internal Wildcard(string pattern, RegexOptions options)
+    public Wildcard(string pattern, RegexOptions options)
     : base(WildcardToRegex(pattern), options)
     {
     }
@@ -31,7 +31,7 @@ internal class Wildcard : Regex
     /// </summary>
     /// <param name="pattern">The wildcard pattern to convert.</param>
     /// <returns>A regex equivalent of the given wildcard.</returns>
-    internal static string WildcardToRegex(string pattern)
+    public static string WildcardToRegex(string pattern)
     {
         return "^" + Regex.Escape(pattern).Replace("\\*", ".*").Replace("\\?", AllStrings.dot) + "$";
     }

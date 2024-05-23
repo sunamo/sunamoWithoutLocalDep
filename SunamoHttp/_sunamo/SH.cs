@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoHttp;
-internal class SH
+public class SH
 {
-    internal static string AppendIfDontEndingWith(string text, string append)
+    public static string AppendIfDontEndingWith(string text, string append)
     {
         if (text.EndsWith(append))
         {

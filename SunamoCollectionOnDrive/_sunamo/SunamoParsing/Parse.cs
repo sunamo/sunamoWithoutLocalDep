@@ -1,11 +1,11 @@
 namespace SunamoCollectionOnDrive;
 
 
-internal class Parse
+public class Parse
 {
-    internal class Byte
+    public class Byte
     {
-        internal byte ParseByte(string p)
+        public byte ParseByte(string p)
         {
             byte b;
             if (byte.TryParse(p, out b))
@@ -15,13 +15,13 @@ internal class Parse
             return 0;
         }
     }
-    internal class Double
+    public class Double
     {
         /// <summary>
         /// Vrátí -1 v případě že se nepodaří vyparsovat
         /// </summary>
         /// <param name="p"></param>
-        internal double ParseDouble(string p)
+        public double ParseDouble(string p)
         {
             double p2;
             if (double.TryParse(p, out p2))
@@ -31,13 +31,13 @@ internal class Parse
             return 0;
         }
     }
-    internal class Integer
+    public class Integer
     {
         /// <summary>
         /// Vrátí -1 v případě že se nepodaří vyparsovat
         /// </summary>
         /// <param name="p"></param>
-        internal int ParseInt(string p)
+        public int ParseInt(string p)
         {
             int p2;
             if (int.TryParse(p, out p2))
@@ -49,7 +49,7 @@ internal class Parse
         /// <summary>
         /// Vrátí int.MaxValue v případě že se nepodaří vyparsovat
         /// </summary>
-        internal int ParseIntMaxValue(string p)
+        public int ParseIntMaxValue(string p)
         {
             int p2;
             if (int.TryParse(p, out p2))
@@ -59,13 +59,13 @@ internal class Parse
             return int.MaxValue;
         }
     }
-    internal class Short
+    public class Short
     {
         /// <summary>
         /// Vrátí -1 pokud se nepodaří vyparsovat
         /// </summary>
         /// <param name="d"></param>
-        internal short ParseShort(string d)
+        public short ParseShort(string d)
         {
             short s = 0;
             if (short.TryParse(d, out s))

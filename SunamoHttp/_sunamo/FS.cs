@@ -1,4 +1,4 @@
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,14 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoHttp;
-internal class FS
+public class FS
 {
-    internal static void CreateUpfoldersPsysicallyUnlessThere(string nad)
+    public static void CreateUpfoldersPsysicallyUnlessThere(string nad)
     {
         CreateFoldersPsysicallyUnlessThere(Path.GetDirectoryName(nad));
     }
 
-    internal static void CreateFoldersPsysicallyUnlessThere(string nad)
+    public static void CreateFoldersPsysicallyUnlessThere(string nad)
     {
         ThrowEx.IsNullOrEmpty("nad", nad);
         ThrowEx.IsNotWindowsPathFormat("nad", nad);
@@ -54,17 +54,17 @@ nad
         }
     }
 
-    internal static string Combine(params string[] folder2)
+    public static string Combine(params string[] folder2)
     {
         return Path.Combine(folder2);
     }
 
-    internal static bool ExistsFile(string path)
+    public static bool ExistsFile(string path)
     {
         return FS.ExistsFile(path);
     }
 
-    internal static long GetFileSize(string item)
+    public static long GetFileSize(string item)
     {
         FileInfo fi = null;
         try
@@ -83,24 +83,24 @@ nad
         return 0;
     }
 
-    internal static string GetExtension(string href)
+    public static string GetExtension(string href)
     {
         return Path.GetExtension(href);
     }
 
-    internal static void GetPathAndFileNameWithoutExtension(string fn, out string path, out string file, out string ext)
+    public static void GetPathAndFileNameWithoutExtension(string fn, out string path, out string file, out string ext)
     {
         path = Path.GetDirectoryName(fn) + AllChars.bs;
         file = Path.GetFileNameWithoutExtension(fn);
         ext = Path.GetExtension(fn);
     }
 
-    internal static string GetTempFilePath()
+    public static string GetTempFilePath()
     {
         return Path.Combine(System.IO.Path.GetTempPath(), System.IO.Path.GetTempFileName());
     }
 
-    //internal static void MoveFile(string item, string fileTo, FileMoveCollisionOption co)
+    //public static void MoveFile(string item, string fileTo, FileMoveCollisionOption co)
     //{
     //    if (CopyMoveFilePrepare(ref item, ref fileTo, co))
     //    {
@@ -125,7 +125,7 @@ nad
     //    }
     //}
 
-    internal static string ReplaceInvalidFileNameChars(string v)
+    public static string ReplaceInvalidFileNameChars(string v)
     {
         return string.Concat(v.Split(Path.GetInvalidFileNameChars()));
     }

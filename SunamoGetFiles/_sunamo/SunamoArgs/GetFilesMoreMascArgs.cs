@@ -1,11 +1,11 @@
 namespace SunamoGetFiles;
 
 
-internal class GetFilesMoreMascArgs : GetFilesBaseArgs
+public class GetFilesMoreMascArgs : GetFilesBaseArgs
 {
-    internal bool LoadFromFileWhenDebug = false;
-    internal string path;
-    internal string masc = "*";
-    internal SearchOption searchOption = SearchOption.TopDirectoryOnly;
-    internal bool deleteFromDriveWhenCannotBeResolved = false;
+    public bool LoadFromFileWhenDebug = false;
+    public string path;
+    public string masc = "*";
+    public SearchOption searchOption = SearchOption.TopDirectoryOnly;
+    public bool deleteFromDriveWhenCannotBeResolved = false;
 }

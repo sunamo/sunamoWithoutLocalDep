@@ -4,9 +4,9 @@ namespace SunamoWikipedia;
 /// <summary>
 /// 
 /// </summary>
-internal partial class DictionaryHelper
+public partial class DictionaryHelper
 {
-    internal static Dictionary<Key, Value> GetDictionary<Key, Value>(List<Key> keys, List<Value> values)
+    public static Dictionary<Key, Value> GetDictionary<Key, Value>(List<Key> keys, List<Value> values)
     {
         ThrowEx.DifferentCountInLists("keys", keys.Count, "values", values.Count);
         Dictionary<Key, Value> result = new Dictionary<Key, Value>();
@@ -16,7 +16,7 @@ internal partial class DictionaryHelper
         }
         return result;
     }
-    internal static Value GetFirstItemValue<Key, Value>(Dictionary<Key, Value> dict)
+    public static Value GetFirstItemValue<Key, Value>(Dictionary<Key, Value> dict)
     {
         foreach (var item in dict)
         {
@@ -24,7 +24,7 @@ internal partial class DictionaryHelper
         }
         return default(Value);
     }
-    internal static void AddOrCreateIfDontExists<Key, Value>(Dictionary<Key, List<Value>> sl, Key key, Value value)
+    public static void AddOrCreateIfDontExists<Key, Value>(Dictionary<Key, List<Value>> sl, Key key, Value value)
     {
         if (sl.ContainsKey(key))
         {
@@ -40,7 +40,7 @@ internal partial class DictionaryHelper
             sl.Add(key, ad);
         }
     }
-    internal static void AddOrSet<T1, T2>(IDictionary<T1, T2> qs, T1 k, T2 v)
+    public static void AddOrSet<T1, T2>(IDictionary<T1, T2> qs, T1 k, T2 v)
     {
         if (qs.ContainsKey(k))
         {
@@ -51,7 +51,7 @@ internal partial class DictionaryHelper
             qs.Add(k, v);
         }
     }
-    internal static void AddOrSet(Dictionary<string, string> qs, string k, string v)
+    public static void AddOrSet(Dictionary<string, string> qs, string k, string v)
     {
         if (qs.ContainsKey(k))
         {
@@ -75,7 +75,7 @@ internal partial class DictionaryHelper
     /// <param name="sl"></param>
     /// <param name="key"></param>
     /// <param name="value"></param>
-    internal static void AddOrCreate<Key, Value, ColType>(IDictionary<Key, List<Value>> dict, Key key, Value value,
+    public static void AddOrCreate<Key, Value, ColType>(IDictionary<Key, List<Value>> dict, Key key, Value value,
         bool withoutDuplicitiesInValue = false, Dictionary<Key, List<string>> dictS = null)
     {
         var compWithString = false;
@@ -171,7 +171,7 @@ internal partial class DictionaryHelper
             }
         }
     }
-    internal static void AddOrCreate<Key, Value>(IDictionary<Key, List<Value>> sl, Key key, Value value,
+    public static void AddOrCreate<Key, Value>(IDictionary<Key, List<Value>> sl, Key key, Value value,
         bool withoutDuplicitiesInValue = false, Dictionary<Key, List<string>> dictS = null)
     {
         AddOrCreate<Key, Value, object>(sl, key, value, withoutDuplicitiesInValue, dictS);

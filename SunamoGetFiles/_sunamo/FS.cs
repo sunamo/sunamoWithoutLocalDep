@@ -6,13 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoGetFiles;
-internal class FS
+public class FS
 {
-    internal static string ReplaceInvalidFileNameChars(string filename, params char[] ch)
+    public static string ReplaceInvalidFileNameChars(string filename, params char[] ch)
     {
         return string.Concat(filename.Split(Path.GetInvalidFileNameChars()));
     }
-    internal static string AllIncludeIfOnlyLetters(string item)
+    public static string AllIncludeIfOnlyLetters(string item)
     {
         item = item.ToLower().TrimStart('*').TrimStart('.');
         //if ( SH.ContainsOnlyCase(item.ToLower(), false, false))
@@ -24,12 +24,12 @@ internal class FS
         return item;
     }
 
-    internal static string GetNormalizedExtension(string filename)
+    public static string GetNormalizedExtension(string filename)
     {
         return NormalizeExtension(filename);
     }
 
-    internal static string GetSizeInAutoString(double size)
+    public static string GetSizeInAutoString(double size)
     {
 
 
@@ -58,13 +58,13 @@ internal class FS
         return size + " " + unit.ToString();
     }
 
-    internal static DateTime LastModified(string rel)
+    public static DateTime LastModified(string rel)
     {
         if (File.Exists(rel))
         {
             return File.GetLastWriteTime(rel);
 
-            // FileInfo mi drï¿½el soubor a vznikali chyby The process cannot access the file
+            // FileInfo mi držel soubor a vznikali chyby The process cannot access the file
             //var f = new FileInfo(rel);
             //var r = f.LastWriteTime;
             //return r;
@@ -73,7 +73,7 @@ internal class FS
 
     }
 
-    internal static string MascFromExtension(string ext2 = AllStrings.asterisk)
+    public static string MascFromExtension(string ext2 = AllStrings.asterisk)
     {
         if (char.IsLetterOrDigit(ext2[0]))
         {
@@ -130,12 +130,12 @@ internal class FS
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    internal static string NormalizeExtension(string item)
+    public static string NormalizeExtension(string item)
     {
         return AllStrings.dot + item.TrimStart(AllChars.dot);
     }
 
-    internal static void NormalizeExtensions(List<string> extension)
+    public static void NormalizeExtensions(List<string> extension)
     {
         for (int i = 0; i < extension.Count; i++)
         {

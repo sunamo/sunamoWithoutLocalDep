@@ -1,7 +1,7 @@
 namespace SunamoHttp;
 
 
-internal enum TypeOfExtension
+public enum TypeOfExtension
 {
     archive,
     image,

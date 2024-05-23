@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoGetFiles;
-internal class FSGetFolders
+public class FSGetFolders
 {
-    internal static List<string> GetFoldersEveryFolder(string folder, string v, GetFoldersEveryFolderArgs getFoldersEveryFolderArgs)
+    public static List<string> GetFoldersEveryFolder(string folder, string v, GetFoldersEveryFolderArgs getFoldersEveryFolderArgs)
     {
         // implementaci která má za attr GetFoldersEveryFolderArgs jsem ztratil
         if (getFoldersEveryFolderArgs != null)

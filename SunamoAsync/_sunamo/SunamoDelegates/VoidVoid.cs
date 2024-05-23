@@ -1,4 +1,4 @@
 namespace SunamoAsync;
 
 
-internal delegate void VoidVoid();
+public delegate void VoidVoid();

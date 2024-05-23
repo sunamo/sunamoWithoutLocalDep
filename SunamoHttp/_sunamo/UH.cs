@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoHttp;
-internal class UH
+public class UH
 {
-    internal static string GetFileName(string uri)
+    public static string GetFileName(string uri)
     {
         return Path.GetFileName(uri);
     }

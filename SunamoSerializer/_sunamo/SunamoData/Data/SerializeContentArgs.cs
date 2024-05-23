@@ -1,20 +1,20 @@
 namespace SunamoSerializer;
 
 
-internal class SerializeContentArgs
+public class SerializeContentArgs
 {
     /// <summary>
     /// Must be property - I can forget change value on three occurences. 
     /// </summary>
-    internal char separatorChar
+    public char separatorChar
     {
         get
         {
             return separatorString[0];
         }
     }
-    internal string separatorString = AllStrings.verbar;
-    internal int keyCodeSeparator
+    public string separatorString = AllStrings.verbar;
+    public int keyCodeSeparator
     {
         get
         {

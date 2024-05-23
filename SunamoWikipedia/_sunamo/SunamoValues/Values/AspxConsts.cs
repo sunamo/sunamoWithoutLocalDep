@@ -1,11 +1,11 @@
 namespace SunamoWikipedia;
 
 
-internal class AspxConsts
+public class AspxConsts
 {
-    internal static readonly string startAspxComment = "<%--";
-    internal static readonly string endAspxComment = "--%>";
-    internal static readonly string startHtmlComment = "<!--";
-    internal static readonly string endHtmlComment = "-->";
-    internal static readonly List<string> all = new List<string>([startAspxComment, endAspxComment, startHtmlComment, endHtmlComment, AllStrings.gt, AllStrings.lt]);
+    public static readonly string startAspxComment = "<%--";
+    public static readonly string endAspxComment = "--%>";
+    public static readonly string startHtmlComment = "<!--";
+    public static readonly string endHtmlComment = "-->";
+    public static readonly List<string> all = new List<string>([startAspxComment, endAspxComment, startHtmlComment, endHtmlComment, AllStrings.gt, AllStrings.lt]);
 }

@@ -1,7 +1,7 @@
 namespace SunamoCollectionsValuesTableGrid;
-internal class CAG
+public class CAG
 {
-    internal static int MinElementsItemsInnerList<T>(List<List<T>> exists)
+    public static int MinElementsItemsInnerList<T>(List<List<T>> exists)
     {
         int min = int.MaxValue;
 
@@ -15,7 +15,7 @@ internal class CAG
 
         return min;
     }
-    internal static int MaxElementsItemsInnerList<T>(List<List<T>> exists)
+    public static int MaxElementsItemsInnerList<T>(List<List<T>> exists)
     {
         int max = 0;
 
@@ -29,7 +29,7 @@ internal class CAG
 
         return max;
     }
-    internal static int LowestCount<T>(List<List<T>> exists)
+    public static int LowestCount<T>(List<List<T>> exists)
     {
         var min = int.MaxValue;
 
@@ -43,7 +43,7 @@ internal class CAG
 
         return min;
     }
-    internal static List<List<T>> TrimInnersToCount<T>(List<List<T>> exists, int lowest)
+    public static List<List<T>> TrimInnersToCount<T>(List<List<T>> exists, int lowest)
     {
         for (int i = 0; i < exists.Count; i++)
         {

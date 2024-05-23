@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoGetFolders;
-internal class SH
+public class SH
 {
-    internal static void FirstCharUpper(ref string nazevPP)
+    public static void FirstCharUpper(ref string nazevPP)
     {
         nazevPP = FirstCharUpper(nazevPP);
     }
 
-    internal static string FirstCharUpper(string nazevPP)
+    public static string FirstCharUpper(string nazevPP)
     {
         if (nazevPP.Length == 1)
         {

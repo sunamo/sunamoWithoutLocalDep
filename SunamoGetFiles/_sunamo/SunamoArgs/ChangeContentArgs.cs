@@ -1,9 +1,9 @@
 namespace SunamoGetFiles;
 
 
-internal class ChangeContentArgs
+public class ChangeContentArgs
 {
-    internal bool removeNull = false;
-    internal bool removeEmpty = false;
-    internal bool switchFirstAndSecondArg = false;
+    public bool removeNull = false;
+    public bool removeEmpty = false;
+    public bool switchFirstAndSecondArg = false;
 }

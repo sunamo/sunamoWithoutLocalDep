@@ -1,6 +1,6 @@
 namespace SunamoSerializer;
 
-internal class CASH
+public class CASH
 {
     static string Replace(string s, string from, string to)
     {
@@ -13,7 +13,7 @@ internal class CASH
     /// <param name="files_in"></param>
     /// <param name="what"></param>
     /// <param name="forWhat"></param>
-    internal static void Replace(List<string> files_in, string what, string forWhat)
+    public static void Replace(List<string> files_in, string what, string forWhat)
     {
         for (int i = 0; i < files_in.Count; i++)
         {

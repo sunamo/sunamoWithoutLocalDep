@@ -1,7 +1,7 @@
 namespace SunamoGetFolders;
 
 
-internal enum HtmlTagSyntax
+public enum HtmlTagSyntax
 {
     Start,
     End,

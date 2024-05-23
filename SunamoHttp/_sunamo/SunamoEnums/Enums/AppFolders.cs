@@ -1,7 +1,7 @@
 namespace SunamoHttp;
 
 
-internal enum AppFolders
+public enum AppFolders
 {
     #region Not backuped
     Logs,

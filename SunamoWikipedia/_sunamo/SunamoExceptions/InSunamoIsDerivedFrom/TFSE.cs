@@ -1,13 +1,13 @@
 namespace SunamoWikipedia;
 
 
-internal class TFSE
+public class TFSE
 {
-    internal static string ReadAllTextSync(string path)
+    public static string ReadAllTextSync(string path)
     {
         return ReadAllTextSync(path, false);
     }
-    internal static string ReadAllTextSync(string path, bool createEmptyIfWasNotExists = false)
+    public static string ReadAllTextSync(string path, bool createEmptyIfWasNotExists = false)
     {
         if (createEmptyIfWasNotExists)
             if (!File.Exists(path))
@@ -17,19 +17,19 @@ internal class TFSE
             }
         return File.ReadAllText(path);
     }
-    internal static void WriteAllTextSync(string path, string content)
+    public static void WriteAllTextSync(string path, string content)
     {
         File.WriteAllText(path, content);
     }
-    internal static void AppendAllTextSync(string path, string content)
+    public static void AppendAllTextSync(string path, string content)
     {
         File.AppendAllText(path, content);
     }
-    internal static List<string> ReadAllLinesSync(string path)
+    public static List<string> ReadAllLinesSync(string path)
     {
         return ReadAllLinesSync(path, false);
     }
-    internal static List<string> ReadAllLinesSync(string path, bool createEmptyIfWasNotExists = false)
+    public static List<string> ReadAllLinesSync(string path, bool createEmptyIfWasNotExists = false)
     {
         if (createEmptyIfWasNotExists)
             if (!File.Exists(path))
@@ -39,29 +39,29 @@ internal class TFSE
             }
         return File.ReadAllLines(path).ToList();
     }
-    internal static void WriteAllLinesSync(string path, List<string> content)
+    public static void WriteAllLinesSync(string path, List<string> content)
     {
         File.WriteAllLines(path, content.ToArray());
     }
-    internal static void AppendAllLinesSync(string path, List<string> content)
+    public static void AppendAllLinesSync(string path, List<string> content)
     {
         File.AppendAllLines(path, content.ToArray());
     }
-    internal static List<byte> ReadAllBytesSync(string path)
+    public static List<byte> ReadAllBytesSync(string path)
     {
         return File.ReadAllBytes(path).ToList();
     }
-    internal static void WriteAllBytesSync(string path, List<byte> content)
+    public static void WriteAllBytesSync(string path, List<byte> content)
     {
         File.WriteAllBytes(path, content.ToArray());
     }
-    internal static Func<string, bool> isUsed = null;
+    public static Func<string, bool> isUsed = null;
     #region
     protected static bool LockedByBitLocker(string path)
     {
         return ThrowEx.LockedByBitLocker(path);
     }
-    internal static
+    public static
 #if ASYNC
         async Task<string>
 #else
@@ -83,7 +83,7 @@ return File.ReadAllText(path, enc);
 #endif
     }
     #region Array
-    internal static
+    public static
 #if ASYNC
         async Task
 #else
@@ -96,7 +96,7 @@ void
 #endif
             WriteAllLines(path, c.ToList());
     }
-    internal static
+    public static
 #if ASYNC
         async Task
 #else
@@ -109,7 +109,7 @@ void
 #endif
             WriteAllBytes(path, c.ToList());
     }
-    internal static
+    public static
 #if ASYNC
         async Task<byte[]>
 #else
@@ -130,7 +130,7 @@ byte[]
     /// </summary>
     /// <param name="file"></param>
     /// <returns></returns>
-    internal static
+    public static
 #if ASYNC
         async Task<List<byte>>
 #else
@@ -149,7 +149,7 @@ List<byte>
 File.ReadAllBytes(file).ToList();
 #endif
     }
-    internal static
+    public static
 #if ASYNC
         async Task
 #else
@@ -166,7 +166,7 @@ File.WriteAllBytes(file, b.ToArray());
     }
     #endregion
     #region Lines
-    internal static
+    public static
 #if ASYNC
         async Task
 #else
@@ -182,7 +182,7 @@ File.WriteAllLines
 #endif
             (file, lines.ToArray());
     }
-    internal static
+    public static
 #if ASYNC
         async Task<List<string>>
 #else
@@ -205,7 +205,7 @@ File.ReadAllLines(file).ToList();
     }
     #endregion
     #region Text
-    internal static
+    public static
 #if ASYNC
         async Task
 #else
@@ -220,7 +220,7 @@ void
 File.WriteAllText(path, content);
 #endif
     }
-    internal static
+    public static
 #if ASYNC
         async Task<string>
 #else
@@ -245,7 +245,7 @@ return File.ReadAllText(f);
             return string.Empty;
         }
     }
-    internal static
+    public static
 #if ASYNC
         async Task
 #else
@@ -272,7 +272,7 @@ File.AppendAllText(path, content);
     #endregion
     #endregion
 #if ASYNC
-    internal static async Task<string> WaitD()
+    public static async Task<string> WaitD()
     {
         /*
         Vůbec nevím proč tu mám tuto metodu

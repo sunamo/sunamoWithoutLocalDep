@@ -4,7 +4,7 @@ namespace SunamoText;
 /// <summary>
 /// Used in SunamoCollectionsGenericStore + SunamoCollections
 /// </summary>
-internal enum ContainsCompareMethod
+public enum ContainsCompareMethod
 {
     WholeInput,
     SplitToWords,

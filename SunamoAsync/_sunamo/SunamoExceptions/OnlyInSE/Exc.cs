@@ -8,20 +8,20 @@ using System.Text;
 /// <summary>
 ///     Exc není ve sunamo, proto jsem smazal NS
 /// </summary>
-internal class Exc
+public class Exc
 {
     /// <summary>
     ///     Is setting in SpecialFoldersHelper.aspnet
     ///     value holder for all aspnet projects
     ///     tuhle proměnnou odstranit, je tu jen
     /// </summary>
-    internal static bool aspnet = false;
+    public static bool aspnet = false;
     #region For easy copy in SunamoException project
     private static bool first = true;
     private static readonly StringBuilder sb = new();
     /// <param name="stopAtFirstSystem"></param>
     /// <returns></returns>
-    internal static string GetStackTrace(bool stopAtFirstSystem = false)
+    public static string GetStackTrace(bool stopAtFirstSystem = false)
     {
         var r = GetStackTrace2(false, stopAtFirstSystem);
         return r.Item3;
@@ -31,7 +31,7 @@ internal class Exc
     ///     Remove GetStackTrace (first line
     /// </summary>
     /// <returns></returns>
-    internal static Tuple<string, string, string> /*(string, string, string)*/ GetStackTrace2(
+    public static Tuple<string, string, string> /*(string, string, string)*/ GetStackTrace2(
     bool fillAlsoFirstTwo = true,
     bool stopAtFirstSystem = false)
     {
@@ -73,7 +73,7 @@ internal class Exc
     /// <param name="l"></param>
     /// <param name="type"></param>
     /// <param name="methodName"></param>
-    internal static void TypeAndMethodName(string l, out string type, out string methodName)
+    public static void TypeAndMethodName(string l, out string type, out string methodName)
     {
         var s2 = l.Split("at ")[1].Trim();
         var s = s2.Split("(")[0];
@@ -84,12 +84,12 @@ internal class Exc
         p.RemoveAt(p.Count - 1);
         type = string.Join(AllStrings.dot, p);
     }
-    internal static bool _trimTestOnEnd = true;
+    public static bool _trimTestOnEnd = true;
     /// <summary>
     ///     Print name of calling method, not GetCurrentMethod
     ///     If is on end Test, will trim
     /// </summary>
-    internal static string CallingMethod(int v = 1)
+    public static string CallingMethod(int v = 1)
     {
         StackTrace stackTrace = new();
         var methodBase = stackTrace.GetFrame(v).GetMethod();
@@ -98,8 +98,8 @@ internal class Exc
         return methodName;
     }
     #region MyRegion
-    internal static object lockObject = new();
-    internal static string MethodOfOccuredFromStackTrace(string exc)
+    public static object lockObject = new();
+    public static string MethodOfOccuredFromStackTrace(string exc)
     {
         var st = exc.Split(Environment.NewLine)[0];
         var dx = st.IndexOf(" in ");
