@@ -66,7 +66,7 @@ public static partial class SF
 #if ASYNC
     await
 #endif
- File.ReadAllLinesAsync(path)).ToList();
+ File.ReadAllTextAsync(path)).ToList();
         CASE.Trim(content);
         //content += Environment.NewLine + line + Environment.NewLine;
         content.Add(line);

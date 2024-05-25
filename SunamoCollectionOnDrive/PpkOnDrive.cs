@@ -38,11 +38,11 @@ void
     {
         if (File.Exists(a.file))
         {
-            this.AddRange(
+            this.AddRange(SHGetLines.GetLines(
 #if ASYNC
             await
 #endif
-            File.ReadAllLinesAsync(a.file));
+            File.ReadAllTextAsync(a.file)));
             //CASH.RemoveStringsEmpty2(this);
             if (removeDuplicates)
             {

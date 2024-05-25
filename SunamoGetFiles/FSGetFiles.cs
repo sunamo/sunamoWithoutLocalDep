@@ -453,7 +453,7 @@ Dictionary<string, string>
             //d = AppData.ci.GetFile(AppFolders.Cache, "GetFilesMoreMasc" + s + ".txt");
             //if (File.Exists(d))
             //{
-            //    return File.ReadAllLines(path).ToList();
+            //    return File.ReadAllText(path).ToList();
             //}
         }
 #endif

@@ -12,24 +12,7 @@ public class SHSE
         return r;
     }
     
-    /// <summary>
-    ///     Usage: Exc.MethodOfOccuredFromStackTrace
-    ///     Not auto remove empty
-    /// </summary>
-    /// <param name="p"></param>
-    public static List<string> GetLines(string p, bool autoTrim = false)
-    {
-        List<string> vr = new();
-        StringReader sr = new(p);
-        string f;
-        while ((f = sr.ReadLine()) != null) vr.Add(f);
-        if (autoTrim)
-        {
-            vr = vr.ConvertAll(d => d.Trim());
-            
-        }
-        return vr;
-    }
+    
     public static string FirstCharLower(string nazevPP)
     {
         if (nazevPP.Length < 2) return nazevPP;

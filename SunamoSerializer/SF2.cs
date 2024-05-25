@@ -42,7 +42,7 @@ public partial class SF
         string oz = oddelovaciZnak.ToString();
         List<List<string>> vr = new List<List<string>>();
         // Sync protože mám v deklaraci out
-        List<string> lines = File.ReadAllLines(file).ToList();
+        List<string> lines = File.ReadAllText(file).ToList();
         CASE.Trim(lines);
         if (lines.Count > 0)
         {

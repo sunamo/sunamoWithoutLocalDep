@@ -1,4 +1,4 @@
-namespace SunamoUriWebServices;
+﻿namespace SunamoCollectionOnDrive;
 public class SHGetLines
 {
     public static List<string> GetLines(string p)

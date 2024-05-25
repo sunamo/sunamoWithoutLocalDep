@@ -21,7 +21,7 @@ void
 #if ASYNC
             await
 #endif
-            File.ReadAllLinesAsync(a.file))
+            File.ReadAllTextAsync(a.file))
             //TFSE.ReadAllLines(a.file))
             {
                 T t = (T)Activator.CreateInstance(typeof(T));
