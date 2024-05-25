@@ -17,11 +17,11 @@ void
         if (File.Exists(a.file))
         {
             int dex = 0;
-            foreach (string item in
+            foreach (string item in SHGetLines.GetLines(
 #if ASYNC
             await
 #endif
-            File.ReadAllTextAsync(a.file))
+            File.ReadAllTextAsync(a.file)))
             //TFSE.ReadAllLines(a.file))
             {
                 T t = (T)Activator.CreateInstance(typeof(T));

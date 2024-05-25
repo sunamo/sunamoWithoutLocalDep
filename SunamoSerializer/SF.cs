@@ -62,7 +62,7 @@ public static partial class SF
 #endif
  AppendAllText(string path, string line)
     {
-        var content = (
+        var content = SHGetLines.GetLines (
 #if ASYNC
     await
 #endif
