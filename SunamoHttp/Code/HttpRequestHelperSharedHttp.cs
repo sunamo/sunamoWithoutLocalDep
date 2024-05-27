@@ -1,11 +1,11 @@
-
 using SunamoHttp;
 
 namespace SunamoHttp;
 /// <summary>
 /// Can be only in shared coz is not available in standard
 /// </summary>
-public static partial class HttpRequestHelperHttp{
+public static partial class HttpRequestHelperHttp
+{
 
     /// <summary>
     /// In earlier time return ext
@@ -62,7 +62,6 @@ public static partial class HttpRequestHelperHttp{
         }
     }
 
-
     /// <summary>
     /// Is not async coz t.Result
     /// </summary>
@@ -115,27 +114,26 @@ public static partial class HttpRequestHelperHttp{
         return GetResponseText(address, method, hrd, out response);
     }
 
-
-/// <summary>
-///
-/// </summary>
-/// <param name = "address"></param>
-public static Stream GetResponseStream(string address, HttpMethod method)
-{
-    var request = (HttpWebRequest)WebRequest.Create(address);
-    request.Method = method.Method;
-    HttpWebResponse response = null;
-    try
+    /// <summary>
+    ///
+    /// </summary>
+    /// <param name = "address"></param>
+    public static Stream GetResponseStream(string address, HttpMethod method)
     {
-        response = (HttpWebResponse)request.GetResponse();
-    }
-    catch (System.Exception ex)
-    {
-        return null;
-    }
+        var request = (HttpWebRequest)WebRequest.Create(address);
+        request.Method = method.Method;
+        HttpWebResponse response = null;
+        try
+        {
+            response = (HttpWebResponse)request.GetResponse();
+        }
+        catch (System.Exception ex)
+        {
+            return null;
+        }
 
-    return response.GetResponseStream();
-}
+        return response.GetResponseStream();
+    }
 
     public static string GetResponseText(string address, HttpMethod method, HttpRequestDataHttp hrd, out HttpWebResponse response)
     {
@@ -143,13 +141,13 @@ public static Stream GetResponseStream(string address, HttpMethod method)
         return GetResponseText(request, method, hrd, out response);
     }
 
-/// <summary>
-/// A3 can be null
-/// Dont forger Dispose on A4
-/// </summary>
-/// <param name = "address"></param>
-/// <param name = "method"></param>
-/// <param name = "hrd"></param>
+    /// <summary>
+    /// A3 can be null
+    /// Dont forger Dispose on A4
+    /// </summary>
+    /// <param name = "address"></param>
+    /// <param name = "method"></param>
+    /// <param name = "hrd"></param>
     public static string GetResponseText(HttpWebRequest request, HttpMethod method, HttpRequestDataHttp hrd, out HttpWebResponse response)
     {
         response = null;
@@ -175,7 +173,6 @@ public static Stream GetResponseStream(string address, HttpMethod method)
         //request.Address = address;
 
         string result = null;
-
 
         request.Method = method.Method;
 
@@ -222,30 +219,30 @@ public static Stream GetResponseStream(string address, HttpMethod method)
         {
             response = (HttpWebResponse)request.GetResponse();
 
-                Encoding encoding = null;
-                if (response.CharacterSet == "")
-                {
+            Encoding encoding = null;
+            if (response.CharacterSet == "")
+            {
                 //encoding = Encoding.UTF8;
+            }
+            else
+            {
+                encoding = Encoding.GetEncoding(response.CharacterSet);
+            }
+
+            using (var responseStream = response.GetResponseStream())
+            {
+                StreamReader reader = null;
+                if (encoding == null)
+                {
+                    reader = new StreamReader(responseStream, true);
                 }
                 else
                 {
-                    encoding = Encoding.GetEncoding(response.CharacterSet);
+                    reader = new StreamReader(responseStream, encoding);
                 }
 
-                using (var responseStream = response.GetResponseStream())
-                {
-                    StreamReader reader = null;
-                    if (encoding == null)
-                    {
-                        reader = new StreamReader(responseStream, true);
-                    }
-                    else
-                    {
-                        reader = new StreamReader(responseStream, encoding);
-                    }
-
-                    result = reader.ReadToEnd();
-                }
+                result = reader.ReadToEnd();
+            }
 
         }
         catch (System.Exception ex)
@@ -294,7 +291,5 @@ public static Stream GetResponseStream(string address, HttpMethod method)
             }
         }
     }
-
-
 
 }
