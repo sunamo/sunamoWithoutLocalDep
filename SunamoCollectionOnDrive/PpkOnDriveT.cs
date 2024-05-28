@@ -4,7 +4,7 @@
 namespace SunamoCollectionOnDrive;
 
 
-public class PpkOnDrive<T> : PpkOnDriveBase<T> where T : IParserCollectionOnDrive
+public class PpkOnDriveT<T> : PpkOnDriveBase<T> where T : IParserCollectionOnDrive
 {
     public override
 #if ASYNC
@@ -32,16 +32,16 @@ void
         }
     }
 
-    public PpkOnDrive(PpkOnDriveArgs a) : base(a)
+    public PpkOnDriveT(PpkOnDriveArgs a) : base(a)
     {
 
     }
 
-    public PpkOnDrive(string file2, bool load = true) : base(new PpkOnDriveArgs { file = file2, load = load })
+    public PpkOnDriveT(string file2, bool load = true) : base(new PpkOnDriveArgs { file = file2, load = load })
     {
     }
 
-    public PpkOnDrive(string file, bool load, bool save) : base(new PpkOnDriveArgs { file = file, load = load, save = save })
+    public PpkOnDriveT(string file, bool load, bool save) : base(new PpkOnDriveArgs { file = file, load = load, save = save })
     {
     }
 }
