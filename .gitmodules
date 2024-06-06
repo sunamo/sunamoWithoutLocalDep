@@ -115,12 +115,6 @@
 [submodule "SunamoFtp"]
 	path = SunamoFtp
 	url = git@github.com:sunamo/SunamoFtp.git
-[submodule "SunamoFubuCore"]
-	path = SunamoFubuCore
-	url = git@github.com:sunamo/SunamoFubuCore.git
-[submodule "SunamoFubuCsProjFile"]
-	path = SunamoFubuCsProjFile
-	url = git@github.com:sunamo/SunamoFubuCsProjFile.git
 [submodule "SunamoGitBashBuilder"]
 	path = SunamoGitBashBuilder
 	url = git@github.com:sunamo/SunamoGitBashBuilder.git

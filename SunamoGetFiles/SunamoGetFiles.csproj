@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>24.5.25.1</Version>
+    <Version>24.5.28.2</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoGetFiles;ASYNC</DefineConstants>
@@ -12,5 +12,14 @@
     <DefineConstants>$(DefineConstants);SunamoGetFiles;ASYNC</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="_sunamo\**" />
+    <EmbeddedResource Remove="_sunamo\**" />
+    <None Remove="_sunamo\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_sunamo\SunamoArgs\GetFilesArgs.cs" />
+    <Compile Include="_sunamo\SunamoArgs\GetFilesBaseArgs.cs" />
+    <Compile Include="_sunamo\SunamoArgs\GetFilesEveryFolderArgs.cs" />
+    <Compile Include="_sunamo\SunamoArgs\GetFilesMoreMascArgs.cs" />
   </ItemGroup>
 </Project>

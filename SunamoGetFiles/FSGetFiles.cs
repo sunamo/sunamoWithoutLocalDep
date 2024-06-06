@@ -12,6 +12,12 @@ public partial class FSGetFiles
     {
         return Directory.GetFiles(v1, v2, topDirectoryOnly).ToList();
     }
+
+    public static List<string> GetFilesEveryFolder(string folder, string mask, bool rek, GetFilesEveryFolderArgs e = null)
+    {
+        return GetFilesEveryFolder(folder, mask, rek ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly, e);
+    }
+
     /// <summary>
     ///
     /// When is occur Access denied exception, use GetFilesEveryFolder, which find files in every folder
@@ -116,6 +122,7 @@ public partial class FSGetFiles
         }
         return list;
     }
+
     /// <summary>
     /// In item1 is all directories, in Item2 all files
     /// </summary>
@@ -527,6 +534,12 @@ Dictionary<string, string>
 #endif
         return result;
     }
+
+    public static List<string> GetFiles(string p, bool rek)
+    {
+        return Directory.GetFiles(p, "*.*", rek ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly).ToList();
+    }
+
     public static void FilterByGetFilesArgs(List<string> list, IEnumerable<string> folders, GetFilesArgs a)
     {
         if (a == null)
