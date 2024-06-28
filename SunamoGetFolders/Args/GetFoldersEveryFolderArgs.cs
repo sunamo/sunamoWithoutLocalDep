@@ -1,14 +1,3 @@
-namespace
-#if SunamoGetFiles
-SunamoGetFiles
-#elif SunamoGetFolders
-SunamoGetFolders
-#elif SunamoFileSystem
-SunamoFileSystem
-#else
-SunamoGetFolders
-#endif
-;
 public class GetFoldersEveryFolderArgs : GetFilesArgs
 {
     /// <summary>

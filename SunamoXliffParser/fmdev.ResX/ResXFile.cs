@@ -1,13 +1,6 @@
 using System.ComponentModel.Design;
 using System.Resources.NetStandard;
 
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoXliffParser
-#endif
-;
 // <copyright file="ResXFile.cs" company="Florian Mücke">
 // Copyright (c) Florian Mücke. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
@@ -132,3 +125,4 @@ SunamoXliffParser
             //return unmatchedElements.Length == 0;
         }
     }
+

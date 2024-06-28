@@ -136,9 +136,9 @@
 [submodule "SunamoLang"]
 	path = SunamoLang
 	url = git@github.com:sunamo/SunamoLang.git
-[submodule "SunamoLogger"]
-	path = SunamoLogger
-	url = git@github.com:sunamo/SunamoLogger.git
+[submodule "SunamoLogging"]
+	path = SunamoLogging
+	url = git@github.com:sunamo/SunamoLogging.git
 [submodule "SunamoLogMessage"]
 	path = SunamoLogMessage
 	url = git@github.com:sunamo/SunamoLogMessage.git

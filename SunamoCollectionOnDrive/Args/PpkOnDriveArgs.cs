@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoCollectionOnDrive
-#endif
-;
 public class PpkOnDriveArgs
 {
     public string file;
