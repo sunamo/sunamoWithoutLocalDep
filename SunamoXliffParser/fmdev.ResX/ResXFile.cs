@@ -1,3 +1,5 @@
+
+namespace SunamoXliffParser;
 using System.ComponentModel.Design;
 using System.Resources.NetStandard;
 

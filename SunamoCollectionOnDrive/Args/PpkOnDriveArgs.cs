@@ -1,3 +1,5 @@
+
+namespace SunamoCollectionOnDrive;
 public class PpkOnDriveArgs
 {
     public string file;

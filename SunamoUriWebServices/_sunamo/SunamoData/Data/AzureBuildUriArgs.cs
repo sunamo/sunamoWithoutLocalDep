@@ -1,8 +1,8 @@
 namespace SunamoUriWebServices;
 
 
-public class AzureBuildUriArgs
+internal class AzureBuildUriArgs
 {
-    public string personalAccessToken = null;
-    public bool withLogin = false;
+    internal string personalAccessToken = null;
+    internal bool withLogin = false;
 }

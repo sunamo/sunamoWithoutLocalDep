@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoHttp;
-public class TF
+internal class TF
 {
-    public static string ReadAllText(string path)
+    internal static string ReadAllText(string path)
     {
         return File.ReadAllText(path);
     }
 
-    public static void WriteAllBytes(string path, byte[] c)
+    internal static void WriteAllBytes(string path, byte[] c)
     {
         File.WriteAllBytes(path, c);
     }

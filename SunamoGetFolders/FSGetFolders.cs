@@ -1,3 +1,4 @@
+namespace SunamoGetFolders;
 
 public class FSGetFolders
 {

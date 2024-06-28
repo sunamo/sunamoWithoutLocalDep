@@ -1,3 +1,4 @@
+namespace SunamoGetFiles;
 
 public partial class FSGetFiles
 {

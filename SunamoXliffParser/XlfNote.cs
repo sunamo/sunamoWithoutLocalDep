@@ -1,3 +1,4 @@
+namespace SunamoXliffParser;
 
 /// <summary>
 ///     The

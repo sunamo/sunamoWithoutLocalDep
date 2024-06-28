@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class FSSunamoExceptions
+internal class FSSunamoExceptions
 {
-    public static void CreateUpfoldersPsysicallyUnlessThere(string nad)
+    internal static void CreateUpfoldersPsysicallyUnlessThere(string nad)
     {
         CreateFoldersPsysicallyUnlessThere(Path.GetDirectoryName(nad));
     }
-    public static void CreateFoldersPsysicallyUnlessThere(string nad)
+    internal static void CreateFoldersPsysicallyUnlessThere(string nad)
     {
         ThrowEx.IsNullOrEmpty("nad", nad);
         ThrowEx.IsNotWindowsPathFormat("nad", nad);

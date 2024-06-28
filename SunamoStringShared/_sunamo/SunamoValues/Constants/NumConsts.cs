@@ -1,28 +1,28 @@
 namespace SunamoStringShared;
 
 
-public class NumConsts
+internal class NumConsts
 {
     #region For easy copy
-    public const int mOne = -1;
+    internal const int mOne = -1;
     #endregion
-    public const int defaultPortIfCannotBeParsed = 587;
+    internal const int defaultPortIfCannotBeParsed = 587;
     /// <summary>
     /// Min age is 18 due to GDPR - below 18 is needed parent agreement of child
     /// </summary>
-    public const int MinAge = 18;
-    public static short nDtMinVal = 10101;
-    public static short nDtMaxVal = 32271;
+    internal const int MinAge = 18;
+    internal static short nDtMinVal = 10101;
+    internal static short nDtMaxVal = 32271;
     /// <summary>
     /// one thousand
     /// </summary>
-    public static int to = 1000;
-    public const long kB = 1024;
-    public const double zeroDouble = 0;
-    public const float zeroFloat = 0;
+    internal static int to = 1000;
+    internal const long kB = 1024;
+    internal const double zeroDouble = 0;
+    internal const float zeroFloat = 0;
     /// <summary>
     /// at int should be no postfix
     /// </summary>
-    public const int one = 1;
-    public const int zeroInt = 0;
+    internal const int one = 1;
+    internal const int zeroInt = 0;
 }

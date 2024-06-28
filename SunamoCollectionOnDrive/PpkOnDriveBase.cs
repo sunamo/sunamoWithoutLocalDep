@@ -1,3 +1,5 @@
+
+namespace SunamoCollectionOnDrive;
 using System.Text;
 public abstract class PpkOnDriveBase<T> : List<T>
 {

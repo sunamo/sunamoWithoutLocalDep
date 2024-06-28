@@ -1,12 +1,12 @@
 namespace SunamoSerializer;
-public class BTS
+internal class BTS
 {
-    public static string ToString<T>(T t)
+    internal static string ToString<T>(T t)
     {
         return t.ToString();
     }
 
-    public static object MethodForParse<T1>()
+    internal static object MethodForParse<T1>()
     {
         var t = typeof(T1);
         #region Same seria as in DefaultValueForTypeT

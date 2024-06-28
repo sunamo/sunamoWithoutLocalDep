@@ -1,9 +1,9 @@
 
 
 namespace SunamoStringFormat;
-public class SHReplace
+internal class SHReplace
 {
-    public static string ReplaceAll2(string vstup, string zaCo, string co, bool pairLines)
+    internal static string ReplaceAll2(string vstup, string zaCo, string co, bool pairLines)
     {
         if (pairLines)
         {
@@ -24,7 +24,7 @@ public class SHReplace
         }
     }
 
-    public static string ReplaceAll2(string vstup, string zaCo, string co)
+    internal static string ReplaceAll2(string vstup, string zaCo, string co)
     {
         return vstup.Replace(co, zaCo);
     }

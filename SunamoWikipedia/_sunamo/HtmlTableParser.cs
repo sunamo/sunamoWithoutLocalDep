@@ -8,13 +8,13 @@ namespace SunamoWikipedia;
 /// <summary>
 /// Protože klasický HtmlTableParser chce HtmlHelper který má miliardu deps
 /// </summary>
-public class HtmlTableParser
+internal class HtmlTableParser
 {
-    public HtmlTableParser(object item, bool v)
+    internal HtmlTableParser(object item, bool v)
     {
     }
 
-    public List<string> ColumnValues(string character, bool v1, bool v2)
+    internal List<string> ColumnValues(string character, bool v1, bool v2)
     {
         ThrowEx.NotImplementedMethod();
         return null;

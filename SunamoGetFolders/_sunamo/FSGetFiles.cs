@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoGetFolders;
-public class FSGetFiles
+internal class FSGetFiles
 {
-    public static List<string> GetFiles(string item, string masc, SearchOption topDirectoryOnly)
+    internal static List<string> GetFiles(string item, string masc, SearchOption topDirectoryOnly)
     {
         return Directory.GetFiles(item, masc, topDirectoryOnly).ToList() ;
     }

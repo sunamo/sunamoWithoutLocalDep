@@ -3,9 +3,9 @@ using System.Collections;
 
 namespace SunamoStringFormat;
 
-public class CASH
+internal class CASH
 {
-    public static Object[] ConvertListStringWrappedInArray(Object[] innerMain)
+    internal static Object[] ConvertListStringWrappedInArray(Object[] innerMain)
     {
         if (CASE.IsListStringWrappedInArray(innerMain.ToList()))
         {

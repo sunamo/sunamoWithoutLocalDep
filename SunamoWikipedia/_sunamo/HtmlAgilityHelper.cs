@@ -8,39 +8,39 @@ namespace SunamoWikipedia;
 /// <summary>
 /// Protože klasický HtmlAgilityHelper chce HtmlHelper který má miliardu deps
 /// </summary>
-public class HtmlAgilityHelper
+internal class HtmlAgilityHelper
 {
-    public static HtmlDocument CreateHtmlDocument()
+    internal static HtmlDocument CreateHtmlDocument()
     {
         ThrowEx.NotImplementedMethod();
         return null;
     }
 
-    public static List<HtmlNode> Nodes(object item, bool v1, string v2)
+    internal static List<HtmlNode> Nodes(object item, bool v1, string v2)
     {
         ThrowEx.NotImplementedMethod();
         return null;
     }
 
-    public static IEnumerable<object> NodesWhichContainsInAttr(object documentNode, bool v1, string v2, string v3, string v4)
+    internal static IEnumerable<object> NodesWhichContainsInAttr(object documentNode, bool v1, string v2, string v3, string v4)
     {
         ThrowEx.NotImplementedMethod();
         return null;
     }
 
-    public static List<HtmlNode> NodesWithAtstr(HtmlNode mwParserOutputNode, bool v1, string v2, string v3, string v4)
+    internal static List<HtmlNode> NodesWithAtstr(HtmlNode mwParserOutputNode, bool v1, string v2, string v3, string v4)
     {
         ThrowEx.NotImplementedMethod();
         return null;
     }
 
-    public static List<HtmlNode> NodesWithAttr(object mwParserOutputNode, bool v1, string v2, string v3, string v4)
+    internal static List<HtmlNode> NodesWithAttr(object mwParserOutputNode, bool v1, string v2, string v3, string v4)
     {
         ThrowEx.NotImplementedMethod();
         return null;
     }
 
-    public static HtmlNode NodeWithAttr(object documentNode, bool v1, string v2, string v3, string v4)
+    internal static HtmlNode NodeWithAttr(object documentNode, bool v1, string v2, string v3, string v4)
     {
         ThrowEx.NotImplementedMethod();
         return null;

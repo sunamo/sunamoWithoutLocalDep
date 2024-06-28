@@ -1,11 +1,11 @@
 namespace SunamoCollectionsShared;
 
 
-public class RemoveStartingWithArgs
+internal class RemoveStartingWithArgs
 {
     /// <summary>
     /// Original
     /// </summary>
-    public bool _trimBeforeFinding = false;
-    public bool caseSensitive = true;
+    internal bool _trimBeforeFinding = false;
+    internal bool caseSensitive = true;
 }

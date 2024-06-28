@@ -1,10 +1,10 @@
 namespace SunamoHttp;
 
 
-public class TypeOfExtensionAttribute : Attribute
+internal class TypeOfExtensionAttribute : Attribute
 {
-    public TypeOfExtension Type { get; set; }
-    public TypeOfExtensionAttribute(TypeOfExtension toe)
+    internal TypeOfExtension Type { get; set; }
+    internal TypeOfExtensionAttribute(TypeOfExtension toe)
     {
         Type = toe;
     }

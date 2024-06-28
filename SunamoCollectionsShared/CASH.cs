@@ -1,3 +1,5 @@
+
+namespace SunamoCollectionsShared;
 using System.Collections;
 using System.Text.RegularExpressions;
 public class CASH : CASE

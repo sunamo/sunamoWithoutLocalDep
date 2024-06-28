@@ -1,8 +1,8 @@
 namespace SunamoEmbeddedResources;
 
-public class FS
+internal class FS
 {
-    public static byte[] StreamToArrayBytes(System.IO.Stream stream)
+    internal static byte[] StreamToArrayBytes(System.IO.Stream stream)
     {
         if (stream == null)
         {

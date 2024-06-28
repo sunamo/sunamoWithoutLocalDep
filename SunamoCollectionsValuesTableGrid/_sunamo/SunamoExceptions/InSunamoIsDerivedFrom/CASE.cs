@@ -1,20 +1,20 @@
 namespace SunamoCollectionsValuesTableGrid;
 
 
-public class CASE
+internal class CASE
 {
-    public static void InitFillWith(List<string> datas, int pocet, string initWith = Consts.stringEmpty)
+    internal static void InitFillWith(List<string> datas, int pocet, string initWith = Consts.stringEmpty)
     {
         InitFillWith<string>(datas, pocet, initWith);
     }
-    public static void InitFillWith<T>(List<T> datas, int pocet, T initWith)
+    internal static void InitFillWith<T>(List<T> datas, int pocet, T initWith)
     {
         for (int i = 0; i < pocet; i++)
         {
             datas.Add(initWith);
         }
     }
-    public static void InitFillWith<T>(List<T> arr, int columns)
+    internal static void InitFillWith<T>(List<T> arr, int columns)
     {
         for (int i = 0; i < columns; i++)
         {
@@ -26,7 +26,7 @@ public class CASE
     /// </summary>
     /// <param name="e"></param>
     /// <returns></returns>
-    public static int Count(IEnumerable e)
+    internal static int Count(IEnumerable e)
     {
         if (e == null) return 0;
         var t = e.GetType();
@@ -47,17 +47,17 @@ public class CASE
     ///     Direct edit input collection
     /// </summary>
     /// <param name="l"></param>
-    public static List<string> Trim(List<string> l)
+    internal static List<string> Trim(List<string> l)
     {
         for (var i = 0; i < l.Count; i++) l[i] = l[i].Trim();
         return l;
     }
-    public static string First(IEnumerable v2)
+    internal static string First(IEnumerable v2)
     {
         foreach (var item in v2) return item.ToString();
         return null;
     }
-    public static bool IsListStringWrappedInArray(IEnumerable v2)
+    internal static bool IsListStringWrappedInArray(IEnumerable v2)
     {
         var first = First(v2);
         if (Count(v2) == 1 && (first == "System.Collections.Generic.List`1[System.String]" ||

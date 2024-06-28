@@ -1,3 +1,5 @@
+
+namespace SunamoXliffParser;
 using System.Xml.Linq;
 
 public enum XlfDialect

@@ -1,34 +1,34 @@
 namespace SunamoWikipedia;
 
 
-public delegate void TreeVisitor<T>(T nodeData);
+internal delegate void TreeVisitor<T>(T nodeData);
 /// <summary>
 /// Another big popular tree is on https://www.codeproject.com/Articles/12592/Generic-Tree-T-in-C
 /// </summary>
 /// <typeparam name="T"></typeparam>
-public class NTree<T>
+internal class NTree<T>
 {
-    public T data;
-    public LinkedList<NTree<T>> children;
-    public NTree(T data)
+    internal T data;
+    internal LinkedList<NTree<T>> children;
+    internal NTree(T data)
     {
         this.data = data;
         children = new LinkedList<NTree<T>>();
     }
-    public NTree<T> AddChild(T data)
+    internal NTree<T> AddChild(T data)
     {
         var child = new NTree<T>(data);
         children.AddFirst(child);
         return child;
     }
-    public NTree<T> GetChild(int i)
+    internal NTree<T> GetChild(int i)
     {
         foreach (NTree<T> n in children)
             if (--i == 0)
                 return n;
         return null;
     }
-    public void Traverse(NTree<T> node, TreeVisitor<T> visitor)
+    internal void Traverse(NTree<T> node, TreeVisitor<T> visitor)
     {
         visitor(node.data);
         foreach (NTree<T> kid in node.children)

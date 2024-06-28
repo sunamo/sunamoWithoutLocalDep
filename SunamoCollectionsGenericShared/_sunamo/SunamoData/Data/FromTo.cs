@@ -5,10 +5,10 @@ namespace SunamoCollectionsGenericShared;
 ///     Must have always entered both from and to
 ///     None of event could have unlimited time!
 /// </summary>
-public class FromTo : FromToTSH<long>
+internal class FromTo : FromToTSH<long>
 {
-    public static FromTo Empty = new(true);
-    public FromTo()
+    internal static FromTo Empty = new(true);
+    internal FromTo()
     {
     }
     /// <summary>
@@ -26,7 +26,7 @@ public class FromTo : FromToTSH<long>
     /// <param name="from"></param>
     /// <param name="to"></param>
     /// <param name="ftUse"></param>
-    public FromTo(long from, long to, FromToUse ftUse = FromToUse.DateTime)
+    internal FromTo(long from, long to, FromToUse ftUse = FromToUse.DateTime)
     {
         this.from = from;
         this.to = to;

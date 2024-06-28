@@ -1,3 +1,5 @@
+
+namespace SunamoAsync;
 using System.Runtime.CompilerServices;
 public class AsyncHelper : AsyncHelperSEShared
 {

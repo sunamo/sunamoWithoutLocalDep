@@ -1,3 +1,5 @@
+
+namespace SunamoCollectionsShared;
 using System;
 using System.Collections.Generic;
 using System.Linq;

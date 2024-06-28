@@ -1,3 +1,5 @@
+
+namespace SunamoCollectionOnDrive;
 /// <summary>
 /// Checking whether string is already contained.
 /// </summary>

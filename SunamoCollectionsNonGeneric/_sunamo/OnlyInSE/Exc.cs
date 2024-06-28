@@ -1,3 +1,5 @@
+
+namespace SunamoCollectionsNonGeneric;
 using System.Diagnostics;
 using System.Text;
 
@@ -5,20 +7,20 @@ using System.Text;
 
 
 
-public class Exc
+internal class Exc
 {
     
     
     
     
     
-    public static bool aspnet = false;
+    internal static bool aspnet = false;
     #region For easy copy in SunamoException project
     private static bool first = true;
     private static readonly StringBuilder sb = new();
     
     
-    public static string GetStackTrace(bool stopAtFirstSystem = false)
+    internal static string GetStackTrace(bool stopAtFirstSystem = false)
     {
         var r = GetStackTrace2(false, stopAtFirstSystem);
         return r.Item3;
@@ -28,7 +30,7 @@ public class Exc
     
     
     
-    public static Tuple<string, string, string>  GetStackTrace2(
+    internal static Tuple<string, string, string>  GetStackTrace2(
     bool fillAlsoFirstTwo = true,
     bool stopAtFirstSystem = false)
     {
@@ -70,7 +72,7 @@ public class Exc
     
     
     
-    public static void TypeAndMethodName(string l, out string type, out string methodName)
+    internal static void TypeAndMethodName(string l, out string type, out string methodName)
     {
         var s2 = l.Split("at ")[1].Trim();
         var s = s2.Split("(")[0];
@@ -81,12 +83,12 @@ public class Exc
         p.RemoveAt(p.Count - 1);
         type = string.Join(AllStrings.dot, p);
     }
-    public static bool _trimTestOnEnd = true;
+    internal static bool _trimTestOnEnd = true;
     
     
     
     
-    public static string CallingMethod(int v = 1)
+    internal static string CallingMethod(int v = 1)
     {
         StackTrace stackTrace = new();
         var methodBase = stackTrace.GetFrame(v).GetMethod();
@@ -95,8 +97,8 @@ public class Exc
         return methodName;
     }
     #region MyRegion
-    public static object lockObject = new();
-    public static string MethodOfOccuredFromStackTrace(string exc)
+    internal static object lockObject = new();
+    internal static string MethodOfOccuredFromStackTrace(string exc)
     {
         var st = exc.Split(Environment.NewLine)[0];
         var dx = st.IndexOf(" in ");

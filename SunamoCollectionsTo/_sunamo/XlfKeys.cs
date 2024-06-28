@@ -1,5170 +1,5171 @@
+namespace SunamoCollectionsTo;
 
 
 
-public class XlfKeys
+internal class XlfKeys
 {
 #pragma warning disable SA1303 
-    public const string GetOne = "GetOne";
-    public const string Done = "Done";
-    public const string Set = "Set";
-    public const string Get = "Get";
-    public const string NicknameCannotContaintAt = "NicknameCannotContaintAt";
-    public const string CopyToClipboardFounded = "CopyToClipboardFounded";
-    public const string alsoWildcard = "alsoWildcard";
-    public const string GenerateListOfClassElements = "GenerateListOfClassElements";
-    public const string GenerateListOfNamespaceElements = "GenerateListOfNamespaceElements";
-    public const string register = "register";
-    public const string BadCombinationLoginAndPasswordDoYouWantTo = "BadCombinationLoginAndPasswordDoYouWantTo";
-    public const string Filter = "Filter";
-    public const string WasInformedAdministrator = "WasInformedAdministrator";
-    public const string MultiLinesTextCanBeLoadedOnlyFromClipboardBecauseConsoleAppRecognizeEndingWhitespacesLikeEnter =
+    internal const string GetOne = "GetOne";
+    internal const string Done = "Done";
+    internal const string Set = "Set";
+    internal const string Get = "Get";
+    internal const string NicknameCannotContaintAt = "NicknameCannotContaintAt";
+    internal const string CopyToClipboardFounded = "CopyToClipboardFounded";
+    internal const string alsoWildcard = "alsoWildcard";
+    internal const string GenerateListOfClassElements = "GenerateListOfClassElements";
+    internal const string GenerateListOfNamespaceElements = "GenerateListOfNamespaceElements";
+    internal const string register = "register";
+    internal const string BadCombinationLoginAndPasswordDoYouWantTo = "BadCombinationLoginAndPasswordDoYouWantTo";
+    internal const string Filter = "Filter";
+    internal const string WasInformedAdministrator = "WasInformedAdministrator";
+    internal const string MultiLinesTextCanBeLoadedOnlyFromClipboardBecauseConsoleAppRecognizeEndingWhitespacesLikeEnter =
     "MultiLinesTextCanBeLoadedOnlyFromClipboardBecauseConsoleAppRecognizeEndingWhitespacesLikeEnter";
-    public const string Indexing = "Indexing";
-    public const string FilesTree = "FilesTree";
-    public const string FoldersTree = "FoldersTree";
-    public const string TryAFewSecondsLaterAfterFullyInitialized = "TryAFewSecondsLaterAfterFullyInitialized";
-    public const string Clear = "Clear";
-    public const string IndexableExtensions = "IndexableExtensions";
-    public const string EnteredTextIsNotExtension = "EnteredTextIsNotExtension";
-    public const string ResultCopiedToClipboard = "ResultCopiedToClipboard";
-    public const string HidePassword = "HidePassword";
-    public const string EveryWindowsIsDifferentIfAppWonTBeRunningUnderAdminAccountTryNonAdminAndViceversa =
+    internal const string Indexing = "Indexing";
+    internal const string FilesTree = "FilesTree";
+    internal const string FoldersTree = "FoldersTree";
+    internal const string TryAFewSecondsLaterAfterFullyInitialized = "TryAFewSecondsLaterAfterFullyInitialized";
+    internal const string Clear = "Clear";
+    internal const string IndexableExtensions = "IndexableExtensions";
+    internal const string EnteredTextIsNotExtension = "EnteredTextIsNotExtension";
+    internal const string ResultCopiedToClipboard = "ResultCopiedToClipboard";
+    internal const string HidePassword = "HidePassword";
+    internal const string EveryWindowsIsDifferentIfAppWonTBeRunningUnderAdminAccountTryNonAdminAndViceversa =
     "EveryWindowsIsDifferentIfAppWonTBeRunningUnderAdminAccountTryNonAdminAndViceversa";
-    public const string Notice = "Notice";
-    public const string ShowFromLocation = "ShowFromLocation";
-    public const string FillFromPredefined = "FillFromPredefined";
-    public const string SelectFile = "SelectFile";
-    public const string ToDelimitedByAnyWhitespaceCouldBeCopiedFromGoogleSheets =
+    internal const string Notice = "Notice";
+    internal const string ShowFromLocation = "ShowFromLocation";
+    internal const string FillFromPredefined = "FillFromPredefined";
+    internal const string SelectFile = "SelectFile";
+    internal const string ToDelimitedByAnyWhitespaceCouldBeCopiedFromGoogleSheets =
     "ToDelimitedByAnyWhitespaceCouldBeCopiedFromGoogleSheets";
-    public const string SalutationEnterJustNameWithoutAnyWhitespacesInEachDearMadamEtc =
+    internal const string SalutationEnterJustNameWithoutAnyWhitespacesInEachDearMadamEtc =
     "SalutationEnterJustNameWithoutAnyWhitespacesInEachDearMadamEtc";
-    public const string previewOfAutoPrefixingYouWillApproveBeforeSending =
+    internal const string previewOfAutoPrefixingYouWillApproveBeforeSending =
     "previewOfAutoPrefixingYouWillApproveBeforeSending";
-    public const string SendingMailsFrom = "SendingMailsFrom";
-    public const string Attachments = "Attachments";
-    public const string Subject = "Subject";
-    public const string OpenSMTPServerSettings = "OpenSMTPServerSettings";
-    public const string Delete = "Delete";
-    public const string SetAsDefault = "SetAsDefault";
-    public const string YouMustSetUpAndSetAsDefaultOneSmtpServer = "YouMustSetUpAndSetAsDefaultOneSmtpServer";
-    public const string BatteryZTEBladeA52019 = "BatteryZTEBladeA52019";
-    public const string GoodDay = "GoodDay";
-    public const string MassMailSender = "MassMailSender";
-    public const string SMTPData = "SMTPData";
-    public const string NewsFromPopularITSites = "NewsFromPopularITSites";
-    public const string SavedSmtp = "SavedSmtp";
-    public const string ForgetLoginAndPassword = "ForgetLoginAndPassword";
-    public const string ForgetPassword = "ForgetPassword";
-    public const string Updated = "Updated";
-    public const string Saved = "Saved";
-    public const string welcome = "welcome";
-    public const string YouRe = "YouRe";
-    public const string InvalidLicenses = "InvalidLicenses";
-    public const string ValidLicenses = "ValidLicenses";
-    public const string YourLicences = "YourLicences";
-    public const string Prolongation = "Prolongation";
-    public const string ValidTo = "ValidTo";
-    public const string Module = "Module";
-    public const string OrderID = "OrderID";
-    public const string Prolong = "Prolong";
-    public const string UncheckAll = "UncheckAll";
-    public const string CheckAll = "CheckAll";
-    public const string TransactionFinished = "TransactionFinished";
-    public const string PaymentGateway = "PaymentGateway";
-    public const string CheckYourData = "CheckYourData";
-    public const string pages = "pages";
-    public const string ExportForGoogleMyMaps = "ExportForGoogleMyMaps";
-    public const string WasOpened = "WasOpened";
-    public const string wasNotEntered = "wasNotEntered";
-    public const string SetUpItInSettings = "SetUpItInSettings";
-    public const string FolderWithHtmlOfMRAResults = "FolderWithHtmlOfMRAResults";
-    public const string WriteMeAboutItTo = "WriteMeAboutItTo";
-    public const string DoYouThinkSomethingCouldBeHereAndIsnT = "DoYouThinkSomethingCouldBeHereAndIsnT";
-    public const string PurchasedApps = "PurchasedApps";
-    public const string GeoCaching = "GeoCaching";
-    public const string Quit = "Quit";
-    public const string filesFounded = "filesFounded";
-    public const string KeyboardShortcuts = "KeyboardShortcuts";
-    public const string files7 = "files7";
-    public const string PathEnding = "PathEnding";
-    public const string WholePath = "WholePath";
-    public const string UnindexableEntriesCount = "UnindexableEntriesCount";
-    public const string withName = "withName";
-    public const string alreadyExists = "alreadyExists";
-    public const string nameOfSet = "nameOfSet";
-    public const string Folders = "Folders";
-    public const string SavedFoldersSets = "SavedFoldersSets";
-    public const string AllRight = "AllRight";
-    public const string StopSearch = "StopSearch";
-    public const string InComments = "InComments";
-    public const string ClassElements = "ClassElements";
-    public const string NamespaceElements = "NamespaceElements";
-    public const string SearchIn = "SearchIn";
-    public const string BeforePublishingToVPS = "BeforePublishingToVPS";
-    public const string FromVPS = "FromVPS";
-    public const string VisualStudio = "VisualStudio";
-    public const string Projects = "Projects";
-    public const string CanTAssignToEnumTypeOfFolder = "CanTAssignToEnumTypeOfFolder";
-    public const string System = "System";
-    public const string Child = "Child";
-    public const string Parent = "Parent";
-    public const string CantProcessTokenAndSyntaxNodeOutputCouldBeDuplicated =
+    internal const string SendingMailsFrom = "SendingMailsFrom";
+    internal const string Attachments = "Attachments";
+    internal const string Subject = "Subject";
+    internal const string OpenSMTPServerSettings = "OpenSMTPServerSettings";
+    internal const string Delete = "Delete";
+    internal const string SetAsDefault = "SetAsDefault";
+    internal const string YouMustSetUpAndSetAsDefaultOneSmtpServer = "YouMustSetUpAndSetAsDefaultOneSmtpServer";
+    internal const string BatteryZTEBladeA52019 = "BatteryZTEBladeA52019";
+    internal const string GoodDay = "GoodDay";
+    internal const string MassMailSender = "MassMailSender";
+    internal const string SMTPData = "SMTPData";
+    internal const string NewsFromPopularITSites = "NewsFromPopularITSites";
+    internal const string SavedSmtp = "SavedSmtp";
+    internal const string ForgetLoginAndPassword = "ForgetLoginAndPassword";
+    internal const string ForgetPassword = "ForgetPassword";
+    internal const string Updated = "Updated";
+    internal const string Saved = "Saved";
+    internal const string welcome = "welcome";
+    internal const string YouRe = "YouRe";
+    internal const string InvalidLicenses = "InvalidLicenses";
+    internal const string ValidLicenses = "ValidLicenses";
+    internal const string YourLicences = "YourLicences";
+    internal const string Prolongation = "Prolongation";
+    internal const string ValidTo = "ValidTo";
+    internal const string Module = "Module";
+    internal const string OrderID = "OrderID";
+    internal const string Prolong = "Prolong";
+    internal const string UncheckAll = "UncheckAll";
+    internal const string CheckAll = "CheckAll";
+    internal const string TransactionFinished = "TransactionFinished";
+    internal const string PaymentGateway = "PaymentGateway";
+    internal const string CheckYourData = "CheckYourData";
+    internal const string pages = "pages";
+    internal const string ExportForGoogleMyMaps = "ExportForGoogleMyMaps";
+    internal const string WasOpened = "WasOpened";
+    internal const string wasNotEntered = "wasNotEntered";
+    internal const string SetUpItInSettings = "SetUpItInSettings";
+    internal const string FolderWithHtmlOfMRAResults = "FolderWithHtmlOfMRAResults";
+    internal const string WriteMeAboutItTo = "WriteMeAboutItTo";
+    internal const string DoYouThinkSomethingCouldBeHereAndIsnT = "DoYouThinkSomethingCouldBeHereAndIsnT";
+    internal const string PurchasedApps = "PurchasedApps";
+    internal const string GeoCaching = "GeoCaching";
+    internal const string Quit = "Quit";
+    internal const string filesFounded = "filesFounded";
+    internal const string KeyboardShortcuts = "KeyboardShortcuts";
+    internal const string files7 = "files7";
+    internal const string PathEnding = "PathEnding";
+    internal const string WholePath = "WholePath";
+    internal const string UnindexableEntriesCount = "UnindexableEntriesCount";
+    internal const string withName = "withName";
+    internal const string alreadyExists = "alreadyExists";
+    internal const string nameOfSet = "nameOfSet";
+    internal const string Folders = "Folders";
+    internal const string SavedFoldersSets = "SavedFoldersSets";
+    internal const string AllRight = "AllRight";
+    internal const string StopSearch = "StopSearch";
+    internal const string InComments = "InComments";
+    internal const string ClassElements = "ClassElements";
+    internal const string NamespaceElements = "NamespaceElements";
+    internal const string SearchIn = "SearchIn";
+    internal const string BeforePublishingToVPS = "BeforePublishingToVPS";
+    internal const string FromVPS = "FromVPS";
+    internal const string VisualStudio = "VisualStudio";
+    internal const string Projects = "Projects";
+    internal const string CanTAssignToEnumTypeOfFolder = "CanTAssignToEnumTypeOfFolder";
+    internal const string System = "System";
+    internal const string Child = "Child";
+    internal const string Parent = "Parent";
+    internal const string CantProcessTokenAndSyntaxNodeOutputCouldBeDuplicated =
     "CantProcessTokenAndSyntaxNodeOutputCouldBeDuplicated";
-    public const string Format = "Format";
-    public const string TheValueForTheProgressBarCannotBeGreaterThan100 =
+    internal const string Format = "Format";
+    internal const string TheValueForTheProgressBarCannotBeGreaterThan100 =
     "TheValueForTheProgressBarCannotBeGreaterThan100";
-    public const string ValuesAreEquals = "ValuesAreEquals";
-    public const string Replace = "Replace";
-    public const string NewValue = "NewValue";
-    public const string OldValue = "OldValue";
-    public const string TypeValuesForReplacing = "TypeValuesForReplacing";
-    public const string EnterAValueAndPressEnter = "EnterAValueAndPressEnter";
-    public const string Merge = "Merge";
-    public const string KeepLeft = "KeepLeft";
-    public const string KeepRight = "KeepRight";
-    public const string WhatDoYouWantProceed = "WhatDoYouWantProceed";
-    public const string MicrosoftSansSerif = "MicrosoftSansSerif";
-    public const string MusiteZiskatAccessToken = "MusiteZiskatAccessToken";
-    public const string PasteGivenAccessToken = "PasteGivenAccessToken";
-    public const string SelectBrowserToOpenOAuth = "SelectBrowserToOpenOAuth";
-    public const string MinimumAndMaximumValuesAreNotSupported = "MinimumAndMaximumValuesAreNotSupported";
-    public const string NoActionWasFound = "NoActionWasFound";
-    public const string DoYouWantLoadDataOnlyFromClipboard = "DoYouWantLoadDataOnlyFromClipboard";
-    public const string PressEnterWhenDataWillBeInClipboard = "PressEnterWhenDataWillBeInClipboard";
-    public const string SaveSetAsTemplate = "SaveSetAsTemplate";
-    public const string New = "New";
-    public const string New2 = "New2";
-    public const string ToOpen = "ToOpen";
-    public const string IsNotInRange = "IsNotInRange";
-    public const string IsIncludedAlsoPolymorfismMethods = "IsIncludedAlsoPolymorfismMethods";
-    public const string IndexOfCachedFiles = "IndexOfCachedFiles";
-    public const string CopyToClipboardNamesOfAllDuplicatedMethods = "CopyToClipboardNamesOfAllDuplicatedMethods";
-    public const string ElementsOfSourceFile = "ElementsOfSourceFile";
-    public const string ElementsOfSourceFilesInFolder = "ElementsOfSourceFilesInFolder";
-    public const string PathSettedToClipboard = "PathSettedToClipboard";
-    public const string KeyboardShortcut = "KeyboardShortcut";
-    public const string Reload = "Reload";
-    public const string MoveToNextSearchOccurence = "MoveToNextSearchOccurence";
-    public const string SearchInPath = "SearchInPath";
-    public const string SearchInContent = "SearchInContent";
-    public const string SearchInCodeElementsName = "SearchInCodeElementsName";
-    public const string SaveFile = "SaveFile";
-    public const string FileDatabaseWasReloadedWith = "FileDatabaseWasReloadedWith";
-    public const string PathE = "PathE";
-    public const string ContentW = "ContentW";
-    public const string CodeElementsNamesQ = "CodeElementsNamesQ";
-    public const string SearchCodeElements = "SearchCodeElements";
-    public const string CopiedToClipboard = "CopiedToClipboard";
-    public const string PrefixWithForIgnoring = "PrefixWithForIgnoring";
-    public const string Open = "Open";
-    public const string UnindexableExtensions = "UnindexableExtensions";
-    public const string UnindexablePathEnds = "UnindexablePathEnds";
-    public const string UnindexableFileNames = "UnindexableFileNames";
-    public const string UnindexablePathParts = "UnindexablePathParts";
-    public const string unindexablePathParts = "unindexablePathParts";
-    public const string FoldersToIndexing = "FoldersToIndexing";
-    public const string GreenForPathFilenamePart = "GreenForPathFilenamePart";
-    public const string RedForPathFilenamePart = "RedForPathFilenamePart";
-    public const string with = "with";
-    public const string with2 = "with2";
-    public const string minAge18 = "minAge18";
-    public const string lowercaseLettersNumbersAndCharactersAreAllowed =
+    internal const string ValuesAreEquals = "ValuesAreEquals";
+    internal const string Replace = "Replace";
+    internal const string NewValue = "NewValue";
+    internal const string OldValue = "OldValue";
+    internal const string TypeValuesForReplacing = "TypeValuesForReplacing";
+    internal const string EnterAValueAndPressEnter = "EnterAValueAndPressEnter";
+    internal const string Merge = "Merge";
+    internal const string KeepLeft = "KeepLeft";
+    internal const string KeepRight = "KeepRight";
+    internal const string WhatDoYouWantProceed = "WhatDoYouWantProceed";
+    internal const string MicrosoftSansSerif = "MicrosoftSansSerif";
+    internal const string MusiteZiskatAccessToken = "MusiteZiskatAccessToken";
+    internal const string PasteGivenAccessToken = "PasteGivenAccessToken";
+    internal const string SelectBrowserToOpenOAuth = "SelectBrowserToOpenOAuth";
+    internal const string MinimumAndMaximumValuesAreNotSupported = "MinimumAndMaximumValuesAreNotSupported";
+    internal const string NoActionWasFound = "NoActionWasFound";
+    internal const string DoYouWantLoadDataOnlyFromClipboard = "DoYouWantLoadDataOnlyFromClipboard";
+    internal const string PressEnterWhenDataWillBeInClipboard = "PressEnterWhenDataWillBeInClipboard";
+    internal const string SaveSetAsTemplate = "SaveSetAsTemplate";
+    internal const string New = "New";
+    internal const string New2 = "New2";
+    internal const string ToOpen = "ToOpen";
+    internal const string IsNotInRange = "IsNotInRange";
+    internal const string IsIncludedAlsoPolymorfismMethods = "IsIncludedAlsoPolymorfismMethods";
+    internal const string IndexOfCachedFiles = "IndexOfCachedFiles";
+    internal const string CopyToClipboardNamesOfAllDuplicatedMethods = "CopyToClipboardNamesOfAllDuplicatedMethods";
+    internal const string ElementsOfSourceFile = "ElementsOfSourceFile";
+    internal const string ElementsOfSourceFilesInFolder = "ElementsOfSourceFilesInFolder";
+    internal const string PathSettedToClipboard = "PathSettedToClipboard";
+    internal const string KeyboardShortcut = "KeyboardShortcut";
+    internal const string Reload = "Reload";
+    internal const string MoveToNextSearchOccurence = "MoveToNextSearchOccurence";
+    internal const string SearchInPath = "SearchInPath";
+    internal const string SearchInContent = "SearchInContent";
+    internal const string SearchInCodeElementsName = "SearchInCodeElementsName";
+    internal const string SaveFile = "SaveFile";
+    internal const string FileDatabaseWasReloadedWith = "FileDatabaseWasReloadedWith";
+    internal const string PathE = "PathE";
+    internal const string ContentW = "ContentW";
+    internal const string CodeElementsNamesQ = "CodeElementsNamesQ";
+    internal const string SearchCodeElements = "SearchCodeElements";
+    internal const string CopiedToClipboard = "CopiedToClipboard";
+    internal const string PrefixWithForIgnoring = "PrefixWithForIgnoring";
+    internal const string Open = "Open";
+    internal const string UnindexableExtensions = "UnindexableExtensions";
+    internal const string UnindexablePathEnds = "UnindexablePathEnds";
+    internal const string UnindexableFileNames = "UnindexableFileNames";
+    internal const string UnindexablePathParts = "UnindexablePathParts";
+    internal const string unindexablePathParts = "unindexablePathParts";
+    internal const string FoldersToIndexing = "FoldersToIndexing";
+    internal const string GreenForPathFilenamePart = "GreenForPathFilenamePart";
+    internal const string RedForPathFilenamePart = "RedForPathFilenamePart";
+    internal const string with = "with";
+    internal const string with2 = "with2";
+    internal const string minAge18 = "minAge18";
+    internal const string lowercaseLettersNumbersAndCharactersAreAllowed =
     "lowercaseLettersNumbersAndCharactersAreAllowed";
-    public const string showPassword = "showPassword";
-    public const string ShowPassword = "ShowPassword";
-    public const string ThePasswordMustBeAtLeastDigitsLong = "ThePasswordMustBeAtLeastDigitsLong";
-    public const string ThePasswordMustBeCharactersLong = "ThePasswordMustBeCharactersLong";
-    public const string HassleFreeOneClickBuy = "HassleFreeOneClickBuy";
-    public const string AppWillBeYourInOneMinute = "AppWillBeYourInOneMinute";
-    public const string EveryLine = "EveryLine";
-    public const string CodeSearch = "CodeSearch";
-    public const string forApplication = "forApplication";
-    public const string monthlySubscription = "monthlySubscription";
-    public const string InAttachmentIsJoinedActualTermsOfUse = "InAttachmentIsJoinedActualTermsOfUse";
-    public const string ThankYouForYourPurchase = "ThankYouForYourPurchase";
-    public const string AppCanSometimesSeemToBeFrozenPleaseBePatientAsyncOperationWillBeImplementedInUpcomingVersion =
+    internal const string showPassword = "showPassword";
+    internal const string ShowPassword = "ShowPassword";
+    internal const string ThePasswordMustBeAtLeastDigitsLong = "ThePasswordMustBeAtLeastDigitsLong";
+    internal const string ThePasswordMustBeCharactersLong = "ThePasswordMustBeCharactersLong";
+    internal const string HassleFreeOneClickBuy = "HassleFreeOneClickBuy";
+    internal const string AppWillBeYourInOneMinute = "AppWillBeYourInOneMinute";
+    internal const string EveryLine = "EveryLine";
+    internal const string CodeSearch = "CodeSearch";
+    internal const string forApplication = "forApplication";
+    internal const string monthlySubscription = "monthlySubscription";
+    internal const string InAttachmentIsJoinedActualTermsOfUse = "InAttachmentIsJoinedActualTermsOfUse";
+    internal const string ThankYouForYourPurchase = "ThankYouForYourPurchase";
+    internal const string AppCanSometimesSeemToBeFrozenPleaseBePatientAsyncOperationWillBeImplementedInUpcomingVersion =
     "AppCanSometimesSeemToBeFrozenPleaseBePatientAsyncOperationWillBeImplementedInUpcomingVersion";
-    public const string isNotInRange = "isNotInRange";
-    public const string Elements = "Elements";
-    public const string doesNotSupportDeserialize = "doesNotSupportDeserialize";
-    public const string doesNotSupportSerialize = "doesNotSupportSerialize";
-    public const string Deserialize = "Deserialize";
-    public const string Serialize = "Serialize";
-    public const string inJavascriptSerialization = "inJavascriptSerialization";
-    public const string ElseIfWithEnumValue = "ElseIfWithEnumValue";
-    public const string SystemWebScriptingSerializationJavaScriptSerializerIsNotSupportedInWindowsStoreApps =
+    internal const string isNotInRange = "isNotInRange";
+    internal const string Elements = "Elements";
+    internal const string doesNotSupportDeserialize = "doesNotSupportDeserialize";
+    internal const string doesNotSupportSerialize = "doesNotSupportSerialize";
+    internal const string Deserialize = "Deserialize";
+    internal const string Serialize = "Serialize";
+    internal const string inJavascriptSerialization = "inJavascriptSerialization";
+    internal const string ElseIfWithEnumValue = "ElseIfWithEnumValue";
+    internal const string SystemWebScriptingSerializationJavaScriptSerializerIsNotSupportedInWindowsStoreApps =
     "SystemWebScriptingSerializationJavaScriptSerializerIsNotSupportedInWindowsStoreApps";
-    public const string UnvalidFile = "UnvalidFile";
-    public const string AllFiles = "AllFiles";
-    public const string SelectTheFolder = "SelectTheFolder";
-    public const string SelectAFileToSaveTo = "SelectAFileToSaveTo";
-    public const string PreferredDropEffect = "PreferredDropEffect";
-    public const string CopyTextToClipboard = "CopyTextToClipboard";
-    public const string RelativeJunctionPoint = "RelativeJunctionPoint";
-    public const string MalformedSubsString = "MalformedSubsString";
-    public const string TargetStringTooShort = "TargetStringTooShort";
-    public const string FailedToRetrieveParsePoint = "FailedToRetrieveParsePoint";
-    public const string Vivaldi = "Vivaldi";
-    public const string CouldNotListProcessesLockingResourceFailedToGetSizeOfResult =
+    internal const string UnvalidFile = "UnvalidFile";
+    internal const string AllFiles = "AllFiles";
+    internal const string SelectTheFolder = "SelectTheFolder";
+    internal const string SelectAFileToSaveTo = "SelectAFileToSaveTo";
+    internal const string PreferredDropEffect = "PreferredDropEffect";
+    internal const string CopyTextToClipboard = "CopyTextToClipboard";
+    internal const string RelativeJunctionPoint = "RelativeJunctionPoint";
+    internal const string MalformedSubsString = "MalformedSubsString";
+    internal const string TargetStringTooShort = "TargetStringTooShort";
+    internal const string FailedToRetrieveParsePoint = "FailedToRetrieveParsePoint";
+    internal const string Vivaldi = "Vivaldi";
+    internal const string CouldNotListProcessesLockingResourceFailedToGetSizeOfResult =
     "CouldNotListProcessesLockingResourceFailedToGetSizeOfResult";
-    public const string CouldNotListProcessesLockingResource = "CouldNotListProcessesLockingResource";
-    public const string CouldNotRegisterResource = "CouldNotRegisterResource";
-    public const string CouldNotBeginRestartSessionUnableToDetermineFileLocker =
+    internal const string CouldNotListProcessesLockingResource = "CouldNotListProcessesLockingResource";
+    internal const string CouldNotRegisterResource = "CouldNotRegisterResource";
+    internal const string CouldNotBeginRestartSessionUnableToDetermineFileLocker =
     "CouldNotBeginRestartSessionUnableToDetermineFileLocker";
-    public const string AtributteXmlIsNull = "AtributteXmlIsNull";
-    public const string Zimbabwe = "Zimbabwe";
-    public const string Zambia = "Zambia";
-    public const string SouthAfrica = "SouthAfrica";
-    public const string Mayotte = "Mayotte";
-    public const string Yemen = "Yemen";
-    public const string Samoa = "Samoa";
-    public const string WallisAndFutuna = "WallisAndFutuna";
-    public const string Vanuatu = "Vanuatu";
-    public const string VietNam = "VietNam";
-    public const string VirginIslandsUS = "VirginIslandsUS";
-    public const string VirginIslandsBritish = "VirginIslandsBritish";
-    public const string VenezuelaBolivarianRepublicOf = "VenezuelaBolivarianRepublicOf";
-    public const string SaintVincentAndTheGrenadines = "SaintVincentAndTheGrenadines";
-    public const string HolySee = "HolySee";
-    public const string Uzbekistan = "Uzbekistan";
-    public const string Uruguay = "Uruguay";
-    public const string UnitedStatesOfAmerica = "UnitedStatesOfAmerica";
-    public const string UnitedStatesMinorOutlyingIslands = "UnitedStatesMinorOutlyingIslands";
-    public const string Uganda = "Uganda";
-    public const string Ukraine = "Ukraine";
-    public const string TanzaniaUnitedRepublicOf = "TanzaniaUnitedRepublicOf";
-    public const string TaiwanProvinceOfChina = "TaiwanProvinceOfChina";
-    public const string Tuvalu = "Tuvalu";
-    public const string TrinidadAndTobago = "TrinidadAndTobago";
-    public const string Turkey = "Turkey";
-    public const string Tonga = "Tonga";
-    public const string Tunisia = "Tunisia";
-    public const string Turkmenistan = "Turkmenistan";
-    public const string Tokelau = "Tokelau";
-    public const string Tajikistan = "Tajikistan";
-    public const string Thailand = "Thailand";
-    public const string Togo = "Togo";
-    public const string FrenchSouthernTerritories = "FrenchSouthernTerritories";
-    public const string Chad = "Chad";
-    public const string TurksAndCaicosIslands = "TurksAndCaicosIslands";
-    public const string Swaziland = "Swaziland";
-    public const string SyrianArabRepublic = "SyrianArabRepublic";
-    public const string SintMaartenDutchPart = "SintMaartenDutchPart";
-    public const string ElSalvador = "ElSalvador";
-    public const string SaoTomeAndPrincipe = "SaoTomeAndPrincipe";
-    public const string SouthSudan = "SouthSudan";
-    public const string Suriname = "Suriname";
-    public const string Somalia = "Somalia";
-    public const string Senegal = "Senegal";
-    public const string SanMarino = "SanMarino";
-    public const string SierraLeone = "SierraLeone";
-    public const string Slovakia = "Slovakia";
-    public const string SvalbardAndJanMayen = "SvalbardAndJanMayen";
-    public const string Slovenia = "Slovenia";
-    public const string SaintHelenaAscensionAndTristanDaCunha = "SaintHelenaAscensionAndTristanDaCunha";
-    public const string Singapore = "Singapore";
-    public const string Sweden = "Sweden";
-    public const string Sudan = "Sudan";
-    public const string Seychelles = "Seychelles";
-    public const string SolomonIslands = "SolomonIslands";
-    public const string SaudiArabia = "SaudiArabia";
-    public const string Rwanda = "Rwanda";
-    public const string RussianFederation = "RussianFederation";
-    public const string Serbia = "Serbia";
-    public const string Romania = "Romania";
-    public const string Qatar = "Qatar";
-    public const string Paraguay = "Paraguay";
-    public const string Palau = "Palau";
-    public const string Portugal = "Portugal";
-    public const string PalestineStateOf = "PalestineStateOf";
-    public const string PuertoRico = "PuertoRico";
-    public const string Pitcairn = "Pitcairn";
-    public const string SaintPierreAndMiquelon = "SaintPierreAndMiquelon";
-    public const string Poland = "Poland";
-    public const string Pakistan = "Pakistan";
-    public const string Philippines = "Philippines";
-    public const string PapuaNewGuinea = "PapuaNewGuinea";
-    public const string FrenchPolynesia = "FrenchPolynesia";
-    public const string Peru = "Peru";
-    public const string Panama = "Panama";
-    public const string Oman = "Oman";
-    public const string NewZealand = "NewZealand";
-    public const string Niue = "Niue";
-    public const string Nauru = "Nauru";
-    public const string Nepal = "Nepal";
-    public const string Norway = "Norway";
-    public const string Netherlands = "Netherlands";
-    public const string Nicaragua = "Nicaragua";
-    public const string Nigeria = "Nigeria";
-    public const string NorfolkIsland = "NorfolkIsland";
-    public const string Niger = "Niger";
-    public const string NewCaledonia = "NewCaledonia";
-    public const string Namibia = "Namibia";
-    public const string Mozambique = "Mozambique";
-    public const string Malaysia = "Malaysia";
-    public const string Mexico = "Mexico";
-    public const string Malawi = "Malawi";
-    public const string Maldives = "Maldives";
-    public const string Mauritius = "Mauritius";
-    public const string Malta = "Malta";
-    public const string Montserrat = "Montserrat";
-    public const string Mauritania = "Mauritania";
-    public const string Martinique = "Martinique";
-    public const string NorthernMarianaIslands = "NorthernMarianaIslands";
-    public const string Macao = "Macao";
-    public const string Mongolia = "Mongolia";
-    public const string Myanmar = "Myanmar";
-    public const string Mali = "Mali";
-    public const string MacedoniaTheFormerYugoslavRepublicOf = "MacedoniaTheFormerYugoslavRepublicOf";
-    public const string MarshallIslands = "MarshallIslands";
-    public const string Madagascar = "Madagascar";
-    public const string SaintMartinFrenchPart = "SaintMartinFrenchPart";
-    public const string Montenegro = "Montenegro";
-    public const string MoldovaRepublicOf = "MoldovaRepublicOf";
-    public const string Monaco = "Monaco";
-    public const string Morocco = "Morocco";
-    public const string Libya = "Libya";
-    public const string Latvia = "Latvia";
-    public const string Luxembourg = "Luxembourg";
-    public const string Lithuania = "Lithuania";
-    public const string Lesotho = "Lesotho";
-    public const string Liberia = "Liberia";
-    public const string SriLanka = "SriLanka";
-    public const string Liechtenstein = "Liechtenstein";
-    public const string SaintLucia = "SaintLucia";
-    public const string Lebanon = "Lebanon";
-    public const string LaoPeopleSDemocraticRepublic = "LaoPeopleSDemocraticRepublic";
-    public const string Kazakhstan = "Kazakhstan";
-    public const string CaymanIslands = "CaymanIslands";
-    public const string Kuwait = "Kuwait";
-    public const string KoreaRepublicOf = "KoreaRepublicOf";
-    public const string KoreaDemocraticPeopleSRepublicOf = "KoreaDemocraticPeopleSRepublicOf";
-    public const string SaintKittsAndNevis = "SaintKittsAndNevis";
-    public const string Comoros = "Comoros";
-    public const string Kiribati = "Kiribati";
-    public const string Cambodia = "Cambodia";
-    public const string Kyrgyzstan = "Kyrgyzstan";
-    public const string Kenya = "Kenya";
-    public const string Japan = "Japan";
-    public const string Jordan = "Jordan";
-    public const string Jamaica = "Jamaica";
-    public const string Jersey = "Jersey";
-    public const string Italy = "Italy";
-    public const string Iceland = "Iceland";
-    public const string IranIslamicRepublicOf = "IranIslamicRepublicOf";
-    public const string Iraq = "Iraq";
-    public const string BritishIndianOceanTerritory = "BritishIndianOceanTerritory";
-    public const string India = "India";
-    public const string IsleOfMan = "IsleOfMan";
-    public const string Israel = "Israel";
-    public const string Ireland = "Ireland";
-    public const string Indonesia = "Indonesia";
-    public const string Hungary = "Hungary";
-    public const string Haiti = "Haiti";
-    public const string Croatia = "Croatia";
-    public const string Honduras = "Honduras";
-    public const string HeardIslandAndMcDonaldIslands = "HeardIslandAndMcDonaldIslands";
-    public const string HongKong = "HongKong";
-    public const string Guyana = "Guyana";
-    public const string Guam = "Guam";
-    public const string Guatemala = "Guatemala";
-    public const string SouthGeorgiaAndTheSouthSandwichIslands = "SouthGeorgiaAndTheSouthSandwichIslands";
-    public const string Greece = "Greece";
-    public const string EquatorialGuinea = "EquatorialGuinea";
-    public const string Guadeloupe = "Guadeloupe";
-    public const string Guinea = "Guinea";
-    public const string Gambia = "Gambia";
-    public const string Greenland = "Greenland";
-    public const string Gibraltar = "Gibraltar";
-    public const string Ghana = "Ghana";
-    public const string Guernsey = "Guernsey";
-    public const string FrenchGuiana = "FrenchGuiana";
-    public const string Georgia = "Georgia";
-    public const string Grenada = "Grenada";
-    public const string UnitedKingdomOfGreatBritainAndNorthernIreland = "UnitedKingdomOfGreatBritainAndNorthernIreland";
-    public const string Gabon = "Gabon";
-    public const string France = "France";
-    public const string FaroeIslands = "FaroeIslands";
-    public const string MicronesiaFederatedStatesOf = "MicronesiaFederatedStatesOf";
-    public const string FalklandIslandsMalvinas = "FalklandIslandsMalvinas";
-    public const string Fiji = "Fiji";
-    public const string Finland = "Finland";
-    public const string Ethiopia = "Ethiopia";
-    public const string Spain = "Spain";
-    public const string Eritrea = "Eritrea";
-    public const string WesternSahara = "WesternSahara";
-    public const string Egypt = "Egypt";
-    public const string Estonia = "Estonia";
-    public const string Ecuador = "Ecuador";
-    public const string Algeria = "Algeria";
-    public const string DominicanRepublic = "DominicanRepublic";
-    public const string Dominica = "Dominica";
-    public const string Denmark = "Denmark";
-    public const string Djibouti = "Djibouti";
-    public const string Germany = "Germany";
-    public const string Cyprus = "Cyprus";
-    public const string ChristmasIsland = "ChristmasIsland";
-    public const string CaboVerde = "CaboVerde";
-    public const string Cuba = "Cuba";
-    public const string CostaRica = "CostaRica";
-    public const string Colombia = "Colombia";
-    public const string China = "China";
-    public const string Cameroon = "Cameroon";
-    public const string Chile = "Chile";
-    public const string CookIslands = "CookIslands";
-    public const string Switzerland = "Switzerland";
-    public const string Congo = "Congo";
-    public const string CentralAfricanRepublic = "CentralAfricanRepublic";
-    public const string CongoTheDemocraticRepublicOfThe = "CongoTheDemocraticRepublicOfThe";
-    public const string CocosKeelingIslands = "CocosKeelingIslands";
-    public const string Canada = "Canada";
-    public const string Belize = "Belize";
-    public const string Belarus = "Belarus";
-    public const string Botswana = "Botswana";
-    public const string BouvetIsland = "BouvetIsland";
-    public const string Bhutan = "Bhutan";
-    public const string Bahamas = "Bahamas";
-    public const string Brazil = "Brazil";
-    public const string BonaireSintEustatiusAndSaba = "BonaireSintEustatiusAndSaba";
-    public const string BoliviaPlurinationalStateOf = "BoliviaPlurinationalStateOf";
-    public const string BruneiDarussalam = "BruneiDarussalam";
-    public const string Bermuda = "Bermuda";
-    public const string Benin = "Benin";
-    public const string Burundi = "Burundi";
-    public const string Bahrain = "Bahrain";
-    public const string Bulgaria = "Bulgaria";
-    public const string BurkinaFaso = "BurkinaFaso";
-    public const string Belgium = "Belgium";
-    public const string Bangladesh = "Bangladesh";
-    public const string Barbados = "Barbados";
-    public const string BosniaAndHerzegovina = "BosniaAndHerzegovina";
-    public const string Azerbaijan = "Azerbaijan";
-    public const string Aruba = "Aruba";
-    public const string Australia = "Australia";
-    public const string Austria = "Austria";
-    public const string AmericanSamoa = "AmericanSamoa";
-    public const string Argentina = "Argentina";
-    public const string Antarctica = "Antarctica";
-    public const string Angola = "Angola";
-    public const string Armenia = "Armenia";
-    public const string Albania = "Albania";
-    public const string Anguilla = "Anguilla";
-    public const string AntiguaAndBarbuda = "AntiguaAndBarbuda";
-    public const string Afghanistan = "Afghanistan";
-    public const string UnitedArabEmirates = "UnitedArabEmirates";
-    public const string Andorra = "Andorra";
-    public const string Jihlava = "Jihlava";
-    public const string Brno = "Brno";
-    public const string Ostrava = "Ostrava";
-    public const string Olomouc = "Olomouc";
-    public const string Pardubice = "Pardubice";
-    public const string Liberec = "Liberec";
-    public const string Carlsbad = "Carlsbad";
-    public const string Prague = "Prague";
-    public const string Vbar = "Vbar";
-    public const string Vdashl = "Vdashl";
-    public const string Dashv = "Dashv";
-    public const string Poincareplane = "Poincareplane";
-    public const string Featuring = "Featuring";
-    public const string Parse = "Parse";
-    public const string Prepend = "Prepend";
-    public const string InvalidRowIndexInMethodCAGetRowOfTwoDimensionalArray =
+    internal const string AtributteXmlIsNull = "AtributteXmlIsNull";
+    internal const string Zimbabwe = "Zimbabwe";
+    internal const string Zambia = "Zambia";
+    internal const string SouthAfrica = "SouthAfrica";
+    internal const string Mayotte = "Mayotte";
+    internal const string Yemen = "Yemen";
+    internal const string Samoa = "Samoa";
+    internal const string WallisAndFutuna = "WallisAndFutuna";
+    internal const string Vanuatu = "Vanuatu";
+    internal const string VietNam = "VietNam";
+    internal const string VirginIslandsUS = "VirginIslandsUS";
+    internal const string VirginIslandsBritish = "VirginIslandsBritish";
+    internal const string VenezuelaBolivarianRepublicOf = "VenezuelaBolivarianRepublicOf";
+    internal const string SaintVincentAndTheGrenadines = "SaintVincentAndTheGrenadines";
+    internal const string HolySee = "HolySee";
+    internal const string Uzbekistan = "Uzbekistan";
+    internal const string Uruguay = "Uruguay";
+    internal const string UnitedStatesOfAmerica = "UnitedStatesOfAmerica";
+    internal const string UnitedStatesMinorOutlyingIslands = "UnitedStatesMinorOutlyingIslands";
+    internal const string Uganda = "Uganda";
+    internal const string Ukraine = "Ukraine";
+    internal const string TanzaniaUnitedRepublicOf = "TanzaniaUnitedRepublicOf";
+    internal const string TaiwanProvinceOfChina = "TaiwanProvinceOfChina";
+    internal const string Tuvalu = "Tuvalu";
+    internal const string TrinidadAndTobago = "TrinidadAndTobago";
+    internal const string Turkey = "Turkey";
+    internal const string Tonga = "Tonga";
+    internal const string Tunisia = "Tunisia";
+    internal const string Turkmenistan = "Turkmenistan";
+    internal const string Tokelau = "Tokelau";
+    internal const string Tajikistan = "Tajikistan";
+    internal const string Thailand = "Thailand";
+    internal const string Togo = "Togo";
+    internal const string FrenchSouthernTerritories = "FrenchSouthernTerritories";
+    internal const string Chad = "Chad";
+    internal const string TurksAndCaicosIslands = "TurksAndCaicosIslands";
+    internal const string Swaziland = "Swaziland";
+    internal const string SyrianArabReinternal = "SyrianArabRepublic";
+    internal const string SintMaartenDutchPart = "SintMaartenDutchPart";
+    internal const string ElSalvador = "ElSalvador";
+    internal const string SaoTomeAndPrincipe = "SaoTomeAndPrincipe";
+    internal const string SouthSudan = "SouthSudan";
+    internal const string Suriname = "Suriname";
+    internal const string Somalia = "Somalia";
+    internal const string Senegal = "Senegal";
+    internal const string SanMarino = "SanMarino";
+    internal const string SierraLeone = "SierraLeone";
+    internal const string Slovakia = "Slovakia";
+    internal const string SvalbardAndJanMayen = "SvalbardAndJanMayen";
+    internal const string Slovenia = "Slovenia";
+    internal const string SaintHelenaAscensionAndTristanDaCunha = "SaintHelenaAscensionAndTristanDaCunha";
+    internal const string Singapore = "Singapore";
+    internal const string Sweden = "Sweden";
+    internal const string Sudan = "Sudan";
+    internal const string Seychelles = "Seychelles";
+    internal const string SolomonIslands = "SolomonIslands";
+    internal const string SaudiArabia = "SaudiArabia";
+    internal const string Rwanda = "Rwanda";
+    internal const string RussianFederation = "RussianFederation";
+    internal const string Serbia = "Serbia";
+    internal const string Romania = "Romania";
+    internal const string Qatar = "Qatar";
+    internal const string Paraguay = "Paraguay";
+    internal const string Palau = "Palau";
+    internal const string Portugal = "Portugal";
+    internal const string PalestineStateOf = "PalestineStateOf";
+    internal const string PuertoRico = "PuertoRico";
+    internal const string Pitcairn = "Pitcairn";
+    internal const string SaintPierreAndMiquelon = "SaintPierreAndMiquelon";
+    internal const string Poland = "Poland";
+    internal const string Pakistan = "Pakistan";
+    internal const string Philippines = "Philippines";
+    internal const string PapuaNewGuinea = "PapuaNewGuinea";
+    internal const string FrenchPolynesia = "FrenchPolynesia";
+    internal const string Peru = "Peru";
+    internal const string Panama = "Panama";
+    internal const string Oman = "Oman";
+    internal const string NewZealand = "NewZealand";
+    internal const string Niue = "Niue";
+    internal const string Nauru = "Nauru";
+    internal const string Nepal = "Nepal";
+    internal const string Norway = "Norway";
+    internal const string Netherlands = "Netherlands";
+    internal const string Nicaragua = "Nicaragua";
+    internal const string Nigeria = "Nigeria";
+    internal const string NorfolkIsland = "NorfolkIsland";
+    internal const string Niger = "Niger";
+    internal const string NewCaledonia = "NewCaledonia";
+    internal const string Namibia = "Namibia";
+    internal const string Mozambique = "Mozambique";
+    internal const string Malaysia = "Malaysia";
+    internal const string Mexico = "Mexico";
+    internal const string Malawi = "Malawi";
+    internal const string Maldives = "Maldives";
+    internal const string Mauritius = "Mauritius";
+    internal const string Malta = "Malta";
+    internal const string Montserrat = "Montserrat";
+    internal const string Mauritania = "Mauritania";
+    internal const string Martinique = "Martinique";
+    internal const string NorthernMarianaIslands = "NorthernMarianaIslands";
+    internal const string Macao = "Macao";
+    internal const string Mongolia = "Mongolia";
+    internal const string Myanmar = "Myanmar";
+    internal const string Mali = "Mali";
+    internal const string MacedoniaTheFormerYugoslavRepublicOf = "MacedoniaTheFormerYugoslavRepublicOf";
+    internal const string MarshallIslands = "MarshallIslands";
+    internal const string Madagascar = "Madagascar";
+    internal const string SaintMartinFrenchPart = "SaintMartinFrenchPart";
+    internal const string Montenegro = "Montenegro";
+    internal const string MoldovaRepublicOf = "MoldovaRepublicOf";
+    internal const string Monaco = "Monaco";
+    internal const string Morocco = "Morocco";
+    internal const string Libya = "Libya";
+    internal const string Latvia = "Latvia";
+    internal const string Luxembourg = "Luxembourg";
+    internal const string Lithuania = "Lithuania";
+    internal const string Lesotho = "Lesotho";
+    internal const string Liberia = "Liberia";
+    internal const string SriLanka = "SriLanka";
+    internal const string Liechtenstein = "Liechtenstein";
+    internal const string SaintLucia = "SaintLucia";
+    internal const string Lebanon = "Lebanon";
+    internal const string LaoPeopleSDemocraticReinternal = "LaoPeopleSDemocraticRepublic";
+    internal const string Kazakhstan = "Kazakhstan";
+    internal const string CaymanIslands = "CaymanIslands";
+    internal const string Kuwait = "Kuwait";
+    internal const string KoreaRepublicOf = "KoreaRepublicOf";
+    internal const string KoreaDemocraticPeopleSRepublicOf = "KoreaDemocraticPeopleSRepublicOf";
+    internal const string SaintKittsAndNevis = "SaintKittsAndNevis";
+    internal const string Comoros = "Comoros";
+    internal const string Kiribati = "Kiribati";
+    internal const string Cambodia = "Cambodia";
+    internal const string Kyrgyzstan = "Kyrgyzstan";
+    internal const string Kenya = "Kenya";
+    internal const string Japan = "Japan";
+    internal const string Jordan = "Jordan";
+    internal const string Jamaica = "Jamaica";
+    internal const string Jersey = "Jersey";
+    internal const string Italy = "Italy";
+    internal const string Iceland = "Iceland";
+    internal const string IranIslamicRepublicOf = "IranIslamicRepublicOf";
+    internal const string Iraq = "Iraq";
+    internal const string BritishIndianOceanTerritory = "BritishIndianOceanTerritory";
+    internal const string India = "India";
+    internal const string IsleOfMan = "IsleOfMan";
+    internal const string Israel = "Israel";
+    internal const string Ireland = "Ireland";
+    internal const string Indonesia = "Indonesia";
+    internal const string Hungary = "Hungary";
+    internal const string Haiti = "Haiti";
+    internal const string Croatia = "Croatia";
+    internal const string Honduras = "Honduras";
+    internal const string HeardIslandAndMcDonaldIslands = "HeardIslandAndMcDonaldIslands";
+    internal const string HongKong = "HongKong";
+    internal const string Guyana = "Guyana";
+    internal const string Guam = "Guam";
+    internal const string Guatemala = "Guatemala";
+    internal const string SouthGeorgiaAndTheSouthSandwichIslands = "SouthGeorgiaAndTheSouthSandwichIslands";
+    internal const string Greece = "Greece";
+    internal const string EquatorialGuinea = "EquatorialGuinea";
+    internal const string Guadeloupe = "Guadeloupe";
+    internal const string Guinea = "Guinea";
+    internal const string Gambia = "Gambia";
+    internal const string Greenland = "Greenland";
+    internal const string Gibraltar = "Gibraltar";
+    internal const string Ghana = "Ghana";
+    internal const string Guernsey = "Guernsey";
+    internal const string FrenchGuiana = "FrenchGuiana";
+    internal const string Georgia = "Georgia";
+    internal const string Grenada = "Grenada";
+    internal const string UnitedKingdomOfGreatBritainAndNorthernIreland = "UnitedKingdomOfGreatBritainAndNorthernIreland";
+    internal const string Gabon = "Gabon";
+    internal const string France = "France";
+    internal const string FaroeIslands = "FaroeIslands";
+    internal const string MicronesiaFederatedStatesOf = "MicronesiaFederatedStatesOf";
+    internal const string FalklandIslandsMalvinas = "FalklandIslandsMalvinas";
+    internal const string Fiji = "Fiji";
+    internal const string Finland = "Finland";
+    internal const string Ethiopia = "Ethiopia";
+    internal const string Spain = "Spain";
+    internal const string Eritrea = "Eritrea";
+    internal const string WesternSahara = "WesternSahara";
+    internal const string Egypt = "Egypt";
+    internal const string Estonia = "Estonia";
+    internal const string Ecuador = "Ecuador";
+    internal const string Algeria = "Algeria";
+    internal const string DominicanReinternal = "DominicanRepublic";
+    internal const string Dominica = "Dominica";
+    internal const string Denmark = "Denmark";
+    internal const string Djibouti = "Djibouti";
+    internal const string Germany = "Germany";
+    internal const string Cyprus = "Cyprus";
+    internal const string ChristmasIsland = "ChristmasIsland";
+    internal const string CaboVerde = "CaboVerde";
+    internal const string Cuba = "Cuba";
+    internal const string CostaRica = "CostaRica";
+    internal const string Colombia = "Colombia";
+    internal const string China = "China";
+    internal const string Cameroon = "Cameroon";
+    internal const string Chile = "Chile";
+    internal const string CookIslands = "CookIslands";
+    internal const string Switzerland = "Switzerland";
+    internal const string Congo = "Congo";
+    internal const string CentralAfricanReinternal = "CentralAfricanRepublic";
+    internal const string CongoTheDemocraticRepublicOfThe = "CongoTheDemocraticRepublicOfThe";
+    internal const string CocosKeelingIslands = "CocosKeelingIslands";
+    internal const string Canada = "Canada";
+    internal const string Belize = "Belize";
+    internal const string Belarus = "Belarus";
+    internal const string Botswana = "Botswana";
+    internal const string BouvetIsland = "BouvetIsland";
+    internal const string Bhutan = "Bhutan";
+    internal const string Bahamas = "Bahamas";
+    internal const string Brazil = "Brazil";
+    internal const string BonaireSintEustatiusAndSaba = "BonaireSintEustatiusAndSaba";
+    internal const string BoliviaPlurinationalStateOf = "BoliviaPlurinationalStateOf";
+    internal const string BruneiDarussalam = "BruneiDarussalam";
+    internal const string Bermuda = "Bermuda";
+    internal const string Benin = "Benin";
+    internal const string Burundi = "Burundi";
+    internal const string Bahrain = "Bahrain";
+    internal const string Bulgaria = "Bulgaria";
+    internal const string BurkinaFaso = "BurkinaFaso";
+    internal const string Belgium = "Belgium";
+    internal const string Bangladesh = "Bangladesh";
+    internal const string Barbados = "Barbados";
+    internal const string BosniaAndHerzegovina = "BosniaAndHerzegovina";
+    internal const string Azerbaijan = "Azerbaijan";
+    internal const string Aruba = "Aruba";
+    internal const string Australia = "Australia";
+    internal const string Austria = "Austria";
+    internal const string AmericanSamoa = "AmericanSamoa";
+    internal const string Argentina = "Argentina";
+    internal const string Antarctica = "Antarctica";
+    internal const string Angola = "Angola";
+    internal const string Armenia = "Armenia";
+    internal const string Albania = "Albania";
+    internal const string Anguilla = "Anguilla";
+    internal const string AntiguaAndBarbuda = "AntiguaAndBarbuda";
+    internal const string Afghanistan = "Afghanistan";
+    internal const string UnitedArabEmirates = "UnitedArabEmirates";
+    internal const string Andorra = "Andorra";
+    internal const string Jihlava = "Jihlava";
+    internal const string Brno = "Brno";
+    internal const string Ostrava = "Ostrava";
+    internal const string Olomouc = "Olomouc";
+    internal const string Pardubice = "Pardubice";
+    internal const string Liberec = "Liberec";
+    internal const string Carlsbad = "Carlsbad";
+    internal const string Prague = "Prague";
+    internal const string Vbar = "Vbar";
+    internal const string Vdashl = "Vdashl";
+    internal const string Dashv = "Dashv";
+    internal const string Poincareplane = "Poincareplane";
+    internal const string Featuring = "Featuring";
+    internal const string Parse = "Parse";
+    internal const string Prepend = "Prepend";
+    internal const string InvalidRowIndexInMethodCAGetRowOfTwoDimensionalArray =
     "InvalidRowIndexInMethodCAGetRowOfTwoDimensionalArray";
-    public const string ChangesSavedToClipboard = "ChangesSavedToClipboard";
-    public const string ChangesSavedToFile = "ChangesSavedToFile";
-    public const string mustBeAnEnumType = "mustBeAnEnumType";
-    public const string ProbablyWasCalledWithSwithechDelimiterAndParts =
+    internal const string ChangesSavedToClipboard = "ChangesSavedToClipboard";
+    internal const string ChangesSavedToFile = "ChangesSavedToFile";
+    internal const string mustBeAnEnumType = "mustBeAnEnumType";
+    internal const string ProbablyWasCalledWithSwithechDelimiterAndParts =
     "ProbablyWasCalledWithSwithechDelimiterAndParts";
-    public const string NumbersOfLetters = "NumbersOfLetters";
-    public const string MismatchCountInInputArraysOfSHAllHaveRightFormat =
+    internal const string NumbersOfLetters = "NumbersOfLetters";
+    internal const string MismatchCountInInputArraysOfSHAllHaveRightFormat =
     "MismatchCountInInputArraysOfSHAllHaveRightFormat";
-    public const string ThisParagraphIsLongerThan500Characters = "ThisParagraphIsLongerThan500Characters";
-    public const string ChangeDialogResultHasAlredyRegisteredHandler = "ChangeDialogResultHasAlredyRegisteredHandler";
-    public const string AsyncHelpersRunMethodThrewAnException = "AsyncHelpersRunMethodThrewAnException";
-    public const string WeCannotSendToOurSameThread = "WeCannotSendToOurSameThread";
-    public const string sir = "sir";
-    public const string madam = "madam";
-    public const string GetFilesWithPath = "GetFilesWithPath";
-    public const string NIUwpSeeMethodForStacktrace = "NIUwpSeeMethodForStacktrace";
-    public const string UseMethodsInFSApps = "UseMethodsInFSApps";
-    public const string ContentOf = "ContentOf";
-    public const string NotIndicated = "NotIndicated";
-    public const string ItWasNotMentioned = "ItWasNotMentioned";
-    public const string NoKnownPeriod = "NoKnownPeriod";
-    public const string PleaseAddHandle64ExeToPATH = "PleaseAddHandle64ExeToPATH";
-    public const string NoProcessIsAssociatedWithThisObject = "NoProcessIsAssociatedWithThisObject";
-    public const string TheSystemCannotFindTheFileSpecified = "TheSystemCannotFindTheFileSpecified";
-    public const string Undo = "Undo";
-    public const string MetodaHtmlGenerator2TopListWithImagesOdkazyPhoto =
+    internal const string ThisParagraphIsLongerThan500Characters = "ThisParagraphIsLongerThan500Characters";
+    internal const string ChangeDialogResultHasAlredyRegisteredHandler = "ChangeDialogResultHasAlredyRegisteredHandler";
+    internal const string AsyncHelpersRunMethodThrewAnException = "AsyncHelpersRunMethodThrewAnException";
+    internal const string WeCannotSendToOurSameThread = "WeCannotSendToOurSameThread";
+    internal const string sir = "sir";
+    internal const string madam = "madam";
+    internal const string GetFilesWithPath = "GetFilesWithPath";
+    internal const string NIUwpSeeMethodForStacktrace = "NIUwpSeeMethodForStacktrace";
+    internal const string UseMethodsInFSApps = "UseMethodsInFSApps";
+    internal const string ContentOf = "ContentOf";
+    internal const string NotIndicated = "NotIndicated";
+    internal const string ItWasNotMentioned = "ItWasNotMentioned";
+    internal const string NoKnownPeriod = "NoKnownPeriod";
+    internal const string PleaseAddHandle64ExeToPATH = "PleaseAddHandle64ExeToPATH";
+    internal const string NoProcessIsAssociatedWithThisObject = "NoProcessIsAssociatedWithThisObject";
+    internal const string TheSystemCannotFindTheFileSpecified = "TheSystemCannotFindTheFileSpecified";
+    internal const string Undo = "Undo";
+    internal const string MetodaHtmlGenerator2TopListWithImagesOdkazyPhoto =
     "MetodaHtmlGenerator2TopListWithImagesOdkazyPhoto";
-    public const string UnknownOrGeneralError = "UnknownOrGeneralError";
-    public const string TheProgramDoesNotHaveAccessToTheFile = "TheProgramDoesNotHaveAccessToTheFile";
-    public const string FileNotFound = "FileNotFound";
-    public const string IfYouThinkThatThisIsApplicationErrorPleaseSendMeAnEmailAtTheAddressThatIsListedInTheAboutApp =
+    internal const string UnknownOrGeneralError = "UnknownOrGeneralError";
+    internal const string TheProgramDoesNotHaveAccessToTheFile = "TheProgramDoesNotHaveAccessToTheFile";
+    internal const string FileNotFound = "FileNotFound";
+    internal const string IfYouThinkThatThisIsApplicationErrorPleaseSendMeAnEmailAtTheAddressThatIsListedInTheAboutApp =
     "IfYouThinkThatThisIsApplicationErrorPleaseSendMeAnEmailAtTheAddressThatIsListedInTheAboutApp";
-    public const string InTheseFilesTheFollowingErrorsOccurred = "InTheseFilesTheFollowingErrorsOccurred";
-    public const string CountInAAndBIsNotEqual = "CountInAAndBIsNotEqual";
-    public const string SuccessfullyResizedTo = "SuccessfullyResizedTo";
-    public const string PleaseEnterRightInputData = "PleaseEnterRightInputData";
-    public const string OperationWasStopped = "OperationWasStopped";
-    public const string UnfortunatelyBadFormatPleaseTryAgain = "UnfortunatelyBadFormatPleaseTryAgain";
-    public const string InsertAsIndexesZeroBased = "InsertAsIndexesZeroBased";
-    public const string LoadedFromStorage = "LoadedFromStorage";
-    public const string Folder = "Folder";
-    public const string SomeErrorsOccuredSeeLog = "SomeErrorsOccuredSeeLog";
-    public const string Finished = "Finished";
-    public const string SavedToDrive = "SavedToDrive";
-    public const string Test = "Test";
-    public const string BadFormatOfElement = "BadFormatOfElement";
-    public const string NotImplementedCasePublicProgramErrorPleaseContactDeveloper =
+    internal const string InTheseFilesTheFollowingErrorsOccurred = "InTheseFilesTheFollowingErrorsOccurred";
+    internal const string CountInAAndBIsNotEqual = "CountInAAndBIsNotEqual";
+    internal const string SuccessfullyResizedTo = "SuccessfullyResizedTo";
+    internal const string PleaseEnterRightInputData = "PleaseEnterRightInputData";
+    internal const string OperationWasStopped = "OperationWasStopped";
+    internal const string UnfortunatelyBadFormatPleaseTryAgain = "UnfortunatelyBadFormatPleaseTryAgain";
+    internal const string InsertAsIndexesZeroBased = "InsertAsIndexesZeroBased";
+    internal const string LoadedFromStorage = "LoadedFromStorage";
+    internal const string Folder = "Folder";
+    internal const string SomeErrorsOccuredSeeLog = "SomeErrorsOccuredSeeLog";
+    internal const string Finished = "Finished";
+    internal const string SavedToDrive = "SavedToDrive";
+    internal const string Test = "Test";
+    internal const string BadFormatOfElement = "BadFormatOfElement";
+    internal const string NotImplementedCasePublicProgramErrorPleaseContactDeveloper =
     "NotImplementedCasePublicProgramErrorPleaseContactDeveloper";
-    public const string publicProgramErrorPleaseContactDeveloper = "publicProgramErrorPleaseContactDeveloper";
-    public const string NotImplementedCase = "NotImplementedCase";
-    public const string isNotExistsInDictionary = "isNotExistsInDictionary";
-    public const string Under = "Under";
-    public const string Directory = "Directory";
-    public const string NoPassedFolderInto = "NoPassedFolderInto";
-    public const string ElementWasntRemovedDuring = "ElementWasntRemovedDuring";
-    public const string CanTDeleteFolder = "CanTDeleteFolder";
-    public const string wasNotIKeysHandler = "wasNotIKeysHandler";
-    public const string ElementOf = "ElementOf";
-    public const string DifferentCountElementsInCollection = "DifferentCountElementsInCollection";
-    public const string NotSupported = "NotSupported";
-    public const string StringHasNotBeenInPathFormat = "StringHasNotBeenInPathFormat";
-    public const string isNotInWindowsPathFormat = "isNotInWindowsPathFormat";
-    public const string DoesnTHaveRequiredType = "DoesnTHaveRequiredType";
-    public const string doesntHaveSettedName = "doesntHaveSettedName";
-    public const string DoesnTExists = "DoesnTExists";
-    public const string ArrayShouldHave0Or1ElementsHave2 = "ArrayShouldHave0Or1ElementsHave2";
-    public const string DonTImplementUseMethodsInRlc = "DonTImplementUseMethodsInRlc";
-    public const string Feat = "Feat";
-    public const string Founded = "Founded";
-    public const string Restored = "Restored";
-    public const string Managed = "Managed";
-    public const string TheProvidedStringDoesNotAppearToBeBase64Encoded =
+    internal const string publicProgramErrorPleaseContactDeveloper = "publicProgramErrorPleaseContactDeveloper";
+    internal const string NotImplementedCase = "NotImplementedCase";
+    internal const string isNotExistsInDictionary = "isNotExistsInDictionary";
+    internal const string Under = "Under";
+    internal const string Directory = "Directory";
+    internal const string NoPassedFolderInto = "NoPassedFolderInto";
+    internal const string ElementWasntRemovedDuring = "ElementWasntRemovedDuring";
+    internal const string CanTDeleteFolder = "CanTDeleteFolder";
+    internal const string wasNotIKeysHandler = "wasNotIKeysHandler";
+    internal const string ElementOf = "ElementOf";
+    internal const string DifferentCountElementsInCollection = "DifferentCountElementsInCollection";
+    internal const string NotSupported = "NotSupported";
+    internal const string StringHasNotBeenInPathFormat = "StringHasNotBeenInPathFormat";
+    internal const string isNotInWindowsPathFormat = "isNotInWindowsPathFormat";
+    internal const string DoesnTHaveRequiredType = "DoesnTHaveRequiredType";
+    internal const string doesntHaveSettedName = "doesntHaveSettedName";
+    internal const string DoesnTExists = "DoesnTExists";
+    internal const string ArrayShouldHave0Or1ElementsHave2 = "ArrayShouldHave0Or1ElementsHave2";
+    internal const string DonTImplementUseMethodsInRlc = "DonTImplementUseMethodsInRlc";
+    internal const string Feat = "Feat";
+    internal const string Founded = "Founded";
+    internal const string Restored = "Restored";
+    internal const string Managed = "Managed";
+    internal const string TheProvidedStringDoesNotAppearToBeBase64Encoded =
     "TheProvidedStringDoesNotAppearToBeBase64Encoded";
-    public const string UnableToDecryptDataTheProvidedKeyMayBeInvalid = "UnableToDecryptDataTheProvidedKeyMayBeInvalid";
-    public const string NoInitializationVectorWasProvidedForTheDecryptionOperation =
+    internal const string UnableToDecryptDataTheProvidedKeyMayBeInvalid = "UnableToDecryptDataTheProvidedKeyMayBeInvalid";
+    internal const string NoInitializationVectorWasProvidedForTheDecryptionOperation =
     "NoInitializationVectorWasProvidedForTheDecryptionOperation";
-    public const string NoKeyWasProvidedForTheDecryptionOperation = "NoKeyWasProvidedForTheDecryptionOperation";
-    public const string CRC32HashAlgorithm = "CRC32HashAlgorithm";
-    public const string Windows1252 = "Windows1252";
-    public const string Boolean = "Boolean";
-    public const string December = "December";
-    public const string November = "November";
-    public const string October = "October";
-    public const string September = "September";
-    public const string Srpen = "Srpen";
-    public const string August = "August";
-    public const string July = "July";
-    public const string June = "June";
-    public const string Duben = "Duben";
-    public const string April = "April";
-    public const string March = "March";
-    public const string February = "February";
-    public const string January = "January";
-    public const string Bedouin = "Bedouin";
-    public const string ParameterZmenaOOfMethodColumnSizeHelperCalculateWidthOfColumnsAgainHasValue =
+    internal const string NoKeyWasProvidedForTheDecryptionOperation = "NoKeyWasProvidedForTheDecryptionOperation";
+    internal const string CRC32HashAlgorithm = "CRC32HashAlgorithm";
+    internal const string Windows1252 = "Windows1252";
+    internal const string Boolean = "Boolean";
+    internal const string December = "December";
+    internal const string November = "November";
+    internal const string October = "October";
+    internal const string September = "September";
+    internal const string Srpen = "Srpen";
+    internal const string August = "August";
+    internal const string July = "July";
+    internal const string June = "June";
+    internal const string Duben = "Duben";
+    internal const string April = "April";
+    internal const string March = "March";
+    internal const string February = "February";
+    internal const string January = "January";
+    internal const string Bedouin = "Bedouin";
+    internal const string ParameterZmenaOOfMethodColumnSizeHelperCalculateWidthOfColumnsAgainHasValue =
     "ParameterZmenaOOfMethodColumnSizeHelperCalculateWidthOfColumnsAgainHasValue";
-    public const string DifferentCountInputElementsOfArrayInUniqueTableInWholeAddCells =
+    internal const string DifferentCountInputElementsOfArrayInUniqueTableInWholeAddCells =
     "DifferentCountInputElementsOfArrayInUniqueTableInWholeAddCells";
-    public const string BothColumnAndRowArgumentsInUniqueTableInWholeIsUniqueAsRowOrColumnWasFalse =
+    internal const string BothColumnAndRowArgumentsInUniqueTableInWholeIsUniqueAsRowOrColumnWasFalse =
     "BothColumnAndRowArgumentsInUniqueTableInWholeIsUniqueAsRowOrColumnWasFalse";
-    public const string UnableToLoadElementAddSomeAndTryAgain = "UnableToLoadElementAddSomeAndTryAgain";
-    public const string Drago = "Drago";
-    public const string Orient = "Orient";
-    public const string InDesktopAppDontPassLangs = "InDesktopAppDontPassLangs";
-    public const string TheTypeMustBeSerializable = "TheTypeMustBeSerializable";
-    public const string ItIsRecommendedThatImplementationsAlsoRecognizeTheMediaType =
+    internal const string UnableToLoadElementAddSomeAndTryAgain = "UnableToLoadElementAddSomeAndTryAgain";
+    internal const string Drago = "Drago";
+    internal const string Orient = "Orient";
+    internal const string InDesktopAppDontPassLangs = "InDesktopAppDontPassLangs";
+    internal const string TheTypeMustBeSerializable = "TheTypeMustBeSerializable";
+    internal const string ItIsRecommendedThatImplementationsAlsoRecognizeTheMediaType =
     "ItIsRecommendedThatImplementationsAlsoRecognizeTheMediaType";
-    public const string Address = "Address";
-    public const string NotSupportedStrategyOfSavingFiles = "NotSupportedStrategyOfSavingFiles";
-    public const string EncryptedTextIsAnInvalidLength = "EncryptedTextIsAnInvalidLength";
-    public const string LookDirectIntoIsRootFolderNull = "LookDirectIntoIsRootFolderNull";
-    public const string ThisPoolInstanceHasAlreadyBeenDisposed = "ThisPoolInstanceHasAlreadyBeenDisposed";
-    public const string ThisPoolInstanceIsInTheProcessOfBeingDisposedCanTAddAnymore =
+    internal const string Address = "Address";
+    internal const string NotSupportedStrategyOfSavingFiles = "NotSupportedStrategyOfSavingFiles";
+    internal const string EncryptedTextIsAnInvalidLength = "EncryptedTextIsAnInvalidLength";
+    internal const string LookDirectIntoIsRootFolderNull = "LookDirectIntoIsRootFolderNull";
+    internal const string ThisPoolInstanceHasAlreadyBeenDisposed = "ThisPoolInstanceHasAlreadyBeenDisposed";
+    internal const string ThisPoolInstanceIsInTheProcessOfBeingDisposedCanTAddAnymore =
     "ThisPoolInstanceIsInTheProcessOfBeingDisposedCanTAddAnymore";
-    public const string Worker = "Worker";
-    public const string NonSupportedHttpMethodInHttpMethodGetResponseText =
+    internal const string Worker = "Worker";
+    internal const string NonSupportedHttpMethodInHttpMethodGetResponseText =
     "NonSupportedHttpMethodInHttpMethodGetResponseText";
-    public const string EndOfListingWholeTable = "EndOfListingWholeTable";
-    public const string StartOfListingWholeTable = "StartOfListingWholeTable";
-    public const string NotImplementedCaseInColorHelperAppsRandomBrush =
+    internal const string EndOfListingWholeTable = "EndOfListingWholeTable";
+    internal const string StartOfListingWholeTable = "StartOfListingWholeTable";
+    internal const string NotImplementedCaseInColorHelperAppsRandomBrush =
     "NotImplementedCaseInColorHelperAppsRandomBrush";
-    public const string inProvidedPublicKeyXML = "inProvidedPublicKeyXML";
-    public const string CouldNotFind = "CouldNotFind";
-    public const string EitherThePermissionsAreIncorrectOnThe = "EitherThePermissionsAreIncorrectOnThe";
-    public const string UnableToObtainCryptographicServiceProvider = "UnableToObtainCryptographicServiceProvider";
-    public const string TheProvided0EncryptionKeyXMLDoesNotAppearToBeValid =
+    internal const string inProvidedPublicKeyXML = "inProvidedPublicKeyXML";
+    internal const string CouldNotFind = "CouldNotFind";
+    internal const string EitherThePermissionsAreIncorrectOnThe = "EitherThePermissionsAreIncorrectOnThe";
+    internal const string UnableToObtainCryptographicServiceProvider = "UnableToObtainCryptographicServiceProvider";
+    internal const string TheProvided0EncryptionKeyXMLDoesNotAppearToBeValid =
     "TheProvided0EncryptionKeyXMLDoesNotAppearToBeValid";
-    public const string
+    internal const string
     YourDataIsTooLargeRSAEncryptionIsDesignedToEncryptRelativelySmallAmountsOfDataTheExactByteLimitDependsOnTheKeySizeToEncryptMoreDataUseSymmetricEncryptionAndThenEncryptThatSymmetricKeyWithAsymmetricRSAEncryption =
     "YourDataIsTooLargeRSAEncryptionIsDesignedToEncryptRelativelySmallAmountsOfDataTheExactByteLimitDependsOnTheKeySizeToEncryptMoreDataUseSymmetricEncryptionAndThenEncryptThatSymmetricKeyWithAsymmetricRSAEncryption";
-    public const string TheMethodOrOperationIsNotImplemented = "TheMethodOrOperationIsNotImplemented";
-    public const string PrivateKeyClass = "PrivateKeyClass";
-    public const string PublicKeyClass = "PublicKeyClass";
-    public const string Exponent = "Exponent";
-    public const string Modulus = "Modulus";
-    public const string Template = "Template";
-    public const string Character = "Character";
-    public const string Part3 = "Part3";
-    public const string Part2 = "Part2";
-    public const string Part1 = "Part1";
-    public const string Server = "Server";
-    public const string EnterForFastClosing = "EnterForFastClosing";
-    public const string Logs = "Logs";
-    public const string SavingSettingsToAppConfigOrWebConfigIsNotYetSupported =
+    internal const string TheMethodOrOperationIsNotImplemented = "TheMethodOrOperationIsNotImplemented";
+    internal const string PrivateKeyClass = "PrivateKeyClass";
+    internal const string PublicKeyClass = "PublicKeyClass";
+    internal const string Exponent = "Exponent";
+    internal const string Modulus = "Modulus";
+    internal const string Template = "Template";
+    internal const string Character = "Character";
+    internal const string Part3 = "Part3";
+    internal const string Part2 = "Part2";
+    internal const string Part1 = "Part1";
+    internal const string Server = "Server";
+    internal const string EnterForFastClosing = "EnterForFastClosing";
+    internal const string Logs = "Logs";
+    internal const string SavingSettingsToAppConfigOrWebConfigIsNotYetSupported =
     "SavingSettingsToAppConfigOrWebConfigIsNotYetSupported";
-    public const string Cred = "Cred";
-    public const string MustNotBeEnteredWithA2True = "MustNotBeEnteredWithA2True";
-    public const string FailedToGetTheItemFromTheRegistry = "FailedToGetTheItemFromTheRegistry";
-    public const string YouGotThroughTheCollectionIndex = "YouGotThroughTheCollectionIndex";
-    public const string TryToAdjustThePPIfYouHaveItSetInBulk = "TryToAdjustThePPIfYouHaveItSetInBulk";
-    public const string Copyright2015 = "Copyright2015";
-    public const string ParameterDefValInSuMenuItemWithSubitemsHelperAddValuesOfEnumAsItemsWasNotTypeOfEnum =
+    internal const string Cred = "Cred";
+    internal const string MustNotBeEnteredWithA2True = "MustNotBeEnteredWithA2True";
+    internal const string FailedToGetTheItemFromTheRegistry = "FailedToGetTheItemFromTheRegistry";
+    internal const string YouGotThroughTheCollectionIndex = "YouGotThroughTheCollectionIndex";
+    internal const string TryToAdjustThePPIfYouHaveItSetInBulk = "TryToAdjustThePPIfYouHaveItSetInBulk";
+    internal const string Copyright2015 = "Copyright2015";
+    internal const string ParameterDefValInSuMenuItemWithSubitemsHelperAddValuesOfEnumAsItemsWasNotTypeOfEnum =
     "ParameterDefValInSuMenuItemWithSubitemsHelperAddValuesOfEnumAsItemsWasNotTypeOfEnum";
-    public const string AvailableShortcuts = "AvailableShortcuts";
-    public const string MainWindowMustBeIWindowOpenerDueToShowExceptions =
+    internal const string AvailableShortcuts = "AvailableShortcuts";
+    internal const string MainWindowMustBeIWindowOpenerDueToShowExceptions =
     "MainWindowMustBeIWindowOpenerDueToShowExceptions";
-    public const string customControlIsNotContentControlOrPanel = "customControlIsNotContentControlOrPanel";
-    public const string Line = "Line";
-    public const string NISizeOfPaperGetPaperSize = "NISizeOfPaperGetPaperSize";
-    public const string WatcherInfoObjectCannotBeNull = "WatcherInfoObjectCannotBeNull";
-    public const string Validated = "Validated";
-    public const string SomethingIsNullProbablyWpfAppCdIntoClipboardWasCopiedStacktrace =
+    internal const string customControlIsNotContentControlOrPanel = "customControlIsNotContentControlOrPanel";
+    internal const string Line = "Line";
+    internal const string NISizeOfPaperGetPaperSize = "NISizeOfPaperGetPaperSize";
+    internal const string WatcherInfoObjectCannotBeNull = "WatcherInfoObjectCannotBeNull";
+    internal const string Validated = "Validated";
+    internal const string SomethingIsNullProbablyWpfAppCdIntoClipboardWasCopiedStacktrace =
     "SomethingIsNullProbablyWpfAppCdIntoClipboardWasCopiedStacktrace";
-    public const string CannotConvertBack = "CannotConvertBack";
-    public const string TheOuterGlowColor = "TheOuterGlowColor";
-    public const string TheOuterGlowSize = "TheOuterGlowSize";
-    public const string TheOuterGlowOpacity = "TheOuterGlowOpacity";
-    public const string TheInnerGlowSize = "TheInnerGlowSize";
-    public const string TheInnerGlowColor = "TheInnerGlowColor";
-    public const string TheInnerGlowOpacity = "TheInnerGlowOpacity";
-    public const string Set0ForBehindTheShadow1ForInFront = "Set0ForBehindTheShadow1ForInFront";
-    public const string SetsWhetherTheContentIsClippedOrNot = "SetsWhetherTheContentIsClippedOrNot";
-    public const string SetsTheCornerRadiusOnTheBorder = "SetsTheCornerRadiusOnTheBorder";
-    public const string GetsOrSetsWhetherTheControlIsInTheCheckedState =
+    internal const string CannotConvertBack = "CannotConvertBack";
+    internal const string TheOuterGlowColor = "TheOuterGlowColor";
+    internal const string TheOuterGlowSize = "TheOuterGlowSize";
+    internal const string TheOuterGlowOpacity = "TheOuterGlowOpacity";
+    internal const string TheInnerGlowSize = "TheInnerGlowSize";
+    internal const string TheInnerGlowColor = "TheInnerGlowColor";
+    internal const string TheInnerGlowOpacity = "TheInnerGlowOpacity";
+    internal const string Set0ForBehindTheShadow1ForInFront = "Set0ForBehindTheShadow1ForInFront";
+    internal const string SetsWhetherTheContentIsClippedOrNot = "SetsWhetherTheContentIsClippedOrNot";
+    internal const string SetsTheCornerRadiusOnTheBorder = "SetsTheCornerRadiusOnTheBorder";
+    internal const string GetsOrSetsWhetherTheControlIsInTheCheckedState =
     "GetsOrSetsWhetherTheControlIsInTheCheckedState";
-    public const string TheSizeOfTheToggleSwitchSThumb = "TheSizeOfTheToggleSwitchSThumb";
-    public const string TheBrushUsedToFillTheThumb = "TheBrushUsedToFillTheThumb";
-    public const string TheThumbSControlTemplate = "TheThumbSControlTemplate";
-    public const string DeterminesThePercentageOfTheWayTheThumbMustBeDraggedBeforeTheSwitchChangesItSIsCheckedState =
+    internal const string TheSizeOfTheToggleSwitchSThumb = "TheSizeOfTheToggleSwitchSThumb";
+    internal const string TheBrushUsedToFillTheThumb = "TheBrushUsedToFillTheThumb";
+    internal const string TheThumbSControlTemplate = "TheThumbSControlTemplate";
+    internal const string DeterminesThePercentageOfTheWayTheThumbMustBeDraggedBeforeTheSwitchChangesItSIsCheckedState =
     "DeterminesThePercentageOfTheWayTheThumbMustBeDraggedBeforeTheSwitchChangesItSIsCheckedState";
-    public const string Elasticity = "Elasticity";
-    public const string TheBrushUsedForTheBackgroundOfTheUncheckedSideOfTheToggleSwitch =
+    internal const string Elasticity = "Elasticity";
+    internal const string TheBrushUsedForTheBackgroundOfTheUncheckedSideOfTheToggleSwitch =
     "TheBrushUsedForTheBackgroundOfTheUncheckedSideOfTheToggleSwitch";
-    public const string TheBrushUsedForTheForegroundOfTheUncheckedSideOfTheToggleSwitch =
+    internal const string TheBrushUsedForTheForegroundOfTheUncheckedSideOfTheToggleSwitch =
     "TheBrushUsedForTheForegroundOfTheUncheckedSideOfTheToggleSwitch";
-    public const string TheContentShownOnTheUncheckedSideOfTheToggleSwitch =
+    internal const string TheContentShownOnTheUncheckedSideOfTheToggleSwitch =
     "TheContentShownOnTheUncheckedSideOfTheToggleSwitch";
-    public const string TheBrushUsedForTheBackgroundOfTheCheckedSideOfTheToggleSwitch =
+    internal const string TheBrushUsedForTheBackgroundOfTheCheckedSideOfTheToggleSwitch =
     "TheBrushUsedForTheBackgroundOfTheCheckedSideOfTheToggleSwitch";
-    public const string TheBrushUsedForTheForegroundOfTheCheckedSideOfTheToggleSwitch =
+    internal const string TheBrushUsedForTheForegroundOfTheCheckedSideOfTheToggleSwitch =
     "TheBrushUsedForTheForegroundOfTheCheckedSideOfTheToggleSwitch";
-    public const string TheContentShownOnTheCheckedSideOfTheToggleSwitch =
+    internal const string TheContentShownOnTheCheckedSideOfTheToggleSwitch =
     "TheContentShownOnTheCheckedSideOfTheToggleSwitch";
-    public const string TheTemplateAppliedToTheCheckedAndUncheckedContentProperties =
+    internal const string TheTemplateAppliedToTheCheckedAndUncheckedContentProperties =
     "TheTemplateAppliedToTheCheckedAndUncheckedContentProperties";
-    public const string Unfocused = "Unfocused";
-    public const string Focused = "Focused";
-    public const string Unchecked = "Unchecked";
-    public const string Dragging = "Dragging";
-    public const string Normal = "Normal";
-    public const string TheDropShadowAngle = "TheDropShadowAngle";
-    public const string TheDropShadowDistance = "TheDropShadowDistance";
-    public const string WhetherTheTextWraps = "WhetherTheTextWraps";
-    public const string TheTextDecorations = "TheTextDecorations";
-    public const string TheTextContent = "TheTextContent";
-    public const string CommonProperties = "CommonProperties";
-    public const string TheDropShadowOpacity = "TheDropShadowOpacity";
-    public const string TheDropShadowColor = "TheDropShadowColor";
-    public const string Appearance = "Appearance";
-    public const string SegoeUI = "SegoeUI";
-    public const string Result = "Result";
-    public const string ShowResult = "ShowResult";
-    public const string SelectTwoValues = "SelectTwoValues";
-    public const string SelectOneValue = "SelectOneValue";
-    public const string InputTwoColumns = "InputTwoColumns";
-    public const string NotImplementedValidateForControl = "NotImplementedValidateForControl";
-    public const string Decline = "Decline";
-    public const string SaveToDrive = "SaveToDrive";
-    public const string CannotReturnNull = "CannotReturnNull";
-    public const string TheSourceCodeIsWrittenIn = "TheSourceCodeIsWrittenIn";
-    public const string YouHaveLastPublishedVersion = "YouHaveLastPublishedVersion";
-    public const string CheckUpdatedVersion = "CheckUpdatedVersion";
-    public const string Google = "Google";
-    public const string Web = "Web";
-    public const string DummyUC = "DummyUC";
-    public const string appFocusing = "appFocusing";
-    public const string IntroductoryPrice = "IntroductoryPrice";
-    public const string OriginalPrice = "OriginalPrice";
-    public const string ReadOurTermsOfUseBeforeBuy = "ReadOurTermsOfUseBeforeBuy";
-    public const string feedback = "feedback";
-    public const string FeedbackWasSavedDeveloperWillBeContactingYouBackSoon =
+    internal const string Unfocused = "Unfocused";
+    internal const string Focused = "Focused";
+    internal const string Unchecked = "Unchecked";
+    internal const string Dragging = "Dragging";
+    internal const string Normal = "Normal";
+    internal const string TheDropShadowAngle = "TheDropShadowAngle";
+    internal const string TheDropShadowDistance = "TheDropShadowDistance";
+    internal const string WhetherTheTextWraps = "WhetherTheTextWraps";
+    internal const string TheTextDecorations = "TheTextDecorations";
+    internal const string TheTextContent = "TheTextContent";
+    internal const string CommonProperties = "CommonProperties";
+    internal const string TheDropShadowOpacity = "TheDropShadowOpacity";
+    internal const string TheDropShadowColor = "TheDropShadowColor";
+    internal const string Appearance = "Appearance";
+    internal const string SegoeUI = "SegoeUI";
+    internal const string Result = "Result";
+    internal const string ShowResult = "ShowResult";
+    internal const string SelectTwoValues = "SelectTwoValues";
+    internal const string SelectOneValue = "SelectOneValue";
+    internal const string InputTwoColumns = "InputTwoColumns";
+    internal const string NotImplementedValidateForControl = "NotImplementedValidateForControl";
+    internal const string Decline = "Decline";
+    internal const string SaveToDrive = "SaveToDrive";
+    internal const string CannotReturnNull = "CannotReturnNull";
+    internal const string TheSourceCodeIsWrittenIn = "TheSourceCodeIsWrittenIn";
+    internal const string YouHaveLastPublishedVersion = "YouHaveLastPublishedVersion";
+    internal const string CheckUpdatedVersion = "CheckUpdatedVersion";
+    internal const string Google = "Google";
+    internal const string Web = "Web";
+    internal const string DummyUC = "DummyUC";
+    internal const string appFocusing = "appFocusing";
+    internal const string IntroductoryPrice = "IntroductoryPrice";
+    internal const string OriginalPrice = "OriginalPrice";
+    internal const string ReadOurTermsOfUseBeforeBuy = "ReadOurTermsOfUseBeforeBuy";
+    internal const string feedback = "feedback";
+    internal const string FeedbackWasSavedDeveloperWillBeContactingYouBackSoon =
     "FeedbackWasSavedDeveloperWillBeContactingYouBackSoon";
-    public const string HowToUse = "HowToUse";
-    public const string ScrolledToLine = "ScrolledToLine";
-    public const string OutputWasSavedTo = "OutputWasSavedTo";
-    public const string cars = "cars";
-    public const string successfullyDownloaded = "successfullyDownloaded";
-    public const string photos = "photos";
-    public const string photos2 = "photos2";
-    public const string optional = "optional";
-    public const string andCreateComparingTable = "andCreateComparingTable";
-    public const string AutoLogin = "AutoLogin";
-    public const string RememberLogin = "RememberLogin";
-    public const string ToEnter = "ToEnter";
-    public const string EnteringData = "EnteringData";
-    public const string andPressEnter = "andPressEnter";
-    public const string AddNewSetOfCars = "AddNewSetOfCars";
-    public const string SetOfCars = "SetOfCars";
-    public const string Like = "Like";
-    public const string UriFrom = "UriFrom";
-    public const string logs = "logs";
-    public const string AlwaysOnTop = "AlwaysOnTop";
-    public const string FirstItem = "FirstItem";
-    public const string YouHaveToLogInBeforeUseApp = "YouHaveToLogInBeforeUseApp";
-    public const string YouReLoginedButYouHavenTPurchasedSubscriptionAppWillOpenPageWhereYouCanMakePurchase =
+    internal const string HowToUse = "HowToUse";
+    internal const string ScrolledToLine = "ScrolledToLine";
+    internal const string OutputWasSavedTo = "OutputWasSavedTo";
+    internal const string cars = "cars";
+    internal const string successfullyDownloaded = "successfullyDownloaded";
+    internal const string photos = "photos";
+    internal const string photos2 = "photos2";
+    internal const string optional = "optional";
+    internal const string andCreateComparingTable = "andCreateComparingTable";
+    internal const string AutoLogin = "AutoLogin";
+    internal const string RememberLogin = "RememberLogin";
+    internal const string ToEnter = "ToEnter";
+    internal const string EnteringData = "EnteringData";
+    internal const string andPressEnter = "andPressEnter";
+    internal const string AddNewSetOfCars = "AddNewSetOfCars";
+    internal const string SetOfCars = "SetOfCars";
+    internal const string Like = "Like";
+    internal const string UriFrom = "UriFrom";
+    internal const string logs = "logs";
+    internal const string AlwaysOnTop = "AlwaysOnTop";
+    internal const string FirstItem = "FirstItem";
+    internal const string YouHaveToLogInBeforeUseApp = "YouHaveToLogInBeforeUseApp";
+    internal const string YouReLoginedButYouHavenTPurchasedSubscriptionAppWillOpenPageWhereYouCanMakePurchase =
     "YouReLoginedButYouHavenTPurchasedSubscriptionAppWillOpenPageWhereYouCanMakePurchase";
-    public const string Mode = "Mode";
-    public const string ShowLoginedUser = "ShowLoginedUser";
-    public const string GenerateScreenshot = "GenerateScreenshot";
-    public const string FeedBack = "FeedBack";
-    public const string PleaseUseAppInTray = "PleaseUseAppInTray";
-    public const string Init = "Init";
-    public const string PasteFromClipoardIntoGoogleSheets = "PasteFromClipoardIntoGoogleSheets";
-    public const string RefreshSetsFromDrive = "RefreshSetsFromDrive";
-    public const string OpenFolderOnDrive = "OpenFolderOnDrive";
-    public const string CopyToClipboardForGoogleMyMaps = "CopyToClipboardForGoogleMyMaps";
-    public const string CopyToClipboardGoogleSheetCompare = "CopyToClipboardGoogleSheetCompare";
-    public const string DownloadPhotos = "DownloadPhotos";
-    public const string DownloadCars = "DownloadCars";
-    public const string NameContainsUnallowedChars = "NameContainsUnallowedChars";
-    public const string NameOfSet = "NameOfSet";
-    public const string PrivateSeller = "PrivateSeller";
-    public const string TodayOpen = "TodayOpen";
-    public const string Tacho = "Tacho";
-    public const string UnderSameTitleAnotherWithOtherValue = "UnderSameTitleAnotherWithOtherValue";
-    public const string Telephone = "Telephone";
-    public const string ProcessedByApp = "ProcessedByApp";
-    public const string Telefon = "Telefon";
-    public const string OpeningTime = "OpeningTime";
-    public const string NearStation = "NearStation";
-    public const string Other = "Other";
-    public const string ClosestMHD = "ClosestMHD";
-    public const string AppWasSuccessfullyStarted = "AppWasSuccessfullyStarted";
-    public const string Copyright2020 = "Copyright2020";
-    public const string TachometerAsANumber = "TachometerAsANumber";
-    public const string PriceAsANumber = "PriceAsANumber";
-    public const string YearOfManufactureAsANumber = "YearOfManufactureAsANumber";
-    public const string CenaNaLeasing = "CenaNaLeasing";
-    public const string CrashedInThePast = "CrashedInThePast";
-    public const string PriceNote = "PriceNote";
-    public const string MeetsTheEURO = "MeetsTheEURO";
-    public const string AverageConsumption = "AverageConsumption";
-    public const string EcologicalTaxPaid = "EcologicalTaxPaid";
-    public const string YearOfManufacture = "YearOfManufacture";
-    public const string NumberOfPlaces = "NumberOfPlaces";
-    public const string NumberOfDoors = "NumberOfDoors";
-    public const string Body = "Body";
-    public const string NumberOfAirbags = "NumberOfAirbags";
-    public const string SpecifikaceVozu = "SpecifikaceVozu";
-    public const string CountryOfOrigin = "CountryOfOrigin";
-    public const string ServiceBook = "ServiceBook";
-    public const string TheFirstOwner = "TheFirstOwner";
-    public const string HistoryAndDocuments = "HistoryAndDocuments";
-    public const string Performance = "Performance";
-    public const string Engine = "Engine";
-    public const string MoreInformationAboutTheCar = "MoreInformationAboutTheCar";
-    public const string AirConditioning = "AirConditioning";
-    public const string Transmission = "Transmission";
-    public const string Volume = "Volume";
-    public const string Fuel = "Fuel";
-    public const string Tachometr = "Tachometr";
-    public const string RuntimeTrouble = "RuntimeTrouble";
-    public const string AppCanTRunUnderAdminAccountDueToWebBrowserComponentAppWillBeShutdownNow =
+    internal const string Mode = "Mode";
+    internal const string ShowLoginedUser = "ShowLoginedUser";
+    internal const string GenerateScreenshot = "GenerateScreenshot";
+    internal const string FeedBack = "FeedBack";
+    internal const string PleaseUseAppInTray = "PleaseUseAppInTray";
+    internal const string Init = "Init";
+    internal const string PasteFromClipoardIntoGoogleSheets = "PasteFromClipoardIntoGoogleSheets";
+    internal const string RefreshSetsFromDrive = "RefreshSetsFromDrive";
+    internal const string OpenFolderOnDrive = "OpenFolderOnDrive";
+    internal const string CopyToClipboardForGoogleMyMaps = "CopyToClipboardForGoogleMyMaps";
+    internal const string CopyToClipboardGoogleSheetCompare = "CopyToClipboardGoogleSheetCompare";
+    internal const string DownloadPhotos = "DownloadPhotos";
+    internal const string DownloadCars = "DownloadCars";
+    internal const string NameContainsUnallowedChars = "NameContainsUnallowedChars";
+    internal const string NameOfSet = "NameOfSet";
+    internal const string PrivateSeller = "PrivateSeller";
+    internal const string TodayOpen = "TodayOpen";
+    internal const string Tacho = "Tacho";
+    internal const string UnderSameTitleAnotherWithOtherValue = "UnderSameTitleAnotherWithOtherValue";
+    internal const string Telephone = "Telephone";
+    internal const string ProcessedByApp = "ProcessedByApp";
+    internal const string Telefon = "Telefon";
+    internal const string OpeningTime = "OpeningTime";
+    internal const string NearStation = "NearStation";
+    internal const string Other = "Other";
+    internal const string ClosestMHD = "ClosestMHD";
+    internal const string AppWasSuccessfullyStarted = "AppWasSuccessfullyStarted";
+    internal const string Copyright2020 = "Copyright2020";
+    internal const string TachometerAsANumber = "TachometerAsANumber";
+    internal const string PriceAsANumber = "PriceAsANumber";
+    internal const string YearOfManufactureAsANumber = "YearOfManufactureAsANumber";
+    internal const string CenaNaLeasing = "CenaNaLeasing";
+    internal const string CrashedInThePast = "CrashedInThePast";
+    internal const string PriceNote = "PriceNote";
+    internal const string MeetsTheEURO = "MeetsTheEURO";
+    internal const string AverageConsumption = "AverageConsumption";
+    internal const string EcologicalTaxPaid = "EcologicalTaxPaid";
+    internal const string YearOfManufacture = "YearOfManufacture";
+    internal const string NumberOfPlaces = "NumberOfPlaces";
+    internal const string NumberOfDoors = "NumberOfDoors";
+    internal const string Body = "Body";
+    internal const string NumberOfAirbags = "NumberOfAirbags";
+    internal const string SpecifikaceVozu = "SpecifikaceVozu";
+    internal const string CountryOfOrigin = "CountryOfOrigin";
+    internal const string ServiceBook = "ServiceBook";
+    internal const string TheFirstOwner = "TheFirstOwner";
+    internal const string HistoryAndDocuments = "HistoryAndDocuments";
+    internal const string Performance = "Performance";
+    internal const string Engine = "Engine";
+    internal const string MoreInformationAboutTheCar = "MoreInformationAboutTheCar";
+    internal const string AirConditioning = "AirConditioning";
+    internal const string Transmission = "Transmission";
+    internal const string Volume = "Volume";
+    internal const string Fuel = "Fuel";
+    internal const string Tachometr = "Tachometr";
+    internal const string RuntimeTrouble = "RuntimeTrouble";
+    internal const string AppCanTRunUnderAdminAccountDueToWebBrowserComponentAppWillBeShutdownNow =
     "AppCanTRunUnderAdminAccountDueToWebBrowserComponentAppWillBeShutdownNow";
-    public const string UsedCarComparing = "UsedCarComparing";
-    public const string Country = "Country";
-    public const string characters2 = "characters2";
-    public const string ResetPassword = "ResetPassword";
-    public const string generateRandomLogin = "generateRandomLogin";
-    public const string DoItNow = "DoItNow";
-    public const string inFormatMDYMinAge18 = "inFormatMDYMinAge18";
-    public const string LoginOrEmail = "LoginOrEmail";
-    public const string NotRegisteredYet = "NotRegisteredYet";
-    public const string Send = "Send";
-    public const string DescriptionMax4000Letters = "DescriptionMax4000Letters";
-    public const string Attachment = "Attachment";
-    public const string Type = "Type";
-    public const string AppWasFoundButNoHelpForIt = "AppWasFoundButNoHelpForIt";
-    public const string ShowGraphOfViewsForLast7Days = "ShowGraphOfViewsForLast7Days";
-    public const string Help = "Help";
-    public const string Feedback = "Feedback";
-    public const string ByUsingThisWebsiteYouAgreeToThis = "ByUsingThisWebsiteYouAgreeToThis";
-    public const string PrivacyPolicy = "PrivacyPolicy";
-    public const string ThisWebUseToServiceOfTheServicePersonalizationAndAnalysisOfVisits =
+    internal const string UsedCarComparing = "UsedCarComparing";
+    internal const string Country = "Country";
+    internal const string characters2 = "characters2";
+    internal const string ResetPassword = "ResetPassword";
+    internal const string generateRandomLogin = "generateRandomLogin";
+    internal const string DoItNow = "DoItNow";
+    internal const string inFormatMDYMinAge18 = "inFormatMDYMinAge18";
+    internal const string LoginOrEmail = "LoginOrEmail";
+    internal const string NotRegisteredYet = "NotRegisteredYet";
+    internal const string Send = "Send";
+    internal const string DescriptionMax4000Letters = "DescriptionMax4000Letters";
+    internal const string Attachment = "Attachment";
+    internal const string Type = "Type";
+    internal const string AppWasFoundButNoHelpForIt = "AppWasFoundButNoHelpForIt";
+    internal const string ShowGraphOfViewsForLast7Days = "ShowGraphOfViewsForLast7Days";
+    internal const string Help = "Help";
+    internal const string Feedback = "Feedback";
+    internal const string ByUsingThisWebsiteYouAgreeToThis = "ByUsingThisWebsiteYouAgreeToThis";
+    internal const string PrivacyPolicy = "PrivacyPolicy";
+    internal const string ThisWebUseToServiceOfTheServicePersonalizationAndAnalysisOfVisits =
     "ThisWebUseToServiceOfTheServicePersonalizationAndAnalysisOfVisits";
-    public const string ResearchForTheBookExperimentalAtlasOfMen = "ResearchForTheBookExperimentalAtlasOfMen";
-    public const string MeasureYourIQ = "MeasureYourIQ";
-    public const string MyFreeGeoCachingAppForPlanningYourAdventures = "MyFreeGeoCachingAppForPlanningYourAdventures";
-    public const string CheapAndQualityHostingServices = "CheapAndQualityHostingServices";
-    public const string RequiredMonthsYouWillEnterIn2Step = "RequiredMonthsYouWillEnterIn2Step";
-    public const string Prepay = "Prepay";
-    public const string Prepaid = "Prepaid";
-    public const string TermsOfUse = "TermsOfUse";
-    public const string ofApp = "ofApp";
-    public const string Purchased = "Purchased";
-    public const string modules = "modules";
-    public const string PaymentMethodChosen = "PaymentMethodChosen";
-    public const string Paid = "Paid";
-    public const string Authorized = "Authorized";
-    public const string Canceled = "Canceled";
-    public const string Timeouted = "Timeouted";
-    public const string Refunded = "Refunded";
-    public const string PartiallyRefunded = "PartiallyRefunded";
-    public const string ShowSelected = "ShowSelected";
-    public const string
+    internal const string ResearchForTheBookExperimentalAtlasOfMen = "ResearchForTheBookExperimentalAtlasOfMen";
+    internal const string MeasureYourIQ = "MeasureYourIQ";
+    internal const string MyFreeGeoCachingAppForPlanningYourAdventures = "MyFreeGeoCachingAppForPlanningYourAdventures";
+    internal const string CheapAndQualityHostingServices = "CheapAndQualityHostingServices";
+    internal const string RequiredMonthsYouWillEnterIn2Step = "RequiredMonthsYouWillEnterIn2Step";
+    internal const string Prepay = "Prepay";
+    internal const string Prepaid = "Prepaid";
+    internal const string TermsOfUse = "TermsOfUse";
+    internal const string ofApp = "ofApp";
+    internal const string Purchased = "Purchased";
+    internal const string modules = "modules";
+    internal const string PaymentMethodChosen = "PaymentMethodChosen";
+    internal const string Paid = "Paid";
+    internal const string Authorized = "Authorized";
+    internal const string Canceled = "Canceled";
+    internal const string Timeouted = "Timeouted";
+    internal const string Refunded = "Refunded";
+    internal const string PartiallyRefunded = "PartiallyRefunded";
+    internal const string ShowSelected = "ShowSelected";
+    internal const string
     MyFirstLineOfCodeIWroteOn2009NowadaysIStudyInformaticsOnVSBTechnicalUniversityOfOstravaIMTargetingOnMicrosoftAndNETPlatformAndTryingToDoTheUsefulestApps =
     "MyFirstLineOfCodeIWroteOn2009NowadaysIStudyInformaticsOnVSBTechnicalUniversityOfOstravaIMTargetingOnMicrosoftAndNETPlatformAndTryingToDoTheUsefulestApps";
-    public const string me = "me";
-    public const string SomethingAbout = "SomethingAbout";
-    public const string AppHaveNoDependecies = "AppHaveNoDependecies";
-    public const string ViewsToday = "ViewsToday";
-    public const string BuyNow = "BuyNow";
-    public const string CopyImageLinkIntoTheClipboard = "CopyImageLinkIntoTheClipboard";
-    public const string NotLogined = "NotLogined";
-    public const string PleaseLogInToBuyMyApp = "PleaseLogInToBuyMyApp";
-    public const string Screenshots = "Screenshots";
-    public const string DependsOn = "DependsOn";
-    public const string AreYouInterested = "AreYouInterested";
-    public const string PriceIsWithAllTaxes = "PriceIsWithAllTaxes";
-    public const string License = "License";
-    public const string TheRecommendedVersionHasNotBeenUploadedYet = "TheRecommendedVersionHasNotBeenUploadedYet";
-    public const string DoporučenáVerzeNebylaDosudNauploadována = "DoporučenáVerzeNebylaDosudNauploadována";
-    public const string UsefulApps = "UsefulApps";
-    public const string forYourNeeds = "forYourNeeds";
-    public const string _thCenturyStyleOfFrenchAccordionBasedDanceMusic =
+    internal const string me = "me";
+    internal const string SomethingAbout = "SomethingAbout";
+    internal const string AppHaveNoDependecies = "AppHaveNoDependecies";
+    internal const string ViewsToday = "ViewsToday";
+    internal const string BuyNow = "BuyNow";
+    internal const string CopyImageLinkIntoTheClipboard = "CopyImageLinkIntoTheClipboard";
+    internal const string NotLogined = "NotLogined";
+    internal const string PleaseLogInToBuyMyApp = "PleaseLogInToBuyMyApp";
+    internal const string Screenshots = "Screenshots";
+    internal const string DependsOn = "DependsOn";
+    internal const string AreYouInterested = "AreYouInterested";
+    internal const string PriceIsWithAllTaxes = "PriceIsWithAllTaxes";
+    internal const string License = "License";
+    internal const string TheRecommendedVersionHasNotBeenUploadedYet = "TheRecommendedVersionHasNotBeenUploadedYet";
+    internal const string DoporučenáVerzeNebylaDosudNauploadována = "DoporučenáVerzeNebylaDosudNauploadována";
+    internal const string UsefulApps = "UsefulApps";
+    internal const string forYourNeeds = "forYourNeeds";
+    internal const string _thCenturyStyleOfFrenchAccordionBasedDanceMusic =
     "_thCenturyStyleOfFrenchAccordionBasedDanceMusic";
-    public const string _th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic =
+    internal const string _th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic =
     "_th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic";
-    public const string _thCenturyCubanDanceMusic = "_thCenturyCubanDanceMusic";
-    public const string _0sBritishRevivalOfNewWaveMusic = "_0sBritishRevivalOfNewWaveMusic";
-    public const string _0sThaiPopMusic = "_0sThaiPopMusic";
-    public const string _thCenturyNeapolitanSongs = "_thCenturyNeapolitanSongs";
-    public const string
+    internal const string _thCenturyCubanDanceMusic = "_thCenturyCubanDanceMusic";
+    internal const string _0sBritishRevivalOfNewWaveMusic = "_0sBritishRevivalOfNewWaveMusic";
+    internal const string _0sThaiPopMusic = "_0sThaiPopMusic";
+    internal const string _thCenturyNeapolitanSongs = "_thCenturyNeapolitanSongs";
+    internal const string
     ThisVideoAlreadyHadAnotherSongInOurDatabaseIfYouThinkItStillBelongsHereSendMeItsYTCodeToRadekJanciktSunamoCz =
     "ThisVideoAlreadyHadAnotherSongInOurDatabaseIfYouThinkItStillBelongsHereSendMeItsYTCodeToRadekJanciktSunamoCz";
-    public const string _MostPopularSongsInTheLast7Days = "_MostPopularSongsInTheLast7Days";
-    public const string _MostPopularSongs = "_MostPopularSongs";
-    public const string _0sElectronicMusicBasedOnBreakbeatWithOtherInfluences =
+    internal const string _MostPopularSongsInTheLast7Days = "_MostPopularSongsInTheLast7Days";
+    internal const string _MostPopularSongs = "_MostPopularSongs";
+    internal const string _0sElectronicMusicBasedOnBreakbeatWithOtherInfluences =
     "_0sElectronicMusicBasedOnBreakbeatWithOtherInfluences";
-    public const string AddANewApp = "AddANewApp";
-    public const string appsCloud = "appsCloud";
-    public const string tiles4 = "tiles4";
-    public const string notShowing = "notShowing";
-    public const string OrChooseBy = "OrChooseBy";
-    public const string ChangeLanguage = "ChangeLanguage";
-    public const string CooperatingWith = "CooperatingWith";
-    public const string Store = "Store";
-    public const string YourPurchases = "YourPurchases";
-    public const string TermsAndConditions = "TermsAndConditions";
-    public const string AboutDeveloper = "AboutDeveloper";
-    public const string Artist = "Artist";
-    public const string outOf = "outOf";
-    public const string MaximumValue = "MaximumValue";
-    public const string hasBeenUpdated = "hasBeenUpdated";
-    public const string _9thCenturyStyleOfFrenchAccordionBasedDanceMusic =
+    internal const string AddANewApp = "AddANewApp";
+    internal const string appsCloud = "appsCloud";
+    internal const string tiles4 = "tiles4";
+    internal const string notShowing = "notShowing";
+    internal const string OrChooseBy = "OrChooseBy";
+    internal const string ChangeLanguage = "ChangeLanguage";
+    internal const string CooperatingWith = "CooperatingWith";
+    internal const string Store = "Store";
+    internal const string YourPurchases = "YourPurchases";
+    internal const string TermsAndConditions = "TermsAndConditions";
+    internal const string AboutDeveloper = "AboutDeveloper";
+    internal const string Artist = "Artist";
+    internal const string outOf = "outOf";
+    internal const string MaximumValue = "MaximumValue";
+    internal const string hasBeenUpdated = "hasBeenUpdated";
+    internal const string _9thCenturyStyleOfFrenchAccordionBasedDanceMusic =
     "_9thCenturyStyleOfFrenchAccordionBasedDanceMusic";
-    public const string _3th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic =
+    internal const string _3th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic =
     "_3th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic";
-    public const string _9thCenturyCubanDanceMusic = "_9thCenturyCubanDanceMusic";
-    public const string _90sBritishRevivalOfNewWaveMusic = "_90sBritishRevivalOfNewWaveMusic";
-    public const string _80sThaiPopMusic = "_80sThaiPopMusic";
-    public const string _6thCenturyNeapolitanSongs = "_6thCenturyNeapolitanSongs";
-    public const string _0MostPopularSongsInTheLast7Days = "_0MostPopularSongsInTheLast7Days";
-    public const string _0MostPopularSongs = "_0MostPopularSongs";
-    public const string _90sElectronicMusicBasedOnBreakbeatWithOtherInfluences =
+    internal const string _9thCenturyCubanDanceMusic = "_9thCenturyCubanDanceMusic";
+    internal const string _90sBritishRevivalOfNewWaveMusic = "_90sBritishRevivalOfNewWaveMusic";
+    internal const string _80sThaiPopMusic = "_80sThaiPopMusic";
+    internal const string _6thCenturyNeapolitanSongs = "_6thCenturyNeapolitanSongs";
+    internal const string _0MostPopularSongsInTheLast7Days = "_0MostPopularSongsInTheLast7Days";
+    internal const string _0MostPopularSongs = "_0MostPopularSongs";
+    internal const string _90sElectronicMusicBasedOnBreakbeatWithOtherInfluences =
     "_90sElectronicMusicBasedOnBreakbeatWithOtherInfluences";
-    public const string Description = "Description";
-    public const string HereEnter = "HereEnter";
-    public const string CurrentPassword = "CurrentPassword";
-    public const string ChangePassword = "ChangePassword";
-    public const string ActivateAccount = "ActivateAccount";
-    public const string
+    internal const string Description = "Description";
+    internal const string HereEnter = "HereEnter";
+    internal const string CurrentPassword = "CurrentPassword";
+    internal const string ChangePassword = "ChangePassword";
+    internal const string ActivateAccount = "ActivateAccount";
+    internal const string
     YouShouldCheckYourEmailSeveralTimesToSeeIfItIsCorrectYouWillNotLogInAgainWithoutReactivatingYourEmail =
     "YouShouldCheckYourEmailSeveralTimesToSeeIfItIsCorrectYouWillNotLogInAgainWithoutReactivatingYourEmail";
-    public const string TheUnUserNameParameterWasNotFoundInTheAddressTheApplicationDoesNotKnowWhichProfileToDisplay =
+    internal const string TheUnUserNameParameterWasNotFoundInTheAddressTheApplicationDoesNotKnowWhichProfileToDisplay =
     "TheUnUserNameParameterWasNotFoundInTheAddressTheApplicationDoesNotKnowWhichProfileToDisplay";
-    public const string WhenWasTheLastTimeTheUserWasOnlineWhatDidHeHitOnHimselfYouCanFindItHere =
+    internal const string WhenWasTheLastTimeTheUserWasOnlineWhatDidHeHitOnHimselfYouCanFindItHere =
     "WhenWasTheLastTimeTheUserWasOnlineWhatDidHeHitOnHimselfYouCanFindItHere";
-    public const string User = "User";
-    public const string LastWasHere = "LastWasHere";
-    public const string Sex = "Sex";
-    public const string Age = "Age";
-    public const string State = "State";
-    public const string Region = "Region";
-    public const string ChangeEmail = "ChangeEmail";
-    public const string ClickTheButtonToUploadANewProfilePictureToSunamoCz =
+    internal const string User = "User";
+    internal const string LastWasHere = "LastWasHere";
+    internal const string Sex = "Sex";
+    internal const string Age = "Age";
+    internal const string State = "State";
+    internal const string Region = "Region";
+    internal const string ChangeEmail = "ChangeEmail";
+    internal const string ClickTheButtonToUploadANewProfilePictureToSunamoCz =
     "ClickTheButtonToUploadANewProfilePictureToSunamoCz";
-    public const string RequiredItems = "RequiredItems";
-    public const string Code = "Code";
-    public const string SignIn = "SignIn";
-    public const string HelloFrom = "HelloFrom";
-    public const string Hi = "Hi";
-    public const string Approval = "Approval";
-    public const string Refusal = "Refusal";
-    public const string RequestForReadingPlanApproval = "RequestForReadingPlanApproval";
-    public const string ReadVersesForToday = "ReadVersesForToday";
-    public const string FurthermoreItIsNecessaryToVerifyManually = "FurthermoreItIsNecessaryToVerifyManually";
-    public const string RequestRemovalOfUserComments = "RequestRemovalOfUserComments";
-    public const string UserRecommendations = "UserRecommendations";
-    public const string PageRecommendations = "PageRecommendations";
-    public const string OnThePage = "OnThePage";
-    public const string NewComment = "NewComment";
-    public const string NewImagesLoadedInstead = "NewImagesLoadedInstead";
-    public const string AccordingTo = "AccordingTo";
-    public const string TheFileForThisVersionHasNotBeenUploadedYet = "TheFileForThisVersionHasNotBeenUploadedYet";
-    public const string MetaInformation = "MetaInformation";
-    public const string CreationDate = "CreationDate";
-    public const string ThisVersionDownloads = "ThisVersionDownloads";
-    public const string TheApplicationMustBeInstalled = "TheApplicationMustBeInstalled";
-    public const string ChangesChangelog = "ChangesChangelog";
-    public const string ChangesForThisVersionHaveNotBeenSpecified = "ChangesForThisVersionHaveNotBeenSpecified";
-    public const string TheRecommendedVersionIsTheSameAsTheLatestVersion =
+    internal const string RequiredItems = "RequiredItems";
+    internal const string Code = "Code";
+    internal const string SignIn = "SignIn";
+    internal const string HelloFrom = "HelloFrom";
+    internal const string Hi = "Hi";
+    internal const string Approval = "Approval";
+    internal const string Refusal = "Refusal";
+    internal const string RequestForReadingPlanApproval = "RequestForReadingPlanApproval";
+    internal const string ReadVersesForToday = "ReadVersesForToday";
+    internal const string FurthermoreItIsNecessaryToVerifyManually = "FurthermoreItIsNecessaryToVerifyManually";
+    internal const string RequestRemovalOfUserComments = "RequestRemovalOfUserComments";
+    internal const string UserRecommendations = "UserRecommendations";
+    internal const string PageRecommendations = "PageRecommendations";
+    internal const string OnThePage = "OnThePage";
+    internal const string NewComment = "NewComment";
+    internal const string NewImagesLoadedInstead = "NewImagesLoadedInstead";
+    internal const string AccordingTo = "AccordingTo";
+    internal const string TheFileForThisVersionHasNotBeenUploadedYet = "TheFileForThisVersionHasNotBeenUploadedYet";
+    internal const string MetaInformation = "MetaInformation";
+    internal const string CreationDate = "CreationDate";
+    internal const string ThisVersionDownloads = "ThisVersionDownloads";
+    internal const string TheApplicationMustBeInstalled = "TheApplicationMustBeInstalled";
+    internal const string ChangesChangelog = "ChangesChangelog";
+    internal const string ChangesForThisVersionHaveNotBeenSpecified = "ChangesForThisVersionHaveNotBeenSpecified";
+    internal const string TheRecommendedVersionIsTheSameAsTheLatestVersion =
     "TheRecommendedVersionIsTheSameAsTheLatestVersion";
-    public const string
+    internal const string
     NoteThatTheInformationOnTheInformationTabIsValidPrimarilyForTheRecommendedVersionAndThisNewerVersionMayNotMatchThisInformation =
     "NoteThatTheInformationOnTheInformationTabIsValidPrimarilyForTheRecommendedVersionAndThisNewerVersionMayNotMatchThisInformation";
-    public const string Views = "Views";
-    public const string ItSeemsATable = "ItSeemsATable";
-    public const string LastIDMatchesButSomeRowsAreMissing = "LastIDMatchesButSomeRowsAreMissing";
-    public const string SinceTheHostingTableWasEmptyIWillLoadEverythingTheTable =
+    internal const string Views = "Views";
+    internal const string ItSeemsATable = "ItSeemsATable";
+    internal const string LastIDMatchesButSomeRowsAreMissing = "LastIDMatchesButSomeRowsAreMissing";
+    internal const string SinceTheHostingTableWasEmptyIWillLoadEverythingTheTable =
     "SinceTheHostingTableWasEmptyIWillLoadEverythingTheTable";
-    public const string ThereAreNoRowsOnTheASPoneSiteTheProgramWillLoadEverything =
+    internal const string ThereAreNoRowsOnTheASPoneSiteTheProgramWillLoadEverything =
     "ThereAreNoRowsOnTheASPoneSiteTheProgramWillLoadEverything";
-    public const string InsertingIntoTheTable = "InsertingIntoTheTable";
-    public const string IDRows = "IDRows";
-    public const string IDLine = "IDLine";
-    public const string TheProgramWillNotRecordAnythingTable = "TheProgramWillNotRecordAnythingTable";
-    public const string NoCharacterFoundThatWasNotInAnyField = "NoCharacterFoundThatWasNotInAnyField";
-    public const string TheProvidedStringDoesNotAppearToBeHexEncoded = "TheProvidedStringDoesNotAppearToBeHexEncoded";
-    public const string Import = "Import";
-    public const string ExportFrom = "ExportFrom";
-    public const string ImportTo = "ImportTo";
-    public const string FileTo = "FileTo";
-    public const string Joiner = "Joiner";
-    public const string ThereWereNoErrorsDuringTheImport = "ThereWereNoErrorsDuringTheImport";
-    public const string TableParameters = "TableParameters";
-    public const string MaximumContentLengthInColumns = "MaximumContentLengthInColumns";
-    public const string NoMaskFileFound = "NoMaskFileFound";
-    public const string TheProgramCannotContinueAndWillClose = "TheProgramCannotContinueAndWillClose";
-    public const string FileParsationError = "FileParsationError";
-    public const string FileSuccessfullySavedTo = "FileSuccessfullySavedTo";
-    public const string TextFile = "TextFile";
-    public const string EnglishName = "EnglishName";
-    public const string GeneralCzechAbbreviation = "GeneralCzechAbbreviation";
-    public const string CzechName = "CzechName";
-    public const string OtherSupportedWriteVariants = "OtherSupportedWriteVariants";
-    public const string Page = "Page";
-    public const string LogIn = "LogIn";
-    public const string Login = "Login";
-    public const string Email = "Email";
-    public const string Nope = "Nope";
-    public const string IWishYouMyWebSitesToYourBenefitAndJoy = "IWishYouMyWebSitesToYourBenefitAndJoy";
-    public const string UserRequestsReadPlanApproval = "UserRequestsReadPlanApproval";
-    public const string NameApprovalRequest = "NameApprovalRequest";
-    public const string GreatYourReadingPlanHasBeenApproved = "GreatYourReadingPlanHasBeenApproved";
-    public const string NowYouCanStartReadingItAt = "NowYouCanStartReadingItAt";
-    public const string OopsUnfortunatelyYourReadingPlan = "OopsUnfortunatelyYourReadingPlan";
-    public const string NowYouCanAssignVersesToIt = "NowYouCanAssignVersesToIt";
-    public const string ANewReadingPlanHasBeenCreated = "ANewReadingPlanHasBeenCreated";
-    public const string ToApproveGoTo = "ToApproveGoTo";
-    public const string
+    internal const string InsertingIntoTheTable = "InsertingIntoTheTable";
+    internal const string IDRows = "IDRows";
+    internal const string IDLine = "IDLine";
+    internal const string TheProgramWillNotRecordAnythingTable = "TheProgramWillNotRecordAnythingTable";
+    internal const string NoCharacterFoundThatWasNotInAnyField = "NoCharacterFoundThatWasNotInAnyField";
+    internal const string TheProvidedStringDoesNotAppearToBeHexEncoded = "TheProvidedStringDoesNotAppearToBeHexEncoded";
+    internal const string Import = "Import";
+    internal const string ExportFrom = "ExportFrom";
+    internal const string ImportTo = "ImportTo";
+    internal const string FileTo = "FileTo";
+    internal const string Joiner = "Joiner";
+    internal const string ThereWereNoErrorsDuringTheImport = "ThereWereNoErrorsDuringTheImport";
+    internal const string TableParameters = "TableParameters";
+    internal const string MaximumContentLengthInColumns = "MaximumContentLengthInColumns";
+    internal const string NoMaskFileFound = "NoMaskFileFound";
+    internal const string TheProgramCannotContinueAndWillClose = "TheProgramCannotContinueAndWillClose";
+    internal const string FileParsationError = "FileParsationError";
+    internal const string FileSuccessfullySavedTo = "FileSuccessfullySavedTo";
+    internal const string TextFile = "TextFile";
+    internal const string EnglishName = "EnglishName";
+    internal const string GeneralCzechAbbreviation = "GeneralCzechAbbreviation";
+    internal const string CzechName = "CzechName";
+    internal const string OtherSupportedWriteVariants = "OtherSupportedWriteVariants";
+    internal const string Page = "Page";
+    internal const string LogIn = "LogIn";
+    internal const string Login = "Login";
+    internal const string Email = "Email";
+    internal const string Nope = "Nope";
+    internal const string IWishYouMyWebSitesToYourBenefitAndJoy = "IWishYouMyWebSitesToYourBenefitAndJoy";
+    internal const string UserRequestsReadPlanApproval = "UserRequestsReadPlanApproval";
+    internal const string NameApprovalRequest = "NameApprovalRequest";
+    internal const string GreatYourReadingPlanHasBeenApproved = "GreatYourReadingPlanHasBeenApproved";
+    internal const string NowYouCanStartReadingItAt = "NowYouCanStartReadingItAt";
+    internal const string OopsUnfortunatelyYourReadingPlan = "OopsUnfortunatelyYourReadingPlan";
+    internal const string NowYouCanAssignVersesToIt = "NowYouCanAssignVersesToIt";
+    internal const string ANewReadingPlanHasBeenCreated = "ANewReadingPlanHasBeenCreated";
+    internal const string ToApproveGoTo = "ToApproveGoTo";
+    internal const string
     ToVerifyThatTheDomainIsYoursInsertThisHTMLCodeItIsAHiddenFieldThatWillNotBeReflectedInTheDesignOrTextIntoTheHomePage =
     "ToVerifyThatTheDomainIsYoursInsertThisHTMLCodeItIsAHiddenFieldThatWillNotBeReflectedInTheDesignOrTextIntoTheHomePage";
-    public const string YouShouldMakeItTo = "YouShouldMakeItTo";
-    public const string UserRequestsToRemoveUserComments = "UserRequestsToRemoveUserComments";
-    public const string TheUserMentionedAboveRecommendsThisPage = "TheUserMentionedAboveRecommendsThisPage";
-    public const string
+    internal const string YouShouldMakeItTo = "YouShouldMakeItTo";
+    internal const string UserRequestsToRemoveUserComments = "UserRequestsToRemoveUserComments";
+    internal const string TheUserMentionedAboveRecommendsThisPage = "TheUserMentionedAboveRecommendsThisPage";
+    internal const string
     YouAreReceivingThisEmailBecauseYouHaveBeenSubscribedToNewCommentsIfYouWouldLikeToUnsubscribeYouCanDoSoOnThePageAtTheBeginningOfTheMail =
     "YouAreReceivingThisEmailBecauseYouHaveBeenSubscribedToNewCommentsIfYouWouldLikeToUnsubscribeYouCanDoSoOnThePageAtTheBeginningOfTheMail";
-    public const string UserWithNick = "UserWithNick";
-    public const string MainPage = "MainPage";
-    public const string Enabled = "Enabled";
-    public const string Protocol = "Protocol";
-    public const string TheLinkHasBeenDisabled = "TheLinkHasBeenDisabled";
-    public const string Developer = "Developer";
-    public const string Introduction = "Introduction";
-    public const string PageOrFileNotFound = "PageOrFileNotFound";
-    public const string SystemStatus = "SystemStatus";
-    public const string AtThisTimeOnlyTheLoginSystemStatus = "AtThisTimeOnlyTheLoginSystemStatus";
-    public const string TheRegistrationAndLoggingSystemRunsNormally = "TheRegistrationAndLoggingSystemRunsNormally";
-    public const string APageWithThisIDWasNotFoundInTheDatabase = "APageWithThisIDWasNotFoundInTheDatabase";
-    public const string TrafficToTheMainPagesOfWebsitesFromTheBeginningOfAges =
+    internal const string UserWithNick = "UserWithNick";
+    internal const string MainPage = "MainPage";
+    internal const string Enabled = "Enabled";
+    internal const string Protocol = "Protocol";
+    internal const string TheLinkHasBeenDisabled = "TheLinkHasBeenDisabled";
+    internal const string Developer = "Developer";
+    internal const string Introduction = "Introduction";
+    internal const string PageOrFileNotFound = "PageOrFileNotFound";
+    internal const string SystemStatus = "SystemStatus";
+    internal const string AtThisTimeOnlyTheLoginSystemStatus = "AtThisTimeOnlyTheLoginSystemStatus";
+    internal const string TheRegistrationAndLoggingSystemRunsNormally = "TheRegistrationAndLoggingSystemRunsNormally";
+    internal const string APageWithThisIDWasNotFoundInTheDatabase = "APageWithThisIDWasNotFoundInTheDatabase";
+    internal const string TrafficToTheMainPagesOfWebsitesFromTheBeginningOfAges =
     "TrafficToTheMainPagesOfWebsitesFromTheBeginningOfAges";
-    public const string IllegalOperation = "IllegalOperation";
-    public const string PasswordChangedSuccessfully = "PasswordChangedSuccessfully";
-    public const string ToTheUser = "ToTheUser";
-    public const string NewPasswordDoesNotMatch = "NewPasswordDoesNotMatch";
-    public const string UsernameAndPasswordDidNotMatchAccountFound = "UsernameAndPasswordDidNotMatchAccountFound";
-    public const string WrongAPIKey = "WrongAPIKey";
-    public const string MailSuccessfullySent = "MailSuccessfullySent";
-    public const string YouAreTryingToSendAnAddressThatDoesNotBelongToThisSite =
+    internal const string IllegalOperation = "IllegalOperation";
+    internal const string PasswordChangedSuccessfully = "PasswordChangedSuccessfully";
+    internal const string ToTheUser = "ToTheUser";
+    internal const string NewPasswordDoesNotMatch = "NewPasswordDoesNotMatch";
+    internal const string UsernameAndPasswordDidNotMatchAccountFound = "UsernameAndPasswordDidNotMatchAccountFound";
+    internal const string WrongAPIKey = "WrongAPIKey";
+    internal const string MailSuccessfullySent = "MailSuccessfullySent";
+    internal const string YouAreTryingToSendAnAddressThatDoesNotBelongToThisSite =
     "YouAreTryingToSendAnAddressThatDoesNotBelongToThisSite";
-    public const string YouTypedTheEmailInTheWrongFormat = "YouTypedTheEmailInTheWrongFormat";
-    public const string False = "False";
-    public const string Count = "Count";
-    public const string YouWillNotBeAllowedToLogInAgainForAnotherHour = "YouWillNotBeAllowedToLogInAgainForAnotherHour";
-    public const string Display = "Display";
-    public const string File = "File";
-    public const string ThisMethodHasNotBeenImplemented = "ThisMethodHasNotBeenImplemented";
-    public const string NoResultsFound = "NoResultsFound";
-    public const string TotalResults = "TotalResults";
-    public const string TotalDeleted = "TotalDeleted";
-    public const string FailedToParseSiteIDAsAByte = "FailedToParseSiteIDAsAByte";
-    public const string TheSpecifiedPageNameWasNotFoundInTheDB = "TheSpecifiedPageNameWasNotFoundInTheDB";
-    public const string RemovedInPageDoesNotDeleteInPageArgumentAndPageName =
+    internal const string YouTypedTheEmailInTheWrongFormat = "YouTypedTheEmailInTheWrongFormat";
+    internal const string False = "False";
+    internal const string Count = "Count";
+    internal const string YouWillNotBeAllowedToLogInAgainForAnotherHour = "YouWillNotBeAllowedToLogInAgainForAnotherHour";
+    internal const string Display = "Display";
+    internal const string File = "File";
+    internal const string ThisMethodHasNotBeenImplemented = "ThisMethodHasNotBeenImplemented";
+    internal const string NoResultsFound = "NoResultsFound";
+    internal const string TotalResults = "TotalResults";
+    internal const string TotalDeleted = "TotalDeleted";
+    internal const string FailedToParseSiteIDAsAByte = "FailedToParseSiteIDAsAByte";
+    internal const string TheSpecifiedPageNameWasNotFoundInTheDB = "TheSpecifiedPageNameWasNotFoundInTheDB";
+    internal const string RemovedInPageDoesNotDeleteInPageArgumentAndPageName =
     "RemovedInPageDoesNotDeleteInPageArgumentAndPageName";
-    public const string RemovedInLastVisits = "RemovedInLastVisits";
-    public const string RemovedInLastVisitsLogined = "RemovedInLastVisitsLogined";
-    public const string RemovedInPageViews = "RemovedInPageViews";
-    public const string NoneOfTheSpecifiedPageArgsWasFoundInTheDB = "NoneOfTheSpecifiedPageArgsWasFoundInTheDB";
-    public const string YouHaveNotSpecifiedAnyPageArgsInTheEntireStringRange =
+    internal const string RemovedInLastVisits = "RemovedInLastVisits";
+    internal const string RemovedInLastVisitsLogined = "RemovedInLastVisitsLogined";
+    internal const string RemovedInPageViews = "RemovedInPageViews";
+    internal const string NoneOfTheSpecifiedPageArgsWasFoundInTheDB = "NoneOfTheSpecifiedPageArgsWasFoundInTheDB";
+    internal const string YouHaveNotSpecifiedAnyPageArgsInTheEntireStringRange =
     "YouHaveNotSpecifiedAnyPageArgsInTheEntireStringRange";
-    public const string Occurrence = "Occurrence";
-    public const string AverageLenght = "AverageLenght";
-    public const string Allowed = "Allowed";
-    public const string
+    internal const string Occurrence = "Occurrence";
+    internal const string AverageLenght = "AverageLenght";
+    internal const string Allowed = "Allowed";
+    internal const string
     ThisCatHasNotFilledInAboutMeNorIntroductionForVisitors2ThisCatHasNotFilledInForMeOrIntroductionForVisitors3ThisCatHasNotFilledInForMeOrIntroductionForVisitors4ThisCatHasNotFilledInForMeOrIntroductionForVisitors5ThisCatHasNotFilledInMeNeitherIntroductionToVisitors6ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors7ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors8ThisCatHadNotFilledInAboutMeNorIntroductionToVisitorsThisCatHadNotFilledInAboutMeNorIntroductionToVisitors =
     "ThisCatHasNotFilledInAboutMeNorIntroductionForVisitors2ThisCatHasNotFilledInForMeOrIntroductionForVisitors3ThisCatHasNotFilledInForMeOrIntroductionForVisitors4ThisCatHasNotFilledInForMeOrIntroductionForVisitors5ThisCatHasNotFilledInMeNeitherIntroductionToVisitors6ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors7ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors8ThisCatHadNotFilledInAboutMeNorIntroductionToVisitorsThisCatHadNotFilledInAboutMeNorIntroductionToVisitors";
-    public const string YouCannotAddOrRemoveCommentsForTheNopeWebsite = "YouCannotAddOrRemoveCommentsForTheNopeWebsite";
-    public const string SuspendedWithoutLogin = "SuspendedWithoutLogin";
-    public const string Webmaster = "Webmaster";
-    public const string IllegalSortValuesApparentlyPublicApplicationError =
+    internal const string YouCannotAddOrRemoveCommentsForTheNopeWebsite = "YouCannotAddOrRemoveCommentsForTheNopeWebsite";
+    internal const string SuspendedWithoutLogin = "SuspendedWithoutLogin";
+    internal const string Webmaster = "Webmaster";
+    internal const string IllegalSortValuesApparentlyPublicApplicationError =
     "IllegalSortValuesApparentlyPublicApplicationError";
-    public const string DoMetodyLoginedUserIDSeNedostalAniParametrHttpContextAniSunamoPage =
+    internal const string DoMetodyLoginedUserIDSeNedostalAniParametrHttpContextAniSunamoPage =
     "DoMetodyLoginedUserIDSeNedostalAniParametrHttpContextAniSunamoPage";
-    public const string TheSessionIDFoundInTheDBDoesNotMatchYourSessionIDLogOutAndLogIn =
+    internal const string TheSessionIDFoundInTheDBDoesNotMatchYourSessionIDLogOutAndLogIn =
     "TheSessionIDFoundInTheDBDoesNotMatchYourSessionIDLogOutAndLogIn";
-    public const string YouHaveNoMoreSignInAttemptsPleaseTryAgainInAnHour =
+    internal const string YouHaveNoMoreSignInAttemptsPleaseTryAgainInAnHour =
     "YouHaveNoMoreSignInAttemptsPleaseTryAgainInAnHour";
-    public const string AllYouHaveToDo = "AllYouHaveToDo";
-    public const string YouMustReactivateYourAccountFirstBecauseYourAccountHasBeenChangedEmailBefore =
+    internal const string AllYouHaveToDo = "AllYouHaveToDo";
+    internal const string YouMustReactivateYourAccountFirstBecauseYourAccountHasBeenChangedEmailBefore =
     "YouMustReactivateYourAccountFirstBecauseYourAccountHasBeenChangedEmailBefore";
-    public const string UsernameAndPasswordCannotBeLeftBlank = "UsernameAndPasswordCannotBeLeftBlank";
-    public const string YouHaveNotSpecifiedAUserOrTheSpecifiedUserIsNotInTheEnabledUsersTable =
+    internal const string UsernameAndPasswordCannotBeLeftBlank = "UsernameAndPasswordCannotBeLeftBlank";
+    internal const string YouHaveNotSpecifiedAUserOrTheSpecifiedUserIsNotInTheEnabledUsersTable =
     "YouHaveNotSpecifiedAUserOrTheSpecifiedUserIsNotInTheEnabledUsersTable";
-    public const string ItWasPassedToTheGetNormalizedParametersTypeOfTheNoneParameter =
+    internal const string ItWasPassedToTheGetNormalizedParametersTypeOfTheNoneParameter =
     "ItWasPassedToTheGetNormalizedParametersTypeOfTheNoneParameter";
-    public const string AnUnimplementedTypeInThePageArgumentVerifierIsRightValueMethod =
+    internal const string AnUnimplementedTypeInThePageArgumentVerifierIsRightValueMethod =
     "AnUnimplementedTypeInThePageArgumentVerifierIsRightValueMethod";
-    public const string Session = "Session";
-    public const string UnknownOrNotImplementedEnumerationElementTypeOfMessage =
+    internal const string Session = "Session";
+    internal const string UnknownOrNotImplementedEnumerationElementTypeOfMessage =
     "UnknownOrNotImplementedEnumerationElementTypeOfMessage";
-    public const string Stylesheet = "Stylesheet";
-    public const string GoToTheGuidepostOfAllSites = "GoToTheGuidepostOfAllSites";
-    public const string GoToTheMainPage = "GoToTheMainPage";
-    public const string RecommendThisPageToAFriend = "RecommendThisPageToAFriend";
-    public const string LogOut = "LogOut";
-    public const string
+    internal const string Stylesheet = "Stylesheet";
+    internal const string GoToTheGuidepostOfAllSites = "GoToTheGuidepostOfAllSites";
+    internal const string GoToTheMainPage = "GoToTheMainPage";
+    internal const string RecommendThisPageToAFriend = "RecommendThisPageToAFriend";
+    internal const string LogOut = "LogOut";
+    internal const string
     YouthChoirChurchChristianityGodJesusHolySpiritEntertainmentGamesCompetitionsPhotogalleryDownloadLinksContactsCalendarReporterPrayer =
     "YouthChoirChurchChristianityGodJesusHolySpiritEntertainmentGamesCompetitionsPhotogalleryDownloadLinksContactsCalendarReporterPrayer";
-    public const string
+    internal const string
     GeocachingIsAGameOnTheBorderOfSportsAndTourismWhichIsBasedOnTheUseOfTheGPSNavigationSystemToFindAHiddenCacheCalledCacheKnownForItsGeographicalCoordinatesInTheSystemWGS84SearchesUseGPSTouristReceiversAPersonEngagedInGeocachingIsCalledGeocacherInCzechAlsoGeocacherOrSimplyDuckAfterDiscoveringTheCacheWritingItToTheLogbookAndEventuallyExchangingTheContentTheFinderWillSaveItAndMaskItAgain =
     "GeocachingIsAGameOnTheBorderOfSportsAndTourismWhichIsBasedOnTheUseOfTheGPSNavigationSystemToFindAHiddenCacheCalledCacheKnownForItsGeographicalCoordinatesInTheSystemWGS84SearchesUseGPSTouristReceiversAPersonEngagedInGeocachingIsCalledGeocacherInCzechAlsoGeocacherOrSimplyDuckAfterDiscoveringTheCacheWritingItToTheLogbookAndEventuallyExchangingTheContentTheFinderWillSaveItAndMaskItAgain";
-    public const string
+    internal const string
     SiteOfManWithNickSunamoSongLyricsWindowsAppsAndMuchMoreFurthermoreListingsOfSomeGeocachingComCachesShortenerLinksPhotoGallery =
     "SiteOfManWithNickSunamoSongLyricsWindowsAppsAndMuchMoreFurthermoreListingsOfSomeGeocachingComCachesShortenerLinksPhotoGallery";
-    public const string UnimplementedBranchInSunamoPageDescriptionOfSite =
+    internal const string UnimplementedBranchInSunamoPageDescriptionOfSite =
     "UnimplementedBranchInSunamoPageDescriptionOfSite";
-    public const string AllRightsReserved = "AllRightsReserved";
-    public const string Location = "Location";
-    public const string Cities = "Cities";
-    public const string Users = "Users";
-    public const string News = "News";
-    public const string Favorites = "Favorites";
-    public const string Sessions = "Sessions";
-    public const string Hostnames = "Hostnames";
-    public const string Platforms = "Platforms";
-    public const string Langs = "Langs";
-    public const string Colors = "Colors";
-    public const string TheMaximumNumberOfImagesPerUserIs = "TheMaximumNumberOfImagesPerUserIs";
-    public const string YouHaveAlreadyReachedThisLimitAndSet = "YouHaveAlreadyReachedThisLimitAndSet";
-    public const string YouAreWorkingWithTheDatabaseButTheInsertToTablePhotosDelegateWasNotFilled =
+    internal const string AllRightsReserved = "AllRightsReserved";
+    internal const string Location = "Location";
+    internal const string Cities = "Cities";
+    internal const string Users = "Users";
+    internal const string News = "News";
+    internal const string Favorites = "Favorites";
+    internal const string Sessions = "Sessions";
+    internal const string Hostnames = "Hostnames";
+    internal const string Platforms = "Platforms";
+    internal const string Langs = "Langs";
+    internal const string Colors = "Colors";
+    internal const string TheMaximumNumberOfImagesPerUserIs = "TheMaximumNumberOfImagesPerUserIs";
+    internal const string YouHaveAlreadyReachedThisLimitAndSet = "YouHaveAlreadyReachedThisLimitAndSet";
+    internal const string YouAreWorkingWithTheDatabaseButTheInsertToTablePhotosDelegateWasNotFilled =
     "YouAreWorkingWithTheDatabaseButTheInsertToTablePhotosDelegateWasNotFilled";
-    public const string YouWantToUseTheIDForTheFilenameFromTheTableRowButYouHaveWorkWithDatabase =
+    internal const string YouWantToUseTheIDForTheFilenameFromTheTableRowButYouHaveWorkWithDatabase =
     "YouWantToUseTheIDForTheFilenameFromTheTableRowButYouHaveWorkWithDatabase";
-    public const string TheFileUploadWasStoppedBecauseTheFile = "TheFileUploadWasStoppedBecauseTheFile";
-    public const string YouTubeVideoPlayer = "YouTubeVideoPlayer";
-    public const string InTable = "InTable";
-    public const string YouHaveRequestedToAddADomain = "YouHaveRequestedToAddADomain";
-    public const string WebsiteTrafficLastDays = "WebsiteTrafficLastDays";
-    public const string
+    internal const string TheFileUploadWasStoppedBecauseTheFile = "TheFileUploadWasStoppedBecauseTheFile";
+    internal const string YouTubeVideoPlayer = "YouTubeVideoPlayer";
+    internal const string InTable = "InTable";
+    internal const string YouHaveRequestedToAddADomain = "YouHaveRequestedToAddADomain";
+    internal const string WebsiteTrafficLastDays = "WebsiteTrafficLastDays";
+    internal const string
     YouCameToThisPageBecauseYouTriedToLoadThePageOrToPerformAnotherOperationThatYouDoNotHavePermissionToDoOrThatIsNotApplicableInThisContext =
     "YouCameToThisPageBecauseYouTriedToLoadThePageOrToPerformAnotherOperationThatYouDoNotHavePermissionToDoOrThatIsNotApplicableInThisContext";
-    public const string ResendActivationEmail = "ResendActivationEmail";
-    public const string
+    internal const string ResendActivationEmail = "ResendActivationEmail";
+    internal const string
     _1ThisCatHasNotFilledInAboutMeNorIntroductionForVisitors2ThisCatHasNotFilledInForMeOrIntroductionForVisitors3ThisCatHasNotFilledInForMeOrIntroductionForVisitors4ThisCatHasNotFilledInForMeOrIntroductionForVisitors5ThisCatHasNotFilledInMeNeitherIntroductionToVisitors6ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors7ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors8ThisCatHadNotFilledInAboutMeNorIntroductionToVisitorsThisCatHadNotFilledInAboutMeNorIntroductionToVisitors =
     "_1ThisCatHasNotFilledInAboutMeNorIntroductionForVisitors2ThisCatHasNotFilledInForMeOrIntroductionForVisitors3ThisCatHasNotFilledInForMeOrIntroductionForVisitors4ThisCatHasNotFilledInForMeOrIntroductionForVisitors5ThisCatHasNotFilledInMeNeitherIntroductionToVisitors6ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors7ThisCatHadNotFilledInAboutMeNorIntroductionToVisitors8ThisCatHadNotFilledInAboutMeNorIntroductionToVisitorsThisCatHadNotFilledInAboutMeNorIntroductionToVisitors";
-    public const string _2HereEnter = "_2HereEnter";
-    public const string doesNotExists = "doesNotExists";
-    public const string InsufficientRightsToAccessFileOrFolder = "InsufficientRightsToAccessFileOrFolder";
-    public const string UnknownErrorWhenWorkWithFileOrFolder = "UnknownErrorWhenWorkWithFileOrFolder";
-    public const string lasted = "lasted";
-    public const string SuccessfullyLoginedTo = "SuccessfullyLoginedTo";
-    public const string locationOfCaches = "locationOfCaches";
-    public const string AlreadyOpenCannotDuplicateCannotDuplicateCannotDuplicate =
+    internal const string _2HereEnter = "_2HereEnter";
+    internal const string doesNotExists = "doesNotExists";
+    internal const string InsufficientRightsToAccessFileOrFolder = "InsufficientRightsToAccessFileOrFolder";
+    internal const string UnknownErrorWhenWorkWithFileOrFolder = "UnknownErrorWhenWorkWithFileOrFolder";
+    internal const string lasted = "lasted";
+    internal const string SuccessfullyLoginedTo = "SuccessfullyLoginedTo";
+    internal const string locationOfCaches = "locationOfCaches";
+    internal const string AlreadyOpenCannotDuplicateCannotDuplicateCannotDuplicate =
     "AlreadyOpenCannotDuplicateCannotDuplicateCannotDuplicate";
-    public const string failedWithError = "failedWithError";
-    public const string _2ClickTheButtonToUploadANewProfilePictureToSunamoCz =
+    internal const string failedWithError = "failedWithError";
+    internal const string _2ClickTheButtonToUploadANewProfilePictureToSunamoCz =
     "_2ClickTheButtonToUploadANewProfilePictureToSunamoCz";
-    public const string _0NewImagesLoadedInstead = "_0NewImagesLoadedInstead";
-    public const string isAnAssignmentYouMustDoThisManually = "isAnAssignmentYouMustDoThisManually";
-    public const string _19thCenturyStyleOfFrenchAccordionBasedDanceMusic =
+    internal const string _0NewImagesLoadedInstead = "_0NewImagesLoadedInstead";
+    internal const string isAnAssignmentYouMustDoThisManually = "isAnAssignmentYouMustDoThisManually";
+    internal const string _19thCenturyStyleOfFrenchAccordionBasedDanceMusic =
     "_19thCenturyStyleOfFrenchAccordionBasedDanceMusic";
-    public const string _13th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic =
+    internal const string _13th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic =
     "_13th15thCenturyItalianMusicalAndPoeticFormBasedOnAnAbbaAStructureThatActedAsAFormOfDanceMusic";
-    public const string _19thCenturyCubanDanceMusic = "_19thCenturyCubanDanceMusic";
-    public const string merengueTipico = "merengueTipico";
-    public const string modernLaika = "modernLaika";
-    public const string musicaCriolla = "musicaCriolla";
-    public const string musicaPopularBrasileira = "musicaPopularBrasileira";
-    public const string musiqueConcrete = "musiqueConcrete";
-    public const string _1990sBritishRevivalOfNewWaveMusic = "_1990sBritishRevivalOfNewWaveMusic";
-    public const string seanNos = "seanNos";
-    public const string _1980sThaiPopMusic = "_1980sThaiPopMusic";
-    public const string _16thCenturyNeapolitanSongs = "_16thCenturyNeapolitanSongs";
-    public const string failedToDownloadFailedToGetUriOfAllSizes = "failedToDownloadFailedToGetUriOfAllSizes";
-    public const string ASongOfTheSameNameAlreadyExistsInTheDatabaseAndYouCanFindIt =
+    internal const string _19thCenturyCubanDanceMusic = "_19thCenturyCubanDanceMusic";
+    internal const string merengueTipico = "merengueTipico";
+    internal const string modernLaika = "modernLaika";
+    internal const string musicaCriolla = "musicaCriolla";
+    internal const string musicaPopularBrasileira = "musicaPopularBrasileira";
+    internal const string musiqueConcrete = "musiqueConcrete";
+    internal const string _1990sBritishRevivalOfNewWaveMusic = "_1990sBritishRevivalOfNewWaveMusic";
+    internal const string seanNos = "seanNos";
+    internal const string _1980sThaiPopMusic = "_1980sThaiPopMusic";
+    internal const string _16thCenturyNeapolitanSongs = "_16thCenturyNeapolitanSongs";
+    internal const string failedToDownloadFailedToGetUriOfAllSizes = "failedToDownloadFailedToGetUriOfAllSizes";
+    internal const string ASongOfTheSameNameAlreadyExistsInTheDatabaseAndYouCanFindIt =
     "ASongOfTheSameNameAlreadyExistsInTheDatabaseAndYouCanFindIt";
-    public const string
+    internal const string
     ThisVideoAlreadyHadAnotherSongInOurDatabaseIfYouThinkItStillBelongsHereSendMeItsYTCodeToRadekJancikAtSunamoCz =
     "ThisVideoAlreadyHadAnotherSongInOurDatabaseIfYouThinkItStillBelongsHereSendMeItsYTCodeToRadekJancikAtSunamoCz";
-    public const string specifiedInTheURI = "specifiedInTheURI";
-    public const string couldNotBeFound = "couldNotBeFound";
-    public const string pIDStfIDPhoto = "pIDStfIDPhoto";
-    public const string couldNotBeDeletedBecauseItDidNotBelongToYou = "couldNotBeDeletedBecauseItDidNotBelongToYou";
-    public const string failedToSetAsPublishedAuthenticationError = "failedToSetAsPublishedAuthenticationError";
-    public const string itWasNotAnIntegerNumber = "itWasNotAnIntegerNumber";
-    public const string forTeam = "forTeam";
-    public const string inProportion = "inProportion";
-    public const string fromAnyForeignSites = "fromAnyForeignSites";
-    public const string gpxRoutesGeneratedNewCodeReloadThePageCtrlF5ToFindNewAddresses =
+    internal const string specifiedInTheURI = "specifiedInTheURI";
+    internal const string couldNotBeFound = "couldNotBeFound";
+    internal const string pIDStfIDPhoto = "pIDStfIDPhoto";
+    internal const string couldNotBeDeletedBecauseItDidNotBelongToYou = "couldNotBeDeletedBecauseItDidNotBelongToYou";
+    internal const string failedToSetAsPublishedAuthenticationError = "failedToSetAsPublishedAuthenticationError";
+    internal const string itWasNotAnIntegerNumber = "itWasNotAnIntegerNumber";
+    internal const string forTeam = "forTeam";
+    internal const string inProportion = "inProportion";
+    internal const string fromAnyForeignSites = "fromAnyForeignSites";
+    internal const string gpxRoutesGeneratedNewCodeReloadThePageCtrlF5ToFindNewAddresses =
     "gpxRoutesGeneratedNewCodeReloadThePageCtrlF5ToFindNewAddresses";
-    public const string sortedBySize = "sortedBySize";
-    public const string doNotMatchTheirCoordinates = "doNotMatchTheirCoordinates";
-    public const string isApproximatelyTheSameAsOnPlane = "isApproximatelyTheSameAsOnPlane";
-    public const string isExactlyTheSameAsFlat = "isExactlyTheSameAsFlat";
-    public const string linksHaveBeenTruncatedSuccessfullyBut = "linksHaveBeenTruncatedSuccessfullyBut";
-    public const string becauseItWasLongerThan512Characters = "becauseItWasLongerThan512Characters";
-    public const string _20MostPopularSongsInTheLast7Days = "_20MostPopularSongsInTheLast7Days";
-    public const string _10MostPopularSongs = "_10MostPopularSongs";
-    public const string ThePasswordMustHaveAtLeastOneSpecialCharacter = "ThePasswordMustHaveAtLeastOneSpecialCharacter";
-    public const string successfullyUploaded = "successfullyUploaded";
-    public const string doesNotHaveTheCorrectExtension = "doesNotHaveTheCorrectExtension";
-    public const string doesNotExistOnTheServer = "doesNotExistOnTheServer";
-    public const string _1990sElectronicMusicBasedOnBreakbeatWithOtherInfluences =
+    internal const string sortedBySize = "sortedBySize";
+    internal const string doNotMatchTheirCoordinates = "doNotMatchTheirCoordinates";
+    internal const string isApproximatelyTheSameAsOnPlane = "isApproximatelyTheSameAsOnPlane";
+    internal const string isExactlyTheSameAsFlat = "isExactlyTheSameAsFlat";
+    internal const string linksHaveBeenTruncatedSuccessfullyBut = "linksHaveBeenTruncatedSuccessfullyBut";
+    internal const string becauseItWasLongerThan512Characters = "becauseItWasLongerThan512Characters";
+    internal const string _20MostPopularSongsInTheLast7Days = "_20MostPopularSongsInTheLast7Days";
+    internal const string _10MostPopularSongs = "_10MostPopularSongs";
+    internal const string ThePasswordMustHaveAtLeastOneSpecialCharacter = "ThePasswordMustHaveAtLeastOneSpecialCharacter";
+    internal const string successfullyUploaded = "successfullyUploaded";
+    internal const string doesNotHaveTheCorrectExtension = "doesNotHaveTheCorrectExtension";
+    internal const string doesNotExistOnTheServer = "doesNotExistOnTheServer";
+    internal const string _1990sElectronicMusicBasedOnBreakbeatWithOtherInfluences =
     "_1990sElectronicMusicBasedOnBreakbeatWithOtherInfluences";
-    public const string decima = "decima";
-    public const string supported = "supported";
-    public const string en2Lang = "en2Lang";
-    public const string cz2Lang = "cz2Lang";
-    public const string domains = "domains";
-    public const string fromTheWeb = "fromTheWeb";
-    public const string series = "series";
-    public const string bySize = "bySize";
-    public const string inTheSize = "inTheSize";
-    public const string Tag = "Tag";
-    public const string
+    internal const string decima = "decima";
+    internal const string supported = "supported";
+    internal const string en2Lang = "en2Lang";
+    internal const string cz2Lang = "cz2Lang";
+    internal const string domains = "domains";
+    internal const string fromTheWeb = "fromTheWeb";
+    internal const string series = "series";
+    internal const string bySize = "bySize";
+    internal const string inTheSize = "inTheSize";
+    internal const string Tag = "Tag";
+    internal const string
     MayLoveTimeBuyInTheMostPopularEroticShopAndHaveWonderfulMomentsWithYourPetHandcuffsVibratorsDentsEroticLingerieDildosPuffballsOrWomanizerToPartnerWithInMinutesOverKčGiftPostageFromKčFree =
     "MayLoveTimeBuyInTheMostPopularEroticShopAndHaveWonderfulMomentsWithYourPetHandcuffsVibratorsDentsEroticLingerieDildosPuffballsOrWomanizerToPartnerWithInMinutesOverKčGiftPostageFromKčFree";
-    public const string LastModified = "LastModified";
-    public const string SignInToTakeFullAdvantageOfTheSite_aposSCapabilitiesAndFeatures =
+    internal const string LastModified = "LastModified";
+    internal const string SignInToTakeFullAdvantageOfTheSite_aposSCapabilitiesAndFeatures =
     "SignInToTakeFullAdvantageOfTheSite_aposSCapabilitiesAndFeatures";
-    public const string DoYouWishToSendALoginNameToTheMail_quest_quest =
+    internal const string DoYouWishToSendALoginNameToTheMail_quest_quest =
     "DoYouWishToSendALoginNameToTheMail_quest_quest";
-    public const string SomeAlbums = "SomeAlbums";
-    public const string UserName = "UserName";
-    public const string MyStatistic = "MyStatistic";
-    public const string MyGallery = "MyGallery";
-    public const string ImageDescriptions = "ImageDescriptions";
-    public const string ImageNames = "ImageNames";
-    public const string AlbumDescriptions = "AlbumDescriptions";
-    public const string AlbumNames = "AlbumNames";
-    public const string CompletedUser = "CompletedUser";
-    public const string OnlyMine = "OnlyMine";
-    public const string CurrentUser = "CurrentUser";
-    public const string AllUsers = "AllUsers";
-    public const string SearchUsers = "SearchUsers";
-    public const string AllYourPhotosEvenPrivate = "AllYourPhotosEvenPrivate";
-    public const string
+    internal const string SomeAlbums = "SomeAlbums";
+    internal const string UserName = "UserName";
+    internal const string MyStatistic = "MyStatistic";
+    internal const string MyGallery = "MyGallery";
+    internal const string ImageDescriptions = "ImageDescriptions";
+    internal const string ImageNames = "ImageNames";
+    internal const string AlbumDescriptions = "AlbumDescriptions";
+    internal const string AlbumNames = "AlbumNames";
+    internal const string CompletedUser = "CompletedUser";
+    internal const string OnlyMine = "OnlyMine";
+    internal const string CurrentUser = "CurrentUser";
+    internal const string AllUsers = "AllUsers";
+    internal const string SearchUsers = "SearchUsers";
+    internal const string AllYourPhotosEvenPrivate = "AllYourPhotosEvenPrivate";
+    internal const string
     YouReceivedThisEmailBecauseYouHaveBeenSubscribedToReceiveNewCommentsIfYouWantToUnsubscribeYouCanDoSoOnThePageThatHasTheLinkAtTheBeginningOfTheEmail =
     "YouReceivedThisEmailBecauseYouHaveBeenSubscribedToReceiveNewCommentsIfYouWantToUnsubscribeYouCanDoSoOnThePageThatHasTheLinkAtTheBeginningOfTheEmail";
-    public const string aNewContentCommentHasBeenAdded = "aNewContentCommentHasBeenAdded";
-    public const string TheUserMentionedAboveRecommendsThisPageToYou = "TheUserMentionedAboveRecommendsThisPageToYou";
-    public const string RequestToDeleteUserComments = "RequestToDeleteUserComments";
-    public const string TheUserIsRequestingThatTheUserSCommentsBeDeleted =
+    internal const string aNewContentCommentHasBeenAdded = "aNewContentCommentHasBeenAdded";
+    internal const string TheUserMentionedAboveRecommendsThisPageToYou = "TheUserMentionedAboveRecommendsThisPageToYou";
+    internal const string RequestToDeleteUserComments = "RequestToDeleteUserComments";
+    internal const string TheUserIsRequestingThatTheUserSCommentsBeDeleted =
     "TheUserIsRequestingThatTheUserSCommentsBeDeleted";
-    public const string YouShouldBeAbleToDoItBy = "YouShouldBeAbleToDoItBy";
-    public const string ItIsAlsoNecessaryToVerifyManually = "ItIsAlsoNecessaryToVerifyManually";
-    public const string plan = "plan";
-    public const string ReadTheVersesForToday = "ReadTheVersesForToday";
-    public const string weHaveVersesForYouForToday = "weHaveVersesForYouForToday";
-    public const string whereYouCanFindMoreInformation = "whereYouCanFindMoreInformation";
-    public const string
+    internal const string YouShouldBeAbleToDoItBy = "YouShouldBeAbleToDoItBy";
+    internal const string ItIsAlsoNecessaryToVerifyManually = "ItIsAlsoNecessaryToVerifyManually";
+    internal const string plan = "plan";
+    internal const string ReadTheVersesForToday = "ReadTheVersesForToday";
+    internal const string weHaveVersesForYouForToday = "weHaveVersesForYouForToday";
+    internal const string whereYouCanFindMoreInformation = "whereYouCanFindMoreInformation";
+    internal const string
     itHasNotBeenApprovedAndEverythingYouHaveDoneOnItSoFarHasBeenCompletelyDeletedThisMostOftenHappensWhenYouFindSelectedVersesUnsystematicallyOrNonThematicallyArrangedIfTheReadingPlanAlreadyExistsOrTheReadingPlanHasSomethingThatWouldNotBenefitOtherReadersOfThisSiteAlsoApprovalMayNotOccurIfTheReadingPlanContainedALargeNumberOfGrammaticalErrors =
     "itHasNotBeenApprovedAndEverythingYouHaveDoneOnItSoFarHasBeenCompletelyDeletedThisMostOftenHappensWhenYouFindSelectedVersesUnsystematicallyOrNonThematicallyArrangedIfTheReadingPlanAlreadyExistsOrTheReadingPlanHasSomethingThatWouldNotBenefitOtherReadersOfThisSiteAlsoApprovalMayNotOccurIfTheReadingPlanContainedALargeNumberOfGrammaticalErrors";
-    public const string GreatYourReadingPlanHasBeenApprovedInPhase = "GreatYourReadingPlanHasBeenApprovedInPhase";
-    public const string
+    internal const string GreatYourReadingPlanHasBeenApprovedInPhase = "GreatYourReadingPlanHasBeenApprovedInPhase";
+    internal const string
     itHasNotBeenApprovedAndEverythingYouHaveDoneOnItSoFarHasBeenCompletelyDeletedThisMostOftenHappensWhenFindingSelectedVersesUnsystematicallyOrNonThematicallyArranged =
     "itHasNotBeenApprovedAndEverythingYouHaveDoneOnItSoFarHasBeenCompletelyDeletedThisMostOftenHappensWhenFindingSelectedVersesUnsystematicallyOrNonThematicallyArranged";
-    public const string YouCanNowStartReadingItAt = "YouCanNowStartReadingItAt";
-    public const string ApplicationForNameApproval = "ApplicationForNameApproval";
-    public const string TheUserRequestsApprovalOfTheReadingPlan = "TheUserRequestsApprovalOfTheReadingPlan";
-    public const string IWishYouMyBenefitAndJoy = "IWishYouMyBenefitAndJoy";
-    public const string FileCanTBeDeleted = "FileCanTBeDeleted";
-    public const string OnlyForTestFilesForAnotherApps = "OnlyForTestFilesForAnotherApps";
-    public const string FolderHasBeenRenamedTo = "FolderHasBeenRenamedTo";
-    public const string TheComputerSizeUnitOutputHasBeenSpecifiedICannotChangeThisSetting =
+    internal const string YouCanNowStartReadingItAt = "YouCanNowStartReadingItAt";
+    internal const string ApplicationForNameApproval = "ApplicationForNameApproval";
+    internal const string TheUserRequestsApprovalOfTheReadingPlan = "TheUserRequestsApprovalOfTheReadingPlan";
+    internal const string IWishYouMyBenefitAndJoy = "IWishYouMyBenefitAndJoy";
+    internal const string FileCanTBeDeleted = "FileCanTBeDeleted";
+    internal const string OnlyForTestFilesForAnotherApps = "OnlyForTestFilesForAnotherApps";
+    internal const string FolderHasBeenRenamedTo = "FolderHasBeenRenamedTo";
+    internal const string TheComputerSizeUnitOutputHasBeenSpecifiedICannotChangeThisSetting =
     "TheComputerSizeUnitOutputHasBeenSpecifiedICannotChangeThisSetting";
-    public const string Gallery = "Gallery";
-    public const string photographedIn = "photographedIn";
-    public const string AllPhotos = "AllPhotos";
-    public const string takenThatMonth = "takenThatMonth";
-    public const string PhotosOfAllYears = "PhotosOfAllYears";
-    public const string perMonthForAllYears = "perMonthForAllYears";
-    public const string daily = "daily";
-    public const string PhotoShootCalendar = "PhotoShootCalendar";
-    public const string Agree = "Agree";
-    public const string Disagree = "Disagree";
-    public const string BassusAbactorsDucuntAdTriticumAFraternalFormOfManifestationIsTheBliss =
+    internal const string Gallery = "Gallery";
+    internal const string photographedIn = "photographedIn";
+    internal const string AllPhotos = "AllPhotos";
+    internal const string takenThatMonth = "takenThatMonth";
+    internal const string PhotosOfAllYears = "PhotosOfAllYears";
+    internal const string perMonthForAllYears = "perMonthForAllYears";
+    internal const string daily = "daily";
+    internal const string PhotoShootCalendar = "PhotoShootCalendar";
+    internal const string Agree = "Agree";
+    internal const string Disagree = "Disagree";
+    internal const string BassusAbactorsDucuntAdTriticumAFraternalFormOfManifestationIsTheBliss =
     "BassusAbactorsDucuntAdTriticumAFraternalFormOfManifestationIsTheBliss";
-    public const string ChangeTheImageDescription = "ChangeTheImageDescription";
-    public const string MakeTheGalleryHidden = "MakeTheGalleryHidden";
-    public const string MakeTheGalleryVisibleToEveryone = "MakeTheGalleryVisibleToEveryone";
-    public const string LatestAlbums = "LatestAlbums";
-    public const string forThePastWeekMax = "forThePastWeekMax";
-    public const string MostPopularAlbums = "MostPopularAlbums";
-    public const string OnlyAlbumsThatArePublicAreShown = "OnlyAlbumsThatArePublicAreShown";
-    public const string InFavorites = "InFavorites";
-    public const string ChangeAlbumDescription = "ChangeAlbumDescription";
-    public const string MakeTheAlbumHidden = "MakeTheAlbumHidden";
-    public const string MakeTheAlbumVisibleToEveryone = "MakeTheAlbumVisibleToEveryone";
-    public const string EnterAnAlbumDescription = "EnterAnAlbumDescription";
-    public const string
+    internal const string ChangeTheImageDescription = "ChangeTheImageDescription";
+    internal const string MakeTheGalleryHidden = "MakeTheGalleryHidden";
+    internal const string MakeTheGalleryVisibleToEveryone = "MakeTheGalleryVisibleToEveryone";
+    internal const string LatestAlbums = "LatestAlbums";
+    internal const string forThePastWeekMax = "forThePastWeekMax";
+    internal const string MostPopularAlbums = "MostPopularAlbums";
+    internal const string OnlyAlbumsThatArePublicAreShown = "OnlyAlbumsThatArePublicAreShown";
+    internal const string InFavorites = "InFavorites";
+    internal const string ChangeAlbumDescription = "ChangeAlbumDescription";
+    internal const string MakeTheAlbumHidden = "MakeTheAlbumHidden";
+    internal const string MakeTheAlbumVisibleToEveryone = "MakeTheAlbumVisibleToEveryone";
+    internal const string EnterAnAlbumDescription = "EnterAnAlbumDescription";
+    internal const string
     ForThisAlbumSharingHasOnlyBeenEnabledWithTheCodeInTheLinkThisWillPreventAccessToSubAlbumsAsLongAsUsersDonTHaveAnOldLinkToThemAlbumAddressAlreadyWithACodeYouAsTheAlbumAdminWillStillBeAbleToViewTheAlbumWithoutACodeInTheURIIfTheAlbumIsAlreadySharedOnlyWithTheCodeInTheLinkItWillOnlyWorkWithTheNewlyCreatedCode =
     "ForThisAlbumSharingHasOnlyBeenEnabledWithTheCodeInTheLinkThisWillPreventAccessToSubAlbumsAsLongAsUsersDonTHaveAnOldLinkToThemAlbumAddressAlreadyWithACodeYouAsTheAlbumAdminWillStillBeAbleToViewTheAlbumWithoutACodeInTheURIIfTheAlbumIsAlreadySharedOnlyWithTheCodeInTheLinkItWillOnlyWorkWithTheNewlyCreatedCode";
-    public const string IntoTheMailbox = "IntoTheMailbox";
-    public const string DownloadImage = "DownloadImage";
-    public const string Photos = "Photos";
-    public const string Photo = "Photo";
-    public const string beautiful = "beautiful";
-    public const string alreadyExistsInTheDatabase = "alreadyExistsInTheDatabase";
-    public const string AboutApp = "AboutApp";
-    public const string
+    internal const string IntoTheMailbox = "IntoTheMailbox";
+    internal const string DownloadImage = "DownloadImage";
+    internal const string Photos = "Photos";
+    internal const string Photo = "Photo";
+    internal const string beautiful = "beautiful";
+    internal const string alreadyExistsInTheDatabase = "alreadyExistsInTheDatabase";
+    internal const string AboutApp = "AboutApp";
+    internal const string
     ThisApplicationWasCreatedInTheDevelopmentEnvironmentVisualStudio2015CommunityWhichIsEntirelyFreeOfChargeThePersonWhoHasMadeThisAppIsOnInternetKnownUnderNickSunamo =
     "ThisApplicationWasCreatedInTheDevelopmentEnvironmentVisualStudio2015CommunityWhichIsEntirelyFreeOfChargeThePersonWhoHasMadeThisAppIsOnInternetKnownUnderNickSunamo";
-    public const string TickAll = "TickAll";
-    public const string UntickAll = "UntickAll";
-    public const string TheProgramIsAttemptingToShowTheExceptionThatActuallyDoesNotExist =
+    internal const string TickAll = "TickAll";
+    internal const string UntickAll = "UntickAll";
+    internal const string TheProgramIsAttemptingToShowTheExceptionThatActuallyDoesNotExist =
     "TheProgramIsAttemptingToShowTheExceptionThatActuallyDoesNotExist";
-    public const string FileOrFolder = "FileOrFolder";
-    public const string No = "No";
-    public const string Yes = "Yes";
-    public const string Information = "Information";
-    public const string Operation = "Operation";
-    public const string UserNameOrPasswordHasNotBeenEntered = "UserNameOrPasswordHasNotBeenEntered";
-    public const string Warning = "Warning";
-    public const string CzechBlog = "CzechBlog";
-    public const string EnglishBlog = "EnglishBlog";
-    public const string YouReSuccessfullyLoginedTo = "YouReSuccessfullyLoginedTo";
-    public const string SearchOnGoogle = "SearchOnGoogle";
-    public const string Always = "Always";
-    public const string Prompt = "Prompt";
-    public const string NowYouReSuccessfullyLoginedToSunamoCz = "NowYouReSuccessfullyLoginedToSunamoCz";
-    public const string AppGeoCachingToolStartedSuccessfully = "AppGeoCachingToolStartedSuccessfully";
-    public const string AllCachesListingsInTabsWasProcessed = "AllCachesListingsInTabsWasProcessed";
-    public const string Loading = "Loading";
-    public const string UnfortunatelyYouDonTHaveAnyCacheListingInTabs = "UnfortunatelyYouDonTHaveAnyCacheListingInTabs";
-    public const string UnfornutalyYouDonTHaveAnyCacheListingInSelectedSavedList =
+    internal const string FileOrFolder = "FileOrFolder";
+    internal const string No = "No";
+    internal const string Yes = "Yes";
+    internal const string Information = "Information";
+    internal const string Operation = "Operation";
+    internal const string UserNameOrPasswordHasNotBeenEntered = "UserNameOrPasswordHasNotBeenEntered";
+    internal const string Warning = "Warning";
+    internal const string CzechBlog = "CzechBlog";
+    internal const string EnglishBlog = "EnglishBlog";
+    internal const string YouReSuccessfullyLoginedTo = "YouReSuccessfullyLoginedTo";
+    internal const string SearchOnGoogle = "SearchOnGoogle";
+    internal const string Always = "Always";
+    internal const string Prompt = "Prompt";
+    internal const string NowYouReSuccessfullyLoginedToSunamoCz = "NowYouReSuccessfullyLoginedToSunamoCz";
+    internal const string AppGeoCachingToolStartedSuccessfully = "AppGeoCachingToolStartedSuccessfully";
+    internal const string AllCachesListingsInTabsWasProcessed = "AllCachesListingsInTabsWasProcessed";
+    internal const string Loading = "Loading";
+    internal const string UnfortunatelyYouDonTHaveAnyCacheListingInTabs = "UnfortunatelyYouDonTHaveAnyCacheListingInTabs";
+    internal const string UnfornutalyYouDonTHaveAnyCacheListingInSelectedSavedList =
     "UnfornutalyYouDonTHaveAnyCacheListingInSelectedSavedList";
-    public const string DoYouWantOpenLinkInNewTab = "DoYouWantOpenLinkInNewTab";
-    public const string OpenTabsToList = "OpenTabsToList";
-    public const string NavigatingTo = "NavigatingTo";
-    public const string LogInToGeocachingCom = "LogInToGeocachingCom";
-    public const string LogOutFromGeocachingCom = "LogOutFromGeocachingCom";
-    public const string NavigationTo = "NavigationTo";
-    public const string youWerenTLoginedToGeocachingCom = "youWerenTLoginedToGeocachingCom";
-    public const string HtmlListOfCachesSuccessfullyCreatedAndPuttedIntoClipboard =
+    internal const string DoYouWantOpenLinkInNewTab = "DoYouWantOpenLinkInNewTab";
+    internal const string OpenTabsToList = "OpenTabsToList";
+    internal const string NavigatingTo = "NavigatingTo";
+    internal const string LogInToGeocachingCom = "LogInToGeocachingCom";
+    internal const string LogOutFromGeocachingCom = "LogOutFromGeocachingCom";
+    internal const string NavigationTo = "NavigationTo";
+    internal const string youWerenTLoginedToGeocachingCom = "youWerenTLoginedToGeocachingCom";
+    internal const string HtmlListOfCachesSuccessfullyCreatedAndPuttedIntoClipboard =
     "HtmlListOfCachesSuccessfullyCreatedAndPuttedIntoClipboard";
-    public const string MakeWithHyperlinks = "MakeWithHyperlinks";
-    public const string WasCreatedListOfCachesWithName = "WasCreatedListOfCachesWithName";
-    public const string Accept = "Accept";
-    public const string WatchingThePageInTheLast7DaysCountingTheDayBackThatIsTodaySApproachesWillOnlyAppearTomorrow =
+    internal const string MakeWithHyperlinks = "MakeWithHyperlinks";
+    internal const string WasCreatedListOfCachesWithName = "WasCreatedListOfCachesWithName";
+    internal const string Accept = "Accept";
+    internal const string WatchingThePageInTheLast7DaysCountingTheDayBackThatIsTodaySApproachesWillOnlyAppearTomorrow =
     "WatchingThePageInTheLast7DaysCountingTheDayBackThatIsTodaySApproachesWillOnlyAppearTomorrow";
-    public const string ChainNotFound = "ChainNotFound";
-    public const string YouWereNotLoggedInAsAdminSite = "YouWereNotLoggedInAsAdminSite";
-    public const string YouDoNotHaveAValidIPv4Address = "YouDoNotHaveAValidIPv4Address";
-    public const string TheAddressWasLongerThan512Characters = "TheAddressWasLongerThan512Characters";
-    public const string SoMaybeNextTime = "SoMaybeNextTime";
-    public const string UserNotFound = "UserNotFound";
-    public const string YouHaveAlreadyChangedYourMail3TimesFrom = "YouHaveAlreadyChangedYourMail3TimesFrom";
-    public const string andThisPageImportantForYouToDisplayHTMLCorrectlyEnter8001000InPixels =
+    internal const string ChainNotFound = "ChainNotFound";
+    internal const string YouWereNotLoggedInAsAdminSite = "YouWereNotLoggedInAsAdminSite";
+    internal const string YouDoNotHaveAValidIPv4Address = "YouDoNotHaveAValidIPv4Address";
+    internal const string TheAddressWasLongerThan512Characters = "TheAddressWasLongerThan512Characters";
+    internal const string SoMaybeNextTime = "SoMaybeNextTime";
+    internal const string UserNotFound = "UserNotFound";
+    internal const string YouHaveAlreadyChangedYourMail3TimesFrom = "YouHaveAlreadyChangedYourMail3TimesFrom";
+    internal const string andThisPageImportantForYouToDisplayHTMLCorrectlyEnter8001000InPixels =
     "andThisPageImportantForYouToDisplayHTMLCorrectlyEnter8001000InPixels";
-    public const string IfYouEnterAWrongValue800IsSaved = "IfYouEnterAWrongValue800IsSaved";
-    public const string DescribeSomethingYouRememberWellWhatYouLoveButOtherPeopleDonTKnowAboutIt11000Characters =
+    internal const string IfYouEnterAWrongValue800IsSaved = "IfYouEnterAWrongValue800IsSaved";
+    internal const string DescribeSomethingYouRememberWellWhatYouLoveButOtherPeopleDonTKnowAboutIt11000Characters =
     "DescribeSomethingYouRememberWellWhatYouLoveButOtherPeopleDonTKnowAboutIt11000Characters";
-    public const string WellDoneStage1OfYourReadingPlanWasApproved = "WellDoneStage1OfYourReadingPlanWasApproved";
-    public const string InTheClasuleOfMSStoredProceduresIBase2SelectLastIDFromTableSignedWasntFoundedType =
+    internal const string WellDoneStage1OfYourReadingPlanWasApproved = "WellDoneStage1OfYourReadingPlanWasApproved";
+    internal const string InTheClasuleOfMSStoredProceduresIBase2SelectLastIDFromTableSignedWasntFoundedType =
     "InTheClasuleOfMSStoredProceduresIBase2SelectLastIDFromTableSignedWasntFoundedType";
-    public const string TypeNotFoundInIfIfInMSStoredProceduresIBase2SelectLastIDFromTableSigned =
+    internal const string TypeNotFoundInIfIfInMSStoredProceduresIBase2SelectLastIDFromTableSigned =
     "TypeNotFoundInIfIfInMSStoredProceduresIBase2SelectLastIDFromTableSigned";
-    public const string MismatchCountInInputArraysOfSH1AllHaveRightFormat =
+    internal const string MismatchCountInInputArraysOfSH1AllHaveRightFormat =
     "MismatchCountInInputArraysOfSH1AllHaveRightFormat";
-    public const string VersionDetectedInIncorrectURIFormatValidFormatIs4DigitsSeparatedByComma =
+    internal const string VersionDetectedInIncorrectURIFormatValidFormatIs4DigitsSeparatedByComma =
     "VersionDetectedInIncorrectURIFormatValidFormatIs4DigitsSeparatedByComma";
-    public const string theNumberOfRowsAndTheirLastIDsMatch = "theNumberOfRowsAndTheirLastIDsMatch";
-    public const string onTheLocalSQLServerIDLine = "onTheLocalSQLServerIDLine";
-    public const string thereSLessRowsOnASPoneThanMeTheProgramWillTryToUploadNewRows =
+    internal const string theNumberOfRowsAndTheirLastIDsMatch = "theNumberOfRowsAndTheirLastIDsMatch";
+    internal const string onTheLocalSQLServerIDLine = "onTheLocalSQLServerIDLine";
+    internal const string thereSLessRowsOnASPoneThanMeTheProgramWillTryToUploadNewRows =
     "thereSLessRowsOnASPoneThanMeTheProgramWillTryToUploadNewRows";
-    public const string thereAreMoreRowsOnASPoneThanIDoTheProgramSkipsTheTable =
+    internal const string thereAreMoreRowsOnASPoneThanIDoTheProgramSkipsTheTable =
     "thereAreMoreRowsOnASPoneThanIDoTheProgramSkipsTheTable";
-    public const string ThereWereOnly1ValuesInRow0ExpectedNumberWas2 = "ThereWereOnly1ValuesInRow0ExpectedNumberWas2";
-    public const string ErrorInsertingRow01 = "ErrorInsertingRow01";
-    public const string Only1MaskFileFound = "Only1MaskFileFound";
-    public const string onTheLine = "onTheLine";
-    public const string
+    internal const string ThereWereOnly1ValuesInRow0ExpectedNumberWas2 = "ThereWereOnly1ValuesInRow0ExpectedNumberWas2";
+    internal const string ErrorInsertingRow01 = "ErrorInsertingRow01";
+    internal const string Only1MaskFileFound = "Only1MaskFileFound";
+    internal const string onTheLine = "onTheLine";
+    internal const string
     CalifornianGenreFromThe1950sThatCombinedElementsOfAllPopularGenresAtTheTimeEspeciallyBigBandAndShagJazz =
     "CalifornianGenreFromThe1950sThatCombinedElementsOfAllPopularGenresAtTheTimeEspeciallyBigBandAndShagJazz";
-    public const string aStyleOfEDMKnownForIts44DrumPatternAndHeavyUseOfTurntableScratching =
+    internal const string aStyleOfEDMKnownForIts44DrumPatternAndHeavyUseOfTurntableScratching =
     "aStyleOfEDMKnownForIts44DrumPatternAndHeavyUseOfTurntableScratching";
-    public const string
+    internal const string
     BritishRockMusicFromThe1990sThatSubvertedTheDepressingThemesOfTheThenPopularGrungeMovementInFavorOfJanglyOptimisticGuitarPopOftenTouchingThemesOfPartyingAndWorkingClassLife =
     "BritishRockMusicFromThe1990sThatSubvertedTheDepressingThemesOfTheThenPopularGrungeMovementInFavorOfJanglyOptimisticGuitarPopOftenTouchingThemesOfPartyingAndWorkingClassLife";
-    public const string BritishMusiciansPrimarilyOfTheBeatMovementWhoBecamePopularInAmericaDuringThe1960s =
+    internal const string BritishMusiciansPrimarilyOfTheBeatMovementWhoBecamePopularInAmericaDuringThe1960s =
     "BritishMusiciansPrimarilyOfTheBeatMovementWhoBecamePopularInAmericaDuringThe1960s";
-    public const string EDMPlayedInA44RhythmSyncopatedWithPunctuatedSnareBeats =
+    internal const string EDMPlayedInA44RhythmSyncopatedWithPunctuatedSnareBeats =
     "EDMPlayedInA44RhythmSyncopatedWithPunctuatedSnareBeats";
-    public const string GroupOfFrenchBelgianAndDutchComposersActiveInThe15thCenturyKnownForTheirSecularForms =
+    internal const string GroupOfFrenchBelgianAndDutchComposersActiveInThe15thCenturyKnownForTheirSecularForms =
     "GroupOfFrenchBelgianAndDutchComposersActiveInThe15thCenturyKnownForTheirSecularForms";
-    public const string
+    internal const string
     aClearerASlickerFormOfWesternArtMusicPerformedInThe18thAnd19thCenturiesKnownForItsEmphasisOnHomophonesAndMelody =
     "aClearerASlickerFormOfWesternArtMusicPerformedInThe18thAnd19thCenturiesKnownForItsEmphasisOnHomophonesAndMelody";
-    public const string RBMusicPopularInThe21stCenturyThatCombinesSoulInspiredVocalsWithHipHopAndEDMInspiredProduction =
+    internal const string RBMusicPopularInThe21stCenturyThatCombinesSoulInspiredVocalsWithHipHopAndEDMInspiredProduction =
     "RBMusicPopularInThe21stCenturyThatCombinesSoulInspiredVocalsWithHipHopAndEDMInspiredProduction";
-    public const string anyEDMWhichUtilizesA44DrumPattern = "anyEDMWhichUtilizesA44DrumPattern";
-    public const string
+    internal const string anyEDMWhichUtilizesA44DrumPattern = "anyEDMWhichUtilizesA44DrumPattern";
+    internal const string
     FusionOfManyPopularInternationalGenresFromThe1950sMarketedAtAmericansWhoWereAttractedToTheExoticLabel =
     "FusionOfManyPopularInternationalGenresFromThe1950sMarketedAtAmericansWhoWereAttractedToTheExoticLabel";
-    public const string AFasterMoreAnarchisticFormOfHouseMusicDesignedToCounterThePretentiousDutchHouseSceneOfThe1980s =
+    internal const string AFasterMoreAnarchisticFormOfHouseMusicDesignedToCounterThePretentiousDutchHouseSceneOfThe1980s =
     "AFasterMoreAnarchisticFormOfHouseMusicDesignedToCounterThePretentiousDutchHouseSceneOfThe1980s";
-    public const string BalineseStyleGamelanThatUses7ToneScaleAndCymbals =
+    internal const string BalineseStyleGamelanThatUses7ToneScaleAndCymbals =
     "BalineseStyleGamelanThatUses7ToneScaleAndCymbals";
-    public const string AShortLivedBritishStyleOfGarageRockFromThe1990s =
+    internal const string AShortLivedBritishStyleOfGarageRockFromThe1990s =
     "AShortLivedBritishStyleOfGarageRockFromThe1990s";
-    public const string JapanesePopFromThe1960sBritishBeatAndAmericanBubblegumPopInspiredHeavily =
+    internal const string JapanesePopFromThe1960sBritishBeatAndAmericanBubblegumPopInspiredHeavily =
     "JapanesePopFromThe1960sBritishBeatAndAmericanBubblegumPopInspiredHeavily";
-    public const string hatsTuồngHatsBoi = "hatsTuồngHatsBoi";
-    public const string horaLunga = "horaLunga";
-    public const string aTypeOfMusicThatOriginatedInTheLate19thAndEarly20thCenturiesInTheSouthernUnitedStates =
+    internal const string hatsTuồngHatsBoi = "hatsTuồngHatsBoi";
+    internal const string horaLunga = "horaLunga";
+    internal const string aTypeOfMusicThatOriginatedInTheLate19thAndEarly20thCenturiesInTheSouthernUnitedStates =
     "aTypeOfMusicThatOriginatedInTheLate19thAndEarly20thCenturiesInTheSouthernUnitedStates";
-    public const string WesternArtMusicRangingFrom6thTo15thCenturies = "WesternArtMusicRangingFrom6thTo15thCenturies";
-    public const string EnglishPopularMusicOfThe19thCentury = "EnglishPopularMusicOfThe19thCentury";
-    public const string NeueDeutscheHarte = "NeueDeutscheHarte";
-    public const string PopularMusicFromThe50SAnd60S = "PopularMusicFromThe50SAnd60S";
-    public const string aMixtureOfChanguiAndSonMontuno = "aMixtureOfChanguiAndSonMontuno";
-    public const string ArgentinePopularMusicThatSpreadInternationallyInThe1920s =
+    internal const string WesternArtMusicRangingFrom6thTo15thCenturies = "WesternArtMusicRangingFrom6thTo15thCenturies";
+    internal const string EnglishPopularMusicOfThe19thCentury = "EnglishPopularMusicOfThe19thCentury";
+    internal const string NeueDeutscheHarte = "NeueDeutscheHarte";
+    internal const string PopularMusicFromThe50SAnd60S = "PopularMusicFromThe50SAnd60S";
+    internal const string aMixtureOfChanguiAndSonMontuno = "aMixtureOfChanguiAndSonMontuno";
+    internal const string ArgentinePopularMusicThatSpreadInternationallyInThe1920s =
     "ArgentinePopularMusicThatSpreadInternationallyInThe1920s";
-    public const string MusicaTropical = "MusicaTropical";
-    public const string andTohonoOOdhamFusionOfPolkaNortenoAndNativeAmericanMusic =
+    internal const string MusicaTropical = "MusicaTropical";
+    internal const string andTohonoOOdhamFusionOfPolkaNortenoAndNativeAmericanMusic =
     "andTohonoOOdhamFusionOfPolkaNortenoAndNativeAmericanMusic";
-    public const string aStyleOfPolishJazzMusicFromThe1980sAnd1990s = "aStyleOfPolishJazzMusicFromThe1980sAnd1990s";
-    public const string GreekDance98Rhythm = "GreekDance98Rhythm";
-    public const string notSupportedInLyricsWebServicesSetSimilarArtist =
+    internal const string aStyleOfPolishJazzMusicFromThe1980sAnd1990s = "aStyleOfPolishJazzMusicFromThe1980sAnd1990s";
+    internal const string GreekDance98Rhythm = "GreekDance98Rhythm";
+    internal const string notSupportedInLyricsWebServicesSetSimilarArtist =
     "notSupportedInLyricsWebServicesSetSimilarArtist";
-    public const string notInTheLyricsWebServicesMethod = "notInTheLyricsWebServicesMethod";
-    public const string haveBeenSuccessfullyDownloaded = "haveBeenSuccessfullyDownloaded";
-    public const string notDownloadedBecauseAtLeast1FileAlreadyExisted =
+    internal const string notInTheLyricsWebServicesMethod = "notInTheLyricsWebServicesMethod";
+    internal const string haveBeenSuccessfullyDownloaded = "haveBeenSuccessfullyDownloaded";
+    internal const string notDownloadedBecauseAtLeast1FileAlreadyExisted =
     "notDownloadedBecauseAtLeast1FileAlreadyExisted";
-    public const string TheYTCodeCanBeAMaximumOf20Characters = "TheYTCodeCanBeAMaximumOf20Characters";
-    public const string ViewsInLast7Days = "ViewsInLast7Days";
-    public const string notFoundInLyricsOfThisSongShowsTheSongWithTheHighestRating =
+    internal const string TheYTCodeCanBeAMaximumOf20Characters = "TheYTCodeCanBeAMaximumOf20Characters";
+    internal const string ViewsInLast7Days = "ViewsInLast7Days";
+    internal const string notFoundInLyricsOfThisSongShowsTheSongWithTheHighestRating =
     "notFoundInLyricsOfThisSongShowsTheSongWithTheHighestRating";
-    public const string readingPlan = "readingPlan";
-    public const string
+    internal const string readingPlan = "readingPlan";
+    internal const string
     hasNotBeenApprovedAndEverythingYouHaveDoneSoFarHasBeenCompletelyDeletedThisIsMostOftenTheCaseWhenTheChosenVersesAreUnsystematicOrNonThematic =
     "hasNotBeenApprovedAndEverythingYouHaveDoneSoFarHasBeenCompletelyDeletedThisIsMostOftenTheCaseWhenTheChosenVersesAreUnsystematicOrNonThematic";
-    public const string WellDoneYourReadingPlanWasApprovedInPhase1 = "WellDoneYourReadingPlanWasApprovedInPhase1";
-    public const string
+    internal const string WellDoneYourReadingPlanWasApprovedInPhase1 = "WellDoneYourReadingPlanWasApprovedInPhase1";
+    internal const string
     hasNotBeenApprovedAndEverythingYouHaveDoneSoFarHasBeenCompletelyDeletedMostOftenThisHappensWhenYouFindSelectedVersesUnsystematicallyOrNonThematicallyOrganizedIfTheReadingPlanAlreadyExistsOrTheReadingPlanHasSomethingThatWouldNotBenefitOtherReadersOfThisSiteAlsoApprovalMayNotOccurIfTheReadPlanContainedALargeNumberOfGrammaticalErrors =
     "hasNotBeenApprovedAndEverythingYouHaveDoneSoFarHasBeenCompletelyDeletedMostOftenThisHappensWhenYouFindSelectedVersesUnsystematicallyOrNonThematicallyOrganizedIfTheReadingPlanAlreadyExistsOrTheReadingPlanHasSomethingThatWouldNotBenefitOtherReadersOfThisSiteAlsoApprovalMayNotOccurIfTheReadPlanContainedALargeNumberOfGrammaticalErrors";
-    public const string weHaveVersesForYouToday = "weHaveVersesForYouToday";
-    public const string thenVerificationWillNoLongerWorkAndYouWillNeedToRegisterYourDomainAgain =
+    internal const string weHaveVersesForYouToday = "weHaveVersesForYouToday";
+    internal const string thenVerificationWillNoLongerWorkAndYouWillNeedToRegisterYourDomainAgain =
     "thenVerificationWillNoLongerWorkAndYouWillNeedToRegisterYourDomainAgain";
-    public const string addedANewContentComment = "addedANewContentComment";
-    public const string PageViewsInTheLast7Days = "PageViewsInTheLast7Days";
-    public const string WebsiteTrafficLast7Days = "WebsiteTrafficLast7Days";
-    public const string youEnteredTheWrongOriginalPassword = "youEnteredTheWrongOriginalPassword";
-    public const string wasReCreatedSuccessfully = "wasReCreatedSuccessfully";
-    public const string wasNotAnIntegerNumber = "wasNotAnIntegerNumber";
-    public const string TheSortValueWasByteButWasNotInTheRangeOf06 = "TheSortValueWasByteButWasNotInTheRangeOf06";
-    public const string hasAlreadyBeenInThisPoll = "hasAlreadyBeenInThisPoll";
-    public const string alreadyExistedInTheTable = "alreadyExistedInTheTable";
-    public const string YouReachedTheMaximumNumberOf255ItemsPerPoll = "YouReachedTheMaximumNumberOf255ItemsPerPoll";
-    public const string NewItemTextWasLongerThan30Characters = "NewItemTextWasLongerThan30Characters";
-    public const string TheURIHasABadSeriesParameterWhichMustBeBetween13 =
+    internal const string addedANewContentComment = "addedANewContentComment";
+    internal const string PageViewsInTheLast7Days = "PageViewsInTheLast7Days";
+    internal const string WebsiteTrafficLast7Days = "WebsiteTrafficLast7Days";
+    internal const string youEnteredTheWrongOriginalPassword = "youEnteredTheWrongOriginalPassword";
+    internal const string wasReCreatedSuccessfully = "wasReCreatedSuccessfully";
+    internal const string wasNotAnIntegerNumber = "wasNotAnIntegerNumber";
+    internal const string TheSortValueWasByteButWasNotInTheRangeOf06 = "TheSortValueWasByteButWasNotInTheRangeOf06";
+    internal const string hasAlreadyBeenInThisPoll = "hasAlreadyBeenInThisPoll";
+    internal const string alreadyExistedInTheTable = "alreadyExistedInTheTable";
+    internal const string YouReachedTheMaximumNumberOf255ItemsPerPoll = "YouReachedTheMaximumNumberOf255ItemsPerPoll";
+    internal const string NewItemTextWasLongerThan30Characters = "NewItemTextWasLongerThan30Characters";
+    internal const string TheURIHasABadSeriesParameterWhichMustBeBetween13 =
     "TheURIHasABadSeriesParameterWhichMustBeBetween13";
-    public const string SeriesNotInValidRange13 = "SeriesNotInValidRange13";
-    public const string wasSuccessfullyDeletedRefreshThePageIfYouWantToEnterAnotherAnswerThatIsNotYetInTheOptions =
+    internal const string SeriesNotInValidRange13 = "SeriesNotInValidRange13";
+    internal const string wasSuccessfullyDeletedRefreshThePageIfYouWantToEnterAnotherAnswerThatIsNotYetInTheOptions =
     "wasSuccessfullyDeletedRefreshThePageIfYouWantToEnterAnotherAnswerThatIsNotYetInTheOptions";
-    public const string ThankYouForRemovingVote = "ThankYouForRemovingVote";
-    public const string wasFoundButNoPostWithIDWasFound = "wasFoundButNoPostWithIDWasFound";
-    public const string youCannotCreateANewOne = "youCannotCreateANewOne";
-    public const string TheBlogAddressWasMoreThan50CharactersAllowed = "TheBlogAddressWasMoreThan50CharactersAllowed";
-    public const string TheBlogAuthorHadMoreThan512Characters = "TheBlogAuthorHadMoreThan512Characters";
-    public const string TheBlogNameWasMoreThan512CharactersLong = "TheBlogNameWasMoreThan512CharactersLong";
-    public const string TheBlogHadMoreThan3200Characters = "TheBlogHadMoreThan3200Characters";
-    public const string andAddNewCommentsAHrefJavascriptLogoutSignOutA =
+    internal const string ThankYouForRemovingVote = "ThankYouForRemovingVote";
+    internal const string wasFoundButNoPostWithIDWasFound = "wasFoundButNoPostWithIDWasFound";
+    internal const string youCannotCreateANewOne = "youCannotCreateANewOne";
+    internal const string TheBlogAddressWasMoreThan50CharactersAllowed = "TheBlogAddressWasMoreThan50CharactersAllowed";
+    internal const string TheBlogAuthorHadMoreThan512Characters = "TheBlogAuthorHadMoreThan512Characters";
+    internal const string TheBlogNameWasMoreThan512CharactersLong = "TheBlogNameWasMoreThan512CharactersLong";
+    internal const string TheBlogHadMoreThan3200Characters = "TheBlogHadMoreThan3200Characters";
+    internal const string andAddNewCommentsAHrefJavascriptLogoutSignOutA =
     "andAddNewCommentsAHrefJavascriptLogoutSignOutA";
-    public const string hasBeenSuccessfullyDeletedFromChS = "hasBeenSuccessfullyDeletedFromChS";
-    public const string wasNotSuccessfullyDeletedFromKennel = "wasNotSuccessfullyDeletedFromKennel";
-    public const string
+    internal const string hasBeenSuccessfullyDeletedFromChS = "hasBeenSuccessfullyDeletedFromChS";
+    internal const string wasNotSuccessfullyDeletedFromKennel = "wasNotSuccessfullyDeletedFromKennel";
+    internal const string
     YouCanNotAddThisPetYouAlreadyHave5BreedsInTheDatabaseTheNumberOfCatsIsUnlimitedTheOperationWasCanceled =
     "YouCanNotAddThisPetYouAlreadyHave5BreedsInTheDatabaseTheNumberOfCatsIsUnlimitedTheOperationWasCanceled";
-    public const string wasSuccessfullyAddedToChS = "wasSuccessfullyAddedToChS";
-    public const string YouAlreadyHave10CatsYouCanNotRegisterAnother = "YouAlreadyHave10CatsYouCanNotRegisterAnother";
-    public const string andKennel = "andKennel";
-    public const string althoughItExistsButItSNotYoursSoYouCanTDeleteIt =
+    internal const string wasSuccessfullyAddedToChS = "wasSuccessfullyAddedToChS";
+    internal const string YouAlreadyHave10CatsYouCanNotRegisterAnother = "YouAlreadyHave10CatsYouCanNotRegisterAnother";
+    internal const string andKennel = "andKennel";
+    internal const string althoughItExistsButItSNotYoursSoYouCanTDeleteIt =
     "althoughItExistsButItSNotYoursSoYouCanTDeleteIt";
-    public const string thereWasNoSinglePhotoFromThisAlbumThatCouldBeDeleted =
+    internal const string thereWasNoSinglePhotoFromThisAlbumThatCouldBeDeleted =
     "thereWasNoSinglePhotoFromThisAlbumThatCouldBeDeleted";
-    public const string Jack35 = "Jack35";
-    public const string theByteTypeNumberWasInvalid = "theByteTypeNumberWasInvalid";
-    public const string TheOverallScoreIsBelow0 = "TheOverallScoreIsBelow0";
-    public const string TheTotalScoreIsGreaterThan100 = "TheTotalScoreIsGreaterThan100";
-    public const string TheCodePassedInTheUriAddressIsNot24CharactersLong =
+    internal const string Jack35 = "Jack35";
+    internal const string theByteTypeNumberWasInvalid = "theByteTypeNumberWasInvalid";
+    internal const string TheOverallScoreIsBelow0 = "TheOverallScoreIsBelow0";
+    internal const string TheTotalScoreIsGreaterThan100 = "TheTotalScoreIsGreaterThan100";
+    internal const string TheCodePassedInTheUriAddressIsNot24CharactersLong =
     "TheCodePassedInTheUriAddressIsNot24CharactersLong";
-    public const string ScWasNotTheCorrect24Characters = "ScWasNotTheCorrect24Characters";
-    public const string Cache2WasAlreadyUnderIDInDB = "Cache2WasAlreadyUnderIDInDB";
-    public const string Cache2WhichWasInTheDBUnderID = "Cache2WhichWasInTheDBUnderID";
-    public const string warningRatingWasNotInTheRange15 = "warningRatingWasNotInTheRange15";
-    public const string hasChanged = "hasChanged";
-    public const string TheIntervalResultWasGreaterThan50 = "TheIntervalResultWasGreaterThan50";
-    public const string EithererrorYouWereNotLoggedInInOr1HasBeenSelectedAsByoUserID =
+    internal const string ScWasNotTheCorrect24Characters = "ScWasNotTheCorrect24Characters";
+    internal const string Cache2WasAlreadyUnderIDInDB = "Cache2WasAlreadyUnderIDInDB";
+    internal const string Cache2WhichWasInTheDBUnderID = "Cache2WhichWasInTheDBUnderID";
+    internal const string warningRatingWasNotInTheRange15 = "warningRatingWasNotInTheRange15";
+    internal const string hasChanged = "hasChanged";
+    internal const string TheIntervalResultWasGreaterThan50 = "TheIntervalResultWasGreaterThan50";
+    internal const string EithererrorYouWereNotLoggedInInOr1HasBeenSelectedAsByoUserID =
     "EithererrorYouWereNotLoggedInInOr1HasBeenSelectedAsByoUserID";
-    public const string wasNotLoadedCouldNotDetectWidth = "wasNotLoadedCouldNotDetectWidth";
-    public const string wasNotLoadedHeightCouldNotBeDetected = "wasNotLoadedHeightCouldNotBeDetected";
-    public const string hasBeenSuccessfullyUploaded = "hasBeenSuccessfullyUploaded";
-    public const string ofTotal = "ofTotal";
-    public const string thenTheMaximumLengthWas = "thenTheMaximumLengthWas";
-    public const string andMinimal = "andMinimal";
-    public const string ThisURIWasLongerThan512Characters = "ThisURIWasLongerThan512Characters";
-    public const string applicationsInEachLeaderboard = "applicationsInEachLeaderboard";
-    public const string notFoundInDatabaseAndCannotBeEdited = "notFoundInDatabaseAndCannotBeEdited";
-    public const string notFoundInDB = "notFoundInDB";
-    public const string CacheWithGCCode0WasNotFoundInDB = "CacheWithGCCode0WasNotFoundInDB";
-    public const string TheCodeWasNot5CharactersLong = "TheCodeWasNot5CharactersLong";
-    public const string VisitsInTheLast7Days = "VisitsInTheLast7Days";
-    public const string TheFileNameWithoutExtensionHadMoreThan50Characters =
+    internal const string wasNotLoadedCouldNotDetectWidth = "wasNotLoadedCouldNotDetectWidth";
+    internal const string wasNotLoadedHeightCouldNotBeDetected = "wasNotLoadedHeightCouldNotBeDetected";
+    internal const string hasBeenSuccessfullyUploaded = "hasBeenSuccessfullyUploaded";
+    internal const string ofTotal = "ofTotal";
+    internal const string thenTheMaximumLengthWas = "thenTheMaximumLengthWas";
+    internal const string andMinimal = "andMinimal";
+    internal const string ThisURIWasLongerThan512Characters = "ThisURIWasLongerThan512Characters";
+    internal const string applicationsInEachLeaderboard = "applicationsInEachLeaderboard";
+    internal const string notFoundInDatabaseAndCannotBeEdited = "notFoundInDatabaseAndCannotBeEdited";
+    internal const string notFoundInDB = "notFoundInDB";
+    internal const string CacheWithGCCode0WasNotFoundInDB = "CacheWithGCCode0WasNotFoundInDB";
+    internal const string TheCodeWasNot5CharactersLong = "TheCodeWasNot5CharactersLong";
+    internal const string VisitsInTheLast7Days = "VisitsInTheLast7Days";
+    internal const string TheFileNameWithoutExtensionHadMoreThan50Characters =
     "TheFileNameWithoutExtensionHadMoreThan50Characters";
-    public const string TheUploadedGPXContainedTracksThatInTotalWereLongerThan24h =
+    internal const string TheUploadedGPXContainedTracksThatInTotalWereLongerThan24h =
     "TheUploadedGPXContainedTracksThatInTotalWereLongerThan24h";
-    public const string LinesLongerThan512Characters = "LinesLongerThan512Characters";
-    public const string rowsWereNotEvaluatedAsValidURIsAnd = "rowsWereNotEvaluatedAsValidURIsAnd";
-    public const string addressesDidNotHaveAValidProtocol = "addressesDidNotHaveAValidProtocol";
-    public const string wasNotInURIAnd = "wasNotInURIAnd";
-    public const string CustomCodeWasTooLongUpTo20CharactersLong = "CustomCodeWasTooLongUpTo20CharactersLong";
-    public const string VisitsForTheLast7Years = "VisitsForTheLast7Years";
-    public const string VisitsForTheLast7Months = "VisitsForTheLast7Months";
-    public const string VisitsInTheLast7Weeks = "VisitsInTheLast7Weeks";
-    public const string EachColumnCanBeAMaximumOf112 = "EachColumnCanBeAMaximumOf112";
-    public const string TheSumOfTheNumbersInTheSplitColumnsFieldWasNot12 =
+    internal const string LinesLongerThan512Characters = "LinesLongerThan512Characters";
+    internal const string rowsWereNotEvaluatedAsValidURIsAnd = "rowsWereNotEvaluatedAsValidURIsAnd";
+    internal const string addressesDidNotHaveAValidProtocol = "addressesDidNotHaveAValidProtocol";
+    internal const string wasNotInURIAnd = "wasNotInURIAnd";
+    internal const string CustomCodeWasTooLongUpTo20CharactersLong = "CustomCodeWasTooLongUpTo20CharactersLong";
+    internal const string VisitsForTheLast7Years = "VisitsForTheLast7Years";
+    internal const string VisitsForTheLast7Months = "VisitsForTheLast7Months";
+    internal const string VisitsInTheLast7Weeks = "VisitsInTheLast7Weeks";
+    internal const string EachColumnCanBeAMaximumOf112 = "EachColumnCanBeAMaximumOf112";
+    internal const string TheSumOfTheNumbersInTheSplitColumnsFieldWasNot12 =
     "TheSumOfTheNumbersInTheSplitColumnsFieldWasNot12";
-    public const string ThePasswordMustBeAtLeast2DigitsLong = "ThePasswordMustBeAtLeast2DigitsLong";
-    public const string ThePasswordMustBe1020CharactersLong = "ThePasswordMustBe1020CharactersLong";
-    public const string Last7Days = "Last7Days";
-    public const string ShowingLargeTileVeryGoodForAppsWithMoreThan34Words =
+    internal const string ThePasswordMustBeAtLeast2DigitsLong = "ThePasswordMustBeAtLeast2DigitsLong";
+    internal const string ThePasswordMustBe1020CharactersLong = "ThePasswordMustBe1020CharactersLong";
+    internal const string Last7Days = "Last7Days";
+    internal const string ShowingLargeTileVeryGoodForAppsWithMoreThan34Words =
     "ShowingLargeTileVeryGoodForAppsWithMoreThan34Words";
-    public const string willNotBeLoaded = "willNotBeLoaded";
-    public const string alreadyExistedAndCouldNotBeDeleted = "alreadyExistedAndCouldNotBeDeleted";
-    public const string TheMaximumSizeOfPhotosInThePhotoGalleryAndAllAlbumsIs1GBFile =
+    internal const string willNotBeLoaded = "willNotBeLoaded";
+    internal const string alreadyExistedAndCouldNotBeDeleted = "alreadyExistedAndCouldNotBeDeleted";
+    internal const string TheMaximumSizeOfPhotosInThePhotoGalleryAndAllAlbumsIs1GBFile =
     "TheMaximumSizeOfPhotosInThePhotoGalleryAndAllAlbumsIs1GBFile";
-    public const string alreadyExisted = "alreadyExisted";
-    public const string
+    internal const string alreadyExisted = "alreadyExisted";
+    internal const string
     JustifiedGalleryHelperGetInnerHtmlSunamoImagesViewerTheNumberOfElementsInThePhotosNames2Collection =
     "JustifiedGalleryHelperGetInnerHtmlSunamoImagesViewerTheNumberOfElementsInThePhotosNames2Collection";
-    public const string ThePasswordMustBeBetween1020Characters = "ThePasswordMustBeBetween1020Characters";
-    public const string OnlyOneLetterCanBeEnteredInThe2ndParameterOfTheSunamoSearchEngineTIntGetFoundedEntitiesMethod =
+    internal const string ThePasswordMustBeBetween1020Characters = "ThePasswordMustBeBetween1020Characters";
+    internal const string OnlyOneLetterCanBeEnteredInThe2ndParameterOfTheSunamoSearchEngineTIntGetFoundedEntitiesMethod =
     "OnlyOneLetterCanBeEnteredInThe2ndParameterOfTheSunamoSearchEngineTIntGetFoundedEntitiesMethod";
-    public const string applications = "applications";
-    public const string wasNotFound = "wasNotFound";
-    public const string
+    internal const string applications = "applications";
+    internal const string wasNotFound = "wasNotFound";
+    internal const string
     aHybridMusicalGenreCombiningBluesyImprovisationsOverThe12BarBluesAndExtendedBoogieJamsWithRockAndRollStyles =
     "aHybridMusicalGenreCombiningBluesyImprovisationsOverThe12BarBluesAndExtendedBoogieJamsWithRockAndRollStyles";
-    public const string
+    internal const string
     umbrellaTermForRockMusicReleasedBeforeTheUseOfTheTermToDescribeItButOftenReferringToHardAndBluesRockOfThe1960sAnd1970s =
     "umbrellaTermForRockMusicReleasedBeforeTheUseOfTheTermToDescribeItButOftenReferringToHardAndBluesRockOfThe1960sAnd1970s";
-    public const string
+    internal const string
     associatedWithTheFolkRevivalOfThe1960sElectricFolkWasAStyleOfFolkInWhichModernOftenElectricInstrumentsWereSubstitutedForClassicFolkInstruments =
     "associatedWithTheFolkRevivalOfThe1960sElectricFolkWasAStyleOfFolkInWhichModernOftenElectricInstrumentsWereSubstitutedForClassicFolkInstruments";
-    public const string anyRockMusicUsuallyAlternativeRockMadeDuringOrAfterThe1990s =
+    internal const string anyRockMusicUsuallyAlternativeRockMadeDuringOrAfterThe1990s =
     "anyRockMusicUsuallyAlternativeRockMadeDuringOrAfterThe1990s";
-    public const string orchestralMusicOfTheEarly20thCentury = "orchestralMusicOfTheEarly20thCentury";
-    public const string hipHopMusicMadeAfterTheMid80s = "hipHopMusicMadeAfterTheMid80s";
-    public const string termForTheOftenPsychedelicInformedIndieFolkMusicOfThe2000s =
+    internal const string orchestralMusicOfTheEarly20thCentury = "orchestralMusicOfTheEarly20thCentury";
+    internal const string hipHopMusicMadeAfterTheMid80s = "hipHopMusicMadeAfterTheMid80s";
+    internal const string termForTheOftenPsychedelicInformedIndieFolkMusicOfThe2000s =
     "termForTheOftenPsychedelicInformedIndieFolkMusicOfThe2000s";
-    public const string oldTimeRadioOldTimeRadioShowsFromThe30S = "oldTimeRadioOldTimeRadioShowsFromThe30S";
-    public const string notFound = "notFound";
-    public const string onRequest = "onRequest";
-    public const string theUser = "theUser";
-    public const string outOf5 = "outOf5";
-    public const string noOfThat = "noOfThat";
-    public const string ViewCountLast7DaysToday = "ViewCountLast7DaysToday";
-    public const string EnterACommentUpTo512Characters = "EnterACommentUpTo512Characters";
-    public const string SplitTheRouteInto2PartsTheMiddlePartWillBeRemoved =
+    internal const string oldTimeRadioOldTimeRadioShowsFromThe30S = "oldTimeRadioOldTimeRadioShowsFromThe30S";
+    internal const string notFound = "notFound";
+    internal const string onRequest = "onRequest";
+    internal const string theUser = "theUser";
+    internal const string outOf5 = "outOf5";
+    internal const string noOfThat = "noOfThat";
+    internal const string ViewCountLast7DaysToday = "ViewCountLast7DaysToday";
+    internal const string EnterACommentUpTo512Characters = "EnterACommentUpTo512Characters";
+    internal const string SplitTheRouteInto2PartsTheMiddlePartWillBeRemoved =
     "SplitTheRouteInto2PartsTheMiddlePartWillBeRemoved";
-    public const string withWhichYouCanDoOtherThingsForExampleUse1GBOfPhotoSpaceOrShortenLinks =
+    internal const string withWhichYouCanDoOtherThingsForExampleUse1GBOfPhotoSpaceOrShortenLinks =
     "withWhichYouCanDoOtherThingsForExampleUse1GBOfPhotoSpaceOrShortenLinks";
-    public const string
+    internal const string
     FillInEitherDateTimeOrBothForExampleIfYouWantToGetAllSegmentsByTheEndOf31122015AndDonTWantToEnterTheTimeEnter112016WhichWillBeConvertedTo112016000000 =
     "FillInEitherDateTimeOrBothForExampleIfYouWantToGetAllSegmentsByTheEndOf31122015AndDonTWantToEnterTheTimeEnter112016WhichWillBeConvertedTo112016000000";
-    public const string NavigationCompleted = "NavigationCompleted";
-    public const string NavigationFailed = "NavigationFailed";
-    public const string ContentType011 = "ContentType011";
-    public const string Copyright2013 = "Copyright2013";
-    public const string ChangesSuccessfullyMadeToTheLink = "ChangesSuccessfullyMadeToTheLink";
-    public const string YourUriHasBeenTruncatedSuccessfully = "YourUriHasBeenTruncatedSuccessfully";
-    public const string Pragma = "Pragma";
-    public const string weeks = "weeks";
-    public const string months = "months";
-    public const string years = "years";
-    public const string SeeARecentGraphOfVisits = "SeeARecentGraphOfVisits";
-    public const string ViewLinkStatistics = "ViewLinkStatistics";
-    public const string ByLengthOfComment = "ByLengthOfComment";
-    public const string CreationDates = "CreationDates";
-    public const string FirstActive = "FirstActive";
-    public const string WithTheLongestLongURI = "WithTheLongestLongURI";
-    public const string FirstHttps = "FirstHttps";
-    public const string FirstOwnURI = "FirstOwnURI";
-    public const string DefaultNoSorting = "DefaultNoSorting";
-    public const string SortAscendingBy = "SortAscendingBy";
-    public const string PageAfter = "PageAfter";
-    public const string ShortLink = "ShortLink";
-    public const string ManageAllTruncatedURIs = "ManageAllTruncatedURIs";
-    public const string Short = "Short";
-    public const string PleaseEnterHttpOrHttpsOtherwiseTheWebAddressWillNotBeShortenedAndYouWillReceiveAnError =
+    internal const string NavigationCompleted = "NavigationCompleted";
+    internal const string NavigationFailed = "NavigationFailed";
+    internal const string ContentType011 = "ContentType011";
+    internal const string Copyright2013 = "Copyright2013";
+    internal const string ChangesSuccessfullyMadeToTheLink = "ChangesSuccessfullyMadeToTheLink";
+    internal const string YourUriHasBeenTruncatedSuccessfully = "YourUriHasBeenTruncatedSuccessfully";
+    internal const string Pragma = "Pragma";
+    internal const string weeks = "weeks";
+    internal const string months = "months";
+    internal const string years = "years";
+    internal const string SeeARecentGraphOfVisits = "SeeARecentGraphOfVisits";
+    internal const string ViewLinkStatistics = "ViewLinkStatistics";
+    internal const string ByLengthOfComment = "ByLengthOfComment";
+    internal const string CreationDates = "CreationDates";
+    internal const string FirstActive = "FirstActive";
+    internal const string WithTheLongestLongURI = "WithTheLongestLongURI";
+    internal const string FirstHttps = "FirstHttps";
+    internal const string FirstOwnURI = "FirstOwnURI";
+    internal const string DefaultNoSorting = "DefaultNoSorting";
+    internal const string SortAscendingBy = "SortAscendingBy";
+    internal const string PageAfter = "PageAfter";
+    internal const string ShortLink = "ShortLink";
+    internal const string ManageAllTruncatedURIs = "ManageAllTruncatedURIs";
+    internal const string Short = "Short";
+    internal const string PleaseEnterHttpOrHttpsOtherwiseTheWebAddressWillNotBeShortenedAndYouWillReceiveAnError =
     "PleaseEnterHttpOrHttpsOtherwiseTheWebAddressWillNotBeShortenedAndYouWillReceiveAnError";
-    public const string GenerateTruncatedURIs = "GenerateTruncatedURIs";
-    public const string Common = "Common";
-    public const string
+    internal const string GenerateTruncatedURIs = "GenerateTruncatedURIs";
+    internal const string Common = "Common";
+    internal const string
     SelectTheFolderWhereYouHaveTheGPXFilesTheConvertedGPXWillBeSavedInTheSplittedGPXsSubfolderOfTheFolderYouSelectedAllExistingFilesFromTheSplittedGPXsFolderWillBeDeleted =
     "SelectTheFolderWhereYouHaveTheGPXFilesTheConvertedGPXWillBeSavedInTheSplittedGPXsSubfolderOfTheFolderYouSelectedAllExistingFilesFromTheSplittedGPXsFolderWillBeDeleted";
-    public const string SplittedGPXs = "SplittedGPXs";
-    public const string PleaseLogIn = "PleaseLogIn";
-    public const string TheLinkWasSuccessfullyConverted = "TheLinkWasSuccessfullyConverted";
-    public const string ToTheEnd = "ToTheEnd";
-    public const string ToCzechFormat = "ToCzechFormat";
-    public const string ToUSAFormat = "ToUSAFormat";
-    public const string FromCzechFormat = "FromCzechFormat";
-    public const string FromUSAFormat = "FromUSAFormat";
-    public const string
+    internal const string SplittedGPXs = "SplittedGPXs";
+    internal const string PleaseLogIn = "PleaseLogIn";
+    internal const string TheLinkWasSuccessfullyConverted = "TheLinkWasSuccessfullyConverted";
+    internal const string ToTheEnd = "ToTheEnd";
+    internal const string ToCzechFormat = "ToCzechFormat";
+    internal const string ToUSAFormat = "ToUSAFormat";
+    internal const string FromCzechFormat = "FromCzechFormat";
+    internal const string FromUSAFormat = "FromUSAFormat";
+    internal const string
     visitorsWhetherYouAreFromAPlanetCalledGeoCachingOrMugglesICreatedThisSiteMainlyToPlanGeoCachingTripsToMakeVariousStatisticsOfCachesFindingOrToInsertMyOwnWaypointsAndCachingNotesYouAsNoAdminsOfThisSiteCanViewSomeOfTheThingsButDoNotEditOraddnythingEachCacheHasAUniqueNumberAccordingToThePaperOnWhichIHaveItOrWillHaveItPrintedAtTheBeginningIPrintedIt =
     "visitorsWhetherYouAreFromAPlanetCalledGeoCachingOrMugglesICreatedThisSiteMainlyToPlanGeoCachingTripsToMakeVariousStatisticsOfCachesFindingOrToInsertMyOwnWaypointsAndCachingNotesYouAsNoAdminsOfThisSiteCanViewSomeOfTheThingsButDoNotEditOraddnythingEachCacheHasAUniqueNumberAccordingToThePaperOnWhichIHaveItOrWillHaveItPrintedAtTheBeginningIPrintedIt";
-    public const string Dear = "Dear";
-    public const string CreateHtml = "CreateHtml";
-    public const string UploadNew = "UploadNew";
-    public const string AllMyTracks = "AllMyTracks";
-    public const string GPXRoutesAuthorPages = "GPXRoutesAuthorPages";
-    public const string Tracks = "Tracks";
-    public const string YouWereSignedInButThisTrackDidnTBelongToYou = "YouWereSignedInButThisTrackDidnTBelongToYou";
-    public const string WasNotEnteredOrWasEmpty = "WasNotEnteredOrWasEmpty";
-    public const string YouHaveNotEnteredBothDatesTheProgramCannotContinue =
+    internal const string Dear = "Dear";
+    internal const string CreateHtml = "CreateHtml";
+    internal const string UploadNew = "UploadNew";
+    internal const string AllMyTracks = "AllMyTracks";
+    internal const string GPXRoutesAuthorPages = "GPXRoutesAuthorPages";
+    internal const string Tracks = "Tracks";
+    internal const string YouWereSignedInButThisTrackDidnTBelongToYou = "YouWereSignedInButThisTrackDidnTBelongToYou";
+    internal const string WasNotEnteredOrWasEmpty = "WasNotEnteredOrWasEmpty";
+    internal const string YouHaveNotEnteredBothDatesTheProgramCannotContinue =
     "YouHaveNotEnteredBothDatesTheProgramCannotContinue";
-    public const string DateFromToOrBothWereNotWithinTheValidGPXFileRange =
+    internal const string DateFromToOrBothWereNotWithinTheValidGPXFileRange =
     "DateFromToOrBothWereNotWithinTheValidGPXFileRange";
-    public const string TheFirstSecondOrBothSplitFilesHadNoSegmentsTheProgramCannotContinue =
+    internal const string TheFirstSecondOrBothSplitFilesHadNoSegmentsTheProgramCannotContinue =
     "TheFirstSecondOrBothSplitFilesHadNoSegmentsTheProgramCannotContinue";
-    public const string FindOutDisableCaches = "FindOutDisableCaches";
-    public const string ExtractsOfTheRecentlyHuntedCaches = "ExtractsOfTheRecentlyHuntedCaches";
-    public const string ListOfCachesNotFound = "ListOfCachesNotFound";
-    public const string ListOfFoundCaches = "ListOfFoundCaches";
-    public const string Hunted = "Hunted";
-    public const string ListingOfAllCaches = "ListingOfAllCaches";
-    public const string Waypoint = "Waypoint";
-    public const string Stats = "Stats";
-    public const string HiddenUserCaches = "HiddenUserCaches";
-    public const string Czech = "Czech";
-    public const string Process = "Process";
-    public const string SaveOnlyPointsFrom = "SaveOnlyPointsFrom";
-    public const string SunamoCzClient = "SunamoCzClient";
-    public const string
+    internal const string FindOutDisableCaches = "FindOutDisableCaches";
+    internal const string ExtractsOfTheRecentlyHuntedCaches = "ExtractsOfTheRecentlyHuntedCaches";
+    internal const string ListOfCachesNotFound = "ListOfCachesNotFound";
+    internal const string ListOfFoundCaches = "ListOfFoundCaches";
+    internal const string Hunted = "Hunted";
+    internal const string ListingOfAllCaches = "ListingOfAllCaches";
+    internal const string Waypoint = "Waypoint";
+    internal const string Stats = "Stats";
+    internal const string HiddenUserCaches = "HiddenUserCaches";
+    internal const string Czech = "Czech";
+    internal const string Process = "Process";
+    internal const string SaveOnlyPointsFrom = "SaveOnlyPointsFrom";
+    internal const string SunamoCzClient = "SunamoCzClient";
+    internal const string
     toKnowWhichOnesToDeleteFirstCutTheEndIfNeededStartAndResourcesCanBeCutLaterEndNotAndIfYouNeedToSplitTheFilesIntoIndividualDaysUseMyProgram =
     "toKnowWhichOnesToDeleteFirstCutTheEndIfNeededStartAndResourcesCanBeCutLaterEndNotAndIfYouNeedToSplitTheFilesIntoIndividualDaysUseMyProgram";
-    public const string segmentsToInspect = "segmentsToInspect";
-    public const string IfYouNeed = "IfYouNeed";
-    public const string UploadANewTrack = "UploadANewTrack";
-    public const string TheSiteIsPerformingOperations = "TheSiteIsPerformingOperations";
-    public const string WaitPlease = "WaitPlease";
-    public const string NumberOfImpressionsToday = "NumberOfImpressionsToday";
-    public const string TotalImpressions = "TotalImpressions";
-    public const string IfYouVisitThePageSignedInWithYourAccountItWillNotBeIncludedInYourStatistics =
+    internal const string segmentsToInspect = "segmentsToInspect";
+    internal const string IfYouNeed = "IfYouNeed";
+    internal const string UploadANewTrack = "UploadANewTrack";
+    internal const string TheSiteIsPerformingOperations = "TheSiteIsPerformingOperations";
+    internal const string WaitPlease = "WaitPlease";
+    internal const string NumberOfImpressionsToday = "NumberOfImpressionsToday";
+    internal const string TotalImpressions = "TotalImpressions";
+    internal const string IfYouVisitThePageSignedInWithYourAccountItWillNotBeIncludedInYourStatistics =
     "IfYouVisitThePageSignedInWithYourAccountItWillNotBeIncludedInYourStatistics";
-    public const string TrackLink = "TrackLink";
-    public const string TrackAttendanceStatistics = "TrackAttendanceStatistics";
-    public const string ShowSegments = "ShowSegments";
-    public const string SelectTheGpxFile = "SelectTheGpxFile";
-    public const string AbsolutelyLowestSpeedPerSegment = "AbsolutelyLowestSpeedPerSegment";
-    public const string AbsolutelyHighestSpeedPerSegment = "AbsolutelyHighestSpeedPerSegment";
-    public const string RateOfDescent = "RateOfDescent";
-    public const string RateOfClimb = "RateOfClimb";
-    public const string FlatSpeed = "FlatSpeed";
-    public const string TotalDescent = "TotalDescent";
-    public const string TotalClimb = "TotalClimb";
-    public const string TotalFlat = "TotalFlat";
-    public const string Total = "Total";
-    public const string NumberOfDescentSegments = "NumberOfDescentSegments";
-    public const string NumberOfClimbSegments = "NumberOfClimbSegments";
-    public const string NumberOfPlaneSegments = "NumberOfPlaneSegments";
-    public const string TheDifferenceBetweenTheHighestAndTheLowestPoint =
+    internal const string TrackLink = "TrackLink";
+    internal const string TrackAttendanceStatistics = "TrackAttendanceStatistics";
+    internal const string ShowSegments = "ShowSegments";
+    internal const string SelectTheGpxFile = "SelectTheGpxFile";
+    internal const string AbsolutelyLowestSpeedPerSegment = "AbsolutelyLowestSpeedPerSegment";
+    internal const string AbsolutelyHighestSpeedPerSegment = "AbsolutelyHighestSpeedPerSegment";
+    internal const string RateOfDescent = "RateOfDescent";
+    internal const string RateOfClimb = "RateOfClimb";
+    internal const string FlatSpeed = "FlatSpeed";
+    internal const string TotalDescent = "TotalDescent";
+    internal const string TotalClimb = "TotalClimb";
+    internal const string TotalFlat = "TotalFlat";
+    internal const string Total = "Total";
+    internal const string NumberOfDescentSegments = "NumberOfDescentSegments";
+    internal const string NumberOfClimbSegments = "NumberOfClimbSegments";
+    internal const string NumberOfPlaneSegments = "NumberOfPlaneSegments";
+    internal const string TheDifferenceBetweenTheHighestAndTheLowestPoint =
     "TheDifferenceBetweenTheHighestAndTheLowestPoint";
-    public const string mLightGreen = "mLightGreen";
-    public const string mRed = "mRed";
-    public const string
+    internal const string mLightGreen = "mLightGreen";
+    internal const string mRed = "mRed";
+    internal const string
     ToShareATrackWithFriendsJustCopyTheAddressFromTheAddressBarGenerateANewCodeIfYouNoLongerWantToShareTheTrack =
     "ToShareATrackWithFriendsJustCopyTheAddressFromTheAddressBarGenerateANewCodeIfYouNoLongerWantToShareTheTrack";
-    public const string RecordAndTrackInformation = "RecordAndTrackInformation";
-    public const string WebGeocachingHasNoAdditionalSettings = "WebGeocachingHasNoAdditionalSettings";
-    public const string NameOrPlace = "NameOrPlace";
-    public const string FileName = "FileName";
-    public const string AverageSpeed = "AverageSpeed";
-    public const string Walked = "Walked";
-    public const string TheHighestPoint = "TheHighestPoint";
-    public const string TheLowestPoint = "TheLowestPoint";
-    public const string OverallTime = "OverallTime";
-    public const string Date = "Date";
-    public const string SearchInTheFileName = "SearchInTheFileName";
-    public const string ListAllGPXTracksOfTheUser = "ListAllGPXTracksOfTheUser";
-    public const string FromTheBeginning = "FromTheBeginning";
-    public const string Even = "Even";
-    public const string USA = "USA";
-    public const string CzechRepublic = "CzechRepublic";
-    public const string SplitOrCrop = "SplitOrCrop";
-    public const string FillInEitherDateTimeOrBoth = "FillInEitherDateTimeOrBoth";
-    public const string SaveOnlyPointsTo = "SaveOnlyPointsTo";
-    public const string IWantToEnterTheDateAndTimeInTheFormat = "IWantToEnterTheDateAndTimeInTheFormat";
-    public const string ATimestampIsAutomaticallyAddedToTheNameOfTheNewRouteToMakeItClearToEachOther =
+    internal const string RecordAndTrackInformation = "RecordAndTrackInformation";
+    internal const string WebGeocachingHasNoAdditionalSettings = "WebGeocachingHasNoAdditionalSettings";
+    internal const string NameOrPlace = "NameOrPlace";
+    internal const string FileName = "FileName";
+    internal const string AverageSpeed = "AverageSpeed";
+    internal const string Walked = "Walked";
+    internal const string TheHighestPoint = "TheHighestPoint";
+    internal const string TheLowestPoint = "TheLowestPoint";
+    internal const string OverallTime = "OverallTime";
+    internal const string Date = "Date";
+    internal const string SearchInTheFileName = "SearchInTheFileName";
+    internal const string ListAllGPXTracksOfTheUser = "ListAllGPXTracksOfTheUser";
+    internal const string FromTheBeginning = "FromTheBeginning";
+    internal const string Even = "Even";
+    internal const string USA = "USA";
+    internal const string CzechReinternal = "CzechRepublic";
+    internal const string SplitOrCrop = "SplitOrCrop";
+    internal const string FillInEitherDateTimeOrBoth = "FillInEitherDateTimeOrBoth";
+    internal const string SaveOnlyPointsTo = "SaveOnlyPointsTo";
+    internal const string IWantToEnterTheDateAndTimeInTheFormat = "IWantToEnterTheDateAndTimeInTheFormat";
+    internal const string ATimestampIsAutomaticallyAddedToTheNameOfTheNewRouteToMakeItClearToEachOther =
     "ATimestampIsAutomaticallyAddedToTheNameOfTheNewRouteToMakeItClearToEachOther";
-    public const string YouCurrentlyHaveThesePartsOfTheTrackInTheFile = "YouCurrentlyHaveThesePartsOfTheTrackInTheFile";
-    public const string TotalNumberOfSegments = "TotalNumberOfSegments";
-    public const string TheLastStepRecorded = "TheLastStepRecorded";
-    public const string TheFirstStepIsRecorded = "TheFirstStepIsRecorded";
-    public const string UploadedBy = "UploadedBy";
-    public const string IWantTheRouteNotToBeElevated = "IWantTheRouteNotToBeElevated";
-    public const string RouteColor = "RouteColor";
-    public const string Change = "Change";
-    public const string TheNameOfTheRoute = "TheNameOfTheRoute";
-    public const string TrackInformation = "TrackInformation";
-    public const string ViewMap = "ViewMap";
-    public const string GenerateNewCode = "GenerateNewCode";
-    public const string DeleteTrack = "DeleteTrack";
-    public const string TrackManagement = "TrackManagement";
-    public const string EnterTheColorOfTheTrackNothingWillAppearOnTheMapIfYouEnterAWrongColorAndOnlySetToMonochrome =
+    internal const string YouCurrentlyHaveThesePartsOfTheTrackInTheFile = "YouCurrentlyHaveThesePartsOfTheTrackInTheFile";
+    internal const string TotalNumberOfSegments = "TotalNumberOfSegments";
+    internal const string TheLastStepRecorded = "TheLastStepRecorded";
+    internal const string TheFirstStepIsRecorded = "TheFirstStepIsRecorded";
+    internal const string UploadedBy = "UploadedBy";
+    internal const string IWantTheRouteNotToBeElevated = "IWantTheRouteNotToBeElevated";
+    internal const string RouteColor = "RouteColor";
+    internal const string Change = "Change";
+    internal const string TheNameOfTheRoute = "TheNameOfTheRoute";
+    internal const string TrackInformation = "TrackInformation";
+    internal const string ViewMap = "ViewMap";
+    internal const string GenerateNewCode = "GenerateNewCode";
+    internal const string DeleteTrack = "DeleteTrack";
+    internal const string TrackManagement = "TrackManagement";
+    internal const string EnterTheColorOfTheTrackNothingWillAppearOnTheMapIfYouEnterAWrongColorAndOnlySetToMonochrome =
     "EnterTheColorOfTheTrackNothingWillAppearOnTheMapIfYouEnterAWrongColorAndOnlySetToMonochrome";
-    public const string EnterATrackNameIfYouEnterDiacriticsOrOtherIllegalCharactersTheyWillReplaceThemselves =
+    internal const string EnterATrackNameIfYouEnterDiacriticsOrOtherIllegalCharactersTheyWillReplaceThemselves =
     "EnterATrackNameIfYouEnterDiacriticsOrOtherIllegalCharactersTheyWillReplaceThemselves";
-    public const string DownloadGeocachesToLocale = "DownloadGeocachesToLocale";
-    public const string CreateANewCacheList = "CreateANewCacheList";
-    public const string TheListIsPublic = "TheListIsPublic";
-    public const string ReverseList = "ReverseList";
-    public const string ListOfCachesList = "ListOfCachesList";
-    public const string CreateHTMLList = "CreateHTMLList";
-    public const string ReverseListOfCaches = "ReverseListOfCaches";
-    public const string CreateANewWorksheet = "CreateANewWorksheet";
-    public const string
+    internal const string DownloadGeocachesToLocale = "DownloadGeocachesToLocale";
+    internal const string CreateANewCacheList = "CreateANewCacheList";
+    internal const string TheListIsPublic = "TheListIsPublic";
+    internal const string ReverseList = "ReverseList";
+    internal const string ListOfCachesList = "ListOfCachesList";
+    internal const string CreateHTMLList = "CreateHTMLList";
+    internal const string ReverseListOfCaches = "ReverseListOfCaches";
+    internal const string CreateANewWorksheet = "CreateANewWorksheet";
+    internal const string
     DearVisitorsWhetherYouAreFromAPlanetCalledGeoCachingOrMugglesICreatedThisSiteMainlyToPlanGeoCachingTripsToMakeVariousStatisticsOfCachesFindingOrToInsertMyOwnWaypointsAndCachingNotesYouAsNoAdminsOfThisSiteCanViewSomeOfTheThingsButDoNotEditOraddnythingEachCacheHasAUniqueNumberAccordingToThePaperOnWhichIHaveItOrWillHaveItPrintedAtTheBeginningIPrintedIt =
     "DearVisitorsWhetherYouAreFromAPlanetCalledGeoCachingOrMugglesICreatedThisSiteMainlyToPlanGeoCachingTripsToMakeVariousStatisticsOfCachesFindingOrToInsertMyOwnWaypointsAndCachingNotesYouAsNoAdminsOfThisSiteCanViewSomeOfTheThingsButDoNotEditOraddnythingEachCacheHasAUniqueNumberAccordingToThePaperOnWhichIHaveItOrWillHaveItPrintedAtTheBeginningIPrintedIt";
-    public const string NoneOfTheLeavesOfTheCacheContains = "NoneOfTheLeavesOfTheCacheContains";
-    public const string AtLeastOneOfTheLeavesOfTheCacheContains = "AtLeastOneOfTheLeavesOfTheCacheContains";
-    public const string AccordingToAttributesOfTheCache = "AccordingToAttributesOfTheCache";
-    public const string YouWantToTimeLimitCachesByAddingToThesePages = "YouWantToTimeLimitCachesByAddingToThesePages";
-    public const string TypeOfHunting = "TypeOfHunting";
-    public const string PartOfTheCacheName = "PartOfTheCacheName";
-    public const string NumberOfFoundCaches = "NumberOfFoundCaches";
-    public const string ShowingMaximumGeocache = "ShowingMaximumGeocache";
-    public const string SearchForCachesContaining = "SearchForCachesContaining";
-    public const string ExportSeznamu = "ExportSeznamu";
-    public const string GenerateGPXFile = "GenerateGPXFile";
-    public const string UChecked = "UChecked";
-    public const string DeselectEverything = "DeselectEverything";
-    public const string CheckEverything = "CheckEverything";
-    public const string ListingOfAllUsers = "ListingOfAllUsers";
-    public const string CloseWaypointEditing = "CloseWaypointEditing";
-    public const string EditOfWaypoint = "EditOfWaypoint";
-    public const string AuthorsWaypoints = "AuthorsWaypoints";
-    public const string addNewWaypoint = "addNewWaypoint";
-    public const string MyOwnWaypoints = "MyOwnWaypoints";
-    public const string AuthorSDescriptionOfTheCache = "AuthorSDescriptionOfTheCache";
-    public const string ViewMyComment = "ViewMyComment";
-    public const string DateOfRegistration = "DateOfRegistration";
-    public const string Impose = "Impose";
-    public const string ViewMyLog = "ViewMyLog";
-    public const string MetaInformace = "MetaInformace";
-    public const string GenerateCodeForEachRoute = "GenerateCodeForEachRoute";
-    public const string GenerateCodeForRouteGallery = "GenerateCodeForRouteGallery";
-    public const string CreateMyPublicGalleryOfGpxRoutes = "CreateMyPublicGalleryOfGpxRoutes";
-    public const string
+    internal const string NoneOfTheLeavesOfTheCacheContains = "NoneOfTheLeavesOfTheCacheContains";
+    internal const string AtLeastOneOfTheLeavesOfTheCacheContains = "AtLeastOneOfTheLeavesOfTheCacheContains";
+    internal const string AccordingToAttributesOfTheCache = "AccordingToAttributesOfTheCache";
+    internal const string YouWantToTimeLimitCachesByAddingToThesePages = "YouWantToTimeLimitCachesByAddingToThesePages";
+    internal const string TypeOfHunting = "TypeOfHunting";
+    internal const string PartOfTheCacheName = "PartOfTheCacheName";
+    internal const string NumberOfFoundCaches = "NumberOfFoundCaches";
+    internal const string ShowingMaximumGeocache = "ShowingMaximumGeocache";
+    internal const string SearchForCachesContaining = "SearchForCachesContaining";
+    internal const string ExportSeznamu = "ExportSeznamu";
+    internal const string GenerateGPXFile = "GenerateGPXFile";
+    internal const string UChecked = "UChecked";
+    internal const string DeselectEverything = "DeselectEverything";
+    internal const string CheckEverything = "CheckEverything";
+    internal const string ListingOfAllUsers = "ListingOfAllUsers";
+    internal const string CloseWaypointEditing = "CloseWaypointEditing";
+    internal const string EditOfWaypoint = "EditOfWaypoint";
+    internal const string AuthorsWaypoints = "AuthorsWaypoints";
+    internal const string addNewWaypoint = "addNewWaypoint";
+    internal const string MyOwnWaypoints = "MyOwnWaypoints";
+    internal const string AuthorSDescriptionOfTheCache = "AuthorSDescriptionOfTheCache";
+    internal const string ViewMyComment = "ViewMyComment";
+    internal const string DateOfRegistration = "DateOfRegistration";
+    internal const string Impose = "Impose";
+    internal const string ViewMyLog = "ViewMyLog";
+    internal const string MetaInformace = "MetaInformace";
+    internal const string GenerateCodeForEachRoute = "GenerateCodeForEachRoute";
+    internal const string GenerateCodeForRouteGallery = "GenerateCodeForRouteGallery";
+    internal const string CreateMyPublicGalleryOfGpxRoutes = "CreateMyPublicGalleryOfGpxRoutes";
+    internal const string
     IfYouNoLongerWantToShareYourRoutesUseTheButtonBelowToGenerateANewCodeHoweverIfSomeoneHasAnAddressOnARouteTheyWillSeeItTheSecondButtonCanReGenerateTheCodeForAllYourRoutes =
     "IfYouNoLongerWantToShareYourRoutesUseTheButtonBelowToGenerateANewCodeHoweverIfSomeoneHasAnAddressOnARouteTheyWillSeeItTheSecondButtonCanReGenerateTheCodeForAllYourRoutes";
-    public const string SomethingWentWrong = "SomethingWentWrong";
-    public const string Scheme = "Scheme";
-    public const string Scala = "Scala";
-    public const string Ruby = "Ruby";
-    public const string Python = "Python";
-    public const string Perl = "Perl";
-    public const string Lisp = "Lisp";
-    public const string Java = "Java";
-    public const string Haskell = "Haskell";
-    public const string Groovy = "Groovy";
-    public const string Fortran = "Fortran";
-    public const string Erlang = "Erlang";
-    public const string Clojure = "Clojure";
-    public const string Translated = "Translated";
-    public const string Original = "Original";
-    public const string Text = "Text";
-    public const string CreateANewApplication = "CreateANewApplication";
-    public const string VersionSuccessfullySetToDefault = "VersionSuccessfullySetToDefault";
-    public const string VersionSuccessfullyDeletedNoOtherVersionFoundTheDefaultVersionHasBeenReset =
+    internal const string SomethingWentWrong = "SomethingWentWrong";
+    internal const string Scheme = "Scheme";
+    internal const string Scala = "Scala";
+    internal const string Ruby = "Ruby";
+    internal const string Python = "Python";
+    internal const string Perl = "Perl";
+    internal const string Lisp = "Lisp";
+    internal const string Java = "Java";
+    internal const string Haskell = "Haskell";
+    internal const string Groovy = "Groovy";
+    internal const string Fortran = "Fortran";
+    internal const string Erlang = "Erlang";
+    internal const string Clojure = "Clojure";
+    internal const string Translated = "Translated";
+    internal const string Original = "Original";
+    internal const string Text = "Text";
+    internal const string CreateANewApplication = "CreateANewApplication";
+    internal const string VersionSuccessfullySetToDefault = "VersionSuccessfullySetToDefault";
+    internal const string VersionSuccessfullyDeletedNoOtherVersionFoundTheDefaultVersionHasBeenReset =
     "VersionSuccessfullyDeletedNoOtherVersionFoundTheDefaultVersionHasBeenReset";
-    public const string
+    internal const string
     VersionSuccessfullyDeletedSetToCurrentFirstVersionTheNewVersionWasNotSuccessfullySetAsTheDefault =
     "VersionSuccessfullyDeletedSetToCurrentFirstVersionTheNewVersionWasNotSuccessfullySetAsTheDefault";
-    public const string VersionSuccessfullyDeletedSetToCurrentFirstAvailableVersion =
+    internal const string VersionSuccessfullyDeletedSetToCurrentFirstAvailableVersion =
     "VersionSuccessfullyDeletedSetToCurrentFirstAvailableVersion";
-    public const string CreatingANewVersion = "CreatingANewVersion";
-    public const string Close = "Close";
-    public const string AddNewVersion = "AddNewVersion";
-    public const string TheNewVersionIsTheDefault = "TheNewVersionIsTheDefault";
-    public const string ApplicationChangesSavedSuccessfully = "ApplicationChangesSavedSuccessfully";
-    public const string SaveChangesToTheApplication = "SaveChangesToTheApplication";
-    public const string TheApplicationWasSuccessfullyCreated = "TheApplicationWasSuccessfullyCreated";
-    public const string VersionChangesSavedSuccessfully = "VersionChangesSavedSuccessfully";
-    public const string TheNewVersionWasNotCreatedSuccessfully = "TheNewVersionWasNotCreatedSuccessfully";
-    public const string TheNewVersionHasBeenSuccessfullyCreatedYouCanNowEditIt =
+    internal const string CreatingANewVersion = "CreatingANewVersion";
+    internal const string Close = "Close";
+    internal const string AddNewVersion = "AddNewVersion";
+    internal const string TheNewVersionIsTheDefault = "TheNewVersionIsTheDefault";
+    internal const string ApplicationChangesSavedSuccessfully = "ApplicationChangesSavedSuccessfully";
+    internal const string SaveChangesToTheApplication = "SaveChangesToTheApplication";
+    internal const string TheApplicationWasSuccessfullyCreated = "TheApplicationWasSuccessfullyCreated";
+    internal const string VersionChangesSavedSuccessfully = "VersionChangesSavedSuccessfully";
+    internal const string TheNewVersionWasNotCreatedSuccessfully = "TheNewVersionWasNotCreatedSuccessfully";
+    internal const string TheNewVersionHasBeenSuccessfullyCreatedYouCanNowEditIt =
     "TheNewVersionHasBeenSuccessfullyCreatedYouCanNowEditIt";
-    public const string noCache = "noCache";
-    public const string SharedSettingsApplication = "SharedSettingsApplication";
-    public const string application = "application";
-    public const string ForExampleCommentsOtherMetaInformation = "ForExampleCommentsOtherMetaInformation";
-    public const string ForTxtGitHubNameClassCell = "ForTxtGitHubNameClassCell";
-    public const string ForTxtNameClassCell = "ForTxtNameClassCell";
-    public const string forTxtNameClassCell = "forTxtNameClassCell";
-    public const string grid = "grid";
-    public const string RunatServerIdSelectTypeSoftwareDataRoleSelect = "RunatServerIdSelectTypeSoftwareDataRoleSelect";
-    public const string select = "select";
-    public const string inputRunatServerTypeCheckboxIdChbIsShowingDataCaptionShowingAnAppOnTheWebDataRoleCheckbox =
+    internal const string noCache = "noCache";
+    internal const string SharedSettingsApplication = "SharedSettingsApplication";
+    internal const string application = "application";
+    internal const string ForExampleCommentsOtherMetaInformation = "ForExampleCommentsOtherMetaInformation";
+    internal const string ForTxtGitHubNameClassCell = "ForTxtGitHubNameClassCell";
+    internal const string ForTxtNameClassCell = "ForTxtNameClassCell";
+    internal const string forTxtNameClassCell = "forTxtNameClassCell";
+    internal const string grid = "grid";
+    internal const string RunatServerIdSelectTypeSoftwareDataRoleSelect = "RunatServerIdSelectTypeSoftwareDataRoleSelect";
+    internal const string select = "select";
+    internal const string inputRunatServerTypeCheckboxIdChbIsShowingDataCaptionShowingAnAppOnTheWebDataRoleCheckbox =
     "inputRunatServerTypeCheckboxIdChbIsShowingDataCaptionShowingAnAppOnTheWebDataRoleCheckbox";
-    public const string inputRunatServerTypeCheckboxIdChbIsAppGuiDataCaptionTheApplicationHasAGUIDataRoleCheckbox =
+    internal const string inputRunatServerTypeCheckboxIdChbIsAppGuiDataCaptionTheApplicationHasAGUIDataRoleCheckbox =
     "inputRunatServerTypeCheckboxIdChbIsAppGuiDataCaptionTheApplicationHasAGUIDataRoleCheckbox";
-    public const string ClassMargin = "ClassMargin";
-    public const string classMargin = "classMargin";
-    public const string divDataRoleInputControlClassInputControlSwitch =
+    internal const string ClassMargin = "ClassMargin";
+    internal const string classMargin = "classMargin";
+    internal const string divDataRoleInputControlClassInputControlSwitch =
     "divDataRoleInputControlClassInputControlSwitch";
-    public const string divClassMargin = "divClassMargin";
-    public const string
+    internal const string divClassMargin = "divClassMargin";
+    internal const string
     inputRunatServerTypeCheckboxIdChbWideTileDataCaptionShowingLargeTileVeryGoodForAppsWithMoreThanWordsDataRoleCheckbox =
     "inputRunatServerTypeCheckboxIdChbWideTileDataCaptionShowingLargeTileVeryGoodForAppsWithMoreThanWordsDataRoleCheckbox";
-    public const string textarea = "textarea";
-    public const string divStyleFloatRightIdSpanCountDownDescription = "divStyleFloatRightIdSpanCountDownDescription";
-    public const string labelStyleFloatLeftForTaDescription = "labelStyleFloatLeftForTaDescription";
-    public const string RL = "RL";
-    public const string inputRunatServerTypeCheckboxCheckedCheckedIdChbProjectIsOnGitHubDataRoleCheckbox =
+    internal const string textarea = "textarea";
+    internal const string divStyleFloatRightIdSpanCountDownDescription = "divStyleFloatRightIdSpanCountDownDescription";
+    internal const string labelStyleFloatLeftForTaDescription = "labelStyleFloatLeftForTaDescription";
+    internal const string RL = "RL";
+    internal const string inputRunatServerTypeCheckboxCheckedCheckedIdChbProjectIsOnGitHubDataRoleCheckbox =
     "inputRunatServerTypeCheckboxCheckedCheckedIdChbProjectIsOnGitHubDataRoleCheckbox";
-    public const string inputNameTxtGitHubNameTypeTextIdTxtGitHubNameRunatServerClassCell =
+    internal const string inputNameTxtGitHubNameTypeTextIdTxtGitHubNameRunatServerClassCell =
     "inputNameTxtGitHubNameTypeTextIdTxtGitHubNameRunatServerClassCell";
-    public const string labelForTxtGitHubNameClassCell = "labelForTxtGitHubNameClassCell";
-    public const string inputNameTxtNameTypeTextIdTxtNameRunatServerClassCell =
+    internal const string labelForTxtGitHubNameClassCell = "labelForTxtGitHubNameClassCell";
+    internal const string inputNameTxtNameTypeTextIdTxtNameRunatServerClassCell =
     "inputNameTxtNameTypeTextIdTxtNameRunatServerClassCell";
-    public const string labelForTxtNameClassCell = "labelForTxtNameClassCell";
-    public const string label = "label";
-    public const string labelFor = "labelFor";
-    public const string div = "div";
-    public const string HereParagraphsToP = "HereParagraphsToP";
-    public const string span = "span";
-    public const string SimplyTakeTheValueFromTxtVersion = "SimplyTakeTheValueFromTxtVersion";
-    public const string NoItWillBeTakenDirectlyFromTxtName = "NoItWillBeTakenDirectlyFromTxtName";
-    public const string taChangelog = "taChangelog";
-    public const string txtVersion = "txtVersion";
-    public const string selectTypeSoftware = "selectTypeSoftware";
-    public const string AdditionalApplicationSettings = "AdditionalApplicationSettings";
-    public const string taDescription = "taDescription";
-    public const string txtGitHubName = "txtGitHubName";
-    public const string txtName = "txtName";
-    public const string stylePaddingPxMarginTopPxDataRoleDialog = "stylePaddingPxMarginTopPxDataRoleDialog";
-    public const string TheProjectIsOnGitHub = "TheProjectIsOnGitHub";
-    public const string visits = "visits";
-    public const string descent = "descent";
-    public const string pitch = "pitch";
-    public const string adoptedBy = "adoptedBy";
-    public const string createdBy = "createdBy";
-    public const string lost = "lost";
-    public const string prevailed = "prevailed";
-    public const string iconPlusIconCategory = "iconPlusIconCategory";
-    public const string herOwner = "herOwner";
-    public const string veterinarians = "veterinarians";
-    public const string buttonOranzovyObtah = "buttonOranzovyObtah";
-    public const string buttonTooltip = "buttonTooltip";
-    public const string buttonOranzovyObtahTooltip = "buttonOranzovyObtahTooltip";
-    public const string btnAddCommentButton = "btnAddCommentButton";
-    public const string inputControlCheckboxSmallCheck = "inputControlCheckboxSmallCheck";
-    public const string balloonRightBalloonComment = "balloonRightBalloonComment";
-    public const string paddingComment = "paddingComment";
-    public const string comments = "comments";
-    public const string comment = "comment";
-    public const string buttonDanger = "buttonDanger";
-    public const string methodauthGetSessiontoken = "methodauthGetSessiontoken";
-    public const string AllLyrics = "AllLyrics";
-    public const string AddNewSong = "AddNewSong";
-    public const string MyProfile = "MyProfile";
-    public const string SearchTerm = "SearchTerm";
-    public const string idPage = "idPage";
-    public const string idPageArg = "idPageArg";
-    public const string idPageName = "idPageName";
-    public const string NotFound = "NotFound";
-    public const string TraslationKey = "TraslationKey";
-    public const string dMYyyy = "dMYyyy";
-    public const string pID = "pID";
-    public const string display = "display";
-    public const string add = "add";
-    public const string DoYouWantToText = "DoYouWantToText";
-    public const string FileAlreadyHaveThumbnails = "FileAlreadyHaveThumbnails";
-    public const string DownloadForSongWithID = "DownloadForSongWithID";
-    public const string xoomiiKhoomiiHoomii = "xoomiiKhoomiiHoomii";
-    public const string wongShadow = "wongShadow";
-    public const string wailaChickenScratch = "wailaChickenScratch";
-    public const string videoGameMusic = "videoGameMusic";
-    public const string tropicalMusic = "tropicalMusic";
-    public const string tOngGuitar = "tOngGuitar";
-    public const string tibetanPop = "tibetanPop";
-    public const string AHeavyMetalSubgenreKnownForItsFastTemposScreamingVocalsExtendedGuitarSolosAndAggressiveLyrics =
+    internal const string labelForTxtNameClassCell = "labelForTxtNameClassCell";
+    internal const string label = "label";
+    internal const string labelFor = "labelFor";
+    internal const string div = "div";
+    internal const string HereParagraphsToP = "HereParagraphsToP";
+    internal const string span = "span";
+    internal const string SimplyTakeTheValueFromTxtVersion = "SimplyTakeTheValueFromTxtVersion";
+    internal const string NoItWillBeTakenDirectlyFromTxtName = "NoItWillBeTakenDirectlyFromTxtName";
+    internal const string taChangelog = "taChangelog";
+    internal const string txtVersion = "txtVersion";
+    internal const string selectTypeSoftware = "selectTypeSoftware";
+    internal const string AdditionalApplicationSettings = "AdditionalApplicationSettings";
+    internal const string taDescription = "taDescription";
+    internal const string txtGitHubName = "txtGitHubName";
+    internal const string txtName = "txtName";
+    internal const string stylePaddingPxMarginTopPxDataRoleDialog = "stylePaddingPxMarginTopPxDataRoleDialog";
+    internal const string TheProjectIsOnGitHub = "TheProjectIsOnGitHub";
+    internal const string visits = "visits";
+    internal const string descent = "descent";
+    internal const string pitch = "pitch";
+    internal const string adoptedBy = "adoptedBy";
+    internal const string createdBy = "createdBy";
+    internal const string lost = "lost";
+    internal const string prevailed = "prevailed";
+    internal const string iconPlusIconCategory = "iconPlusIconCategory";
+    internal const string herOwner = "herOwner";
+    internal const string veterinarians = "veterinarians";
+    internal const string buttonOranzovyObtah = "buttonOranzovyObtah";
+    internal const string buttonTooltip = "buttonTooltip";
+    internal const string buttonOranzovyObtahTooltip = "buttonOranzovyObtahTooltip";
+    internal const string btnAddCommentButton = "btnAddCommentButton";
+    internal const string inputControlCheckboxSmallCheck = "inputControlCheckboxSmallCheck";
+    internal const string balloonRightBalloonComment = "balloonRightBalloonComment";
+    internal const string paddingComment = "paddingComment";
+    internal const string comments = "comments";
+    internal const string comment = "comment";
+    internal const string buttonDanger = "buttonDanger";
+    internal const string methodauthGetSessiontoken = "methodauthGetSessiontoken";
+    internal const string AllLyrics = "AllLyrics";
+    internal const string AddNewSong = "AddNewSong";
+    internal const string MyProfile = "MyProfile";
+    internal const string SearchTerm = "SearchTerm";
+    internal const string idPage = "idPage";
+    internal const string idPageArg = "idPageArg";
+    internal const string idPageName = "idPageName";
+    internal const string NotFound = "NotFound";
+    internal const string TraslationKey = "TraslationKey";
+    internal const string dMYyyy = "dMYyyy";
+    internal const string pID = "pID";
+    internal const string display = "display";
+    internal const string add = "add";
+    internal const string DoYouWantToText = "DoYouWantToText";
+    internal const string FileAlreadyHaveThumbnails = "FileAlreadyHaveThumbnails";
+    internal const string DownloadForSongWithID = "DownloadForSongWithID";
+    internal const string xoomiiKhoomiiHoomii = "xoomiiKhoomiiHoomii";
+    internal const string wongShadow = "wongShadow";
+    internal const string wailaChickenScratch = "wailaChickenScratch";
+    internal const string videoGameMusic = "videoGameMusic";
+    internal const string tropicalMusic = "tropicalMusic";
+    internal const string tOngGuitar = "tOngGuitar";
+    internal const string tibetanPop = "tibetanPop";
+    internal const string AHeavyMetalSubgenreKnownForItsFastTemposScreamingVocalsExtendedGuitarSolosAndAggressiveLyrics =
     "AHeavyMetalSubgenreKnownForItsFastTemposScreamingVocalsExtendedGuitarSolosAndAggressiveLyrics";
-    public const string thrashMetal = "thrashMetal";
-    public const string tembangSunda = "tembangSunda";
-    public const string ASubgenreOfPopMusicTargetedTowardsPreTeenAndTeenageListeners =
+    internal const string thrashMetal = "thrashMetal";
+    internal const string tembangSunda = "tembangSunda";
+    internal const string ASubgenreOfPopMusicTargetedTowardsPreTeenAndTeenageListeners =
     "ASubgenreOfPopMusicTargetedTowardsPreTeenAndTeenageListeners";
-    public const string teenPop = "teenPop";
-    public const string tanchaz = "tanchaz";
-    public const string tamilChristianKeerthanai = "tamilChristianKeerthanai";
-    public const string taiwanesePop = "taiwanesePop";
-    public const string taiTu = "taiTu";
-    public const string soulMusic = "soulMusic";
-    public const string aMixtureOfSongoHipHopAndSalsa = "aMixtureOfSongoHipHopAndSalsa";
-    public const string sonMontuno = "sonMontuno";
-    public const string ASubgenreOfHeavyMetalWithSlowTunedTemposAbrasiveDistortionAndHarshVocals =
+    internal const string teenPop = "teenPop";
+    internal const string tanchaz = "tanchaz";
+    internal const string tamilChristianKeerthanai = "tamilChristianKeerthanai";
+    internal const string taiwanesePop = "taiwanesePop";
+    internal const string taiTu = "taiTu";
+    internal const string soulMusic = "soulMusic";
+    internal const string aMixtureOfSongoHipHopAndSalsa = "aMixtureOfSongoHipHopAndSalsa";
+    internal const string sonMontuno = "sonMontuno";
+    internal const string ASubgenreOfHeavyMetalWithSlowTunedTemposAbrasiveDistortionAndHarshVocals =
     "ASubgenreOfHeavyMetalWithSlowTunedTemposAbrasiveDistortionAndHarshVocals";
-    public const string sludgeMetal = "sludgeMetal";
-    public const string slackKeyGuitarKihoalu = "slackKeyGuitarKihoalu";
-    public const string pertainingToSongsDescribingTheCurrentSituationMostPrevalentInFilms =
+    internal const string sludgeMetal = "sludgeMetal";
+    internal const string slackKeyGuitarKihoalu = "slackKeyGuitarKihoalu";
+    internal const string pertainingToSongsDescribingTheCurrentSituationMostPrevalentInFilms =
     "pertainingToSongsDescribingTheCurrentSituationMostPrevalentInFilms";
-    public const string scrumpyAndWestern = "scrumpyAndWestern";
-    public const string aGenreOfSambaWithAChoppyReggaeLikeRhythm = "aGenreOfSambaWithAChoppyReggaeLikeRhythm";
-    public const string traditionalSambaInSlowTempoAndWithRomanticLyricsInfluencedByBolero =
+    internal const string scrumpyAndWestern = "scrumpyAndWestern";
+    internal const string aGenreOfSambaWithAChoppyReggaeLikeRhythm = "aGenreOfSambaWithAChoppyReggaeLikeRhythm";
+    internal const string traditionalSambaInSlowTempoAndWithRomanticLyricsInfluencedByBolero =
     "traditionalSambaInSlowTempoAndWithRomanticLyricsInfluencedByBolero";
-    public const string SambaCancao = "SambaCancao";
-    public const string aSoftRomanticFormOfSalsaMusic = "aSoftRomanticFormOfSalsaMusic";
-    public const string salsaRomantica = "salsaRomantica";
-    public const string lyricallyExplicitFormOfSalsaRomantica = "lyricallyExplicitFormOfSalsaRomantica";
-    public const string salsaErotica = "salsaErotica";
-    public const string pubRock = "pubRock";
-    public const string AStyleOfRockMusicThatRelatesToPsychedelia = "AStyleOfRockMusicThatRelatesToPsychedelia";
-    public const string psychedelicRock = "psychedelicRock";
-    public const string ASubgenreOfRockMusicWithOriginsOfJazzFusionAndPsychedelicRock =
+    internal const string SambaCancao = "SambaCancao";
+    internal const string aSoftRomanticFormOfSalsaMusic = "aSoftRomanticFormOfSalsaMusic";
+    internal const string salsaRomantica = "salsaRomantica";
+    internal const string lyricallyExplicitFormOfSalsaRomantica = "lyricallyExplicitFormOfSalsaRomantica";
+    internal const string salsaErotica = "salsaErotica";
+    internal const string pubRock = "pubRock";
+    internal const string AStyleOfRockMusicThatRelatesToPsychedelia = "AStyleOfRockMusicThatRelatesToPsychedelia";
+    internal const string psychedelicRock = "psychedelicRock";
+    internal const string ASubgenreOfRockMusicWithOriginsOfJazzFusionAndPsychedelicRock =
     "ASubgenreOfRockMusicWithOriginsOfJazzFusionAndPsychedelicRock";
-    public const string progressiveRock = "progressiveRock";
-    public const string ASubgenreOfHeavyMetalAndProgressiveRock = "ASubgenreOfHeavyMetalAndProgressiveRock";
-    public const string progressiveMetal = "progressiveMetal";
-    public const string AStyleOfHeavyMetalWithMelodicVocalsSymphonicContextAndWithFantasticOrMythicalLyrics =
+    internal const string progressiveRock = "progressiveRock";
+    internal const string ASubgenreOfHeavyMetalAndProgressiveRock = "ASubgenreOfHeavyMetalAndProgressiveRock";
+    internal const string progressiveMetal = "progressiveMetal";
+    internal const string AStyleOfHeavyMetalWithMelodicVocalsSymphonicContextAndWithFantasticOrMythicalLyrics =
     "AStyleOfHeavyMetalWithMelodicVocalsSymphonicContextAndWithFantasticOrMythicalLyrics";
-    public const string powerMetal = "powerMetal";
-    public const string alsoKnownAsChichaMusic = "alsoKnownAsChichaMusic";
-    public const string peruvianCumbia = "peruvianCumbia";
-    public const string theOldestVarietyOfMilitaryMarchingBandInTheWorld =
+    internal const string powerMetal = "powerMetal";
+    internal const string alsoKnownAsChichaMusic = "alsoKnownAsChichaMusic";
+    internal const string peruvianCumbia = "peruvianCumbia";
+    internal const string theOldestVarietyOfMilitaryMarchingBandInTheWorld =
     "theOldestVarietyOfMilitaryMarchingBandInTheWorld";
-    public const string ottomanMilitaryBand = "ottomanMilitaryBand";
-    public const string aMoreAbstractAndDrumBassInspiredStyleOfBreakbeat =
+    internal const string ottomanMilitaryBand = "ottomanMilitaryBand";
+    internal const string aMoreAbstractAndDrumBassInspiredStyleOfBreakbeat =
     "aMoreAbstractAndDrumBassInspiredStyleOfBreakbeat";
-    public const string nuSkoolBreaks = "nuSkoolBreaks";
-    public const string
+    internal const string nuSkoolBreaks = "nuSkoolBreaks";
+    internal const string
     fusionOfThrashGrooveAndAlternativeMetalThatAlsoBorrowsElementsFromPunkIndustrialGrungeAndHipHop =
     "fusionOfThrashGrooveAndAlternativeMetalThatAlsoBorrowsElementsFromPunkIndustrialGrungeAndHipHop";
-    public const string nuMetal = "nuMetal";
-    public const string nuJazz = "nuJazz";
-    public const string nuGaze = "nuGaze";
-    public const string modernHouseMusicThatDrawsInspirationFromDisco = "modernHouseMusicThatDrawsInspirationFromDisco";
-    public const string northernSoul = "northernSoul";
-    public const string norteno = "norteno";
-    public const string nordicFolkDance = "nordicFolkDance";
-    public const string nordicFolk = "nordicFolk";
-    public const string loudAtonalDissonantAndUnconventionalRockMusic = "loudAtonalDissonantAndUnconventionalRockMusic";
-    public const string noiseRock = "noiseRock";
-    public const string derivativeOfNoiseRockInWhichNoisesAndFeedbackAreUsedButMadeIntoAMelodicOftenRelaxingSound =
+    internal const string nuMetal = "nuMetal";
+    internal const string nuJazz = "nuJazz";
+    internal const string nuGaze = "nuGaze";
+    internal const string modernHouseMusicThatDrawsInspirationFromDisco = "modernHouseMusicThatDrawsInspirationFromDisco";
+    internal const string northernSoul = "northernSoul";
+    internal const string norteno = "norteno";
+    internal const string nordicFolkDance = "nordicFolkDance";
+    internal const string nordicFolk = "nordicFolk";
+    internal const string loudAtonalDissonantAndUnconventionalRockMusic = "loudAtonalDissonantAndUnconventionalRockMusic";
+    internal const string noiseRock = "noiseRock";
+    internal const string derivativeOfNoiseRockInWhichNoisesAndFeedbackAreUsedButMadeIntoAMelodicOftenRelaxingSound =
     "derivativeOfNoiseRockInWhichNoisesAndFeedbackAreUsedButMadeIntoAMelodicOftenRelaxingSound";
-    public const string noisePop = "noisePop";
-    public const string
+    internal const string noisePop = "noisePop";
+    internal const string
     trendInOrchestralRockAndElectronicMusicWhereHarshNonMelodicAndOftenRandomSoundsAreUsedAlongsideOrInPlaceOfConventionalSounds =
     "trendInOrchestralRockAndElectronicMusicWhereHarshNonMelodicAndOftenRandomSoundsAreUsedAlongsideOrInPlaceOfConventionalSounds";
-    public const string avantGardePunkSubgenreCreatedAsAReactionToTheCommercialNewWave =
+    internal const string avantGardePunkSubgenreCreatedAsAReactionToTheCommercialNewWave =
     "avantGardePunkSubgenreCreatedAsAReactionToTheCommercialNewWave";
-    public const string noWave = "noWave";
-    public const string fusionOfChiptuneAndMetalcore = "fusionOfChiptuneAndMetalcore";
-    public const string newYorkBlues = "newYorkBlues";
-    public const string newWeirdAmerica = "newWeirdAmerica";
-    public const string newWaveOfNewWave = "newWaveOfNewWave";
-    public const string newWaveOfBritishHeavyMetal = "newWaveOfBritishHeavyMetal";
-    public const string earlyFormOfPunkInformedSynthpop = "earlyFormOfPunkInformedSynthpop";
-    public const string newWave = "newWave";
-    public const string newTaiwaneseSong = "newTaiwaneseSong";
-    public const string newSchoolHipHop = "newSchoolHipHop";
-    public const string newRave = "newRave";
-    public const string moreAmbitiousAndAlternativeRockInspiredFormOfProgressiveRock =
+    internal const string noWave = "noWave";
+    internal const string fusionOfChiptuneAndMetalcore = "fusionOfChiptuneAndMetalcore";
+    internal const string newYorkBlues = "newYorkBlues";
+    internal const string newWeirdAmerica = "newWeirdAmerica";
+    internal const string newWaveOfNewWave = "newWaveOfNewWave";
+    internal const string newWaveOfBritishHeavyMetal = "newWaveOfBritishHeavyMetal";
+    internal const string earlyFormOfPunkInformedSynthpop = "earlyFormOfPunkInformedSynthpop";
+    internal const string newWave = "newWave";
+    internal const string newTaiwaneseSong = "newTaiwaneseSong";
+    internal const string newSchoolHipHop = "newSchoolHipHop";
+    internal const string newRave = "newRave";
+    internal const string moreAmbitiousAndAlternativeRockInspiredFormOfProgressiveRock =
     "moreAmbitiousAndAlternativeRockInspiredFormOfProgressiveRock";
-    public const string newProg = "newProg";
-    public const string newOrleansBlues = "newOrleansBlues";
-    public const string slicklyProducedFusionOfSoulPopDanceAndHipHopMusic =
+    internal const string newProg = "newProg";
+    internal const string newOrleansBlues = "newOrleansBlues";
+    internal const string slicklyProducedFusionOfSoulPopDanceAndHipHopMusic =
     "slicklyProducedFusionOfSoulPopDanceAndHipHopMusic";
-    public const string newJackSwingOrSwingbeat = "newJackSwingOrSwingbeat";
-    public const string newBeat = "newBeat";
-    public const string formOfAmbientMusicIntendedForUseDuringMeditation =
+    internal const string newJackSwingOrSwingbeat = "newJackSwingOrSwingbeat";
+    internal const string newBeat = "newBeat";
+    internal const string formOfAmbientMusicIntendedForUseDuringMeditation =
     "formOfAmbientMusicIntendedForUseDuringMeditation";
-    public const string moreAdvancedFormOfTechstep = "moreAdvancedFormOfTechstep";
-    public const string neueDeutscheTodeskunst = "neueDeutscheTodeskunst";
-    public const string neueDeutscheWelle = "neueDeutscheWelle";
-    public const string hipHopWithLyricsConcerningTypicallyNerdySubjects =
+    internal const string moreAdvancedFormOfTechstep = "moreAdvancedFormOfTechstep";
+    internal const string neueDeutscheTodeskunst = "neueDeutscheTodeskunst";
+    internal const string neueDeutscheWelle = "neueDeutscheWelle";
+    internal const string hipHopWithLyricsConcerningTypicallyNerdySubjects =
     "hipHopWithLyricsConcerningTypicallyNerdySubjects";
-    public const string neotraditionalCountry = "neotraditionalCountry";
-    public const string alternativeFormOfHipHopSoulThatFocusedOnMoreSoulfulAndEmotiveVocalsAndLyrics =
+    internal const string neotraditionalCountry = "neotraditionalCountry";
+    internal const string alternativeFormOfHipHopSoulThatFocusedOnMoreSoulfulAndEmotiveVocalsAndLyrics =
     "alternativeFormOfHipHopSoulThatFocusedOnMoreSoulfulAndEmotiveVocalsAndLyrics";
-    public const string neoSoul = "neoSoul";
-    public const string looseTermForAlternativeRockInspiredByPsychedelicAndAcidRock =
+    internal const string neoSoul = "neoSoul";
+    internal const string looseTermForAlternativeRockInspiredByPsychedelicAndAcidRock =
     "looseTermForAlternativeRockInspiredByPsychedelicAndAcidRock";
-    public const string highlyTheatricalEmotionalAndCleanSubgenreOfProgressiveRock =
+    internal const string highlyTheatricalEmotionalAndCleanSubgenreOfProgressiveRock =
     "highlyTheatricalEmotionalAndCleanSubgenreOfProgressiveRock";
-    public const string neoProgressiveRock = "neoProgressiveRock";
-    public const string fusionOfFolkRockAndPostIndustrialMusic = "fusionOfFolkRockAndPostIndustrialMusic";
-    public const string neoKyma = "neoKyma";
-    public const string fusionOfNeoclassicalAndNewAgeMusic = "fusionOfNeoclassicalAndNewAgeMusic";
-    public const string neoclassicalNewAge = "neoclassicalNewAge";
-    public const string fusionOfNeoclassicalAndHeavyMetalMusic = "fusionOfNeoclassicalAndHeavyMetalMusic";
-    public const string neoClassicalMetal = "neoClassicalMetal";
-    public const string fusionOfNeoclassicalAndDarkWaveMusic = "fusionOfNeoclassicalAndDarkWaveMusic";
-    public const string neoclassicalDarkWave = "neoclassicalDarkWave";
-    public const string blackMetalWithLyricsSupportingNationalSocialismFascismAndOtherFarRightIdeologies =
+    internal const string neoProgressiveRock = "neoProgressiveRock";
+    internal const string fusionOfFolkRockAndPostIndustrialMusic = "fusionOfFolkRockAndPostIndustrialMusic";
+    internal const string neoKyma = "neoKyma";
+    internal const string fusionOfNeoclassicalAndNewAgeMusic = "fusionOfNeoclassicalAndNewAgeMusic";
+    internal const string neoclassicalNewAge = "neoclassicalNewAge";
+    internal const string fusionOfNeoclassicalAndHeavyMetalMusic = "fusionOfNeoclassicalAndHeavyMetalMusic";
+    internal const string neoClassicalMetal = "neoClassicalMetal";
+    internal const string fusionOfNeoclassicalAndDarkWaveMusic = "fusionOfNeoclassicalAndDarkWaveMusic";
+    internal const string neoclassicalDarkWave = "neoclassicalDarkWave";
+    internal const string blackMetalWithLyricsSupportingNationalSocialismFascismAndOtherFarRightIdeologies =
     "blackMetalWithLyricsSupportingNationalSocialismFascismAndOtherFarRightIdeologies";
-    public const string nationalSocialistBlackMetal = "nationalSocialistBlackMetal";
-    public const string nashvilleSound = "nashvilleSound";
-    public const string bornMusic = "bornMusic";
-    public const string nanguanMusic = "nanguanMusic";
-    public const string heavilyExperimentalOrchestralMusicKnownForItsUseOfElectronicInstruments =
+    internal const string nationalSocialistBlackMetal = "nationalSocialistBlackMetal";
+    internal const string nashvilleSound = "nashvilleSound";
+    internal const string bornMusic = "bornMusic";
+    internal const string nanguanMusic = "nanguanMusic";
+    internal const string heavilyExperimentalOrchestralMusicKnownForItsUseOfElectronicInstruments =
     "heavilyExperimentalOrchestralMusicKnownForItsUseOfElectronicInstruments";
-    public const string musiqiEAssil = "musiqiEAssil";
-    public const string musicaLlanero = "musicaLlanero";
-    public const string musicHall = "musicHall";
-    public const string anArtworkThatCoversAllFormsOfArt = "anArtworkThatCoversAllFormsOfArt";
-    public const string musicDrama = "musicDrama";
-    public const string eclecticGenreThatDrawsFromDowntempoHipHopAndWorldStyles =
+    internal const string musiqiEAssil = "musiqiEAssil";
+    internal const string musicaLlanero = "musicaLlanero";
+    internal const string musicHall = "musicHall";
+    internal const string anArtworkThatCoversAllFormsOfArt = "anArtworkThatCoversAllFormsOfArt";
+    internal const string musicDrama = "musicDrama";
+    internal const string eclecticGenreThatDrawsFromDowntempoHipHopAndWorldStyles =
     "eclecticGenreThatDrawsFromDowntempoHipHopAndWorldStyles";
-    public const string mushroomJazz = "mushroomJazz";
-    public const string mozambiqueOfAmerica = "mozambiqueOfAmerica";
-    public const string mozambiqueOfCuba = "mozambiqueOfCuba";
-    public const string slickPopInformedFormOfSoulMusic = "slickPopInformedFormOfSoulMusic";
-    public const string fusionOfElectroHouseAndReggaeton = "fusionOfElectroHouseAndReggaeton";
-    public const string fastPacedSexualAndModernizedFormOfMorLam = "fastPacedSexualAndModernizedFormOfMorLam";
-    public const string morLamSing = "morLamSing";
-    public const string morLam = "morLam";
-    public const string modernRock = "modernRock";
-    public const string looseTermForOrchestralMusicMadeDuringOrAfterTheThCentury =
+    internal const string mushroomJazz = "mushroomJazz";
+    internal const string mozambiqueOfAmerica = "mozambiqueOfAmerica";
+    internal const string mozambiqueOfCuba = "mozambiqueOfCuba";
+    internal const string slickPopInformedFormOfSoulMusic = "slickPopInformedFormOfSoulMusic";
+    internal const string fusionOfElectroHouseAndReggaeton = "fusionOfElectroHouseAndReggaeton";
+    internal const string fastPacedSexualAndModernizedFormOfMorLam = "fastPacedSexualAndModernizedFormOfMorLam";
+    internal const string morLamSing = "morLamSing";
+    internal const string morLam = "morLam";
+    internal const string modernRock = "modernRock";
+    internal const string looseTermForOrchestralMusicMadeDuringOrAfterTheThCentury =
     "looseTermForOrchestralMusicMadeDuringOrAfterTheThCentury";
-    public const string modernClassical = "modernClassical";
-    public const string minneapolisSound = "minneapolisSound";
-    public const string fusionOfTechnoAndMinimalMusic = "fusionOfTechnoAndMinimalMusic";
-    public const string minimalTechno = "minimalTechno";
-    public const string fusionOfPsychedelicTranceAndMinimalMusic = "fusionOfPsychedelicTranceAndMinimalMusic";
-    public const string minimalTrance = "minimalTrance";
-    public const string heavilyExperimentalFormOfOrchestralMusicKnownForItsSimplicity =
+    internal const string modernClassical = "modernClassical";
+    internal const string minneapolisSound = "minneapolisSound";
+    internal const string fusionOfTechnoAndMinimalMusic = "fusionOfTechnoAndMinimalMusic";
+    internal const string minimalTechno = "minimalTechno";
+    internal const string fusionOfPsychedelicTranceAndMinimalMusic = "fusionOfPsychedelicTranceAndMinimalMusic";
+    internal const string minimalTrance = "minimalTrance";
+    internal const string heavilyExperimentalFormOfOrchestralMusicKnownForItsSimplicity =
     "heavilyExperimentalFormOfOrchestralMusicKnownForItsSimplicity";
-    public const string minYo = "minYo";
-    public const string rockInspiredMeringueMusic = "rockInspiredMeringueMusic";
-    public const string minimalistStrippedDownFormOfHouseMusic = "minimalistStrippedDownFormOfHouseMusic";
-    public const string raveInspiredStyleOfHipHop = "raveInspiredStyleOfHipHop";
-    public const string miamiBass = "miamiBass";
-    public const string mexicanRock = "mexicanRock";
-    public const string fusionOfThrashMetalAndHardcorePunkOftenSungMelodically =
+    internal const string minYo = "minYo";
+    internal const string rockInspiredMeringueMusic = "rockInspiredMeringueMusic";
+    internal const string minimalistStrippedDownFormOfHouseMusic = "minimalistStrippedDownFormOfHouseMusic";
+    internal const string raveInspiredStyleOfHipHop = "raveInspiredStyleOfHipHop";
+    internal const string miamiBass = "miamiBass";
+    internal const string mexicanRock = "mexicanRock";
+    internal const string fusionOfThrashMetalAndHardcorePunkOftenSungMelodically =
     "fusionOfThrashMetalAndHardcorePunkOftenSungMelodically";
-    public const string meringue = "meringue";
-    public const string styleOfModernMerengueThatAttemptsToSoundSimilarToThCenturyMerengue =
+    internal const string meringue = "meringue";
+    internal const string styleOfModernMerengueThatAttemptsToSoundSimilarToThCenturyMerengue =
     "styleOfModernMerengueThatAttemptsToSoundSimilarToThCenturyMerengue";
-    public const string memphisSoul = "memphisSoul";
-    public const string memphisBlues = "memphisBlues";
-    public const string anyMusicThatUtilizesMelodyTheCombinationOfNotesSoThatTheyArePerceivedAsASingleStringOfMusic =
+    internal const string memphisSoul = "memphisSoul";
+    internal const string memphisBlues = "memphisBlues";
+    internal const string anyMusicThatUtilizesMelodyTheCombinationOfNotesSoThatTheyArePerceivedAsASingleStringOfMusic =
     "anyMusicThatUtilizesMelodyTheCombinationOfNotesSoThatTheyArePerceivedAsASingleStringOfMusic";
-    public const string fusionOfMelodicHardcoreAndMetalcore = "fusionOfMelodicHardcoreAndMetalcore";
-    public const string melodicMetalcore = "melodicMetalcore";
-    public const string styleOfHardcorePunkKnownForItsSlowerMelodicGuitarsJuxtaposedWithShoutedVocals =
+    internal const string fusionOfMelodicHardcoreAndMetalcore = "fusionOfMelodicHardcoreAndMetalcore";
+    internal const string melodicMetalcore = "melodicMetalcore";
+    internal const string styleOfHardcorePunkKnownForItsSlowerMelodicGuitarsJuxtaposedWithShoutedVocals =
     "styleOfHardcorePunkKnownForItsSlowerMelodicGuitarsJuxtaposedWithShoutedVocals";
-    public const string melodicHardcore = "melodicHardcore";
-    public const string medievalMetal = "medievalMetal";
-    public const string medievalFolkRock = "medievalFolkRock";
-    public const string anyMusicCreatedToAidMeditationProcedures = "anyMusicCreatedToAidMeditationProcedures";
-    public const string rhythmicallyComplexFormOfExperimentalRock = "rhythmicallyComplexFormOfExperimentalRock";
-    public const string mathRock = "mathRock";
-    public const string fusionOfMetalcoreAndMathRock = "fusionOfMetalcoreAndMathRock";
-    public const string aCapellaFlamencoMusic = "aCapellaFlamencoMusic";
-    public const string styleOfNeoFolkInformedByMilitaryMarchesAndMilitaristicThemes =
+    internal const string melodicHardcore = "melodicHardcore";
+    internal const string medievalMetal = "medievalMetal";
+    internal const string medievalFolkRock = "medievalFolkRock";
+    internal const string anyMusicCreatedToAidMeditationProcedures = "anyMusicCreatedToAidMeditationProcedures";
+    internal const string rhythmicallyComplexFormOfExperimentalRock = "rhythmicallyComplexFormOfExperimentalRock";
+    internal const string mathRock = "mathRock";
+    internal const string fusionOfMetalcoreAndMathRock = "fusionOfMetalcoreAndMathRock";
+    internal const string aCapellaFlamencoMusic = "aCapellaFlamencoMusic";
+    internal const string styleOfNeoFolkInformedByMilitaryMarchesAndMilitaristicThemes =
     "styleOfNeoFolkInformedByMilitaryMarchesAndMilitaristicThemes";
-    public const string martialIndustrial = "martialIndustrial";
-    public const string manilaSound = "manilaSound";
-    public const string mangueBit = "mangueBit";
-    public const string subgenreOfGangstaRapThatFocusesOnOrganizedCrime =
+    internal const string martialIndustrial = "martialIndustrial";
+    internal const string manilaSound = "manilaSound";
+    internal const string mangueBit = "mangueBit";
+    internal const string subgenreOfGangstaRapThatFocusesOnOrganizedCrime =
     "subgenreOfGangstaRapThatFocusesOnOrganizedCrime";
-    public const string mafiosoRap = "mafiosoRap";
-    public const string soothingSongSungToYoungChildrenToLullThemToSleep =
+    internal const string mafiosoRap = "mafiosoRap";
+    internal const string soothingSongSungToYoungChildrenToLullThemToSleep =
     "soothingSongSungToYoungChildrenToLullThemToSleep";
-    public const string lukThung = "lukThung";
-    public const string morePolishedFormOfLukThung = "morePolishedFormOfLukThung";
-    public const string lukKrung = "lukKrung";
-    public const string lubbockSound = "lubbockSound";
-    public const string extremeFormOfAmbientMusicConsistingOfLongPeriodsOfSilenceAndOccasionalVeryMinuteSounds =
+    internal const string lukThung = "lukThung";
+    internal const string morePolishedFormOfLukThung = "morePolishedFormOfLukThung";
+    internal const string lukKrung = "lukKrung";
+    internal const string lubbockSound = "lubbockSound";
+    internal const string extremeFormOfAmbientMusicConsistingOfLongPeriodsOfSilenceAndOccasionalVeryMinuteSounds =
     "extremeFormOfAmbientMusicConsistingOfLongPeriodsOfSilenceAndOccasionalVeryMinuteSounds";
-    public const string formOfReggaeFusionKnownForItsRomanticLyrics = "formOfReggaeFusionKnownForItsRomanticLyrics";
-    public const string loversRock = "loversRock";
-    public const string downtempoMusicIntendedToGiveTheListenerASenseOfBeingSomewhereElseIEAJungleOrOuterSpace =
+    internal const string formOfReggaeFusionKnownForItsRomanticLyrics = "formOfReggaeFusionKnownForItsRomanticLyrics";
+    internal const string loversRock = "loversRock";
+    internal const string downtempoMusicIntendedToGiveTheListenerASenseOfBeingSomewhereElseIEAJungleOrOuterSpace =
     "downtempoMusicIntendedToGiveTheListenerASenseOfBeingSomewhereElseIEAJungleOrOuterSpace";
-    public const string louisianaBlues = "louisianaBlues";
-    public const string longSong = "longSong";
-    public const string anyMusicRecordedAtAQualityLowerThanUsual = "anyMusicRecordedAtAQualityLowerThanUsual";
-    public const string formOfDrumAndBassWithAHeavyEmphasisOnMelody = "formOfDrumAndBassWithAHeavyEmphasisOnMelody";
-    public const string liquidFunk = "liquidFunk";
-    public const string legenyes = "legenyes";
-    public const string latinPop = "latinPop";
-    public const string latinMetal = "latinMetal";
-    public const string kwassaKwassa = "kwassaKwassa";
-    public const string kvaoi = "kvaoi";
-    public const string kiwiRock = "kiwiRock";
-    public const string kacapiSuling = "kacapiSuling";
-    public const string kayokyoku = "kayokyoku";
-    public const string kawachiOndo = "kawachiOndo";
-    public const string kachashi = "kachashi";
-    public const string kansasCityBlues = "kansasCityBlues";
-    public const string kanHaDiskan = "kanHaDiskan";
-    public const string kalamatiano = "kalamatiano";
-    public const string fasterFormOfProgressiveHouse = "fasterFormOfProgressiveHouse";
-    public const string uptempoBluesMusicPlayedWithHorns = "uptempoBluesMusicPlayedWithHorns";
-    public const string jumpBlues = "jumpBlues";
-    public const string juju = "juju";
-    public const string fusionOfBluesAndSoul = "fusionOfBluesAndSoul";
-    public const string jukeJointBlues = "jukeJointBlues";
-    public const string fusionOfGamelanAndJoged = "fusionOfGamelanAndJoged";
-    public const string jogedBumbung = "jogedBumbung";
-    public const string anyMusicThatAccompaniedTheDanceOfTheSameName = "anyMusicThatAccompaniedTheDanceOfTheSameName";
-    public const string shortCatchySongUsedInAdvertising = "shortCatchySongUsedInAdvertising";
-    public const string jingPing = "jingPing";
-    public const string gamelanPlayedWithBambooBasedInstruments = "gamelanPlayedWithBambooBasedInstruments";
-    public const string fusionOfJazzAndHipHop = "fusionOfJazzAndHipHop";
-    public const string jazzRap = "jazzRap";
-    public const string anyMusicThatFusesSomethingWithJazzParticularlyJazzRock =
+    internal const string louisianaBlues = "louisianaBlues";
+    internal const string longSong = "longSong";
+    internal const string anyMusicRecordedAtAQualityLowerThanUsual = "anyMusicRecordedAtAQualityLowerThanUsual";
+    internal const string formOfDrumAndBassWithAHeavyEmphasisOnMelody = "formOfDrumAndBassWithAHeavyEmphasisOnMelody";
+    internal const string liquidFunk = "liquidFunk";
+    internal const string legenyes = "legenyes";
+    internal const string latinPop = "latinPop";
+    internal const string latinMetal = "latinMetal";
+    internal const string kwassaKwassa = "kwassaKwassa";
+    internal const string kvaoi = "kvaoi";
+    internal const string kiwiRock = "kiwiRock";
+    internal const string kacapiSuling = "kacapiSuling";
+    internal const string kayokyoku = "kayokyoku";
+    internal const string kawachiOndo = "kawachiOndo";
+    internal const string kachashi = "kachashi";
+    internal const string kansasCityBlues = "kansasCityBlues";
+    internal const string kanHaDiskan = "kanHaDiskan";
+    internal const string kalamatiano = "kalamatiano";
+    internal const string fasterFormOfProgressiveHouse = "fasterFormOfProgressiveHouse";
+    internal const string uptempoBluesMusicPlayedWithHorns = "uptempoBluesMusicPlayedWithHorns";
+    internal const string jumpBlues = "jumpBlues";
+    internal const string juju = "juju";
+    internal const string fusionOfBluesAndSoul = "fusionOfBluesAndSoul";
+    internal const string jukeJointBlues = "jukeJointBlues";
+    internal const string fusionOfGamelanAndJoged = "fusionOfGamelanAndJoged";
+    internal const string jogedBumbung = "jogedBumbung";
+    internal const string anyMusicThatAccompaniedTheDanceOfTheSameName = "anyMusicThatAccompaniedTheDanceOfTheSameName";
+    internal const string shortCatchySongUsedInAdvertising = "shortCatchySongUsedInAdvertising";
+    internal const string jingPing = "jingPing";
+    internal const string gamelanPlayedWithBambooBasedInstruments = "gamelanPlayedWithBambooBasedInstruments";
+    internal const string fusionOfJazzAndHipHop = "fusionOfJazzAndHipHop";
+    internal const string jazzRap = "jazzRap";
+    internal const string anyMusicThatFusesSomethingWithJazzParticularlyJazzRock =
     "anyMusicThatFusesSomethingWithJazzParticularlyJazzRock";
-    public const string jazzFusion = "jazzFusion";
-    public const string fusionOfJazzAndFunkMusic = "fusionOfJazzAndFunkMusic";
-    public const string fusionOfJazzAndBluesMusic = "fusionOfJazzAndBluesMusic";
-    public const string jazzBlues = "jazzBlues";
-    public const string jaranaYucateca = "jaranaYucateca";
-    public const string styleOfIndiePopKnownForItsUpliftingJanglySounds =
+    internal const string jazzFusion = "jazzFusion";
+    internal const string fusionOfJazzAndFunkMusic = "fusionOfJazzAndFunkMusic";
+    internal const string fusionOfJazzAndBluesMusic = "fusionOfJazzAndBluesMusic";
+    internal const string jazzBlues = "jazzBlues";
+    internal const string jaranaYucateca = "jaranaYucateca";
+    internal const string styleOfIndiePopKnownForItsUpliftingJanglySounds =
     "styleOfIndiePopKnownForItsUpliftingJanglySounds";
-    public const string janglePop = "janglePop";
-    public const string jamriengSamai = "jamriengSamai";
-    public const string izvornaBosanska = "izvornaBosanska";
-    public const string italoHouse = "italoHouse";
-    public const string italoDisco = "italoDisco";
-    public const string italoDance = "italoDance";
-    public const string styleOfAmbientThatUsesRepetitionAndDissonanceToCreateASenseOfUneasiness =
+    internal const string janglePop = "janglePop";
+    internal const string jamriengSamai = "jamriengSamai";
+    internal const string izvornaBosanska = "izvornaBosanska";
+    internal const string italoHouse = "italoHouse";
+    internal const string italoDisco = "italoDisco";
+    internal const string italoDance = "italoDance";
+    internal const string styleOfAmbientThatUsesRepetitionAndDissonanceToCreateASenseOfUneasiness =
     "styleOfAmbientThatUsesRepetitionAndDissonanceToCreateASenseOfUneasiness";
-    public const string irishRebel = "irishRebel";
-    public const string irishFolk = "irishFolk";
-    public const string
+    internal const string irishRebel = "irishRebel";
+    internal const string irishFolk = "irishFolk";
+    internal const string
     moreExperimentalAndIntellectualFormOfElectronicaSoCalledToDistinguishItselfFromTheCommercialistTrendsInRaveMusic =
     "moreExperimentalAndIntellectualFormOfElectronicaSoCalledToDistinguishItselfFromTheCommercialistTrendsInRaveMusic";
-    public const string intelligentDance = "intelligentDance";
-    public const string anyRockMusicThatNeglectsVocals = "anyRockMusicThatNeglectsVocals";
-    public const string instrumentalRock = "instrumentalRock";
-    public const string musicThatHadNoLyrics = "musicThatHadNoLyrics";
-    public const string fusionOfIndustrialAndRockMusic = "fusionOfIndustrialAndRockMusic";
-    public const string industrialRock = "industrialRock";
-    public const string fusionOfIndustrialAndHeavyMetalMusic = "fusionOfIndustrialAndHeavyMetalMusic";
-    public const string industrialMetal = "industrialMetal";
-    public const string musicalTheaterPerformedByTheWorkersOfACompanyToPromoteTeamwork =
+    internal const string intelligentDance = "intelligentDance";
+    internal const string anyRockMusicThatNeglectsVocals = "anyRockMusicThatNeglectsVocals";
+    internal const string instrumentalRock = "instrumentalRock";
+    internal const string musicThatHadNoLyrics = "musicThatHadNoLyrics";
+    internal const string fusionOfIndustrialAndRockMusic = "fusionOfIndustrialAndRockMusic";
+    internal const string industrialRock = "industrialRock";
+    internal const string fusionOfIndustrialAndHeavyMetalMusic = "fusionOfIndustrialAndHeavyMetalMusic";
+    internal const string industrialMetal = "industrialMetal";
+    internal const string musicalTheaterPerformedByTheWorkersOfACompanyToPromoteTeamwork =
     "musicalTheaterPerformedByTheWorkersOfACompanyToPromoteTeamwork";
-    public const string industrialMusical = "industrialMusical";
-    public const string fusionOfIndustrialAndHipHopMusic = "fusionOfIndustrialAndHipHopMusic";
-    public const string industrialHipHop = "industrialHipHop";
-    public const string fusionOfIndustrialAndDeathMetal = "fusionOfIndustrialAndDeathMetal";
-    public const string industrialDeathMetal = "industrialDeathMetal";
-    public const string indoJazz = "indoJazz";
-    public const string genericTermForRockMusicLinkedToTheIndieSubculture =
+    internal const string industrialMusical = "industrialMusical";
+    internal const string fusionOfIndustrialAndHipHopMusic = "fusionOfIndustrialAndHipHopMusic";
+    internal const string industrialHipHop = "industrialHipHop";
+    internal const string fusionOfIndustrialAndDeathMetal = "fusionOfIndustrialAndDeathMetal";
+    internal const string industrialDeathMetal = "industrialDeathMetal";
+    internal const string indoJazz = "indoJazz";
+    internal const string genericTermForRockMusicLinkedToTheIndieSubculture =
     "genericTermForRockMusicLinkedToTheIndieSubculture";
-    public const string indieRock = "indieRock";
-    public const string aMelodicOftenAngstFreeAndOptimisticFormOfPopRockAssociatedWithTheIndieScene =
+    internal const string indieRock = "indieRock";
+    internal const string aMelodicOftenAngstFreeAndOptimisticFormOfPopRockAssociatedWithTheIndieScene =
     "aMelodicOftenAngstFreeAndOptimisticFormOfPopRockAssociatedWithTheIndieScene";
-    public const string indiePop = "indiePop";
-    public const string fusionOfIndieRockAndFolkMusic = "fusionOfIndieRockAndFolkMusic";
-    public const string indieFolk = "indieFolk";
-    public const string musicPlayedInTheBackgroundOfAFilmOrPlay = "musicPlayedInTheBackgroundOfAFilmOrPlay";
-    public const string anyKindOfMusicThatIsMadeUpOnTheSpot = "anyKindOfMusicThatIsMadeUpOnTheSpot";
-    public const string formOfAmbientInspiredByDubInItsUseOfLayeringAndHipHopInItsUseOfSampling =
+    internal const string indiePop = "indiePop";
+    internal const string fusionOfIndieRockAndFolkMusic = "fusionOfIndieRockAndFolkMusic";
+    internal const string indieFolk = "indieFolk";
+    internal const string musicPlayedInTheBackgroundOfAFilmOrPlay = "musicPlayedInTheBackgroundOfAFilmOrPlay";
+    internal const string anyKindOfMusicThatIsMadeUpOnTheSpot = "anyKindOfMusicThatIsMadeUpOnTheSpot";
+    internal const string formOfAmbientInspiredByDubInItsUseOfLayeringAndHipHopInItsUseOfSampling =
     "formOfAmbientInspiredByDubInItsUseOfLayeringAndHipHopInItsUseOfSampling";
-    public const string anyReligiousSong = "anyReligiousSong";
-    public const string huayno = "huayno";
-    public const string punkThatIsLyricallyInspiredBySHorrorBMoviesOftenInAnIronicWay =
+    internal const string anyReligiousSong = "anyReligiousSong";
+    internal const string huayno = "huayno";
+    internal const string punkThatIsLyricallyInspiredBySHorrorBMoviesOftenInAnIronicWay =
     "punkThatIsLyricallyInspiredBySHorrorBMoviesOftenInAnIronicWay";
-    public const string horrorPunk = "horrorPunk";
-    public const string hipHopKnownForDarkHorrorInspiredLyrics = "hipHopKnownForDarkHorrorInspiredLyrics";
-    public const string crispCleanFormOfCountry = "crispCleanFormOfCountry";
-    public const string hindustaniClassical = "hindustaniClassical";
-    public const string fusionOfHipHopAndHouseMusic = "fusionOfHipHopAndHouseMusic";
-    public const string hipHouse = "hipHouse";
-    public const string hipHop = "hipHop";
-    public const string fusionOfHighlifeAndHipHop = "fusionOfHighlifeAndHipHop";
-    public const string technicallyProficientFastPacedAggressiveFormOfHardRock =
+    internal const string horrorPunk = "horrorPunk";
+    internal const string hipHopKnownForDarkHorrorInspiredLyrics = "hipHopKnownForDarkHorrorInspiredLyrics";
+    internal const string crispCleanFormOfCountry = "crispCleanFormOfCountry";
+    internal const string hindustaniClassical = "hindustaniClassical";
+    internal const string fusionOfHipHopAndHouseMusic = "fusionOfHipHopAndHouseMusic";
+    internal const string hipHouse = "hipHouse";
+    internal const string hipHop = "hipHop";
+    internal const string fusionOfHighlifeAndHipHop = "fusionOfHighlifeAndHipHop";
+    internal const string technicallyProficientFastPacedAggressiveFormOfHardRock =
     "technicallyProficientFastPacedAggressiveFormOfHardRock";
-    public const string heavyMetal = "heavyMetal";
-    public const string heartlandRock = "heartlandRock";
-    public const string harmonicaBlues = "harmonicaBlues";
-    public const string heavyReverberatingStyleOfTranceMusic = "heavyReverberatingStyleOfTranceMusic";
-    public const string hardTrance = "hardTrance";
-    public const string grittyHeavyStyleOfDrumBass = "grittyHeavyStyleOfDrumBass";
-    public const string hardRock = "hardRock";
-    public const string fusionOfHardstyleAndHouseMusic = "fusionOfHardstyleAndHouseMusic";
-    public const string hardHouse = "hardHouse";
-    public const string styleOfBebopInformedByGospelRBAndBlues = "styleOfBebopInformedByGospelRBAndBlues";
-    public const string hardBop = "hardBop";
-    public const string styleOfTechnoKnownForDistortedIndustrialEsqueBeats =
+    internal const string heavyMetal = "heavyMetal";
+    internal const string heartlandRock = "heartlandRock";
+    internal const string harmonicaBlues = "harmonicaBlues";
+    internal const string heavyReverberatingStyleOfTranceMusic = "heavyReverberatingStyleOfTranceMusic";
+    internal const string hardTrance = "hardTrance";
+    internal const string grittyHeavyStyleOfDrumBass = "grittyHeavyStyleOfDrumBass";
+    internal const string hardRock = "hardRock";
+    internal const string fusionOfHardstyleAndHouseMusic = "fusionOfHardstyleAndHouseMusic";
+    internal const string hardHouse = "hardHouse";
+    internal const string styleOfBebopInformedByGospelRBAndBlues = "styleOfBebopInformedByGospelRBAndBlues";
+    internal const string hardBop = "hardBop";
+    internal const string styleOfTechnoKnownForDistortedIndustrialEsqueBeats =
     "styleOfTechnoKnownForDistortedIndustrialEsqueBeats";
-    public const string hardcoreTechno = "hardcoreTechno";
-    public const string heavyMetalInformedStyleOfPunk = "heavyMetalInformedStyleOfPunk";
-    public const string hardcorePunk = "hardcorePunk";
-    public const string aggressiveAndConfrontationalFormOfHipHop = "aggressiveAndConfrontationalFormOfHipHop";
-    public const string hardcoreHipHop = "hardcoreHipHop";
-    public const string incrediblyFastUpbeatAndOptimisticStyleOfHardcoreTechno =
+    internal const string hardcoreTechno = "hardcoreTechno";
+    internal const string heavyMetalInformedStyleOfPunk = "heavyMetalInformedStyleOfPunk";
+    internal const string hardcorePunk = "hardcorePunk";
+    internal const string aggressiveAndConfrontationalFormOfHipHop = "aggressiveAndConfrontationalFormOfHipHop";
+    internal const string hardcoreHipHop = "hardcoreHipHop";
+    internal const string incrediblyFastUpbeatAndOptimisticStyleOfHardcoreTechno =
     "incrediblyFastUpbeatAndOptimisticStyleOfHardcoreTechno";
-    public const string happyHardcore = "happyHardcore";
-    public const string hamburgerSchule = "hamburgerSchule";
-    public const string gypsyPunk = "gypsyPunk";
-    public const string gypsyJazz = "gypsyJazz";
-    public const string modernizedFormOfGwoKa = "modernizedFormOfGwoKa";
-    public const string gwoKaModerne = "gwoKaModerne";
-    public const string gwoKa = "gwoKa";
-    public const string minimalistStyleOfAlternativeMetalKnownForItsHeavilyDistortedGuitarsAndAngstRiddenLyrics =
+    internal const string happyHardcore = "happyHardcore";
+    internal const string hamburgerSchule = "hamburgerSchule";
+    internal const string gypsyPunk = "gypsyPunk";
+    internal const string gypsyJazz = "gypsyJazz";
+    internal const string modernizedFormOfGwoKa = "modernizedFormOfGwoKa";
+    internal const string gwoKaModerne = "gwoKaModerne";
+    internal const string gwoKa = "gwoKa";
+    internal const string minimalistStyleOfAlternativeMetalKnownForItsHeavilyDistortedGuitarsAndAngstRiddenLyrics =
     "minimalistStyleOfAlternativeMetalKnownForItsHeavilyDistortedGuitarsAndAngstRiddenLyrics";
-    public const string groupSounds = "groupSounds";
-    public const string styleOfHeavyMetalThatTookElementsOfThrashButPlayedAtMidTempoMakingASlowerGroovierSound =
+    internal const string groupSounds = "groupSounds";
+    internal const string styleOfHeavyMetalThatTookElementsOfThrashButPlayedAtMidTempoMakingASlowerGroovierSound =
     "styleOfHeavyMetalThatTookElementsOfThrashButPlayedAtMidTempoMakingASlowerGroovierSound";
-    public const string grooveMetal = "grooveMetal";
-    public const string gregorianChant = "gregorianChant";
-    public const string gothicRock = "gothicRock";
-    public const string fusionOfGothicRockAndHeavyMetal = "fusionOfGothicRockAndHeavyMetal";
-    public const string gothicMetal = "gothicMetal";
-    public const string anAttemptToModernizeReligiousMusic = "anAttemptToModernizeReligiousMusic";
-    public const string goshuOndo = "goshuOndo";
-    public const string styleOfGrindcoreKnownForItsLyricalFocusOnGoreAndForensics =
+    internal const string grooveMetal = "grooveMetal";
+    internal const string gregorianChant = "gregorianChant";
+    internal const string gothicRock = "gothicRock";
+    internal const string fusionOfGothicRockAndHeavyMetal = "fusionOfGothicRockAndHeavyMetal";
+    internal const string gothicMetal = "gothicMetal";
+    internal const string anAttemptToModernizeReligiousMusic = "anAttemptToModernizeReligiousMusic";
+    internal const string goshuOndo = "goshuOndo";
+    internal const string styleOfGrindcoreKnownForItsLyricalFocusOnGoreAndForensics =
     "styleOfGrindcoreKnownForItsLyricalFocusOnGoreAndForensics";
-    public const string gongChime = "gongChime";
-    public const string goaTrance = "goaTrance";
-    public const string styleOfFunkKnownForItsSyncopatedRhythmsAndCallAndResponseVocals =
+    internal const string gongChime = "gongChime";
+    internal const string goaTrance = "goaTrance";
+    internal const string styleOfFunkKnownForItsSyncopatedRhythmsAndCallAndResponseVocals =
     "styleOfFunkKnownForItsSyncopatedRhythmsAndCallAndResponseVocals";
-    public const string looselyDefinedPopRockWhichIncludedHeavyThemesOfGenderBendingAndAndrogyny =
+    internal const string looselyDefinedPopRockWhichIncludedHeavyThemesOfGenderBendingAndAndrogyny =
     "looselyDefinedPopRockWhichIncludedHeavyThemesOfGenderBendingAndAndrogyny";
-    public const string glamRock = "glamRock";
-    public const string fusionOfGlamAndPunkRock = "fusionOfGlamAndPunkRock";
-    public const string glamPunk = "glamPunk";
-    public const string aSubgenreOfHeavyMetalWithElementsOfGlamRockHardRockAndPopRock =
+    internal const string glamRock = "glamRock";
+    internal const string fusionOfGlamAndPunkRock = "fusionOfGlamAndPunkRock";
+    internal const string glamPunk = "glamPunk";
+    internal const string aSubgenreOfHeavyMetalWithElementsOfGlamRockHardRockAndPopRock =
     "aSubgenreOfHeavyMetalWithElementsOfGlamRockHardRockAndPopRock";
-    public const string glamMetal = "glamMetal";
-    public const string anyAllFemalePopOrRockGroup = "anyAllFemalePopOrRockGroup";
-    public const string girlGroup = "girlGroup";
-    public const string ghettoHouse = "ghettoHouse";
-    public const string germanFolk = "germanFolk";
-    public const string genderWayang = "genderWayang";
-    public const string rawAndEnergeticStyleOfRockOftenPractisedByHighSchoolBandsInGarages =
+    internal const string glamMetal = "glamMetal";
+    internal const string anyAllFemalePopOrRockGroup = "anyAllFemalePopOrRockGroup";
+    internal const string girlGroup = "girlGroup";
+    internal const string ghettoHouse = "ghettoHouse";
+    internal const string germanFolk = "germanFolk";
+    internal const string genderWayang = "genderWayang";
+    internal const string rawAndEnergeticStyleOfRockOftenPractisedByHighSchoolBandsInGarages =
     "rawAndEnergeticStyleOfRockOftenPractisedByHighSchoolBandsInGarages";
-    public const string garageRock = "garageRock";
-    public const string garageHouse = "garageHouse";
-    public const string hipHopThatDealsWithIllegalActivity = "hipHopThatDealsWithIllegalActivity";
-    public const string gangsterRap = "gangsterRap";
-    public const string gamelanSemarPegulingan = "gamelanSemarPegulingan";
-    public const string gamelanSelunding = "gamelanSelunding";
-    public const string gamelanSalendro = "gamelanSalendro";
-    public const string gamelanGongKebyar = "gamelanGongKebyar";
-    public const string gamelanDegung = "gamelanDegung";
-    public const string gamelanBebonangan = "gamelanBebonangan";
-    public const string gaitaZuliana = "gaitaZuliana";
-    public const string styleOfDarkMetalAndCrustPunk = "styleOfDarkMetalAndCrustPunk";
-    public const string futureGarage = "futureGarage";
-    public const string fusionOfJazzAndRockMusic = "fusionOfJazzAndRockMusic";
-    public const string fusionJazz = "fusionJazz";
-    public const string aCalmingLiveFormOfBackgroundMusic = "aCalmingLiveFormOfBackgroundMusic";
-    public const string furnitureMusic = "furnitureMusic";
-    public const string fusionOfFunkAndHouseMusic = "fusionOfFunkAndHouseMusic";
-    public const string funkyHouse = "funkyHouse";
-    public const string fusionOfFunkAndRockMusic = "fusionOfFunkAndRockMusic";
-    public const string funkRock = "funkRock";
-    public const string fusionOfFunkAndHeavyMetalRock = "fusionOfFunkAndHeavyMetalRock";
-    public const string funkMetal = "funkMetal";
-    public const string
+    internal const string garageRock = "garageRock";
+    internal const string garageHouse = "garageHouse";
+    internal const string hipHopThatDealsWithIllegalActivity = "hipHopThatDealsWithIllegalActivity";
+    internal const string gangsterRap = "gangsterRap";
+    internal const string gamelanSemarPegulingan = "gamelanSemarPegulingan";
+    internal const string gamelanSelunding = "gamelanSelunding";
+    internal const string gamelanSalendro = "gamelanSalendro";
+    internal const string gamelanGongKebyar = "gamelanGongKebyar";
+    internal const string gamelanDegung = "gamelanDegung";
+    internal const string gamelanBebonangan = "gamelanBebonangan";
+    internal const string gaitaZuliana = "gaitaZuliana";
+    internal const string styleOfDarkMetalAndCrustPunk = "styleOfDarkMetalAndCrustPunk";
+    internal const string futureGarage = "futureGarage";
+    internal const string fusionOfJazzAndRockMusic = "fusionOfJazzAndRockMusic";
+    internal const string fusionJazz = "fusionJazz";
+    internal const string aCalmingLiveFormOfBackgroundMusic = "aCalmingLiveFormOfBackgroundMusic";
+    internal const string furnitureMusic = "furnitureMusic";
+    internal const string fusionOfFunkAndHouseMusic = "fusionOfFunkAndHouseMusic";
+    internal const string funkyHouse = "funkyHouse";
+    internal const string fusionOfFunkAndRockMusic = "fusionOfFunkAndRockMusic";
+    internal const string funkRock = "funkRock";
+    internal const string fusionOfFunkAndHeavyMetalRock = "fusionOfFunkAndHeavyMetalRock";
+    internal const string funkMetal = "funkMetal";
+    internal const string
     combinationOfElementsOfBluesJazzAndSoulWithTheMelodiesAndHarmoniesStrippedInOrderToEmphasizeTheBassGuitar =
     "combinationOfElementsOfBluesJazzAndSoulWithTheMelodiesAndHarmoniesStrippedInOrderToEmphasizeTheBassGuitar";
-    public const string incrediblySlowStyleOfDoomMetalMadeToMimicFuneralMusic =
+    internal const string incrediblySlowStyleOfDoomMetalMadeToMimicFuneralMusic =
     "incrediblySlowStyleOfDoomMetalMadeToMimicFuneralMusic";
-    public const string funeralDoom = "funeralDoom";
-    public const string funana = "funana";
-    public const string styleOfPsychedelicTranceKnownForItsRollingBaselinesAndConfrontationalThemes =
+    internal const string funeralDoom = "funeralDoom";
+    internal const string funana = "funana";
+    internal const string styleOfPsychedelicTranceKnownForItsRollingBaselinesAndConfrontationalThemes =
     "styleOfPsychedelicTranceKnownForItsRollingBaselinesAndConfrontationalThemes";
-    public const string fullOnTrance = "fullOnTrance";
-    public const string styleOfTechnoDevelopedByAnarchists = "styleOfTechnoDevelopedByAnarchists";
-    public const string freeTekno = "freeTekno";
-    public const string anyMusicReleasedWithoutAPricing = "anyMusicReleasedWithoutAPricing";
-    public const string freeMusic = "freeMusic";
-    public const string freelyImprovisedJazzMusic = "freelyImprovisedJazzMusic";
-    public const string freeJazz = "freeJazz";
-    public const string completelyUncontrolledImprovisation = "completelyUncontrolledImprovisation";
-    public const string freeImprovisation = "freeImprovisation";
-    public const string experimentalStyleOfFolkOftenFolkRock = "experimentalStyleOfFolkOftenFolkRock";
-    public const string freakFolk = "freakFolk";
-    public const string forro = "forro";
-    public const string fusionOfFolkAndElectronicMusic = "fusionOfFolkAndElectronicMusic";
-    public const string fusionOfFolkAndRockMusic = "fusionOfFolkAndRockMusic";
-    public const string folkRock = "folkRock";
-    public const string fusionOfFolkAndPunkRock = "fusionOfFolkAndPunkRock";
-    public const string folkPunk = "folkPunk";
-    public const string fusionOfFolkAndPopMusic = "fusionOfFolkAndPopMusic";
-    public const string folkPop = "folkPop";
-    public const string broadTermUsedToReferToTheTraditionalMusicOfAnEthnicGroupUsuallyThatPerformedByTheWorkingClass =
+    internal const string fullOnTrance = "fullOnTrance";
+    internal const string styleOfTechnoDevelopedByAnarchists = "styleOfTechnoDevelopedByAnarchists";
+    internal const string freeTekno = "freeTekno";
+    internal const string anyMusicReleasedWithoutAPricing = "anyMusicReleasedWithoutAPricing";
+    internal const string freeMusic = "freeMusic";
+    internal const string freelyImprovisedJazzMusic = "freelyImprovisedJazzMusic";
+    internal const string freeJazz = "freeJazz";
+    internal const string completelyUncontrolledImprovisation = "completelyUncontrolledImprovisation";
+    internal const string freeImprovisation = "freeImprovisation";
+    internal const string experimentalStyleOfFolkOftenFolkRock = "experimentalStyleOfFolkOftenFolkRock";
+    internal const string freakFolk = "freakFolk";
+    internal const string forro = "forro";
+    internal const string fusionOfFolkAndElectronicMusic = "fusionOfFolkAndElectronicMusic";
+    internal const string fusionOfFolkAndRockMusic = "fusionOfFolkAndRockMusic";
+    internal const string folkRock = "folkRock";
+    internal const string fusionOfFolkAndPunkRock = "fusionOfFolkAndPunkRock";
+    internal const string folkPunk = "folkPunk";
+    internal const string fusionOfFolkAndPopMusic = "fusionOfFolkAndPopMusic";
+    internal const string folkPop = "folkPop";
+    internal const string broadTermUsedToReferToTheTraditionalMusicOfAnEthnicGroupUsuallyThatPerformedByTheWorkingClass =
     "broadTermUsedToReferToTheTraditionalMusicOfAnEthnicGroupUsuallyThatPerformedByTheWorkingClass";
-    public const string fusionOfFolkAndHeavyMetalRock = "fusionOfFolkAndHeavyMetalRock";
-    public const string folkMetal = "folkMetal";
-    public const string theActOfPluckingGuitarStringsWithTheFingertips =
+    internal const string fusionOfFolkAndHeavyMetalRock = "fusionOfFolkAndHeavyMetalRock";
+    internal const string folkMetal = "folkMetal";
+    internal const string theActOfPluckingGuitarStringsWithTheFingertips =
     "theActOfPluckingGuitarStringsWithTheFingertips";
-    public const string fusionOfFilmiAndGhazalPoetry = "fusionOfFilmiAndGhazalPoetry";
-    public const string anyMusicWrittenToActAsASoundtrackToAMotionPicture =
+    internal const string fusionOfFilmiAndGhazalPoetry = "fusionOfFilmiAndGhazalPoetry";
+    internal const string anyMusicWrittenToActAsASoundtrackToAMotionPicture =
     "anyMusicWrittenToActAsASoundtrackToAMotionPicture";
-    public const string filmScore = "filmScore";
-    public const string styleOfFolkSometimesExpandingToOtherGenresWithHeavyScienceFictionOrFantasyThemes =
+    internal const string filmScore = "filmScore";
+    internal const string styleOfFolkSometimesExpandingToOtherGenresWithHeavyScienceFictionOrFantasyThemes =
     "styleOfFolkSometimesExpandingToOtherGenresWithHeavyScienceFictionOrFantasyThemes";
-    public const string aLightFormOfFlamenco = "aLightFormOfFlamenco";
-    public const string umbrellaTermForAggressiveNonCommercialFormsOfHeavyMetal =
+    internal const string aLightFormOfFlamenco = "aLightFormOfFlamenco";
+    internal const string umbrellaTermForAggressiveNonCommercialFormsOfHeavyMetal =
     "umbrellaTermForAggressiveNonCommercialFormsOfHeavyMetal";
-    public const string extremeMetal = "extremeMetal";
-    public const string fusionOfExperimentalAndRockMusic = "fusionOfExperimentalAndRockMusic";
-    public const string experimentalRock = "experimentalRock";
-    public const string anyMusicThatBreachesContemporaryStandardsOfMusic =
+    internal const string extremeMetal = "extremeMetal";
+    internal const string fusionOfExperimentalAndRockMusic = "fusionOfExperimentalAndRockMusic";
+    internal const string experimentalRock = "experimentalRock";
+    internal const string anyMusicThatBreachesContemporaryStandardsOfMusic =
     "anyMusicThatBreachesContemporaryStandardsOfMusic";
-    public const string euroHouse = "euroHouse";
-    public const string euroDisco = "euroDisco";
-    public const string atmosphericSubgenreOfDarkWave = "atmosphericSubgenreOfDarkWave";
-    public const string etherealWave = "etherealWave";
-    public const string eremwuEu = "eremwuEu";
-    public const string heavilyEmotionalAndPessimisticStyleOfPostHardcorePunk =
+    internal const string euroHouse = "euroHouse";
+    internal const string euroDisco = "euroDisco";
+    internal const string atmosphericSubgenreOfDarkWave = "atmosphericSubgenreOfDarkWave";
+    internal const string etherealWave = "etherealWave";
+    internal const string eremwuEu = "eremwuEu";
+    internal const string heavilyEmotionalAndPessimisticStyleOfPostHardcorePunk =
     "heavilyEmotionalAndPessimisticStyleOfPostHardcorePunk";
-    public const string
+    internal const string
     comfortableAndSoothingMusicDesignedForAndPlayedInShoppingMallsUsuallyElevatorsThereinToCreateASenseOfAmbienceAndComfort =
     "comfortableAndSoothingMusicDesignedForAndPlayedInShoppingMallsUsuallyElevatorsThereinToCreateASenseOfAmbienceAndComfort";
-    public const string elevatorMusic = "elevatorMusic";
-    public const string fusionOfElectronicAndPunk = "fusionOfElectronicAndPunk";
-    public const string fusionOfElectronicAndPopMusic = "fusionOfElectronicAndPopMusic";
-    public const string popularMusicThatIncludesElectronicInstruments = "popularMusicThatIncludesElectronicInstruments";
-    public const string fusionOfElectronicAndRockMusic = "fusionOfElectronicAndRockMusic";
-    public const string electronicRock = "electronicRock";
-    public const string electronicMusic = "electronicMusic";
-    public const string electronicDance = "electronicDance";
-    public const string electronicBodyMusic = "electronicBodyMusic";
-    public const string fusionOfSSynthpopAndSTechno = "fusionOfSSynthpopAndSTechno";
-    public const string electroSwing = "electroSwing";
-    public const string aStyleOfPostIndustrialWhichUsedHeavilyProducedAndLayeredSynths =
+    internal const string elevatorMusic = "elevatorMusic";
+    internal const string fusionOfElectronicAndPunk = "fusionOfElectronicAndPunk";
+    internal const string fusionOfElectronicAndPopMusic = "fusionOfElectronicAndPopMusic";
+    internal const string popularMusicThatIncludesElectronicInstruments = "popularMusicThatIncludesElectronicInstruments";
+    internal const string fusionOfElectronicAndRockMusic = "fusionOfElectronicAndRockMusic";
+    internal const string electronicRock = "electronicRock";
+    internal const string electronicMusic = "electronicMusic";
+    internal const string electronicDance = "electronicDance";
+    internal const string electronicBodyMusic = "electronicBodyMusic";
+    internal const string fusionOfSSynthpopAndSTechno = "fusionOfSSynthpopAndSTechno";
+    internal const string electroSwing = "electroSwing";
+    internal const string aStyleOfPostIndustrialWhichUsedHeavilyProducedAndLayeredSynths =
     "aStyleOfPostIndustrialWhichUsedHeavilyProducedAndLayeredSynths";
-    public const string electroBackbeat = "electroBackbeat";
-    public const string electricFolk = "electricFolk";
-    public const string styleOfBluesPlayedWithElectricInstrumentsMostNotablyTheElectricGuitar =
+    internal const string electroBackbeat = "electroBackbeat";
+    internal const string electricFolk = "electricFolk";
+    internal const string styleOfBluesPlayedWithElectricInstrumentsMostNotablyTheElectricGuitar =
     "styleOfBluesPlayedWithElectricInstrumentsMostNotablyTheElectricGuitar";
-    public const string electricBlues = "electricBlues";
-    public const string popStyleAimedAtOlderListeners = "popStyleAimedAtOlderListeners";
-    public const string easyListening = "easyListening";
-    public const string eastCoastHipHop = "eastCoastHipHop";
-    public const string eastCoastBlues = "eastCoastBlues";
-    public const string umbrellaTermForAnyMusicMadeFromThePrehistoricEraUntilTheAdventOfBaroqueMusic =
+    internal const string electricBlues = "electricBlues";
+    internal const string popStyleAimedAtOlderListeners = "popStyleAimedAtOlderListeners";
+    internal const string easyListening = "easyListening";
+    internal const string eastCoastHipHop = "eastCoastHipHop";
+    internal const string eastCoastBlues = "eastCoastBlues";
+    internal const string umbrellaTermForAnyMusicMadeFromThePrehistoricEraUntilTheAdventOfBaroqueMusic =
     "umbrellaTermForAnyMusicMadeFromThePrehistoricEraUntilTheAdventOfBaroqueMusic";
-    public const string dutchJazz = "dutchJazz";
-    public const string dunedinSound = "dunedinSound";
-    public const string fusionOfDubstepAndHardstyle = "fusionOfDubstepAndHardstyle";
-    public const string
+    internal const string dutchJazz = "dutchJazz";
+    internal const string dunedinSound = "dunedinSound";
+    internal const string fusionOfDubstepAndHardstyle = "fusionOfDubstepAndHardstyle";
+    internal const string
     subgenreOfReggaeInWhichPreExistingTracksAreHeavilyRemixedEmphasizingTheDrumAndBassOrRiddimAndDubbingSnippetsFromOtherWorks =
     "subgenreOfReggaeInWhichPreExistingTracksAreHeavilyRemixedEmphasizingTheDrumAndBassOrRiddimAndDubbingSnippetsFromOtherWorks";
-    public const string fusionOfDrumAndBassAndDubstep = "fusionOfDrumAndBassAndDubstep";
-    public const string drumAndBass = "drumAndBass";
-    public const string experimentalStyleOfMinimalismKnownForDrawnOutAndRepetitiveTonesGivingItADroningFeel =
+    internal const string fusionOfDrumAndBassAndDubstep = "fusionOfDrumAndBassAndDubstep";
+    internal const string drumAndBass = "drumAndBass";
+    internal const string experimentalStyleOfMinimalismKnownForDrawnOutAndRepetitiveTonesGivingItADroningFeel =
     "experimentalStyleOfMinimalismKnownForDrawnOutAndRepetitiveTonesGivingItADroningFeel";
-    public const string fusionOfDroneAndHeavyMetalMusic = "fusionOfDroneAndHeavyMetalMusic";
-    public const string droneMetal = "droneMetal";
-    public const string anAtmosphericAndMelodicStyleOfIndiePopThatMakesTheAudienceFeelDreamy =
+    internal const string fusionOfDroneAndHeavyMetalMusic = "fusionOfDroneAndHeavyMetalMusic";
+    internal const string droneMetal = "droneMetal";
+    internal const string anAtmosphericAndMelodicStyleOfIndiePopThatMakesTheAudienceFeelDreamy =
     "anAtmosphericAndMelodicStyleOfIndiePopThatMakesTheAudienceFeelDreamy";
-    public const string dreamPop = "dreamPop";
-    public const string aSlowPacedStyleOfElectronicMusicThatDiffersFromAmbientInThatItAlsoHasABeatAndRhythm =
+    internal const string dreamPop = "dreamPop";
+    internal const string aSlowPacedStyleOfElectronicMusicThatDiffersFromAmbientInThatItAlsoHasABeatAndRhythm =
     "aSlowPacedStyleOfElectronicMusicThatDiffersFromAmbientInThatItAlsoHasABeatAndRhythm";
-    public const string
+    internal const string
     AStyleOfHeavyMetalKnownForItsLowTunedSoundSlowTemposCleanAndNonGrowledVocalsAndPessimisticLyrics =
     "AStyleOfHeavyMetalKnownForItsLowTunedSoundSlowTemposCleanAndNonGrowledVocalsAndPessimisticLyrics";
-    public const string doomMetal = "doomMetal";
-    public const string aSimplisticAndPopOrientedFormOfRBKnownForItsVocalHarmoniesAndLittleToNoInstrumentation =
+    internal const string doomMetal = "doomMetal";
+    internal const string aSimplisticAndPopOrientedFormOfRBKnownForItsVocalHarmoniesAndLittleToNoInstrumentation =
     "aSimplisticAndPopOrientedFormOfRBKnownForItsVocalHarmoniesAndLittleToNoInstrumentation";
-    public const string donegalFiddleTradition = "donegalFiddleTradition";
-    public const string dondangSayang = "dondangSayang";
-    public const string subgenreOfProgressiveMetalKnownForItsElasticPowerChords =
+    internal const string donegalFiddleTradition = "donegalFiddleTradition";
+    internal const string dondangSayang = "dondangSayang";
+    internal const string subgenreOfProgressiveMetalKnownForItsElasticPowerChords =
     "subgenreOfProgressiveMetalKnownForItsElasticPowerChords";
-    public const string divaHouse = "divaHouse";
-    public const string discoPolo = "discoPolo";
-    public const string aFormOfMusicToDanceToWithElementsOfSoulPopAndSalsa =
+    internal const string divaHouse = "divaHouse";
+    internal const string discoPolo = "discoPolo";
+    internal const string aFormOfMusicToDanceToWithElementsOfSoulPopAndSalsa =
     "aFormOfMusicToDanceToWithElementsOfSoulPopAndSalsa";
-    public const string hipHopWithSexualAndPornographicThemes = "hipHopWithSexualAndPornographicThemes";
-    public const string dirtyRap = "dirtyRap";
-    public const string aSongOfMourningOftenPlayedAtAFuneral = "aSongOfMourningOftenPlayedAtAFuneral";
-    public const string fusionOfHardcorePunkAndHardcoreTechnoKnownForItsFarLeftLyrics =
+    internal const string hipHopWithSexualAndPornographicThemes = "hipHopWithSexualAndPornographicThemes";
+    internal const string dirtyRap = "dirtyRap";
+    internal const string aSongOfMourningOftenPlayedAtAFuneral = "aSongOfMourningOftenPlayedAtAFuneral";
+    internal const string fusionOfHardcorePunkAndHardcoreTechnoKnownForItsFarLeftLyrics =
     "fusionOfHardcorePunkAndHardcoreTechnoKnownForItsFarLeftLyrics";
-    public const string digitalHardcore = "digitalHardcore";
-    public const string detroitTechno = "detroitTechno";
-    public const string detroitBlues = "detroitBlues";
-    public const string deepHouse = "deepHouse";
-    public const string deltaBlues = "deltaBlues";
-    public const string
+    internal const string digitalHardcore = "digitalHardcore";
+    internal const string detroitTechno = "detroitTechno";
+    internal const string detroitBlues = "detroitBlues";
+    internal const string deepHouse = "deepHouse";
+    internal const string deltaBlues = "deltaBlues";
+    internal const string
     styleOfGothicRockKnownForItsScratchyGuitarsAndLyricsFocusingOnSupernaturalAndPessimisticThemesSometimesDelvingIntoIntentionallyCampyHorrorThemes =
     "styleOfGothicRockKnownForItsScratchyGuitarsAndLyricsFocusingOnSupernaturalAndPessimisticThemesSometimesDelvingIntoIntentionallyCampyHorrorThemes";
-    public const string deathRock = "deathRock";
-    public const string fusionOfDeathAndDoomMetal = "fusionOfDeathAndDoomMetal";
-    public const string deathMetal = "deathMetal";
-    public const string fusionOfDeathAndIndustrialMetalLinkedHeavilyToThePowerElectronicsScene =
+    internal const string deathRock = "deathRock";
+    internal const string fusionOfDeathAndDoomMetal = "fusionOfDeathAndDoomMetal";
+    internal const string deathMetal = "deathMetal";
+    internal const string fusionOfDeathAndIndustrialMetalLinkedHeavilyToThePowerElectronicsScene =
     "fusionOfDeathAndIndustrialMetalLinkedHeavilyToThePowerElectronicsScene";
-    public const string deathIndustrial = "deathIndustrial";
-    public const string fusionOfDeathMetalAndGrindcore = "fusionOfDeathMetalAndGrindcore";
-    public const string fusionOfDeathAndPunkMetal = "fusionOfDeathAndPunkMetal";
-    public const string deDragoste = "deDragoste";
-    public const string
+    internal const string deathIndustrial = "deathIndustrial";
+    internal const string fusionOfDeathMetalAndGrindcore = "fusionOfDeathMetalAndGrindcore";
+    internal const string fusionOfDeathAndPunkMetal = "fusionOfDeathAndPunkMetal";
+    internal const string deDragoste = "deDragoste";
+    internal const string
     excessivelyPessimisticStyleOfPostPunkWhichReliedOnTalesOfRealisticSorrowRatherThanTheFantasyElementsOfTheThenPopularGothicRock =
     "excessivelyPessimisticStyleOfPostPunkWhichReliedOnTalesOfRealisticSorrowRatherThanTheFantasyElementsOfTheThenPopularGothicRock";
-    public const string darkWave = "darkWave";
-    public const string
+    internal const string darkWave = "darkWave";
+    internal const string
     styleOfDarkcoreJungleThatTakesItsSignatureSinisterFeelAndFusesItWithUpbeatBreakbeatsAndAmbientNoisesCreatingAnExcessivelyChaoticTone =
     "styleOfDarkcoreJungleThatTakesItsSignatureSinisterFeelAndFusesItWithUpbeatBreakbeatsAndAmbientNoisesCreatingAnExcessivelyChaoticTone";
-    public const string technoWithADarkAndForebodingFeelActingAsAReactionToTheOptimismOfRaveMusicInGeneral =
+    internal const string technoWithADarkAndForebodingFeelActingAsAReactionToTheOptimismOfRaveMusicInGeneral =
     "technoWithADarkAndForebodingFeelActingAsAReactionToTheOptimismOfRaveMusicInGeneral";
-    public const string fusionOfCabaretAndGothicRock = "fusionOfCabaretAndGothicRock";
-    public const string darkCabaret = "darkCabaret";
-    public const string
+    internal const string fusionOfCabaretAndGothicRock = "fusionOfCabaretAndGothicRock";
+    internal const string darkCabaret = "darkCabaret";
+    internal const string
     styleOfAmbientMusicThatCreatesAFeelingOfDreadAndForebodingRatherThanTheRelaxationGivenOffByMostAmbient =
     "styleOfAmbientMusicThatCreatesAFeelingOfDreadAndForebodingRatherThanTheRelaxationGivenOffByMostAmbient";
-    public const string darkAmbient = "darkAmbient";
-    public const string dappanKoothu = "dappanKoothu";
-    public const string danzon = "danzon";
-    public const string anyMusicThatWillSomehowPotentiallyHarmEitherThePerformersOrTheAudienceLinkedHeavilyToNoiseRock =
+    internal const string darkAmbient = "darkAmbient";
+    internal const string dappanKoothu = "dappanKoothu";
+    internal const string danzon = "danzon";
+    internal const string anyMusicThatWillSomehowPotentiallyHarmEitherThePerformersOrTheAudienceLinkedHeavilyToNoiseRock =
     "anyMusicThatWillSomehowPotentiallyHarmEitherThePerformersOrTheAudienceLinkedHeavilyToNoiseRock";
-    public const string fusionOfPostPunkAndPostDiscoLinkedHeavilyToTheNewWave =
+    internal const string fusionOfPostPunkAndPostDiscoLinkedHeavilyToTheNewWave =
     "fusionOfPostPunkAndPostDiscoLinkedHeavilyToTheNewWave";
-    public const string aGrittierAndRawerFormOfNewWaveMusicLinkedHeavilyToTheContemporaryIndieScene =
+    internal const string aGrittierAndRawerFormOfNewWaveMusicLinkedHeavilyToTheContemporaryIndieScene =
     "aGrittierAndRawerFormOfNewWaveMusicLinkedHeavilyToTheContemporaryIndieScene";
-    public const string popMusicWithAnEmphasisOnDanceRhythmsFusionOfDanceAndPopMusicalStyles =
+    internal const string popMusicWithAnEmphasisOnDanceRhythmsFusionOfDanceAndPopMusicalStyles =
     "popMusicWithAnEmphasisOnDanceRhythmsFusionOfDanceAndPopMusicalStyles";
-    public const string dadraTala = "dadraTala";
-    public const string fusionOfGrindcoreAndIndustrial = "fusionOfGrindcoreAndIndustrial";
-    public const string cumbiaVillera = "cumbiaVillera";
-    public const string csardas = "csardas";
-    public const string fusionOfAnarchoAndHardcorePunkAndExtremeMetal = "fusionOfAnarchoAndHardcorePunkAndExtremeMetal";
-    public const string crustPunk = "crustPunk";
-    public const string fusionOfCrunkAndScreamo = "fusionOfCrunkAndScreamo";
-    public const string fusionOfThrashMetalAndHardcorePunk = "fusionOfThrashMetalAndHardcorePunk";
-    public const string crossoverThrash = "crossoverThrash";
-    public const string fusionOfCountryAndPunkRockMusic = "fusionOfCountryAndPunkRockMusic";
-    public const string CoupeDecale = "CoupeDecale";
-    public const string fusionOfCountryAndPopMusic = "fusionOfCountryAndPopMusic";
-    public const string countryPop = "countryPop";
-    public const string fusionOfCountryAndRockMusic = "fusionOfCountryAndRockMusic";
-    public const string countryRock = "countryRock";
-    public const string fusionOfCountryAndHipHopMusic = "fusionOfCountryAndHipHopMusic";
-    public const string countryRap = "countryRap";
-    public const string fusionOfCountryAndBluesMusic = "fusionOfCountryAndBluesMusic";
-    public const string countryBlues = "countryBlues";
-    public const string musicAboutBlackStereotypes = "musicAboutBlackStereotypes";
-    public const string coonSong = "coonSong";
-    public const string
+    internal const string dadraTala = "dadraTala";
+    internal const string fusionOfGrindcoreAndIndustrial = "fusionOfGrindcoreAndIndustrial";
+    internal const string cumbiaVillera = "cumbiaVillera";
+    internal const string csardas = "csardas";
+    internal const string fusionOfAnarchoAndHardcorePunkAndExtremeMetal = "fusionOfAnarchoAndHardcorePunkAndExtremeMetal";
+    internal const string crustPunk = "crustPunk";
+    internal const string fusionOfCrunkAndScreamo = "fusionOfCrunkAndScreamo";
+    internal const string fusionOfThrashMetalAndHardcorePunk = "fusionOfThrashMetalAndHardcorePunk";
+    internal const string crossoverThrash = "crossoverThrash";
+    internal const string fusionOfCountryAndPunkRockMusic = "fusionOfCountryAndPunkRockMusic";
+    internal const string CoupeDecale = "CoupeDecale";
+    internal const string fusionOfCountryAndPopMusic = "fusionOfCountryAndPopMusic";
+    internal const string countryPop = "countryPop";
+    internal const string fusionOfCountryAndRockMusic = "fusionOfCountryAndRockMusic";
+    internal const string countryRock = "countryRock";
+    internal const string fusionOfCountryAndHipHopMusic = "fusionOfCountryAndHipHopMusic";
+    internal const string countryRap = "countryRap";
+    internal const string fusionOfCountryAndBluesMusic = "fusionOfCountryAndBluesMusic";
+    internal const string countryBlues = "countryBlues";
+    internal const string musicAboutBlackStereotypes = "musicAboutBlackStereotypes";
+    internal const string coonSong = "coonSong";
+    internal const string
     aRelaxedDowntempoFormOfJazzHeavilyInspiredByClassicalMusicThatExistedAsAReactionToTheFastPacedBebop =
     "aRelaxedDowntempoFormOfJazzHeavilyInspiredByClassicalMusicThatExistedAsAReactionToTheFastPacedBebop";
-    public const string coolJazz = "coolJazz";
-    public const string contemporaryRB = "contemporaryRB";
-    public const string contemporaryChristianMusic = "contemporaryChristianMusic";
-    public const string aFormOfBaroqueConcertoInWhichTheSoloistsAndOrchestraAlternatePlaying =
+    internal const string coolJazz = "coolJazz";
+    internal const string contemporaryRB = "contemporaryRB";
+    internal const string contemporaryChristianMusic = "contemporaryChristianMusic";
+    internal const string aFormOfBaroqueConcertoInWhichTheSoloistsAndOrchestraAlternatePlaying =
     "aFormOfBaroqueConcertoInWhichTheSoloistsAndOrchestraAlternatePlaying";
-    public const string concertoGrosso = "concertoGrosso";
-    public const string aThreePartClassicalPieceInWhichOneInstrumentTakesLeadAndIsBackedByAnOrchestra =
+    internal const string concertoGrosso = "concertoGrosso";
+    internal const string aThreePartClassicalPieceInWhichOneInstrumentTakesLeadAndIsBackedByAnOrchestra =
     "aThreePartClassicalPieceInWhichOneInstrumentTakesLeadAndIsBackedByAnOrchestra";
-    public const string fusionOfComedyAndOperaMusic = "fusionOfComedyAndOperaMusic";
-    public const string comicOpera = "comicOpera";
-    public const string fusionOfComedyAndRockMusic = "fusionOfComedyAndRockMusic";
-    public const string comedyRock = "comedyRock";
-    public const string fusionOfComedyAndHipHopMusic = "fusionOfComedyAndHipHopMusic";
-    public const string comedyRap = "comedyRap";
-    public const string anyMusicThatIncorporatesHeavyThemesOfHumorAndComedy =
+    internal const string fusionOfComedyAndOperaMusic = "fusionOfComedyAndOperaMusic";
+    internal const string comicOpera = "comicOpera";
+    internal const string fusionOfComedyAndRockMusic = "fusionOfComedyAndRockMusic";
+    internal const string comedyRock = "comedyRock";
+    internal const string fusionOfComedyAndHipHopMusic = "fusionOfComedyAndHipHopMusic";
+    internal const string comedyRap = "comedyRap";
+    internal const string anyMusicThatIncorporatesHeavyThemesOfHumorAndComedy =
     "anyMusicThatIncorporatesHeavyThemesOfHumorAndComedy";
-    public const string comedyMusic = "comedyMusic";
-    public const string combinedRhythm = "combinedRhythm";
-    public const string anyMusicWithNotesPerformedInACloseRange = "anyMusicWithNotesPerformedInACloseRange";
-    public const string closeHarmony = "closeHarmony";
-    public const string classicalPeriod = "classicalPeriod";
-    public const string classicRock = "classicRock";
-    public const string anEarlyFormOfBluesMusicKnownForItsFemaleVocalists =
+    internal const string comedyMusic = "comedyMusic";
+    internal const string combinedRhythm = "combinedRhythm";
+    internal const string anyMusicWithNotesPerformedInACloseRange = "anyMusicWithNotesPerformedInACloseRange";
+    internal const string closeHarmony = "closeHarmony";
+    internal const string classicalPeriod = "classicalPeriod";
+    internal const string classicRock = "classicRock";
+    internal const string anEarlyFormOfBluesMusicKnownForItsFemaleVocalists =
     "anEarlyFormOfBluesMusicKnownForItsFemaleVocalists";
-    public const string classicFemaleBlues = "classicFemaleBlues";
-    public const string umbrellaTermForCountryMusicReleasedBeforeTheUseOfTheTermToDescribeIt =
+    internal const string classicFemaleBlues = "classicFemaleBlues";
+    internal const string umbrellaTermForCountryMusicReleasedBeforeTheUseOfTheTermToDescribeIt =
     "umbrellaTermForCountryMusicReleasedBeforeTheUseOfTheTermToDescribeIt";
-    public const string classicCountry = "classicCountry";
-    public const string fusionOfChutneyAndSocaMusic = "fusionOfChutneyAndSocaMusic";
-    public const string chutneySoca = "chutneySoca";
-    public const string fusionOfChutneyCalypsoAndParang = "fusionOfChutneyCalypsoAndParang";
-    public const string christianSka = "christianSka";
-    public const string christianRock = "christianRock";
-    public const string christianPunk = "christianPunk";
-    public const string christianMusic = "christianMusic";
-    public const string christianMetal = "christianMetal";
-    public const string christianHipHop = "christianHipHop";
-    public const string christianHardcore = "christianHardcore";
-    public const string christianElectronic = "christianElectronic";
-    public const string christmasMusic = "christmasMusic";
-    public const string christmasCarol = "christmasCarol";
-    public const string christianCountry = "christianCountry";
-    public const string christianAlternativeRock = "christianAlternativeRock";
-    public const string chouvalBwa = "chouvalBwa";
-    public const string chineseRock = "chineseRock";
-    public const string chineseMusic = "chineseMusic";
-    public const string indiePopStyleKnownForItsLoopedSynthsAndCalmingEffects =
+    internal const string classicCountry = "classicCountry";
+    internal const string fusionOfChutneyAndSocaMusic = "fusionOfChutneyAndSocaMusic";
+    internal const string chutneySoca = "chutneySoca";
+    internal const string fusionOfChutneyCalypsoAndParang = "fusionOfChutneyCalypsoAndParang";
+    internal const string christianSka = "christianSka";
+    internal const string christianRock = "christianRock";
+    internal const string christianPunk = "christianPunk";
+    internal const string christianMusic = "christianMusic";
+    internal const string christianMetal = "christianMetal";
+    internal const string christianHipHop = "christianHipHop";
+    internal const string christianHardcore = "christianHardcore";
+    internal const string christianElectronic = "christianElectronic";
+    internal const string christmasMusic = "christmasMusic";
+    internal const string christmasCarol = "christmasCarol";
+    internal const string christianCountry = "christianCountry";
+    internal const string christianAlternativeRock = "christianAlternativeRock";
+    internal const string chouvalBwa = "chouvalBwa";
+    internal const string chineseRock = "chineseRock";
+    internal const string chineseMusic = "chineseMusic";
+    internal const string indiePopStyleKnownForItsLoopedSynthsAndCalmingEffects =
     "indiePopStyleKnownForItsLoopedSynthsAndCalmingEffects";
-    public const string umbrellaTermForElectronicMusicWithASlowTempoDesignedToCalmPeopleAfterRaves =
+    internal const string umbrellaTermForElectronicMusicWithASlowTempoDesignedToCalmPeopleAfterRaves =
     "umbrellaTermForElectronicMusicWithASlowTempoDesignedToCalmPeopleAfterRaves";
-    public const string chickenScratch = "chickenScratch";
-    public const string chicagoSoul = "chicagoSoul";
-    public const string chicagoHouse = "chicagoHouse";
-    public const string chicagoBlues = "chicagoBlues";
-    public const string anyMusicMarketedTowardsChildren = "anyMusicMarketedTowardsChildren";
-    public const string childrenSMusic = "childrenSMusic";
-    public const string cheo = "cheo";
-    public const string fusionOfCharangaVallenataAndSalsa = "fusionOfCharangaVallenataAndSalsa";
-    public const string chapHop = "chapHop";
-    public const string singingOrSpeakingRhythmicallyToAVerySmallNumberOfPitches =
+    internal const string chickenScratch = "chickenScratch";
+    internal const string chicagoSoul = "chicagoSoul";
+    internal const string chicagoHouse = "chicagoHouse";
+    internal const string chicagoBlues = "chicagoBlues";
+    internal const string anyMusicMarketedTowardsChildren = "anyMusicMarketedTowardsChildren";
+    internal const string childrenSMusic = "childrenSMusic";
+    internal const string cheo = "cheo";
+    internal const string fusionOfCharangaVallenataAndSalsa = "fusionOfCharangaVallenataAndSalsa";
+    internal const string chapHop = "chapHop";
+    internal const string singingOrSpeakingRhythmicallyToAVerySmallNumberOfPitches =
     "singingOrSpeakingRhythmicallyToAVerySmallNumberOfPitches";
-    public const string changui = "changui";
-    public const string chamberPop = "chamberPop";
-    public const string fusionOfChamberAndJazzMusic = "fusionOfChamberAndJazzMusic";
-    public const string chamberJazz = "chamberJazz";
-    public const string classicalMusicPerformedForASmallAudienceByASmallOrchestra =
+    internal const string changui = "changui";
+    internal const string chamberPop = "chamberPop";
+    internal const string fusionOfChamberAndJazzMusic = "fusionOfChamberAndJazzMusic";
+    internal const string chamberJazz = "chamberJazz";
+    internal const string classicalMusicPerformedForASmallAudienceByASmallOrchestra =
     "classicalMusicPerformedForASmallAudienceByASmallOrchestra";
-    public const string chamame = "chamame";
-    public const string celticRock = "celticRock";
-    public const string celticReggae = "celticReggae";
-    public const string celticPunk = "celticPunk";
-    public const string celticMetal = "celticMetal";
-    public const string celticHipHop = "celticHipHop";
-    public const string celticFusion = "celticFusion";
-    public const string rockMusicThatIncorporatesCellos = "rockMusicThatIncorporatesCellos";
-    public const string celloRock = "celloRock";
-    public const string aStyleOfFlamencoKnownForItsFocusOnFolklore = "aStyleOfFlamencoKnownForItsFocusOnFolklore";
-    public const string canzoneNapoletana = "canzoneNapoletana";
-    public const string cantoLivre = "cantoLivre";
-    public const string cantinas = "cantinas";
-    public const string canterburyScene = "canterburyScene";
-    public const string flamencoMusicThatIncorporatesDeepVocals = "flamencoMusicThatIncorporatesDeepVocals";
-    public const string canteJondo = "canteJondo";
-    public const string theVocalComponentToFlamencoMusic = "theVocalComponentToFlamencoMusic";
-    public const string canteChico = "canteChico";
-    public const string anyMusicSungByAChoirWithInstrumentalBacking = "anyMusicSungByAChoirWithInstrumentalBacking";
-    public const string anyMusicThatCombinesAMelodyWithCopiesOfItself = "anyMusicThatCombinesAMelodyWithCopiesOfItself";
-    public const string fusionOfBailaAndCalypso = "fusionOfBailaAndCalypso";
-    public const string calypsoStyleBaila = "calypsoStyleBaila";
-    public const string calgija = "calgija";
-    public const string cảiLương = "cảiLương";
-    public const string upbeatStyleOfKadans = "upbeatStyleOfKadans";
-    public const string cadenceRampa = "cadenceRampa";
-    public const string fusionOfKadansAndCalypso = "fusionOfKadansAndCalypso";
-    public const string anOftenJazzInformedStyleOfMusicPlayedAtUpbeatStageplaysOrBurlesqueShows =
+    internal const string chamame = "chamame";
+    internal const string celticRock = "celticRock";
+    internal const string celticReggae = "celticReggae";
+    internal const string celticPunk = "celticPunk";
+    internal const string celticMetal = "celticMetal";
+    internal const string celticHipHop = "celticHipHop";
+    internal const string celticFusion = "celticFusion";
+    internal const string rockMusicThatIncorporatesCellos = "rockMusicThatIncorporatesCellos";
+    internal const string celloRock = "celloRock";
+    internal const string aStyleOfFlamencoKnownForItsFocusOnFolklore = "aStyleOfFlamencoKnownForItsFocusOnFolklore";
+    internal const string canzoneNapoletana = "canzoneNapoletana";
+    internal const string cantoLivre = "cantoLivre";
+    internal const string cantinas = "cantinas";
+    internal const string canterburyScene = "canterburyScene";
+    internal const string flamencoMusicThatIncorporatesDeepVocals = "flamencoMusicThatIncorporatesDeepVocals";
+    internal const string canteJondo = "canteJondo";
+    internal const string theVocalComponentToFlamencoMusic = "theVocalComponentToFlamencoMusic";
+    internal const string canteChico = "canteChico";
+    internal const string anyMusicSungByAChoirWithInstrumentalBacking = "anyMusicSungByAChoirWithInstrumentalBacking";
+    internal const string anyMusicThatCombinesAMelodyWithCopiesOfItself = "anyMusicThatCombinesAMelodyWithCopiesOfItself";
+    internal const string fusionOfBailaAndCalypso = "fusionOfBailaAndCalypso";
+    internal const string calypsoStyleBaila = "calypsoStyleBaila";
+    internal const string calgija = "calgija";
+    internal const string cảiLương = "cảiLương";
+    internal const string upbeatStyleOfKadans = "upbeatStyleOfKadans";
+    internal const string cadenceRampa = "cadenceRampa";
+    internal const string fusionOfKadansAndCalypso = "fusionOfKadansAndCalypso";
+    internal const string anOftenJazzInformedStyleOfMusicPlayedAtUpbeatStageplaysOrBurlesqueShows =
     "anOftenJazzInformedStyleOfMusicPlayedAtUpbeatStageplaysOrBurlesqueShows";
-    public const string caDinTulnic = "caDinTulnic";
-    public const string bushBallad = "bushBallad";
-    public const string burgundianSchool = "burgundianSchool";
-    public const string fastPacedFlamencoMusic = "fastPacedFlamencoMusic";
-    public const string bulerias = "bulerias";
-    public const string popMusicKnownForItsSimplicityHappyAndCuteLyricsAndEmphasisOnImageRatherThanSubstance =
+    internal const string caDinTulnic = "caDinTulnic";
+    internal const string bushBallad = "bushBallad";
+    internal const string burgundianSchool = "burgundianSchool";
+    internal const string fastPacedFlamencoMusic = "fastPacedFlamencoMusic";
+    internal const string bulerias = "bulerias";
+    internal const string popMusicKnownForItsSimplicityHappyAndCuteLyricsAndEmphasisOnImageRatherThanSubstance =
     "popMusicKnownForItsSimplicityHappyAndCuteLyricsAndEmphasisOnImageRatherThanSubstance";
-    public const string bubblegumPop = "bubblegumPop";
-    public const string bubblegumDance = "bubblegumDance";
-    public const string brownEyedSoul = "brownEyedSoul";
-    public const string brokenBeat = "brokenBeat";
-    public const string britishInvasion = "britishInvasion";
-    public const string britishBlues = "britishBlues";
-    public const string britFunk = "britFunk";
-    public const string brillBuildingSound = "brillBuildingSound";
-    public const string
+    internal const string bubblegumPop = "bubblegumPop";
+    internal const string bubblegumDance = "bubblegumDance";
+    internal const string brownEyedSoul = "brownEyedSoul";
+    internal const string brokenBeat = "brokenBeat";
+    internal const string britishInvasion = "britishInvasion";
+    internal const string britishBlues = "britishBlues";
+    internal const string britFunk = "britFunk";
+    internal const string brillBuildingSound = "brillBuildingSound";
+    internal const string
     fastAndFranticStyleOfBreakbeatKnownForItsIntentionallyDiverseRangeOfSamplesWhichMakeItAHardToDefineGenre =
     "fastAndFranticStyleOfBreakbeatKnownForItsIntentionallyDiverseRangeOfSamplesWhichMakeItAHardToDefineGenre";
-    public const string aFusionOfBreakbeatAndAcidHouse = "aFusionOfBreakbeatAndAcidHouse";
-    public const string breakbeatHardcore = "breakbeatHardcore";
-    public const string musicPerformedWithBrassInstrumentsPriorToTheAdventOfJazz =
+    internal const string aFusionOfBreakbeatAndAcidHouse = "aFusionOfBreakbeatAndAcidHouse";
+    internal const string breakbeatHardcore = "breakbeatHardcore";
+    internal const string musicPerformedWithBrassInstrumentsPriorToTheAdventOfJazz =
     "musicPerformedWithBrassInstrumentsPriorToTheAdventOfJazz";
-    public const string anUpbeatFormOfElectronicDanceMusic = "anUpbeatFormOfElectronicDanceMusic";
-    public const string bouncyTechno = "bouncyTechno";
-    public const string bossaNova = "bossaNova";
-    public const string aFormOfExperimentalMusicWhichDealsWithSoundsCreatedOrPerformedByLivingThings =
+    internal const string anUpbeatFormOfElectronicDanceMusic = "anUpbeatFormOfElectronicDanceMusic";
+    internal const string bouncyTechno = "bouncyTechno";
+    internal const string bossaNova = "bossaNova";
+    internal const string aFormOfExperimentalMusicWhichDealsWithSoundsCreatedOrPerformedByLivingThings =
     "aFormOfExperimentalMusicWhichDealsWithSoundsCreatedOrPerformedByLivingThings";
-    public const string fusionOfBluesAndFolk = "fusionOfBluesAndFolk";
-    public const string bluesBallad = "bluesBallad";
-    public const string rhythmAndBluesOrSoulMusicPerformedByWhiteArtists =
+    internal const string fusionOfBluesAndFolk = "fusionOfBluesAndFolk";
+    internal const string bluesBallad = "bluesBallad";
+    internal const string rhythmAndBluesOrSoulMusicPerformedByWhiteArtists =
     "rhythmAndBluesOrSoulMusicPerformedByWhiteArtists";
-    public const string blueEyedSoul = "blueEyedSoul";
-    public const string blackMetal = "blackMetal";
-    public const string aFusionBetweenDeathAndBlackMetal = "aFusionBetweenDeathAndBlackMetal";
-    public const string blackenedDeathMetal = "blackenedDeathMetal";
-    public const string bigBeat = "bigBeat";
-    public const string largeOrchestrasWhichPlayAFormOfSwingMusic = "largeOrchestrasWhichPlayAFormOfSwingMusic";
-    public const string bigBand = "bigBand";
-    public const string aFusionOfBhangraAndReggaeAndDancehall = "aFusionOfBhangraAndReggaeAndDancehall";
-    public const string berlinSchool = "berlinSchool";
-    public const string belCanto = "belCanto";
-    public const string fastPacedStyleOfJazzPopularInTheSAndS = "fastPacedStyleOfJazzPopularInTheSAndS";
-    public const string termOfEndearmentForVariousEasyListeningGenres = "termOfEndearmentForVariousEasyListeningGenres";
-    public const string aCapellaMusicCreatedToEmulateHipHopBeats = "aCapellaMusicCreatedToEmulateHipHopBeats";
-    public const string RBPopJazzRock = "RBPopJazzRock";
-    public const string beatBritishFusionOfAllPopularSAmericanStyles = "beatBritishFusionOfAllPopularSAmericanStyles";
-    public const string bataRumba = "bataRumba";
-    public const string styleOfSpeedGarageThatCombinesElementsOfDubstepParticularlyItsEmphasisOnBass =
+    internal const string blueEyedSoul = "blueEyedSoul";
+    internal const string blackMetal = "blackMetal";
+    internal const string aFusionBetweenDeathAndBlackMetal = "aFusionBetweenDeathAndBlackMetal";
+    internal const string blackenedDeathMetal = "blackenedDeathMetal";
+    internal const string bigBeat = "bigBeat";
+    internal const string largeOrchestrasWhichPlayAFormOfSwingMusic = "largeOrchestrasWhichPlayAFormOfSwingMusic";
+    internal const string bigBand = "bigBand";
+    internal const string aFusionOfBhangraAndReggaeAndDancehall = "aFusionOfBhangraAndReggaeAndDancehall";
+    internal const string berlinSchool = "berlinSchool";
+    internal const string belCanto = "belCanto";
+    internal const string fastPacedStyleOfJazzPopularInTheSAndS = "fastPacedStyleOfJazzPopularInTheSAndS";
+    internal const string termOfEndearmentForVariousEasyListeningGenres = "termOfEndearmentForVariousEasyListeningGenres";
+    internal const string aCapellaMusicCreatedToEmulateHipHopBeats = "aCapellaMusicCreatedToEmulateHipHopBeats";
+    internal const string RBPopJazzRock = "RBPopJazzRock";
+    internal const string beatBritishFusionOfAllPopularSAmericanStyles = "beatBritishFusionOfAllPopularSAmericanStyles";
+    internal const string bataRumba = "bataRumba";
+    internal const string styleOfSpeedGarageThatCombinesElementsOfDubstepParticularlyItsEmphasisOnBass =
     "styleOfSpeedGarageThatCombinesElementsOfDubstepParticularlyItsEmphasisOnBass";
-    public const string folkMusicPlayedInABarnhouse = "folkMusicPlayedInABarnhouse";
-    public const string barnDance = "barnDance";
-    public const string anArtSongInFourPartHarmonyInACapellaStyling = "anArtSongInFourPartHarmonyInACapellaStyling";
-    public const string combinationOfHipHopAndHouseMusic = "combinationOfHipHopAndHouseMusic";
-    public const string baltimoreClub = "baltimoreClub";
-    public const string genericTermForUsuallySlowRomanticDespairingAndCatastrophicSongs =
+    internal const string folkMusicPlayedInABarnhouse = "folkMusicPlayedInABarnhouse";
+    internal const string barnDance = "barnDance";
+    internal const string anArtSongInFourPartHarmonyInACapellaStyling = "anArtSongInFourPartHarmonyInACapellaStyling";
+    internal const string combinationOfHipHopAndHouseMusic = "combinationOfHipHopAndHouseMusic";
+    internal const string baltimoreClub = "baltimoreClub";
+    internal const string genericTermForUsuallySlowRomanticDespairingAndCatastrophicSongs =
     "genericTermForUsuallySlowRomanticDespairingAndCatastrophicSongs";
-    public const string balkanBrassBand = "balkanBrassBand";
-    public const string balineseGamelan = "balineseGamelan";
-    public const string baishaXiyue = "baishaXiyue";
-    public const string bakersfieldSound = "bakersfieldSound";
-    public const string baiao = "baiao";
-    public const string
+    internal const string balkanBrassBand = "balkanBrassBand";
+    internal const string balineseGamelan = "balineseGamelan";
+    internal const string baishaXiyue = "baishaXiyue";
+    internal const string bakersfieldSound = "bakersfieldSound";
+    internal const string baiao = "baiao";
+    internal const string
     musicConsideredToBeAheadOfItsTimeOftenUsingNewUnusualOrExperimentalElementsOrFusingPreExistingGenres =
     "musicConsideredToBeAheadOfItsTimeOftenUsingNewUnusualOrExperimentalElementsOrFusingPreExistingGenres";
-    public const string experimentalOrAvantGardeHeavyMetalOrHardRock = "experimentalOrAvantGardeHeavyMetalOrHardRock";
-    public const string avantGardeMetal = "avantGardeMetal";
-    public const string experimentalOrAvantGardeJazzMusic = "experimentalOrAvantGardeJazzMusic";
-    public const string avantGardeJazz = "avantGardeJazz";
-    public const string australianHipHop = "australianHipHop";
-    public const string australianPubRock = "australianPubRock";
-    public const string australianCountry = "australianCountry";
-    public const string experimentalOrAvantGardePopMusic = "experimentalOrAvantGardePopMusic";
-    public const string artPop = "artPop";
-    public const string experimentalOrAvantGardeRockMusic = "experimentalOrAvantGardeRockMusic";
-    public const string artRock = "artRock";
-    public const string experimentalOrAvantGardePunkMusic = "experimentalOrAvantGardePunkMusic";
-    public const string artPunk = "artPunk";
-    public const string arsSubtilior = "arsSubtilior";
-    public const string arsNova = "arsNova";
-    public const string arsAntiqua = "arsAntiqua";
-    public const string argentineRock = "argentineRock";
-    public const string arabicPop = "arabicPop";
-    public const string aMockingSubgenreOfFolkThatSubvertsTheEarnestPoliticallyInformedLyricsOfFolkRevivalists =
+    internal const string experimentalOrAvantGardeHeavyMetalOrHardRock = "experimentalOrAvantGardeHeavyMetalOrHardRock";
+    internal const string avantGardeMetal = "avantGardeMetal";
+    internal const string experimentalOrAvantGardeJazzMusic = "experimentalOrAvantGardeJazzMusic";
+    internal const string avantGardeJazz = "avantGardeJazz";
+    internal const string australianHipHop = "australianHipHop";
+    internal const string australianPubRock = "australianPubRock";
+    internal const string australianCountry = "australianCountry";
+    internal const string experimentalOrAvantGardePopMusic = "experimentalOrAvantGardePopMusic";
+    internal const string artPop = "artPop";
+    internal const string experimentalOrAvantGardeRockMusic = "experimentalOrAvantGardeRockMusic";
+    internal const string artRock = "artRock";
+    internal const string experimentalOrAvantGardePunkMusic = "experimentalOrAvantGardePunkMusic";
+    internal const string artPunk = "artPunk";
+    internal const string arsSubtilior = "arsSubtilior";
+    internal const string arsNova = "arsNova";
+    internal const string arsAntiqua = "arsAntiqua";
+    internal const string argentineRock = "argentineRock";
+    internal const string arabicPop = "arabicPop";
+    internal const string aMockingSubgenreOfFolkThatSubvertsTheEarnestPoliticallyInformedLyricsOfFolkRevivalists =
     "aMockingSubgenreOfFolkThatSubvertsTheEarnestPoliticallyInformedLyricsOfFolkRevivalists";
-    public const string musicUsuallyJPopUsedInAnimeSoundtracks = "musicUsuallyJPopUsedInAnimeSoundtracks";
-    public const string musicCreatedInTheEarlyStagesOfLiterateCultures =
+    internal const string musicUsuallyJPopUsedInAnimeSoundtracks = "musicUsuallyJPopUsedInAnimeSoundtracks";
+    internal const string musicCreatedInTheEarlyStagesOfLiterateCultures =
     "musicCreatedInTheEarlyStagesOfLiterateCultures";
-    public const string aCombinationOfAllFormsOfRootsMusicFolkCountryAndBlues =
+    internal const string aCombinationOfAllFormsOfRootsMusicFolkCountryAndBlues =
     "aCombinationOfAllFormsOfRootsMusicFolkCountryAndBlues";
-    public const string
+    internal const string
     aFormOfIncrediblySlowElectronicMusicThatUsesLongRepetitiveSoundsToGenerateASenseOfCalmAndAtmosphere =
     "aFormOfIncrediblySlowElectronicMusicThatUsesLongRepetitiveSoundsToGenerateASenseOfCalmAndAtmosphere";
-    public const string anyStyleOfRockThatDeviatesFromTheNorm = "anyStyleOfRockThatDeviatesFromTheNorm";
-    public const string alternativeRock = "alternativeRock";
-    public const string anyStyleOfHeavyMetalThatDeviatesFromTheNorm = "anyStyleOfHeavyMetalThatDeviatesFromTheNorm";
-    public const string alternativeMetal = "alternativeMetal";
-    public const string anyStyleOfHipHopThatDeviatesFromTheNorm = "anyStyleOfHipHopThatDeviatesFromTheNorm";
-    public const string alternativeHipHop = "alternativeHipHop";
-    public const string anyCombinationOfRockAndElectronicDanceMusic = "anyCombinationOfRockAndElectronicDanceMusic";
-    public const string alternativeDance = "alternativeDance";
-    public const string anyStyleOfCountryThatDeviatesFromTheNorm = "anyStyleOfCountryThatDeviatesFromTheNorm";
-    public const string alternativeCountry = "alternativeCountry";
-    public const string musicTheCompositionOfWhichIsPartiallyLeftToChance =
+    internal const string anyStyleOfRockThatDeviatesFromTheNorm = "anyStyleOfRockThatDeviatesFromTheNorm";
+    internal const string alternativeRock = "alternativeRock";
+    internal const string anyStyleOfHeavyMetalThatDeviatesFromTheNorm = "anyStyleOfHeavyMetalThatDeviatesFromTheNorm";
+    internal const string alternativeMetal = "alternativeMetal";
+    internal const string anyStyleOfHipHopThatDeviatesFromTheNorm = "anyStyleOfHipHopThatDeviatesFromTheNorm";
+    internal const string alternativeHipHop = "alternativeHipHop";
+    internal const string anyCombinationOfRockAndElectronicDanceMusic = "anyCombinationOfRockAndElectronicDanceMusic";
+    internal const string alternativeDance = "alternativeDance";
+    internal const string anyStyleOfCountryThatDeviatesFromTheNorm = "anyStyleOfCountryThatDeviatesFromTheNorm";
+    internal const string alternativeCountry = "alternativeCountry";
+    internal const string musicTheCompositionOfWhichIsPartiallyLeftToChance =
     "musicTheCompositionOfWhichIsPartiallyLeftToChance";
-    public const string AfroCubanJazz = "AfroCubanJazz";
-    public const string aBroadTermForAnyMusicWithLushAndSoothingQualitiesAndAFocusOnMelodyAndHarmony =
+    internal const string AfroCubanJazz = "AfroCubanJazz";
+    internal const string aBroadTermForAnyMusicWithLushAndSoothingQualitiesAndAFocusOnMelodyAndHarmony =
     "aBroadTermForAnyMusicWithLushAndSoothingQualitiesAndAFocusOnMelodyAndHarmony";
-    public const string adultContemporary = "adultContemporary";
-    public const string
+    internal const string adultContemporary = "adultContemporary";
+    internal const string
     aMusicThatSolelyOrPrimarilyUsesInstrumentsWhichProduceSoundThroughEntirelyAcousticMeansAsOpposedToElectricOrElectronicMeans =
     "aMusicThatSolelyOrPrimarilyUsesInstrumentsWhichProduceSoundThroughEntirelyAcousticMeansAsOpposedToElectricOrElectronicMeans";
-    public const string
+    internal const string
     aFormOfPsychedelicRockCharacterizedWithLongInstrumentalSolosFewIfAnyLyricsAndMusicalImprovisation =
     "aFormOfPsychedelicRockCharacterizedWithLongInstrumentalSolosFewIfAnyLyricsAndMusicalImprovisation";
-    public const string acidRock = "acidRock";
-    public const string psychedelicStyleOfJazzInfluencedHeavilyByFunkAndHipHopProduction =
+    internal const string acidRock = "acidRock";
+    internal const string psychedelicStyleOfJazzInfluencedHeavilyByFunkAndHipHopProduction =
     "psychedelicStyleOfJazzInfluencedHeavilyByFunkAndHipHopProduction";
-    public const string acidJazz = "acidJazz";
-    public const string psychedelicStyleOfHouse = "psychedelicStyleOfHouse";
-    public const string acidHouse = "acidHouse";
-    public const string anySingingPerformedWithoutInstrumentalBacking = "anySingingPerformedWithoutInstrumentalBacking";
-    public const string aCappella = "aCappella";
-    public const string caches = "caches";
-    public const string varBermudaTriangle = "varBermudaTriangle";
-    public const string varLl = "varLl";
-    public const string English = "English";
-    public const string still = "still";
-    public const string imageContainerImageFormatWide = "imageContainerImageFormatWide";
-    public const string WasNotFound = "WasNotFound";
-    public const string imageContainerShadow = "imageContainerShadow";
-    public const string windowpane = "windowpane";
-    public const string console = "console";
-    public const string all = "all";
-    public const string Applications = "Applications";
-    public const string FoundTheseWords = "FoundTheseWords";
-    public const string NumberOfFoldersAndCoverImagesDoNotMatch = "NumberOfFoldersAndCoverImagesDoNotMatch";
-    public const string TheNumberOfFileNamesAndTheirExtensionsDoesNotMatch =
+    internal const string acidJazz = "acidJazz";
+    internal const string psychedelicStyleOfHouse = "psychedelicStyleOfHouse";
+    internal const string acidHouse = "acidHouse";
+    internal const string anySingingPerformedWithoutInstrumentalBacking = "anySingingPerformedWithoutInstrumentalBacking";
+    internal const string aCappella = "aCappella";
+    internal const string caches = "caches";
+    internal const string varBermudaTriangle = "varBermudaTriangle";
+    internal const string varLl = "varLl";
+    internal const string English = "English";
+    internal const string still = "still";
+    internal const string imageContainerImageFormatWide = "imageContainerImageFormatWide";
+    internal const string WasNotFound = "WasNotFound";
+    internal const string imageContainerShadow = "imageContainerShadow";
+    internal const string windowpane = "windowpane";
+    internal const string console = "console";
+    internal const string all = "all";
+    internal const string Applications = "Applications";
+    internal const string FoundTheseWords = "FoundTheseWords";
+    internal const string NumberOfFoldersAndCoverImagesDoNotMatch = "NumberOfFoldersAndCoverImagesDoNotMatch";
+    internal const string TheNumberOfFileNamesAndTheirExtensionsDoesNotMatch =
     "TheNumberOfFileNamesAndTheirExtensionsDoesNotMatch";
-    public const string NoHttpRequestOrSunamoPageObjectWasInsertedIntoTheSunamoPhotoGalleryConstructorA =
+    internal const string NoHttpRequestOrSunamoPageObjectWasInsertedIntoTheSunamoPhotoGalleryConstructorA =
     "NoHttpRequestOrSunamoPageObjectWasInsertedIntoTheSunamoPhotoGalleryConstructorA";
-    public const string CantSetTitle = "CantSetTitle";
-    public const string PasswordMustHaveAtLeastOneSpecialCharacter = "PasswordMustHaveAtLeastOneSpecialCharacter";
-    public const string TheDateOfBirthWasNotValidTryToEnterReal = "TheDateOfBirthWasNotValidTryToEnterReal";
-    public const string AUserWithTheSameEmailAlreadyExistsInTheDB = "AUserWithTheSameEmailAlreadyExistsInTheDB";
-    public const string TheEmailWasNotInAValidFormat = "TheEmailWasNotInAValidFormat";
-    public const string ThePasswordsYouEnteredAreNotTheSame = "ThePasswordsYouEnteredAreNotTheSame";
-    public const string AnswerTheSecurityQuestion = "AnswerTheSecurityQuestion";
-    public const string LoginContainsIllegalCharactersUppercaseLowercaseNumbersUnderscorePeriodAndDashAreAllowed =
+    internal const string CantSetTitle = "CantSetTitle";
+    internal const string PasswordMustHaveAtLeastOneSpecialCharacter = "PasswordMustHaveAtLeastOneSpecialCharacter";
+    internal const string TheDateOfBirthWasNotValidTryToEnterReal = "TheDateOfBirthWasNotValidTryToEnterReal";
+    internal const string AUserWithTheSameEmailAlreadyExistsInTheDB = "AUserWithTheSameEmailAlreadyExistsInTheDB";
+    internal const string TheEmailWasNotInAValidFormat = "TheEmailWasNotInAValidFormat";
+    internal const string ThePasswordsYouEnteredAreNotTheSame = "ThePasswordsYouEnteredAreNotTheSame";
+    internal const string AnswerTheSecurityQuestion = "AnswerTheSecurityQuestion";
+    internal const string LoginContainsIllegalCharactersUppercaseLowercaseNumbersUnderscorePeriodAndDashAreAllowed =
     "LoginContainsIllegalCharactersUppercaseLowercaseNumbersUnderscorePeriodAndDashAreAllowed";
-    public const string AUserWithTheSameLoginAlreadyExistsInTheDB = "AUserWithTheSameLoginAlreadyExistsInTheDB";
-    public const string PasswordAgain = "PasswordAgain";
-    public const string PasswordCannotContainSpaces = "PasswordCannotContainSpaces";
-    public const string TheNicknameCannotBeNull = "TheNicknameCannotBeNull";
-    public const string NicknameCannotContainEqualSign = "NicknameCannotContainEqualSign";
-    public const string NicknameCannotContainAmpersand = "NicknameCannotContainAmpersand";
-    public const string TheNicknameCannotContainSpaces = "TheNicknameCannotContainSpaces";
-    public const string LoginAllIsReservedForOtherPurposes = "LoginAllIsReservedForOtherPurposes";
-    public const string DeleteReply = "DeleteReply";
-    public const string WhenWasClickedOnOptionsInThisQuestionnaire = "WhenWasClickedOnOptionsInThisQuestionnaire";
-    public const string ofElementsInTheChipsCollection = "ofElementsInTheChipsCollection";
-    public const string doesNotMatchTheNumberOfElementsInImagesTn = "doesNotMatchTheNumberOfElementsInImagesTn";
-    public const string doesNotMatchTheNumberOfElementsInTheAltsCollection =
+    internal const string AUserWithTheSameLoginAlreadyExistsInTheDB = "AUserWithTheSameLoginAlreadyExistsInTheDB";
+    internal const string PasswordAgain = "PasswordAgain";
+    internal const string PasswordCannotContainSpaces = "PasswordCannotContainSpaces";
+    internal const string TheNicknameCannotBeNull = "TheNicknameCannotBeNull";
+    internal const string NicknameCannotContainEqualSign = "NicknameCannotContainEqualSign";
+    internal const string NicknameCannotContainAmpersand = "NicknameCannotContainAmpersand";
+    internal const string TheNicknameCannotContainSpaces = "TheNicknameCannotContainSpaces";
+    internal const string LoginAllIsReservedForOtherPurposes = "LoginAllIsReservedForOtherPurposes";
+    internal const string DeleteReply = "DeleteReply";
+    internal const string WhenWasClickedOnOptionsInThisQuestionnaire = "WhenWasClickedOnOptionsInThisQuestionnaire";
+    internal const string ofElementsInTheChipsCollection = "ofElementsInTheChipsCollection";
+    internal const string doesNotMatchTheNumberOfElementsInImagesTn = "doesNotMatchTheNumberOfElementsInImagesTn";
+    internal const string doesNotMatchTheNumberOfElementsInTheAltsCollection =
     "doesNotMatchTheNumberOfElementsInTheAltsCollection";
-    public const string JustifiedGalleryHelperGetInnerHtmlTheNumberOfElementsInTheAnchorsCollection =
+    internal const string JustifiedGalleryHelperGetInnerHtmlTheNumberOfElementsInTheAnchorsCollection =
     "JustifiedGalleryHelperGetInnerHtmlTheNumberOfElementsInTheAnchorsCollection";
-    public const string doesNotMatchTheNumberOfElementsInTheImagesCollection =
+    internal const string doesNotMatchTheNumberOfElementsInTheImagesCollection =
     "doesNotMatchTheNumberOfElementsInTheImagesCollection";
-    public const string JustifiedGalleryHelperGetInnerHtmlTheNumberOfElementsInTheAltsCollection =
+    internal const string JustifiedGalleryHelperGetInnerHtmlTheNumberOfElementsInTheAltsCollection =
     "JustifiedGalleryHelperGetInnerHtmlTheNumberOfElementsInTheAltsCollection";
-    public const string Salt = "Salt";
-    public const string Hash = "Hash";
-    public const string FailedToAuthenticateUsers = "FailedToAuthenticateUsers";
-    public const string Month = "Month";
-    public const string SorryTheSignInAndRegistrationSystemIsCurrentlyBeingUpdatedPleaseTryAgainTomorrowOrInAFewHours =
+    internal const string Salt = "Salt";
+    internal const string Hash = "Hash";
+    internal const string FailedToAuthenticateUsers = "FailedToAuthenticateUsers";
+    internal const string Month = "Month";
+    internal const string SorryTheSignInAndRegistrationSystemIsCurrentlyBeingUpdatedPleaseTryAgainTomorrowOrInAFewHours =
     "SorryTheSignInAndRegistrationSystemIsCurrentlyBeingUpdatedPleaseTryAgainTomorrowOrInAFewHours";
-    public const string Status = "Status";
-    public const string DistanceAndTimeCollectionsDoNotHaveTheSameNumberOfElements =
+    internal const string Status = "Status";
+    internal const string DistanceAndTimeCollectionsDoNotHaveTheSameNumberOfElements =
     "DistanceAndTimeCollectionsDoNotHaveTheSameNumberOfElements";
-    public const string General = "General";
-    public const string TheMaximumNumberOfHorizontalLinksInTheToolbarForTheDomainHasNotBeenSpecified =
+    internal const string General = "General";
+    internal const string TheMaximumNumberOfHorizontalLinksInTheToolbarForTheDomainHasNotBeenSpecified =
     "TheMaximumNumberOfHorizontalLinksInTheToolbarForTheDomainHasNotBeenSpecified";
-    public const string Purple = "Purple";
-    public const string Pink = "Pink";
-    public const string Red = "Red";
-    public const string Orange = "Orange";
-    public const string DarkGreen = "DarkGreen";
-    public const string DarkPink = "DarkPink";
-    public const string PaleBlue = "PaleBlue";
-    public const string errorTheImageWasNotInJPEGFormat = "errorTheImageWasNotInJPEGFormat";
-    public const string failedToCreateImageFileWillNotBeUploaded = "failedToCreateImageFileWillNotBeUploaded";
-    public const string errorFromUploadedFile = "errorFromUploadedFile";
-    public const string ObdarujteSvéhoPartnera = "ObdarujteSvéhoPartnera";
-    public const string uriWasNotInTheCorrectFormat = "uriWasNotInTheCorrectFormat";
-    public const string wasFoundInURIButNoSeparatorPipeCommaEtc = "wasFoundInURIButNoSeparatorPipeCommaEtc";
-    public const string butItWasNotAValidURIOrWasLongerThanTheAllowedLengthOrNoSeparatorWasFound =
+    internal const string Purple = "Purple";
+    internal const string Pink = "Pink";
+    internal const string Red = "Red";
+    internal const string Orange = "Orange";
+    internal const string DarkGreen = "DarkGreen";
+    internal const string DarkPink = "DarkPink";
+    internal const string PaleBlue = "PaleBlue";
+    internal const string errorTheImageWasNotInJPEGFormat = "errorTheImageWasNotInJPEGFormat";
+    internal const string failedToCreateImageFileWillNotBeUploaded = "failedToCreateImageFileWillNotBeUploaded";
+    internal const string errorFromUploadedFile = "errorFromUploadedFile";
+    internal const string ObdarujteSvéhoPartnera = "ObdarujteSvéhoPartnera";
+    internal const string uriWasNotInTheCorrectFormat = "uriWasNotInTheCorrectFormat";
+    internal const string wasFoundInURIButNoSeparatorPipeCommaEtc = "wasFoundInURIButNoSeparatorPipeCommaEtc";
+    internal const string butItWasNotAValidURIOrWasLongerThanTheAllowedLengthOrNoSeparatorWasFound =
     "butItWasNotAValidURIOrWasLongerThanTheAllowedLengthOrNoSeparatorWasFound";
-    public const string errorTextEnteredInArgument = "errorTextEnteredInArgument";
-    public const string notFoundInURIItIsImportantToFollowTheExactCaseOfTheLettersAndDoNotChangeTheURI =
+    internal const string errorTextEnteredInArgument = "errorTextEnteredInArgument";
+    internal const string notFoundInURIItIsImportantToFollowTheExactCaseOfTheLettersAndDoNotChangeTheURI =
     "notFoundInURIItIsImportantToFollowTheExactCaseOfTheLettersAndDoNotChangeTheURI";
-    public const string errorTheSiteSeemsToHaveCalledTheWrongMethodTheWrongRangeErrorCannotBeAppliedToAnOrdinaryString =
+    internal const string errorTheSiteSeemsToHaveCalledTheWrongMethodTheWrongRangeErrorCannotBeAppliedToAnOrdinaryString =
     "errorTheSiteSeemsToHaveCalledTheWrongMethodTheWrongRangeErrorCannotBeAppliedToAnOrdinaryString";
-    public const string wasFoundInURIButWasNotTrueOrFalse = "wasFoundInURIButWasNotTrueOrFalse";
-    public const string IfEverythingIsOKAllOKICannotReturnAnyError = "IfEverythingIsOKAllOKICannotReturnAnyError";
-    public const string notFoundInURI = "notFoundInURI";
-    public const string wasFoundInURIButEmpty = "wasFoundInURIButEmpty";
-    public const string wasFoundInURIButWasNotInRange = "wasFoundInURIButWasNotInRange";
-    public const string errorArgument = "errorArgument";
-    public const string loginAttempts = "loginAttempts";
-    public const string GuiApps = "GuiApps";
-    public const string ConsoleApps = "ConsoleApps";
-    public const string AllApps = "AllApps";
-    public const string Leaderboards = "Leaderboards";
-    public const string Github = "Github";
-    public const string Apps = "Apps";
-    public const string WebmasterHitsAreNotLogged = "WebmasterHitsAreNotLogged";
-    public const string ForPage = "ForPage";
-    public const string WhatYouCanFindHere = "WhatYouCanFindHere";
-    public const string
+    internal const string wasFoundInURIButWasNotTrueOrFalse = "wasFoundInURIButWasNotTrueOrFalse";
+    internal const string IfEverythingIsOKAllOKICannotReturnAnyError = "IfEverythingIsOKAllOKICannotReturnAnyError";
+    internal const string notFoundInURI = "notFoundInURI";
+    internal const string wasFoundInURIButEmpty = "wasFoundInURIButEmpty";
+    internal const string wasFoundInURIButWasNotInRange = "wasFoundInURIButWasNotInRange";
+    internal const string errorArgument = "errorArgument";
+    internal const string loginAttempts = "loginAttempts";
+    internal const string GuiApps = "GuiApps";
+    internal const string ConsoleApps = "ConsoleApps";
+    internal const string AllApps = "AllApps";
+    internal const string Leaderboards = "Leaderboards";
+    internal const string Github = "Github";
+    internal const string Apps = "Apps";
+    internal const string WebmasterHitsAreNotLogged = "WebmasterHitsAreNotLogged";
+    internal const string ForPage = "ForPage";
+    internal const string WhatYouCanFindHere = "WhatYouCanFindHere";
+    internal const string
     IAmInterestedInProgrammingOnTheNETPlatformInCButAlsoInOtherPlatformsAndLanguagesILikeToFollowAllModernLifeAndITEventsNowIMJustWaitingForDartToGetThroughGoogleHeLikedOperaBeforeMovingOnToBlinkBlinkDoesNotBotherMeItBothersMeTheLossOfFunctionsSometimesIReadSomethingOrLearnSomethingNewAlthoughIfIDonTHaveToIWorkWithWhatIKnowAndKnowILikeTheResultsOfMyWorkIDonTLikeJava =
     "IAmInterestedInProgrammingOnTheNETPlatformInCButAlsoInOtherPlatformsAndLanguagesILikeToFollowAllModernLifeAndITEventsNowIMJustWaitingForDartToGetThroughGoogleHeLikedOperaBeforeMovingOnToBlinkBlinkDoesNotBotherMeItBothersMeTheLossOfFunctionsSometimesIReadSomethingOrLearnSomethingNewAlthoughIfIDonTHaveToIWorkWithWhatIKnowAndKnowILikeTheResultsOfMyWorkIDonTLikeJava";
-    public const string LastModifiedDate = "LastModifiedDate";
-    public const string TechnologyIUseSomethingAbout = "TechnologyIUseSomethingAbout";
-    public const string TagCloud = "TagCloud";
-    public const string AddMoreTagsFrom = "AddMoreTagsFrom";
-    public const string TagManagement = "TagManagement";
-    public const string SaveChangesInDependencies = "SaveChangesInDependencies";
-    public const string ManageExistingSoftware = "ManageExistingSoftware";
-    public const string
+    internal const string LastModifiedDate = "LastModifiedDate";
+    internal const string TechnologyIUseSomethingAbout = "TechnologyIUseSomethingAbout";
+    internal const string TagCloud = "TagCloud";
+    internal const string AddMoreTagsFrom = "AddMoreTagsFrom";
+    internal const string TagManagement = "TagManagement";
+    internal const string SaveChangesInDependencies = "SaveChangesInDependencies";
+    internal const string ManageExistingSoftware = "ManageExistingSoftware";
+    internal const string
     BeforeUploadingItIsAGoodIdeaToMakeSureThatTheUploadedFileHasANameUnderWhichItWillAppearOnTheSiteTheSiteDoesNotHaveSplitTablesForTheFileNameAndTableName =
     "BeforeUploadingItIsAGoodIdeaToMakeSureThatTheUploadedFileHasANameUnderWhichItWillAppearOnTheSiteTheSiteDoesNotHaveSplitTablesForTheFileNameAndTableName";
-    public const string software = "software";
-    public const string AddNew = "AddNew";
-    public const string Upload = "Upload";
-    public const string DeleteSelectedImages = "DeleteSelectedImages";
-    public const string DescriptionOfChanges = "DescriptionOfChanges";
-    public const string ApplicationVersion = "ApplicationVersion";
-    public const string ManageFilesOfThisVersion = "ManageFilesOfThisVersion";
-    public const string SaveChangesToTheVersionShown = "SaveChangesToTheVersionShown";
-    public const string SetDisplayedVersionAsDefault = "SetDisplayedVersionAsDefault";
-    public const string ClearTheDisplayedVersion = "ClearTheDisplayedVersion";
-    public const string verze = "verze";
-    public const string Settings = "Settings";
-    public const string CreateANewVersion = "CreateANewVersion";
-    public const string ManageImagesForThisApp = "ManageImagesForThisApp";
-    public const string ManageTagsForThisProgram = "ManageTagsForThisProgram";
-    public const string ManageTheProgramsThatDependOnThisProgram = "ManageTheProgramsThatDependOnThisProgram";
-    public const string TypSoftware = "TypSoftware";
-    public const string ShowingAnAppOnTheWeb = "ShowingAnAppOnTheWeb";
-    public const string TheApplicationHasAGUI = "TheApplicationHasAGUI";
-    public const string ApplicationDescription = "ApplicationDescription";
-    public const string TheNameOfTheAppOnGitHub = "TheNameOfTheAppOnGitHub";
-    public const string TheNameOfTheApplication = "TheNameOfTheApplication";
-    public const string SharedSettings = "SharedSettings";
-    public const string appsCloudu = "appsCloudu";
-    public const string InTheForm = "InTheForm";
-    public const string addNewApp = "addNewApp";
-    public const string aplikace = "aplikace";
-    public const string
+    internal const string software = "software";
+    internal const string AddNew = "AddNew";
+    internal const string Upload = "Upload";
+    internal const string DeleteSelectedImages = "DeleteSelectedImages";
+    internal const string DescriptionOfChanges = "DescriptionOfChanges";
+    internal const string ApplicationVersion = "ApplicationVersion";
+    internal const string ManageFilesOfThisVersion = "ManageFilesOfThisVersion";
+    internal const string SaveChangesToTheVersionShown = "SaveChangesToTheVersionShown";
+    internal const string SetDisplayedVersionAsDefault = "SetDisplayedVersionAsDefault";
+    internal const string ClearTheDisplayedVersion = "ClearTheDisplayedVersion";
+    internal const string verze = "verze";
+    internal const string Settings = "Settings";
+    internal const string CreateANewVersion = "CreateANewVersion";
+    internal const string ManageImagesForThisApp = "ManageImagesForThisApp";
+    internal const string ManageTagsForThisProgram = "ManageTagsForThisProgram";
+    internal const string ManageTheProgramsThatDependOnThisProgram = "ManageTheProgramsThatDependOnThisProgram";
+    internal const string TypSoftware = "TypSoftware";
+    internal const string ShowingAnAppOnTheWeb = "ShowingAnAppOnTheWeb";
+    internal const string TheApplicationHasAGUI = "TheApplicationHasAGUI";
+    internal const string ApplicationDescription = "ApplicationDescription";
+    internal const string TheNameOfTheAppOnGitHub = "TheNameOfTheAppOnGitHub";
+    internal const string TheNameOfTheApplication = "TheNameOfTheApplication";
+    internal const string SharedSettings = "SharedSettings";
+    internal const string appsCloudu = "appsCloudu";
+    internal const string InTheForm = "InTheForm";
+    internal const string addNewApp = "addNewApp";
+    internal const string aplikace = "aplikace";
+    internal const string
     ThisSiteWasProgrammedToGiveMeTheBinariesOfMyDesktopProgramsThereSABetterPlaceToDoItThanYourWebsite =
     "ThisSiteWasProgrammedToGiveMeTheBinariesOfMyDesktopProgramsThereSABetterPlaceToDoItThanYourWebsite";
-    public const string webu = "webu";
-    public const string O = "O";
-    public const string TotalViews = "TotalViews";
-    public const string NumberOfThumbsDown = "NumberOfThumbsDown";
-    public const string NumberOfThumbsUp = "NumberOfThumbsUp";
-    public const string NumberOfDownloads = "NumberOfDownloads";
-    public const string AFewMoreDetails = "AFewMoreDetails";
-    public const string LinkToGitHub = "LinkToGitHub";
-    public const string TypSoftwaru = "TypSoftwaru";
-    public const string HasApplicationGraphicalInterface = "HasApplicationGraphicalInterface";
-    public const string MoreInformation = "MoreInformation";
-    public const string BasicInformation = "BasicInformation";
-    public const string DependsOnThe = "DependsOnThe";
-    public const string Shoty = "Shoty";
-    public const string NoIDonTLikeTheApp = "NoIDonTLikeTheApp";
-    public const string YesILikeTheApp = "YesILikeTheApp";
-    public const string ILikeIt = "ILikeIt";
-    public const string EditApp = "EditApp";
-    public const string GitHub = "GitHub";
-    public const string DownloadTheRecommendedVersion = "DownloadTheRecommendedVersion";
-    public const string CreatePathAndRecordsInDBTables = "CreatePathAndRecordsInDBTables";
-    public const string FileInclExtensionsYouWantToUpload = "FileInclExtensionsYouWantToUpload";
-    public const string PreparingForFtpUploadOfANewFileToUpload = "PreparingForFtpUploadOfANewFileToUpload";
-    public const string addNewDownload = "addNewDownload";
-    public const string FoundInTranslatedTexts = "FoundInTranslatedTexts";
-    public const string FoundInOriginalTexts = "FoundInOriginalTexts";
-    public const string FoundInSongTitles = "FoundInSongTitles";
-    public const string FoundInAlbumDescription = "FoundInAlbumDescription";
-    public const string FrameContent = "FrameContent";
-    public const string FoundInAlbumNames = "FoundInAlbumNames";
-    public const string SearchResults = "SearchResults";
-    public const string views = "views";
-    public const string days = "days";
-    public const string AllOfTheFollowingInformationOnThisPageIsFromTheUser =
+    internal const string webu = "webu";
+    internal const string O = "O";
+    internal const string TotalViews = "TotalViews";
+    internal const string NumberOfThumbsDown = "NumberOfThumbsDown";
+    internal const string NumberOfThumbsUp = "NumberOfThumbsUp";
+    internal const string NumberOfDownloads = "NumberOfDownloads";
+    internal const string AFewMoreDetails = "AFewMoreDetails";
+    internal const string LinkToGitHub = "LinkToGitHub";
+    internal const string TypSoftwaru = "TypSoftwaru";
+    internal const string HasApplicationGraphicalInterface = "HasApplicationGraphicalInterface";
+    internal const string MoreInformation = "MoreInformation";
+    internal const string BasicInformation = "BasicInformation";
+    internal const string DependsOnThe = "DependsOnThe";
+    internal const string Shoty = "Shoty";
+    internal const string NoIDonTLikeTheApp = "NoIDonTLikeTheApp";
+    internal const string YesILikeTheApp = "YesILikeTheApp";
+    internal const string ILikeIt = "ILikeIt";
+    internal const string EditApp = "EditApp";
+    internal const string GitHub = "GitHub";
+    internal const string DownloadTheRecommendedVersion = "DownloadTheRecommendedVersion";
+    internal const string CreatePathAndRecordsInDBTables = "CreatePathAndRecordsInDBTables";
+    internal const string FileInclExtensionsYouWantToUpload = "FileInclExtensionsYouWantToUpload";
+    internal const string PreparingForFtpUploadOfANewFileToUpload = "PreparingForFtpUploadOfANewFileToUpload";
+    internal const string addNewDownload = "addNewDownload";
+    internal const string FoundInTranslatedTexts = "FoundInTranslatedTexts";
+    internal const string FoundInOriginalTexts = "FoundInOriginalTexts";
+    internal const string FoundInSongTitles = "FoundInSongTitles";
+    internal const string FoundInAlbumDescription = "FoundInAlbumDescription";
+    internal const string FrameContent = "FrameContent";
+    internal const string FoundInAlbumNames = "FoundInAlbumNames";
+    internal const string SearchResults = "SearchResults";
+    internal const string views = "views";
+    internal const string days = "days";
+    internal const string AllOfTheFollowingInformationOnThisPageIsFromTheUser =
     "AllOfTheFollowingInformationOnThisPageIsFromTheUser";
-    public const string AdditionalInformationAtTheArtist = "AdditionalInformationAtTheArtist";
-    public const string AllArtistSongs = "AllArtistSongs";
-    public const string SimilarArtists = "SimilarArtists";
-    public const string GenresOfThisArtist = "GenresOfThisArtist";
-    public const string AllArtistAlbums = "AllArtistAlbums";
-    public const string AboutArtist = "AboutArtist";
-    public const string Overall = "Overall";
-    public const string unlessOtherwiseStated = "unlessOtherwiseStated";
-    public const string SongsFromThisAlbum = "SongsFromThisAlbum";
-    public const string MoreArtistAlbums = "MoreArtistAlbums";
-    public const string LastFm = "LastFm";
-    public const string AllInformationOnThisPageComeFrom = "AllInformationOnThisPageComeFrom";
-    public const string AdminConsole = "AdminConsole";
-    public const string InsertNewSongLyrics = "InsertNewSongLyrics";
-    public const string PasswordCannotBeEmpty = "PasswordCannotBeEmpty";
-    public const string ThePasswordIsStrongAndInTheCorrectFormatYourPasswordIs =
+    internal const string AdditionalInformationAtTheArtist = "AdditionalInformationAtTheArtist";
+    internal const string AllArtistSongs = "AllArtistSongs";
+    internal const string SimilarArtists = "SimilarArtists";
+    internal const string GenresOfThisArtist = "GenresOfThisArtist";
+    internal const string AllArtistAlbums = "AllArtistAlbums";
+    internal const string AboutArtist = "AboutArtist";
+    internal const string Overall = "Overall";
+    internal const string unlessOtherwiseStated = "unlessOtherwiseStated";
+    internal const string SongsFromThisAlbum = "SongsFromThisAlbum";
+    internal const string MoreArtistAlbums = "MoreArtistAlbums";
+    internal const string LastFm = "LastFm";
+    internal const string AllInformationOnThisPageComeFrom = "AllInformationOnThisPageComeFrom";
+    internal const string AdminConsole = "AdminConsole";
+    internal const string InsertNewSongLyrics = "InsertNewSongLyrics";
+    internal const string PasswordCannotBeEmpty = "PasswordCannotBeEmpty";
+    internal const string ThePasswordIsStrongAndInTheCorrectFormatYourPasswordIs =
     "ThePasswordIsStrongAndInTheCorrectFormatYourPasswordIs";
-    public const string OutputTextWasEmpty = "OutputTextWasEmpty";
-    public const string OutputTextCanNotBeCopiedToTheClipboardUnsupportedBrowser =
+    internal const string OutputTextWasEmpty = "OutputTextWasEmpty";
+    internal const string OutputTextCanNotBeCopiedToTheClipboardUnsupportedBrowser =
     "OutputTextCanNotBeCopiedToTheClipboardUnsupportedBrowser";
-    public const string OutputText = "OutputText";
-    public const string NonMatchingNumberOfParameterNamesAndValues = "NonMatchingNumberOfParameterNamesAndValues";
-    public const string InvalidDate = "InvalidDate";
-    public const string NoEmailWasSent = "NoEmailWasSent";
-    public const string EnterYourFriendSEmailAddress = "EnterYourFriendSEmailAddress";
-    public const string ddMMYyyy = "ddMMYyyy";
-    public const string IMLovinIt = "IMLovinIt";
-    public const string DeleteSongLyricsFromFavorites = "DeleteSongLyricsFromFavorites";
-    public const string AddSongTranslationToYourFavorites = "AddSongTranslationToYourFavorites";
-    public const string DeleteSongTranslationFromFavorites = "DeleteSongTranslationFromFavorites";
-    public const string TheDateOfBirthIsNotInTheCorrectFormatOrHasADifferentDefect =
+    internal const string OutputText = "OutputText";
+    internal const string NonMatchingNumberOfParameterNamesAndValues = "NonMatchingNumberOfParameterNamesAndValues";
+    internal const string InvalidDate = "InvalidDate";
+    internal const string NoEmailWasSent = "NoEmailWasSent";
+    internal const string EnterYourFriendSEmailAddress = "EnterYourFriendSEmailAddress";
+    internal const string ddMMYyyy = "ddMMYyyy";
+    internal const string IMLovinIt = "IMLovinIt";
+    internal const string DeleteSongLyricsFromFavorites = "DeleteSongLyricsFromFavorites";
+    internal const string AddSongTranslationToYourFavorites = "AddSongTranslationToYourFavorites";
+    internal const string DeleteSongTranslationFromFavorites = "DeleteSongTranslationFromFavorites";
+    internal const string TheDateOfBirthIsNotInTheCorrectFormatOrHasADifferentDefect =
     "TheDateOfBirthIsNotInTheCorrectFormatOrHasADifferentDefect";
-    public const string PhoneNumberCannotBeLeftBlank = "PhoneNumberCannotBeLeftBlank";
-    public const string TelNumberDoesNotContainAPeriod = "TelNumberDoesNotContainAPeriod";
-    public const string TheFirstCharacterIsNot = "TheFirstCharacterIsNot";
-    public const string TelTheNumberWasNotInTheCorrectFormat = "TelTheNumberWasNotInTheCorrectFormat";
-    public const string ThePhoneNumberCannotEndWithAPeriod = "ThePhoneNumberCannotEndWithAPeriod";
-    public const string ThePhoneNumberIsIncomplete = "ThePhoneNumberIsIncomplete";
-    public const string NoneSymbolsFounded = "NoneSymbolsFounded";
-    public const string Output = "Output";
-    public const string BaseUriIsEmptyOrWhitespace = "BaseUriIsEmptyOrWhitespace";
-    public const string DonTKnowAlbumTheWebWillFindItItself = "DonTKnowAlbumTheWebWillFindItItself";
-    public const string ThisIsATranslationFromTheOriginal = "ThisIsATranslationFromTheOriginal";
-    public const string SaveThisTextToYourFavorites = "SaveThisTextToYourFavorites";
-    public const string TheSongHasNoText = "TheSongHasNoText";
-    public const string Pou = "Pou";
-    public const string AddToDB = "AddToDB";
-    public const string
+    internal const string PhoneNumberCannotBeLeftBlank = "PhoneNumberCannotBeLeftBlank";
+    internal const string TelNumberDoesNotContainAPeriod = "TelNumberDoesNotContainAPeriod";
+    internal const string TheFirstCharacterIsNot = "TheFirstCharacterIsNot";
+    internal const string TelTheNumberWasNotInTheCorrectFormat = "TelTheNumberWasNotInTheCorrectFormat";
+    internal const string ThePhoneNumberCannotEndWithAPeriod = "ThePhoneNumberCannotEndWithAPeriod";
+    internal const string ThePhoneNumberIsIncomplete = "ThePhoneNumberIsIncomplete";
+    internal const string NoneSymbolsFounded = "NoneSymbolsFounded";
+    internal const string Output = "Output";
+    internal const string BaseUriIsEmptyOrWhitespace = "BaseUriIsEmptyOrWhitespace";
+    internal const string DonTKnowAlbumTheWebWillFindItItself = "DonTKnowAlbumTheWebWillFindItItself";
+    internal const string ThisIsATranslationFromTheOriginal = "ThisIsATranslationFromTheOriginal";
+    internal const string SaveThisTextToYourFavorites = "SaveThisTextToYourFavorites";
+    internal const string TheSongHasNoText = "TheSongHasNoText";
+    internal const string Pou = "Pou";
+    internal const string AddToDB = "AddToDB";
+    internal const string
     AfterPressingTheButtonBelowBePatientAndDoNotPressTheButtonAgainSomeDataHaveAlreadyBeenSavedAndCannotBeDuplicated =
     "AfterPressingTheButtonBelowBePatientAndDoNotPressTheButtonAgainSomeDataHaveAlreadyBeenSavedAndCannotBeDuplicated";
-    public const string Lyrics = "Lyrics";
-    public const string Album = "Album";
-    public const string Interpret = "Interpret";
-    public const string
+    internal const string Lyrics = "Lyrics";
+    internal const string Album = "Album";
+    internal const string Interpret = "Interpret";
+    internal const string
     UseThisFormOnlyForOriginalSongLyricsThatMeansNotForTranslatedLyricsFromEnglishIfTheSongIsCzechItWasOfficiallyReleasedInCzechYouCanUseThisFormEnterOnlyOneArtistAtATimeIfThereAreMoreOnlyInThisWayWillTheWebsiteBeAbleToFindTheRightDataSuchAsSimilarArtistsAndGenres =
     "UseThisFormOnlyForOriginalSongLyricsThatMeansNotForTranslatedLyricsFromEnglishIfTheSongIsCzechItWasOfficiallyReleasedInCzechYouCanUseThisFormEnterOnlyOneArtistAtATimeIfThereAreMoreOnlyInThisWayWillTheWebsiteBeAbleToFindTheRightDataSuchAsSimilarArtistsAndGenres";
-    public const string FavoriteSongTranslations = "FavoriteSongTranslations";
-    public const string FavoriteLyrics = "FavoriteLyrics";
-    public const string translationsOfSongsAnd = "translationsOfSongsAnd";
-    public const string originalTexts = "originalTexts";
-    public const string AddedBy = "AddedBy";
-    public const string InsertNewVideo = "InsertNewVideo";
-    public const string VideoYTCode = "VideoYTCode";
-    public const string TheMostPopularSongsFromThisAlbum = "TheMostPopularSongsFromThisAlbum";
-    public const string ArtistSMostPopularSongs = "ArtistSMostPopularSongs";
-    public const string YouMightAlsoLike = "YouMightAlsoLike";
-    public const string SearchYouTube = "SearchYouTube";
-    public const string WatchOnYouTube = "WatchOnYouTube";
-    public const string WatchHere = "WatchHere";
-    public const string AllTranslationsForThisSong = "AllTranslationsForThisSong";
-    public const string PleaseLogInToVoteOnTheTranslationQualityOfTheSong =
+    internal const string FavoriteSongTranslations = "FavoriteSongTranslations";
+    internal const string FavoriteLyrics = "FavoriteLyrics";
+    internal const string translationsOfSongsAnd = "translationsOfSongsAnd";
+    internal const string originalTexts = "originalTexts";
+    internal const string AddedBy = "AddedBy";
+    internal const string InsertNewVideo = "InsertNewVideo";
+    internal const string VideoYTCode = "VideoYTCode";
+    internal const string TheMostPopularSongsFromThisAlbum = "TheMostPopularSongsFromThisAlbum";
+    internal const string ArtistSMostPopularSongs = "ArtistSMostPopularSongs";
+    internal const string YouMightAlsoLike = "YouMightAlsoLike";
+    internal const string SearchYouTube = "SearchYouTube";
+    internal const string WatchOnYouTube = "WatchOnYouTube";
+    internal const string WatchHere = "WatchHere";
+    internal const string AllTranslationsForThisSong = "AllTranslationsForThisSong";
+    internal const string PleaseLogInToVoteOnTheTranslationQualityOfTheSong =
     "PleaseLogInToVoteOnTheTranslationQualityOfTheSong";
-    public const string SignInToaddSongTranslationToYourFavorites = "SignInToaddSongTranslationToYourFavorites";
-    public const string AddTranslationToFavorites = "AddTranslationToFavorites";
-    public const string AllOriginalLyricsOfThisSong = "AllOriginalLyricsOfThisSong";
-    public const string PleaseLogInToVoteOnTheQualityOfTheSong = "PleaseLogInToVoteOnTheQualityOfTheSong";
-    public const string SignInToAddLyricsToYourFavorites = "SignInToAddLyricsToYourFavorites";
-    public const string AddSongLyricsToYourFavorites = "AddSongLyricsToYourFavorites";
-    public const string A = "A";
-    public const string TextAndTranslationSize = "TextAndTranslationSize";
-    public const string mailu = "mailu";
-    public const string WrongVideoTextOrSongTranslationNotifyMeOfThisIssueAt =
+    internal const string SignInToaddSongTranslationToYourFavorites = "SignInToaddSongTranslationToYourFavorites";
+    internal const string AddTranslationToFavorites = "AddTranslationToFavorites";
+    internal const string AllOriginalLyricsOfThisSong = "AllOriginalLyricsOfThisSong";
+    internal const string PleaseLogInToVoteOnTheQualityOfTheSong = "PleaseLogInToVoteOnTheQualityOfTheSong";
+    internal const string SignInToAddLyricsToYourFavorites = "SignInToAddLyricsToYourFavorites";
+    internal const string AddSongLyricsToYourFavorites = "AddSongLyricsToYourFavorites";
+    internal const string A = "A";
+    internal const string TextAndTranslationSize = "TextAndTranslationSize";
+    internal const string mailu = "mailu";
+    internal const string WrongVideoTextOrSongTranslationNotifyMeOfThisIssueAt =
     "WrongVideoTextOrSongTranslationNotifyMeOfThisIssueAt";
-    public const string AlbumPage = "AlbumPage";
-    public const string ArtistPage = "ArtistPage";
-    public const string NickSName = "NickSName";
-    public const string DidnTFindYourFavoriteVideoOrTextOnThisSite = "DidnTFindYourFavoriteVideoOrTextOnThisSite";
-    public const string DeleteYTVideos = "DeleteYTVideos";
-    public const string DeleteSongLyrics = "DeleteSongLyrics";
-    public const string SmazatYTVidea = "SmazatYTVidea";
-    public const string AddIt = "AddIt";
-    public const string Dart = "Dart";
-    public const string Shortener = "Shortener";
-    public const string Slider = "Slider";
-    public const string Rectangle = "Rectangle";
-    public const string Popup = "Popup";
-    public const string Image = "Image";
-    public const string Grid = "Grid";
-    public const string Frame = "Frame";
-    public const string Ellipse = "Ellipse";
-    public const string Canvas = "Canvas";
-    public const string Button = "Button";
-    public const string IncompleteUriAddress = "IncompleteUriAddress";
-    public const string TheRequestedControlWasNotFoundOnTheServer = "TheRequestedControlWasNotFoundOnTheServer";
-    public const string Control = "Control";
-    public const string TheNumberOfClicks = "TheNumberOfClicks";
-    public const string Browser = "Browser";
-    public const string Language = "Language";
-    public const string UserBrowserInclVersions = "UserBrowserInclVersions";
-    public const string OSUserPlatform = "OSUserPlatform";
-    public const string PreviousPages = "PreviousPages";
-    public const string UserBrowser = "UserBrowser";
-    public const string LanguageOfUsers = "LanguageOfUsers";
-    public const string Unknown = "Unknown";
-    public const string Empty = "Empty";
-    public const string IDGo = "IDGo";
-    public const string TheCommentWasTooLong = "TheCommentWasTooLong";
-    public const string ThePageDidNotHaveAValidLogAtTheBeginning = "ThePageDidNotHaveAValidLogAtTheBeginning";
-    public const string ProbablySpuriousCookiesLogOutAndLogInAgain = "ProbablySpuriousCookiesLogOutAndLogInAgain";
-    public const string UnfortunatelyAShortURIWithSuchACodeWasNotFound =
+    internal const string AlbumPage = "AlbumPage";
+    internal const string ArtistPage = "ArtistPage";
+    internal const string NickSName = "NickSName";
+    internal const string DidnTFindYourFavoriteVideoOrTextOnThisSite = "DidnTFindYourFavoriteVideoOrTextOnThisSite";
+    internal const string DeleteYTVideos = "DeleteYTVideos";
+    internal const string DeleteSongLyrics = "DeleteSongLyrics";
+    internal const string SmazatYTVidea = "SmazatYTVidea";
+    internal const string AddIt = "AddIt";
+    internal const string Dart = "Dart";
+    internal const string Shortener = "Shortener";
+    internal const string Slider = "Slider";
+    internal const string Rectangle = "Rectangle";
+    internal const string Popup = "Popup";
+    internal const string Image = "Image";
+    internal const string Grid = "Grid";
+    internal const string Frame = "Frame";
+    internal const string Ellipse = "Ellipse";
+    internal const string Canvas = "Canvas";
+    internal const string Button = "Button";
+    internal const string IncompleteUriAddress = "IncompleteUriAddress";
+    internal const string TheRequestedControlWasNotFoundOnTheServer = "TheRequestedControlWasNotFoundOnTheServer";
+    internal const string Control = "Control";
+    internal const string TheNumberOfClicks = "TheNumberOfClicks";
+    internal const string Browser = "Browser";
+    internal const string Language = "Language";
+    internal const string UserBrowserInclVersions = "UserBrowserInclVersions";
+    internal const string OSUserPlatform = "OSUserPlatform";
+    internal const string PreviousPages = "PreviousPages";
+    internal const string UserBrowser = "UserBrowser";
+    internal const string LanguageOfUsers = "LanguageOfUsers";
+    internal const string Unknown = "Unknown";
+    internal const string Empty = "Empty";
+    internal const string IDGo = "IDGo";
+    internal const string TheCommentWasTooLong = "TheCommentWasTooLong";
+    internal const string ThePageDidNotHaveAValidLogAtTheBeginning = "ThePageDidNotHaveAValidLogAtTheBeginning";
+    internal const string ProbablySpuriousCookiesLogOutAndLogInAgain = "ProbablySpuriousCookiesLogOutAndLogInAgain";
+    internal const string UnfortunatelyAShortURIWithSuchACodeWasNotFound =
     "UnfortunatelyAShortURIWithSuchACodeWasNotFound";
-    public const string YouCannotViewStatisticsForALinkThatDoesNotBelongToYou =
+    internal const string YouCannotViewStatisticsForALinkThatDoesNotBelongToYou =
     "YouCannotViewStatisticsForALinkThatDoesNotBelongToYou";
-    public const string NotInserted = "NotInserted";
-    public const string TotalClicks = "TotalClicks";
-    public const string Created = "Created";
-    public const string ShortURI = "ShortURI";
-    public const string LongURI = "LongURI";
-    public const string Active = "Active";
-    public const string AllLinksWereTruncatedSuccessfully = "AllLinksWereTruncatedSuccessfully";
-    public const string NotASingleReferenceWasShortenedBecause = "NotASingleReferenceWasShortenedBecause";
-    public const string ThisURIWasNotInTheCorrectFormat = "ThisURIWasNotInTheCorrectFormat";
-    public const string SuchUserWasNotFound = "SuchUserWasNotFound";
-    public const string HasnTUploadedAnyPhotosYet = "HasnTUploadedAnyPhotosYet";
-    public const string UserPhotoStats = "UserPhotoStats";
-    public const string RangeWasNotInValidRange = "RangeWasNotInValidRange";
-    public const string YouAreNotSearchingInAllUsersAndTheSearchedUserWasNotFound =
+    internal const string NotInserted = "NotInserted";
+    internal const string TotalClicks = "TotalClicks";
+    internal const string Created = "Created";
+    internal const string ShortURI = "ShortURI";
+    internal const string LongURI = "LongURI";
+    internal const string Active = "Active";
+    internal const string AllLinksWereTruncatedSuccessfully = "AllLinksWereTruncatedSuccessfully";
+    internal const string NotASingleReferenceWasShortenedBecause = "NotASingleReferenceWasShortenedBecause";
+    internal const string ThisURIWasNotInTheCorrectFormat = "ThisURIWasNotInTheCorrectFormat";
+    internal const string SuchUserWasNotFound = "SuchUserWasNotFound";
+    internal const string HasnTUploadedAnyPhotosYet = "HasnTUploadedAnyPhotosYet";
+    internal const string UserPhotoStats = "UserPhotoStats";
+    internal const string RangeWasNotInValidRange = "RangeWasNotInValidRange";
+    internal const string YouAreNotSearchingInAllUsersAndTheSearchedUserWasNotFound =
     "YouAreNotSearchingInAllUsersAndTheSearchedUserWasNotFound";
-    public const string AlbumDescription = "AlbumDescription";
-    public const string AlbumName = "AlbumName";
-    public const string TextSearch = "TextSearch";
-    public const string Range = "Range";
-    public const string AnErrorHasOccured = "AnErrorHasOccured";
-    public const string ImageWithIDReceivedInUriNotFoundInDatabase = "ImageWithIDReceivedInUriNotFoundInDatabase";
-    public const string AlbumsAreSortedByFirstUploadDateInDescendingOrder =
+    internal const string AlbumDescription = "AlbumDescription";
+    internal const string AlbumName = "AlbumName";
+    internal const string TextSearch = "TextSearch";
+    internal const string Range = "Range";
+    internal const string AnErrorHasOccured = "AnErrorHasOccured";
+    internal const string ImageWithIDReceivedInUriNotFoundInDatabase = "ImageWithIDReceivedInUriNotFoundInDatabase";
+    internal const string AlbumsAreSortedByFirstUploadDateInDescendingOrder =
     "AlbumsAreSortedByFirstUploadDateInDescendingOrder";
-    public const string ThisGalleryIsPublicOnlyYouCanSeeThisMessage = "ThisGalleryIsPublicOnlyYouCanSeeThisMessage";
-    public const string ThisGalleryIsPrivateAndAValidAlbumKeyParameterWasNotFoundInURI =
+    internal const string ThisGalleryIsPublicOnlyYouCanSeeThisMessage = "ThisGalleryIsPublicOnlyYouCanSeeThisMessage";
+    internal const string ThisGalleryIsPrivateAndAValidAlbumKeyParameterWasNotFoundInURI =
     "ThisGalleryIsPrivateAndAValidAlbumKeyParameterWasNotFoundInURI";
-    public const string GalleryIsPrivateAccessCodeWasIncorrect = "GalleryIsPrivateAccessCodeWasIncorrect";
-    public const string NoAlbumsHaveBeenViewedInTheLastWeekTodaySHitsWillOnlyBeVisibleTomorrow =
+    internal const string GalleryIsPrivateAccessCodeWasIncorrect = "GalleryIsPrivateAccessCodeWasIncorrect";
+    internal const string NoAlbumsHaveBeenViewedInTheLastWeekTodaySHitsWillOnlyBeVisibleTomorrow =
     "NoAlbumsHaveBeenViewedInTheLastWeekTodaySHitsWillOnlyBeVisibleTomorrow";
-    public const string by = "by";
-    public const string ThereWasNoUnderscoreInTheAlbumNameParameter = "ThereWasNoUnderscoreInTheAlbumNameParameter";
-    public const string FailedToParseAlbumIDFromFirstPartOfAlbumParameter =
+    internal const string by = "by";
+    internal const string ThereWasNoUnderscoreInTheAlbumNameParameter = "ThereWasNoUnderscoreInTheAlbumNameParameter";
+    internal const string FailedToParseAlbumIDFromFirstPartOfAlbumParameter =
     "FailedToParseAlbumIDFromFirstPartOfAlbumParameter";
-    public const string TheRequestedAlbumWasNotFoundHere = "TheRequestedAlbumWasNotFoundHere";
-    public const string PhotosInAlbum = "PhotosInAlbum";
-    public const string OnlyPhotosUploadedOnAreShown = "OnlyPhotosUploadedOnAreShown";
-    public const string ThisAlbumIsPublicOnlyYouCanSeeThisMessage = "ThisAlbumIsPublicOnlyYouCanSeeThisMessage";
-    public const string ThisAlbumIsPrivateAndAValidAlbumKeyParameterWasNotFoundInURI =
+    internal const string TheRequestedAlbumWasNotFoundHere = "TheRequestedAlbumWasNotFoundHere";
+    internal const string PhotosInAlbum = "PhotosInAlbum";
+    internal const string OnlyPhotosUploadedOnAreShown = "OnlyPhotosUploadedOnAreShown";
+    internal const string ThisAlbumIsPublicOnlyYouCanSeeThisMessage = "ThisAlbumIsPublicOnlyYouCanSeeThisMessage";
+    internal const string ThisAlbumIsPrivateAndAValidAlbumKeyParameterWasNotFoundInURI =
     "ThisAlbumIsPrivateAndAValidAlbumKeyParameterWasNotFoundInURI";
-    public const string AlbumPrivateAccessCodeIncorrect = "AlbumPrivateAccessCodeIncorrect";
-    public const string TheRequestedAlbumWasNotFoundHereTheUserRenamedOrDeletedItIfItEverExisted =
+    internal const string AlbumPrivateAccessCodeIncorrect = "AlbumPrivateAccessCodeIncorrect";
+    internal const string TheRequestedAlbumWasNotFoundHereTheUserRenamedOrDeletedItIfItEverExisted =
     "TheRequestedAlbumWasNotFoundHereTheUserRenamedOrDeletedItIfItEverExisted";
-    public const string TheUserWithTheSpecifiedIDWasNotFoundInTheDB = "TheUserWithTheSpecifiedIDWasNotFoundInTheDB";
-    public const string YouHaveNotEnteredAValidIDAttributeTheProfileCannotBeFound =
+    internal const string TheUserWithTheSpecifiedIDWasNotFoundInTheDB = "TheUserWithTheSpecifiedIDWasNotFoundInTheDB";
+    internal const string YouHaveNotEnteredAValidIDAttributeTheProfileCannotBeFound =
     "YouHaveNotEnteredAValidIDAttributeTheProfileCannotBeFound";
-    public const string YouHaveNotSpecifiedAGpxFileToUpload = "YouHaveNotSpecifiedAGpxFileToUpload";
-    public const string ThisGPXFileCannotBeUploadedBecauseItWasTamperedWith =
+    internal const string YouHaveNotSpecifiedAGpxFileToUpload = "YouHaveNotSpecifiedAGpxFileToUpload";
+    internal const string ThisGPXFileCannotBeUploadedBecauseItWasTamperedWith =
     "ThisGPXFileCannotBeUploadedBecauseItWasTamperedWith";
-    public const string YouHaveAlreadyUploadedAFileWithTheSameName = "YouHaveAlreadyUploadedAFileWithTheSameName";
-    public const string TheUploadedGPXFileHadNoStepsDidYouEnterWrongTimesFromTo =
+    internal const string YouHaveAlreadyUploadedAFileWithTheSameName = "YouHaveAlreadyUploadedAFileWithTheSameName";
+    internal const string TheUploadedGPXFileHadNoStepsDidYouEnterWrongTimesFromTo =
     "TheUploadedGPXFileHadNoStepsDidYouEnterWrongTimesFromTo";
-    public const string TheFileDidNotHaveAGpxExtensionTheCaseIsNotImportant =
+    internal const string TheFileDidNotHaveAGpxExtensionTheCaseIsNotImportant =
     "TheFileDidNotHaveAGpxExtensionTheCaseIsNotImportant";
-    public const string TheFileYouSelectedHasNoExtensionAndCannotBeAcceptedByTheSite =
+    internal const string TheFileYouSelectedHasNoExtensionAndCannotBeAcceptedByTheSite =
     "TheFileYouSelectedHasNoExtensionAndCannotBeAcceptedByTheSite";
-    public const string YouDidNotSpecifyThatYouWantToEndButDidNotFillInTheDate =
+    internal const string YouDidNotSpecifyThatYouWantToEndButDidNotFillInTheDate =
     "YouDidNotSpecifyThatYouWantToEndButDidNotFillInTheDate";
-    public const string YouDidNotSpecifyThatYouWantFromTheBeginningButDidNotFillInTheDate =
+    internal const string YouDidNotSpecifyThatYouWantFromTheBeginningButDidNotFillInTheDate =
     "YouDidNotSpecifyThatYouWantFromTheBeginningButDidNotFillInTheDate";
-    public const string DefaultApsx = "DefaultApsx";
-    public const string Refresh = "Refresh";
-    public const string SuchATraceWasNotFoundHere = "SuchATraceWasNotFoundHere";
-    public const string ThisTrackDidnTBelongToYou = "ThisTrackDidnTBelongToYou";
-    public const string YouWereNotLoggedIn = "YouWereNotLoggedIn";
-    public const string YouHaveNotSpecifiedAFileToUpload = "YouHaveNotSpecifiedAFileToUpload";
-    public const string ViewTemporaryTrackSegments = "ViewTemporaryTrackSegments";
-    public const string xFasterThanOnPlane = "xFasterThanOnPlane";
-    public const string xSlowerThanOnPlane = "xSlowerThanOnPlane";
-    public const string Speed = "Speed";
-    public const string SuchACombinationOfCodeAndUserIDWasNotFoundInTheDatabase =
+    internal const string DefaultApsx = "DefaultApsx";
+    internal const string Refresh = "Refresh";
+    internal const string SuchATraceWasNotFoundHere = "SuchATraceWasNotFoundHere";
+    internal const string ThisTrackDidnTBelongToYou = "ThisTrackDidnTBelongToYou";
+    internal const string YouWereNotLoggedIn = "YouWereNotLoggedIn";
+    internal const string YouHaveNotSpecifiedAFileToUpload = "YouHaveNotSpecifiedAFileToUpload";
+    internal const string ViewTemporaryTrackSegments = "ViewTemporaryTrackSegments";
+    internal const string xFasterThanOnPlane = "xFasterThanOnPlane";
+    internal const string xSlowerThanOnPlane = "xSlowerThanOnPlane";
+    internal const string Speed = "Speed";
+    internal const string SuchACombinationOfCodeAndUserIDWasNotFoundInTheDatabase =
     "SuchACombinationOfCodeAndUserIDWasNotFoundInTheDatabase";
-    public const string FinalNote = "FinalNote";
-    public const string FinalCoordinates = "FinalCoordinates";
-    public const string ANoteToTheCache = "ANoteToTheCache";
-    public const string GCCode = "GCCode";
-    public const string TheCorrectCodeWasNotFoundToAccessThisGalleryMaybeTheGalleryNeverExisted =
+    internal const string FinalNote = "FinalNote";
+    internal const string FinalCoordinates = "FinalCoordinates";
+    internal const string ANoteToTheCache = "ANoteToTheCache";
+    internal const string GCCode = "GCCode";
+    internal const string TheCorrectCodeWasNotFoundToAccessThisGalleryMaybeTheGalleryNeverExisted =
     "TheCorrectCodeWasNotFoundToAccessThisGalleryMaybeTheGalleryNeverExisted";
-    public const string GalleryOfUserSGPXFiles = "GalleryOfUserSGPXFiles";
-    public const string NoPublicCacheListsFound = "NoPublicCacheListsFound";
-    public const string ListingOfPublicCacheLists = "ListingOfPublicCacheLists";
-    public const string ListAllCaches = "ListAllCaches";
-    public const string ListOfCachesWithID = "ListOfCachesWithID";
-    public const string TheListWasNotPublishedAsPublicAndTheLoggedInUserHasNoRightToViewTheNonPublicCacheLists =
+    internal const string GalleryOfUserSGPXFiles = "GalleryOfUserSGPXFiles";
+    internal const string NoPublicCacheListsFound = "NoPublicCacheListsFound";
+    internal const string ListingOfPublicCacheLists = "ListingOfPublicCacheLists";
+    internal const string ListAllCaches = "ListAllCaches";
+    internal const string ListOfCachesWithID = "ListOfCachesWithID";
+    internal const string TheListWasNotPublishedAsPublicAndTheLoggedInUserHasNoRightToViewTheNonPublicCacheLists =
     "TheListWasNotPublishedAsPublicAndTheLoggedInUserHasNoRightToViewTheNonPublicCacheLists";
-    public const string NoCachesAddedToThisList = "NoCachesAddedToThisList";
-    public const string YouWereNotLoggedInTheProgramCannotAuthorizeYou =
+    internal const string NoCachesAddedToThisList = "NoCachesAddedToThisList";
+    internal const string YouWereNotLoggedInTheProgramCannotAuthorizeYou =
     "YouWereNotLoggedInTheProgramCannotAuthorizeYou";
-    public const string YouHavenTUploadedAnyGPXTracksYet = "YouHavenTUploadedAnyGPXTracksYet";
-    public const string errorYouWereNotLoggedInInOrHaveNoRightToPerformTheseOperations =
+    internal const string YouHavenTUploadedAnyGPXTracksYet = "YouHavenTUploadedAnyGPXTracksYet";
+    internal const string errorYouWereNotLoggedInInOrHaveNoRightToPerformTheseOperations =
     "errorYouWereNotLoggedInInOrHaveNoRightToPerformTheseOperations";
-    public const string TheNameOfTheCacheListMustBeEntered = "TheNameOfTheCacheListMustBeEntered";
-    public const string FailedToParseTheShortParameter = "FailedToParseTheShortParameter";
-    public const string CreateAListOfCaches = "CreateAListOfCaches";
-    public const string ThisListWasNotFoundInTheDatabase = "ThisListWasNotFoundInTheDatabase";
-    public const string YouHaveNotEnteredAValidWpParameter = "YouHaveNotEnteredAValidWpParameter";
-    public const string SeeAtGcCom = "SeeAtGcCom";
-    public const string ViewPhotos = "ViewPhotos";
-    public const string CreateLog = "CreateLog";
-    public const string YouCanFindYourGalleryAt = "YouCanFindYourGalleryAt";
-    public const string YouWereNotLoggedInTheProgramCannotDisplayYourGPXRoutes =
+    internal const string TheNameOfTheCacheListMustBeEntered = "TheNameOfTheCacheListMustBeEntered";
+    internal const string FailedToParseTheShortParameter = "FailedToParseTheShortParameter";
+    internal const string CreateAListOfCaches = "CreateAListOfCaches";
+    internal const string ThisListWasNotFoundInTheDatabase = "ThisListWasNotFoundInTheDatabase";
+    internal const string YouHaveNotEnteredAValidWpParameter = "YouHaveNotEnteredAValidWpParameter";
+    internal const string SeeAtGcCom = "SeeAtGcCom";
+    internal const string ViewPhotos = "ViewPhotos";
+    internal const string CreateLog = "CreateLog";
+    internal const string YouCanFindYourGalleryAt = "YouCanFindYourGalleryAt";
+    internal const string YouWereNotLoggedInTheProgramCannotDisplayYourGPXRoutes =
     "YouWereNotLoggedInTheProgramCannotDisplayYourGPXRoutes";
-    public const string NumberOfStations = "NumberOfStations";
-    public const string DeliveryHasBeenDisabledForThisAppAndAllItsVersions =
+    internal const string NumberOfStations = "NumberOfStations";
+    internal const string DeliveryHasBeenDisabledForThisAppAndAllItsVersions =
     "DeliveryHasBeenDisabledForThisAppAndAllItsVersions";
-    public const string NoVersionFound = "NoVersionFound";
-    public const string GoToTheAppPageToWhichThisVersionBelongs = "GoToTheAppPageToWhichThisVersionBelongs";
-    public const string FileSuccessfullyUploaded = "FileSuccessfullyUploaded";
-    public const string FileUploadedSuccessfully = "FileUploadedSuccessfully";
-    public const string UploadBinary = "UploadBinary";
-    public const string ErrorDisplayingAppsByTag = "ErrorDisplayingAppsByTag";
-    public const string NoAppWithTag = "NoAppWithTag";
-    public const string AnApplicationsWithTheTag = "AnApplicationsWithTheTag";
-    public const string ApplicationsWithTag = "ApplicationsWithTag";
-    public const string Versions = "Versions";
-    public const string DescriptionOfApp = "DescriptionOfApp";
-    public const string SearchTimestamp = "SearchTimestamp";
-    public const string SearchFor = "SearchFor";
-    public const string TheTextStringNameWasPassedToThePageButTheApplicationWithThatNameWasNotFoundInTheDB =
+    internal const string NoVersionFound = "NoVersionFound";
+    internal const string GoToTheAppPageToWhichThisVersionBelongs = "GoToTheAppPageToWhichThisVersionBelongs";
+    internal const string FileSuccessfullyUploaded = "FileSuccessfullyUploaded";
+    internal const string FileUploadedSuccessfully = "FileUploadedSuccessfully";
+    internal const string UploadBinary = "UploadBinary";
+    internal const string ErrorDisplayingAppsByTag = "ErrorDisplayingAppsByTag";
+    internal const string NoAppWithTag = "NoAppWithTag";
+    internal const string AnApplicationsWithTheTag = "AnApplicationsWithTheTag";
+    internal const string ApplicationsWithTag = "ApplicationsWithTag";
+    internal const string Versions = "Versions";
+    internal const string DescriptionOfApp = "DescriptionOfApp";
+    internal const string SearchTimestamp = "SearchTimestamp";
+    internal const string SearchFor = "SearchFor";
+    internal const string TheTextStringNameWasPassedToThePageButTheApplicationWithThatNameWasNotFoundInTheDB =
     "TheTextStringNameWasPassedToThePageButTheApplicationWithThatNameWasNotFoundInTheDB";
-    public const string ManageImagesApp = "ManageImagesApp";
-    public const string EditingTheApplication = "EditingTheApplication";
-    public const string addNewApplication = "addNewApplication";
-    public const string All = "All";
-    public const string Ranking = "Ranking";
-    public const string AlthoughAStringWasSpecifiedInTheTypeParameterItWasNotAValidValue =
+    internal const string ManageImagesApp = "ManageImagesApp";
+    internal const string EditingTheApplication = "EditingTheApplication";
+    internal const string addNewApplication = "addNewApplication";
+    internal const string All = "All";
+    internal const string Ranking = "Ranking";
+    internal const string AlthoughAStringWasSpecifiedInTheTypeParameterItWasNotAValidValue =
     "AlthoughAStringWasSpecifiedInTheTypeParameterItWasNotAValidValue";
-    public const string NoAppsFound = "NoAppsFound";
-    public const string popularityScore = "popularityScore";
-    public const string numberOfViews = "numberOfViews";
-    public const string downloads = "downloads";
-    public const string ApplicationsInEachLeaderboard = "ApplicationsInEachLeaderboard";
-    public const string DisplaysAtMost = "DisplaysAtMost";
-    public const string TheApplicationNameWasNotSpecifiedTheProgramDoesNotKnowWhatToDisplay =
+    internal const string NoAppsFound = "NoAppsFound";
+    internal const string popularityScore = "popularityScore";
+    internal const string numberOfViews = "numberOfViews";
+    internal const string downloads = "downloads";
+    internal const string ApplicationsInEachLeaderboard = "ApplicationsInEachLeaderboard";
+    internal const string DisplaysAtMost = "DisplaysAtMost";
+    internal const string TheApplicationNameWasNotSpecifiedTheProgramDoesNotKnowWhatToDisplay =
     "TheApplicationNameWasNotSpecifiedTheProgramDoesNotKnowWhatToDisplay";
-    public const string TheApplicationSpecifiedInTheURIWasNotFoundInTheDB =
+    internal const string TheApplicationSpecifiedInTheURIWasNotFoundInTheDB =
     "TheApplicationSpecifiedInTheURIWasNotFoundInTheDB";
-    public const string Application = "Application";
-    public const string ThisAppHasBeenDisabled = "ThisAppHasBeenDisabled";
-    public const string NewestVersion = "NewestVersion";
-    public const string RecommendedVersion = "RecommendedVersion";
+    internal const string Application = "Application";
+    internal const string ThisAppHasBeenDisabled = "ThisAppHasBeenDisabled";
+    internal const string NewestVersion = "NewestVersion";
+    internal const string RecommendedVersion = "RecommendedVersion";
     
     
     
-    public const string App = "App";
-    public const string NoAppImagesFound = "NoAppImagesFound";
-    public const string PleaseSignInToVote = "PleaseSignInToVote";
-    public const string TheFileNameWasEmpty = "TheFileNameWasEmpty";
-    public const string TheFileNameDidNotContainAPeriod = "TheFileNameDidNotContainAPeriod";
-    public const string NowUploadViaFTPFile = "NowUploadViaFTPFile";
-    public const string errorYouWereNotLoggedIn = "errorYouWereNotLoggedIn";
-    public const string ThisURIDidNotHaveAValidProtocol = "ThisURIDidNotHaveAValidProtocol";
-    public const string URISID = "URISID";
-    public const string ScDidNotFitTheUserId = "ScDidNotFitTheUserId";
-    public const string thatSheHad = "thatSheHad";
-    public const string errorTheCorrectSizeOriginalWasNotSpecifiedInTheParameters =
+    internal const string App = "App";
+    internal const string NoAppImagesFound = "NoAppImagesFound";
+    internal const string PleaseSignInToVote = "PleaseSignInToVote";
+    internal const string TheFileNameWasEmpty = "TheFileNameWasEmpty";
+    internal const string TheFileNameDidNotContainAPeriod = "TheFileNameDidNotContainAPeriod";
+    internal const string NowUploadViaFTPFile = "NowUploadViaFTPFile";
+    internal const string errorYouWereNotLoggedIn = "errorYouWereNotLoggedIn";
+    internal const string ThisURIDidNotHaveAValidProtocol = "ThisURIDidNotHaveAValidProtocol";
+    internal const string URISID = "URISID";
+    internal const string ScDidNotFitTheUserId = "ScDidNotFitTheUserId";
+    internal const string thatSheHad = "thatSheHad";
+    internal const string errorTheCorrectSizeOriginalWasNotSpecifiedInTheParameters =
     "errorTheCorrectSizeOriginalWasNotSpecifiedInTheParameters";
-    public const string ThisPhotoWasNotFoundOnTheWeb = "ThisPhotoWasNotFoundOnTheWeb";
-    public const string successNewImageDescriptionSavedSuccessfullyReloadThePage =
+    internal const string ThisPhotoWasNotFoundOnTheWeb = "ThisPhotoWasNotFoundOnTheWeb";
+    internal const string successNewImageDescriptionSavedSuccessfullyReloadThePage =
     "successNewImageDescriptionSavedSuccessfullyReloadThePage";
-    public const string successSuccessfullySavedNewAlbumDescriptionReloadThePage =
+    internal const string successSuccessfullySavedNewAlbumDescriptionReloadThePage =
     "successSuccessfullySavedNewAlbumDescriptionReloadThePage";
-    public const string successTheGalleryIsAgainVisibleToEveryone = "successTheGalleryIsAgainVisibleToEveryone";
-    public const string successTheAlbumIsAgainVisibleToEveryone = "successTheAlbumIsAgainVisibleToEveryone";
-    public const string errorTheImageOwnerDidNotAgreeWithTheLoggedInUser =
+    internal const string successTheGalleryIsAgainVisibleToEveryone = "successTheGalleryIsAgainVisibleToEveryone";
+    internal const string successTheAlbumIsAgainVisibleToEveryone = "successTheAlbumIsAgainVisibleToEveryone";
+    internal const string errorTheImageOwnerDidNotAgreeWithTheLoggedInUser =
     "errorTheImageOwnerDidNotAgreeWithTheLoggedInUser";
-    public const string errorAnAlbumWithThisIDCouldNotBeFound = "errorAnAlbumWithThisIDCouldNotBeFound";
-    public const string errorGalleryOwnerDisagreedWithLoggedInUser = "errorGalleryOwnerDisagreedWithLoggedInUser";
-    public const string errorAlbumOwnerDisagreedWithLoggedInUser = "errorAlbumOwnerDisagreedWithLoggedInUser";
-    public const string CouldNotRetrievePhotoIDsForDeletion = "CouldNotRetrievePhotoIDsForDeletion";
-    public const string ScDisagreed = "ScDisagreed";
-    public const string stfIDPhotoPID = "stfIDPhotoPID";
-    public const string failedToSerialize = "failedToSerialize";
-    public const string JSONString = "JSONString";
-    public const string NumbersEnteredInTheIntervalAreNull = "NumbersEnteredInTheIntervalAreNull";
-    public const string errorYourPhotoDoesnTBelongToYou = "errorYourPhotoDoesnTBelongToYou";
-    public const string errorTheActualCaptureDateCouldNotBeDeterminedAndRemainsUnchangedInTheDatabase =
+    internal const string errorAnAlbumWithThisIDCouldNotBeFound = "errorAnAlbumWithThisIDCouldNotBeFound";
+    internal const string errorGalleryOwnerDisagreedWithLoggedInUser = "errorGalleryOwnerDisagreedWithLoggedInUser";
+    internal const string errorAlbumOwnerDisagreedWithLoggedInUser = "errorAlbumOwnerDisagreedWithLoggedInUser";
+    internal const string CouldNotRetrievePhotoIDsForDeletion = "CouldNotRetrievePhotoIDsForDeletion";
+    internal const string ScDisagreed = "ScDisagreed";
+    internal const string stfIDPhotoPID = "stfIDPhotoPID";
+    internal const string failedToSerialize = "failedToSerialize";
+    internal const string JSONString = "JSONString";
+    internal const string NumbersEnteredInTheIntervalAreNull = "NumbersEnteredInTheIntervalAreNull";
+    internal const string errorYourPhotoDoesnTBelongToYou = "errorYourPhotoDoesnTBelongToYou";
+    internal const string errorTheActualCaptureDateCouldNotBeDeterminedAndRemainsUnchangedInTheDatabase =
     "errorTheActualCaptureDateCouldNotBeDeterminedAndRemainsUnchangedInTheDatabase";
-    public const string successTheCaptureDateOfTheIDPhoto = "successTheCaptureDateOfTheIDPhoto";
-    public const string warningYouCannotVoteForYourOwnSongLyrics = "warningYouCannotVoteForYourOwnSongLyrics";
-    public const string warningSuchASongWasNotFoundInTheDatabase = "warningSuchASongWasNotFoundInTheDatabase";
-    public const string infoYouHaveAlreadyVotedForThisLyrics = "infoYouHaveAlreadyVotedForThisLyrics";
-    public const string succeedYourVoteHasBeenAddedTheCurrentRatingIs = "succeedYourVoteHasBeenAddedTheCurrentRatingIs";
-    public const string errorTheSpecifiedUserCouldNotBeFound = "errorTheSpecifiedUserCouldNotBeFound";
-    public const string NoSongLyricsFound = "NoSongLyricsFound";
-    public const string RemoveTextTranslation = "RemoveTextTranslation";
-    public const string DeleteTheOriginalText = "DeleteTheOriginalText";
-    public const string DeleteBothOriginalAndTranslatedText = "DeleteBothOriginalAndTranslatedText";
-    public const string Minus = "Minus";
-    public const string SuchVideoWasNotFoundInTheDatabase = "SuchVideoWasNotFoundInTheDatabase";
-    public const string From = "From";
-    public const string successTheLyricsWereSuccessfullyAddedToFavorites =
+    internal const string successTheCaptureDateOfTheIDPhoto = "successTheCaptureDateOfTheIDPhoto";
+    internal const string warningYouCannotVoteForYourOwnSongLyrics = "warningYouCannotVoteForYourOwnSongLyrics";
+    internal const string warningSuchASongWasNotFoundInTheDatabase = "warningSuchASongWasNotFoundInTheDatabase";
+    internal const string infoYouHaveAlreadyVotedForThisLyrics = "infoYouHaveAlreadyVotedForThisLyrics";
+    internal const string succeedYourVoteHasBeenAddedTheCurrentRatingIs = "succeedYourVoteHasBeenAddedTheCurrentRatingIs";
+    internal const string errorTheSpecifiedUserCouldNotBeFound = "errorTheSpecifiedUserCouldNotBeFound";
+    internal const string NoSongLyricsFound = "NoSongLyricsFound";
+    internal const string RemoveTextTranslation = "RemoveTextTranslation";
+    internal const string DeleteTheOriginalText = "DeleteTheOriginalText";
+    internal const string DeleteBothOriginalAndTranslatedText = "DeleteBothOriginalAndTranslatedText";
+    internal const string Minus = "Minus";
+    internal const string SuchVideoWasNotFoundInTheDatabase = "SuchVideoWasNotFoundInTheDatabase";
+    internal const string From = "From";
+    internal const string successTheLyricsWereSuccessfullyAddedToFavorites =
     "successTheLyricsWereSuccessfullyAddedToFavorites";
-    public const string successSongLyricsSuccessfullyRemovedFromFavorites =
+    internal const string successSongLyricsSuccessfullyRemovedFromFavorites =
     "successSongLyricsSuccessfullyRemovedFromFavorites";
-    public const string ArtistWithThisIDWasNotFoundInTheDatabase = "ArtistWithThisIDWasNotFoundInTheDatabase";
-    public const string LyrDownloadImagesOfAlbumStringIdHandlerImagesCouldNotBeSavedFromUnknownError =
+    internal const string ArtistWithThisIDWasNotFoundInTheDatabase = "ArtistWithThisIDWasNotFoundInTheDatabase";
+    internal const string LyrDownloadImagesOfAlbumStringIdHandlerImagesCouldNotBeSavedFromUnknownError =
     "LyrDownloadImagesOfAlbumStringIdHandlerImagesCouldNotBeSavedFromUnknownError";
-    public const string GettingAnAlbumFromLastFmFromItsIDIsNotSupportedInLyrDownloadImagesOfAlbumStringIdHandler =
+    internal const string GettingAnAlbumFromLastFmFromItsIDIsNotSupportedInLyrDownloadImagesOfAlbumStringIdHandler =
     "GettingAnAlbumFromLastFmFromItsIDIsNotSupportedInLyrDownloadImagesOfAlbumStringIdHandler";
-    public const string TheSongLyricsCouldNotBeFoundInTheDatabase = "TheSongLyricsCouldNotBeFoundInTheDatabase";
-    public const string TheLyricsWereSuccessfullyDeletedFromTheDatabase =
+    internal const string TheSongLyricsCouldNotBeFoundInTheDatabase = "TheSongLyricsCouldNotBeFoundInTheDatabase";
+    internal const string TheLyricsWereSuccessfullyDeletedFromTheDatabase =
     "TheLyricsWereSuccessfullyDeletedFromTheDatabase";
-    public const string BaseB = "BaseB";
-    public const string publicStaticVoidUpdateInTable = "publicStaticVoidUpdateInTable";
-    public const string NoRowIDOrIDInFirstColumn = "NoRowIDOrIDInFirstColumn";
-    public const string TheIdUserParameterSentWasNotAnAdminNumber = "TheIdUserParameterSentWasNotAnAdminNumber";
-    public const string TheDateYouEnteredWasNotAValidDate = "TheDateYouEnteredWasNotAValidDate";
-    public const string LogSuccessfullySaved = "LogSuccessfullySaved";
-    public const string TheIDYouEnteredWasNotAnIntegerNumber = "TheIDYouEnteredWasNotAnIntegerNumber";
-    public const string TheNumberWasValidIntButNoSuchIDWasFoundInDB = "TheNumberWasValidIntButNoSuchIDWasFoundInDB";
-    public const string CommentSuccessfullySaved = "CommentSuccessfullySaved";
-    public const string TheSpecifiedIDArgIdWasNotANumber = "TheSpecifiedIDArgIdWasNotANumber";
-    public const string TheSpecifiedArgCoordsWereNotValid = "TheSpecifiedArgCoordsWereNotValid";
-    public const string InvalidNumberSpecifiedAsCacheID = "InvalidNumberSpecifiedAsCacheID";
-    public const string ErrorWorkingWithDatabaseWaypointNotSaved = "ErrorWorkingWithDatabaseWaypointNotSaved";
-    public const string WaypointUpdatedSuccessfully = "WaypointUpdatedSuccessfully";
-    public const string NewWaypointInsertedSuccessfully = "NewWaypointInsertedSuccessfully";
-    public const string NameIsRequired = "NameIsRequired";
-    public const string UnimplementedSwitchBranchInGeoSaveCommentOfUploadedGpxTrackHandler =
+    internal const string BaseB = "BaseB";
+    internal const string publicStaticVoidUpdateInTable = "publicStaticVoidUpdateInTable";
+    internal const string NoRowIDOrIDInFirstColumn = "NoRowIDOrIDInFirstColumn";
+    internal const string TheIdUserParameterSentWasNotAnAdminNumber = "TheIdUserParameterSentWasNotAnAdminNumber";
+    internal const string TheDateYouEnteredWasNotAValidDate = "TheDateYouEnteredWasNotAValidDate";
+    internal const string LogSuccessfullySaved = "LogSuccessfullySaved";
+    internal const string TheIDYouEnteredWasNotAnIntegerNumber = "TheIDYouEnteredWasNotAnIntegerNumber";
+    internal const string TheNumberWasValidIntButNoSuchIDWasFoundInDB = "TheNumberWasValidIntButNoSuchIDWasFoundInDB";
+    internal const string CommentSuccessfullySaved = "CommentSuccessfullySaved";
+    internal const string TheSpecifiedIDArgIdWasNotANumber = "TheSpecifiedIDArgIdWasNotANumber";
+    internal const string TheSpecifiedArgCoordsWereNotValid = "TheSpecifiedArgCoordsWereNotValid";
+    internal const string InvalidNumberSpecifiedAsCacheID = "InvalidNumberSpecifiedAsCacheID";
+    internal const string ErrorWorkingWithDatabaseWaypointNotSaved = "ErrorWorkingWithDatabaseWaypointNotSaved";
+    internal const string WaypointUpdatedSuccessfully = "WaypointUpdatedSuccessfully";
+    internal const string NewWaypointInsertedSuccessfully = "NewWaypointInsertedSuccessfully";
+    internal const string NameIsRequired = "NameIsRequired";
+    internal const string UnimplementedSwitchBranchInGeoSaveCommentOfUploadedGpxTrackHandler =
     "UnimplementedSwitchBranchInGeoSaveCommentOfUploadedGpxTrackHandler";
-    public const string successCommentSuccessfullyChangedTo = "successCommentSuccessfullyChangedTo";
-    public const string errorTheCodeWasNotTheCorrectLength = "errorTheCodeWasNotTheCorrectLength";
-    public const string errorGPXTrackNotFound = "errorGPXTrackNotFound";
-    public const string errorThisGPXTrackWasNotFoundOrDidNotBelongToYou =
+    internal const string successCommentSuccessfullyChangedTo = "successCommentSuccessfullyChangedTo";
+    internal const string errorTheCodeWasNotTheCorrectLength = "errorTheCodeWasNotTheCorrectLength";
+    internal const string errorGPXTrackNotFound = "errorGPXTrackNotFound";
+    internal const string errorThisGPXTrackWasNotFoundOrDidNotBelongToYou =
     "errorThisGPXTrackWasNotFoundOrDidNotBelongToYou";
-    public const string successSuccessfullyChangedTheRouteColorTo = "successSuccessfullyChangedTheRouteColorTo";
-    public const string successTheRouteNameHasBeenSuccessfullyChangedTo =
+    internal const string successSuccessfullyChangedTheRouteColorTo = "successSuccessfullyChangedTheRouteColorTo";
+    internal const string successTheRouteNameHasBeenSuccessfullyChangedTo =
     "successTheRouteNameHasBeenSuccessfullyChangedTo";
-    public const string TheSentSessionParameterUserIdWasNotAnAdminNumber =
+    internal const string TheSentSessionParameterUserIdWasNotAnAdminNumber =
     "TheSentSessionParameterUserIdWasNotAnAdminNumber";
-    public const string errorYouWereNotLoggedInAsANewUserForWhomTheNewCodeWasGenerated =
+    internal const string errorYouWereNotLoggedInAsANewUserForWhomTheNewCodeWasGenerated =
     "errorYouWereNotLoggedInAsANewUserForWhomTheNewCodeWasGenerated";
-    public const string successForAllYours = "successForAllYours";
-    public const string warningNoGpxRoutesFound = "warningNoGpxRoutesFound";
-    public const string successYouCanFindYourGalleryAt = "successYouCanFindYourGalleryAt";
-    public const string warningYourGalleryDidNotExistYet = "warningYourGalleryDidNotExistYet";
-    public const string CacheWasnTInDBYetInsertItWithTheFirstUserScript =
+    internal const string successForAllYours = "successForAllYours";
+    internal const string warningNoGpxRoutesFound = "warningNoGpxRoutesFound";
+    internal const string successYouCanFindYourGalleryAt = "successYouCanFindYourGalleryAt";
+    internal const string warningYourGalleryDidNotExistYet = "warningYourGalleryDidNotExistYet";
+    internal const string CacheWasnTInDBYetInsertItWithTheFirstUserScript =
     "CacheWasnTInDBYetInsertItWithTheFirstUserScript";
-    public const string AndHasBeenUpdated = "AndHasBeenUpdated";
-    public const string FailedToLoadGcCode = "FailedToLoadGcCode";
-    public const string TheCacheWasSavedUnderTheIndex = "TheCacheWasSavedUnderTheIndex";
-    public const string errorTheSpecifiedUserWasNotRegisteredWithUs = "errorTheSpecifiedUserWasNotRegisteredWithUs";
-    public const string errorYouWereNotLoggedInAsOwnerWaypoint = "errorYouWereNotLoggedInAsOwnerWaypoint";
-    public const string errorThisTrackCouldNotBeFoundHere = "errorThisTrackCouldNotBeFoundHere";
-    public const string NoCacheIDSpecifiedAsAValidIntNumber = "NoCacheIDSpecifiedAsAValidIntNumber";
-    public const string ErrorWorkingWithDBRowWasNotDeleted = "ErrorWorkingWithDBRowWasNotDeleted";
-    public const string WaypointWasSuccessfullyDeleted = "WaypointWasSuccessfullyDeleted";
-    public const string FailedToParseIdCacheToInt = "FailedToParseIdCacheToInt";
-    public const string FailedToParseIdListToInt = "FailedToParseIdListToInt";
-    public const string NameNotFilledIn = "NameNotFilledIn";
-    public const string YourSurnameWasNotFilled = "YourSurnameWasNotFilled";
-    public const string FailedToDetectMss = "FailedToDetectMss";
-    public const string CouldNotFindVersionWithThisIDInDatabase = "CouldNotFindVersionWithThisIDInDatabase";
-    public const string CouldNotFindThisApplicationInTheDatabase = "CouldNotFindThisApplicationInTheDatabase";
-    public const string warningAGithubProgramWithThisNameAlreadyExistedInTheDatabase =
+    internal const string AndHasBeenUpdated = "AndHasBeenUpdated";
+    internal const string FailedToLoadGcCode = "FailedToLoadGcCode";
+    internal const string TheCacheWasSavedUnderTheIndex = "TheCacheWasSavedUnderTheIndex";
+    internal const string errorTheSpecifiedUserWasNotRegisteredWithUs = "errorTheSpecifiedUserWasNotRegisteredWithUs";
+    internal const string errorYouWereNotLoggedInAsOwnerWaypoint = "errorYouWereNotLoggedInAsOwnerWaypoint";
+    internal const string errorThisTrackCouldNotBeFoundHere = "errorThisTrackCouldNotBeFoundHere";
+    internal const string NoCacheIDSpecifiedAsAValidIntNumber = "NoCacheIDSpecifiedAsAValidIntNumber";
+    internal const string ErrorWorkingWithDBRowWasNotDeleted = "ErrorWorkingWithDBRowWasNotDeleted";
+    internal const string WaypointWasSuccessfullyDeleted = "WaypointWasSuccessfullyDeleted";
+    internal const string FailedToParseIdCacheToInt = "FailedToParseIdCacheToInt";
+    internal const string FailedToParseIdListToInt = "FailedToParseIdListToInt";
+    internal const string NameNotFilledIn = "NameNotFilledIn";
+    internal const string YourSurnameWasNotFilled = "YourSurnameWasNotFilled";
+    internal const string FailedToDetectMss = "FailedToDetectMss";
+    internal const string CouldNotFindVersionWithThisIDInDatabase = "CouldNotFindVersionWithThisIDInDatabase";
+    internal const string CouldNotFindThisApplicationInTheDatabase = "CouldNotFindThisApplicationInTheDatabase";
+    internal const string warningAGithubProgramWithThisNameAlreadyExistedInTheDatabase =
     "warningAGithubProgramWithThisNameAlreadyExistedInTheDatabase";
-    public const string warningApplicationOfTheName = "warningApplicationOfTheName";
-    public const string YouCannotDownloadTheProgramBecauseItHasBeenDisabled =
+    internal const string warningApplicationOfTheName = "warningApplicationOfTheName";
+    internal const string YouCannotDownloadTheProgramBecauseItHasBeenDisabled =
     "YouCannotDownloadTheProgramBecauseItHasBeenDisabled";
-    public const string TheIdVersionParameterWasFoundAndParsedCorrectlyButAVersionWithSuchAnIDWasNotFoundInTheDB =
+    internal const string TheIdVersionParameterWasFoundAndParsedCorrectlyButAVersionWithSuchAnIDWasNotFoundInTheDB =
     "TheIdVersionParameterWasFoundAndParsedCorrectlyButAVersionWithSuchAnIDWasNotFoundInTheDB";
-    public const string DatabaseEntryNotFoundVersionCouldNotBeDeleted = "DatabaseEntryNotFoundVersionCouldNotBeDeleted";
-    public const string errorAnApplicationWithTheSameNameAlreadyExistedInTheDatabase =
+    internal const string DatabaseEntryNotFoundVersionCouldNotBeDeleted = "DatabaseEntryNotFoundVersionCouldNotBeDeleted";
+    internal const string errorAnApplicationWithTheSameNameAlreadyExistedInTheDatabase =
     "errorAnApplicationWithTheSameNameAlreadyExistedInTheDatabase";
-    public const string errorTheRoadDidNotFitTogether = "errorTheRoadDidNotFitTogether";
-    public const string errorScDidNotFitTheUserId = "errorScDidNotFitTheUserId";
-    public const string errorFailedToDeletePostBecauseAllPhotosCouldNotBeDeletedPleaseTryAgain =
+    internal const string errorTheRoadDidNotFitTogether = "errorTheRoadDidNotFitTogether";
+    internal const string errorScDidNotFitTheUserId = "errorScDidNotFitTheUserId";
+    internal const string errorFailedToDeletePostBecauseAllPhotosCouldNotBeDeletedPleaseTryAgain =
     "errorFailedToDeletePostBecauseAllPhotosCouldNotBeDeletedPleaseTryAgain";
-    public const string errorTheOnlySeriesAllowedForMySiteIs = "errorTheOnlySeriesAllowedForMySiteIs";
-    public const string DomainHasAlreadyBeenRegisteredAndVerified = "DomainHasAlreadyBeenRegisteredAndVerified";
-    public const string domainContainedIllegalProtocol = "domainContainedIllegalProtocol";
-    public const string DomainNameWasEmptyOrInvalid = "DomainNameWasEmptyOrInvalid";
-    public const string TheDomainNameContainedASpace = "TheDomainNameContainedASpace";
-    public const string TheDomainNameContainedDiacritics = "TheDomainNameContainedDiacritics";
-    public const string DomainNotYetInDatabaseButNotVerifiedAnActivationEmailHasBeenSentToYou =
+    internal const string errorTheOnlySeriesAllowedForMySiteIs = "errorTheOnlySeriesAllowedForMySiteIs";
+    internal const string DomainHasAlreadyBeenRegisteredAndVerified = "DomainHasAlreadyBeenRegisteredAndVerified";
+    internal const string domainContainedIllegalProtocol = "domainContainedIllegalProtocol";
+    internal const string DomainNameWasEmptyOrInvalid = "DomainNameWasEmptyOrInvalid";
+    internal const string TheDomainNameContainedASpace = "TheDomainNameContainedASpace";
+    internal const string TheDomainNameContainedDiacritics = "TheDomainNameContainedDiacritics";
+    internal const string DomainNotYetInDatabaseButNotVerifiedAnActivationEmailHasBeenSentToYou =
     "DomainNotYetInDatabaseButNotVerifiedAnActivationEmailHasBeenSentToYou";
-    public const string DomainWasAlreadyInTheDatabaseButNotVerifiedAnActivationEmailHasBeenSentToYou =
+    internal const string DomainWasAlreadyInTheDatabaseButNotVerifiedAnActivationEmailHasBeenSentToYou =
     "DomainWasAlreadyInTheDatabaseButNotVerifiedAnActivationEmailHasBeenSentToYou";
-    public const string NoProtocolWasSpecifiedInTheWidgetsHelperIsDomainVerifiedMethod =
+    internal const string NoProtocolWasSpecifiedInTheWidgetsHelperIsDomainVerifiedMethod =
     "NoProtocolWasSpecifiedInTheWidgetsHelperIsDomainVerifiedMethod";
-    public const string NoTagFoundOnPage = "NoTagFoundOnPage";
-    public const string DomainSuccessfullyVerifiedYouCanWorkWithItInTheLeftPanel =
+    internal const string NoTagFoundOnPage = "NoTagFoundOnPage";
+    internal const string DomainSuccessfullyVerifiedYouCanWorkWithItInTheLeftPanel =
     "DomainSuccessfullyVerifiedYouCanWorkWithItInTheLeftPanel";
-    public const string TheDomainWithTheCodeSpecifiedInTheURIWasNotFoundInTheDatabase =
+    internal const string TheDomainWithTheCodeSpecifiedInTheURIWasNotFoundInTheDatabase =
     "TheDomainWithTheCodeSpecifiedInTheURIWasNotFoundInTheDatabase";
-    public const string errorYouWereNotLoggedInInTheApplicationCannotVerifyTheDomainOwner =
+    internal const string errorYouWereNotLoggedInInTheApplicationCannotVerifyTheDomainOwner =
     "errorYouWereNotLoggedInInTheApplicationCannotVerifyTheDomainOwner";
-    public const string TheSpecifiedUserWasNotFoundInTheDB = "TheSpecifiedUserWasNotFoundInTheDB";
-    public const string EMailWasSuccessfullySent = "EMailWasSuccessfullySent";
-    public const string YouDonTOwnAnyWebsites = "YouDonTOwnAnyWebsites";
-    public const string AllMySites = "AllMySites";
-    public const string TheUriSiteWasCorrectButItIsNotPossibleToAddCommentsOrImagesToThisSite =
+    internal const string TheSpecifiedUserWasNotFoundInTheDB = "TheSpecifiedUserWasNotFoundInTheDB";
+    internal const string EMailWasSuccessfullySent = "EMailWasSuccessfullySent";
+    internal const string YouDonTOwnAnyWebsites = "YouDonTOwnAnyWebsites";
+    internal const string AllMySites = "AllMySites";
+    internal const string TheUriSiteWasCorrectButItIsNotPossibleToAddCommentsOrImagesToThisSite =
     "TheUriSiteWasCorrectButItIsNotPossibleToAddCommentsOrImagesToThisSite";
-    public const string NoIdentifierFoundInUri = "NoIdentifierFoundInUri";
-    public const string UriPhotoIdWasIncorrect = "UriPhotoIdWasIncorrect";
-    public const string WrongUriAddressCouldNotGetTheCommentNumberFromTheIdentifier =
+    internal const string NoIdentifierFoundInUri = "NoIdentifierFoundInUri";
+    internal const string UriPhotoIdWasIncorrect = "UriPhotoIdWasIncorrect";
+    internal const string WrongUriAddressCouldNotGetTheCommentNumberFromTheIdentifier =
     "WrongUriAddressCouldNotGetTheCommentNumberFromTheIdentifier";
-    public const string CommentFoundButNoPhotosAttached = "CommentFoundButNoPhotosAttached";
-    public const string NoSuchImageFoundForSelectedCommentAndSite = "NoSuchImageFoundForSelectedCommentAndSite";
-    public const string NumberOfViews = "NumberOfViews";
-    public const string WrongURI = "WrongURI";
-    public const string ThisPageAlreadyExistedOnThisSite = "ThisPageAlreadyExistedOnThisSite";
-    public const string errorYouWereNotLoggedInInYouCannotMakeAnyChanges =
+    internal const string CommentFoundButNoPhotosAttached = "CommentFoundButNoPhotosAttached";
+    internal const string NoSuchImageFoundForSelectedCommentAndSite = "NoSuchImageFoundForSelectedCommentAndSite";
+    internal const string NumberOfViews = "NumberOfViews";
+    internal const string WrongURI = "WrongURI";
+    internal const string ThisPageAlreadyExistedOnThisSite = "ThisPageAlreadyExistedOnThisSite";
+    internal const string errorYouWereNotLoggedInInYouCannotMakeAnyChanges =
     "errorYouWereNotLoggedInInYouCannotMakeAnyChanges";
-    public const string FailedToParseShortNumberFromPassedId = "FailedToParseShortNumberFromPassedId";
-    public const string EitherYouHavenTVerifiedYetOrYoursIsnTYours = "EitherYouHavenTVerifiedYetOrYoursIsnTYours";
-    public const string UpdatingPageAddress = "UpdatingPageAddress";
-    public const string UpdateThePageAddress = "UpdateThePageAddress";
-    public const string PageWithThisIDNotFound = "PageWithThisIDNotFound";
-    public const string addPage = "addPage";
-    public const string PollSuccessfullyDeleted = "PollSuccessfullyDeleted";
-    public const string ThePollCouldNotBeDeletedBecauseItsIDWasNotDetected =
+    internal const string FailedToParseShortNumberFromPassedId = "FailedToParseShortNumberFromPassedId";
+    internal const string EitherYouHavenTVerifiedYetOrYoursIsnTYours = "EitherYouHavenTVerifiedYetOrYoursIsnTYours";
+    internal const string UpdatingPageAddress = "UpdatingPageAddress";
+    internal const string UpdateThePageAddress = "UpdateThePageAddress";
+    internal const string PageWithThisIDNotFound = "PageWithThisIDNotFound";
+    internal const string addPage = "addPage";
+    internal const string PollSuccessfullyDeleted = "PollSuccessfullyDeleted";
+    internal const string ThePollCouldNotBeDeletedBecauseItsIDWasNotDetected =
     "ThePollCouldNotBeDeletedBecauseItsIDWasNotDetected";
-    public const string YouReTryingToDeleteAPollThatDoesnTBelongToYou = "YouReTryingToDeleteAPollThatDoesnTBelongToYou";
-    public const string YouReTryingToUpdateAPollThatDoesnTBelongToYou = "YouReTryingToUpdateAPollThatDoesnTBelongToYou";
-    public const string Sort = "Sort";
-    public const string YouDidNotCheckTheExpirationButTheDateYouEnteredCouldNotBeRetrieved =
+    internal const string YouReTryingToDeleteAPollThatDoesnTBelongToYou = "YouReTryingToDeleteAPollThatDoesnTBelongToYou";
+    internal const string YouReTryingToUpdateAPollThatDoesnTBelongToYou = "YouReTryingToUpdateAPollThatDoesnTBelongToYou";
+    internal const string Sort = "Sort";
+    internal const string YouDidNotCheckTheExpirationButTheDateYouEnteredCouldNotBeRetrieved =
     "YouDidNotCheckTheExpirationButTheDateYouEnteredCouldNotBeRetrieved";
-    public const string PollNameCannotBeEmpty = "PollNameCannotBeEmpty";
-    public const string EditButtons = "EditButtons";
-    public const string AnswerText = "AnswerText";
-    public const string WrongOrNoLoginYouMustBeLoggedInToEditYourPolls =
+    internal const string PollNameCannotBeEmpty = "PollNameCannotBeEmpty";
+    internal const string EditButtons = "EditButtons";
+    internal const string AnswerText = "AnswerText";
+    internal const string WrongOrNoLoginYouMustBeLoggedInToEditYourPolls =
     "WrongOrNoLoginYouMustBeLoggedInToEditYourPolls";
-    public const string
+    internal const string
     ItWasNotObtainedFromTheAddressInformationAboutWhichPollYouWantToEditOrWhetherYouWantToaddNewOne =
     "ItWasNotObtainedFromTheAddressInformationAboutWhichPollYouWantToEditOrWhetherYouWantToaddNewOne";
-    public const string FillInTheRequiredPollInformationFirstAndPressTheCreateNewPollButtonToAddQuestionsToThePoll =
+    internal const string FillInTheRequiredPollInformationFirstAndPressTheCreateNewPollButtonToAddQuestionsToThePoll =
     "FillInTheRequiredPollInformationFirstAndPressTheCreateNewPollButtonToAddQuestionsToThePoll";
-    public const string ItWillBeGeneratedAutomatically = "ItWillBeGeneratedAutomatically";
-    public const string CreatingANewPoll = "CreatingANewPoll";
-    public const string YouReTryingToEditAPollThatDoesnTBelongToYou = "YouReTryingToEditAPollThatDoesnTBelongToYou";
-    public const string YouAreTryingToEditAPollThatDoesNotExist = "YouAreTryingToEditAPollThatDoesNotExist";
-    public const string EditingAnExistingPoll = "EditingAnExistingPoll";
-    public const string PollWasSuccessfullyCreatedNowYouCanaddnswersToIt =
+    internal const string ItWillBeGeneratedAutomatically = "ItWillBeGeneratedAutomatically";
+    internal const string CreatingANewPoll = "CreatingANewPoll";
+    internal const string YouReTryingToEditAPollThatDoesnTBelongToYou = "YouReTryingToEditAPollThatDoesnTBelongToYou";
+    internal const string YouAreTryingToEditAPollThatDoesNotExist = "YouAreTryingToEditAPollThatDoesNotExist";
+    internal const string EditingAnExistingPoll = "EditingAnExistingPoll";
+    internal const string PollWasSuccessfullyCreatedNowYouCanaddnswersToIt =
     "PollWasSuccessfullyCreatedNowYouCanaddnswersToIt";
-    public const string ThisDomainHasAlreadyBeenVerified = "ThisDomainHasAlreadyBeenVerified";
-    public const string DomainSuccessfullyAddedNowPendingVerificationAdditionalInstructionsHaveBeenSentToYourEmail =
+    internal const string ThisDomainHasAlreadyBeenVerified = "ThisDomainHasAlreadyBeenVerified";
+    internal const string DomainSuccessfullyAddedNowPendingVerificationAdditionalInstructionsHaveBeenSentToYourEmail =
     "DomainSuccessfullyAddedNowPendingVerificationAdditionalInstructionsHaveBeenSentToYourEmail";
-    public const string UnsupportedProtocol = "UnsupportedProtocol";
-    public const string IfYouChangedTheDefaultDocumentURIItWasChangedSuccessfully =
+    internal const string UnsupportedProtocol = "UnsupportedProtocol";
+    internal const string IfYouChangedTheDefaultDocumentURIItWasChangedSuccessfully =
     "IfYouChangedTheDefaultDocumentURIItWasChangedSuccessfully";
-    public const string ThePageDidNotIncludeALog = "ThePageDidNotIncludeALog";
-    public const string addNewDomain = "addNewDomain";
-    public const string YouAreTryingToEditADomainThatIsNotYours = "YouAreTryingToEditADomainThatIsNotYours";
-    public const string UpdateYourDomainInformation = "UpdateYourDomainInformation";
-    public const string YouCannotViewOrMakeChangesToCommentsBecauseYouAreNotSignedIn =
+    internal const string ThePageDidNotIncludeALog = "ThePageDidNotIncludeALog";
+    internal const string addNewDomain = "addNewDomain";
+    internal const string YouAreTryingToEditADomainThatIsNotYours = "YouAreTryingToEditADomainThatIsNotYours";
+    internal const string UpdateYourDomainInformation = "UpdateYourDomainInformation";
+    internal const string YouCannotViewOrMakeChangesToCommentsBecauseYouAreNotSignedIn =
     "YouCannotViewOrMakeChangesToCommentsBecauseYouAreNotSignedIn";
-    public const string ContentMetroIconsCss = "ContentMetroIconsCss";
-    public const string ContentMetroAllCss = "ContentMetroAllCss";
-    public const string OpenTheCommentPage = "OpenTheCommentPage";
-    public const string YouHaveNotEnteredAUserName = "YouHaveNotEnteredAUserName";
-    public const string TheSpecifiedUserDidNotExist = "TheSpecifiedUserDidNotExist";
-    public const string DomainNotFound = "DomainNotFound";
-    public const string DeleteAllUserComments = "DeleteAllUserComments";
-    public const string AllUserComments = "AllUserComments";
-    public const string
+    internal const string ContentMetroIconsCss = "ContentMetroIconsCss";
+    internal const string ContentMetroAllCss = "ContentMetroAllCss";
+    internal const string OpenTheCommentPage = "OpenTheCommentPage";
+    internal const string YouHaveNotEnteredAUserName = "YouHaveNotEnteredAUserName";
+    internal const string TheSpecifiedUserDidNotExist = "TheSpecifiedUserDidNotExist";
+    internal const string DomainNotFound = "DomainNotFound";
+    internal const string DeleteAllUserComments = "DeleteAllUserComments";
+    internal const string AllUserComments = "AllUserComments";
+    internal const string
     YouHaveOpenedANewWindowWithThisPageThePageCannotLogYouOnToThePreviousPageBBecauseItDoesNotKnowItsAddress =
     "YouHaveOpenedANewWindowWithThisPageThePageCannotLogYouOnToThePreviousPageBBecauseItDoesNotKnowItsAddress";
-    public const string ThisCommentDidNotBelongToYou = "ThisCommentDidNotBelongToYou";
-    public const string NoFilesSelectedToUpload = "NoFilesSelectedToUpload";
-    public const string CommentPageDomainNotFoundInDatabase = "CommentPageDomainNotFoundInDatabase";
-    public const string TheRequestedCommmentDoesNotMatchAnyPage = "TheRequestedCommmentDoesNotMatchAnyPage";
-    public const string AddMeToFanClub = "AddMeToFanClub";
-    public const string RemoveMeFromFanClub = "RemoveMeFromFanClub";
-    public const string MatchResult = "MatchResult";
-    public const string YouCouldnTPlayBothForTheSameTeam = "YouCouldnTPlayBothForTheSameTeam";
-    public const string InTheScoreBox = "InTheScoreBox";
-    public const string TheDateWasNotInAValidFormat = "TheDateWasNotInAValidFormat";
-    public const string SelectATrack = "SelectATrack";
-    public const string TheUserDidNotWishToProvideAnEmail = "TheUserDidNotWishToProvideAnEmail";
-    public const string Mail = "Mail";
-    public const string errorYouWereNotLoggedInInCannotJoinOrRemoveFromFanClub =
+    internal const string ThisCommentDidNotBelongToYou = "ThisCommentDidNotBelongToYou";
+    internal const string NoFilesSelectedToUpload = "NoFilesSelectedToUpload";
+    internal const string CommentPageDomainNotFoundInDatabase = "CommentPageDomainNotFoundInDatabase";
+    internal const string TheRequestedCommmentDoesNotMatchAnyPage = "TheRequestedCommmentDoesNotMatchAnyPage";
+    internal const string AddMeToFanClub = "AddMeToFanClub";
+    internal const string RemoveMeFromFanClub = "RemoveMeFromFanClub";
+    internal const string MatchResult = "MatchResult";
+    internal const string YouCouldnTPlayBothForTheSameTeam = "YouCouldnTPlayBothForTheSameTeam";
+    internal const string InTheScoreBox = "InTheScoreBox";
+    internal const string TheDateWasNotInAValidFormat = "TheDateWasNotInAValidFormat";
+    internal const string SelectATrack = "SelectATrack";
+    internal const string TheUserDidNotWishToProvideAnEmail = "TheUserDidNotWishToProvideAnEmail";
+    internal const string Mail = "Mail";
+    internal const string errorYouWereNotLoggedInInCannotJoinOrRemoveFromFanClub =
     "errorYouWereNotLoggedInInCannotJoinOrRemoveFromFanClub";
-    public const string NewCategoryIn = "NewCategoryIn";
-    public const string NewMainCategory = "NewMainCategory";
-    public const string Gyroscope = "Gyroscope";
-    public const string Calculator = "Calculator";
-    public const string Calendar = "Calendar";
-    public const string Wifi = "Wifi";
-    public const string Bluetooth = "Bluetooth";
-    public const string Durable = "Durable";
-    public const string Camera = "Camera";
-    public const string Construction = "Construction";
-    public const string Reason = "Reason";
-    public const string Deep = "Deep";
-    public const string YourBlogWasSuccessfullyDeleted = "YourBlogWasSuccessfullyDeleted";
-    public const string Author = "Author";
-    public const string Header = "Header";
-    public const string Males = "Males";
-    public const string Veterina = "Veterina";
-    public const string TurnOnPhotoTaggingMode = "TurnOnPhotoTaggingMode";
-    public const string TurnOffPhotoTaggingMode = "TurnOffPhotoTaggingMode";
-    public const string YouAreLoggedInButYouHavenTCreatedAMasterProfile =
+    internal const string NewCategoryIn = "NewCategoryIn";
+    internal const string NewMainCategory = "NewMainCategory";
+    internal const string Gyroscope = "Gyroscope";
+    internal const string Calculator = "Calculator";
+    internal const string Calendar = "Calendar";
+    internal const string Wifi = "Wifi";
+    internal const string Bluetooth = "Bluetooth";
+    internal const string Durable = "Durable";
+    internal const string Camera = "Camera";
+    internal const string Construction = "Construction";
+    internal const string Reason = "Reason";
+    internal const string Deep = "Deep";
+    internal const string YourBlogWasSuccessfullyDeleted = "YourBlogWasSuccessfullyDeleted";
+    internal const string Author = "Author";
+    internal const string Header = "Header";
+    internal const string Males = "Males";
+    internal const string Veterina = "Veterina";
+    internal const string TurnOnPhotoTaggingMode = "TurnOnPhotoTaggingMode";
+    internal const string TurnOffPhotoTaggingMode = "TurnOffPhotoTaggingMode";
+    internal const string YouAreLoggedInButYouHavenTCreatedAMasterProfile =
     "YouAreLoggedInButYouHavenTCreatedAMasterProfile";
-    public const string CancelBlog = "CancelBlog";
-    public const string CreateABlog = "CreateABlog";
-    public const string Price = "Price";
-    public const string DateOfDeath = "DateOfDeath";
-    public const string Veterinary = "Veterinary";
-    public const string AdExpiresOn = "AdExpiresOn";
-    public const string Contact = "Contact";
-    public const string Permalink = "Permalink";
-    public const string CatForSale = "CatForSale";
-    public const string CatAlreadyVirtAdopted = "CatAlreadyVirtAdopted";
-    public const string CatForVirtualAdoption = "CatForVirtualAdoption";
-    public const string CatForDonation = "CatForDonation";
-    public const string IKnowTheCommands = "IKnowTheCommands";
-    public const string IDoNotLike = "IDoNotLike";
-    public const string ILike = "ILike";
-    public const string OtherNames = "OtherNames";
-    public const string AboutMe = "AboutMe";
-    public const string FavoriteToy = "FavoriteToy";
-    public const string FavoriteFood = "FavoriteFood";
-    public const string Cancel = "Cancel";
-    public const string Refuse = "Refuse";
-    public const string Authorize = "Authorize";
-    public const string AllCatsOfThisBreed = "AllCatsOfThisBreed";
-    public const string preparing = "preparing";
-    public const string DescriptionOfTheBreed = "DescriptionOfTheBreed";
-    public const string NumberOfCats = "NumberOfCats";
-    public const string profilesOfTheFollowingAnimals = "profilesOfTheFollowingAnimals";
-    public const string NextYouCanCreateABlogAt = "NextYouCanCreateABlogAt";
-    public const string OrOn = "OrOn";
-    public const string YouCanCreateABlogOnYourSite = "YouCanCreateABlogOnYourSite";
-    public const string UnfortunatelyYouHaveNoBlog = "UnfortunatelyYouHaveNoBlog";
-    public const string Panic = "Panic";
-    public const string Master = "Master";
-    public const string Kocourka = "Kocourka";
-    public const string Kitten = "Kitten";
-    public const string TheSiteCouldNotSetANewMasterPhotoForThisAlbumIDBecauseItIsNotYours =
+    internal const string CancelBlog = "CancelBlog";
+    internal const string CreateABlog = "CreateABlog";
+    internal const string Price = "Price";
+    internal const string DateOfDeath = "DateOfDeath";
+    internal const string Veterinary = "Veterinary";
+    internal const string AdExpiresOn = "AdExpiresOn";
+    internal const string Contact = "Contact";
+    internal const string Permalink = "Permalink";
+    internal const string CatForSale = "CatForSale";
+    internal const string CatAlreadyVirtAdopted = "CatAlreadyVirtAdopted";
+    internal const string CatForVirtualAdoption = "CatForVirtualAdoption";
+    internal const string CatForDonation = "CatForDonation";
+    internal const string IKnowTheCommands = "IKnowTheCommands";
+    internal const string IDoNotLike = "IDoNotLike";
+    internal const string ILike = "ILike";
+    internal const string OtherNames = "OtherNames";
+    internal const string AboutMe = "AboutMe";
+    internal const string FavoriteToy = "FavoriteToy";
+    internal const string FavoriteFood = "FavoriteFood";
+    internal const string Cancel = "Cancel";
+    internal const string Refuse = "Refuse";
+    internal const string Authorize = "Authorize";
+    internal const string AllCatsOfThisBreed = "AllCatsOfThisBreed";
+    internal const string preparing = "preparing";
+    internal const string DescriptionOfTheBreed = "DescriptionOfTheBreed";
+    internal const string NumberOfCats = "NumberOfCats";
+    internal const string profilesOfTheFollowingAnimals = "profilesOfTheFollowingAnimals";
+    internal const string NextYouCanCreateABlogAt = "NextYouCanCreateABlogAt";
+    internal const string OrOn = "OrOn";
+    internal const string YouCanCreateABlogOnYourSite = "YouCanCreateABlogOnYourSite";
+    internal const string UnfortunatelyYouHaveNoBlog = "UnfortunatelyYouHaveNoBlog";
+    internal const string Panic = "Panic";
+    internal const string Master = "Master";
+    internal const string Kocourka = "Kocourka";
+    internal const string Kitten = "Kitten";
+    internal const string TheSiteCouldNotSetANewMasterPhotoForThisAlbumIDBecauseItIsNotYours =
     "TheSiteCouldNotSetANewMasterPhotoForThisAlbumIDBecauseItIsNotYours";
-    public const string TheSiteCouldNotDeleteTheAlbumIDBecauseItIsNotYours =
+    internal const string TheSiteCouldNotDeleteTheAlbumIDBecauseItIsNotYours =
     "TheSiteCouldNotDeleteTheAlbumIDBecauseItIsNotYours";
-    public const string TheSiteCouldNotPhysicallyDeleteTheAlbumWithID = "TheSiteCouldNotPhysicallyDeleteTheAlbumWithID";
-    public const string PhotoWithID = "PhotoWithID";
-    public const string TryToSignOutAndSignInBeforeContinuing = "TryToSignOutAndSignInBeforeContinuing";
-    public const string YourBrowserHasSentTheWrongSecurityCodeForPhotoID =
+    internal const string TheSiteCouldNotPhysicallyDeleteTheAlbumWithID = "TheSiteCouldNotPhysicallyDeleteTheAlbumWithID";
+    internal const string PhotoWithID = "PhotoWithID";
+    internal const string TryToSignOutAndSignInBeforeContinuing = "TryToSignOutAndSignInBeforeContinuing";
+    internal const string YourBrowserHasSentTheWrongSecurityCodeForPhotoID =
     "YourBrowserHasSentTheWrongSecurityCodeForPhotoID";
-    public const string TurkishCatVan = "TurkishCatVan";
-    public const string TurkishAngora = "TurkishAngora";
-    public const string TonkinCat = "TonkinCat";
-    public const string Sphynx = "Sphynx";
-    public const string SomaliCat = "SomaliCat";
-    public const string Sokoke = "Sokoke";
-    public const string Snowshoe = "Snowshoe";
-    public const string ScottishFoldCat = "ScottishFoldCat";
-    public const string SiberianCat = "SiberianCat";
-    public const string SiameseCat = "SiameseCat";
-    public const string SeychellesCat = "SeychellesCat";
-    public const string SelkirkRexShorthair = "SelkirkRexShorthair";
-    public const string SelkirkRexLonghaired = "SelkirkRexLonghaired";
-    public const string SavannahCat = "SavannahCat";
-    public const string RussianBlue = "RussianBlue";
-    public const string Ragdoll = "Ragdoll";
-    public const string Pixiebob = "Pixiebob";
-    public const string Peterbald = "Peterbald";
-    public const string PersianCat = "PersianCat";
-    public const string PermShorthairCat = "PermShorthairCat";
-    public const string PermLonghairCat = "PermLonghairCat";
-    public const string OrientalShorthairCat = "OrientalShorthairCat";
-    public const string OrientalLonghairCat = "OrientalLonghairCat";
-    public const string Ocicat = "Ocicat";
-    public const string NorwegianForestCat = "NorwegianForestCat";
-    public const string NevaMasquerade = "NevaMasquerade";
-    public const string Nebelung = "Nebelung";
-    public const string Munchkin = "Munchkin";
-    public const string MaineCoonCat = "MaineCoonCat";
-    public const string KurilianBobtail = "KurilianBobtail";
-    public const string Korat = "Korat";
-    public const string DomesticCat = "DomesticCat";
-    public const string CarthusianCat = "CarthusianCat";
-    public const string JavaneseCat = "JavaneseCat";
-    public const string JapaneseLonghairedBobtail = "JapaneseLonghairedBobtail";
-    public const string JapaneseBobtail = "JapaneseBobtail";
-    public const string HimalayanPersianCat = "HimalayanPersianCat";
-    public const string HavanaBrown = "HavanaBrown";
-    public const string AbyssinianCat = "AbyssinianCat";
-    public const string ExoticCat = "ExoticCat";
-    public const string EuropeanCat = "EuropeanCat";
-    public const string EgyptianCat = "EgyptianCat";
-    public const string DonSphynx = "DonSphynx";
-    public const string DevonRex = "DevonRex";
-    public const string CzechCurly = "CzechCurly";
-    public const string CornishRex = "CornishRex";
-    public const string CelticShorthair = "CelticShorthair";
-    public const string CeylonCat = "CeylonCat";
-    public const string BurmillaBarmila = "BurmillaBarmila";
-    public const string BritishCat = "BritishCat";
-    public const string BombayCat = "BombayCat";
-    public const string Birma = "Birma";
-    public const string BengalCat = "BengalCat";
-    public const string BurmeseCat = "BurmeseCat";
-    public const string BalineseCat = "BalineseCat";
-    public const string AustralianMist = "AustralianMist";
-    public const string AsianBrindleCat = "AsianBrindleCat";
-    public const string AsianSmokyCat = "AsianSmokyCat";
-    public const string AsianMonochromeCat = "AsianMonochromeCat";
-    public const string AmericanShorthairCat = "AmericanShorthairCat";
-    public const string AmericanCurly = "AmericanCurly";
-    public const string AmericanHairedCat = "AmericanHairedCat";
-    public const string AlbinoSiameseCat = "AlbinoSiameseCat";
-    public const string Names = "Names";
-    public const string AllFilesSuccessfullyUploaded = "AllFilesSuccessfullyUploaded";
-    public const string WrongURIAidParameterNotFoundPageDoesNotKnowToWhichAlbumYouWantToUpload =
+    internal const string TurkishCatVan = "TurkishCatVan";
+    internal const string TurkishAngora = "TurkishAngora";
+    internal const string TonkinCat = "TonkinCat";
+    internal const string Sphynx = "Sphynx";
+    internal const string SomaliCat = "SomaliCat";
+    internal const string Sokoke = "Sokoke";
+    internal const string Snowshoe = "Snowshoe";
+    internal const string ScottishFoldCat = "ScottishFoldCat";
+    internal const string SiberianCat = "SiberianCat";
+    internal const string SiameseCat = "SiameseCat";
+    internal const string SeychellesCat = "SeychellesCat";
+    internal const string SelkirkRexShorthair = "SelkirkRexShorthair";
+    internal const string SelkirkRexLonghaired = "SelkirkRexLonghaired";
+    internal const string SavannahCat = "SavannahCat";
+    internal const string RussianBlue = "RussianBlue";
+    internal const string Ragdoll = "Ragdoll";
+    internal const string Pixiebob = "Pixiebob";
+    internal const string Peterbald = "Peterbald";
+    internal const string PersianCat = "PersianCat";
+    internal const string PermShorthairCat = "PermShorthairCat";
+    internal const string PermLonghairCat = "PermLonghairCat";
+    internal const string OrientalShorthairCat = "OrientalShorthairCat";
+    internal const string OrientalLonghairCat = "OrientalLonghairCat";
+    internal const string Ocicat = "Ocicat";
+    internal const string NorwegianForestCat = "NorwegianForestCat";
+    internal const string NevaMasquerade = "NevaMasquerade";
+    internal const string Nebelung = "Nebelung";
+    internal const string Munchkin = "Munchkin";
+    internal const string MaineCoonCat = "MaineCoonCat";
+    internal const string KurilianBobtail = "KurilianBobtail";
+    internal const string Korat = "Korat";
+    internal const string DomesticCat = "DomesticCat";
+    internal const string CarthusianCat = "CarthusianCat";
+    internal const string JavaneseCat = "JavaneseCat";
+    internal const string JapaneseLonghairedBobtail = "JapaneseLonghairedBobtail";
+    internal const string JapaneseBobtail = "JapaneseBobtail";
+    internal const string HimalayanPersianCat = "HimalayanPersianCat";
+    internal const string HavanaBrown = "HavanaBrown";
+    internal const string AbyssinianCat = "AbyssinianCat";
+    internal const string ExoticCat = "ExoticCat";
+    internal const string EuropeanCat = "EuropeanCat";
+    internal const string EgyptianCat = "EgyptianCat";
+    internal const string DonSphynx = "DonSphynx";
+    internal const string DevonRex = "DevonRex";
+    internal const string CzechCurly = "CzechCurly";
+    internal const string CornishRex = "CornishRex";
+    internal const string CelticShorthair = "CelticShorthair";
+    internal const string CeylonCat = "CeylonCat";
+    internal const string BurmillaBarmila = "BurmillaBarmila";
+    internal const string BritishCat = "BritishCat";
+    internal const string BombayCat = "BombayCat";
+    internal const string Birma = "Birma";
+    internal const string BengalCat = "BengalCat";
+    internal const string BurmeseCat = "BurmeseCat";
+    internal const string BalineseCat = "BalineseCat";
+    internal const string AustralianMist = "AustralianMist";
+    internal const string AsianBrindleCat = "AsianBrindleCat";
+    internal const string AsianSmokyCat = "AsianSmokyCat";
+    internal const string AsianMonochromeCat = "AsianMonochromeCat";
+    internal const string AmericanShorthairCat = "AmericanShorthairCat";
+    internal const string AmericanCurly = "AmericanCurly";
+    internal const string AmericanHairedCat = "AmericanHairedCat";
+    internal const string AlbinoSiameseCat = "AlbinoSiameseCat";
+    internal const string Names = "Names";
+    internal const string AllFilesSuccessfullyUploaded = "AllFilesSuccessfullyUploaded";
+    internal const string WrongURIAidParameterNotFoundPageDoesNotKnowToWhichAlbumYouWantToUpload =
     "WrongURIAidParameterNotFoundPageDoesNotKnowToWhichAlbumYouWantToUpload";
-    public const string UploadPhotos = "UploadPhotos";
-    public const string AlbumSuccessfullyRenamed = "AlbumSuccessfullyRenamed";
-    public const string
+    internal const string UploadPhotos = "UploadPhotos";
+    internal const string AlbumSuccessfullyRenamed = "AlbumSuccessfullyRenamed";
+    internal const string
     YouReTryingToAddPhotosToAnAlbumThatDoesnTBelongToYouLogOutAndLogInAgainThisErrorOccursWhenYouSignInWithADifferentBrowserWithADifferentSessionID =
     "YouReTryingToAddPhotosToAnAlbumThatDoesnTBelongToYouLogOutAndLogInAgainThisErrorOccursWhenYouSignInWithADifferentBrowserWithADifferentSessionID";
-    public const string ThePassedAidParameterDoesNotMatchAnyAlbumInDBYouCannotUploadImages =
+    internal const string ThePassedAidParameterDoesNotMatchAnyAlbumInDBYouCannotUploadImages =
     "ThePassedAidParameterDoesNotMatchAnyAlbumInDBYouCannotUploadImages";
-    public const string errorYouWereNotLoggedInInYouCannotUploadNewPhotos =
+    internal const string errorYouWereNotLoggedInInYouCannotUploadNewPhotos =
     "errorYouWereNotLoggedInInYouCannotUploadNewPhotos";
-    public const string TheAidAttributeWasNotSpecifiedInTheURITheSiteDoesNotKnowWhichAlbumToUploadTo =
+    internal const string TheAidAttributeWasNotSpecifiedInTheURITheSiteDoesNotKnowWhichAlbumToUploadTo =
     "TheAidAttributeWasNotSpecifiedInTheURITheSiteDoesNotKnowWhichAlbumToUploadTo";
-    public const string TheMasterIDYouEnteredWasNotAValidNumber = "TheMasterIDYouEnteredWasNotAValidNumber";
-    public const string TheMasterWithThisIDDidNotExistInDB = "TheMasterWithThisIDDidNotExistInDB";
-    public const string YouCanTTransferACatToYourself = "YouCanTTransferACatToYourself";
-    public const string RecordSuccessfullySavedToDatabaseAwaitingUserApproval =
+    internal const string TheMasterIDYouEnteredWasNotAValidNumber = "TheMasterIDYouEnteredWasNotAValidNumber";
+    internal const string TheMasterWithThisIDDidNotExistInDB = "TheMasterWithThisIDDidNotExistInDB";
+    internal const string YouCanTTransferACatToYourself = "YouCanTTransferACatToYourself";
+    internal const string RecordSuccessfullySavedToDatabaseAwaitingUserApproval =
     "RecordSuccessfullySavedToDatabaseAwaitingUserApproval";
-    public const string RecordSuccessfullyChangedInDatabase = "RecordSuccessfullyChangedInDatabase";
-    public const string TheCatOfThisIDWasNotFoundInTheDatabase = "TheCatOfThisIDWasNotFoundInTheDatabase";
-    public const string YouCanTConvertACatThatSNotYours = "YouCanTConvertACatThatSNotYours";
-    public const string ThisCatHadNotFilledInAboutMeNorIntroductionForVisitors =
+    internal const string RecordSuccessfullyChangedInDatabase = "RecordSuccessfullyChangedInDatabase";
+    internal const string TheCatOfThisIDWasNotFoundInTheDatabase = "TheCatOfThisIDWasNotFoundInTheDatabase";
+    internal const string YouCanTConvertACatThatSNotYours = "YouCanTConvertACatThatSNotYours";
+    internal const string ThisCatHadNotFilledInAboutMeNorIntroductionForVisitors =
     "ThisCatHadNotFilledInAboutMeNorIntroductionForVisitors";
-    public const string NumberOfMalesInThisStation = "NumberOfMalesInThisStation";
-    public const string NumberOfCatsInThisStation = "NumberOfCatsInThisStation";
-    public const string Weight = "Weight";
-    public const string YouAreTryingToDeleteAnAlbumThatDoesNotBelongToYouLoggedInUser =
+    internal const string NumberOfMalesInThisStation = "NumberOfMalesInThisStation";
+    internal const string NumberOfCatsInThisStation = "NumberOfCatsInThisStation";
+    internal const string Weight = "Weight";
+    internal const string YouAreTryingToDeleteAnAlbumThatDoesNotBelongToYouLoggedInUser =
     "YouAreTryingToDeleteAnAlbumThatDoesNotBelongToYouLoggedInUser";
-    public const string YouCannotDeleteACatOrMasterAlbumYouCanOnlyDeleteAllPhotosFromIt =
+    internal const string YouCannotDeleteACatOrMasterAlbumYouCanOnlyDeleteAllPhotosFromIt =
     "YouCannotDeleteACatOrMasterAlbumYouCanOnlyDeleteAllPhotosFromIt";
-    public const string YouCannotDeleteThisEntireAlbumBecauseItHasAnExistingAlbum =
+    internal const string YouCannotDeleteThisEntireAlbumBecauseItHasAnExistingAlbum =
     "YouCannotDeleteThisEntireAlbumBecauseItHasAnExistingAlbum";
-    public const string SomethingWentWrongTheAlbumWasNotFoundApparentlyWrongAddressUri =
+    internal const string SomethingWentWrongTheAlbumWasNotFoundApparentlyWrongAddressUri =
     "SomethingWentWrongTheAlbumWasNotFoundApparentlyWrongAddressUri";
-    public const string ThisAlbumWasNotFoundInDB = "ThisAlbumWasNotFoundInDB";
-    public const string YouAreLoggedInButTheOwnerWithThisIDIsNotRegisteredInOurDB =
+    internal const string ThisAlbumWasNotFoundInDB = "ThisAlbumWasNotFoundInDB";
+    internal const string YouAreLoggedInButTheOwnerWithThisIDIsNotRegisteredInOurDB =
     "YouAreLoggedInButTheOwnerWithThisIDIsNotRegisteredInOurDB";
-    public const string WrongURIRequiredAidParameterNotFoundOrDetected =
+    internal const string WrongURIRequiredAidParameterNotFoundOrDetected =
     "WrongURIRequiredAidParameterNotFoundOrDetected";
-    public const string
+    internal const string
     PhotoGalleryCannotBeDisplayedBecauseYouHaveNotEnteredAnyParametersAnderrorYouWereNotLoggedInInAsAValidOwnerToSeeYourMasterAlbum =
     "PhotoGalleryCannotBeDisplayedBecauseYouHaveNotEnteredAnyParametersAnderrorYouWereNotLoggedInInAsAValidOwnerToSeeYourMasterAlbum";
-    public const string YouReTryingToSetYourselfAsAMasterPhotoThatDoesnTBelongToYou =
+    internal const string YouReTryingToSetYourselfAsAMasterPhotoThatDoesnTBelongToYou =
     "YouReTryingToSetYourselfAsAMasterPhotoThatDoesnTBelongToYou";
-    public const string PhotoSuccessfullySetAsMasterInAlbum = "PhotoSuccessfullySetAsMasterInAlbum";
-    public const string Picture = "Picture";
-    public const string APhotoIDThatWasNotFoundWasSpecifiedInTheAidParameter =
+    internal const string PhotoSuccessfullySetAsMasterInAlbum = "PhotoSuccessfullySetAsMasterInAlbum";
+    internal const string Picture = "Picture";
+    internal const string APhotoIDThatWasNotFoundWasSpecifiedInTheAidParameter =
     "APhotoIDThatWasNotFoundWasSpecifiedInTheAidParameter";
-    public const string BadURIMissingPidParameter = "BadURIMissingPidParameter";
-    public const string YouCurrentlyHaveTheseProfilesRegistered = "YouCurrentlyHaveTheseProfilesRegistered";
-    public const string YouAreNotSignedInSoTheAppCannotDetectYourBlogs =
+    internal const string BadURIMissingPidParameter = "BadURIMissingPidParameter";
+    internal const string YouCurrentlyHaveTheseProfilesRegistered = "YouCurrentlyHaveTheseProfilesRegistered";
+    internal const string YouAreNotSignedInSoTheAppCannotDetectYourBlogs =
     "YouAreNotSignedInSoTheAppCannotDetectYourBlogs";
-    public const string About = "About";
-    public const string TheSameAddressWasSetToTheKennel = "TheSameAddressWasSetToTheKennel";
-    public const string TheSameAddressHasBeenSet = "TheSameAddressHasBeenSet";
-    public const string ThePageDidNotReceiveTheMidParameterInTheAddressItIsNotPossibleToDisplayTheProfileOfAnyMaster =
+    internal const string About = "About";
+    internal const string TheSameAddressWasSetToTheKennel = "TheSameAddressWasSetToTheKennel";
+    internal const string TheSameAddressHasBeenSet = "TheSameAddressHasBeenSet";
+    internal const string ThePageDidNotReceiveTheMidParameterInTheAddressItIsNotPossibleToDisplayTheProfileOfAnyMaster =
     "ThePageDidNotReceiveTheMidParameterInTheAddressItIsNotPossibleToDisplayTheProfileOfAnyMaster";
-    public const string HasNotUploadedAnyOfTheirProfileImages = "HasNotUploadedAnyOfTheirProfileImages";
-    public const string HasnTUploadedAnyOfTheirProfilePictures = "HasnTUploadedAnyOfTheirProfilePictures";
-    public const string WrongURIAddressOwnerWithSpecifiedMidParameterCouldNotBeFoundInTheDatabase =
+    internal const string HasNotUploadedAnyOfTheirProfileImages = "HasNotUploadedAnyOfTheirProfileImages";
+    internal const string HasnTUploadedAnyOfTheirProfilePictures = "HasnTUploadedAnyOfTheirProfilePictures";
+    internal const string WrongURIAddressOwnerWithSpecifiedMidParameterCouldNotBeFoundInTheDatabase =
     "WrongURIAddressOwnerWithSpecifiedMidParameterCouldNotBeFoundInTheDatabase";
-    public const string ThePageDidNotReceiveTheKidParameterItIsNotPossibleToDisplayAnyKennel =
+    internal const string ThePageDidNotReceiveTheKidParameterItIsNotPossibleToDisplayAnyKennel =
     "ThePageDidNotReceiveTheKidParameterItIsNotPossibleToDisplayAnyKennel";
-    public const string WeCouldNotFindTheKennelWithTheEnteredIDInDB = "WeCouldNotFindTheKennelWithTheEnteredIDInDB";
-    public const string YouAreLoggedInButBeforeCreatingAVetYouMustFirstRegisterYourMasterProfile =
+    internal const string WeCouldNotFindTheKennelWithTheEnteredIDInDB = "WeCouldNotFindTheKennelWithTheEnteredIDInDB";
+    internal const string YouAreLoggedInButBeforeCreatingAVetYouMustFirstRegisterYourMasterProfile =
     "YouAreLoggedInButBeforeCreatingAVetYouMustFirstRegisterYourMasterProfile";
-    public const string VeterinarianCityMustBeEntered = "VeterinarianCityMustBeEntered";
-    public const string TheNameOfTheVeterinarianMustBeEntered = "TheNameOfTheVeterinarianMustBeEntered";
-    public const string RegistraceVeteriny = "RegistraceVeteriny";
-    public const string RegisterTheVet = "RegisterTheVet";
-    public const string AVetIDWasEnteredThatWasNotFoundInTheDB = "AVetIDWasEnteredThatWasNotFoundInTheDB";
-    public const string YouReTryingToEditAVetThatYouDidnTActuallyCreate =
+    internal const string VeterinarianCityMustBeEntered = "VeterinarianCityMustBeEntered";
+    internal const string TheNameOfTheVeterinarianMustBeEntered = "TheNameOfTheVeterinarianMustBeEntered";
+    internal const string RegistraceVeteriny = "RegistraceVeteriny";
+    internal const string RegisterTheVet = "RegisterTheVet";
+    internal const string AVetIDWasEnteredThatWasNotFoundInTheDB = "AVetIDWasEnteredThatWasNotFoundInTheDB";
+    internal const string YouReTryingToEditAVetThatYouDidnTActuallyCreate =
     "YouReTryingToEditAVetThatYouDidnTActuallyCreate";
-    public const string YouAreTryingToEditAUserOtherThanTheOneYouAreLoggedInWith =
+    internal const string YouAreTryingToEditAUserOtherThanTheOneYouAreLoggedInWith =
     "YouAreTryingToEditAUserOtherThanTheOneYouAreLoggedInWith";
-    public const string TheMasterWithThisWebAddressAlreadyExistedInTheDatabase =
+    internal const string TheMasterWithThisWebAddressAlreadyExistedInTheDatabase =
     "TheMasterWithThisWebAddressAlreadyExistedInTheDatabase";
-    public const string TheMasterSNameCannotBeEmpty = "TheMasterSNameCannotBeEmpty";
-    public const string errorYouWereNotLoggedInInYouMustLogInBeforeRegisteringAMaster =
+    internal const string TheMasterSNameCannotBeEmpty = "TheMasterSNameCannotBeEmpty";
+    internal const string errorYouWereNotLoggedInInYouMustLogInBeforeRegisteringAMaster =
     "errorYouWereNotLoggedInInYouMustLogInBeforeRegisteringAMaster";
-    public const string SomethingHadGoneWrongFailedToGetLoggedInUserData =
+    internal const string SomethingHadGoneWrongFailedToGetLoggedInUserData =
     "SomethingHadGoneWrongFailedToGetLoggedInUserData";
-    public const string RegisterOwnerU = "RegisterOwnerU";
-    public const string RegistrationLeverS = "RegistrationLeverS";
-    public const string YouCanOnlyEditYourOwnMasterProfile = "YouCanOnlyEditYourOwnMasterProfile";
-    public const string EditingTheOwnerS = "EditingTheOwnerS";
-    public const string RegistrationOfTheOwnerS = "RegistrationOfTheOwnerS";
-    public const string AKennelWithThisNameAlreadyExistedInTheDatabase =
+    internal const string RegisterOwnerU = "RegisterOwnerU";
+    internal const string RegistrationLeverS = "RegistrationLeverS";
+    internal const string YouCanOnlyEditYourOwnMasterProfile = "YouCanOnlyEditYourOwnMasterProfile";
+    internal const string EditingTheOwnerS = "EditingTheOwnerS";
+    internal const string RegistrationOfTheOwnerS = "RegistrationOfTheOwnerS";
+    internal const string AKennelWithThisNameAlreadyExistedInTheDatabase =
     "AKennelWithThisNameAlreadyExistedInTheDatabase";
-    public const string AKennelWithThisEmailAlreadyExistedInTheDatabase =
+    internal const string AKennelWithThisEmailAlreadyExistedInTheDatabase =
     "AKennelWithThisEmailAlreadyExistedInTheDatabase";
-    public const string AKennelWithThisWebAddressAlreadyExistedInTheDatabase =
+    internal const string AKennelWithThisWebAddressAlreadyExistedInTheDatabase =
     "AKennelWithThisWebAddressAlreadyExistedInTheDatabase";
-    public const string CityOfKennelMustBeEntered = "CityOfKennelMustBeEntered";
-    public const string TheNameOfTheKennelMustBeEntered = "TheNameOfTheKennelMustBeEntered";
-    public const string KennelRegistration = "KennelRegistration";
-    public const string RegisterKennel = "RegisterKennel";
-    public const string AKennelIDThatIsNotYoursWasFoundInTheURI = "AKennelIDThatIsNotYoursWasFoundInTheURI";
-    public const string AKennelIDWasEnteredThatWasNotFoundInTheDB = "AKennelIDWasEnteredThatWasNotFoundInTheDB";
-    public const string InvalidUserIDFoundInCookies = "InvalidUserIDFoundInCookies";
-    public const string ALoginWasFoundInTheSessionAndFailedToRetrieveTheNecessaryInformation =
+    internal const string CityOfKennelMustBeEntered = "CityOfKennelMustBeEntered";
+    internal const string TheNameOfTheKennelMustBeEntered = "TheNameOfTheKennelMustBeEntered";
+    internal const string KennelRegistration = "KennelRegistration";
+    internal const string RegisterKennel = "RegisterKennel";
+    internal const string AKennelIDThatIsNotYoursWasFoundInTheURI = "AKennelIDThatIsNotYoursWasFoundInTheURI";
+    internal const string AKennelIDWasEnteredThatWasNotFoundInTheDB = "AKennelIDWasEnteredThatWasNotFoundInTheDB";
+    internal const string InvalidUserIDFoundInCookies = "InvalidUserIDFoundInCookies";
+    internal const string ALoginWasFoundInTheSessionAndFailedToRetrieveTheNecessaryInformation =
     "ALoginWasFoundInTheSessionAndFailedToRetrieveTheNecessaryInformation";
-    public const string YouDoNotHaveAMasterProfileSoYouGotHere = "YouDoNotHaveAMasterProfileSoYouGotHere";
-    public const string NoDataSaved = "NoDataSaved";
-    public const string Cat = "Cat";
-    public const string UnableToGetWeightWasInWrongFormat = "UnableToGetWeightWasInWrongFormat";
-    public const string FailedToGetDate = "FailedToGetDate";
-    public const string ThePriceOfACatCannotBeZeroOrNegative = "ThePriceOfACatCannotBeZeroOrNegative";
-    public const string YouIndicatedThatYouWantToSellTheCatButTheSiteFailedToGetThePriceInWholeCZK =
+    internal const string YouDoNotHaveAMasterProfileSoYouGotHere = "YouDoNotHaveAMasterProfileSoYouGotHere";
+    internal const string NoDataSaved = "NoDataSaved";
+    internal const string Cat = "Cat";
+    internal const string UnableToGetWeightWasInWrongFormat = "UnableToGetWeightWasInWrongFormat";
+    internal const string FailedToGetDate = "FailedToGetDate";
+    internal const string ThePriceOfACatCannotBeZeroOrNegative = "ThePriceOfACatCannotBeZeroOrNegative";
+    internal const string YouIndicatedThatYouWantToSellTheCatButTheSiteFailedToGetThePriceInWholeCZK =
     "YouIndicatedThatYouWantToSellTheCatButTheSiteFailedToGetThePriceInWholeCZK";
-    public const string AnimalNameMustBeEntered = "AnimalNameMustBeEntered";
-    public const string RegisterThePet = "RegisterThePet";
-    public const string CatsProfileRegistration = "CatsProfileRegistration";
-    public const string CatIDNotFoundInDBWasEntered = "CatIDNotFoundInDBWasEntered";
-    public const string YouReTryingToEditACatThatDoesnTBelongToYou = "YouReTryingToEditACatThatDoesnTBelongToYou";
-    public const string EditingACatProfile = "EditingACatProfile";
-    public const string NoneYet = "NoneYet";
-    public const string NotFilledYet = "NotFilledYet";
-    public const string InvalidUserIDFoundInCookiesSession = "InvalidUserIDFoundInCookiesSession";
-    public const string Remove = "Remove";
-    public const string errorYouWereNotLoggedInInAtAllOrAnErrorOccurredPleaseLogInAgain =
+    internal const string AnimalNameMustBeEntered = "AnimalNameMustBeEntered";
+    internal const string RegisterThePet = "RegisterThePet";
+    internal const string CatsProfileRegistration = "CatsProfileRegistration";
+    internal const string CatIDNotFoundInDBWasEntered = "CatIDNotFoundInDBWasEntered";
+    internal const string YouReTryingToEditACatThatDoesnTBelongToYou = "YouReTryingToEditACatThatDoesnTBelongToYou";
+    internal const string EditingACatProfile = "EditingACatProfile";
+    internal const string NoneYet = "NoneYet";
+    internal const string NotFilledYet = "NotFilledYet";
+    internal const string InvalidUserIDFoundInCookiesSession = "InvalidUserIDFoundInCookiesSession";
+    internal const string Remove = "Remove";
+    internal const string errorYouWereNotLoggedInInAtAllOrAnErrorOccurredPleaseLogInAgain =
     "errorYouWereNotLoggedInInAtAllOrAnErrorOccurredPleaseLogInAgain";
-    public const string errorYouWereNotLoggedInInAsAValidOwner = "errorYouWereNotLoggedInInAsAValidOwner";
-    public const string Veterinarian = "Veterinarian";
-    public const string Kennel = "Kennel";
-    public const string Mister = "Mister";
-    public const string NoPhotosViewedInTheLastWeek = "NoPhotosViewedInTheLastWeek";
-    public const string NoCatProfilesViewedInTheLastWeek = "NoCatProfilesViewedInTheLastWeek";
-    public const string TodayCelebratesInCatCalendarBB = "TodayCelebratesInCatCalendarBB";
-    public const string YouCannotCreateAnAlbumWithThisNameTurnOnJSForAnInteractiveTitleNameReleaseIndicator =
+    internal const string errorYouWereNotLoggedInInAsAValidOwner = "errorYouWereNotLoggedInInAsAValidOwner";
+    internal const string Veterinarian = "Veterinarian";
+    internal const string Kennel = "Kennel";
+    internal const string Mister = "Mister";
+    internal const string NoPhotosViewedInTheLastWeek = "NoPhotosViewedInTheLastWeek";
+    internal const string NoCatProfilesViewedInTheLastWeek = "NoCatProfilesViewedInTheLastWeek";
+    internal const string TodayCelebratesInCatCalendarBB = "TodayCelebratesInCatCalendarBB";
+    internal const string YouCannotCreateAnAlbumWithThisNameTurnOnJSForAnInteractiveTitleNameReleaseIndicator =
     "YouCannotCreateAnAlbumWithThisNameTurnOnJSForAnInteractiveTitleNameReleaseIndicator";
-    public const string IncompleteURIAidParameterNotFound = "IncompleteURIAidParameterNotFound";
-    public const string UnfortunatelyYouCouldNotAuthenticateAsAValidOwnerOfTheAlbumInWhichYouWantToCreateThisAlbum =
+    internal const string IncompleteURIAidParameterNotFound = "IncompleteURIAidParameterNotFound";
+    internal const string UnfortunatelyYouCouldNotAuthenticateAsAValidOwnerOfTheAlbumInWhichYouWantToCreateThisAlbum =
     "UnfortunatelyYouCouldNotAuthenticateAsAValidOwnerOfTheAlbumInWhichYouWantToCreateThisAlbum";
-    public const string TheUriLoginAndIdCatParametersDoNotMatch = "TheUriLoginAndIdCatParametersDoNotMatch";
-    public const string YouWereNotLoggedInYouCannotSendMail = "YouWereNotLoggedInYouCannotSendMail";
-    public const string YouHaveNotEnteredAnEmailToSendAMessageTo = "YouHaveNotEnteredAnEmailToSendAMessageTo";
-    public const string ThereWasAnErrorGettingTheEmail = "ThereWasAnErrorGettingTheEmail";
-    public const string MessageTextCannotBeEmptyMessageWasNotSent = "MessageTextCannotBeEmptyMessageWasNotSent";
-    public const string whoHasVerifiedMail = "whoHasVerifiedMail";
-    public const string Interest = "Interest";
-    public const string errorYouWereNotLoggedInInYouCannotSendEmailMessages =
+    internal const string TheUriLoginAndIdCatParametersDoNotMatch = "TheUriLoginAndIdCatParametersDoNotMatch";
+    internal const string YouWereNotLoggedInYouCannotSendMail = "YouWereNotLoggedInYouCannotSendMail";
+    internal const string YouHaveNotEnteredAnEmailToSendAMessageTo = "YouHaveNotEnteredAnEmailToSendAMessageTo";
+    internal const string ThereWasAnErrorGettingTheEmail = "ThereWasAnErrorGettingTheEmail";
+    internal const string MessageTextCannotBeEmptyMessageWasNotSent = "MessageTextCannotBeEmptyMessageWasNotSent";
+    internal const string whoHasVerifiedMail = "whoHasVerifiedMail";
+    internal const string Interest = "Interest";
+    internal const string errorYouWereNotLoggedInInYouCannotSendEmailMessages =
     "errorYouWereNotLoggedInInYouCannotSendEmailMessages";
-    public const string PleaseContactMeAtOneOfTheFollowingContacts = "PleaseContactMeAtOneOfTheFollowingContacts";
-    public const string Yours = "Yours";
-    public const string IMInterestedIn = "IMInterestedIn";
-    public const string HelloManifested = "HelloManifested";
-    public const string CatOwnerEmail = "CatOwnerEmail";
-    public const string RecordsFound = "RecordsFound";
-    public const string ListOfKennelsInCity = "ListOfKennelsInCity";
-    public const string NoMastersFound = "NoMastersFound";
-    public const string NoLeversFound = "NoLeversFound";
-    public const string NoMalesFound = "NoMalesFound";
-    public const string NoCatsFound = "NoCatsFound";
-    public const string ListOfCatsInTheCity = "ListOfCatsInTheCity";
-    public const string ListOfCatOwnersInTheCity = "ListOfCatOwnersInTheCity";
-    public const string TheOwnersOfTheCity = "TheOwnersOfTheCity";
-    public const string CatsOutOfTown = "CatsOutOfTown";
-    public const string KennelsOfTheCity = "KennelsOfTheCity";
-    public const string YouUsedAnInvalidValueForTheCityParameterInUri = "YouUsedAnInvalidValueForTheCityParameterInUri";
-    public const string YouUsedAnInvalidValueForTheDistrictParameterInUri =
+    internal const string PleaseContactMeAtOneOfTheFollowingContacts = "PleaseContactMeAtOneOfTheFollowingContacts";
+    internal const string Yours = "Yours";
+    internal const string IMInterestedIn = "IMInterestedIn";
+    internal const string HelloManifested = "HelloManifested";
+    internal const string CatOwnerEmail = "CatOwnerEmail";
+    internal const string RecordsFound = "RecordsFound";
+    internal const string ListOfKennelsInCity = "ListOfKennelsInCity";
+    internal const string NoMastersFound = "NoMastersFound";
+    internal const string NoLeversFound = "NoLeversFound";
+    internal const string NoMalesFound = "NoMalesFound";
+    internal const string NoCatsFound = "NoCatsFound";
+    internal const string ListOfCatsInTheCity = "ListOfCatsInTheCity";
+    internal const string ListOfCatOwnersInTheCity = "ListOfCatOwnersInTheCity";
+    internal const string TheOwnersOfTheCity = "TheOwnersOfTheCity";
+    internal const string CatsOutOfTown = "CatsOutOfTown";
+    internal const string KennelsOfTheCity = "KennelsOfTheCity";
+    internal const string YouUsedAnInvalidValueForTheCityParameterInUri = "YouUsedAnInvalidValueForTheCityParameterInUri";
+    internal const string YouUsedAnInvalidValueForTheDistrictParameterInUri =
     "YouUsedAnInvalidValueForTheDistrictParameterInUri";
-    public const string YouUsedAnInvalidValueForTheRegionParameterInUri =
+    internal const string YouUsedAnInvalidValueForTheRegionParameterInUri =
     "YouUsedAnInvalidValueForTheRegionParameterInUri";
-    public const string YouUsedAnInvalidValueForTheStateParameterInUri =
+    internal const string YouUsedAnInvalidValueForTheStateParameterInUri =
     "YouUsedAnInvalidValueForTheStateParameterInUri";
-    public const string Cats = "Cats";
-    public const string Kennels = "Kennels";
-    public const string NextTotalCats = "NextTotalCats";
-    public const string Transition = "Transition";
-    public const string NewAssignment = "NewAssignment";
-    public const string HasNotUploadedAnyPhotoToTheirCat = "HasNotUploadedAnyPhotoToTheirCat";
-    public const string ListOfBreedCats = "ListOfBreedCats";
-    public const string TheOwnerWithThisIDWasNotFoundOnTheSite = "TheOwnerWithThisIDWasNotFoundOnTheSite";
-    public const string CouldNotGetCatID = "CouldNotGetCatID";
-    public const string UnknownError = "UnknownError";
-    public const string TheAnimalYouAreAboutToAddRemoveFromTheKennelIsNotYoursAndThereforeYouCanNotDisposeOfIt =
+    internal const string Cats = "Cats";
+    internal const string Kennels = "Kennels";
+    internal const string NextTotalCats = "NextTotalCats";
+    internal const string Transition = "Transition";
+    internal const string NewAssignment = "NewAssignment";
+    internal const string HasNotUploadedAnyPhotoToTheirCat = "HasNotUploadedAnyPhotoToTheirCat";
+    internal const string ListOfBreedCats = "ListOfBreedCats";
+    internal const string TheOwnerWithThisIDWasNotFoundOnTheSite = "TheOwnerWithThisIDWasNotFoundOnTheSite";
+    internal const string CouldNotGetCatID = "CouldNotGetCatID";
+    internal const string UnknownError = "UnknownError";
+    internal const string TheAnimalYouAreAboutToAddRemoveFromTheKennelIsNotYoursAndThereforeYouCanNotDisposeOfIt =
     "TheAnimalYouAreAboutToAddRemoveFromTheKennelIsNotYoursAndThereforeYouCanNotDisposeOfIt";
-    public const string ByAgreement = "ByAgreement";
-    public const string ThePageDidNotReceiveTheCidParameterInTheAddressItIsNotPossibleToViewTheProfileOfAnyCat =
+    internal const string ByAgreement = "ByAgreement";
+    internal const string ThePageDidNotReceiveTheCidParameterInTheAddressItIsNotPossibleToViewTheProfileOfAnyCat =
     "ThePageDidNotReceiveTheCidParameterInTheAddressItIsNotPossibleToViewTheProfileOfAnyCat";
-    public const string NoProfilePictureForThisTomcatYet = "NoProfilePictureForThisTomcatYet";
-    public const string NoProfilePictureHasBeenUploadedToThisCatYet = "NoProfilePictureHasBeenUploadedToThisCatYet";
-    public const string WrongURITheCatWithTheSpecifiedCidParameterCouldNotBeFoundInTheDatabase =
+    internal const string NoProfilePictureForThisTomcatYet = "NoProfilePictureForThisTomcatYet";
+    internal const string NoProfilePictureHasBeenUploadedToThisCatYet = "NoProfilePictureHasBeenUploadedToThisCatYet";
+    internal const string WrongURITheCatWithTheSpecifiedCidParameterCouldNotBeFoundInTheDatabase =
     "WrongURITheCatWithTheSpecifiedCidParameterCouldNotBeFoundInTheDatabase";
-    public const string AddToMyKennel = "AddToMyKennel";
-    public const string RemoveFromMyKennel = "RemoveFromMyKennel";
-    public const string YouCanNotCancelTheProposalToTransferTheCatBecauseTheCatDoesNotBelongToYou =
+    internal const string AddToMyKennel = "AddToMyKennel";
+    internal const string RemoveFromMyKennel = "RemoveFromMyKennel";
+    internal const string YouCanNotCancelTheProposalToTransferTheCatBecauseTheCatDoesNotBelongToYou =
     "YouCanNotCancelTheProposalToTransferTheCatBecauseTheCatDoesNotBelongToYou";
-    public const string CatTransmissionWasSuccessfullyCanceled = "CatTransmissionWasSuccessfullyCanceled";
-    public const string DidnTYouChooseHereAreTheCalendarsForTheFollowingMonths =
+    internal const string CatTransmissionWasSuccessfullyCanceled = "CatTransmissionWasSuccessfullyCanceled";
+    internal const string DidnTYouChooseHereAreTheCalendarsForTheFollowingMonths =
     "DidnTYouChooseHereAreTheCalendarsForTheFollowingMonths";
-    public const string CatNameCalendar = "CatNameCalendar";
-    public const string Plemeno = "Plemeno";
-    public const string BreedNotFound = "BreedNotFound";
-    public const string TotalCats = "TotalCats";
-    public const string AllCatsBreeds = "AllCatsBreeds";
-    public const string InvalidBidURIParameterSomeoneSentYouTheWrongAddress =
+    internal const string CatNameCalendar = "CatNameCalendar";
+    internal const string Plemeno = "Plemeno";
+    internal const string BreedNotFound = "BreedNotFound";
+    internal const string TotalCats = "TotalCats";
+    internal const string AllCatsBreeds = "AllCatsBreeds";
+    internal const string InvalidBidURIParameterSomeoneSentYouTheWrongAddress =
     "InvalidBidURIParameterSomeoneSentYouTheWrongAddress";
-    public const string YouCannotAcceptOrRejectACatBecauseItIsNotAllowedByItsCurrentOwner =
+    internal const string YouCannotAcceptOrRejectACatBecauseItIsNotAllowedByItsCurrentOwner =
     "YouCannotAcceptOrRejectACatBecauseItIsNotAllowedByItsCurrentOwner";
-    public const string YourCatTransferRequestWasSuccessfullyRejected = "YourCatTransferRequestWasSuccessfullyRejected";
-    public const string TheCatHasBeenSuccessfullyTransferredToYou = "TheCatHasBeenSuccessfullyTransferredToYou";
-    public const string UnimplementedBranchInGetIdIpOfCommentMethod = "UnimplementedBranchInGetIdIpOfCommentMethod";
-    public const string UnimplementedBranchOfTheDiscussOwnerOfCommentMethod =
+    internal const string YourCatTransferRequestWasSuccessfullyRejected = "YourCatTransferRequestWasSuccessfullyRejected";
+    internal const string TheCatHasBeenSuccessfullyTransferredToYou = "TheCatHasBeenSuccessfullyTransferredToYou";
+    internal const string UnimplementedBranchInGetIdIpOfCommentMethod = "UnimplementedBranchInGetIdIpOfCommentMethod";
+    internal const string UnimplementedBranchOfTheDiscussOwnerOfCommentMethod =
     "UnimplementedBranchOfTheDiscussOwnerOfCommentMethod";
-    public const string AnUnimplementedSiteBranchInTheIsCommentThumbsUpByUserMethod =
+    internal const string AnUnimplementedSiteBranchInTheIsCommentThumbsUpByUserMethod =
     "AnUnimplementedSiteBranchInTheIsCommentThumbsUpByUserMethod";
-    public const string AnUnimplementedSiteBranchInTheGetCountCommentThumbsDownMethod =
+    internal const string AnUnimplementedSiteBranchInTheGetCountCommentThumbsDownMethod =
     "AnUnimplementedSiteBranchInTheGetCountCommentThumbsDownMethod";
-    public const string AnUnimplementedSiteBranchInTheGetCountCommentThumbsUpMethod =
+    internal const string AnUnimplementedSiteBranchInTheGetCountCommentThumbsUpMethod =
     "AnUnimplementedSiteBranchInTheGetCountCommentThumbsUpMethod";
-    public const string AnUnimplementedSiteBranchInTheGetCountCommentMarkedSpamMethod =
+    internal const string AnUnimplementedSiteBranchInTheGetCountCommentMarkedSpamMethod =
     "AnUnimplementedSiteBranchInTheGetCountCommentMarkedSpamMethod";
-    public const string LastEdited = "LastEdited";
-    public const string DeletedByAuthor = "DeletedByAuthor";
-    public const string DeletedByAdminOfThisSite = "DeletedByAdminOfThisSite";
-    public const string Nick = "Nick";
-    public const string
+    internal const string LastEdited = "LastEdited";
+    internal const string DeletedByAuthor = "DeletedByAuthor";
+    internal const string DeletedByAdminOfThisSite = "DeletedByAdminOfThisSite";
+    internal const string Nick = "Nick";
+    internal const string
     UseThisButtonToBlockNewPostsFromThatNickHoweverTheUserCanStillEnterWithAnotherNickIfTheButtonIsSurroundedByAnOrangeLineTheLockIsAlreadyActive =
     "UseThisButtonToBlockNewPostsFromThatNickHoweverTheUserCanStillEnterWithAnotherNickIfTheButtonIsSurroundedByAnOrangeLineTheLockIsAlreadyActive";
-    public const string
+    internal const string
     UseThisButtonToBlockNewPostsFromThisIPAddressIfTheButtonIsSurroundedByAnOrangeLineTheLockIsAlreadyActive =
     "UseThisButtonToBlockNewPostsFromThisIPAddressIfTheButtonIsSurroundedByAnOrangeLineTheLockIsAlreadyActive";
-    public const string
+    internal const string
     UseThisButtonToRemoveACommentButItWillStillAppearWithoutTextAndYouWonTBeAbleToDoAnythingAboutIt =
     "UseThisButtonToRemoveACommentButItWillStillAppearWithoutTextAndYouWonTBeAbleToDoAnythingAboutIt";
-    public const string UseThisButtonToEditTheCommentText = "UseThisButtonToEditTheCommentText";
-    public const string UseThisButtonToManageImagesForComments = "UseThisButtonToManageImagesForComments";
-    public const string UseThisButtonToMarkACommentAsSpamSpamOrOffTopic =
+    internal const string UseThisButtonToEditTheCommentText = "UseThisButtonToEditTheCommentText";
+    internal const string UseThisButtonToManageImagesForComments = "UseThisButtonToManageImagesForComments";
+    internal const string UseThisButtonToMarkACommentAsSpamSpamOrOffTopic =
     "UseThisButtonToMarkACommentAsSpamSpamOrOffTopic";
-    public const string UseThisButtonToIndicateThatYouDoNotLikeTheCommentOrThatYouDoNotIdentifyWithIt =
+    internal const string UseThisButtonToIndicateThatYouDoNotLikeTheCommentOrThatYouDoNotIdentifyWithIt =
     "UseThisButtonToIndicateThatYouDoNotLikeTheCommentOrThatYouDoNotIdentifyWithIt";
-    public const string UseThisButtonToIndicateThatYouLikeTheCommentOrThatYouIdentifyWithIt =
+    internal const string UseThisButtonToIndicateThatYouLikeTheCommentOrThatYouIdentifyWithIt =
     "UseThisButtonToIndicateThatYouLikeTheCommentOrThatYouIdentifyWithIt";
-    public const string ThisCommentReceivedTooManyNegativeVotes = "ThisCommentReceivedTooManyNegativeVotes";
-    public const string ThisCommentIsProbablySpam = "ThisCommentIsProbablySpam";
-    public const string TheElseIfClauseForTheSiteWasNotFoundInTheGetHtmlSingleCommentMethod =
+    internal const string ThisCommentReceivedTooManyNegativeVotes = "ThisCommentReceivedTooManyNegativeVotes";
+    internal const string ThisCommentIsProbablySpam = "ThisCommentIsProbablySpam";
+    internal const string TheElseIfClauseForTheSiteWasNotFoundInTheGetHtmlSingleCommentMethod =
     "TheElseIfClauseForTheSiteWasNotFoundInTheGetHtmlSingleCommentMethod";
-    public const string SuchACommentWasNotFoundInTheDatabase = "SuchACommentWasNotFoundInTheDatabase";
-    public const string UnimplementedMssBranchInDiscussGetHtml = "UnimplementedMssBranchInDiscussGetHtml";
-    public const string AddComment = "AddComment";
-    public const string TypeYourCommentHere = "TypeYourCommentHere";
-    public const string NotifyMeOfNewComments = "NotifyMeOfNewComments";
-    public const string YouAreLoggedInAs = "YouAreLoggedInAs";
-    public const string YouAreTryingToGetCommentsOnTheSunamoCzSiteAndDeclareAForeignSite =
+    internal const string SuchACommentWasNotFoundInTheDatabase = "SuchACommentWasNotFoundInTheDatabase";
+    internal const string UnimplementedMssBranchInDiscussGetHtml = "UnimplementedMssBranchInDiscussGetHtml";
+    internal const string AddComment = "AddComment";
+    internal const string TypeYourCommentHere = "TypeYourCommentHere";
+    internal const string NotifyMeOfNewComments = "NotifyMeOfNewComments";
+    internal const string YouAreLoggedInAs = "YouAreLoggedInAs";
+    internal const string YouAreTryingToGetCommentsOnTheSunamoCzSiteAndDeclareAForeignSite =
     "YouAreTryingToGetCommentsOnTheSunamoCzSiteAndDeclareAForeignSite";
-    public const string NotSetForSunamoCzSiteCommentsCorrectSeries = "NotSetForSunamoCzSiteCommentsCorrectSeries";
-    public const string HeWrote = "HeWrote";
-    public const string PoweredBySunamoBlogs = "PoweredBySunamoBlogs";
-    public const string NoNewComments = "NoNewComments";
-    public const string Category = "Category";
-    public const string EditThisPostOrCreateANewOneAndDeleteIt = "EditThisPostOrCreateANewOneAndDeleteIt";
-    public const string Untitled = "Untitled";
-    public const string First = "First";
-    public const string PleaseReportAndLogInAgainPleaseTheApplicationCouldNotAuthenticateYou =
+    internal const string NotSetForSunamoCzSiteCommentsCorrectSeries = "NotSetForSunamoCzSiteCommentsCorrectSeries";
+    internal const string HeWrote = "HeWrote";
+    internal const string PoweredBySunamoBlogs = "PoweredBySunamoBlogs";
+    internal const string NoNewComments = "NoNewComments";
+    internal const string Category = "Category";
+    internal const string EditThisPostOrCreateANewOneAndDeleteIt = "EditThisPostOrCreateANewOneAndDeleteIt";
+    internal const string Untitled = "Untitled";
+    internal const string First = "First";
+    internal const string PleaseReportAndLogInAgainPleaseTheApplicationCouldNotAuthenticateYou =
     "PleaseReportAndLogInAgainPleaseTheApplicationCouldNotAuthenticateYou";
-    public const string BidNotFoundInAddressSiteDoesnTKnowWhichBlogYouWantToEdit =
+    internal const string BidNotFoundInAddressSiteDoesnTKnowWhichBlogYouWantToEdit =
     "BidNotFoundInAddressSiteDoesnTKnowWhichBlogYouWantToEdit";
-    public const string WrongBidParameterUserCouldNotBeDetected = "WrongBidParameterUserCouldNotBeDetected";
-    public const string PostContentCannotBeEmpty = "PostContentCannotBeEmpty";
-    public const string PostTitleCannotBeEmpty = "PostTitleCannotBeEmpty";
-    public const string YourPostHasBeenSuccessfullySavedAsDraftUnpublished =
+    internal const string WrongBidParameterUserCouldNotBeDetected = "WrongBidParameterUserCouldNotBeDetected";
+    internal const string PostContentCannotBeEmpty = "PostContentCannotBeEmpty";
+    internal const string PostTitleCannotBeEmpty = "PostTitleCannotBeEmpty";
+    internal const string YourPostHasBeenSuccessfullySavedAsDraftUnpublished =
     "YourPostHasBeenSuccessfullySavedAsDraftUnpublished";
-    public const string YouCanTPostToABlogIfYouReNotSignedIn = "YouCanTPostToABlogIfYouReNotSignedIn";
-    public const string TheBlogYouAreTryingToEditDoesNotBelongToAnyUserOrCat =
+    internal const string YouCanTPostToABlogIfYouReNotSignedIn = "YouCanTPostToABlogIfYouReNotSignedIn";
+    internal const string TheBlogYouAreTryingToEditDoesNotBelongToAnyUserOrCat =
     "TheBlogYouAreTryingToEditDoesNotBelongToAnyUserOrCat";
-    public const string RequiredBidParameterNotSpecified = "RequiredBidParameterNotSpecified";
-    public const string YouAreTryingToEditABlogpostThatDoesNotBelongToYourAccount =
+    internal const string RequiredBidParameterNotSpecified = "RequiredBidParameterNotSpecified";
+    internal const string YouAreTryingToEditABlogpostThatDoesNotBelongToYourAccount =
     "YouAreTryingToEditABlogpostThatDoesNotBelongToYourAccount";
-    public const string YouAreTryingToEditABlogpostThatExistsButDoesNotBelongToYou =
+    internal const string YouAreTryingToEditABlogpostThatExistsButDoesNotBelongToYou =
     "YouAreTryingToEditABlogpostThatExistsButDoesNotBelongToYou";
-    public const string TheBlogIDYouWantToEditDoesNotHaveTheManWhoIsCurrentlyLoggedInAsTheOwner =
+    internal const string TheBlogIDYouWantToEditDoesNotHaveTheManWhoIsCurrentlyLoggedInAsTheOwner =
     "TheBlogIDYouWantToEditDoesNotHaveTheManWhoIsCurrentlyLoggedInAsTheOwner";
-    public const string YouAreTryingToEditABlogpostThatDoesNotExistOrYouDoNotHaveAccessToIt =
+    internal const string YouAreTryingToEditABlogpostThatDoesNotExistOrYouDoNotHaveAccessToIt =
     "YouAreTryingToEditABlogpostThatDoesNotExistOrYouDoNotHaveAccessToIt";
-    public const string TheBlogpostAndItsRelatedBlogThatYouEnteredDoesNotBelongToAnyCatOrOwner =
+    internal const string TheBlogpostAndItsRelatedBlogThatYouEnteredDoesNotBelongToAnyCatOrOwner =
     "TheBlogpostAndItsRelatedBlogThatYouEnteredDoesNotBelongToAnyCatOrOwner";
-    public const string BlogTitleIsAlreadyTaken = "BlogTitleIsAlreadyTaken";
-    public const string errorYouWereNotLoggedInInTheSiteCannotCreateANewBlogPost =
+    internal const string BlogTitleIsAlreadyTaken = "BlogTitleIsAlreadyTaken";
+    internal const string errorYouWereNotLoggedInInTheSiteCannotCreateANewBlogPost =
     "errorYouWereNotLoggedInInTheSiteCannotCreateANewBlogPost";
-    public const string TheBlogAddressContainedInvalidCharacters = "TheBlogAddressContainedInvalidCharacters";
-    public const string BlogTitleWasEmptyOrWithOnlyWhiteCharacters = "BlogTitleWasEmptyOrWithOnlyWhiteCharacters";
-    public const string TheAuthorOfTheBlogWasBlankOrWithOnlyWhiteMarks =
+    internal const string TheBlogAddressContainedInvalidCharacters = "TheBlogAddressContainedInvalidCharacters";
+    internal const string BlogTitleWasEmptyOrWithOnlyWhiteCharacters = "BlogTitleWasEmptyOrWithOnlyWhiteCharacters";
+    internal const string TheAuthorOfTheBlogWasBlankOrWithOnlyWhiteMarks =
     "TheAuthorOfTheBlogWasBlankOrWithOnlyWhiteMarks";
-    public const string TheBlogAddressWasEmptyOrWithOnlyWhiteCharacters =
+    internal const string TheBlogAddressWasEmptyOrWithOnlyWhiteCharacters =
     "TheBlogAddressWasEmptyOrWithOnlyWhiteCharacters";
-    public const string errorYouWereNotLoggedInInYouCannotCreateANewBlog =
+    internal const string errorYouWereNotLoggedInInYouCannotCreateANewBlog =
     "errorYouWereNotLoggedInInYouCannotCreateANewBlog";
-    public const string YouAlreadyHaveYourBlogAt = "YouAlreadyHaveYourBlogAt";
-    public const string NeedToBreakDown = "NeedToBreakDown";
-    public const string MyDesktopApplications = "MyDesktopApplications";
-    public const string TitleOfThePaper = "TitleOfThePaper";
-    public const string MoreTextOfThePaper = "MoreTextOfThePaper";
-    public const string SomePostText = "SomePostText";
-    public const string ShortDescriptionOfTheBlog = "ShortDescriptionOfTheBlog";
-    public const string SorryButSuchABlogWasNotFoundHere = "SorryButSuchABlogWasNotFoundHere";
-    public const string TheBlogWasFoundButNotSuchAPost = "TheBlogWasFoundButNotSuchAPost";
-    public const string HomePage = "HomePage";
-    public const string Post = "Post";
-    public const string Blog = "Blog";
-    public const string YouCannotDeleteTheFirstPostOnYourBlog = "YouCannotDeleteTheFirstPostOnYourBlog";
-    public const string ThisBlogpostHasBeenMarkedAsDraftAndHasNotBeenPublishedYet =
+    internal const string YouAlreadyHaveYourBlogAt = "YouAlreadyHaveYourBlogAt";
+    internal const string NeedToBreakDown = "NeedToBreakDown";
+    internal const string MyDesktopApplications = "MyDesktopApplications";
+    internal const string TitleOfThePaper = "TitleOfThePaper";
+    internal const string MoreTextOfThePaper = "MoreTextOfThePaper";
+    internal const string SomePostText = "SomePostText";
+    internal const string ShortDescriptionOfTheBlog = "ShortDescriptionOfTheBlog";
+    internal const string SorryButSuchABlogWasNotFoundHere = "SorryButSuchABlogWasNotFoundHere";
+    internal const string TheBlogWasFoundButNotSuchAPost = "TheBlogWasFoundButNotSuchAPost";
+    internal const string HomePage = "HomePage";
+    internal const string Post = "Post";
+    internal const string Blog = "Blog";
+    internal const string YouCannotDeleteTheFirstPostOnYourBlog = "YouCannotDeleteTheFirstPostOnYourBlog";
+    internal const string ThisBlogpostHasBeenMarkedAsDraftAndHasNotBeenPublishedYet =
     "ThisBlogpostHasBeenMarkedAsDraftAndHasNotBeenPublishedYet";
-    public const string IncorrectURIAddressEitherOneOrBothOfTheBidPidParametersAreMissing =
+    internal const string IncorrectURIAddressEitherOneOrBothOfTheBidPidParametersAreMissing =
     "IncorrectURIAddressEitherOneOrBothOfTheBidPidParametersAreMissing";
-    public const string WrongURIRequiredBidParameterNotFound = "WrongURIRequiredBidParameterNotFound";
-    public const string BlogFoundButNoPostsFound = "BlogFoundButNoPostsFound";
-    public const string YouCannotVoteInThisPollBecauseTheVoteHasBeenClosed =
+    internal const string WrongURIRequiredBidParameterNotFound = "WrongURIRequiredBidParameterNotFound";
+    internal const string BlogFoundButNoPostsFound = "BlogFoundButNoPostsFound";
+    internal const string YouCannotVoteInThisPollBecauseTheVoteHasBeenClosed =
     "YouCannotVoteInThisPollBecauseTheVoteHasBeenClosed";
-    public const string YouHaveAlreadyVotedInFavorOfThisPoll = "YouHaveAlreadyVotedInFavorOfThisPoll";
-    public const string ThankYouForVotingYourVoteForTheAnswer = "ThankYouForVotingYourVoteForTheAnswer";
-    public const string ThisResponseWasNotFoundInDB = "ThisResponseWasNotFoundInDB";
-    public const string
+    internal const string YouHaveAlreadyVotedInFavorOfThisPoll = "YouHaveAlreadyVotedInFavorOfThisPoll";
+    internal const string ThankYouForVotingYourVoteForTheAnswer = "ThankYouForVotingYourVoteForTheAnswer";
+    internal const string ThisResponseWasNotFoundInDB = "ThisResponseWasNotFoundInDB";
+    internal const string
     ThisResponseCouldNotIdentifyThePollToWhichItBelongsSoYouAreEitherTryingToEnterANonExistentAnswerNumberOrSomethingWentWrongOnTheWeb =
     "ThisResponseCouldNotIdentifyThePollToWhichItBelongsSoYouAreEitherTryingToEnterANonExistentAnswerNumberOrSomethingWentWrongOnTheWeb";
-    public const string YourVoteForTheAnswerWasNotFoundInThisPoll = "YourVoteForTheAnswerWasNotFoundInThisPoll";
-    public const string YouCanNowVoteAgain = "YouCanNowVoteAgain";
-    public const string EitherTheResponseWithThisIDDidNotExistOrDidNotBelongToTheLoggedInUserOrBoth =
+    internal const string YourVoteForTheAnswerWasNotFoundInThisPoll = "YourVoteForTheAnswerWasNotFoundInThisPoll";
+    internal const string YouCanNowVoteAgain = "YouCanNowVoteAgain";
+    internal const string EitherTheResponseWithThisIDDidNotExistOrDidNotBelongToTheLoggedInUserOrBoth =
     "EitherTheResponseWithThisIDDidNotExistOrDidNotBelongToTheLoggedInUserOrBoth";
-    public const string errorTheSeriesWasNotInTheCorrectRange = "errorTheSeriesWasNotInTheCorrectRange";
-    public const string errorPage = "errorPage";
-    public const string errorDomainWithID = "errorDomainWithID";
-    public const string TotalRemoved = "TotalRemoved";
-    public const string TheSentUserIDIsNotFromAnAdministrator = "TheSentUserIDIsNotFromAnAdministrator";
-    public const string errorerrorYouWereNotLoggedInIn = "errorerrorYouWereNotLoggedInIn";
-    public const string errorTheDeleteMechanismWasNotImplementedForThisSite =
+    internal const string errorTheSeriesWasNotInTheCorrectRange = "errorTheSeriesWasNotInTheCorrectRange";
+    internal const string errorPage = "errorPage";
+    internal const string errorDomainWithID = "errorDomainWithID";
+    internal const string TotalRemoved = "TotalRemoved";
+    internal const string TheSentUserIDIsNotFromAnAdministrator = "TheSentUserIDIsNotFromAnAdministrator";
+    internal const string errorerrorYouWereNotLoggedInIn = "errorerrorYouWereNotLoggedInIn";
+    internal const string errorTheDeleteMechanismWasNotImplementedForThisSite =
     "errorTheDeleteMechanismWasNotImplementedForThisSite";
-    public const string errorCommentWithThisIDWasNotFoundInTheDatabase =
+    internal const string errorCommentWithThisIDWasNotFoundInTheDatabase =
     "errorCommentWithThisIDWasNotFoundInTheDatabase";
-    public const string ThisCommentDidNotBelongToYouNorAreYouTheAdminOfTheSiteToWhichThisCommentWasPosted =
+    internal const string ThisCommentDidNotBelongToYouNorAreYouTheAdminOfTheSiteToWhichThisCommentWasPosted =
     "ThisCommentDidNotBelongToYouNorAreYouTheAdminOfTheSiteToWhichThisCommentWasPosted";
-    public const string errorFailedToGetIDUserOfDomain = "errorFailedToGetIDUserOfDomain";
-    public const string errorFailedToGetDomainOfAllowedPage = "errorFailedToGetDomainOfAllowedPage";
-    public const string errorCommentHasAlreadyBeenDeletedByUserOrAdmin =
+    internal const string errorFailedToGetIDUserOfDomain = "errorFailedToGetIDUserOfDomain";
+    internal const string errorFailedToGetDomainOfAllowedPage = "errorFailedToGetDomainOfAllowedPage";
+    internal const string errorCommentHasAlreadyBeenDeletedByUserOrAdmin =
     "errorCommentHasAlreadyBeenDeletedByUserOrAdmin";
-    public const string NoCommentFound = "NoCommentFound";
-    public const string errorMssNebylWid = "errorMssNebylWid";
-    public const string errorDomainWasFoundButNotWithThisPage = "errorDomainWasFoundButNotWithThisPage";
-    public const string errorSuchADomainWasNotFoundInTheDatabase = "errorSuchADomainWasNotFoundInTheDatabase";
-    public const string errorCommentReturnCodeWasNotImplementedForThisSite =
+    internal const string NoCommentFound = "NoCommentFound";
+    internal const string errorMssNebylWid = "errorMssNebylWid";
+    internal const string errorDomainWasFoundButNotWithThisPage = "errorDomainWasFoundButNotWithThisPage";
+    internal const string errorSuchADomainWasNotFoundInTheDatabase = "errorSuchADomainWasNotFoundInTheDatabase";
+    internal const string errorCommentReturnCodeWasNotImplementedForThisSite =
     "errorCommentReturnCodeWasNotImplementedForThisSite";
-    public const string ThereWereNotEnoughResultsToDisplayThePage = "ThereWereNotEnoughResultsToDisplayThePage";
-    public const string AnswersMayBeAdded = "AnswersMayBeAdded";
-    public const string DatumExpirace = "DatumExpirace";
-    public const string NumberOfVotes = "NumberOfVotes";
-    public const string NumberOfResponses = "NumberOfResponses";
-    public const string Never = "Never";
-    public const string UnimplementedSortingMethod = "UnimplementedSortingMethod";
-    public const string errorBadSeries = "errorBadSeries";
-    public const string errorThisCommentDidNotBelongToYou = "errorThisCommentDidNotBelongToYou";
-    public const string errorYouAreTryingToDeleteAResponseThatBelongsToAPollThatDoesNotBelongToYou =
+    internal const string ThereWereNotEnoughResultsToDisplayThePage = "ThereWereNotEnoughResultsToDisplayThePage";
+    internal const string AnswersMayBeAdded = "AnswersMayBeAdded";
+    internal const string DatumExpirace = "DatumExpirace";
+    internal const string NumberOfVotes = "NumberOfVotes";
+    internal const string NumberOfResponses = "NumberOfResponses";
+    internal const string Never = "Never";
+    internal const string UnimplementedSortingMethod = "UnimplementedSortingMethod";
+    internal const string errorBadSeries = "errorBadSeries";
+    internal const string errorThisCommentDidNotBelongToYou = "errorThisCommentDidNotBelongToYou";
+    internal const string errorYouAreTryingToDeleteAResponseThatBelongsToAPollThatDoesNotBelongToYou =
     "errorYouAreTryingToDeleteAResponseThatBelongsToAPollThatDoesNotBelongToYou";
-    public const string CouldNotDeleteAnyFilesPleaseTryAgainLater = "CouldNotDeleteAnyFilesPleaseTryAgainLater";
-    public const string OnlySomeImagesWereDeletedPleaseTryAgainLater = "OnlySomeImagesWereDeletedPleaseTryAgainLater";
-    public const string AllRequestedFilesWereSuccessfullyDeleted = "AllRequestedFilesWereSuccessfullyDeleted";
-    public const string YouAreAlsoTryingToDeleteImagesFromAnotherComment =
+    internal const string CouldNotDeleteAnyFilesPleaseTryAgainLater = "CouldNotDeleteAnyFilesPleaseTryAgainLater";
+    internal const string OnlySomeImagesWereDeletedPleaseTryAgainLater = "OnlySomeImagesWereDeletedPleaseTryAgainLater";
+    internal const string AllRequestedFilesWereSuccessfullyDeleted = "AllRequestedFilesWereSuccessfullyDeleted";
+    internal const string YouAreAlsoTryingToDeleteImagesFromAnotherComment =
     "YouAreAlsoTryingToDeleteImagesFromAnotherComment";
-    public const string
+    internal const string
     errorYouCannotDeleteImageserrorYouHaveBeenBlockedByIPAddressOrNickYouCannotPerformTheRequestedOperationByTheOwnerOfThisSite =
     "errorYouCannotDeleteImageserrorYouHaveBeenBlockedByIPAddressOrNickYouCannotPerformTheRequestedOperationByTheOwnerOfThisSite";
-    public const string FailedToGetPollIDToWhichYouWantToaddResponse = "FailedToGetPollIDToWhichYouWantToaddResponse";
-    public const string YouCannotCreateANewAnswerHereBecauseThePollHasExpired =
+    internal const string FailedToGetPollIDToWhichYouWantToaddResponse = "FailedToGetPollIDToWhichYouWantToaddResponse";
+    internal const string YouCannotCreateANewAnswerHereBecauseThePollHasExpired =
     "YouCannotCreateANewAnswerHereBecauseThePollHasExpired";
-    public const string YouCannotaddCustomItemToThisPoll = "YouCannotaddCustomItemToThisPoll";
-    public const string FailedToGetNewResponseTextInPoll = "FailedToGetNewResponseTextInPoll";
-    public const string Answer = "Answer";
-    public const string UnfortunatelyYouHaveAlreadyAddedYourOwnVoiceToThisPoll =
+    internal const string YouCannotaddCustomItemToThisPoll = "YouCannotaddCustomItemToThisPoll";
+    internal const string FailedToGetNewResponseTextInPoll = "FailedToGetNewResponseTextInPoll";
+    internal const string Answer = "Answer";
+    internal const string UnfortunatelyYouHaveAlreadyAddedYourOwnVoiceToThisPoll =
     "UnfortunatelyYouHaveAlreadyAddedYourOwnVoiceToThisPoll";
-    public const string TheQuestionYouAreTryingToEditDoesNotExist = "TheQuestionYouAreTryingToEditDoesNotExist";
-    public const string TheQuestionYouAreTryingToEditBelongsToAPollThatDoesNotBelongToYou =
+    internal const string TheQuestionYouAreTryingToEditDoesNotExist = "TheQuestionYouAreTryingToEditDoesNotExist";
+    internal const string TheQuestionYouAreTryingToEditBelongsToAPollThatDoesNotBelongToYou =
     "TheQuestionYouAreTryingToEditBelongsToAPollThatDoesNotBelongToYou";
-    public const string UnimplementedBranchInAsxhWidBlockOrUnblockByNickHandler =
+    internal const string UnimplementedBranchInAsxhWidBlockOrUnblockByNickHandler =
     "UnimplementedBranchInAsxhWidBlockOrUnblockByNickHandler";
-    public const string errorFailedToGetTheUserSIPFromTheSpecifiedComment =
+    internal const string errorFailedToGetTheUserSIPFromTheSpecifiedComment =
     "errorFailedToGetTheUserSIPFromTheSpecifiedComment";
-    public const string errorTheDomainYouAreAboutToBlockFromIsNotYours =
+    internal const string errorTheDomainYouAreAboutToBlockFromIsNotYours =
     "errorTheDomainYouAreAboutToBlockFromIsNotYours";
-    public const string errorFailedToGetUsersFromTheSpecifiedComment = "errorFailedToGetUsersFromTheSpecifiedComment";
-    public const string ThisColorWasNotFoundInDB = "ThisColorWasNotFoundInDB";
-    public const string errorYouAreTryingToaddNewAnswerToAPollThatIsNotYours =
+    internal const string errorFailedToGetUsersFromTheSpecifiedComment = "errorFailedToGetUsersFromTheSpecifiedComment";
+    internal const string ThisColorWasNotFoundInDB = "ThisColorWasNotFoundInDB";
+    internal const string errorYouAreTryingToaddNewAnswerToAPollThatIsNotYours =
     "errorYouAreTryingToaddNewAnswerToAPollThatIsNotYours";
-    public const string errorAnswer = "errorAnswer";
-    public const string errorWrongSecretCodeToUserNumberSignInAgain = "errorWrongSecretCodeToUserNumberSignInAgain";
-    public const string errorWrongCodeToUserNumber = "errorWrongCodeToUserNumber";
-    public const string errorYouAreNotAllowedToPostCommentsOnThisPage = "errorYouAreNotAllowedToPostCommentsOnThisPage";
-    public const string errorTheSiteAdministratorHasDisabledAddingNewCommentsFromYourIPAddress =
+    internal const string errorAnswer = "errorAnswer";
+    internal const string errorWrongSecretCodeToUserNumberSignInAgain = "errorWrongSecretCodeToUserNumberSignInAgain";
+    internal const string errorWrongCodeToUserNumber = "errorWrongCodeToUserNumber";
+    internal const string errorYouAreNotAllowedToPostCommentsOnThisPage = "errorYouAreNotAllowedToPostCommentsOnThisPage";
+    internal const string errorTheSiteAdministratorHasDisabledAddingNewCommentsFromYourIPAddress =
     "errorTheSiteAdministratorHasDisabledAddingNewCommentsFromYourIPAddress";
-    public const string errorTheSiteAdministratorHasDisabledAddingNewCommentsForYourAccount =
+    internal const string errorTheSiteAdministratorHasDisabledAddingNewCommentsForYourAccount =
     "errorTheSiteAdministratorHasDisabledAddingNewCommentsForYourAccount";
-    public const string errorTheSeriesWasNotInTheRange = "errorTheSeriesWasNotInTheRange";
-    public const string errorTheDomainWasNotInTheDatabase = "errorTheDomainWasNotInTheDatabase";
-    public const string DomainWasInDatabaseButNotVerified = "DomainWasInDatabaseButNotVerified";
-    public const string errorSuchADomainWasNotFound = "errorSuchADomainWasNotFound";
-    public const string errorCommentsHaveNotBeenEnabledForThisPage = "errorCommentsHaveNotBeenEnabledForThisPage";
-    public const string errorYouAreProhibitedFromPostingCommentsOnThisSite =
+    internal const string errorTheSeriesWasNotInTheRange = "errorTheSeriesWasNotInTheRange";
+    internal const string errorTheDomainWasNotInTheDatabase = "errorTheDomainWasNotInTheDatabase";
+    internal const string DomainWasInDatabaseButNotVerified = "DomainWasInDatabaseButNotVerified";
+    internal const string errorSuchADomainWasNotFound = "errorSuchADomainWasNotFound";
+    internal const string errorCommentsHaveNotBeenEnabledForThisPage = "errorCommentsHaveNotBeenEnabledForThisPage";
+    internal const string errorYouAreProhibitedFromPostingCommentsOnThisSite =
     "errorYouAreProhibitedFromPostingCommentsOnThisSite";
-    public const string errorTheTextCannotContainHtmlTags = "errorTheTextCannotContainHtmlTags";
-    public const string errorTheNumberOfOpeningAndClosingBracketsOfTheHtmlTagsDidNotMatch =
+    internal const string errorTheTextCannotContainHtmlTags = "errorTheTextCannotContainHtmlTags";
+    internal const string errorTheNumberOfOpeningAndClosingBracketsOfTheHtmlTagsDidNotMatch =
     "errorTheNumberOfOpeningAndClosingBracketsOfTheHtmlTagsDidNotMatch";
-    public const string errorThePageWithThisIDWasNotFoundInTheDatabase =
+    internal const string errorThePageWithThisIDWasNotFoundInTheDatabase =
     "errorThePageWithThisIDWasNotFoundInTheDatabase";
-    public const string errorTheRequestedPageHasBeenDisabledForAddingMoreComments =
+    internal const string errorTheRequestedPageHasBeenDisabledForAddingMoreComments =
     "errorTheRequestedPageHasBeenDisabledForAddingMoreComments";
-    public const string errorItHasBeenDisabledToAddCommentsFromYourIPAddress =
+    internal const string errorItHasBeenDisabledToAddCommentsFromYourIPAddress =
     "errorItHasBeenDisabledToAddCommentsFromYourIPAddress";
-    public const string ThisSiteSAdministratorHasDisabledCommentsForYourAccount =
+    internal const string ThisSiteSAdministratorHasDisabledCommentsForYourAccount =
     "ThisSiteSAdministratorHasDisabledCommentsForYourAccount";
-    public const string addNewPage = "addNewPage";
-    public const string addNewDiscussion = "addNewDiscussion";
-    public const string Diskuse = "Diskuse";
-    public const string Domain = "Domain";
-    public const string ReportSpammer = "ReportSpammer";
-    public const string NewDomain = "NewDomain";
-    public const string PageIndexCannotBeNegative = "PageIndexCannotBeNegative";
-    public const string warningTheCategoryWasNotFound = "warningTheCategoryWasNotFound";
-    public const string warningTheCategoryNameWasTooLong = "warningTheCategoryNameWasTooLong";
-    public const string errorTheSpecifiedIdProductTypeWasNotFoundInTheDB =
+    internal const string addNewPage = "addNewPage";
+    internal const string addNewDiscussion = "addNewDiscussion";
+    internal const string Diskuse = "Diskuse";
+    internal const string Domain = "Domain";
+    internal const string ReportSpammer = "ReportSpammer";
+    internal const string NewDomain = "NewDomain";
+    internal const string PageIndexCannotBeNegative = "PageIndexCannotBeNegative";
+    internal const string warningTheCategoryWasNotFound = "warningTheCategoryWasNotFound";
+    internal const string warningTheCategoryNameWasTooLong = "warningTheCategoryNameWasTooLong";
+    internal const string errorTheSpecifiedIdProductTypeWasNotFoundInTheDB =
     "errorTheSpecifiedIdProductTypeWasNotFoundInTheDB";
-    public const string warningCategoryDidNotExistOrWasShortMaxValue = "warningCategoryDidNotExistOrWasShortMaxValue";
-    public const string Content = "Content";
-    public const string NoImagesSelected = "NoImagesSelected";
-    public const string String = "String";
-    public const string YouCouldNotAuthenticateForPhotoID = "YouCouldNotAuthenticateForPhotoID";
-    public const string IfAnyImagesWereCorrectTheyWereDiscarded = "IfAnyImagesWereCorrectTheyWereDiscarded";
-    public const string PhotoID = "PhotoID";
-    public const string ThisStringWasNotAnIntegerNumber = "ThisStringWasNotAnIntegerNumber";
-    public const string AnAlbumCannotHaveTheFollowingNamesIntegerNumberNumberOr =
+    internal const string warningCategoryDidNotExistOrWasShortMaxValue = "warningCategoryDidNotExistOrWasShortMaxValue";
+    internal const string Content = "Content";
+    internal const string NoImagesSelected = "NoImagesSelected";
+    internal const string String = "String";
+    internal const string YouCouldNotAuthenticateForPhotoID = "YouCouldNotAuthenticateForPhotoID";
+    internal const string IfAnyImagesWereCorrectTheyWereDiscarded = "IfAnyImagesWereCorrectTheyWereDiscarded";
+    internal const string PhotoID = "PhotoID";
+    internal const string ThisStringWasNotAnIntegerNumber = "ThisStringWasNotAnIntegerNumber";
+    internal const string AnAlbumCannotHaveTheFollowingNamesIntegerNumberNumberOr =
     "AnAlbumCannotHaveTheFollowingNamesIntegerNumberNumberOr";
-    public const string TheAlbumDidNotBelongToTheLoggedInUser = "TheAlbumDidNotBelongToTheLoggedInUser";
-    public const string FailedToAuthenticateAlbumNotRenamed = "FailedToAuthenticateAlbumNotRenamed";
-    public const string AdExpireDESC = "AdExpireDESC";
-    public const string Donation = "Donation";
-    public const string AnUnimplementedBranchInBtnSignSeServerClick = "AnUnimplementedBranchInBtnSignSeServerClick";
-    public const string HelloWorld = "HelloWorld";
-    public const string errorTheCommentYouEnteredCouldNotBeFoundInTheDatabase =
+    internal const string TheAlbumDidNotBelongToTheLoggedInUser = "TheAlbumDidNotBelongToTheLoggedInUser";
+    internal const string FailedToAuthenticateAlbumNotRenamed = "FailedToAuthenticateAlbumNotRenamed";
+    internal const string AdExpireDESC = "AdExpireDESC";
+    internal const string Donation = "Donation";
+    internal const string AnUnimplementedBranchInBtnSignSeServerClick = "AnUnimplementedBranchInBtnSignSeServerClick";
+    internal const string HelloWorld = "HelloWorld";
+    internal const string errorTheCommentYouEnteredCouldNotBeFoundInTheDatabase =
     "errorTheCommentYouEnteredCouldNotBeFoundInTheDatabase";
-    public const string errorTheMssParameterWasNotAValidEnumValue = "errorTheMssParameterWasNotAValidEnumValue";
-    public const string TheSiteCouldNotRecognizeTheDateFormat = "TheSiteCouldNotRecognizeTheDateFormat";
-    public const string Add = "Add";
-    public const string Update = "Update";
-    public const string errorYouWereNotLoggedInAsAdmin = "errorYouWereNotLoggedInAsAdmin";
-    public const string errorScWasNotTheCorrectCharacters = "errorScWasNotTheCorrectCharacters";
-    public const string errorFailedToGetTheDictionaryFromLayer = "errorFailedToGetTheDictionaryFromLayer";
-    public const string successTabulka = "successTabulka";
-    public const string NotAllNecessaryParametersWerePassed = "NotAllNecessaryParametersWerePassed";
-    public const string AllTaggedBlogpostsHaveBeenUnmarkedAsDraftUnpublished =
+    internal const string errorTheMssParameterWasNotAValidEnumValue = "errorTheMssParameterWasNotAValidEnumValue";
+    internal const string TheSiteCouldNotRecognizeTheDateFormat = "TheSiteCouldNotRecognizeTheDateFormat";
+    internal const string Add = "Add";
+    internal const string Update = "Update";
+    internal const string errorYouWereNotLoggedInAsAdmin = "errorYouWereNotLoggedInAsAdmin";
+    internal const string errorScWasNotTheCorrectCharacters = "errorScWasNotTheCorrectCharacters";
+    internal const string errorFailedToGetTheDictionaryFromLayer = "errorFailedToGetTheDictionaryFromLayer";
+    internal const string successTabulka = "successTabulka";
+    internal const string NotAllNecessaryParametersWerePassed = "NotAllNecessaryParametersWerePassed";
+    internal const string AllTaggedBlogpostsHaveBeenUnmarkedAsDraftUnpublished =
     "AllTaggedBlogpostsHaveBeenUnmarkedAsDraftUnpublished";
-    public const string AnEmptyBlogpostListHasBeenSubmittedForPublication =
+    internal const string AnEmptyBlogpostListHasBeenSubmittedForPublication =
     "AnEmptyBlogpostListHasBeenSubmittedForPublication";
-    public const string Edit = "Edit";
-    public const string DateOfChange = "DateOfChange";
-    public const string Draft = "Draft";
-    public const string UnableToGetAllParameterNames = "UnableToGetAllParameterNames";
-    public const string YouCouldNotAuthenticateApparentlyABadCookiePleaseTryLoggingOutAndLoggingIn =
+    internal const string Edit = "Edit";
+    internal const string DateOfChange = "DateOfChange";
+    internal const string Draft = "Draft";
+    internal const string UnableToGetAllParameterNames = "UnableToGetAllParameterNames";
+    internal const string YouCouldNotAuthenticateApparentlyABadCookiePleaseTryLoggingOutAndLoggingIn =
     "YouCouldNotAuthenticateApparentlyABadCookiePleaseTryLoggingOutAndLoggingIn";
-    public const string becauseItWasnTYours = "becauseItWasnTYours";
-    public const string TheSiteCouldNotMoveThePostIDToTheDraft = "TheSiteCouldNotMoveThePostIDToTheDraft";
-    public const string TheSiteDidNotReceiveWhatToMoveToDraft = "TheSiteDidNotReceiveWhatToMoveToDraft";
-    public const string AllTaggedBlogPostsHaveBeenMarkedAsDraftUnpublished =
+    internal const string becauseItWasnTYours = "becauseItWasnTYours";
+    internal const string TheSiteCouldNotMoveThePostIDToTheDraft = "TheSiteCouldNotMoveThePostIDToTheDraft";
+    internal const string TheSiteDidNotReceiveWhatToMoveToDraft = "TheSiteDidNotReceiveWhatToMoveToDraft";
+    internal const string AllTaggedBlogPostsHaveBeenMarkedAsDraftUnpublished =
     "AllTaggedBlogPostsHaveBeenMarkedAsDraftUnpublished";
-    public const string BlogpostSID = "BlogpostSID";
-    public const string NotAllRequiredParametersWerePassed = "NotAllRequiredParametersWerePassed";
-    public const string AllDeletedItemsHaveBeenDeleted = "AllDeletedItemsHaveBeenDeleted";
-    public const string AUserWithThisIDWasNotFoundInTheDatabase = "AUserWithThisIDWasNotFoundInTheDatabase";
-    public const string errorSecretCodeLengthWasNot = "errorSecretCodeLengthWasNot";
-    public const string UnsupportedSiteForGivingThumbsUpForComments = "UnsupportedSiteForGivingThumbsUpForComments";
-    public const string UnsupportedCommentingSite = "UnsupportedCommentingSite";
-    public const string YouCannotPostNewCommentsBecauseYouAreBanned = "YouCannotPostNewCommentsBecauseYouAreBanned";
-    public const string CommentTextCannotBeEmpty = "CommentTextCannotBeEmpty";
-    public const string ThePageDidNotExistInTheDatabase = "ThePageDidNotExistInTheDatabase";
-    public const string SuchAPageWasNotFoundInTheDatabaseAndThereforeNoCommentsCouldBeGeneratedForIt =
+    internal const string BlogpostSID = "BlogpostSID";
+    internal const string NotAllRequiredParametersWerePassed = "NotAllRequiredParametersWerePassed";
+    internal const string AllDeletedItemsHaveBeenDeleted = "AllDeletedItemsHaveBeenDeleted";
+    internal const string AUserWithThisIDWasNotFoundInTheDatabase = "AUserWithThisIDWasNotFoundInTheDatabase";
+    internal const string errorSecretCodeLengthWasNot = "errorSecretCodeLengthWasNot";
+    internal const string UnsupportedSiteForGivingThumbsUpForComments = "UnsupportedSiteForGivingThumbsUpForComments";
+    internal const string UnsupportedCommentingSite = "UnsupportedCommentingSite";
+    internal const string YouCannotPostNewCommentsBecauseYouAreBanned = "YouCannotPostNewCommentsBecauseYouAreBanned";
+    internal const string CommentTextCannotBeEmpty = "CommentTextCannotBeEmpty";
+    internal const string ThePageDidNotExistInTheDatabase = "ThePageDidNotExistInTheDatabase";
+    internal const string SuchAPageWasNotFoundInTheDatabaseAndThereforeNoCommentsCouldBeGeneratedForIt =
     "SuchAPageWasNotFoundInTheDatabaseAndThereforeNoCommentsCouldBeGeneratedForIt";
-    public const string RecommendedUseful = "RecommendedUseful";
-    public const string errorSuchUserCouldNotBeFound = "errorSuchUserCouldNotBeFound";
-    public const string imgLyricsCds = "imgLyricsCds";
-    public const string errorLoginNameAndPasswordDidNotMatch = "errorLoginNameAndPasswordDidNotMatch";
-    public const string StateIDNotFound = "StateIDNotFound";
-    public const string StateIDWasFoundButRegionIDWasNotFound = "StateIDWasFoundButRegionIDWasNotFound";
-    public const string errorSiteIDWasNope = "errorSiteIDWasNope";
-    public const string errorThisPageGatewayWithoutQsCouldNotBeFound = "errorThisPageGatewayWithoutQsCouldNotBeFound";
-    public const string errorTable = "errorTable";
-    public const string ChangeOfEmail = "ChangeOfEmail";
-    public const string DartProgramy = "DartProgramy";
-    public const string TheLoginSystemIsDown = "TheLoginSystemIsDown";
-    public const string PasswordReset = "PasswordReset";
-    public const string ActivateUserAccount = "ActivateUserAccount";
-    public const string errorTheScSentDidNotContainCharacters = "errorTheScSentDidNotContainCharacters";
-    public const string errorScDisagreed = "errorScDisagreed";
-    public const string TheServerUploadServiceCanOnlyBeUsedByAdminDueToLimitedHostingSpace =
+    internal const string RecommendedUseful = "RecommendedUseful";
+    internal const string errorSuchUserCouldNotBeFound = "errorSuchUserCouldNotBeFound";
+    internal const string imgLyricsCds = "imgLyricsCds";
+    internal const string errorLoginNameAndPasswordDidNotMatch = "errorLoginNameAndPasswordDidNotMatch";
+    internal const string StateIDNotFound = "StateIDNotFound";
+    internal const string StateIDWasFoundButRegionIDWasNotFound = "StateIDWasFoundButRegionIDWasNotFound";
+    internal const string errorSiteIDWasNope = "errorSiteIDWasNope";
+    internal const string errorThisPageGatewayWithoutQsCouldNotBeFound = "errorThisPageGatewayWithoutQsCouldNotBeFound";
+    internal const string errorTable = "errorTable";
+    internal const string ChangeOfEmail = "ChangeOfEmail";
+    internal const string DartProgramy = "DartProgramy";
+    internal const string TheLoginSystemIsDown = "TheLoginSystemIsDown";
+    internal const string PasswordReset = "PasswordReset";
+    internal const string ActivateUserAccount = "ActivateUserAccount";
+    internal const string errorTheScSentDidNotContainCharacters = "errorTheScSentDidNotContainCharacters";
+    internal const string errorScDisagreed = "errorScDisagreed";
+    internal const string TheServerUploadServiceCanOnlyBeUsedByAdminDueToLimitedHostingSpace =
     "TheServerUploadServiceCanOnlyBeUsedByAdminDueToLimitedHostingSpace";
-    public const string UserGallery = "UserGallery";
-    public const string Default = "Default";
-    public const string Path = "Path";
-    public const string Shared = "Shared";
-    public const string TheNumberOfPageViews = "TheNumberOfPageViews";
-    public const string UnimplementedBranchInSwitch = "UnimplementedBranchInSwitch";
-    public const string forMoreInformation = "forMoreInformation";
-    public const string Changelog = "Changelog";
-    public const string EMail = "EMail";
-    public const string TheTagWasFoundInUriButNoLongerInTheDatabase = "TheTagWasFoundInUriButNoLongerInTheDatabase";
-    public const string NoArtistFound = "NoArtistFound";
-    public const string NoArtistsFoundWithThisTag = "NoArtistsFoundWithThisTag";
-    public const string ArtistsWithTag = "ArtistsWithTag";
-    public const string AllTranslationsOfThisSongWereDeletedOrNeverExisted =
+    internal const string UserGallery = "UserGallery";
+    internal const string Default = "Default";
+    internal const string Path = "Path";
+    internal const string Shared = "Shared";
+    internal const string TheNumberOfPageViews = "TheNumberOfPageViews";
+    internal const string UnimplementedBranchInSwitch = "UnimplementedBranchInSwitch";
+    internal const string forMoreInformation = "forMoreInformation";
+    internal const string Changelog = "Changelog";
+    internal const string EMail = "EMail";
+    internal const string TheTagWasFoundInUriButNoLongerInTheDatabase = "TheTagWasFoundInUriButNoLongerInTheDatabase";
+    internal const string NoArtistFound = "NoArtistFound";
+    internal const string NoArtistsFoundWithThisTag = "NoArtistsFoundWithThisTag";
+    internal const string ArtistsWithTag = "ArtistsWithTag";
+    internal const string AllTranslationsOfThisSongWereDeletedOrNeverExisted =
     "AllTranslationsOfThisSongWereDeletedOrNeverExisted";
-    public const string Edited = "Edited";
-    public const string NotFoundInLyricsOfThisSongShowsTheSongWithTheHighestRating =
+    internal const string Edited = "Edited";
+    internal const string NotFoundInLyricsOfThisSongShowsTheSongWithTheHighestRating =
     "NotFoundInLyricsOfThisSongShowsTheSongWithTheHighestRating";
-    public const string SpecifiedUser = "SpecifiedUser";
-    public const string
+    internal const string SpecifiedUser = "SpecifiedUser";
+    internal const string
     IfTheSongIsOnlyInstrumentalIgnoreThisMessageTheWebsiteDoesNotDistinguishBetweenForeignCzechAndInstrumentalSongs =
     "IfTheSongIsOnlyInstrumentalIgnoreThisMessageTheWebsiteDoesNotDistinguishBetweenForeignCzechAndInstrumentalSongs";
-    public const string AllOriginalTextsHaveBeenDeleted = "AllOriginalTextsHaveBeenDeleted";
-    public const string AddTextHere = "AddTextHere";
-    public const string AddNewYTVideo = "AddNewYTVideo";
-    public const string TheRequestedSongWasFoundButNoUserWasFoundAmongTheTranslatedLyrics =
+    internal const string AllOriginalTextsHaveBeenDeleted = "AllOriginalTextsHaveBeenDeleted";
+    internal const string AddTextHere = "AddTextHere";
+    internal const string AddNewYTVideo = "AddNewYTVideo";
+    internal const string TheRequestedSongWasFoundButNoUserWasFoundAmongTheTranslatedLyrics =
     "TheRequestedSongWasFoundButNoUserWasFoundAmongTheTranslatedLyrics";
-    public const string TheRequestedSongWasFoundButNoUserWasFoundAmongTheOriginalSongLyrics =
+    internal const string TheRequestedSongWasFoundButNoUserWasFoundAmongTheOriginalSongLyrics =
     "TheRequestedSongWasFoundButNoUserWasFoundAmongTheOriginalSongLyrics";
-    public const string notFoundInDatabase = "notFoundInDatabase";
-    public const string DesiredSong = "DesiredSong";
-    public const string CurrentlyDisplayed = "CurrentlyDisplayed";
-    public const string Manage = "Manage";
-    public const string SorryWeDonTHaveTheSongTextNumberHere = "SorryWeDonTHaveTheSongTextNumberHere";
-    public const string WrongLinkMissingQueryParameterSong = "WrongLinkMissingQueryParameterSong";
-    public const string MissingSearchTerm = "MissingSearchTerm";
-    public const string TranslatedText = "TranslatedText";
-    public const string OriginalText = "OriginalText";
-    public const string FoundWords = "FoundWords";
-    public const string Search = "Search";
-    public const string Term = "Term";
-    public const string ResultsFound = "ResultsFound";
-    public const string FailedToDetermineUserNameFromUriUserDoesNotAppearToExist =
+    internal const string notFoundInDatabase = "notFoundInDatabase";
+    internal const string DesiredSong = "DesiredSong";
+    internal const string CurrentlyDisplayed = "CurrentlyDisplayed";
+    internal const string Manage = "Manage";
+    internal const string SorryWeDonTHaveTheSongTextNumberHere = "SorryWeDonTHaveTheSongTextNumberHere";
+    internal const string WrongLinkMissingQueryParameterSong = "WrongLinkMissingQueryParameterSong";
+    internal const string MissingSearchTerm = "MissingSearchTerm";
+    internal const string TranslatedText = "TranslatedText";
+    internal const string OriginalText = "OriginalText";
+    internal const string FoundWords = "FoundWords";
+    internal const string Search = "Search";
+    internal const string Term = "Term";
+    internal const string ResultsFound = "ResultsFound";
+    internal const string FailedToDetermineUserNameFromUriUserDoesNotAppearToExist =
     "FailedToDetermineUserNameFromUriUserDoesNotAppearToExist";
-    public const string SomeOfTheFavoriteSongTranslations = "SomeOfTheFavoriteSongTranslations";
-    public const string SomeOfFavoriteLyrics = "SomeOfFavoriteLyrics";
-    public const string ItemsAdded = "ItemsAdded";
-    public const string UserProfile = "UserProfile";
-    public const string ManageYouTubeVideo = "ManageYouTubeVideo";
-    public const string YTVideoWasAlreadyInTheDatabase = "YTVideoWasAlreadyInTheDatabase";
-    public const string TheVideoYTCodeWasNotFoundInOurDBAndWasNotANewCodeInsertion =
+    internal const string SomeOfTheFavoriteSongTranslations = "SomeOfTheFavoriteSongTranslations";
+    internal const string SomeOfFavoriteLyrics = "SomeOfFavoriteLyrics";
+    internal const string ItemsAdded = "ItemsAdded";
+    internal const string UserProfile = "UserProfile";
+    internal const string ManageYouTubeVideo = "ManageYouTubeVideo";
+    internal const string YTVideoWasAlreadyInTheDatabase = "YTVideoWasAlreadyInTheDatabase";
+    internal const string TheVideoYTCodeWasNotFoundInOurDBAndWasNotANewCodeInsertion =
     "TheVideoYTCodeWasNotFoundInOurDBAndWasNotANewCodeInsertion";
-    public const string SuchASongWasNotFoundInTheDatabase = "SuchASongWasNotFoundInTheDatabase";
-    public const string
+    internal const string SuchASongWasNotFoundInTheDatabase = "SuchASongWasNotFoundInTheDatabase";
+    internal const string
     ThereSNothingForYouYouDonTWantToaddNewYTVideoOrEditAnExistingOneItIsAlsoPossibleThatTheVideoDoesNotBelongToYou =
     "ThereSNothingForYouYouDonTWantToaddNewYTVideoOrEditAnExistingOneItIsAlsoPossibleThatTheVideoDoesNotBelongToYou";
-    public const string errorYouWereNotLoggedInInYouCannotEditYTVideo = "errorYouWereNotLoggedInInYouCannotEditYTVideo";
-    public const string fromThePage = "fromThePage";
-    public const string YouManageAnExistingYTVideo = "YouManageAnExistingYTVideo";
-    public const string YouHaveAlreadyAddedYourVideoToThisVideoIfYouWantToAddNewOnesYouMustFirstDeleteThePreviousOne =
+    internal const string errorYouWereNotLoggedInInYouCannotEditYTVideo = "errorYouWereNotLoggedInInYouCannotEditYTVideo";
+    internal const string fromThePage = "fromThePage";
+    internal const string YouManageAnExistingYTVideo = "YouManageAnExistingYTVideo";
+    internal const string YouHaveAlreadyAddedYourVideoToThisVideoIfYouWantToAddNewOnesYouMustFirstDeleteThePreviousOne =
     "YouHaveAlreadyAddedYourVideoToThisVideoIfYouWantToAddNewOnesYouMustFirstDeleteThePreviousOne";
-    public const string YouAreAddingANewYTVideoToTheSong = "YouAreAddingANewYTVideoToTheSong";
-    public const string EditTheOriginal = "EditTheOriginal";
-    public const string TranslationEditing = "TranslationEditing";
-    public const string ManageSongLyrics = "ManageSongLyrics";
-    public const string TheLyricsWereEmpty = "TheLyricsWereEmpty";
-    public const string TheSpecifiedSongWasNotFoundInTheDatabase = "TheSpecifiedSongWasNotFoundInTheDatabase";
-    public const string TheTypeArgumentWasIncorrect = "TheTypeArgumentWasIncorrect";
-    public const string YouAreEditingYourExistingTextTranslationIntoCzechForTheSong =
+    internal const string YouAreAddingANewYTVideoToTheSong = "YouAreAddingANewYTVideoToTheSong";
+    internal const string EditTheOriginal = "EditTheOriginal";
+    internal const string TranslationEditing = "TranslationEditing";
+    internal const string ManageSongLyrics = "ManageSongLyrics";
+    internal const string TheLyricsWereEmpty = "TheLyricsWereEmpty";
+    internal const string TheSpecifiedSongWasNotFoundInTheDatabase = "TheSpecifiedSongWasNotFoundInTheDatabase";
+    internal const string TheTypeArgumentWasIncorrect = "TheTypeArgumentWasIncorrect";
+    internal const string YouAreEditingYourExistingTextTranslationIntoCzechForTheSong =
     "YouAreEditingYourExistingTextTranslationIntoCzechForTheSong";
-    public const string YouAreEditingYourExistingSongLyrics = "YouAreEditingYourExistingSongLyrics";
-    public const string YouAreAddingANewCzechTranslationOfTheSongToTheSong =
+    internal const string YouAreEditingYourExistingSongLyrics = "YouAreEditingYourExistingSongLyrics";
+    internal const string YouAreAddingANewCzechTranslationOfTheSongToTheSong =
     "YouAreAddingANewCzechTranslationOfTheSongToTheSong";
-    public const string YouAreAddingANewSongLyricsToTheSong = "YouAreAddingANewSongLyricsToTheSong";
-    public const string NoSongsHaveBeenViewedInTheLastWeekTodaySHitsWillOnlyBeVisibleTomorrow =
+    internal const string YouAreAddingANewSongLyricsToTheSong = "YouAreAddingANewSongLyricsToTheSong";
+    internal const string NoSongsHaveBeenViewedInTheLastWeekTodaySHitsWillOnlyBeVisibleTomorrow =
     "NoSongsHaveBeenViewedInTheLastWeekTodaySHitsWillOnlyBeVisibleTomorrow";
-    public const string NickSNicknameCannotBeEmpty = "NickSNicknameCannotBeEmpty";
-    public const string WelcomeTheMostSuccessfulSongsOnThisSite = "WelcomeTheMostSuccessfulSongsOnThisSite";
-    public const string NoVideoFoundFromThisUser = "NoVideoFoundFromThisUser";
-    public const string DeleteVideo = "DeleteVideo";
-    public const string SuchAUserWasNotFoundInTheDatabase = "SuchAUserWasNotFoundInTheDatabase";
-    public const string Home = "Home";
-    public const string NoAdditionalInformationHasBeenSavedAboutTheArtist =
+    internal const string NickSNicknameCannotBeEmpty = "NickSNicknameCannotBeEmpty";
+    internal const string WelcomeTheMostSuccessfulSongsOnThisSite = "WelcomeTheMostSuccessfulSongsOnThisSite";
+    internal const string NoVideoFoundFromThisUser = "NoVideoFoundFromThisUser";
+    internal const string DeleteVideo = "DeleteVideo";
+    internal const string SuchAUserWasNotFoundInTheDatabase = "SuchAUserWasNotFoundInTheDatabase";
+    internal const string Home = "Home";
+    internal const string NoAdditionalInformationHasBeenSavedAboutTheArtist =
     "NoAdditionalInformationHasBeenSavedAboutTheArtist";
-    public const string SongsWithUs = "SongsWithUs";
-    public const string LotsOfInterestingInformationAboutTheArtist = "LotsOfInterestingInformationAboutTheArtist";
-    public const string ViewOnGoogleMaps = "ViewOnGoogleMaps";
-    public const string Place = "Place";
-    public const string WebReferences = "WebReferences";
-    public const string ItWillAlsoPerform = "ItWillAlsoPerform";
-    public const string BiggestStars = "BiggestStars";
-    public const string NoSimilarArtistWithAPhotoWasFound = "NoSimilarArtistWithAPhotoWasFound";
-    public const string NoGenresOfThisArtistWereFound = "NoGenresOfThisArtistWereFound";
-    public const string NoArtistAlbumWithPictureWasFound = "NoArtistAlbumWithPictureWasFound";
-    public const string ListenToAllSongsFrom = "ListenToAllSongsFrom";
-    public const string ListAllSongs = "ListAllSongs";
-    public const string SongsPerPage = "SongsPerPage";
-    public const string WrongURIYouVeReachedTheFirstPage = "WrongURIYouVeReachedTheFirstPage";
-    public const string TheArtistWasFoundInUriButNoLongerInTheDatabase =
+    internal const string SongsWithUs = "SongsWithUs";
+    internal const string LotsOfInterestingInformationAboutTheArtist = "LotsOfInterestingInformationAboutTheArtist";
+    internal const string ViewOnGoogleMaps = "ViewOnGoogleMaps";
+    internal const string Place = "Place";
+    internal const string WebReferences = "WebReferences";
+    internal const string ItWillAlsoPerform = "ItWillAlsoPerform";
+    internal const string BiggestStars = "BiggestStars";
+    internal const string NoSimilarArtistWithAPhotoWasFound = "NoSimilarArtistWithAPhotoWasFound";
+    internal const string NoGenresOfThisArtistWereFound = "NoGenresOfThisArtistWereFound";
+    internal const string NoArtistAlbumWithPictureWasFound = "NoArtistAlbumWithPictureWasFound";
+    internal const string ListenToAllSongsFrom = "ListenToAllSongsFrom";
+    internal const string ListAllSongs = "ListAllSongs";
+    internal const string SongsPerPage = "SongsPerPage";
+    internal const string WrongURIYouVeReachedTheFirstPage = "WrongURIYouVeReachedTheFirstPage";
+    internal const string TheArtistWasFoundInUriButNoLongerInTheDatabase =
     "TheArtistWasFoundInUriButNoLongerInTheDatabase";
-    public const string AlbumWasFoundInUriButNoLongerInTheDatabase = "AlbumWasFoundInUriButNoLongerInTheDatabase";
-    public const string NoSongFoundFromThisAlbum = "NoSongFoundFromThisAlbum";
-    public const string SongsInTheAlbum = "SongsInTheAlbum";
-    public const string NoArtistAlbumFound = "NoArtistAlbumFound";
-    public const string TheYTCodeContainedInvalidCharactersSuchAsASpace =
+    internal const string AlbumWasFoundInUriButNoLongerInTheDatabase = "AlbumWasFoundInUriButNoLongerInTheDatabase";
+    internal const string NoSongFoundFromThisAlbum = "NoSongFoundFromThisAlbum";
+    internal const string SongsInTheAlbum = "SongsInTheAlbum";
+    internal const string NoArtistAlbumFound = "NoArtistAlbumFound";
+    internal const string TheYTCodeContainedInvalidCharactersSuchAsASpace =
     "TheYTCodeContainedInvalidCharactersSuchAsASpace";
-    public const string ArtistNameCannotBeEmpty = "ArtistNameCannotBeEmpty";
-    public const string SongTitleCannotBeEmpty = "SongTitleCannotBeEmpty";
-    public const string YouMustEnterTheLyricsOfTheSongIfItIsNotAnInstrumentalSong =
+    internal const string ArtistNameCannotBeEmpty = "ArtistNameCannotBeEmpty";
+    internal const string SongTitleCannotBeEmpty = "SongTitleCannotBeEmpty";
+    internal const string YouMustEnterTheLyricsOfTheSongIfItIsNotAnInstrumentalSong =
     "YouMustEnterTheLyricsOfTheSongIfItIsNotAnInstrumentalSong";
-    public const string YouAreNotSignedInYouCannotAddNewSongs = "YouAreNotSignedInYouCannotAddNewSongs";
-    public const string AlsoAddYourFavoriteSongAndLyricsToIt = "AlsoAddYourFavoriteSongAndLyricsToIt";
-    public const string addNewSong = "addNewSong";
-    public const string HelloDarknessMyOldFriend = "HelloDarknessMyOldFriend";
-    public const string SoundOfSilence = "SoundOfSilence";
-    public const string Disturbed = "Disturbed";
-    public const string ImagesNotDownloadedBecauseArtistUriWasNotDownloadedFromTheSpotifyAPINullObjectPassed =
+    internal const string YouAreNotSignedInYouCannotAddNewSongs = "YouAreNotSignedInYouCannotAddNewSongs";
+    internal const string AlsoAddYourFavoriteSongAndLyricsToIt = "AlsoAddYourFavoriteSongAndLyricsToIt";
+    internal const string addNewSong = "addNewSong";
+    internal const string HelloDarknessMyOldFriend = "HelloDarknessMyOldFriend";
+    internal const string SoundOfSilence = "SoundOfSilence";
+    internal const string Disturbed = "Disturbed";
+    internal const string ImagesNotDownloadedBecauseArtistUriWasNotDownloadedFromTheSpotifyAPINullObjectPassed =
     "ImagesNotDownloadedBecauseArtistUriWasNotDownloadedFromTheSpotifyAPINullObjectPassed";
-    public const string ArtistImagesWereNotDownloadedBecauseOneOfTheImagesAlreadyExisted =
+    internal const string ArtistImagesWereNotDownloadedBecauseOneOfTheImagesAlreadyExisted =
     "ArtistImagesWereNotDownloadedBecauseOneOfTheImagesAlreadyExisted";
-    public const string ImagesNotDownloadedBecauseUriImageSizeSmallLargeWasNotObtained =
+    internal const string ImagesNotDownloadedBecauseUriImageSizeSmallLargeWasNotObtained =
     "ImagesNotDownloadedBecauseUriImageSizeSmallLargeWasNotObtained";
-    public const string ImagesSuccessfullyDownloadedForIDArtists = "ImagesSuccessfullyDownloadedForIDArtists";
-    public const string AlbumImages = "AlbumImages";
-    public const string Bearer = "Bearer";
-    public const string Basic = "Basic";
-    public const string Authorization = "Authorization";
-    public const string Value = "Value";
-    public const string RateSongTranslation = "RateSongTranslation";
-    public const string FeelFreeToAddYourReviewOfTheSong = "FeelFreeToAddYourReviewOfTheSong";
-    public const string RateTheSongLyrics = "RateTheSongLyrics";
-    public const string FeelFreeToAddYourReviewOfLyrics = "FeelFreeToAddYourReviewOfLyrics";
-    public const string Rating = "Rating";
-    public const string PopularLouisiananCreoleMusic = "PopularLouisiananCreoleMusic";
-    public const string GuadeloupeanMusic = "GuadeloupeanMusic";
-    public const string FrenchCaribbeanGuadeloupeDanceMusic = "FrenchCaribbeanGuadeloupeDanceMusic";
-    public const string SouthAfricanMusicBasedInBothRapRave = "SouthAfricanMusicBasedInBothRapRave";
-    public const string aFormOfSpanishOperetta = "aFormOfSpanishOperetta";
-    public const string derivedFromAncientArabicMusicZapinIsPopularThroughoutMalaysia =
+    internal const string ImagesSuccessfullyDownloadedForIDArtists = "ImagesSuccessfullyDownloadedForIDArtists";
+    internal const string AlbumImages = "AlbumImages";
+    internal const string Bearer = "Bearer";
+    internal const string Basic = "Basic";
+    internal const string Authorization = "Authorization";
+    internal const string Value = "Value";
+    internal const string RateSongTranslation = "RateSongTranslation";
+    internal const string FeelFreeToAddYourReviewOfTheSong = "FeelFreeToAddYourReviewOfTheSong";
+    internal const string RateTheSongLyrics = "RateTheSongLyrics";
+    internal const string FeelFreeToAddYourReviewOfLyrics = "FeelFreeToAddYourReviewOfLyrics";
+    internal const string Rating = "Rating";
+    internal const string PopularLouisiananCreoleMusic = "PopularLouisiananCreoleMusic";
+    internal const string GuadeloupeanMusic = "GuadeloupeanMusic";
+    internal const string FrenchCaribbeanGuadeloupeDanceMusic = "FrenchCaribbeanGuadeloupeDanceMusic";
+    internal const string SouthAfricanMusicBasedInBothRapRave = "SouthAfricanMusicBasedInBothRapRave";
+    internal const string aFormOfSpanishOperetta = "aFormOfSpanishOperetta";
+    internal const string derivedFromAncientArabicMusicZapinIsPopularThroughoutMalaysia =
     "derivedFromAncientArabicMusicZapinIsPopularThroughoutMalaysia";
-    public const string isABrazilianMusicGenreAndDanceForPairsOrGroupsOfFour =
+    internal const string isABrazilianMusicGenreAndDanceForPairsOrGroupsOfFour =
     "isABrazilianMusicGenreAndDanceForPairsOrGroupsOfFour";
-    public const string AustralianAboriginalMusicGenre = "AustralianAboriginalMusicGenre";
-    public const string MelodicMusicAsDefinedByItsMedia = "MelodicMusicAsDefinedByItsMedia";
-    public const string accordionBasedColombianFolkMusic = "accordionBasedColombianFolkMusic";
-    public const string AggressiveFormOfModernizedSerbianMusic = "AggressiveFormOfModernizedSerbianMusic";
-    public const string BasqueAccordionMusic = "BasqueAccordionMusic";
-    public const string GenoeseUrbanSongs = "GenoeseUrbanSongs";
-    public const string acousticGuitarPopMusicOfKorea = "acousticGuitarPopMusicOfKorea";
-    public const string TibetanDanceMusic = "TibetanDanceMusic";
-    public const string PotosiBolivia = "PotosiBolivia";
-    public const string formOfFolkMusicInMozambique = "formOfFolkMusicInMozambique";
-    public const string popMusicHeavilyInfluencedByChineseFormsEmergingInTheS =
+    internal const string AustralianAboriginalMusicGenre = "AustralianAboriginalMusicGenre";
+    internal const string MelodicMusicAsDefinedByItsMedia = "MelodicMusicAsDefinedByItsMedia";
+    internal const string accordionBasedColombianFolkMusic = "accordionBasedColombianFolkMusic";
+    internal const string AggressiveFormOfModernizedSerbianMusic = "AggressiveFormOfModernizedSerbianMusic";
+    internal const string BasqueAccordionMusic = "BasqueAccordionMusic";
+    internal const string GenoeseUrbanSongs = "GenoeseUrbanSongs";
+    internal const string acousticGuitarPopMusicOfKorea = "acousticGuitarPopMusicOfKorea";
+    internal const string TibetanDanceMusic = "TibetanDanceMusic";
+    internal const string PotosiBolivia = "PotosiBolivia";
+    internal const string formOfFolkMusicInMozambique = "formOfFolkMusicInMozambique";
+    internal const string popMusicHeavilyInfluencedByChineseFormsEmergingInTheS =
     "popMusicHeavilyInfluencedByChineseFormsEmergingInTheS";
-    public const string HindustaniVocalMusic = "HindustaniVocalMusic";
-    public const string formOfVocalMusicFromSouthIndiaUsingHighlyRhythmicNonsenseSyllables =
+    internal const string HindustaniVocalMusic = "HindustaniVocalMusic";
+    internal const string formOfVocalMusicFromSouthIndiaUsingHighlyRhythmicNonsenseSyllables =
     "formOfVocalMusicFromSouthIndiaUsingHighlyRhythmicNonsenseSyllables";
-    public const string SundaneseSungFreeVersePoetry = "SundaneseSungFreeVersePoetry";
-    public const string vocalMusicFormNorthernIndiaUsingHighlyRhythmicNonsenseSyllables =
+    internal const string SundaneseSungFreeVersePoetry = "SundaneseSungFreeVersePoetry";
+    internal const string vocalMusicFormNorthernIndiaUsingHighlyRhythmicNonsenseSyllables =
     "vocalMusicFormNorthernIndiaUsingHighlyRhythmicNonsenseSyllables";
-    public const string HungarianDanceMusic = "HungarianDanceMusic";
-    public const string ChristianDevotionalLyricsInTamil = "ChristianDevotionalLyricsInTamil";
-    public const string andDistinctMinangkabauGamelanMusic = "andDistinctMinangkabauGamelanMusic";
-    public const string IndianRhythmicPattern = "IndianRhythmicPattern";
-    public const string earlyTaiwanesePopMusicByEnkaAndPopularWithOlderListeners =
+    internal const string HungarianDanceMusic = "HungarianDanceMusic";
+    internal const string ChristianDevotionalLyricsInTamil = "ChristianDevotionalLyricsInTamil";
+    internal const string andDistinctMinangkabauGamelanMusic = "andDistinctMinangkabauGamelanMusic";
+    internal const string IndianRhythmicPattern = "IndianRhythmicPattern";
+    internal const string earlyTaiwanesePopMusicByEnkaAndPopularWithOlderListeners =
     "earlyTaiwanesePopMusicByEnkaAndPopularWithOlderListeners";
-    public const string VietnameseChamberMusic = "VietnameseChamberMusic";
-    public const string TypeOfXoomiiTuvaThroatSingingLikenedToTheSoundOfWhistling =
+    internal const string VietnameseChamberMusic = "VietnameseChamberMusic";
+    internal const string TypeOfXoomiiTuvaThroatSingingLikenedToTheSoundOfWhistling =
     "TypeOfXoomiiTuvaThroatSingingLikenedToTheSoundOfWhistling";
-    public const string BarbadianFolkMusic = "BarbadianFolkMusic";
-    public const string formOfAfricanAmericanMusicWithGospelAndDooWopElements =
+    internal const string BarbadianFolkMusic = "BarbadianFolkMusic";
+    internal const string formOfAfricanAmericanMusicWithGospelAndDooWopElements =
     "formOfAfricanAmericanMusicWithGospelAndDooWopElements";
-    public const string HawaiianFormStockPhotography = "HawaiianFormStockPhotography";
-    public const string KoreanReligiousMusicMeantForDancingItIsAnImprovisedAndReminiscentOfJazz =
+    internal const string HawaiianFormStockPhotography = "HawaiianFormStockPhotography";
+    internal const string KoreanReligiousMusicMeantForDancingItIsAnImprovisedAndReminiscentOfJazz =
     "KoreanReligiousMusicMeantForDancingItIsAnImprovisedAndReminiscentOfJazz";
-    public const string MalaysianMixtureOfMusicDanceAndMartialArts = "MalaysianMixtureOfMusicDanceAndMartialArts";
-    public const string JapaneseBuddhistChanting = "JapaneseBuddhistChanting";
-    public const string JapaneseSongsWrittenDuringMeijiRestorationToBringWesternMusicToJapaneseSchools =
+    internal const string MalaysianMixtureOfMusicDanceAndMartialArts = "MalaysianMixtureOfMusicDanceAndMartialArts";
+    internal const string JapaneseBuddhistChanting = "JapaneseBuddhistChanting";
+    internal const string JapaneseSongsWrittenDuringMeijiRestorationToBringWesternMusicToJapaneseSchools =
     "JapaneseSongsWrittenDuringMeijiRestorationToBringWesternMusicToJapaneseSchools";
-    public const string BritishPop = "BritishPop";
-    public const string folkSongsFromAmamiIslandsJapan = "folkSongsFromAmamiIslandsJapan";
-    public const string HongKongBasedTraditionalMusicUpdatedForPopAudiencesAndSungInMandarin =
+    internal const string BritishPop = "BritishPop";
+    internal const string folkSongsFromAmamiIslandsJapan = "folkSongsFromAmamiIslandsJapan";
+    internal const string HongKongBasedTraditionalMusicUpdatedForPopAudiencesAndSungInMandarin =
     "HongKongBasedTraditionalMusicUpdatedForPopAudiencesAndSungInMandarin";
-    public const string TaiwaneseHakkaMountainSongs = "TaiwaneseHakkaMountainSongs";
-    public const string ArmenianFolkDance = "ArmenianFolkDance";
-    public const string BosnianUrbanMusic = "BosnianUrbanMusic";
-    public const string SeanNosSingingStyleOfIreland = "SeanNosSingingStyleOfIreland";
-    public const string folkMusicFromTheWestCountryOfEngland = "folkMusicFromTheWestCountryOfEngland";
-    public const string BolivianMusicDerivedFromAfricanRhythms = "BolivianMusicDerivedFromAfricanRhythms";
-    public const string UrbanMusicFromKuwaitAndBahrain = "UrbanMusicFromKuwaitAndBahrain";
-    public const string TraditionalMusicOfCatalonia = "TraditionalMusicOfCatalonia";
-    public const string KoreanInstrumentalFolkMusic = "KoreanInstrumentalFolkMusic";
-    public const string formOfBrazilianMusic = "formOfBrazilianMusic";
-    public const string fusionOfMultipleCubanAndPuertoRicanDerivedPopGenresFromImmigrantsInNewYorkCity =
+    internal const string TaiwaneseHakkaMountainSongs = "TaiwaneseHakkaMountainSongs";
+    internal const string ArmenianFolkDance = "ArmenianFolkDance";
+    internal const string BosnianUrbanMusic = "BosnianUrbanMusic";
+    internal const string SeanNosSingingStyleOfIreland = "SeanNosSingingStyleOfIreland";
+    internal const string folkMusicFromTheWestCountryOfEngland = "folkMusicFromTheWestCountryOfEngland";
+    internal const string BolivianMusicDerivedFromAfricanRhythms = "BolivianMusicDerivedFromAfricanRhythms";
+    internal const string UrbanMusicFromKuwaitAndBahrain = "UrbanMusicFromKuwaitAndBahrain";
+    internal const string TraditionalMusicOfCatalonia = "TraditionalMusicOfCatalonia";
+    internal const string KoreanInstrumentalFolkMusic = "KoreanInstrumentalFolkMusic";
+    internal const string formOfBrazilianMusic = "formOfBrazilianMusic";
+    internal const string fusionOfMultipleCubanAndPuertoRicanDerivedPopGenresFromImmigrantsInNewYorkCity =
     "fusionOfMultipleCubanAndPuertoRicanDerivedPopGenresFromImmigrantsInNewYorkCity";
-    public const string DrummingStyleFoundInSenegal = "DrummingStyleFoundInSenegal";
-    public const string KoreanFolkMusicTraditionThatIncludesDrummingDancingAndSinging =
+    internal const string DrummingStyleFoundInSenegal = "DrummingStyleFoundInSenegal";
+    internal const string KoreanFolkMusicTraditionThatIncludesDrummingDancingAndSinging =
     "KoreanFolkMusicTraditionThatIncludesDrummingDancingAndSinging";
-    public const string backToBasicsRockMusicSeePubRockAustraliaAndPubRockUnitedKingdom =
+    internal const string backToBasicsRockMusicSeePubRockAustraliaAndPubRockUnitedKingdom =
     "backToBasicsRockMusicSeePubRockAustraliaAndPubRockUnitedKingdom";
-    public const string ModernJazzMusicThatBorrowsFromFunkAndEDM = "ModernJazzMusicThatBorrowsFromFunkAndEDM";
-    public const string newFormOfShoegaze = "newFormOfShoegaze";
-    public const string SoulMusicMadeByNorthernEnglish = "SoulMusicMadeByNorthernEnglish";
-    public const string MexicanFolkMusic = "MexicanFolkMusic";
-    public const string MexicanEDM = "MexicanEDM";
-    public const string NordicFolk = "NordicFolk";
-    public const string FolkMusicOfTheNordicPeople = "FolkMusicOfTheNordicPeople";
-    public const string LongHighlyDramaticJapaneseOpera = "LongHighlyDramaticJapaneseOpera";
-    public const string GreekFolkMusicFromAgeanIslands = "GreekFolkMusicFromAgeanIslands";
-    public const string AJazzInfluencedStyleOfBluesFromNewYorkNewYork = "AJazzInfluencedStyleOfBluesFromNewYorkNewYork";
-    public const string styleOfHeavyMetalFromTheUnitedKingdomThatCameWithTheDeclineOfLedZeppelinEsqueEarlyHardRock =
+    internal const string ModernJazzMusicThatBorrowsFromFunkAndEDM = "ModernJazzMusicThatBorrowsFromFunkAndEDM";
+    internal const string newFormOfShoegaze = "newFormOfShoegaze";
+    internal const string SoulMusicMadeByNorthernEnglish = "SoulMusicMadeByNorthernEnglish";
+    internal const string MexicanFolkMusic = "MexicanFolkMusic";
+    internal const string MexicanEDM = "MexicanEDM";
+    internal const string NordicFolk = "NordicFolk";
+    internal const string FolkMusicOfTheNordicPeople = "FolkMusicOfTheNordicPeople";
+    internal const string LongHighlyDramaticJapaneseOpera = "LongHighlyDramaticJapaneseOpera";
+    internal const string GreekFolkMusicFromAgeanIslands = "GreekFolkMusicFromAgeanIslands";
+    internal const string AJazzInfluencedStyleOfBluesFromNewYorkNewYork = "AJazzInfluencedStyleOfBluesFromNewYorkNewYork";
+    internal const string styleOfHeavyMetalFromTheUnitedKingdomThatCameWithTheDeclineOfLedZeppelinEsqueEarlyHardRock =
     "styleOfHeavyMetalFromTheUnitedKingdomThatCameWithTheDeclineOfLedZeppelinEsqueEarlyHardRock";
-    public const string TaiwanesePopMusic = "TaiwanesePopMusic";
-    public const string fusionOfAlternativeRockAndEDM = "fusionOfAlternativeRockAndEDM";
-    public const string DixielandAndCaribbeanInformedStyleOfBluesFromNewOrleans =
+    internal const string TaiwanesePopMusic = "TaiwanesePopMusic";
+    internal const string fusionOfAlternativeRockAndEDM = "fusionOfAlternativeRockAndEDM";
+    internal const string DixielandAndCaribbeanInformedStyleOfBluesFromNewOrleans =
     "DixielandAndCaribbeanInformedStyleOfBluesFromNewOrleans";
-    public const string BelgianDowntempoBrAcidHouse = "BelgianDowntempoBrAcidHouse";
-    public const string GermanDarkWaveAndGothicRock = "GermanDarkWaveAndGothicRock";
-    public const string GermanPunkAndNewWaveMusic = "GermanPunkAndNewWaveMusic";
-    public const string
+    internal const string BelgianDowntempoBrAcidHouse = "BelgianDowntempoBrAcidHouse";
+    internal const string GermanDarkWaveAndGothicRock = "GermanDarkWaveAndGothicRock";
+    internal const string GermanPunkAndNewWaveMusic = "GermanPunkAndNewWaveMusic";
+    internal const string
     GermanFusionStyleThatMainlyTakesElementsOfIndustrialAndGrooveMetalAsWellAsTechnoAndAlternativeRock =
     "GermanFusionStyleThatMainlyTakesElementsOfIndustrialAndGrooveMetalAsWellAsTechnoAndAlternativeRock";
-    public const string alternativeCountryMusicThatAttemptsToImitatePreNashvilleTraditionalCountry =
+    internal const string alternativeCountryMusicThatAttemptsToImitatePreNashvilleTraditionalCountry =
     "alternativeCountryMusicThatAttemptsToImitatePreNashvilleTraditionalCountry";
-    public const string MusicThatAttemptsToImitateMedievalAndEarlierPeriodsOfClassicalMusic =
+    internal const string MusicThatAttemptsToImitateMedievalAndEarlierPeriodsOfClassicalMusic =
     "MusicThatAttemptsToImitateMedievalAndEarlierPeriodsOfClassicalMusic";
-    public const string styleOfClassicalGreekMusicFromTheSWithFrenchInfluences =
+    internal const string styleOfClassicalGreekMusicFromTheSWithFrenchInfluences =
     "styleOfClassicalGreekMusicFromTheSWithFrenchInfluences";
-    public const string DutchPopMusic = "DutchPopMusic";
-    public const string aSlickPopInformedRadioFriendlyFormOfAmericanCountryMusicThatBeganInNashvilleTennessee =
+    internal const string DutchPopMusic = "DutchPopMusic";
+    internal const string aSlickPopInformedRadioFriendlyFormOfAmericanCountryMusicThatBeganInNashvilleTennessee =
     "aSlickPopInformedRadioFriendlyFormOfAmericanCountryMusicThatBeganInNashvilleTennessee";
-    public const string BosnianBulgarianMacedonianAndSerbianFolkMusic = "BosnianBulgarianMacedonianAndSerbianFolkMusic";
-    public const string HardcoreAndSkatePunkSubgenreBasedInOxnardCalifornia =
+    internal const string BosnianBulgarianMacedonianAndSerbianFolkMusic = "BosnianBulgarianMacedonianAndSerbianFolkMusic";
+    internal const string HardcoreAndSkatePunkSubgenreBasedInOxnardCalifornia =
     "HardcoreAndSkatePunkSubgenreBasedInOxnardCalifornia";
-    public const string MexicanPolkaInfluencedFolkMusicWithLyricsFocusingOnIllegalActivity =
+    internal const string MexicanPolkaInfluencedFolkMusicWithLyricsFocusingOnIllegalActivity =
     "MexicanPolkaInfluencedFolkMusicWithLyricsFocusingOnIllegalActivity";
-    public const string ChineseClassicalMusicThatIsHeavilyInfluencedByWesternStyles =
+    internal const string ChineseClassicalMusicThatIsHeavilyInfluencedByWesternStyles =
     "ChineseClassicalMusicThatIsHeavilyInfluencedByWesternStyles";
-    public const string TibetanEDM = "TibetanEDM";
-    public const string ArabicMusicalPoetry = "ArabicMusicalPoetry";
-    public const string PersianOrchestralMusic = "PersianOrchestralMusic";
-    public const string looseTermForBrazilianPopMusic = "looseTermForBrazilianPopMusic";
-    public const string VenezuelanAndColombianFolkMusic = "VenezuelanAndColombianFolkMusic";
-    public const string PeruvianMusicInformedByAfricanEuropeanAndAndeanStyles =
+    internal const string TibetanEDM = "TibetanEDM";
+    internal const string ArabicMusicalPoetry = "ArabicMusicalPoetry";
+    internal const string PersianOrchestralMusic = "PersianOrchestralMusic";
+    internal const string looseTermForBrazilianPopMusic = "looseTermForBrazilianPopMusic";
+    internal const string VenezuelanAndColombianFolkMusic = "VenezuelanAndColombianFolkMusic";
+    internal const string PeruvianMusicInformedByAfricanEuropeanAndAndeanStyles =
     "PeruvianMusicInformedByAfricanEuropeanAndAndeanStyles";
-    public const string UruguayanAndArgentinianFolkDanceMusic = "UruguayanAndArgentinianFolkDanceMusic";
-    public const string AzerbaijanClassicalMusic = "AzerbaijanClassicalMusic";
-    public const string AmericanDerivativeOfCubanStyleOfTheSameName = "AmericanDerivativeOfCubanStyleOfTheSameName";
-    public const string CubanFolkDanceMusic = "CubanFolkDanceMusic";
-    public const string looseTermForCubanMusicAndItsDerivatives = "looseTermForCubanMusicAndItsDerivatives";
-    public const string MoombahtonIncorporatingDubstepInfluencesAndElementsOfDutchHouse =
+    internal const string UruguayanAndArgentinianFolkDanceMusic = "UruguayanAndArgentinianFolkDanceMusic";
+    internal const string AzerbaijanClassicalMusic = "AzerbaijanClassicalMusic";
+    internal const string AmericanDerivativeOfCubanStyleOfTheSameName = "AmericanDerivativeOfCubanStyleOfTheSameName";
+    internal const string CubanFolkDanceMusic = "CubanFolkDanceMusic";
+    internal const string looseTermForCubanMusicAndItsDerivatives = "looseTermForCubanMusicAndItsDerivatives";
+    internal const string MoombahtonIncorporatingDubstepInfluencesAndElementsOfDutchHouse =
     "MoombahtonIncorporatingDubstepInfluencesAndElementsOfDutchHouse";
-    public const string LaotianAndThaiFolkMusic = "LaotianAndThaiFolkMusic";
-    public const string ModernizedAndPopInformedStyleOfLaika = "ModernizedAndPopInformedStyleOfLaika";
-    public const string BrazilianFolkMusic = "BrazilianFolkMusic";
-    public const string GlamInformedStyleOfDanceRockPioneeredByPrince = "GlamInformedStyleOfDanceRockPioneeredByPrince";
-    public const string AmericanFolkMusicWhichParodiedAfricanAmericanStyles =
+    internal const string LaotianAndThaiFolkMusic = "LaotianAndThaiFolkMusic";
+    internal const string ModernizedAndPopInformedStyleOfLaika = "ModernizedAndPopInformedStyleOfLaika";
+    internal const string BrazilianFolkMusic = "BrazilianFolkMusic";
+    internal const string GlamInformedStyleOfDanceRockPioneeredByPrince = "GlamInformedStyleOfDanceRockPioneeredByPrince";
+    internal const string AmericanFolkMusicWhichParodiedAfricanAmericanStyles =
     "AmericanFolkMusicWhichParodiedAfricanAmericanStyles";
-    public const string JapaneseFolkMusic = "JapaneseFolkMusic";
-    public const string ArgentinianAndUruguayanFolkDanceMusic = "ArgentinianAndUruguayanFolkDanceMusic";
-    public const string FrenchFolkDanceMusic = "FrenchFolkDanceMusic";
-    public const string TunisianFolkMusic = "TunisianFolkMusic";
-    public const string AzerbaijaniSpokenWordMusic = "AzerbaijaniSpokenWordMusic";
-    public const string RockMusicPerformedByMexicans = "RockMusicPerformedByMexicans";
-    public const string HaitianGuitarMusic = "HaitianGuitarMusic";
-    public const string DominicanFolkDanceMusic = "DominicanFolkDanceMusic";
-    public const string JamaicanFolkMusic = "JamaicanFolkMusic";
-    public const string polishedFunkyStyleOfSoulFromMemphis = "polishedFunkyStyleOfSoulFromMemphis";
-    public const string StyleOfBluesFromMemphis = "StyleOfBluesFromMemphis";
-    public const string IndianDrummingStyle = "IndianDrummingStyle";
-    public const string PanamanGuitarMusic = "PanamanGuitarMusic";
-    public const string fusionOfFolkMetal = "fusionOfFolkMetal";
-    public const string
+    internal const string JapaneseFolkMusic = "JapaneseFolkMusic";
+    internal const string ArgentinianAndUruguayanFolkDanceMusic = "ArgentinianAndUruguayanFolkDanceMusic";
+    internal const string FrenchFolkDanceMusic = "FrenchFolkDanceMusic";
+    internal const string TunisianFolkMusic = "TunisianFolkMusic";
+    internal const string AzerbaijaniSpokenWordMusic = "AzerbaijaniSpokenWordMusic";
+    internal const string RockMusicPerformedByMexicans = "RockMusicPerformedByMexicans";
+    internal const string HaitianGuitarMusic = "HaitianGuitarMusic";
+    internal const string DominicanFolkDanceMusic = "DominicanFolkDanceMusic";
+    internal const string JamaicanFolkMusic = "JamaicanFolkMusic";
+    internal const string polishedFunkyStyleOfSoulFromMemphis = "polishedFunkyStyleOfSoulFromMemphis";
+    internal const string StyleOfBluesFromMemphis = "StyleOfBluesFromMemphis";
+    internal const string IndianDrummingStyle = "IndianDrummingStyle";
+    internal const string PanamanGuitarMusic = "PanamanGuitarMusic";
+    internal const string fusionOfFolkMetal = "fusionOfFolkMetal";
+    internal const string
     formOfFolkRockThatIncorporatedElementsOfEarlierFolkTraditionsSuchAsMedievalRenaissanceAndBaroqueMusicWhatTheNameMaySuggest =
     "formOfFolkRockThatIncorporatedElementsOfEarlierFolkTraditionsSuchAsMedievalRenaissanceAndBaroqueMusicWhatTheNameMaySuggest";
-    public const string SouthAfricanACappellaMusic = "SouthAfricanACappellaMusic";
-    public const string ZuluJazzStyleThatWasOneOfTheFirstSouthAfricanGenresToAchieveIntertribalRecognition =
+    internal const string SouthAfricanACappellaMusic = "SouthAfricanACappellaMusic";
+    internal const string ZuluJazzStyleThatWasOneOfTheFirstSouthAfricanGenresToAchieveIntertribalRecognition =
     "ZuluJazzStyleThatWasOneOfTheFirstSouthAfricanGenresToAchieveIntertribalRecognition";
-    public const string
+    internal const string
     SenegaleseFolkDanceMusicThatCombinesTraditionalSabarDrummingTechniquesWithJazzSoulRockAndLatinMusic =
     "SenegaleseFolkDanceMusicThatCombinesTraditionalSabarDrummingTechniquesWithJazzSoulRockAndLatinMusic";
-    public const string PolishFolkDanceMusic = "PolishFolkDanceMusic";
-    public const string GarifunaFolkDanceMusic = "GarifunaFolkDanceMusic";
-    public const string ChristianHymnsSung = "ChristianHymnsSung";
-    public const string PeruvianFolkDanceMusic = "PeruvianFolkDanceMusic";
-    public const string SouthAfricanFolkMusic = "SouthAfricanFolkMusic";
-    public const string MozambicanFolkDanceMusicByPortugueseStyles = "MozambicanFolkDanceMusicByPortugueseStyles";
-    public const string MexicanFolkMusicAndPopMusic = "MexicanFolkMusicAndPopMusic";
-    public const string BrazilianFolkDanceMusic = "BrazilianFolkDanceMusic";
-    public const string SouthAfricanStyleInformedByBluesAndJazz = "SouthAfricanStyleInformedByBluesAndJazz";
-    public const string traditionalFolkDanceMusicOfTheAiziAlladianAndAvikamPeopleOfTheIvoryCoast =
+    internal const string PolishFolkDanceMusic = "PolishFolkDanceMusic";
+    internal const string GarifunaFolkDanceMusic = "GarifunaFolkDanceMusic";
+    internal const string ChristianHymnsSung = "ChristianHymnsSung";
+    internal const string PeruvianFolkDanceMusic = "PeruvianFolkDanceMusic";
+    internal const string SouthAfricanFolkMusic = "SouthAfricanFolkMusic";
+    internal const string MozambicanFolkDanceMusicByPortugueseStyles = "MozambicanFolkDanceMusicByPortugueseStyles";
+    internal const string MexicanFolkMusicAndPopMusic = "MexicanFolkMusicAndPopMusic";
+    internal const string BrazilianFolkDanceMusic = "BrazilianFolkDanceMusic";
+    internal const string SouthAfricanStyleInformedByBluesAndJazz = "SouthAfricanStyleInformedByBluesAndJazz";
+    internal const string traditionalFolkDanceMusicOfTheAiziAlladianAndAvikamPeopleOfTheIvoryCoast =
     "traditionalFolkDanceMusicOfTheAiziAlladianAndAvikamPeopleOfTheIvoryCoast";
-    public const string fusionOfWesternRockMusicAndTraditionalFilipinoFolkMusic =
+    internal const string fusionOfWesternRockMusicAndTraditionalFilipinoFolkMusic =
     "fusionOfWesternRockMusicAndTraditionalFilipinoFolkMusic";
-    public const string BrazilianElectronicGenrePlayedInAFastPacedPunkInformedStyle =
+    internal const string BrazilianElectronicGenrePlayedInAFastPacedPunkInformedStyle =
     "BrazilianElectronicGenrePlayedInAFastPacedPunkInformedStyle";
-    public const string RomaniFolkMusic = "RomaniFolkMusic";
-    public const string StyleOfCPopSungInMandarinLanguage = "StyleOfCPopSungInMandarinLanguage";
-    public const string KyrgyzSongRecitalOfEpicOfManas = "KyrgyzSongRecitalOfEpicOfManas";
-    public const string CubanStyleOfJazz = "CubanStyleOfJazz";
-    public const string styleOfFolkDevelopedBySlavesOnTheFrenchTerritoryOfReunion =
+    internal const string RomaniFolkMusic = "RomaniFolkMusic";
+    internal const string StyleOfCPopSungInMandarinLanguage = "StyleOfCPopSungInMandarinLanguage";
+    internal const string KyrgyzSongRecitalOfEpicOfManas = "KyrgyzSongRecitalOfEpicOfManas";
+    internal const string CubanStyleOfJazz = "CubanStyleOfJazz";
+    internal const string styleOfFolkDevelopedBySlavesOnTheFrenchTerritoryOfReunion =
     "styleOfFolkDevelopedBySlavesOnTheFrenchTerritoryOfReunion";
-    public const string ArabFolkPoetry = "ArabFolkPoetry";
-    public const string CameroonianPop = "CameroonianPop";
-    public const string ThaiAndKhmerClassicalMusic = "ThaiAndKhmerClassicalMusic";
-    public const string StyleOfClassicalSingingPopularInTheRenaissanceAndBaroqueEras =
+    internal const string ArabFolkPoetry = "ArabFolkPoetry";
+    internal const string CameroonianPop = "CameroonianPop";
+    internal const string ThaiAndKhmerClassicalMusic = "ThaiAndKhmerClassicalMusic";
+    internal const string StyleOfClassicalSingingPopularInTheRenaissanceAndBaroqueEras =
     "StyleOfClassicalSingingPopularInTheRenaissanceAndBaroqueEras";
-    public const string fusionOfEDMPsychedelicRockAndIndieRock = "fusionOfEDMPsychedelicRockAndIndieRock";
-    public const string styleOfMusicalThoughtAndCompositionDevelopedBySteveColeman =
+    internal const string fusionOfEDMPsychedelicRockAndIndieRock = "fusionOfEDMPsychedelicRockAndIndieRock";
+    internal const string styleOfMusicalThoughtAndCompositionDevelopedBySteveColeman =
     "styleOfMusicalThoughtAndCompositionDevelopedBySteveColeman";
-    public const string MbMgMiMinMirMoMpMu = "MbMgMiMinMirMoMpMu";
-    public const string harmoniousStyleOfAfroBrazilianMusic = "harmoniousStyleOfAfroBrazilianMusic";
-    public const string ThaiFolkMusic = "ThaiFolkMusic";
-    public const string fusionOfRockAndRollMusicFromLubbockTexas = "fusionOfRockAndRollMusicFromLubbockTexas";
-    public const string TibetanACapellaMusic = "TibetanACapellaMusic";
-    public const string AnyBluesPerformedInTheStateOfLouisiana = "AnyBluesPerformedInTheStateOfLouisiana";
-    public const string MongolianFolkMusicInWhichEachSyllableIsLongerThanTheAveragePeriodOfTime =
+    internal const string MbMgMiMinMirMoMpMu = "MbMgMiMinMirMoMpMu";
+    internal const string harmoniousStyleOfAfroBrazilianMusic = "harmoniousStyleOfAfroBrazilianMusic";
+    internal const string ThaiFolkMusic = "ThaiFolkMusic";
+    internal const string fusionOfRockAndRollMusicFromLubbockTexas = "fusionOfRockAndRollMusicFromLubbockTexas";
+    internal const string TibetanACapellaMusic = "TibetanACapellaMusic";
+    internal const string AnyBluesPerformedInTheStateOfLouisiana = "AnyBluesPerformedInTheStateOfLouisiana";
+    internal const string MongolianFolkMusicInWhichEachSyllableIsLongerThanTheAveragePeriodOfTime =
     "MongolianFolkMusicInWhichEachSyllableIsLongerThanTheAveragePeriodOfTime";
-    public const string FormOfZouglouInfluencedByFrenchColonistsInIvoryCoast =
+    internal const string FormOfZouglouInfluencedByFrenchColonistsInIvoryCoast =
     "FormOfZouglouInfluencedByFrenchColonistsInIvoryCoast";
-    public const string
+    internal const string
     styleOfPercussionPerformedByVariousPygmyPeopleOfAfricaInWhichDrummersStandInTheBodyOfWaterAndHitTheSurface =
     "styleOfPercussionPerformedByVariousPygmyPeopleOfAfricaInWhichDrummersStandInTheBodyOfWaterAndHitTheSurface";
-    public const string SoftNonConfrontationalBritishOrchestralMusic = "SoftNonConfrontationalBritishOrchestralMusic";
-    public const string GermanPoemsSpokenToMusic = "GermanPoemsSpokenToMusic";
-    public const string TibetanFolkOpera = "TibetanFolkOpera";
-    public const string HungarianAndRomanianFolkDanceMusicPerformedByThePeopleOfTransylvaniaNowAModernDayClujNapoca =
+    internal const string SoftNonConfrontationalBritishOrchestralMusic = "SoftNonConfrontationalBritishOrchestralMusic";
+    internal const string GermanPoemsSpokenToMusic = "GermanPoemsSpokenToMusic";
+    internal const string TibetanFolkOpera = "TibetanFolkOpera";
+    internal const string HungarianAndRomanianFolkDanceMusicPerformedByThePeopleOfTransylvaniaNowAModernDayClujNapoca =
     "HungarianAndRomanianFolkDanceMusicPerformedByThePeopleOfTransylvaniaNowAModernDayClujNapoca";
-    public const string StyleOfTraditionalIndianMusicPerformedInMaharashtra =
+    internal const string StyleOfTraditionalIndianMusicPerformedInMaharashtra =
     "StyleOfTraditionalIndianMusicPerformedInMaharashtra";
-    public const string FusionOfPopMusicAndTraditionalSouthAmericanStyles =
+    internal const string FusionOfPopMusicAndTraditionalSouthAmericanStyles =
     "FusionOfPopMusicAndTraditionalSouthAmericanStyles";
-    public const string
+    internal const string
     GenreOfHeavyMetalWithLatinOriginsInfluencesAndInstrumentationSuchAsSpanishVocalsLatinPercussionAndRhythmSuchAsSalsaRhythm =
     "GenreOfHeavyMetalWithLatinOriginsInfluencesAndInstrumentationSuchAsSpanishVocalsLatinPercussionAndRhythmSuchAsSalsaRhythm";
-    public const string BrazilianDanceMusic = "BrazilianDanceMusic";
-    public const string SouthAfricanSkiffleMusic = "SouthAfricanSkiffleMusic";
-    public const string CongoleseFolkDanceMusic = "CongoleseFolkDanceMusic";
-    public const string SouthAfricanHouseMusic = "SouthAfricanHouseMusic";
-    public const string IcelandicFolkMusic = "IcelandicFolkMusic";
-    public const string FilipinoLoveSongs = "FilipinoLoveSongs";
-    public const string ancientGongMusicOfFilipinosIndonesianMalaysianBruneianAndTimorese =
+    internal const string BrazilianDanceMusic = "BrazilianDanceMusic";
+    internal const string SouthAfricanSkiffleMusic = "SouthAfricanSkiffleMusic";
+    internal const string CongoleseFolkDanceMusic = "CongoleseFolkDanceMusic";
+    internal const string SouthAfricanHouseMusic = "SouthAfricanHouseMusic";
+    internal const string IcelandicFolkMusic = "IcelandicFolkMusic";
+    internal const string FilipinoLoveSongs = "FilipinoLoveSongs";
+    internal const string ancientGongMusicOfFilipinosIndonesianMalaysianBruneianAndTimorese =
     "ancientGongMusicOfFilipinosIndonesianMalaysianBruneianAndTimorese";
-    public const string AngolanFolkMusic = "AngolanFolkMusic";
-    public const string IndonesianFolkMusic = "IndonesianFolkMusic";
-    public const string IndianClassicalMusic = "IndianClassicalMusic";
-    public const string highlyExperimentalFormOfGermanArtRockThatIncorporatedElectronicInfluences =
+    internal const string AngolanFolkMusic = "AngolanFolkMusic";
+    internal const string IndonesianFolkMusic = "IndonesianFolkMusic";
+    internal const string IndianClassicalMusic = "IndianClassicalMusic";
+    internal const string highlyExperimentalFormOfGermanArtRockThatIncorporatedElectronicInfluences =
     "highlyExperimentalFormOfGermanArtRockThatIncorporatedElectronicInfluences";
-    public const string FastPacedPolishFolkDanceMusic = "FastPacedPolishFolkDanceMusic";
-    public const string GhananFolkDanceMusic = "GhananFolkDanceMusic";
-    public const string JapaneseCourtMusicFromHeianPeriod = "JapaneseCourtMusicFromHeianPeriod";
-    public const string TongueInCheekHutsulFolkDanceMusic = "TongueInCheekHutsulFolkDanceMusic";
-    public const string SundaneseFolkDanceMusic = "SundaneseFolkDanceMusic";
-    public const string JewishClassicalMusic = "JewishClassicalMusic";
-    public const string AfghanClassicalMusic = "AfghanClassicalMusic";
-    public const string CroatianACapellaMusic = "CroatianACapellaMusic";
-    public const string AngolanFolkDanceMusic = "AngolanFolkDanceMusic";
-    public const string RockMusicPerformedByNewZealanders = "RockMusicPerformedByNewZealanders";
-    public const string IndianDrumMusicPerformedDuringHinduBhaktiRituals =
+    internal const string FastPacedPolishFolkDanceMusic = "FastPacedPolishFolkDanceMusic";
+    internal const string GhananFolkDanceMusic = "GhananFolkDanceMusic";
+    internal const string JapaneseCourtMusicFromHeianPeriod = "JapaneseCourtMusicFromHeianPeriod";
+    internal const string TongueInCheekHutsulFolkDanceMusic = "TongueInCheekHutsulFolkDanceMusic";
+    internal const string SundaneseFolkDanceMusic = "SundaneseFolkDanceMusic";
+    internal const string JewishClassicalMusic = "JewishClassicalMusic";
+    internal const string AfghanClassicalMusic = "AfghanClassicalMusic";
+    internal const string CroatianACapellaMusic = "CroatianACapellaMusic";
+    internal const string AngolanFolkDanceMusic = "AngolanFolkDanceMusic";
+    internal const string RockMusicPerformedByNewZealanders = "RockMusicPerformedByNewZealanders";
+    internal const string IndianDrumMusicPerformedDuringHinduBhaktiRituals =
     "IndianDrumMusicPerformedDuringHinduBhaktiRituals";
-    public const string NorthIndianFormOfHindustaniClassicalMusic = "NorthIndianFormOfHindustaniClassicalMusic";
-    public const string MalayWoodwindMusic = "MalayWoodwindMusic";
-    public const string ArabFolkMusic = "ArabFolkMusic";
-    public const string MalayMusicalEnsembleUtilizingXylophones = "MalayMusicalEnsembleUtilizingXylophones";
-    public const string SundaneseFolkMusic = "SundaneseFolkMusic";
-    public const string BalineseFolkOpera = "BalineseFolkOpera";
-    public const string AnEarlyFormOfJPop = "AnEarlyFormOfJPop";
-    public const string JapaneseFolkMusicFromOsakaRegion = "JapaneseFolkMusicFromOsakaRegion";
-    public const string FastPacedRyukyuanFestiveFolkMusic = "FastPacedRyukyuanFestiveFolkMusic";
-    public const string SurinameMusicThatFusesAfricanEuropeanAndAmericanStyles =
+    internal const string NorthIndianFormOfHindustaniClassicalMusic = "NorthIndianFormOfHindustaniClassicalMusic";
+    internal const string MalayWoodwindMusic = "MalayWoodwindMusic";
+    internal const string ArabFolkMusic = "ArabFolkMusic";
+    internal const string MalayMusicalEnsembleUtilizingXylophones = "MalayMusicalEnsembleUtilizingXylophones";
+    internal const string SundaneseFolkMusic = "SundaneseFolkMusic";
+    internal const string BalineseFolkOpera = "BalineseFolkOpera";
+    internal const string AnEarlyFormOfJPop = "AnEarlyFormOfJPop";
+    internal const string JapaneseFolkMusicFromOsakaRegion = "JapaneseFolkMusicFromOsakaRegion";
+    internal const string FastPacedRyukyuanFestiveFolkMusic = "FastPacedRyukyuanFestiveFolkMusic";
+    internal const string SurinameMusicThatFusesAfricanEuropeanAndAmericanStyles =
     "SurinameMusicThatFusesAfricanEuropeanAndAmericanStyles";
-    public const string TuvanThroatSinging = "TuvanThroatSinging";
-    public const string FastPacedKhmerThaiFolkMusic = "FastPacedKhmerThaiFolkMusic";
-    public const string KansasCity = "KansasCity";
-    public const string BretonFolkMusic = "BretonFolkMusic";
-    public const string TrinidadianFolkMusic = "TrinidadianFolkMusic";
-    public const string KoreanFolkMusic = "KoreanFolkMusic";
-    public const string formOfJapaneseMusicalTheaterKnownForItsElaborateMakeupAndCostuming =
+    internal const string TuvanThroatSinging = "TuvanThroatSinging";
+    internal const string FastPacedKhmerThaiFolkMusic = "FastPacedKhmerThaiFolkMusic";
+    internal const string KansasCity = "KansasCity";
+    internal const string BretonFolkMusic = "BretonFolkMusic";
+    internal const string TrinidadianFolkMusic = "TrinidadianFolkMusic";
+    internal const string KoreanFolkMusic = "KoreanFolkMusic";
+    internal const string formOfJapaneseMusicalTheaterKnownForItsElaborateMakeupAndCostuming =
     "formOfJapaneseMusicalTheaterKnownForItsElaborateMakeupAndCostuming";
-    public const string SouthernAlbanianInstrumentalFolkMusic = "SouthernAlbanianInstrumentalFolkMusic";
-    public const string KoreanPopMusic = "KoreanPopMusic";
-    public const string BahamasFolkDanceMusic = "BahamasFolkDanceMusic";
-    public const string styleOfEDMKnownForFastTempoBreakbeatsSamplesAndDubInspiredLayeredSynths =
+    internal const string SouthernAlbanianInstrumentalFolkMusic = "SouthernAlbanianInstrumentalFolkMusic";
+    internal const string KoreanPopMusic = "KoreanPopMusic";
+    internal const string BahamasFolkDanceMusic = "BahamasFolkDanceMusic";
+    internal const string styleOfEDMKnownForFastTempoBreakbeatsSamplesAndDubInspiredLayeredSynths =
     "styleOfEDMKnownForFastTempoBreakbeatsSamplesAndDubInspiredLayeredSynths";
-    public const string NigerianPopMusic = "NigerianPopMusic";
-    public const string AfricanAmericanFolkMusicMadeFromHouseholdObjectsSuchAsJugsSpoonsAndWashboards =
+    internal const string NigerianPopMusic = "NigerianPopMusic";
+    internal const string AfricanAmericanFolkMusicMadeFromHouseholdObjectsSuchAsJugsSpoonsAndWashboards =
     "AfricanAmericanFolkMusicMadeFromHouseholdObjectsSuchAsJugsSpoonsAndWashboards";
-    public const string SpanishFolkDanceMusic = "SpanishFolkDanceMusic";
-    public const string VenezuelanWaltz = "VenezuelanWaltz";
-    public const string StyleOfSamiFolkMusic = "StyleOfSamiFolkMusic";
-    public const string BalineseDanceMusic = "BalineseDanceMusic";
-    public const string swingMusicUsedToAccompanyTheAfricanAmericanBallroomDanceOfTheSameName =
+    internal const string SpanishFolkDanceMusic = "SpanishFolkDanceMusic";
+    internal const string VenezuelanWaltz = "VenezuelanWaltz";
+    internal const string StyleOfSamiFolkMusic = "StyleOfSamiFolkMusic";
+    internal const string BalineseDanceMusic = "BalineseDanceMusic";
+    internal const string swingMusicUsedToAccompanyTheAfricanAmericanBallroomDanceOfTheSameName =
     "swingMusicUsedToAccompanyTheAfricanAmericanBallroomDanceOfTheSameName";
-    public const string ZimbabweanPopMusic = "ZimbabweanPopMusic";
-    public const string DominicanFolkDanceMusicDevelopedBySlaveDuringEuropeanColonialism =
+    internal const string ZimbabweanPopMusic = "ZimbabweanPopMusic";
+    internal const string DominicanFolkDanceMusicDevelopedBySlaveDuringEuropeanColonialism =
     "DominicanFolkDanceMusicDevelopedBySlaveDuringEuropeanColonialism";
-    public const string uptempoIrishFolkDanceMusic = "uptempoIrishFolkDanceMusic";
-    public const string styleOfCCMDevelopedByTheAmericanHippieBasedJesusMovement =
+    internal const string uptempoIrishFolkDanceMusic = "uptempoIrishFolkDanceMusic";
+    internal const string styleOfCCMDevelopedByTheAmericanHippieBasedJesusMovement =
     "styleOfCCMDevelopedByTheAmericanHippieBasedJesusMovement";
-    public const string FinnishFolkDanceMusic = "FinnishFolkDanceMusic";
-    public const string FusionOfHawaiianTraditionalMusicAndReggae = "FusionOfHawaiianTraditionalMusicAndReggae";
-    public const string MexicanDanceAndSongStyleFromVeracruz = "MexicanDanceAndSongStyleFromVeracruz";
-    public const string traditionalYucatanDanceMusic = "traditionalYucatanDanceMusic";
-    public const string CambodianPopMusic = "CambodianPopMusic";
-    public const string musicMadeToAccompanyTheDanceOfTheSameNameSundanesePeopleOfIndonesia =
+    internal const string FinnishFolkDanceMusic = "FinnishFolkDanceMusic";
+    internal const string FusionOfHawaiianTraditionalMusicAndReggae = "FusionOfHawaiianTraditionalMusicAndReggae";
+    internal const string MexicanDanceAndSongStyleFromVeracruz = "MexicanDanceAndSongStyleFromVeracruz";
+    internal const string traditionalYucatanDanceMusic = "traditionalYucatanDanceMusic";
+    internal const string CambodianPopMusic = "CambodianPopMusic";
+    internal const string musicMadeToAccompanyTheDanceOfTheSameNameSundanesePeopleOfIndonesia =
     "musicMadeToAccompanyTheDanceOfTheSameNameSundanesePeopleOfIndonesia";
-    public const string RockMusicMadeByJapanesePerformers = "RockMusicMadeByJapanesePerformers";
-    public const string PopMusicMadeByJapanese = "PopMusicMadeByJapanese";
-    public const string BosnianRuralMusicRoots = "BosnianRuralMusicRoots";
-    public const string ItaloDisco = "ItaloDisco";
-    public const string formOfDiscoDevelopedInItalyThatLeadToTheCreationOfModernEDM =
+    internal const string RockMusicMadeByJapanesePerformers = "RockMusicMadeByJapanesePerformers";
+    internal const string PopMusicMadeByJapanese = "PopMusicMadeByJapanese";
+    internal const string BosnianRuralMusicRoots = "BosnianRuralMusicRoots";
+    internal const string ItaloDisco = "ItaloDisco";
+    internal const string formOfDiscoDevelopedInItalyThatLeadToTheCreationOfModernEDM =
     "formOfDiscoDevelopedInItalyThatLeadToTheCreationOfModernEDM";
-    public const string AnOptimisticFormOfEurodanceThatDevelopedInItaly =
+    internal const string AnOptimisticFormOfEurodanceThatDevelopedInItaly =
     "AnOptimisticFormOfEurodanceThatDevelopedInItaly";
-    public const string ACapellaFormOfSingingUsedByTheZuluPeopleOfSouthAfrica =
+    internal const string ACapellaFormOfSingingUsedByTheZuluPeopleOfSouthAfrica =
     "ACapellaFormOfSingingUsedByTheZuluPeopleOfSouthAfrica";
-    public const string IrishFolk = "IrishFolk";
-    public const string TraditionalMusicOfTheIrishPeople = "TraditionalMusicOfTheIrishPeople";
-    public const string anyMusicPerformedByInuitPeopleOfGreenlandAndCanada =
+    internal const string IrishFolk = "IrishFolk";
+    internal const string TraditionalMusicOfTheIrishPeople = "TraditionalMusicOfTheIrishPeople";
+    internal const string anyMusicPerformedByInuitPeopleOfGreenlandAndCanada =
     "anyMusicPerformedByInuitPeopleOfGreenlandAndCanada";
-    public const string
+    internal const string
     earlyFormOfElectronicaThatLinkedAvantGardeElectronicExperimentationToPunkRockEnergyVocalisationAndEthicsIndustrialSpawnedIndulgenceInDarknessHorrorAndEvenFascism =
     "earlyFormOfElectronicaThatLinkedAvantGardeElectronicExperimentationToPunkRockEnergyVocalisationAndEthicsIndustrialSpawnedIndulgenceInDarknessHorrorAndEvenFascism";
-    public const string FusionOfJazzAndTraditionalIndianMusic = "FusionOfJazzAndTraditionalIndianMusic";
-    public const string musicThatIsFormedAroundTheIdeaOfRemainingOnTheUndergroundAndDIYEthic =
+    internal const string FusionOfJazzAndTraditionalIndianMusic = "FusionOfJazzAndTraditionalIndianMusic";
+    internal const string musicThatIsFormedAroundTheIdeaOfRemainingOnTheUndergroundAndDIYEthic =
     "musicThatIsFormedAroundTheIdeaOfRemainingOnTheUndergroundAndDIYEthic";
-    public const string fusionOfIndieRockAndEdm = "fusionOfIndieRockAndEdm";
-    public const string WesternArtMusicStyleInspiredByTheVisualArtsMovementOfTheSameName =
+    internal const string fusionOfIndieRockAndEdm = "fusionOfIndieRockAndEdm";
+    internal const string WesternArtMusicStyleInspiredByTheVisualArtsMovementOfTheSameName =
     "WesternArtMusicStyleInspiredByTheVisualArtsMovementOfTheSameName";
-    public const string AnyMusicPerformedByTheIgboPeopleOfNigeria = "AnyMusicPerformedByTheIgboPeopleOfNigeria";
-    public const string MusicSungInHealingCeremoniesOfTheShipiboConiboPeopleOfPeru =
+    internal const string AnyMusicPerformedByTheIgboPeopleOfNigeria = "AnyMusicPerformedByTheIgboPeopleOfNigeria";
+    internal const string MusicSungInHealingCeremoniesOfTheShipiboConiboPeopleOfPeru =
     "MusicSungInHealingCeremoniesOfTheShipiboConiboPeopleOfPeru";
-    public const string FastPacedHipHopStyleFromTheSanFranciscoBayArea =
+    internal const string FastPacedHipHopStyleFromTheSanFranciscoBayArea =
     "FastPacedHipHopStyleFromTheSanFranciscoBayArea";
-    public const string KoreanCourtMusicFromTheThreeKingdomsPeriod = "KoreanCourtMusicFromTheThreeKingdomsPeriod";
-    public const string FolkMusicPerformedByGarifunaWomen = "FolkMusicPerformedByGarifunaWomen";
-    public const string FinnishJazzStyle = "FinnishJazzStyle";
-    public const string HawaiianFolkMusicMadeToAccompanyTheDanceOfTheSameName =
+    internal const string KoreanCourtMusicFromTheThreeKingdomsPeriod = "KoreanCourtMusicFromTheThreeKingdomsPeriod";
+    internal const string FolkMusicPerformedByGarifunaWomen = "FolkMusicPerformedByGarifunaWomen";
+    internal const string FinnishJazzStyle = "FinnishJazzStyle";
+    internal const string HawaiianFolkMusicMadeToAccompanyTheDanceOfTheSameName =
     "HawaiianFolkMusicMadeToAccompanyTheDanceOfTheSameName";
-    public const string PeruvianFolkMusic = "PeruvianFolkMusic";
-    public const string aRelaxedDiscoInformedStyleOfEDM = "aRelaxedDiscoInformedStyleOfEDM";
-    public const string MusicPlayedToAccompanyTheBritishNavalDanceOfTheSameName =
+    internal const string PeruvianFolkMusic = "PeruvianFolkMusic";
+    internal const string aRelaxedDiscoInformedStyleOfEDM = "aRelaxedDiscoInformedStyleOfEDM";
+    internal const string MusicPlayedToAccompanyTheBritishNavalDanceOfTheSameName =
     "MusicPlayedToAccompanyTheBritishNavalDanceOfTheSameName";
-    public const string RomaniFolkMusicImprovisational = "RomaniFolkMusicImprovisational";
-    public const string ReligiousMusicPerformedByJapaneseZenBuddhists = "ReligiousMusicPerformedByJapaneseZenBuddhists";
-    public const string
+    internal const string RomaniFolkMusicImprovisational = "RomaniFolkMusicImprovisational";
+    internal const string ReligiousMusicPerformedByJapaneseZenBuddhists = "ReligiousMusicPerformedByJapaneseZenBuddhists";
+    internal const string
     styleOfMusicAndDancePerformedByTroupesOfRelativesForDayLongPeriodsByTheMerinaPeopleOfMadagascar =
     "styleOfMusicAndDancePerformedByTroupesOfRelativesForDayLongPeriodsByTheMerinaPeopleOfMadagascar";
-    public const string NorthernIndianClassicalMusic = "NorthernIndianClassicalMusic";
-    public const string combinationOfFunkPoetryAndInnovativeDJTechniquesEspeciallySamplingOfPreRecordedMaterial =
+    internal const string NorthernIndianClassicalMusic = "NorthernIndianClassicalMusic";
+    internal const string combinationOfFunkPoetryAndInnovativeDJTechniquesEspeciallySamplingOfPreRecordedMaterial =
     "combinationOfFunkPoetryAndInnovativeDJTechniquesEspeciallySamplingOfPreRecordedMaterial";
-    public const string GhananStyleThatMarriedTraditionalAfricanPop = "GhananStyleThatMarriedTraditionalAfricanPop";
-    public const string uptempoFastPacedStyleOfEDMKnownForReverberatingFourOnTheFloorRhythm =
+    internal const string GhananStyleThatMarriedTraditionalAfricanPop = "GhananStyleThatMarriedTraditionalAfricanPop";
+    internal const string uptempoFastPacedStyleOfEDMKnownForReverberatingFourOnTheFloorRhythm =
     "uptempoFastPacedStyleOfEDMKnownForReverberatingFourOnTheFloorRhythm";
-    public const string styleOfRockKnownForItsMinimalismStraightforwardnessAndConcernWithTheAmericanWorkingClass =
+    internal const string styleOfRockKnownForItsMinimalismStraightforwardnessAndConcernWithTheAmericanWorkingClass =
     "styleOfRockKnownForItsMinimalismStraightforwardnessAndConcernWithTheAmericanWorkingClass";
-    public const string VietnameseOpera = "VietnameseOpera";
-    public const string GreekFolkDanceMusicOriginatingInConstantinople =
+    internal const string VietnameseOpera = "VietnameseOpera";
+    internal const string GreekFolkDanceMusicOriginatingInConstantinople =
     "GreekFolkDanceMusicOriginatingInConstantinople";
-    public const string BluesMusicThatUtilizesTheRichterTunedHarmonica =
+    internal const string BluesMusicThatUtilizesTheRichterTunedHarmonica =
     "BluesMusicThatUtilizesTheRichterTunedHarmonica";
-    public const string intenseHeavyStyleOfEDMKnownForItsHeavyKickDrumsAndReversedBasslines =
+    internal const string intenseHeavyStyleOfEDMKnownForItsHeavyKickDrumsAndReversedBasslines =
     "intenseHeavyStyleOfEDMKnownForItsHeavyKickDrumsAndReversedBasslines";
-    public const string LoudBluesyDistortedAndTechnicallyProficientFormOfRock =
+    internal const string LoudBluesyDistortedAndTechnicallyProficientFormOfRock =
     "LoudBluesyDistortedAndTechnicallyProficientFormOfRock";
-    public const string SudaneseACapellaMusic = "SudaneseACapellaMusic";
-    public const string StyleOfAlternativeRockBasedInHamburgGermany = "StyleOfAlternativeRockBasedInHamburgGermany";
-    public const string SwedishFolkMusicMadeToAccompanyTheDanceOfTheSameName =
+    internal const string SudaneseACapellaMusic = "SudaneseACapellaMusic";
+    internal const string StyleOfAlternativeRockBasedInHamburgGermany = "StyleOfAlternativeRockBasedInHamburgGermany";
+    internal const string SwedishFolkMusicMadeToAccompanyTheDanceOfTheSameName =
     "SwedishFolkMusicMadeToAccompanyTheDanceOfTheSameName";
-    public const string NorwegianAndSwedishFolkMusicMadeToAccompanyTheDanceOfTheSameName =
+    internal const string NorwegianAndSwedishFolkMusicMadeToAccompanyTheDanceOfTheSameName =
     "NorwegianAndSwedishFolkMusicMadeToAccompanyTheDanceOfTheSameName";
-    public const string AfricanAmericanStyleBasedOnCubanContredanza = "AfricanAmericanStyleBasedOnCubanContredanza";
-    public const string RomaniStyleOfPunkRock = "RomaniStyleOfPunkRock";
-    public const string RomaFrenchStyleOfJazz = "RomaFrenchStyleOfJazz";
-    public const string GuadaloupeanDrumMusic = "GuadaloupeanDrumMusic";
-    public const string ModernizedChineseTraditionalMusic = "ModernizedChineseTraditionalMusic";
-    public const string JapaneseMilitaryMusic = "JapaneseMilitaryMusic";
-    public const string CentralAmericanMusicPlayedToAccompanyTheGarifaunaDanceOfTheSameName =
+    internal const string AfricanAmericanStyleBasedOnCubanContredanza = "AfricanAmericanStyleBasedOnCubanContredanza";
+    internal const string RomaniStyleOfPunkRock = "RomaniStyleOfPunkRock";
+    internal const string RomaFrenchStyleOfJazz = "RomaFrenchStyleOfJazz";
+    internal const string GuadaloupeanDrumMusic = "GuadaloupeanDrumMusic";
+    internal const string ModernizedChineseTraditionalMusic = "ModernizedChineseTraditionalMusic";
+    internal const string JapaneseMilitaryMusic = "JapaneseMilitaryMusic";
+    internal const string CentralAmericanMusicPlayedToAccompanyTheGarifaunaDanceOfTheSameName =
     "CentralAmericanMusicPlayedToAccompanyTheGarifaunaDanceOfTheSameName";
-    public const string GuineaBissaunFolkMusic = "GuineaBissaunFolkMusic";
-    public const string CubanCountryMusic = "CubanCountryMusic";
-    public const string RockInspiredMexicanFolk = "RockInspiredMexicanFolk";
-    public const string FusionOfHipHopAndUKGarage = "FusionOfHipHopAndUKGarage";
-    public const string ARomanCatholicChurch = "ARomanCatholicChurch";
-    public const string StyleOfPostPunkHeavilyInspiredByGothicArt = "StyleOfPostPunkHeavilyInspiredByGothicArt";
-    public const string TraditionalJapaneseDanceMusicFromMeijiEra = "TraditionalJapaneseDanceMusicFromMeijiEra";
-    public const string BahamianDrumMusic = "BahamianDrumMusic";
-    public const string AnyMusicPerformedWithHighPitchedPotGongsUsuallySoutheastAsianStyles =
+    internal const string GuineaBissaunFolkMusic = "GuineaBissaunFolkMusic";
+    internal const string CubanCountryMusic = "CubanCountryMusic";
+    internal const string RockInspiredMexicanFolk = "RockInspiredMexicanFolk";
+    internal const string FusionOfHipHopAndUKGarage = "FusionOfHipHopAndUKGarage";
+    internal const string ARomanCatholicChurch = "ARomanCatholicChurch";
+    internal const string StyleOfPostPunkHeavilyInspiredByGothicArt = "StyleOfPostPunkHeavilyInspiredByGothicArt";
+    internal const string TraditionalJapaneseDanceMusicFromMeijiEra = "TraditionalJapaneseDanceMusicFromMeijiEra";
+    internal const string BahamianDrumMusic = "BahamianDrumMusic";
+    internal const string AnyMusicPerformedWithHighPitchedPotGongsUsuallySoutheastAsianStyles =
     "AnyMusicPerformedWithHighPitchedPotGongsUsuallySoutheastAsianStyles";
-    public const string FusionOfTranceMusicAndTraditionalIndianStyles = "FusionOfTranceMusicAndTraditionalIndianStyles";
-    public const string IslamicAfricanReligiousMusic = "IslamicAfricanReligiousMusic";
-    public const string styleOfEDMBasedOnSamplesOfMalfunctioningTechnologyInOrderToCreateAnIntentionallyHarshSound =
+    internal const string FusionOfTranceMusicAndTraditionalIndianStyles = "FusionOfTranceMusicAndTraditionalIndianStyles";
+    internal const string IslamicAfricanReligiousMusic = "IslamicAfricanReligiousMusic";
+    internal const string styleOfEDMBasedOnSamplesOfMalfunctioningTechnologyInOrderToCreateAnIntentionallyHarshSound =
     "styleOfEDMBasedOnSamplesOfMalfunctioningTechnologyInOrderToCreateAnIntentionallyHarshSound";
-    public const string FusionOfChicagoHouseMiamiBassElectroGlitchAndTechno =
+    internal const string FusionOfChicagoHouseMiamiBassElectroGlitchAndTechno =
     "FusionOfChicagoHouseMiamiBassElectroGlitchAndTechno";
-    public const string FormOfChicagoHouseKnownForItsSexuallyExplicitLyrics =
+    internal const string FormOfChicagoHouseKnownForItsSexuallyExplicitLyrics =
     "FormOfChicagoHouseKnownForItsSexuallyExplicitLyrics";
-    public const string ArabicPrimarilyPakistanAngstRiddenPoetryOftenAccompaniedByMusic =
+    internal const string ArabicPrimarilyPakistanAngstRiddenPoetryOftenAccompaniedByMusic =
     "ArabicPrimarilyPakistanAngstRiddenPoetryOftenAccompaniedByMusic";
-    public const string AnyFolkMusicPerformedByGermans = "AnyFolkMusicPerformedByGermans";
-    public const string TraditionalFrenchDanceMusic = "TraditionalFrenchDanceMusic";
-    public const string HeavilyPolishedStyleOfAmericanHouse = "HeavilyPolishedStyleOfAmericanHouse";
-    public const string TibetanChantingAndDancing = "TibetanChantingAndDancing";
-    public const string TraditionalIndonesianDanceMusic = "TraditionalIndonesianDanceMusic";
-    public const string aWideVarietyOfTraditionalNordicDanceMusicAndModernizedVersionsCreatedByNordicAmericans =
+    internal const string AnyFolkMusicPerformedByGermans = "AnyFolkMusicPerformedByGermans";
+    internal const string TraditionalFrenchDanceMusic = "TraditionalFrenchDanceMusic";
+    internal const string HeavilyPolishedStyleOfAmericanHouse = "HeavilyPolishedStyleOfAmericanHouse";
+    internal const string TibetanChantingAndDancing = "TibetanChantingAndDancing";
+    internal const string TraditionalIndonesianDanceMusic = "TraditionalIndonesianDanceMusic";
+    internal const string aWideVarietyOfTraditionalNordicDanceMusicAndModernizedVersionsCreatedByNordicAmericans =
     "aWideVarietyOfTraditionalNordicDanceMusicAndModernizedVersionsCreatedByNordicAmericans";
-    public const string BalineseStyleOfGamelan = "BalineseStyleOfGamelan";
-    public const string WestJavanGamelan = "WestJavanGamelan";
-    public const string BalineseStyleOfGamelanKnownForItsExplosiveChangesInTempo =
+    internal const string BalineseStyleOfGamelan = "BalineseStyleOfGamelan";
+    internal const string WestJavanGamelan = "WestJavanGamelan";
+    internal const string BalineseStyleOfGamelanKnownForItsExplosiveChangesInTempo =
     "BalineseStyleOfGamelanKnownForItsExplosiveChangesInTempo";
-    public const string SundaneseStyleOfGamelanThatUsesThePegogScale = "SundaneseStyleOfGamelanThatUsesThePegogScale";
-    public const string IndonesianClassicalMusic = "IndonesianClassicalMusic";
-    public const string
+    internal const string SundaneseStyleOfGamelanThatUsesThePegogScale = "SundaneseStyleOfGamelanThatUsesThePegogScale";
+    internal const string IndonesianClassicalMusic = "IndonesianClassicalMusic";
+    internal const string
     intentionallySimplisticStyleOfWesternClassicalMusicDesignedToCounterTheIncreasinglyComplexBaroqueMusicOfTheThCentury =
     "intentionallySimplisticStyleOfWesternClassicalMusicDesignedToCounterTheIncreasinglyComplexBaroqueMusicOfTheThCentury";
-    public const string diverseFormOfVenezuelanFolk = "diverseFormOfVenezuelanFolk";
-    public const string anyJapaneseClassicalMusicPlayedForTheImperialCourt =
+    internal const string diverseFormOfVenezuelanFolk = "diverseFormOfVenezuelanFolk";
+    internal const string anyJapaneseClassicalMusicPlayedForTheImperialCourt =
     "anyJapaneseClassicalMusicPlayedForTheImperialCourt";
-    public const string UpbeatTamilDanceSong = "UpbeatTamilDanceSong";
-    public const string styleOfWestCoastGangsterRap = "styleOfWestCoastGangsterRap";
-    public const string styleOfEDMKnownForItsSimilaritiesToSynthpopAndUpliftingTranceAsWellAsItsHeavySampling =
+    internal const string UpbeatTamilDanceSong = "UpbeatTamilDanceSong";
+    internal const string styleOfWestCoastGangsterRap = "styleOfWestCoastGangsterRap";
+    internal const string styleOfEDMKnownForItsSimilaritiesToSynthpopAndUpliftingTranceAsWellAsItsHeavySampling =
     "styleOfEDMKnownForItsSimilaritiesToSynthpopAndUpliftingTranceAsWellAsItsHeavySampling";
-    public const string styleOfUKGarageThatFusedItWithElementsOfAllOtherContemporaryEDMStyles =
+    internal const string styleOfUKGarageThatFusedItWithElementsOfAllOtherContemporaryEDMStyles =
     "styleOfUKGarageThatFusedItWithElementsOfAllOtherContemporaryEDMStyles";
-    public const string CapeVerdeanAccordionBasedDanceMusic = "CapeVerdeanAccordionBasedDanceMusic";
-    public const string NigerianFolkMusic = "NigerianFolkMusic";
-    public const string umbrellaTermForBrazilianDanceStylesAssociatedWithBrazilianCarnivale =
+    internal const string CapeVerdeanAccordionBasedDanceMusic = "CapeVerdeanAccordionBasedDanceMusic";
+    internal const string NigerianFolkMusic = "NigerianFolkMusic";
+    internal const string umbrellaTermForBrazilianDanceStylesAssociatedWithBrazilianCarnivale =
     "umbrellaTermForBrazilianDanceStylesAssociatedWithBrazilianCarnivale";
-    public const string LatinAmericanElectroPop = "LatinAmericanElectroPop";
-    public const string BritishInvasionMusic = "BritishInvasionMusic";
-    public const string StyleOfCountryMusicPerformedByFrenchCanadians = "StyleOfCountryMusicPerformedByFrenchCanadians";
-    public const string PopularBrazilianFolkDanceMusic = "PopularBrazilianFolkDanceMusic";
-    public const string
+    internal const string LatinAmericanElectroPop = "LatinAmericanElectroPop";
+    internal const string BritishInvasionMusic = "BritishInvasionMusic";
+    internal const string StyleOfCountryMusicPerformedByFrenchCanadians = "StyleOfCountryMusicPerformedByFrenchCanadians";
+    internal const string PopularBrazilianFolkDanceMusic = "PopularBrazilianFolkDanceMusic";
+    internal const string
     SpanishFolkDanceMusicDevelopedInAndalusiaByRomaniSpanishOrGitanosButTheLatterExpandingToTheGeneralSpanishPopulus =
     "SpanishFolkDanceMusicDevelopedInAndalusiaByRomaniSpanishOrGitanosButTheLatterExpandingToTheGeneralSpanishPopulus";
-    public const string IndianFilmScores = "IndianFilmScores";
-    public const string SpanishMusicMadeUpbeatDanceOfTheSameName = "SpanishMusicMadeUpbeatDanceOfTheSameName";
-    public const string AfghanTajikAndPakistanReligiousFolkMusic = "AfghanTajikAndPakistanReligiousFolkMusic";
-    public const string PortugueseFolkMusicOftenTouchingThemesOfMelancholiaAndWorkingClassStruggles =
+    internal const string IndianFilmScores = "IndianFilmScores";
+    internal const string SpanishMusicMadeUpbeatDanceOfTheSameName = "SpanishMusicMadeUpbeatDanceOfTheSameName";
+    internal const string AfghanTajikAndPakistanReligiousFolkMusic = "AfghanTajikAndPakistanReligiousFolkMusic";
+    internal const string PortugueseFolkMusicOftenTouchingThemesOfMelancholiaAndWorkingClassStruggles =
     "PortugueseFolkMusicOftenTouchingThemesOfMelancholiaAndWorkingClassStruggles";
-    public const string EuropeanTranceMusicUsuallyAFusionOfEurodanceWithUpliftingTranceAndOrHardTrance =
+    internal const string EuropeanTranceMusicUsuallyAFusionOfEurodanceWithUpliftingTranceAndOrHardTrance =
     "EuropeanTranceMusicUsuallyAFusionOfEurodanceWithUpliftingTranceAndOrHardTrance";
-    public const string EuropeanPopMusic = "EuropeanPopMusic";
-    public const string EuropeanHouseMusicUsuallyAHouseBasedFormOfEurodanceOrEuroDisco =
+    internal const string EuropeanPopMusic = "EuropeanPopMusic";
+    internal const string EuropeanHouseMusicUsuallyAHouseBasedFormOfEurodanceOrEuroDisco =
     "EuropeanHouseMusicUsuallyAHouseBasedFormOfEurodanceOrEuroDisco";
-    public const string EuropeanDiscoMusicWhichIncorporatedElementsOfPopRockAndSynthpop =
+    internal const string EuropeanDiscoMusicWhichIncorporatedElementsOfPopRockAndSynthpop =
     "EuropeanDiscoMusicWhichIncorporatedElementsOfPopRockAndSynthpop";
-    public const string EuropeanDanceMusicAndEvolutionOfEuroDiscoThatAdaptedElementsOfHouseAndHiNRG =
+    internal const string EuropeanDanceMusicAndEvolutionOfEuroDiscoThatAdaptedElementsOfHouseAndHiNRG =
     "EuropeanDanceMusicAndEvolutionOfEuroDiscoThatAdaptedElementsOfHouseAndHiNRG";
-    public const string AntecedentToItaloDisco = "AntecedentToItaloDisco";
-    public const string GarifunaPeopleOfWestAfrica = "GarifunaPeopleOfWestAfrica";
-    public const string JapaneseMusic = "JapaneseMusic";
-    public const string musicThatUtilizesElectronicInstrumentsSuchAsTheSynthesizerThereminAndComputer =
+    internal const string AntecedentToItaloDisco = "AntecedentToItaloDisco";
+    internal const string GarifunaPeopleOfWestAfrica = "GarifunaPeopleOfWestAfrica";
+    internal const string JapaneseMusic = "JapaneseMusic";
+    internal const string musicThatUtilizesElectronicInstrumentsSuchAsTheSynthesizerThereminAndComputer =
     "musicThatUtilizesElectronicInstrumentsSuchAsTheSynthesizerThereminAndComputer";
-    public const string EDMAFusionOfElectronicAndDanceMusic = "EDMAFusionOfElectronicAndDanceMusic";
-    public const string EDMInformedStyleOfPostIndustrial = "EDMInformedStyleOfPostIndustrial";
-    public const string fusionOfEDMAndSwingJazz = "fusionOfEDMAndSwingJazz";
-    public const string
+    internal const string EDMAFusionOfElectronicAndDanceMusic = "EDMAFusionOfElectronicAndDanceMusic";
+    internal const string EDMInformedStyleOfPostIndustrial = "EDMInformedStyleOfPostIndustrial";
+    internal const string fusionOfEDMAndSwingJazz = "fusionOfEDMAndSwingJazz";
+    internal const string
     earlyFormOfEDMWhichMadeItsSoundsIntentionallyRoboticAndComputerLikeUsuallyToChannelAndThemeOfTranshumanism =
     "earlyFormOfEDMWhichMadeItsSoundsIntentionallyRoboticAndComputerLikeUsuallyToChannelAndThemeOfTranshumanism";
-    public const string AnyHipHopProducedByNewYork = "AnyHipHopProducedByNewYork";
-    public const string umbrellaTermForAnyBluesMusicMadeByAmericanEastCoastUsuallyUsedToReferToNewYorkOrPiedmontScenes =
+    internal const string AnyHipHopProducedByNewYork = "AnyHipHopProducedByNewYork";
+    internal const string umbrellaTermForAnyBluesMusicMadeByAmericanEastCoastUsuallyUsedToReferToNewYorkOrPiedmontScenes =
     "umbrellaTermForAnyBluesMusicMadeByAmericanEastCoastUsuallyUsedToReferToNewYorkOrPiedmontScenes";
-    public const string JazzPerformedByDutchMusicians = "JazzPerformedByDutchMusicians";
-    public const string StyleOfIndiePopBasedInDunedinNewZealand = "StyleOfIndiePopBasedInDunedinNewZealand";
-    public const string FamilyOfWestAfricanDrums = "FamilyOfWestAfricanDrums";
-    public const string dubInspiredSubgenreOfUKGarageKnownForItsHeavyBasslinesAndReverberantDrums =
+    internal const string JazzPerformedByDutchMusicians = "JazzPerformedByDutchMusicians";
+    internal const string StyleOfIndiePopBasedInDunedinNewZealand = "StyleOfIndiePopBasedInDunedinNewZealand";
+    internal const string FamilyOfWestAfricanDrums = "FamilyOfWestAfricanDrums";
+    internal const string dubInspiredSubgenreOfUKGarageKnownForItsHeavyBasslinesAndReverberantDrums =
     "dubInspiredSubgenreOfUKGarageKnownForItsHeavyBasslinesAndReverberantDrums";
-    public const string fusionOfOakAndEDM = "fusionOfOakAndEDM";
-    public const string styleOfEDMKnownForRapidFireBreakbeatsAndHeavyBasslines =
+    internal const string fusionOfOakAndEDM = "fusionOfOakAndEDM";
+    internal const string styleOfEDMKnownForRapidFireBreakbeatsAndHeavyBasslines =
     "styleOfEDMKnownForRapidFireBreakbeatsAndHeavyBasslines";
-    public const string ChineseTraditionalMusicOfNakhiPeopleOfYunnanProvince =
+    internal const string ChineseTraditionalMusicOfNakhiPeopleOfYunnanProvince =
     "ChineseTraditionalMusicOfNakhiPeopleOfYunnanProvince";
-    public const string AnIrishStyleOfFiddlePlayingFromTheDonegalCounty =
+    internal const string AnIrishStyleOfFiddlePlayingFromTheDonegalCounty =
     "AnIrishStyleOfFiddlePlayingFromTheDonegalCounty";
-    public const string loveBalladsFromMalaccaStateInfluencedByPortugueseStyles =
+    internal const string loveBalladsFromMalaccaStateInfluencedByPortugueseStyles =
     "loveBalladsFromMalaccaStateInfluencedByPortugueseStyles";
-    public const string RomanianFolkMusicMiddleEasternStyles = "RomanianFolkMusicMiddleEasternStyles";
-    public const string AnEarlyFormOfJazzDevelopedInNewOrleansUSA = "AnEarlyFormOfJazzDevelopedInNewOrleansUSA";
-    public const string StyleOfHousePopularInLGBTNightclubs = "StyleOfHousePopularInLGBTNightclubs";
-    public const string PolishDiscoMusic = "PolishDiscoMusic";
-    public const string HindustaniClassicalMusic = "HindustaniClassicalMusic";
-    public const string vocalStyleOfHindustaniClassicalMusicConsideredTheOldestStillBeingPerformedToday =
+    internal const string RomanianFolkMusicMiddleEasternStyles = "RomanianFolkMusicMiddleEasternStyles";
+    internal const string AnEarlyFormOfJazzDevelopedInNewOrleansUSA = "AnEarlyFormOfJazzDevelopedInNewOrleansUSA";
+    internal const string StyleOfHousePopularInLGBTNightclubs = "StyleOfHousePopularInLGBTNightclubs";
+    internal const string PolishDiscoMusic = "PolishDiscoMusic";
+    internal const string HindustaniClassicalMusic = "HindustaniClassicalMusic";
+    internal const string vocalStyleOfHindustaniClassicalMusicConsideredTheOldestStillBeingPerformedToday =
     "vocalStyleOfHindustaniClassicalMusicConsideredTheOldestStillBeingPerformedToday";
-    public const string aTalaUsedInHindustaniClassicalMusicAssociatedWithTheDhrupadStyleAndPlayedOnAPakhawaj =
+    internal const string aTalaUsedInHindustaniClassicalMusicAssociatedWithTheDhrupadStyleAndPlayedOnAPakhawaj =
     "aTalaUsedInHindustaniClassicalMusicAssociatedWithTheDhrupadStyleAndPlayedOnAPakhawaj";
-    public const string DetroitMichiganUSA = "DetroitMichiganUSA";
-    public const string BluesMusicPerformedByDetroitMichiganUSA = "BluesMusicPerformedByDetroitMichiganUSA";
-    public const string AStyleOfHindustaniClassicalRagaAssociatedWithAsavariAndKafiThaat =
+    internal const string DetroitMichiganUSA = "DetroitMichiganUSA";
+    internal const string BluesMusicPerformedByDetroitMichiganUSA = "BluesMusicPerformedByDetroitMichiganUSA";
+    internal const string AStyleOfHindustaniClassicalRagaAssociatedWithAsavariAndKafiThaat =
     "AStyleOfHindustaniClassicalRagaAssociatedWithAsavariAndKafiThaat";
-    public const string AGenreOfImprovisedAfroCubanMusic = "AGenreOfImprovisedAfroCubanMusic";
-    public const string bizarreFormOfComedicAvantGardePlayedByDrDemento =
+    internal const string AGenreOfImprovisedAfroCubanMusic = "AGenreOfImprovisedAfroCubanMusic";
+    internal const string bizarreFormOfComedicAvantGardePlayedByDrDemento =
     "bizarreFormOfComedicAvantGardePlayedByDrDemento";
-    public const string FormOfChicagoHouseInspiredByJazzAndSoulMusic = "FormOfChicagoHouseInspiredByJazzAndSoulMusic";
-    public const string TheMississippiDeltaBluesMusic = "TheMississippiDeltaBluesMusic";
-    public const string HispanicGenreOfSungPoetry = "HispanicGenreOfSungPoetry";
-    public const string
+    internal const string FormOfChicagoHouseInspiredByJazzAndSoulMusic = "FormOfChicagoHouseInspiredByJazzAndSoulMusic";
+    internal const string TheMississippiDeltaBluesMusic = "TheMississippiDeltaBluesMusic";
+    internal const string HispanicGenreOfSungPoetry = "HispanicGenreOfSungPoetry";
+    internal const string
     ExtremeMetalKnownForItsDistortedGuitarStructureGrowVocalsBlastBeatDrummingAndDarkOrViolentLyrics =
     "ExtremeMetalKnownForItsDistortedGuitarStructureGrowVocalsBlastBeatDrummingAndDarkOrViolentLyrics";
-    public const string RomanianLoveMusic = "RomanianLoveMusic";
-    public const string IndianFolkDanceMusicPopularInTheStatesOfKarnatakaAndTamilNadu =
+    internal const string RomanianLoveMusic = "RomanianLoveMusic";
+    internal const string IndianFolkDanceMusicPopularInTheStatesOfKarnatakaAndTamilNadu =
     "IndianFolkDanceMusicPopularInTheStatesOfKarnatakaAndTamilNadu";
-    public const string CubanDanceMusic = "CubanDanceMusic";
-    public const string PuertoRicanStyleOfMusicThatAccompaniesTheBallroomInfluencedDanceOfTheSameName =
+    internal const string CubanDanceMusic = "CubanDanceMusic";
+    internal const string PuertoRicanStyleOfMusicThatAccompaniesTheBallroomInfluencedDanceOfTheSameName =
     "PuertoRicanStyleOfMusicThatAccompaniesTheBallroomInfluencedDanceOfTheSameName";
-    public const string SwedishFolkMusic = "SwedishFolkMusic";
-    public const string melodicAndHeavilyOptimisticFormOfIndianPop = "melodicAndHeavilyOptimisticFormOfIndianPop";
-    public const string JamaicanPopMusicThatAbandonsReggaeSRootsInfluencesForASlickerEDMInspiredProduction =
+    internal const string SwedishFolkMusic = "SwedishFolkMusic";
+    internal const string melodicAndHeavilyOptimisticFormOfIndianPop = "melodicAndHeavilyOptimisticFormOfIndianPop";
+    internal const string JamaicanPopMusicThatAbandonsReggaeSRootsInfluencesForASlickerEDMInspiredProduction =
     "JamaicanPopMusicThatAbandonsReggaeSRootsInfluencesForASlickerEDMInspiredProduction";
-    public const string
+    internal const string
     AnyMusicDesignedToMakeTheListenerDanceAlsoKnownAsClubMusicAnOffshootOfElectronicMusicThatGaveRiseToEDM =
     "AnyMusicDesignedToMakeTheListenerDanceAlsoKnownAsClubMusicAnOffshootOfElectronicMusicThatGaveRiseToEDM";
-    public const string LatvianFolkMusic = "LatvianFolkMusic";
-    public const string HindustaniClassicalMusicWhichUsesSixBeatsInTwoEqualRowsOfThree =
+    internal const string LatvianFolkMusic = "LatvianFolkMusic";
+    internal const string HindustaniClassicalMusicWhichUsesSixBeatsInTwoEqualRowsOfThree =
     "HindustaniClassicalMusicWhichUsesSixBeatsInTwoEqualRowsOfThree";
-    public const string LightVocalStyleOfHindustaniClassicalMusicOriginatingFromTheBundelkhandRegion =
+    internal const string LightVocalStyleOfHindustaniClassicalMusicOriginatingFromTheBundelkhandRegion =
     "LightVocalStyleOfHindustaniClassicalMusicOriginatingFromTheBundelkhandRegion";
-    public const string ArabicFolkDanceMusicOftenPlayedAtWeddings = "ArabicFolkDanceMusicOftenPlayedAtWeddings";
-    public const string BuenosAiresBuenosAires = "BuenosAiresBuenosAires";
-    public const string fusionOfColombianFolkMusicAndAfricanAndSpanishStylesBoughtFromSlavesAndColonistsRespectively =
+    internal const string ArabicFolkDanceMusicOftenPlayedAtWeddings = "ArabicFolkDanceMusicOftenPlayedAtWeddings";
+    internal const string BuenosAiresBuenosAires = "BuenosAiresBuenosAires";
+    internal const string fusionOfColombianFolkMusicAndAfricanAndSpanishStylesBoughtFromSlavesAndColonistsRespectively =
     "fusionOfColombianFolkMusicAndAfricanAndSpanishStylesBoughtFromSlavesAndColonistsRespectively";
-    public const string umbrellaTermForArgentinianChileanAndBolivianStyles =
+    internal const string umbrellaTermForArgentinianChileanAndBolivianStyles =
     "umbrellaTermForArgentinianChileanAndBolivianStyles";
-    public const string
+    internal const string
     ArgentinianMerengueMusicOriginatingInTheCityOfCordobaAndInfluencedAlsoBySpanishAndItalianStyles =
     "ArgentinianMerengueMusicOriginatingInTheCityOfCordobaAndInfluencedAlsoBySpanishAndItalianStyles";
-    public const string HungarianFolkMusic = "HungarianFolkMusic";
-    public const string fusionOfHipHopAndEDMKnownForItsHeavyBasslinesAndShoutedCallAndResponseVocals =
+    internal const string HungarianFolkMusic = "HungarianFolkMusic";
+    internal const string fusionOfHipHopAndEDMKnownForItsHeavyBasslinesAndShoutedCallAndResponseVocals =
     "fusionOfHipHopAndEDMKnownForItsHeavyBasslinesAndShoutedCallAndResponseVocals";
-    public const string GreekFolkMusic = "GreekFolkMusic";
-    public const string IvorianFrenchEDMDrawingOnZoukAndAfricanInfluences =
+    internal const string GreekFolkMusic = "GreekFolkMusic";
+    internal const string IvorianFrenchEDMDrawingOnZoukAndAfricanInfluences =
     "IvorianFrenchEDMDrawingOnZoukAndAfricanInfluences";
-    public const string AmericanRootsMusicWithAcousticGuitarsBanjosFiddlesAndHarmonicas =
+    internal const string AmericanRootsMusicWithAcousticGuitarsBanjosFiddlesAndHarmonicas =
     "AmericanRootsMusicWithAcousticGuitarsBanjosFiddlesAndHarmonicas";
-    public const string MexicanStorytellingBallad = "MexicanStorytellingBallad";
-    public const string PopMusicWithOvertChristianThemes = "PopMusicWithOvertChristianThemes";
-    public const string fusionOfMexicanAndGermanStylesDevelopedByMexicanAmericansWhoHadBoughtGermanInstrumentsInTexas =
+    internal const string MexicanStorytellingBallad = "MexicanStorytellingBallad";
+    internal const string PopMusicWithOvertChristianThemes = "PopMusicWithOvertChristianThemes";
+    internal const string fusionOfMexicanAndGermanStylesDevelopedByMexicanAmericansWhoHadBoughtGermanInstrumentsInTexas =
     "fusionOfMexicanAndGermanStylesDevelopedByMexicanAmericansWhoHadBoughtGermanInstrumentsInTexas";
-    public const string CubanMusicPlayedToAccompanyTheDanceOfTheSameName =
+    internal const string CubanMusicPlayedToAccompanyTheDanceOfTheSameName =
     "CubanMusicPlayedToAccompanyTheDanceOfTheSameName";
-    public const string HaitianMeringueMusic = "HaitianMeringueMusic";
-    public const string DutchAntilleanFolkMusicInspiredByZoukMerengueAndSoca =
+    internal const string HaitianMeringueMusic = "HaitianMeringueMusic";
+    internal const string DutchAntilleanFolkMusicInspiredByZoukMerengueAndSoca =
     "DutchAntilleanFolkMusicInspiredByZoukMerengueAndSoca";
-    public const string FrenchPostPunk = "FrenchPostPunk";
-    public const string CapeVerdeanFolkMusic = "CapeVerdeanFolkMusic";
-    public const string umbrellaTermForWesternArtMusicKnownForItsUseOfLargeOrchestrasAndStaffNotation =
+    internal const string FrenchPostPunk = "FrenchPostPunk";
+    internal const string CapeVerdeanFolkMusic = "CapeVerdeanFolkMusic";
+    internal const string umbrellaTermForWesternArtMusicKnownForItsUseOfLargeOrchestrasAndStaffNotation =
     "umbrellaTermForWesternArtMusicKnownForItsUseOfLargeOrchestrasAndStaffNotation";
-    public const string CaribbeanPopMusicThatFusesCalypsoAndCadenceWithSeveralIndianStyles =
+    internal const string CaribbeanPopMusicThatFusesCalypsoAndCadenceWithSeveralIndianStyles =
     "CaribbeanPopMusicThatFusesCalypsoAndCadenceWithSeveralIndianStyles";
-    public const string folkAndDanceStyleOfGarifunaPeopleOfWestAfrica = "folkAndDanceStyleOfGarifunaPeopleOfWestAfrica";
-    public const string styleOfThroatSingingPerformedByTheTuvaPeopleOfSiberiaCreatedByMimicTheChirpsOfCrickets =
+    internal const string folkAndDanceStyleOfGarifunaPeopleOfWestAfrica = "folkAndDanceStyleOfGarifunaPeopleOfWestAfrica";
+    internal const string styleOfThroatSingingPerformedByTheTuvaPeopleOfSiberiaCreatedByMimicTheChirpsOfCrickets =
     "styleOfThroatSingingPerformedByTheTuvaPeopleOfSiberiaCreatedByMimicTheChirpsOfCrickets";
-    public const string skaMusicWithChristianThemes = "skaMusicWithChristianThemes";
-    public const string RockMusicWithChristianThemes = "RockMusicWithChristianThemes";
-    public const string FusionOfChristianAndPunkRock = "FusionOfChristianAndPunkRock";
-    public const string ChristianThemes = "ChristianThemes";
-    public const string FusionOfChristianAndHeavyMetalRock = "FusionOfChristianAndHeavyMetalRock";
-    public const string HipHopWithChristianThemes = "HipHopWithChristianThemes";
-    public const string FusionOfChristianAndHardcorePunkRock = "FusionOfChristianAndHardcorePunkRock";
-    public const string EDMWithChristianThemes = "EDMWithChristianThemes";
-    public const string AnyMusicTiedToChristmasSeason = "AnyMusicTiedToChristmasSeason";
-    public const string CarolsPerformedDuringTheChristmasSeason = "CarolsPerformedDuringTheChristmasSeason";
-    public const string FusionOfChristianAndCountryMusic = "FusionOfChristianAndCountryMusic";
-    public const string FusionOfChristianAndAlternativeRock = "FusionOfChristianAndAlternativeRock";
-    public const string FastPacedBrazilianPopMusic = "FastPacedBrazilianPopMusic";
-    public const string NorthIndianFolkMusicPerformedDuringThePhagwaOrHoliFestival =
+    internal const string skaMusicWithChristianThemes = "skaMusicWithChristianThemes";
+    internal const string RockMusicWithChristianThemes = "RockMusicWithChristianThemes";
+    internal const string FusionOfChristianAndPunkRock = "FusionOfChristianAndPunkRock";
+    internal const string ChristianThemes = "ChristianThemes";
+    internal const string FusionOfChristianAndHeavyMetalRock = "FusionOfChristianAndHeavyMetalRock";
+    internal const string HipHopWithChristianThemes = "HipHopWithChristianThemes";
+    internal const string FusionOfChristianAndHardcorePunkRock = "FusionOfChristianAndHardcorePunkRock";
+    internal const string EDMWithChristianThemes = "EDMWithChristianThemes";
+    internal const string AnyMusicTiedToChristmasSeason = "AnyMusicTiedToChristmasSeason";
+    internal const string CarolsPerformedDuringTheChristmasSeason = "CarolsPerformedDuringTheChristmasSeason";
+    internal const string FusionOfChristianAndCountryMusic = "FusionOfChristianAndCountryMusic";
+    internal const string FusionOfChristianAndAlternativeRock = "FusionOfChristianAndAlternativeRock";
+    internal const string FastPacedBrazilianPopMusic = "FastPacedBrazilianPopMusic";
+    internal const string NorthIndianFolkMusicPerformedDuringThePhagwaOrHoliFestival =
     "NorthIndianFolkMusicPerformedDuringThePhagwaOrHoliFestival";
-    public const string MartinicanFolkMusic = "MartinicanFolkMusic";
-    public const string
+    internal const string MartinicanFolkMusic = "MartinicanFolkMusic";
+    internal const string
     ElectronicMusicThatIsMadeOnVintageComputersGameSystemsOrEmulationsThereofMayAlsoReferToElectronicMusicThatUsesSamplesFromVideoGamesOrVintageComputers =
     "ElectronicMusicThatIsMadeOnVintageComputersGameSystemsOrEmulationsThereofMayAlsoReferToElectronicMusicThatUsesSamplesFromVideoGamesOrVintageComputers";
-    public const string RockMusicPerformedByChinesePeopleOftenFusedWithTraditionalStyles =
+    internal const string RockMusicPerformedByChinesePeopleOftenFusedWithTraditionalStyles =
     "RockMusicPerformedByChinesePeopleOftenFusedWithTraditionalStyles";
-    public const string ChineseMusic = "ChineseMusic";
-    public const string
+    internal const string ChineseMusic = "ChineseMusic";
+    internal const string
     fusionOfNativeAmericanWhiteAmericanMexicanAndEuropeanStylesPerformedByTheNativeAmericanTohonoOOdhamPeople =
     "fusionOfNativeAmericanWhiteAmericanMexicanAndEuropeanStylesPerformedByTheNativeAmericanTohonoOOdhamPeople";
-    public const string SoulMusicPerformedByChicagoResidents = "SoulMusicPerformedByChicagoResidents";
-    public const string HouseMusicPerformedByChicagoResidents = "HouseMusicPerformedByChicagoResidents";
-    public const string BluesMusic = "BluesMusic";
-    public const string AStyleOfMusicalTheaterPerformedByVietnamesePeasants =
+    internal const string SoulMusicPerformedByChicagoResidents = "SoulMusicPerformedByChicagoResidents";
+    internal const string HouseMusicPerformedByChicagoResidents = "HouseMusicPerformedByChicagoResidents";
+    internal const string BluesMusic = "BluesMusic";
+    internal const string AStyleOfMusicalTheaterPerformedByVietnamesePeasants =
     "AStyleOfMusicalTheaterPerformedByVietnamesePeasants";
-    public const string ADowntempoTranceInducingStyleOfVietnameseFolkMusic =
+    internal const string ADowntempoTranceInducingStyleOfVietnameseFolkMusic =
     "ADowntempoTranceInducingStyleOfVietnameseFolkMusic";
-    public const string HumorousAndFastPacedRussianAndUkrainianFolkMusic =
+    internal const string HumorousAndFastPacedRussianAndUkrainianFolkMusic =
     "HumorousAndFastPacedRussianAndUkrainianFolkMusic";
-    public const string musicAccompanyingTheDanceOfTheSameNameGarifunaPeopleOfWestAfrica =
+    internal const string musicAccompanyingTheDanceOfTheSameNameGarifunaPeopleOfWestAfrica =
     "musicAccompanyingTheDanceOfTheSameNameGarifunaPeopleOfWestAfrica";
-    public const string TraditionalCubanDanceMusic = "TraditionalCubanDanceMusic";
-    public const string
+    internal const string TraditionalCubanDanceMusic = "TraditionalCubanDanceMusic";
+    internal const string
     aVarietyOfMusicOriginatingFromEnglandThatMixesHipHopGenreWithElementsFromTheChappistOrSteampunkSubcultures =
     "aVarietyOfMusicOriginatingFromEnglandThatMixesHipHopGenreWithElementsFromTheChappistOrSteampunkSubcultures";
-    public const string FrenchVocalDrivenMusic = "FrenchVocalDrivenMusic";
-    public const string CubanMusicThatFusedAfricanAndSpanishStyles = "CubanMusicThatFusedAfricanAndSpanishStyles";
-    public const string AfricanColombianFolkMusic = "AfricanColombianFolkMusic";
-    public const string FusionOfAlternativeRockAndChamberMusic = "FusionOfAlternativeRockAndChamberMusic";
-    public const string styleOfArgentinianMesopotamianAndBrazilianFolkMusic =
+    internal const string FrenchVocalDrivenMusic = "FrenchVocalDrivenMusic";
+    internal const string CubanMusicThatFusedAfricanAndSpanishStyles = "CubanMusicThatFusedAfricanAndSpanishStyles";
+    internal const string AfricanColombianFolkMusic = "AfricanColombianFolkMusic";
+    internal const string FusionOfAlternativeRockAndChamberMusic = "FusionOfAlternativeRockAndChamberMusic";
+    internal const string styleOfArgentinianMesopotamianAndBrazilianFolkMusic =
     "styleOfArgentinianMesopotamianAndBrazilianFolkMusic";
-    public const string fusionOfBulgarianEthnoPopAndDanceMusicWithEasternAndArabicElementsPopularInSouthernBulgaria =
+    internal const string fusionOfBulgarianEthnoPopAndDanceMusicWithEasternAndArabicElementsPopularInSouthernBulgaria =
     "fusionOfBulgarianEthnoPopAndDanceMusicWithEasternAndArabicElementsPopularInSouthernBulgaria";
-    public const string musicOfTheSwahiliPeopleOfKenyaAndTanzania = "musicOfTheSwahiliPeopleOfKenyaAndTanzania";
-    public const string ArgentinianFolkAndDanceMusic = "ArgentinianFolkAndDanceMusic";
-    public const string CubanFolkMusic = "CubanFolkMusic";
-    public const string fusionOfCelticAndRockMusic = "fusionOfCelticAndRockMusic";
-    public const string FusionOfCelticAndReggaeMusic = "FusionOfCelticAndReggaeMusic";
-    public const string FusionOfCelticAndPunkRockMusic = "FusionOfCelticAndPunkRockMusic";
-    public const string fusionOfCelticAndHeavyMetalMusic = "fusionOfCelticAndHeavyMetalMusic";
-    public const string FusionOfCelticAndHipHopMusic = "FusionOfCelticAndHipHopMusic";
-    public const string CelticInfluence = "CelticInfluence";
-    public const string folkMusicOfCeltsScotlandIrelandWalesIsleOfManFranceAndSpainAndOnceEngland =
+    internal const string musicOfTheSwahiliPeopleOfKenyaAndTanzania = "musicOfTheSwahiliPeopleOfKenyaAndTanzania";
+    internal const string ArgentinianFolkAndDanceMusic = "ArgentinianFolkAndDanceMusic";
+    internal const string CubanFolkMusic = "CubanFolkMusic";
+    internal const string fusionOfCelticAndRockMusic = "fusionOfCelticAndRockMusic";
+    internal const string FusionOfCelticAndReggaeMusic = "FusionOfCelticAndReggaeMusic";
+    internal const string FusionOfCelticAndPunkRockMusic = "FusionOfCelticAndPunkRockMusic";
+    internal const string fusionOfCelticAndHeavyMetalMusic = "fusionOfCelticAndHeavyMetalMusic";
+    internal const string FusionOfCelticAndHipHopMusic = "FusionOfCelticAndHipHopMusic";
+    internal const string CelticInfluence = "CelticInfluence";
+    internal const string folkMusicOfCeltsScotlandIrelandWalesIsleOfManFranceAndSpainAndOnceEngland =
     "folkMusicOfCeltsScotlandIrelandWalesIsleOfManFranceAndSpainAndOnceEngland";
-    public const string SudaneseFolkMusic = "SudaneseFolkMusic";
-    public const string StyleOfRhythmPopularInKenyanAndZaireanMusic = "StyleOfRhythmPopularInKenyanAndZaireanMusic";
-    public const string AFestiveSongOftenSungOnChristmasOrRarelyEaster =
+    internal const string SudaneseFolkMusic = "SudaneseFolkMusic";
+    internal const string StyleOfRhythmPopularInKenyanAndZaireanMusic = "StyleOfRhythmPopularInKenyanAndZaireanMusic";
+    internal const string AFestiveSongOftenSungOnChristmasOrRarelyEaster =
     "AFestiveSongOftenSungOnChristmasOrRarelyEaster";
-    public const string SouthernIndianClassicalMusic = "SouthernIndianClassicalMusic";
-    public const string TrinidadianFolkMusicOftenConsideredAnEarlyFormOfCalypso =
+    internal const string SouthernIndianClassicalMusic = "SouthernIndianClassicalMusic";
+    internal const string TrinidadianFolkMusicOftenConsideredAnEarlyFormOfCalypso =
     "TrinidadianFolkMusicOftenConsideredAnEarlyFormOfCalypso";
-    public const string BrazilianMusicPlayedDuringPerformancesOfMartialArtOfTheSameName =
+    internal const string BrazilianMusicPlayedDuringPerformancesOfMartialArtOfTheSameName =
     "BrazilianMusicPlayedDuringPerformancesOfMartialArtOfTheSameName";
-    public const string ItalianMusicInNeapolitan = "ItalianMusicInNeapolitan";
-    public const string AnyChinesePopMusicSungInCantonese = "AnyChinesePopMusicSungInCantonese";
-    public const string PortugueseFolkMusicKnownForItsFarLeftPoliticalMessages =
+    internal const string ItalianMusicInNeapolitan = "ItalianMusicInNeapolitan";
+    internal const string AnyChinesePopMusicSungInCantonese = "AnyChinesePopMusicSungInCantonese";
+    internal const string PortugueseFolkMusicKnownForItsFarLeftPoliticalMessages =
     "PortugueseFolkMusicKnownForItsFarLeftPoliticalMessages";
-    public const string PortugueseBalladStyleFromMiddleAges = "PortugueseBalladStyleFromMiddleAges";
-    public const string upbeatFormOfAndalusianFlamencoMusic = "upbeatFormOfAndalusianFlamencoMusic";
-    public const string
+    internal const string PortugueseBalladStyleFromMiddleAges = "PortugueseBalladStyleFromMiddleAges";
+    internal const string upbeatFormOfAndalusianFlamencoMusic = "upbeatFormOfAndalusianFlamencoMusic";
+    internal const string
     groupOfBritishAvantGardeProgressiveRockAndJazzFusionMusiciansBasedInTheEnglishCityOfCanterburyKent =
     "groupOfBritishAvantGardeProgressiveRockAndJazzFusionMusiciansBasedInTheEnglishCityOfCanterburyKent";
-    public const string fusionOfAfricanAndUruguayanStylesDevelopedByAfricanUruguayanSlavesInTheThCentury =
+    internal const string fusionOfAfricanAndUruguayanStylesDevelopedByAfricanUruguayanSlavesInTheThCentury =
     "fusionOfAfricanAndUruguayanStylesDevelopedByAfricanUruguayanSlavesInTheThCentury";
-    public const string IndonesianFusionGenreCombiningSeveralFolkStylesWithPopMusic =
+    internal const string IndonesianFusionGenreCombiningSeveralFolkStylesWithPopMusic =
     "IndonesianFusionGenreCombiningSeveralFolkStylesWithPopMusic";
-    public const string
+    internal const string
     TrinidadianFolkMusicInspiredByBothAfricanAndFrenchStylesKnownForItsLyricsDealingWithRacistOppressionOfNativeTrinidadians =
     "TrinidadianFolkMusicInspiredByBothAfricanAndFrenchStylesKnownForItsLyricsDealingWithRacistOppressionOfNativeTrinidadians";
-    public const string MacedonianFolkStyle = "MacedonianFolkStyle";
-    public const string TrinidadianFolkMusicPlayedDuringThePracticeOfMartialArtOfTheSameName =
+    internal const string MacedonianFolkStyle = "MacedonianFolkStyle";
+    internal const string TrinidadianFolkMusicPlayedDuringThePracticeOfMartialArtOfTheSameName =
     "TrinidadianFolkMusicPlayedDuringThePracticeOfMartialArtOfTheSameName";
-    public const string RootsMusicOfLouisianaUSAInspiredByAcadianBalladsAndCreole =
+    internal const string RootsMusicOfLouisianaUSAInspiredByAcadianBalladsAndCreole =
     "RootsMusicOfLouisianaUSAInspiredByAcadianBalladsAndCreole";
-    public const string ModernVietnameseFolkOpera = "ModernVietnameseFolkOpera";
-    public const string aStyleOfVietnameseChamberMusicPerformedByALutePlayerAndAGeishaEsqueFemaleSinger =
+    internal const string ModernVietnameseFolkOpera = "ModernVietnameseFolkOpera";
+    internal const string aStyleOfVietnameseChamberMusicPerformedByALutePlayerAndAGeishaEsqueFemaleSinger =
     "aStyleOfVietnameseChamberMusicPerformedByALutePlayerAndAGeishaEsqueFemaleSinger";
-    public const string RomanianFolkMusic = "RomanianFolkMusic";
-    public const string GreekMusicPerformedDuringTheByzantineEmpireKnownForItsEcclesiasticalForm =
+    internal const string RomanianFolkMusic = "RomanianFolkMusic";
+    internal const string GreekMusicPerformedDuringTheByzantineEmpireKnownForItsEcclesiasticalForm =
     "GreekMusicPerformedDuringTheByzantineEmpireKnownForItsEcclesiasticalForm";
-    public const string AustralianFolkMusicOftenDealingWithThemesOfAustralianSpiritAndRebellion =
+    internal const string AustralianFolkMusicOftenDealingWithThemesOfAustralianSpiritAndRebellion =
     "AustralianFolkMusicOftenDealingWithThemesOfAustralianSpiritAndRebellion";
-    public const string StyleOfHighlifePlayedByGhanaianGermans = "StyleOfHighlifePlayedByGhanaianGermans";
-    public const string JapaneseFolkMusicOftenPlayedAtPuppetTheaters = "JapaneseFolkMusicOftenPlayedAtPuppetTheaters";
-    public const string CameroonianEDMBornInTheBetiCommunity = "CameroonianEDMBornInTheBetiCommunity";
-    public const string FusionOfEurodanceAndBubblegumPop = "FusionOfEurodanceAndBubblegumPop";
-    public const string BelizeanMusicInspiredByEuropeanHarmoniesAfricanRhythmsAndTheCallAndResponseFormat =
+    internal const string StyleOfHighlifePlayedByGhanaianGermans = "StyleOfHighlifePlayedByGhanaianGermans";
+    internal const string JapaneseFolkMusicOftenPlayedAtPuppetTheaters = "JapaneseFolkMusicOftenPlayedAtPuppetTheaters";
+    internal const string CameroonianEDMBornInTheBetiCommunity = "CameroonianEDMBornInTheBetiCommunity";
+    internal const string FusionOfEurodanceAndBubblegumPop = "FusionOfEurodanceAndBubblegumPop";
+    internal const string BelizeanMusicInspiredByEuropeanHarmoniesAfricanRhythmsAndTheCallAndResponseFormat =
     "BelizeanMusicInspiredByEuropeanHarmoniesAfricanRhythmsAndTheCallAndResponseFormat";
-    public const string SoulMusicPerformedByLatinos = "SoulMusicPerformedByLatinos";
-    public const string anAggressiveAndMetalInfluencedStyleOfDubstepPopularInAmerica =
+    internal const string SoulMusicPerformedByLatinos = "SoulMusicPerformedByLatinos";
+    internal const string anAggressiveAndMetalInfluencedStyleOfDubstepPopularInAmerica =
     "anAggressiveAndMetalInfluencedStyleOfDubstepPopularInAmerica";
-    public const string BluesPerformedByBritishMusicians = "BluesPerformedByBritishMusicians";
-    public const string funkPerformedByBritishOftenInfluencedBySoulJazzAndCaribbeanMusic =
+    internal const string BluesPerformedByBritishMusicians = "BluesPerformedByBritishMusicians";
+    internal const string funkPerformedByBritishOftenInfluencedBySoulJazzAndCaribbeanMusic =
     "funkPerformedByBritishOftenInfluencedBySoulJazzAndCaribbeanMusic";
-    public const string ADistinctiveStyleOfJazzAndLatinInspiredPopDevelopedInTheBrillBuildingOfNewYorkUSA =
+    internal const string ADistinctiveStyleOfJazzAndLatinInspiredPopDevelopedInTheBrillBuildingOfNewYorkUSA =
     "ADistinctiveStyleOfJazzAndLatinInspiredPopDevelopedInTheBrillBuildingOfNewYorkUSA";
-    public const string FolkMusicOfBrittanyFranceFamousForItsUseOfWoodwind =
+    internal const string FolkMusicOfBrittanyFranceFamousForItsUseOfWoodwind =
     "FolkMusicOfBrittanyFranceFamousForItsUseOfWoodwind";
-    public const string aWellKnownStyleOfBrazilianMusicAndLyricalFusionOfSambaAndJazz =
+    internal const string aWellKnownStyleOfBrazilianMusicAndLyricalFusionOfSambaAndJazz =
     "aWellKnownStyleOfBrazilianMusicAndLyricalFusionOfSambaAndJazz";
-    public const string AmazonianFolkMusic = "AmazonianFolkMusic";
-    public const string APopularFolkMusicOfAssamIndia = "APopularFolkMusicOfAssamIndia";
-    public const string
+    internal const string AmazonianFolkMusic = "AmazonianFolkMusic";
+    internal const string APopularFolkMusicOfAssamIndia = "APopularFolkMusicOfAssamIndia";
+    internal const string
     electronicMusicWhereTheLeastPartOfTheMusicIsMadeUsingOldBitComputersGameConsolesAndLittleToyInstrumentsPopularChoicesAreTheCommodoreGameBoyAtariAndNintendoEntertainmentSystem =
     "electronicMusicWhereTheLeastPartOfTheMusicIsMadeUsingOldBitComputersGameConsolesAndLittleToyInstrumentsPopularChoicesAreTheCommodoreGameBoyAtariAndNintendoEntertainmentSystem";
-    public const string AfricanAmericanMusicFromTheMississippiDeltaArea =
+    internal const string AfricanAmericanMusicFromTheMississippiDeltaArea =
     "AfricanAmericanMusicFromTheMississippiDeltaArea";
-    public const string AmericanCountryMusicMixedWithIrishAndScottishInfluences =
+    internal const string AmericanCountryMusicMixedWithIrishAndScottishInfluences =
     "AmericanCountryMusicMixedWithIrishAndScottishInfluences";
-    public const string
+    internal const string
     ExtremeMetalKnownForItsLoFiRecordingShriekingVocalsUnconventionalSongStructuresAndDarkOrSupernaturalLyrics =
     "ExtremeMetalKnownForItsLoFiRecordingShriekingVocalsUnconventionalSongStructuresAndDarkOrSupernaturalLyrics";
-    public const string GuadeloupeanFolkMusic = "GuadeloupeanFolkMusic";
-    public const string
+    internal const string GuadeloupeanFolkMusic = "GuadeloupeanFolkMusic";
+    internal const string
     fusionOfSouthAsianAndBritishPopularStylesInitiallyDevelopedByPunjabiIndianEnglishAsACombinationOfTheirRespectiveCulturalStylesButLaterUsedToReferToAnySouthAsianEuropeanFusion =
     "fusionOfSouthAsianAndBritishPopularStylesInitiallyDevelopedByPunjabiIndianEnglishAsACombinationOfTheirRespectiveCulturalStylesButLaterUsedToReferToAnySouthAsianEuropeanFusion";
-    public const string HinduReligiousMusic = "HinduReligiousMusic";
-    public const string HeavilyExperimentalElectronicMusicThatKrautrockAndNewAgeMusic =
+    internal const string HinduReligiousMusic = "HinduReligiousMusic";
+    internal const string HeavilyExperimentalElectronicMusicThatKrautrockAndNewAgeMusic =
     "HeavilyExperimentalElectronicMusicThatKrautrockAndNewAgeMusic";
-    public const string KenyanPopularMusicBasedOnLuoAndKikuyuFolkMusic =
+    internal const string KenyanPopularMusicBasedOnLuoAndKikuyuFolkMusic =
     "KenyanPopularMusicBasedOnLuoAndKikuyuFolkMusic";
-    public const string UrbanCameroonianMusic = "UrbanCameroonianMusic";
-    public const string ItalianOperaSinging = "ItalianOperaSinging";
-    public const string styleOfChineseTraditionalMusicPopularInTaiwanAndTheProvinceOfZhangzhou =
+    internal const string UrbanCameroonianMusic = "UrbanCameroonianMusic";
+    internal const string ItalianOperaSinging = "ItalianOperaSinging";
+    internal const string styleOfChineseTraditionalMusicPopularInTaiwanAndTheProvinceOfZhangzhou =
     "styleOfChineseTraditionalMusicPopularInTaiwanAndTheProvinceOfZhangzhou";
-    public const string AStyleOfFolkMusicEspeciallyInBengaliRegion = "AStyleOfFolkMusicEspeciallyInBengaliRegion";
-    public const string AnAfricanInfluencedStyleOfBrazilianSumba = "AnAfricanInfluencedStyleOfBrazilianSumba";
-    public const string CubanRumbaMusicThatIncorporatesBataAndGuaguanco =
+    internal const string AStyleOfFolkMusicEspeciallyInBengaliRegion = "AStyleOfFolkMusicEspeciallyInBengaliRegion";
+    internal const string AnAfricanInfluencedStyleOfBrazilianSumba = "AnAfricanInfluencedStyleOfBrazilianSumba";
+    internal const string CubanRumbaMusicThatIncorporatesBataAndGuaguanco =
     "CubanRumbaMusicThatIncorporatesBataAndGuaguanco";
-    public const string stylesOfEDMWithBassDrumAndBassUKGarageAndDubstep =
+    internal const string stylesOfEDMWithBassDrumAndBassUKGarageAndDubstep =
     "stylesOfEDMWithBassDrumAndBassUKGarageAndDubstep";
-    public const string styleOfWesternArtMusicMadeBetweenThAndThCenturies =
+    internal const string styleOfWesternArtMusicMadeBetweenThAndThCenturies =
     "styleOfWesternArtMusicMadeBetweenThAndThCenturies";
-    public const string CameroonianStyleOfAccordionMusic = "CameroonianStyleOfAccordionMusic";
-    public const string styleOfMalayOperaBasedOnIndianStylesIntroducedByImmigrants =
+    internal const string CameroonianStyleOfAccordionMusic = "CameroonianStyleOfAccordionMusic";
+    internal const string styleOfMalayOperaBasedOnIndianStylesIntroducedByImmigrants =
     "styleOfMalayOperaBasedOnIndianStylesIntroducedByImmigrants";
-    public const string BrassBasedMexicanMusic = "BrassBasedMexicanMusic";
-    public const string ColombianStyleBasedOnWaltzBrPoland = "ColombianStyleBasedOnWaltzBrPoland";
-    public const string specificStyleOfFrenchClassicalMusicCreatedToAccompanyTheBalletDance =
+    internal const string BrassBasedMexicanMusic = "BrassBasedMexicanMusic";
+    internal const string ColombianStyleBasedOnWaltzBrPoland = "ColombianStyleBasedOnWaltzBrPoland";
+    internal const string specificStyleOfFrenchClassicalMusicCreatedToAccompanyTheBalletDance =
     "specificStyleOfFrenchClassicalMusicCreatedToAccompanyTheBalletDance";
-    public const string SerbianMusicMadeBySoldiersThatCombinedMilitaryBrassWithFolkMusic =
+    internal const string SerbianMusicMadeBySoldiersThatCombinedMilitaryBrassWithFolkMusic =
     "SerbianMusicMadeBySoldiersThatCombinedMilitaryBrassWithFolkMusic";
-    public const string JavaneseAndBalineseStyleMadeOfXylophonesDrumsAndPluckedStrings =
+    internal const string JavaneseAndBalineseStyleMadeOfXylophonesDrumsAndPluckedStrings =
     "JavaneseAndBalineseStyleMadeOfXylophonesDrumsAndPluckedStrings";
-    public const string GuadeloupeanMusicMadeFromQuadrilleUsuallyPerformedAtBalls =
+    internal const string GuadeloupeanMusicMadeFromQuadrilleUsuallyPerformedAtBalls =
     "GuadeloupeanMusicMadeFromQuadrilleUsuallyPerformedAtBalls";
-    public const string
+    internal const string
     InitiallyAnAcousticStyleOfMalianPopMusicPlayedAtGatheringsMainlyWeddingsWhichHasSinceBecomeMostlyElectronic =
     "InitiallyAnAcousticStyleOfMalianPopMusicPlayedAtGatheringsMainlyWeddingsWhichHasSinceBecomeMostlyElectronic";
-    public const string orchestralChineseStyleUsedByNaxiPeopleOftenFoundInTaoistOrConfucianCeremonies =
+    internal const string orchestralChineseStyleUsedByNaxiPeopleOftenFoundInTaoistOrConfucianCeremonies =
     "orchestralChineseStyleUsedByNaxiPeopleOftenFoundInTaoistOrConfucianCeremonies";
-    public const string SriLankanStyleThatBegunAmongTheAfroSinhaleseOrKariffCommunity =
+    internal const string SriLankanStyleThatBegunAmongTheAfroSinhaleseOrKariffCommunity =
     "SriLankanStyleThatBegunAmongTheAfroSinhaleseOrKariffCommunity";
-    public const string ARawAndGrittyCountryStyleThatActsAsAReactionAgainstTheSlickOverproducedNashvilleSound =
+    internal const string ARawAndGrittyCountryStyleThatActsAsAReactionAgainstTheSlickOverproducedNashvilleSound =
     "ARawAndGrittyCountryStyleThatActsAsAReactionAgainstTheSlickOverproducedNashvilleSound";
-    public const string
+    internal const string
     aBrazilianRhythmicFormulaBuiltAroundTheZabumbaDrumThatLaterCombinedItselfWithElementsOfMestizoEuropeanAndAfricanStyles =
     "aBrazilianRhythmicFormulaBuiltAroundTheZabumbaDrumThatLaterCombinedItselfWithElementsOfMestizoEuropeanAndAfricanStyles";
-    public const string aBritishStyleThatCombinedAlternativeRockAndAcidHouseOftenCreatingAPsychedelicAndFunkySound =
+    internal const string aBritishStyleThatCombinedAlternativeRockAndAcidHouseOftenCreatingAPsychedelicAndFunkySound =
     "aBritishStyleThatCombinedAlternativeRockAndAcidHouseOftenCreatingAPsychedelicAndFunkySound";
-    public const string AfroDominicanStyleOfRockMusicThatBecamePopularAmongDominicanFarmers =
+    internal const string AfroDominicanStyleOfRockMusicThatBecamePopularAmongDominicanFarmers =
     "AfroDominicanStyleOfRockMusicThatBecamePopularAmongDominicanFarmers";
-    public const string styleOfSalvadorianBahianAndBrazilianMusicInformedByAfroCubanAndAfroBrazilianStyles =
+    internal const string styleOfSalvadorianBahianAndBrazilianMusicInformedByAfroCubanAndAfroBrazilianStyles =
     "styleOfSalvadorianBahianAndBrazilianMusicInformedByAfroCubanAndAfroBrazilianStyles";
-    public const string HipHopPerformedByAustralians = "HipHopPerformedByAustralians";
-    public const string styleOfHardRockFoundedInAustralianNativeCityAndSuburbanPubsAndDrinkingEstablishments =
+    internal const string HipHopPerformedByAustralians = "HipHopPerformedByAustralians";
+    internal const string styleOfHardRockFoundedInAustralianNativeCityAndSuburbanPubsAndDrinkingEstablishments =
     "styleOfHardRockFoundedInAustralianNativeCityAndSuburbanPubsAndDrinkingEstablishments";
-    public const string CountryMusicPerformedByAustralians = "CountryMusicPerformedByAustralians";
-    public const string
+    internal const string CountryMusicPerformedByAustralians = "CountryMusicPerformedByAustralians";
+    internal const string
     musicPerformedByMysticOrTravelingTurkishAzerbaijanGeorgianArmenianAndIranianBandsUsingVocalsAndTheSootPerformedSinceAncientTimes =
     "musicPerformedByMysticOrTravelingTurkishAzerbaijanGeorgianArmenianAndIranianBandsUsingVocalsAndTheSootPerformedSinceAncientTimes";
-    public const string styleOfFrenchMusicFromTheLateMiddleAges = "styleOfFrenchMusicFromTheLateMiddleAges";
-    public const string styleOfFrenchMusicFromTheLateMiddleAgesRejectedByTheCatholicChurch =
+    internal const string styleOfFrenchMusicFromTheLateMiddleAges = "styleOfFrenchMusicFromTheLateMiddleAges";
+    internal const string styleOfFrenchMusicFromTheLateMiddleAgesRejectedByTheCatholicChurch =
     "styleOfFrenchMusicFromTheLateMiddleAgesRejectedByTheCatholicChurch";
-    public const string EuropeanMusicFromTheLateMiddleAgesWhichAdvancedConceptsOfRhythm =
+    internal const string EuropeanMusicFromTheLateMiddleAgesWhichAdvancedConceptsOfRhythm =
     "EuropeanMusicFromTheLateMiddleAgesWhichAdvancedConceptsOfRhythm";
-    public const string rockMusicInformedByTraditionalArgentineStyles = "rockMusicInformedByTraditionalArgentineStyles";
-    public const string popMusicInformedByTraditionalArabicStyles = "popMusicInformedByTraditionalArabicStyles";
-    public const string NigerianMusicOriginallyUsedByTheYorubaPeopleToWakeWorshipersAfterFastingDuringRamadan =
+    internal const string rockMusicInformedByTraditionalArgentineStyles = "rockMusicInformedByTraditionalArgentineStyles";
+    internal const string popMusicInformedByTraditionalArabicStyles = "popMusicInformedByTraditionalArabicStyles";
+    internal const string NigerianMusicOriginallyUsedByTheYorubaPeopleToWakeWorshipersAfterFastingDuringRamadan =
     "NigerianMusicOriginallyUsedByTheYorubaPeopleToWakeWorshipersAfterFastingDuringRamadan";
-    public const string IslamicVocalMusicUsuallySungACapella = "IslamicVocalMusicUsuallySungACapella";
-    public const string umbrellaGenreTermForAfricanPopularMusic = "umbrellaGenreTermForAfricanPopularMusic";
-    public const string styleOfJazzInfluencedByTraditionalAfroCubanMusic =
+    internal const string IslamicVocalMusicUsuallySungACapella = "IslamicVocalMusicUsuallySungACapella";
+    internal const string umbrellaGenreTermForAfricanPopularMusic = "umbrellaGenreTermForAfricanPopularMusic";
+    internal const string styleOfJazzInfluencedByTraditionalAfroCubanMusic =
     "styleOfJazzInfluencedByTraditionalAfroCubanMusic";
-    public const string aLargeScaledAndEnergeticCombinationOfYorubaHighlifeJazzAndFunkMusic =
+    internal const string aLargeScaledAndEnergeticCombinationOfYorubaHighlifeJazzAndFunkMusic =
     "aLargeScaledAndEnergeticCombinationOfYorubaHighlifeJazzAndFunkMusic";
-    public const string Added = "Added";
-    public const string ArtistNotFound = "ArtistNotFound";
-    public const string TrackNotFound = "TrackNotFound";
-    public const string UseTheBrowseAsyncMethod = "UseTheBrowseAsyncMethod";
-    public const string UseTheSearchAsyncMethod = "UseTheSearchAsyncMethod";
-    public const string UseTheGetAsyncMethod = "UseTheGetAsyncMethod";
-    public const string AllCachesHaveBeenCorrectlyDetectedAsBeingDisabledOrEnabled =
+    internal const string Added = "Added";
+    internal const string ArtistNotFound = "ArtistNotFound";
+    internal const string TrackNotFound = "TrackNotFound";
+    internal const string UseTheBrowseAsyncMethod = "UseTheBrowseAsyncMethod";
+    internal const string UseTheSearchAsyncMethod = "UseTheSearchAsyncMethod";
+    internal const string UseTheGetAsyncMethod = "UseTheGetAsyncMethod";
+    internal const string AllCachesHaveBeenCorrectlyDetectedAsBeingDisabledOrEnabled =
     "AllCachesHaveBeenCorrectlyDetectedAsBeingDisabledOrEnabled";
-    public const string SomePagesFailedToLoad = "SomePagesFailedToLoad";
-    public const string ThisCacheListingHasBeenArchived = "ThisCacheListingHasBeenArchived";
-    public const string ThisCacheIsTemporarilyUnavailableReadTheLogsBelowToReadTheStatusForThisCache =
+    internal const string SomePagesFailedToLoad = "SomePagesFailedToLoad";
+    internal const string ThisCacheListingHasBeenArchived = "ThisCacheListingHasBeenArchived";
+    internal const string ThisCacheIsTemporarilyUnavailableReadTheLogsBelowToReadTheStatusForThisCache =
     "ThisCacheIsTemporarilyUnavailableReadTheLogsBelowToReadTheStatusForThisCache";
-    public const string Listing = "Listing";
-    public const string ShowOnGoogleMaps = "ShowOnGoogleMaps";
-    public const string Public = "Public";
-    public const string District = "District";
-    public const string ListOfCaches = "ListOfCaches";
-    public const string listsOfCaches = "listsOfCaches";
-    public const string Statistics = "Statistics";
-    public const string TheFileName = "TheFileName";
-    public const string UploadDate = "UploadDate";
-    public const string NumberOfSegments = "NumberOfSegments";
-    public const string LastSegment = "LastSegment";
-    public const string FirstSegment = "FirstSegment";
-    public const string Order = "Order";
-    public const string YouHavenTUploadedAnyGpxTracksYet = "YouHavenTUploadedAnyGpxTracksYet";
-    public const string Hidden = "Hidden";
-    public const string Comment = "Comment";
-    public const string Name = "Name";
-    public const string DateAndTime = "DateAndTime";
-    public const string SpeedInMS = "SpeedInMS";
-    public const string SegmentDuration = "SegmentDuration";
-    public const string DistanceInM = "DistanceInM";
-    public const string AltitudeInMNM = "AltitudeInMNM";
-    public const string Geocache = "Geocache";
-    public const string OnlyTheWebmasterCanAddCachesToTheSite = "OnlyTheWebmasterCanAddCachesToTheSite";
-    public const string Terrain = "Terrain";
-    public const string Difficulty = "Difficulty";
-    public const string AllDistricts = "AllDistricts";
-    public const string AllRegions = "AllRegions";
-    public const string AllStates = "AllStates";
-    public const string NoSheet = "NoSheet";
-    public const string CacheType = "CacheType";
-    public const string Size = "Size";
-    public const string Hint = "Hint";
-    public const string Coordinates = "Coordinates";
-    public const string TheNameOfTheCache = "TheNameOfTheCache";
-    public const string Caches = "Caches";
-    public const string Hints = "Hints";
-    public const string ByteFile = "ByteFile";
-    public const string Discard = "Discard";
-    public const string Azure = "Azure";
-    public const string ReverseHTMLListOrder = "ReverseHTMLListOrder";
-    public const string CreateHTMLForMetroCssUiGrid = "CreateHTMLForMetroCssUiGrid";
-    public const string AwesomeFontSymbol = "AwesomeFontSymbol";
-    public const string ToolsForDevelopers = "ToolsForDevelopers";
-    public const string CreateUriWithQueryString = "CreateUriWithQueryString";
-    public const string ConvertHTMLToEntities = "ConvertHTMLToEntities";
-    public const string BadInputUri = "BadInputUri";
-    public const string ParseUlozToLiveVideoUri = "ParseUlozToLiveVideoUri";
-    public const string FileHasAlreadyBeenUploadedToThisVersionUploadingANewFileWillOverwriteTheExistingOne =
+    internal const string Listing = "Listing";
+    internal const string ShowOnGoogleMaps = "ShowOnGoogleMaps";
+    internal const string Public = "Public";
+    internal const string District = "District";
+    internal const string ListOfCaches = "ListOfCaches";
+    internal const string listsOfCaches = "listsOfCaches";
+    internal const string Statistics = "Statistics";
+    internal const string TheFileName = "TheFileName";
+    internal const string UploadDate = "UploadDate";
+    internal const string NumberOfSegments = "NumberOfSegments";
+    internal const string LastSegment = "LastSegment";
+    internal const string FirstSegment = "FirstSegment";
+    internal const string Order = "Order";
+    internal const string YouHavenTUploadedAnyGpxTracksYet = "YouHavenTUploadedAnyGpxTracksYet";
+    internal const string Hidden = "Hidden";
+    internal const string Comment = "Comment";
+    internal const string Name = "Name";
+    internal const string DateAndTime = "DateAndTime";
+    internal const string SpeedInMS = "SpeedInMS";
+    internal const string SegmentDuration = "SegmentDuration";
+    internal const string DistanceInM = "DistanceInM";
+    internal const string AltitudeInMNM = "AltitudeInMNM";
+    internal const string Geocache = "Geocache";
+    internal const string OnlyTheWebmasterCanAddCachesToTheSite = "OnlyTheWebmasterCanAddCachesToTheSite";
+    internal const string Terrain = "Terrain";
+    internal const string Difficulty = "Difficulty";
+    internal const string AllDistricts = "AllDistricts";
+    internal const string AllRegions = "AllRegions";
+    internal const string AllStates = "AllStates";
+    internal const string NoSheet = "NoSheet";
+    internal const string CacheType = "CacheType";
+    internal const string Size = "Size";
+    internal const string Hint = "Hint";
+    internal const string Coordinates = "Coordinates";
+    internal const string TheNameOfTheCache = "TheNameOfTheCache";
+    internal const string Caches = "Caches";
+    internal const string Hints = "Hints";
+    internal const string ByteFile = "ByteFile";
+    internal const string Discard = "Discard";
+    internal const string Azure = "Azure";
+    internal const string ReverseHTMLListOrder = "ReverseHTMLListOrder";
+    internal const string CreateHTMLForMetroCssUiGrid = "CreateHTMLForMetroCssUiGrid";
+    internal const string AwesomeFontSymbol = "AwesomeFontSymbol";
+    internal const string ToolsForDevelopers = "ToolsForDevelopers";
+    internal const string CreateUriWithQueryString = "CreateUriWithQueryString";
+    internal const string ConvertHTMLToEntities = "ConvertHTMLToEntities";
+    internal const string BadInputUri = "BadInputUri";
+    internal const string ParseUlozToLiveVideoUri = "ParseUlozToLiveVideoUri";
+    internal const string FileHasAlreadyBeenUploadedToThisVersionUploadingANewFileWillOverwriteTheExistingOne =
     "FileHasAlreadyBeenUploadedToThisVersionUploadingANewFileWillOverwriteTheExistingOne";
-    public const string Color = "Color";
-    public const string Download = "Download";
-    public const string UnimplementedSortAppsByBranch = "UnimplementedSortAppsByBranch";
-    public const string Likes = "Likes";
-    public const string Version = "Version";
-    public const string EnterOrSelect = "EnterOrSelect";
-    public const string SelectedFile = "SelectedFile";
-    public const string None = "None";
-    public const string ItNeedsMoreRowsThanItExists = "ItNeedsMoreRowsThanItExists";
-    public const string BlueColorComponent = "BlueColorComponent";
-    public const string GreenColorComponent = "GreenColorComponent";
-    public const string RedColorComponent = "RedColorComponent";
-    public const string BlueColorFolder = "BlueColorFolder";
-    public const string GreenColorFolder = "GreenColorFolder";
-    public const string RedColoredFolder = "RedColoredFolder";
-    public const string NoMoreImagesLoadedBecauseTheSpecifiedFolderDidNotContainAnyImages =
+    internal const string Color = "Color";
+    internal const string Download = "Download";
+    internal const string UnimplementedSortAppsByBranch = "UnimplementedSortAppsByBranch";
+    internal const string Likes = "Likes";
+    internal const string Version = "Version";
+    internal const string EnterOrSelect = "EnterOrSelect";
+    internal const string SelectedFile = "SelectedFile";
+    internal const string None = "None";
+    internal const string ItNeedsMoreRowsThanItExists = "ItNeedsMoreRowsThanItExists";
+    internal const string BlueColorComponent = "BlueColorComponent";
+    internal const string GreenColorComponent = "GreenColorComponent";
+    internal const string RedColorComponent = "RedColorComponent";
+    internal const string BlueColorFolder = "BlueColorFolder";
+    internal const string GreenColorFolder = "GreenColorFolder";
+    internal const string RedColoredFolder = "RedColoredFolder";
+    internal const string NoMoreImagesLoadedBecauseTheSpecifiedFolderDidNotContainAnyImages =
     "NoMoreImagesLoadedBecauseTheSpecifiedFolderDidNotContainAnyImages";
-    public const string ImageCollectionDeleted = "ImageCollectionDeleted";
-    public const string MovedForwardToPhoto = "MovedForwardToPhoto";
-    public const string MovedBackToPhoto = "MovedBackToPhoto";
-    public const string YouCannotCallSetInitialCheckedTwiceForTheSameToggleButton =
+    internal const string ImageCollectionDeleted = "ImageCollectionDeleted";
+    internal const string MovedForwardToPhoto = "MovedForwardToPhoto";
+    internal const string MovedBackToPhoto = "MovedBackToPhoto";
+    internal const string YouCannotCallSetInitialCheckedTwiceForTheSameToggleButton =
     "YouCannotCallSetInitialCheckedTwiceForTheSameToggleButton";
-    public const string SearchingWasStopped = "SearchingWasStopped";
-    public const string WasFounded = "WasFounded";
-    public const string Save = "Save";
-    public const string DecideWhichToProcess = "DecideWhichToProcess";
-    public const string Check = "Check";
-    public const string CheckBoxList = "CheckBoxList";
-    public const string Handler = "Handler";
-    public const string OnlyButtonsCanBeAcceptedBecauseItHasNoDataForAccept =
+    internal const string SearchingWasStopped = "SearchingWasStopped";
+    internal const string WasFounded = "WasFounded";
+    internal const string Save = "Save";
+    internal const string DecideWhichToProcess = "DecideWhichToProcess";
+    internal const string Check = "Check";
+    internal const string CheckBoxList = "CheckBoxList";
+    internal const string Handler = "Handler";
+    internal const string OnlyButtonsCanBeAcceptedBecauseItHasNoDataForAccept =
     "OnlyButtonsCanBeAcceptedBecauseItHasNoDataForAccept";
-    public const string AllOfTheInputsMustBeFilled = "AllOfTheInputsMustBeFilled";
-    public const string SelectActionToProceed = "SelectActionToProceed";
-    public const string SelectAction = "SelectAction";
-    public const string ThenPressEnter = "ThenPressEnter";
-    public const string DoYouWantToContinue = "DoYouWantToContinue";
-    public const string AppLoadedFromClipboard = "AppLoadedFromClipboard";
-    public const string ForExitEnter = "ForExitEnter";
-    public const string Enter = "Enter";
-    public const string UninplementedBranch = "UninplementedBranch";
-    public const string Unlike = "Unlike";
-    public const string WrongParameter = "WrongParameter";
-    public const string NoDelimiterDetermined = "NoDelimiterDetermined";
-    public const string NoDelimiterSpecified = "NoDelimiterSpecified";
-    public const string isAnElementReplacingIt = "isAnElementReplacingIt";
-    public const string ReplacedElement = "ReplacedElement";
-    public const string ofTheseSites = "ofTheseSites";
-    public const string enterTheCodeHere = "enterTheCodeHere";
-    public const string UnableToOpenReparsePoint = "UnableToOpenReparsePoint";
-    public const string UnableToGetInformationAboutJunctionPoint = "UnableToGetInformationAboutJunctionPoint";
-    public const string UnableToDeleteJunctionPoint = "UnableToDeleteJunctionPoint";
-    public const string PathIsNotAJunctionPoint = "PathIsNotAJunctionPoint";
-    public const string UnableToCreateJunctionPoint = "UnableToCreateJunctionPoint";
-    public const string DirectoryAlreadyExistsAndOverwriteParameterIsFalse =
+    internal const string AllOfTheInputsMustBeFilled = "AllOfTheInputsMustBeFilled";
+    internal const string SelectActionToProceed = "SelectActionToProceed";
+    internal const string SelectAction = "SelectAction";
+    internal const string ThenPressEnter = "ThenPressEnter";
+    internal const string DoYouWantToContinue = "DoYouWantToContinue";
+    internal const string AppLoadedFromClipboard = "AppLoadedFromClipboard";
+    internal const string ForExitEnter = "ForExitEnter";
+    internal const string Enter = "Enter";
+    internal const string UninplementedBranch = "UninplementedBranch";
+    internal const string Unlike = "Unlike";
+    internal const string WrongParameter = "WrongParameter";
+    internal const string NoDelimiterDetermined = "NoDelimiterDetermined";
+    internal const string NoDelimiterSpecified = "NoDelimiterSpecified";
+    internal const string isAnElementReplacingIt = "isAnElementReplacingIt";
+    internal const string ReplacedElement = "ReplacedElement";
+    internal const string ofTheseSites = "ofTheseSites";
+    internal const string enterTheCodeHere = "enterTheCodeHere";
+    internal const string UnableToOpenReparsePoint = "UnableToOpenReparsePoint";
+    internal const string UnableToGetInformationAboutJunctionPoint = "UnableToGetInformationAboutJunctionPoint";
+    internal const string UnableToDeleteJunctionPoint = "UnableToDeleteJunctionPoint";
+    internal const string PathIsNotAJunctionPoint = "PathIsNotAJunctionPoint";
+    internal const string UnableToCreateJunctionPoint = "UnableToCreateJunctionPoint";
+    internal const string DirectoryAlreadyExistsAndOverwriteParameterIsFalse =
     "DirectoryAlreadyExistsAndOverwriteParameterIsFalse";
-    public const string TargetPathDoesNotExistOrIsNotADirectory = "TargetPathDoesNotExistOrIsNotADirectory";
-    public const string FileCannotBeDeleted = "FileCannotBeDeleted";
-    public const string OnlyForTestFilesForOtherApps = "OnlyForTestFilesForOtherApps";
-    public const string FolderHasBeenRenamedIt = "FolderHasBeenRenamedIt";
-    public const string ComputerSizeUnitOutputHasBeenSpecifiedICannotChangeThisSetting =
+    internal const string TargetPathDoesNotExistOrIsNotADirectory = "TargetPathDoesNotExistOrIsNotADirectory";
+    internal const string FileCannotBeDeleted = "FileCannotBeDeleted";
+    internal const string OnlyForTestFilesForOtherApps = "OnlyForTestFilesForOtherApps";
+    internal const string FolderHasBeenRenamedIt = "FolderHasBeenRenamedIt";
+    internal const string ComputerSizeUnitOutputHasBeenSpecifiedICannotChangeThisSetting =
     "ComputerSizeUnitOutputHasBeenSpecifiedICannotChangeThisSetting";
-    public const string Opacity = "Opacity";
-    public const string Transparency = "Transparency";
-    public const string NotImplementedPleaseContactTheWebmasterAboutThisDefectWhichIsListedInTheFooterOfEachPage =
+    internal const string Opacity = "Opacity";
+    internal const string Transparency = "Transparency";
+    internal const string NotImplementedPleaseContactTheWebmasterAboutThisDefectWhichIsListedInTheFooterOfEachPage =
     "NotImplementedPleaseContactTheWebmasterAboutThisDefectWhichIsListedInTheFooterOfEachPage";
-    public const string
+    internal const string
     YouReceivedThisMailBecauseYouWereRegisteredToReceiveNewCommentsIfYouDLikeToCancelYourSubscriptionYouCanDoSoOnThePageThatHasTheLinkAtTheBeginningOfTheMail =
     "YouReceivedThisMailBecauseYouWereRegisteredToReceiveNewCommentsIfYouDLikeToCancelYourSubscriptionYouCanDoSoOnThePageThatHasTheLinkAtTheBeginningOfTheMail";
-    public const string newContentCommentAdded = "newContentCommentAdded";
-    public const string TheAboveMentionedUserRecommendsThisPageToYou = "TheAboveMentionedUserRecommendsThisPageToYou";
-    public const string forYou = "forYou";
-    public const string verifiedEmail = "verifiedEmail";
-    public const string fromTheseSites = "fromTheseSites";
-    public const string UserIsRequestingRemovalOfUserComments = "UserIsRequestingRemovalOfUserComments";
-    public const string addDomain = "addDomain";
-    public const string thenVerificationWillNoLongerWorkAndYouWillNeedToRegisterTheDomainAgain =
+    internal const string newContentCommentAdded = "newContentCommentAdded";
+    internal const string TheAboveMentionedUserRecommendsThisPageToYou = "TheAboveMentionedUserRecommendsThisPageToYou";
+    internal const string forYou = "forYou";
+    internal const string verifiedEmail = "verifiedEmail";
+    internal const string fromTheseSites = "fromTheseSites";
+    internal const string UserIsRequestingRemovalOfUserComments = "UserIsRequestingRemovalOfUserComments";
+    internal const string addDomain = "addDomain";
+    internal const string thenVerificationWillNoLongerWorkAndYouWillNeedToRegisterTheDomainAgain =
     "thenVerificationWillNoLongerWorkAndYouWillNeedToRegisterTheDomainAgain";
-    public const string YouShouldDoItBy = "YouShouldDoItBy";
-    public const string andEnterTheCodeHere = "andEnterTheCodeHere";
-    public const string visitThePage = "visitThePage";
-    public const string or = "or";
-    public const string click = "click";
-    public const string
+    internal const string YouShouldDoItBy = "YouShouldDoItBy";
+    internal const string andEnterTheCodeHere = "andEnterTheCodeHere";
+    internal const string visitThePage = "visitThePage";
+    internal const string or = "or";
+    internal const string click = "click";
+    internal const string
     ToVerifyThatYourDomainIsYoursEnterThisHTMLCodeItSAHiddenFieldThatWonTAppearInDesignOrTextToTheHomePage =
     "ToVerifyThatYourDomainIsYoursEnterThisHTMLCodeItSAHiddenFieldThatWonTAppearInDesignOrTextToTheHomePage";
-    public const string YouHaveRequestedToaddDomain = "YouHaveRequestedToaddDomain";
-    public const string fromThePlan = "fromThePlan";
-    public const string Den = "Den";
-    public const string fromTheReadingPlan = "fromTheReadingPlan";
-    public const string day = "day";
-    public const string weHaveTheVersesForYouToday = "weHaveTheVersesForYouToday";
-    public const string whereToFindMoreInformation = "whereToFindMoreInformation";
-    public const string approvalPage = "approvalPage";
-    public const string ToApproveItGoTo = "ToApproveItGoTo";
-    public const string ANewReadingPlanWasCreated = "ANewReadingPlanWasCreated";
-    public const string
+    internal const string YouHaveRequestedToaddDomain = "YouHaveRequestedToaddDomain";
+    internal const string fromThePlan = "fromThePlan";
+    internal const string Den = "Den";
+    internal const string fromTheReadingPlan = "fromTheReadingPlan";
+    internal const string day = "day";
+    internal const string weHaveTheVersesForYouToday = "weHaveTheVersesForYouToday";
+    internal const string whereToFindMoreInformation = "whereToFindMoreInformation";
+    internal const string approvalPage = "approvalPage";
+    internal const string ToApproveItGoTo = "ToApproveItGoTo";
+    internal const string ANewReadingPlanWasCreated = "ANewReadingPlanWasCreated";
+    internal const string
     itHasNotBeenApprovedAndAllYouHaveDoneOnItHasBeenCompletelyErasedMostOftenThisHappensWhenTheChosenVersesAreUnsystematicallyOrNonThematicallyArrangedIfTheReadingPlanAlreadyExistsOrTheReadingPlanHasSomethingThatWouldNotBenefitOtherReadersOfThisSiteAlsoApprovalMayNotOccurIfTheReadingPlanContainedALargeNumberOfGrammaticalErrors =
     "itHasNotBeenApprovedAndAllYouHaveDoneOnItHasBeenCompletelyErasedMostOftenThisHappensWhenTheChosenVersesAreUnsystematicallyOrNonThematicallyArrangedIfTheReadingPlanAlreadyExistsOrTheReadingPlanHasSomethingThatWouldNotBenefitOtherReadersOfThisSiteAlsoApprovalMayNotOccurIfTheReadingPlanContainedALargeNumberOfGrammaticalErrors";
-    public const string YouCanNowAssignVersesToIt = "YouCanNowAssignVersesToIt";
-    public const string
+    internal const string YouCanNowAssignVersesToIt = "YouCanNowAssignVersesToIt";
+    internal const string
     itHasNotBeenApprovedAndAllYouHaveDoneOnItHasBeenCompletelyErasedMostOftenThisHappensWhenTheChosenVersesAreUnsystematicallyOrNonSystematicallyArranged =
     "itHasNotBeenApprovedAndAllYouHaveDoneOnItHasBeenCompletelyErasedMostOftenThisHappensWhenTheChosenVersesAreUnsystematicallyOrNonSystematicallyArranged";
-    public const string OjojUnfortunatelyYourReadingPlan = "OjojUnfortunatelyYourReadingPlan";
-    public const string NowYouCanStartReadingItOn = "NowYouCanStartReadingItOn";
-    public const string WellDoneYourReadingPlanWasApproved = "WellDoneYourReadingPlanWasApproved";
-    public const string emailTo = "emailTo";
-    public const string planName = "planName";
-    public const string planID = "planID";
-    public const string approved = "approved";
-    public const string readPlan = "readPlan";
-    public const string TitleApprovalApplication = "TitleApprovalApplication";
-    public const string TheUserRequestsTheReadPlanApproval = "TheUserRequestsTheReadPlanApproval";
-    public const string namePlan = "namePlan";
-    public const string idPlan = "idPlan";
-    public const string IWishYouMySitesToBeOfBenefitAndJoy = "IWishYouMySitesToBeOfBenefitAndJoy";
-    public const string hg = "hg";
-    public const string NotImplementedPleaseContactTheWebmasterForThisDeficiencyListedInTheFooterOfEachPage =
+    internal const string OjojUnfortunatelyYourReadingPlan = "OjojUnfortunatelyYourReadingPlan";
+    internal const string NowYouCanStartReadingItOn = "NowYouCanStartReadingItOn";
+    internal const string WellDoneYourReadingPlanWasApproved = "WellDoneYourReadingPlanWasApproved";
+    internal const string emailTo = "emailTo";
+    internal const string planName = "planName";
+    internal const string planID = "planID";
+    internal const string approved = "approved";
+    internal const string readPlan = "readPlan";
+    internal const string TitleApprovalApplication = "TitleApprovalApplication";
+    internal const string TheUserRequestsTheReadPlanApproval = "TheUserRequestsTheReadPlanApproval";
+    internal const string namePlan = "namePlan";
+    internal const string idPlan = "idPlan";
+    internal const string IWishYouMySitesToBeOfBenefitAndJoy = "IWishYouMySitesToBeOfBenefitAndJoy";
+    internal const string hg = "hg";
+    internal const string NotImplementedPleaseContactTheWebmasterForThisDeficiencyListedInTheFooterOfEachPage =
     "NotImplementedPleaseContactTheWebmasterForThisDeficiencyListedInTheFooterOfEachPage";
-    public const string success = "success";
-    public const string Hello = "Hello";
-    public const string ChangingMailOnTheWeb = "ChangingMailOnTheWeb";
-    public const string ClickThisCodeToCompleteTheReactivation = "ClickThisCodeToCompleteTheReactivation";
-    public const string YouHaveAskedOrSomeoneElseToResubmitYourActivationEmailToYourAccount =
+    internal const string success = "success";
+    internal const string Hello = "Hello";
+    internal const string ChangingMailOnTheWeb = "ChangingMailOnTheWeb";
+    internal const string ClickThisCodeToCompleteTheReactivation = "ClickThisCodeToCompleteTheReactivation";
+    internal const string YouHaveAskedOrSomeoneElseToResubmitYourActivationEmailToYourAccount =
     "YouHaveAskedOrSomeoneElseToResubmitYourActivationEmailToYourAccount";
-    public const string ProblemOnTheWeb = "ProblemOnTheWeb";
-    public const string AdditionalDescription = "AdditionalDescription";
-    public const string Method = "Method";
-    public const string Class = "Class";
-    public const string WebRegistrationSuccessful = "WebRegistrationSuccessful";
-    public const string copyToClipboardAndEnterItAt = "copyToClipboardAndEnterItAt";
-    public const string AlternativelyYouCanCode = "AlternativelyYouCanCode";
-    public const string ClickOnThisCodeToCompleteTheRegistration = "ClickOnThisCodeToCompleteTheRegistration";
-    public const string YourPasswordIs = "YourPasswordIs";
-    public const string YourLoginNameSounds = "YourLoginNameSounds";
-    public const string YourAnswerToTheSecurityQuestionIs = "YourAnswerToTheSecurityQuestionIs";
-    public const string YourSecurityQuestionIs = "YourSecurityQuestionIs";
-    public const string ThankYouForRegisteringOnTheServer = "ThankYouForRegisteringOnTheServer";
-    public const string CreateANewPasswordForYourSecurityResponse = "CreateANewPasswordForYourSecurityResponse";
-    public const string
+    internal const string ProblemOnTheWeb = "ProblemOnTheWeb";
+    internal const string AdditionalDescription = "AdditionalDescription";
+    internal const string Method = "Method";
+    internal const string Class = "Class";
+    internal const string WebRegistrationSuccessful = "WebRegistrationSuccessful";
+    internal const string copyToClipboardAndEnterItAt = "copyToClipboardAndEnterItAt";
+    internal const string AlternativelyYouCanCode = "AlternativelyYouCanCode";
+    internal const string ClickOnThisCodeToCompleteTheRegistration = "ClickOnThisCodeToCompleteTheRegistration";
+    internal const string YourPasswordIs = "YourPasswordIs";
+    internal const string YourLoginNameSounds = "YourLoginNameSounds";
+    internal const string YourAnswerToTheSecurityQuestionIs = "YourAnswerToTheSecurityQuestionIs";
+    internal const string YourSecurityQuestionIs = "YourSecurityQuestionIs";
+    internal const string ThankYouForRegisteringOnTheServer = "ThankYouForRegisteringOnTheServer";
+    internal const string CreateANewPasswordForYourSecurityResponse = "CreateANewPasswordForYourSecurityResponse";
+    internal const string
     FromNowOnSignInWithYourNewPasswordIfThisWereRepeatedRegularlyChangeYourSecurityQuestionOrContactTheSiteAdminWhoCanBlockYourPasswordChangeOverASecurityQuestionForAllPeopleIncludingYou =
     "FromNowOnSignInWithYourNewPasswordIfThisWereRepeatedRegularlyChangeYourSecurityQuestionOrContactTheSiteAdminWhoCanBlockYourPasswordChangeOverASecurityQuestionForAllPeopleIncludingYou";
-    public const string someoneProbablyYourselfKnewTheAnswerToYourSecurityQuestionAndGeneratedANewPasswordForYou =
+    internal const string someoneProbablyYourselfKnewTheAnswerToYourSecurityQuestionAndGeneratedANewPasswordForYou =
     "someoneProbablyYourselfKnewTheAnswerToYourSecurityQuestionAndGeneratedANewPasswordForYou";
-    public const string BeforeYouCanSignInYouMustClickTheActivationLinkThatWasSentToTheEmailYouProvided =
+    internal const string BeforeYouCanSignInYouMustClickTheActivationLinkThatWasSentToTheEmailYouProvided =
     "BeforeYouCanSignInYouMustClickTheActivationLinkThatWasSentToTheEmailYouProvided";
-    public const string YouDidNotSelectYourMailSettings = "YouDidNotSelectYourMailSettings";
-    public const string SignUpAndGetToKnowTheGreatPossibilitiesOfTheWeb =
+    internal const string YouDidNotSelectYourMailSettings = "YouDidNotSelectYourMailSettings";
+    internal const string SignUpAndGetToKnowTheGreatPossibilitiesOfTheWeb =
     "SignUpAndGetToKnowTheGreatPossibilitiesOfTheWeb";
-    public const string NewUserRegistration = "NewUserRegistration";
-    public const string TheSpecifiedUserNumberWasNotAValidIntNumber = "TheSpecifiedUserNumberWasNotAValidIntNumber";
-    public const string AUserWithThisIDInDBWasNotFound = "AUserWithThisIDInDBWasNotFound";
-    public const string hasNoRequestToChangeEmail = "hasNoRequestToChangeEmail";
-    public const string EmailWasSuccessfullySentToYourNewEmailAddress = "EmailWasSuccessfullySentToYourNewEmailAddress";
-    public const string CanTSignInAfterChangingYourEmailTryThisPage = "CanTSignInAfterChangingYourEmailTryThisPage";
-    public const string SendReactivationEmail = "SendReactivationEmail";
-    public const string TheSpecifiedMailWasNotFoundInTheNewlyRegisteredDatabase =
+    internal const string NewUserRegistration = "NewUserRegistration";
+    internal const string TheSpecifiedUserNumberWasNotAValidIntNumber = "TheSpecifiedUserNumberWasNotAValidIntNumber";
+    internal const string AUserWithThisIDInDBWasNotFound = "AUserWithThisIDInDBWasNotFound";
+    internal const string hasNoRequestToChangeEmail = "hasNoRequestToChangeEmail";
+    internal const string EmailWasSuccessfullySentToYourNewEmailAddress = "EmailWasSuccessfullySentToYourNewEmailAddress";
+    internal const string CanTSignInAfterChangingYourEmailTryThisPage = "CanTSignInAfterChangingYourEmailTryThisPage";
+    internal const string SendReactivationEmail = "SendReactivationEmail";
+    internal const string TheSpecifiedMailWasNotFoundInTheNewlyRegisteredDatabase =
     "TheSpecifiedMailWasNotFoundInTheNewlyRegisteredDatabase";
-    public const string ThisLoginWasNotFoundInTheDatabase = "ThisLoginWasNotFoundInTheDatabase";
-    public const string hasBeenResubmittedSuccessfully = "hasBeenResubmittedSuccessfully";
-    public const string ActivationEmailForNickname = "ActivationEmailForNickname";
-    public const string TheActivationEmailWasSentBackTo = "TheActivationEmailWasSentBackTo";
-    public const string DidYouMissYourActivationEmailThisPageMayHelp = "DidYouMissYourActivationEmailThisPageMayHelp";
-    public const string doesNotExistInTheDatabase = "doesNotExistInTheDatabase";
-    public const string wasNotFoundWeCannotGenerateANewPasswordForYou = "wasNotFoundWeCannotGenerateANewPasswordForYou";
-    public const string hasDisabledPasswordRecoveryOption = "hasDisabledPasswordRecoveryOption";
-    public const string TheAnswerToTheSecurityQuestionWasNotAccepted = "TheAnswerToTheSecurityQuestionWasNotAccepted";
-    public const string ANewPasswordHasBeenSentToYourEmail = "ANewPasswordHasBeenSentToYourEmail";
-    public const string NoLoginEmailEnteredEnterOneOfTheseOnAHrefLoginAspxLoginAspxAAndClickGenerateNewPassword =
+    internal const string ThisLoginWasNotFoundInTheDatabase = "ThisLoginWasNotFoundInTheDatabase";
+    internal const string hasBeenResubmittedSuccessfully = "hasBeenResubmittedSuccessfully";
+    internal const string ActivationEmailForNickname = "ActivationEmailForNickname";
+    internal const string TheActivationEmailWasSentBackTo = "TheActivationEmailWasSentBackTo";
+    internal const string DidYouMissYourActivationEmailThisPageMayHelp = "DidYouMissYourActivationEmailThisPageMayHelp";
+    internal const string doesNotExistInTheDatabase = "doesNotExistInTheDatabase";
+    internal const string wasNotFoundWeCannotGenerateANewPasswordForYou = "wasNotFoundWeCannotGenerateANewPasswordForYou";
+    internal const string hasDisabledPasswordRecoveryOption = "hasDisabledPasswordRecoveryOption";
+    internal const string TheAnswerToTheSecurityQuestionWasNotAccepted = "TheAnswerToTheSecurityQuestionWasNotAccepted";
+    internal const string ANewPasswordHasBeenSentToYourEmail = "ANewPasswordHasBeenSentToYourEmail";
+    internal const string NoLoginEmailEnteredEnterOneOfTheseOnAHrefLoginAspxLoginAspxAAndClickGenerateNewPassword =
     "NoLoginEmailEnteredEnterOneOfTheseOnAHrefLoginAspxLoginAspxAAndClickGenerateNewPassword";
-    public const string HereYouCanRestoreYourAccountAccessIfYouForgetYourPassword =
+    internal const string HereYouCanRestoreYourAccountAccessIfYouForgetYourPassword =
     "HereYouCanRestoreYourAccountAccessIfYouForgetYourPassword";
-    public const string ResetYourAccountPassword = "ResetYourAccountPassword";
-    public const string HtmlGenericControlPPleaseAnswerThisSecurityQuestionToGenerateANewPasswordHtmlButtonBtnSubmit =
+    internal const string ResetYourAccountPassword = "ResetYourAccountPassword";
+    internal const string HtmlGenericControlPPleaseAnswerThisSecurityQuestionToGenerateANewPasswordHtmlButtonBtnSubmit =
     "HtmlGenericControlPPleaseAnswerThisSecurityQuestionToGenerateANewPasswordHtmlButtonBtnSubmit";
-    public const string GenerateANewPassword = "GenerateANewPassword";
-    public const string PleaseAnswerThisSecurityQuestionToGenerateANewPassword =
+    internal const string GenerateANewPassword = "GenerateANewPassword";
+    internal const string PleaseAnswerThisSecurityQuestionToGenerateANewPassword =
     "PleaseAnswerThisSecurityQuestionToGenerateANewPassword";
-    public const string Register = "Register";
-    public const string DoYouWantToSendASecurityQuestionAndAnswerToMail =
+    internal const string Register = "Register";
+    internal const string DoYouWantToSendASecurityQuestionAndAnswerToMail =
     "DoYouWantToSendASecurityQuestionAndAnswerToMail";
-    public const string
+    internal const string
     ChooseAStrongQuestionAndAnswerThatOnlyYouWillKnowIfThisRuleIsNotFollowedItIsPossibleThatSomeoneWillSeizeYourAccountJustTheRightAnswerToTheSecurityQuestion =
     "ChooseAStrongQuestionAndAnswerThatOnlyYouWillKnowIfThisRuleIsNotFollowedItIsPossibleThatSomeoneWillSeizeYourAccountJustTheRightAnswerToTheSecurityQuestion";
-    public const string DescribeSomethingYouRememberWellWhatYouLoveButOtherPeopleDonTKnowAboutItCharacters =
+    internal const string DescribeSomethingYouRememberWellWhatYouLoveButOtherPeopleDonTKnowAboutItCharacters =
     "DescribeSomethingYouRememberWellWhatYouLoveButOtherPeopleDonTKnowAboutItCharacters";
-    public const string ResponseToSecurityQuestion = "ResponseToSecurityQuestion";
-    public const string SecurityQuestion = "SecurityQuestion";
-    public const string ATTENTIONMakeSureYouHaveEnteredTheEmailCorrectly =
+    internal const string ResponseToSecurityQuestion = "ResponseToSecurityQuestion";
+    internal const string SecurityQuestion = "SecurityQuestion";
+    internal const string ATTENTIONMakeSureYouHaveEnteredTheEmailCorrectly =
     "ATTENTIONMakeSureYouHaveEnteredTheEmailCorrectly";
-    public const string DoYouWantToSendAPasswordToMail = "DoYouWantToSendAPasswordToMail";
-    public const string DoYouWishToSendALoginNameToTheMail = "DoYouWishToSendALoginNameToTheMail";
-    public const string PasswordASecondTime = "PasswordASecondTime";
-    public const string generateARandomStrongPassword = "generateARandomStrongPassword";
-    public const string uppercaseAndLowercaseLettersNumbersAndCharactersAreAllowed =
+    internal const string DoYouWantToSendAPasswordToMail = "DoYouWantToSendAPasswordToMail";
+    internal const string DoYouWishToSendALoginNameToTheMail = "DoYouWishToSendALoginNameToTheMail";
+    internal const string PasswordASecondTime = "PasswordASecondTime";
+    internal const string generateARandomStrongPassword = "generateARandomStrongPassword";
+    internal const string uppercaseAndLowercaseLettersNumbersAndCharactersAreAllowed =
     "uppercaseAndLowercaseLettersNumbersAndCharactersAreAllowed";
-    public const string YouMustEnterYourLoginNameForTheNextStep = "YouMustEnterYourLoginNameForTheNextStep";
-    public const string PageLoad = "PageLoad";
-    public const string LoginWillBePernamentUntilYouSignedOut = "LoginWillBePernamentUntilYouSignedOut";
-    public const string GenerateNewPassword = "GenerateNewPassword";
-    public const string TheCodeParameterWasNotTheCorrectLength = "TheCodeParameterWasNotTheCorrectLength";
-    public const string wasNotFoundInTheDBEitherItWasAlreadyUsedOrWasIncorrect =
+    internal const string YouMustEnterYourLoginNameForTheNextStep = "YouMustEnterYourLoginNameForTheNextStep";
+    internal const string PageLoad = "PageLoad";
+    internal const string LoginWillBePernamentUntilYouSignedOut = "LoginWillBePernamentUntilYouSignedOut";
+    internal const string GenerateNewPassword = "GenerateNewPassword";
+    internal const string TheCodeParameterWasNotTheCorrectLength = "TheCodeParameterWasNotTheCorrectLength";
+    internal const string wasNotFoundInTheDBEitherItWasAlreadyUsedOrWasIncorrect =
     "wasNotFoundInTheDBEitherItWasAlreadyUsedOrWasIncorrect";
-    public const string AUserWithSuchAUidWasNotFoundInTheDBTheUserCouldNotBeReactivated =
+    internal const string AUserWithSuchAUidWasNotFoundInTheDBTheUserCouldNotBeReactivated =
     "AUserWithSuchAUidWasNotFoundInTheDBTheUserCouldNotBeReactivated";
-    public const string SexCannotBeLeftBlank = "SexCannotBeLeftBlank";
-    public const string HereYouCanEditYourUserProfileWithGeneralInformation =
+    internal const string SexCannotBeLeftBlank = "SexCannotBeLeftBlank";
+    internal const string HereYouCanEditYourUserProfileWithGeneralInformation =
     "HereYouCanEditYourUserProfileWithGeneralInformation";
-    public const string EditingAnExistingUser = "EditingAnExistingUser";
-    public const string Woman = "Woman";
-    public const string SaveChanges = "SaveChanges";
-    public const string YourLabel = "YourLabel";
-    public const string AboutYou = "AboutYou";
-    public const string PageWidth = "PageWidth";
-    public const string IDoNotWishToReceiveAnyMailsFromUsersOrApplications =
+    internal const string EditingAnExistingUser = "EditingAnExistingUser";
+    internal const string Woman = "Woman";
+    internal const string SaveChanges = "SaveChanges";
+    internal const string YourLabel = "YourLabel";
+    internal const string AboutYou = "AboutYou";
+    internal const string PageWidth = "PageWidth";
+    internal const string IDoNotWishToReceiveAnyMailsFromUsersOrApplications =
     "IDoNotWishToReceiveAnyMailsFromUsersOrApplications";
-    public const string OnlyApplicationsFromThisSiteCanSendMailToMeNotIndividualUsers =
+    internal const string OnlyApplicationsFromThisSiteCanSendMailToMeNotIndividualUsers =
     "OnlyApplicationsFromThisSiteCanSendMailToMeNotIndividualUsers";
-    public const string EveryoneCanWriteMeMailButNoOneCanSeeMyMailAddress =
+    internal const string EveryoneCanWriteMeMailButNoOneCanSeeMyMailAddress =
     "EveryoneCanWriteMeMailButNoOneCanSeeMyMailAddress";
-    public const string EveryoneCanViewMyMail = "EveryoneCanViewMyMail";
-    public const string EmailSettings = "EmailSettings";
-    public const string Man = "Man";
-    public const string VoluntaryItems = "VoluntaryItems";
-    public const string Birthdate = "Birthdate";
-    public const string errorYouWereNotLoggedInIn = "errorYouWereNotLoggedInIn";
-    public const string NoNickWasFoundForYourUserNumber = "NoNickWasFoundForYourUserNumber";
-    public const string FailedToSaveProfileImagePleaseTryAgain = "FailedToSaveProfileImagePleaseTryAgain";
-    public const string ProfileImageChangedSuccessfully = "ProfileImageChangedSuccessfully";
-    public const string ChangeProfilePicture = "ChangeProfilePicture";
-    public const string UpdateYourProfilePictureToSunamoCz = "UpdateYourProfilePictureToSunamoCz";
-    public const string ChangeYourProfilePictureOn = "ChangeYourProfilePictureOn";
-    public const string ChangeAccountEmail = "ChangeAccountEmail";
-    public const string andYouCanTDoItAnymore = "andYouCanTDoItAnymore";
-    public const string TheOldMailIsNoDifferentFromTheNewOne = "TheOldMailIsNoDifferentFromTheNewOne";
-    public const string ThePasswordForTheLoggedInUserDidNotMatch = "ThePasswordForTheLoggedInUserDidNotMatch";
-    public const string ThisEmailIsAlreadyAssignedToAnotherUser = "ThisEmailIsAlreadyAssignedToAnotherUser";
-    public const string TheTextYouEnteredDoesNotMatchTheEmailFormat = "TheTextYouEnteredDoesNotMatchTheEmailFormat";
-    public const string TheUserCouldNotBeReactivatedBecauseTheUserWithTheGivenUidAndCodeWasNotFoundInDB =
+    internal const string EveryoneCanViewMyMail = "EveryoneCanViewMyMail";
+    internal const string EmailSettings = "EmailSettings";
+    internal const string Man = "Man";
+    internal const string VoluntaryItems = "VoluntaryItems";
+    internal const string Birthdate = "Birthdate";
+    internal const string errorYouWereNotLoggedInIn = "errorYouWereNotLoggedInIn";
+    internal const string NoNickWasFoundForYourUserNumber = "NoNickWasFoundForYourUserNumber";
+    internal const string FailedToSaveProfileImagePleaseTryAgain = "FailedToSaveProfileImagePleaseTryAgain";
+    internal const string ProfileImageChangedSuccessfully = "ProfileImageChangedSuccessfully";
+    internal const string ChangeProfilePicture = "ChangeProfilePicture";
+    internal const string UpdateYourProfilePictureToSunamoCz = "UpdateYourProfilePictureToSunamoCz";
+    internal const string ChangeYourProfilePictureOn = "ChangeYourProfilePictureOn";
+    internal const string ChangeAccountEmail = "ChangeAccountEmail";
+    internal const string andYouCanTDoItAnymore = "andYouCanTDoItAnymore";
+    internal const string TheOldMailIsNoDifferentFromTheNewOne = "TheOldMailIsNoDifferentFromTheNewOne";
+    internal const string ThePasswordForTheLoggedInUserDidNotMatch = "ThePasswordForTheLoggedInUserDidNotMatch";
+    internal const string ThisEmailIsAlreadyAssignedToAnotherUser = "ThisEmailIsAlreadyAssignedToAnotherUser";
+    internal const string TheTextYouEnteredDoesNotMatchTheEmailFormat = "TheTextYouEnteredDoesNotMatchTheEmailFormat";
+    internal const string TheUserCouldNotBeReactivatedBecauseTheUserWithTheGivenUidAndCodeWasNotFoundInDB =
     "TheUserCouldNotBeReactivatedBecauseTheUserWithTheGivenUidAndCodeWasNotFoundInDB";
-    public const string UserReactivatedSuccessfullyYouCanNowSubscribeWithTheNewMail =
+    internal const string UserReactivatedSuccessfullyYouCanNowSubscribeWithTheNewMail =
     "UserReactivatedSuccessfullyYouCanNowSubscribeWithTheNewMail";
-    public const string signIn = "signIn";
-    public const string YourAccountHasBeenSuccessfullyActivatedNowYouCan =
+    internal const string signIn = "signIn";
+    internal const string YourAccountHasBeenSuccessfullyActivatedNowYouCan =
     "YourAccountHasBeenSuccessfullyActivatedNowYouCan";
-    public const string HereYouCanActivateYourUserAccountAfterRegistration =
+    internal const string HereYouCanActivateYourUserAccountAfterRegistration =
     "HereYouCanActivateYourUserAccountAfterRegistration";
-    public const string ActivatingAUserAccount = "ActivatingAUserAccount";
-    public const string ChangeYourEmail = "ChangeYourEmail";
-    public const string EditingYourProfile = "EditingYourProfile";
-    public const string ChangeTheProfilePicture = "ChangeTheProfilePicture";
-    public const string ActivitiesAndUserInformation = "ActivitiesAndUserInformation";
-    public const string City = "City";
-    public const string Disctict = "Disctict";
-    public const string Password = "Password";
-    public const string characters = "characters";
-    public const string NewEmail = "NewEmail";
-    public const string ActivatingCode = "ActivatingCode";
-    public const string ChangingThePassword = "ChangingThePassword";
-    public const string TheUserSPersonalLabel = "TheUserSPersonalLabel";
-    public const string NewPasswordAgain = "NewPasswordAgain";
-    public const string NewPassword = "NewPassword";
-    public const string Error = "Error";
-    public const string Success = "Success";
-    public const string NotImplementedPleaseContactAdmin = "NotImplementedPleaseContactAdmin";
-    public const string UserDetail = "UserDetail";
-    public const string
+    internal const string ActivatingAUserAccount = "ActivatingAUserAccount";
+    internal const string ChangeYourEmail = "ChangeYourEmail";
+    internal const string EditingYourProfile = "EditingYourProfile";
+    internal const string ChangeTheProfilePicture = "ChangeTheProfilePicture";
+    internal const string ActivitiesAndUserInformation = "ActivitiesAndUserInformation";
+    internal const string City = "City";
+    internal const string Disctict = "Disctict";
+    internal const string Password = "Password";
+    internal const string characters = "characters";
+    internal const string NewEmail = "NewEmail";
+    internal const string ActivatingCode = "ActivatingCode";
+    internal const string ChangingThePassword = "ChangingThePassword";
+    internal const string TheUserSPersonalLabel = "TheUserSPersonalLabel";
+    internal const string NewPasswordAgain = "NewPasswordAgain";
+    internal const string NewPassword = "NewPassword";
+    internal const string Error = "Error";
+    internal const string Success = "Success";
+    internal const string NotImplementedPleaseContactAdmin = "NotImplementedPleaseContactAdmin";
+    internal const string UserDetail = "UserDetail";
+    internal const string
     errorEitherThePageSentBadURIParametersOfEntityTableIdAndEntityIdOrTheEntityWithTheseParametersWasNotFoundInTheDatabase =
     "errorEitherThePageSentBadURIParametersOfEntityTableIdAndEntityIdOrTheEntityWithTheseParametersWasNotFoundInTheDatabase";
-    public const string errorUriFromWhichThisHandlerWasCalledWasNotInTheDatabase =
+    internal const string errorUriFromWhichThisHandlerWasCalledWasNotInTheDatabase =
     "errorUriFromWhichThisHandlerWasCalledWasNotInTheDatabase";
-    public const string errorYouHaveBeenBlockedByIPAddressOrNickYouCannotPerformTheRequestedOperation =
+    internal const string errorYouHaveBeenBlockedByIPAddressOrNickYouCannotPerformTheRequestedOperation =
     "errorYouHaveBeenBlockedByIPAddressOrNickYouCannotPerformTheRequestedOperation";
-    public const string TheCorrectNumberOfParametersAndOrCorrectValuesHaveNotBeenPassedToThePage =
+    internal const string TheCorrectNumberOfParametersAndOrCorrectValuesHaveNotBeenPassedToThePage =
     "TheCorrectNumberOfParametersAndOrCorrectValuesHaveNotBeenPassedToThePage";
-    public const string TheSiteReceivedAnAddressThatWasEmpty = "TheSiteReceivedAnAddressThatWasEmpty";
-    public const string ThisShortLinkHasAlreadyBeenTaken = "ThisShortLinkHasAlreadyBeenTaken";
-    public const string TheLinkHasBeenTruncatedSuccessfully = "TheLinkHasBeenTruncatedSuccessfully";
-    public const string
+    internal const string TheSiteReceivedAnAddressThatWasEmpty = "TheSiteReceivedAnAddressThatWasEmpty";
+    internal const string ThisShortLinkHasAlreadyBeenTaken = "ThisShortLinkHasAlreadyBeenTaken";
+    internal const string TheLinkHasBeenTruncatedSuccessfully = "TheLinkHasBeenTruncatedSuccessfully";
+    internal const string
     YouCameToThisPageBBecauseYouTriedToLoadThePageOrToPerformAnotherOperationThatYouDoNotHavePermissionToDoOrThatIsNotApplicableInThisContext =
     "YouCameToThisPageBBecauseYouTriedToLoadThePageOrToPerformAnotherOperationThatYouDoNotHavePermissionToDoOrThatIsNotApplicableInThisContext";
-    public const string RemovedFromFavorites = "RemovedFromFavorites";
-    public const string AddedToFavorites = "AddedToFavorites";
-    public const string RemoveFromFavourites = "RemoveFromFavourites";
-    public const string AddToFavourites = "AddToFavourites";
-    public const string UnfortunatelyItWonTWork = "UnfortunatelyItWonTWork";
-    public const string IMGonnaGoCheckItOut = "IMGonnaGoCheckItOut";
-    public const string WhenWasTheAnswerInThisPollClicked = "WhenWasTheAnswerInThisPollClicked";
-    public const string errorBadLoginDetailsSignOutAndSignInAgain = "errorBadLoginDetailsSignOutAndSignInAgain";
-    public const string errorScDidNotMatch = "errorScDidNotMatch";
-    public const string NicknameCannotContainAt = "NicknameCannotContaintAt";
-    public const string
+    internal const string RemovedFromFavorites = "RemovedFromFavorites";
+    internal const string AddedToFavorites = "AddedToFavorites";
+    internal const string RemoveFromFavourites = "RemoveFromFavourites";
+    internal const string AddToFavourites = "AddToFavourites";
+    internal const string UnfortunatelyItWonTWork = "UnfortunatelyItWonTWork";
+    internal const string IMGonnaGoCheckItOut = "IMGonnaGoCheckItOut";
+    internal const string WhenWasTheAnswerInThisPollClicked = "WhenWasTheAnswerInThisPollClicked";
+    internal const string errorBadLoginDetailsSignOutAndSignInAgain = "errorBadLoginDetailsSignOutAndSignInAgain";
+    internal const string errorScDidNotMatch = "errorScDidNotMatch";
+    internal const string NicknameCannotContainAt = "NicknameCannotContaintAt";
+    internal const string
     IfTheSongIsOriginallyInCzechInstrumentalIgnoreThisMessageTheWebsiteDoesNotDistinguishBetweenForeignCzechAndInstrumentalSongs =
     "IfTheSongIsOriginallyInCzechInstrumentalIgnoreThisMessageTheWebsiteDoesNotDistinguishBetweenForeignCzechAndInstrumentalSongs";
-    public const string DoYouWantTo = "DoYouWantTo";
-    public const string EnterLoginCredentials = "EnterLoginCredentials";
-    public const string YouAreNotLogged = "YouAreNotLogged";
-    public const string EitherYouAreNotLoggedInOrHasBeenSelectedAsByNonAdminUserID =
+    internal const string DoYouWantTo = "DoYouWantTo";
+    internal const string EnterLoginCredentials = "EnterLoginCredentials";
+    internal const string YouAreNotLogged = "YouAreNotLogged";
+    internal const string EitherYouAreNotLoggedInOrHasBeenSelectedAsByNonAdminUserID =
     "EitherYouAreNotLoggedInOrHasBeenSelectedAsByNonAdminUserID";
-    public const string AppStartedSuccessfully = "AppStartedSuccessfully";
-    public const string failedWithErrorColon = "failedWithErrorColon";
-    public const string NotLoginedToGeocachingCom = "NotLoginedToGeocachingCom";
-    public const string MakeWithLinks = "MakeWithLinks";
-    public const string NoCacheListingsInSavedList = "NoCacheListingsInSavedList";
-    public const string PromptNewTab = "PromptNewTab";
-    public const string SuccessfulLoginToSunamoCz = "SuccessfulLoginToSunamoCz";
-    public const string LocationOfCaches = "LocationOfCaches";
-    public const string SignInToTakeFullAdvantageOfTheSiteSCapabilitiesAndFeatures =
+    internal const string AppStartedSuccessfully = "AppStartedSuccessfully";
+    internal const string failedWithErrorColon = "failedWithErrorColon";
+    internal const string NotLoginedToGeocachingCom = "NotLoginedToGeocachingCom";
+    internal const string MakeWithLinks = "MakeWithLinks";
+    internal const string NoCacheListingsInSavedList = "NoCacheListingsInSavedList";
+    internal const string PromptNewTab = "PromptNewTab";
+    internal const string SuccessfulLoginToSunamoCz = "SuccessfulLoginToSunamoCz";
+    internal const string LocationOfCaches = "LocationOfCaches";
+    internal const string SignInToTakeFullAdvantageOfTheSiteSCapabilitiesAndFeatures =
     "SignInToTakeFullAdvantageOfTheSiteSCapabilitiesAndFeatures";
-    public const string NotImplementedPleaseContactWebAdmin = "NotImplementedPleaseContactWebAdmin";
-    public const string ScIsNotTheSame = "ScIsNotTheSame";
-    public const string UnvalidSession = "UnvalidSession";
-    public const string DetailsClickSurveyAspxLabel = "DetailsClickSurveyAspxLabel";
-    public const string AddAsRsvp = "AddAsRsvp";
-    public const string RemoveAsRsvp = "RemoveAsRsvp";
-    public const string RemoveAsRsvpSuccess = "RemoveAsRsvpSuccess";
-    public const string AddToFavorites = "AddToFavorites";
-    public const string RemoveFromFavorites = "RemoveFromFavorites";
-    public const string AddToFavoritesSuccess = "AddToFavoritesSuccess";
-    public const string RemoveFromFavoritesSuccess = "RemoveFromFavoritesSuccess";
-    public const string UnauthorizedOperation = "UnauthorizedOperation";
-    public const string LinkSuccessfullyShorted = "LinkSuccessfullyShorted";
-    public const string CustomShortUriOccupatedYet = "CustomShortUriOccupatedYet";
-    public const string UriTooLong = "UriTooLong";
-    public const string UriTooShort = "UriTooShort";
-    public const string YouHaveNotValidIPv4Address = "YouHaveNotValidIPv4Address";
-    public const string YouAreNotLoggedAsWebAdmin = "YouAreNotLoggedAsWebAdmin";
-    public const string NoRightArgumentsToPage = "NoRightArgumentsToPage";
-    public const string StringNotFound = "StringNotFound";
-    public const string TurnOffSelectingPhotos = "TurnOffSelectingPhotos";
-    public const string TurnOnSelectingPhotos = "TurnOnSelectingPhotos";
-    public const string YouAreBlocked = "YouAreBlocked";
-    public const string ViewLastWeek = "ViewLastWeek";
-    public const string ErrorSerie0 = "ErrorSerie0";
-    public const string ErrorSerie255 = "ErrorSerie255";
-    public const string EditUserAccount = "EditUserAccount";
-    public const string HtmlListSuccessfullyCreated = "HtmlListSuccessfullyCreated";
-    public const string NoCacheListingInTabs = "NoCacheListingInTabs";
-    public const string AllCachesListingsInTabsProcessed = "AllCachesListingsInTabsProcessed";
-    public const string WasCreatedListOfCachesWithNameColon = "WasCreatedListOfCachesWithNameColon";
-    public const string ToUseThisWebYouHaveToBeLogined = "ToUseThisWebYouHaveToBeLogined";
-    public static string Generate = "Generate";
+    internal const string NotImplementedPleaseContactWebAdmin = "NotImplementedPleaseContactWebAdmin";
+    internal const string ScIsNotTheSame = "ScIsNotTheSame";
+    internal const string UnvalidSession = "UnvalidSession";
+    internal const string DetailsClickSurveyAspxLabel = "DetailsClickSurveyAspxLabel";
+    internal const string AddAsRsvp = "AddAsRsvp";
+    internal const string RemoveAsRsvp = "RemoveAsRsvp";
+    internal const string RemoveAsRsvpSuccess = "RemoveAsRsvpSuccess";
+    internal const string AddToFavorites = "AddToFavorites";
+    internal const string RemoveFromFavorites = "RemoveFromFavorites";
+    internal const string AddToFavoritesSuccess = "AddToFavoritesSuccess";
+    internal const string RemoveFromFavoritesSuccess = "RemoveFromFavoritesSuccess";
+    internal const string UnauthorizedOperation = "UnauthorizedOperation";
+    internal const string LinkSuccessfullyShorted = "LinkSuccessfullyShorted";
+    internal const string CustomShortUriOccupatedYet = "CustomShortUriOccupatedYet";
+    internal const string UriTooLong = "UriTooLong";
+    internal const string UriTooShort = "UriTooShort";
+    internal const string YouHaveNotValidIPv4Address = "YouHaveNotValidIPv4Address";
+    internal const string YouAreNotLoggedAsWebAdmin = "YouAreNotLoggedAsWebAdmin";
+    internal const string NoRightArgumentsToPage = "NoRightArgumentsToPage";
+    internal const string StringNotFound = "StringNotFound";
+    internal const string TurnOffSelectingPhotos = "TurnOffSelectingPhotos";
+    internal const string TurnOnSelectingPhotos = "TurnOnSelectingPhotos";
+    internal const string YouAreBlocked = "YouAreBlocked";
+    internal const string ViewLastWeek = "ViewLastWeek";
+    internal const string ErrorSerie0 = "ErrorSerie0";
+    internal const string ErrorSerie255 = "ErrorSerie255";
+    internal const string EditUserAccount = "EditUserAccount";
+    internal const string HtmlListSuccessfullyCreated = "HtmlListSuccessfullyCreated";
+    internal const string NoCacheListingInTabs = "NoCacheListingInTabs";
+    internal const string AllCachesListingsInTabsProcessed = "AllCachesListingsInTabsProcessed";
+    internal const string WasCreatedListOfCachesWithNameColon = "WasCreatedListOfCachesWithNameColon";
+    internal const string ToUseThisWebYouHaveToBeLogined = "ToUseThisWebYouHaveToBeLogined";
+    internal static string Generate = "Generate";
 #pragma warning restore SA1303 
 }

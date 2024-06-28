@@ -1,7 +1,7 @@
 namespace SunamoWikipedia;
 
 
-public enum HtmlTagSyntax
+internal enum HtmlTagSyntax
 {
     Start,
     End,

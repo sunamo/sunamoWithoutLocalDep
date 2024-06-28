@@ -1,7 +1,7 @@
 namespace SunamoNumbersShared;
-public class SHGetLines
+internal class SHGetLines
 {
-    public static List<string> GetLines(string p)
+    internal static List<string> GetLines(string p)
     {
         var parts = p.Split(new string[] { "\r\n", "\n\r" }, StringSplitOptions.None).ToList();
         SplitByUnixNewline(parts);

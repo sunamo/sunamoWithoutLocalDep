@@ -1,3 +1,4 @@
+namespace SunamoCollectionsValuesTableGrid;
 
 using System.Data;
 /// <summary>

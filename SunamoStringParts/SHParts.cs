@@ -1,3 +1,5 @@
+
+namespace SunamoStringParts;
 public class SHParts
 {
     /// <summary>

@@ -4,36 +4,36 @@ namespace SunamoWikipedia;
 /// <summary>
 /// plural - as string
 /// </summary>
-public class HtmlTags
+internal class HtmlTags
 {
-    public const string img = "img";
-    public const string span = "span";
-    public const string title = "title";
-    public const string div = "div";
-    public const string style = "style";
-    public const string link = "link";
-    public const string table = "table";
-    public const string td = "td";
-    public const string tr = "tr";
-    public const string body = "body";
-    public const string ul = "ul";
-    public const string ol = "ol";
-    public const string input = "input";
-    public const string button = "button";
-    public const string pre = "pre";
-    public const string label = "label";
-    public const string a = "a";
-    public const string hr = "hr";
-    public const string tbody = "tbody";
-    public static string li = "li";
-    public static string b = "b";
-    public static string p = "p";
-    public static string h4 = "h4";
-    public static string h2 = "h2";
-    public static string article = "article";
-    public static string svg = "svg";
-    public static string h3 = "h3";
-    public static string script = "script";
-    public static string th = "th";
-    public static string option = "option";
+    internal const string img = "img";
+    internal const string span = "span";
+    internal const string title = "title";
+    internal const string div = "div";
+    internal const string style = "style";
+    internal const string link = "link";
+    internal const string table = "table";
+    internal const string td = "td";
+    internal const string tr = "tr";
+    internal const string body = "body";
+    internal const string ul = "ul";
+    internal const string ol = "ol";
+    internal const string input = "input";
+    internal const string button = "button";
+    internal const string pre = "pre";
+    internal const string label = "label";
+    internal const string a = "a";
+    internal const string hr = "hr";
+    internal const string tbody = "tbody";
+    internal static string li = "li";
+    internal static string b = "b";
+    internal static string p = "p";
+    internal static string h4 = "h4";
+    internal static string h2 = "h2";
+    internal static string article = "article";
+    internal static string svg = "svg";
+    internal static string h3 = "h3";
+    internal static string script = "script";
+    internal static string th = "th";
+    internal static string option = "option";
 }

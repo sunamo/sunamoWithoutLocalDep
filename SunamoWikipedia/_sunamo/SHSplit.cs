@@ -5,6 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SunamoWikipedia;
-public class SHSplit
+internal class SHSplit
 {
 }

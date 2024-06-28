@@ -1,3 +1,5 @@
+
+namespace SunamoGetFolders;
 public class GetFoldersEveryFolderArgs : GetFilesArgs
 {
     /// <summary>

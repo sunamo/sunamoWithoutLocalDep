@@ -1,14 +1,14 @@
 namespace SunamoCollectionsGenericShared;
 
 
-public class FromToTSH<T>
+internal class FromToTSH<T>
 {
     
-    public bool empty;
+    internal bool empty;
     protected long fromL;
-    public FromToUse ftUse = FromToUse.DateTime;
+    internal FromToUse ftUse = FromToUse.DateTime;
     protected long toL;
-    public FromToTSH()
+    internal FromToTSH()
     {
         var t = typeof(T);
         if (t == Types.tInt) ftUse = FromToUse.None;
@@ -28,22 +28,22 @@ public class FromToTSH<T>
     /// <param name="from"></param>
     /// <param name="to"></param>
     /// <param name="ftUse"></param>
-    public FromToTSH(T from, T to, FromToUse ftUse = FromToUse.DateTime) : this()
+    internal FromToTSH(T from, T to, FromToUse ftUse = FromToUse.DateTime) : this()
     {
         this.from = from;
         this.to = to;
         this.ftUse = ftUse;
     }
-    public T from
+    internal T from
     {
         get => (T)(dynamic)fromL;
         set => fromL = (long)(dynamic)value;
     }
-    public T to
+    internal T to
     {
         get => (T)(dynamic)toL;
         set => toL = (long)(dynamic)value;
     }
-    public long FromL => fromL;
-    public long ToL => toL;
+    internal long FromL => fromL;
+    internal long ToL => toL;
 }

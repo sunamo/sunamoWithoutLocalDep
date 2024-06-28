@@ -1,7 +1,7 @@
 namespace SunamoCollectionOnDrive;
 
 
-public enum AppFolders
+internal enum AppFolders
 {
     #region Not backuped
     Logs,
