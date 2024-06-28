@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoCollectionsNonGeneric
-#endif
-;
 /// <summary>
 /// In values contains without extension
 /// if file has no exception, will be grouped under empty string

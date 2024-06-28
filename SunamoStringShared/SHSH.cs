@@ -1,14 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoString
-SunamoString
-#elif SunamoStringData
-SunamoStringData
-#else
-SunamoStringShared
-#endif
-;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;

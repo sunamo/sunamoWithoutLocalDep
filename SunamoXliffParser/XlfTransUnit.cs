@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoXliffParser
-#endif
-;
 
 public class XlfTransUnit
     {
@@ -236,3 +229,4 @@ public class XlfTransUnit
             }
         }
     }
+

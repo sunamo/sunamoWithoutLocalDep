@@ -1,13 +1,4 @@
 
-namespace
-#if SunamoGetFiles
-SunamoGetFiles
-#elif SunamoFileSystem
-SunamoFileSystem
-#else
-SunamoGetFolders
-#endif
-;
 public class FSGetFolders
 {
     public static List<string> GetFolders(string folder, SearchOption so)

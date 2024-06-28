@@ -1,12 +1,5 @@
 
 using System.Data;
-namespace
-#if SunamoGoogleSheets
-SunamoGoogleSheets
-#else
-SunamoCollectionsValuesTableGrid
-#endif
-;
 /// <summary>
 /// Similar class with two dimension array is UniqueTableInWhole
 /// Allow make query to parallel collections as be one

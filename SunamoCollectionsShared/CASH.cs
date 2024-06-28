@@ -1,14 +1,3 @@
-namespace
-#if SunamoClipboard
-SunamoClipboard
-#elif SunamoCollections
-SunamoCollections
-#elif SunamoString
-SunamoString
-#else
-SunamoCollectionsShared
-#endif
-;
 using System.Collections;
 using System.Text.RegularExpressions;
 public class CASH : CASE

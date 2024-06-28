@@ -1,14 +1,5 @@
 using System.Xml.Linq;
 
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoLang
-SunamoLang
-#else
-SunamoXliffParser
-#endif
-;
 public enum XlfDialect
 {
     Standard = 0,

@@ -1,10 +1,3 @@
-namespace
-#if SunamoString
-SunamoString
-#else
-SunamoStringParts
-#endif
-;
 public class SHParts
 {
     /// <summary>

@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoCollectionOnDrive
-#endif
-;
 /// <summary>
 /// Checking whether string is already contained.
 /// </summary>

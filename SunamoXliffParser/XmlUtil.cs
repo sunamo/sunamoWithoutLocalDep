@@ -1,11 +1,4 @@
 
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoXliffParser
-#endif
-;
 
 
 
@@ -45,3 +38,4 @@ public static class XmlUtil
         return string.IsNullOrWhiteSpace(s) ? string.Empty : NormalizeLineBreaks(s).Replace("\r", "\r\n");
     }
 }
+

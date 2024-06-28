@@ -1,11 +1,4 @@
 using System.Runtime.CompilerServices;
-namespace
-#if SunamoShared
-SunamoShared
-#else
-SunamoAsync
-#endif
-;
 public class AsyncHelper : AsyncHelperSEShared
 {
     public static AsyncHelper ci = new AsyncHelper();

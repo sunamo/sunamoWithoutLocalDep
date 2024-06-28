@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoXliffParser
-#endif
-;
 
 public class UpdateResult
     {
@@ -27,3 +20,4 @@ public class UpdateResult
             return AddedItems.Any() || RemovedItems.Any() || UpdatedItems.Any();
         }
     }
+

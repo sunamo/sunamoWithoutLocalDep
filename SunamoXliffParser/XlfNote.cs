@@ -1,10 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#else
-SunamoXliffParser
-#endif
-;
 
 /// <summary>
 ///     The
@@ -98,3 +91,4 @@ public class XlfNote
         }
     }
 }
+

@@ -1,12 +1,3 @@
-namespace
-#if SunamoCollectionsGeneric
-SunamoCollectionsGeneric
-#elif SunamoCollectionsValuesTableGrid
-SunamoCollectionsValuesTableGrid
-#else
-SunamoCollectionsGenericShared
-#endif
-;
 public class CAGSH
 {
     /// <summary>

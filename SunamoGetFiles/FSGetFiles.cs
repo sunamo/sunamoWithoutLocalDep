@@ -1,11 +1,4 @@
 
-namespace
-#if SunamoFileSystem
-SunamoFileSystem
-#else
-SunamoGetFiles
-#endif
-;
 public partial class FSGetFiles
 {
     public static List<string> GetFiles(string v1, string v2, SearchOption topDirectoryOnly)
@@ -733,3 +726,4 @@ public partial class FSGetFiles
         return dict;
     }
 }
+

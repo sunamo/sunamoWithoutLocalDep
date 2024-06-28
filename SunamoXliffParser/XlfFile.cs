@@ -1,12 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoLang
-SunamoLang
-#else
-SunamoXliffParser
-#endif
-;
 public class XlfFile
 {
     public enum AddMode
