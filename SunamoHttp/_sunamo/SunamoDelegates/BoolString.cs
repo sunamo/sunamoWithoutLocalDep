@@ -1,4 +1,4 @@
 namespace SunamoHttp;
 
 
-internal delegate bool BoolString(string s);
+//internal delegate bool Func<string, bool>(string s);

@@ -1,7 +1,7 @@
 namespace SunamoGetFolders;
 
 
-internal class GetFilesEveryFolderArgs : GetFilesBaseArgs
+public class GetFilesEveryFolderArgsGetFolders : GetFilesBaseArgsGetFolders
 {
     internal bool usePbTime = false;
     internal Action<double> InsertPbTime = null;

@@ -1,6 +1,6 @@
 
 namespace SunamoGetFolders;
-public class GetFoldersEveryFolderArgs : GetFilesArgs
+public class GetFoldersEveryFolderArgs : GetFilesArgsGetFolders
 {
     /// <summary>
     /// Auto call WithEndSlash
@@ -10,7 +10,7 @@ public class GetFoldersEveryFolderArgs : GetFilesArgs
     // nevím k čemu to je ale zdá se nesmysl, ověřovat můžu přes excludeFromLocationsCOntains != null
     //public bool excludeFromLocationsCOntainsBool = false;
     public bool writeToDebugEveryLoadedFolder = false;
-    public GetFoldersEveryFolderArgs(GetFilesEveryFolderArgs e)
+    public GetFoldersEveryFolderArgs(GetFilesEveryFolderArgsGetFolders e)
     {
         _trimA1AndLeadingBs = e._trimA1AndLeadingBs;
         followJunctions = e.followJunctions;

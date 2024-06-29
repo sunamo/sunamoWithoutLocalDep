@@ -37,7 +37,7 @@ public static partial class HttpRequestHelperHttp
     /// <param name="folder2"></param>
     /// <param name="co"></param>
     /// <param name="ext"></param>
-    public static void DownloadAll(List<string> hrefs, BoolString DontHaveAllowedExtension, string folder2, FileMoveCollisionOptionHttp co, string ext = null)
+    public static void DownloadAll(List<string> hrefs, Func<string, bool> DontHaveAllowedExtension, string folder2, FileMoveCollisionOptionHttp co, string ext = null)
     {
         if (co != FileMoveCollisionOptionHttp.Overwrite)
         {
@@ -67,7 +67,7 @@ public static partial class HttpRequestHelperHttp
     /// <param name = "folder2"></param>
     /// <param name = "fn"></param>
     /// <param name = "ext"></param>
-    public static bool Download(string href, BoolString DontHaveAllowedExtension, string folder2, string fn, string ext = null)
+    public static bool Download(string href, Func<string, bool> DontHaveAllowedExtension, string folder2, string fn, string ext = null)
     {
         if (DontHaveAllowedExtension != null)
         {
@@ -106,7 +106,7 @@ public static partial class HttpRequestHelperHttp
     /// <param name="DontHaveAllowedExtension"></param>
     /// <param name="path"></param>
     /// <returns></returns>
-    public static bool Download(string uri, BoolString DontHaveAllowedExtension, string path)
+    public static bool Download(string uri, Func<string, bool> DontHaveAllowedExtension, string path)
     {
         string p, fn, ext;
         FS.GetPathAndFileNameWithoutExtension(path, out p, out fn, out ext);

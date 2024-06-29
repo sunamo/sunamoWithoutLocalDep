@@ -12,5 +12,6 @@
     <DefineConstants>$(DefineConstants);SunamoGetFolders;ASYNC</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="_sunamo\SunamoEnums\Enums\" />
   </ItemGroup>
 </Project>

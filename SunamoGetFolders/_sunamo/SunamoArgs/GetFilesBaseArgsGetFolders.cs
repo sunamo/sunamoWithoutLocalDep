@@ -7,7 +7,7 @@ Protože potřebuji univerzání data pro získávání souborů skrze různé m
 dávalo smysl i to co jsem měl, jelikož GetFilesEveryFolder
 volalo GetFoldersEveryFolder takže jsem si z toho vzal jen subset z bázové třídy
 */
-internal class GetFilesBaseArgs /*: GetFoldersEveryFolderArgs - nevracet - číst koment výše*/
+public class GetFilesBaseArgsGetFolders /*: GetFoldersEveryFolderArgs - nevracet - číst koment výše*/
 {
     internal bool followJunctions = false;
     internal Func<string, bool> dIsJunctionPoint = null;

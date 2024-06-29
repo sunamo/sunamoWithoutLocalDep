@@ -1,7 +1,7 @@
 namespace SunamoWikipedia;
 
 
-internal class CreateHtmlDocumentInitData
+internal class CreateHtmlDocumentInitDataWikipedia
 {
     // Cant be, load
     //internal bool AutoCloseTags = true;

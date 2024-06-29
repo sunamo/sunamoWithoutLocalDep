@@ -6,6 +6,7 @@
     <Version>24.5.25.1</Version>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="_sunamo\SunamoEnums\Enums\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
