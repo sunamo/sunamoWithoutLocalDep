@@ -1,6 +1,5 @@
+
 namespace SunamoCollectionsValuesTableGrid;
-
-
 internal class AllChars
 {
     internal static List<char> vsZnakyWithoutSpecial;
@@ -35,9 +34,9 @@ internal class AllChars
     new(new[] { 33, 64, 35, 36, 37, 94, 38, 42, 63, 95, 126 });
     internal static readonly List<char> specialCharsWhite = new(new[] { space });
     internal static readonly List<char> specialCharsNotEnigma = new(new[] { nbsp, space160, copy });
-    /// <summary>
-    ///     Used in enigma
-    /// </summary>
+    
+    
+    
     internal static readonly List<char> specialCharsAll;
     internal static readonly List<int> numericKeyCodes = new(new[] { 49, 50, 51, 52, 53, 54, 55, 56, 57, 48 });
     internal static readonly List<char> numericChars =
@@ -62,13 +61,13 @@ internal class AllChars
     internal static readonly List<char> specialChars = new(new[]
     { excl, commat, num, dollar, percnt, Hat, amp, ast, quest, lowbar, tilda });
     private static readonly Type type = typeof(AllChars);
-    // my extension
+    
     internal static readonly List<char> generalChars;
-    // IsWhiteSpace
-    // , 55296 mi taky vrátila metoda IsWhiteSpace vrátila, ale při znovu vytvoření pomocí tohoto kódu to vyhazovalo výjimku
-    /// <summary>
-    ///     160 is space, is used for example in Uctenkovka
-    /// </summary>
+    
+    
+    
+    
+    
     internal static readonly List<int> whiteSpacesCodes = new(new[]
     {
 9, 10, 11, 12, 13, 32, 133, 160, 5760, 6158, 8192, 8193, 8194, 8195, 8196, 8197, 8198, 8199, 8200, 8201, 8202,
@@ -77,9 +76,9 @@ internal class AllChars
     internal static List<char> whiteSpacesChars;
     internal static char space160 = (char)160;
     internal static readonly char notNumber;
-    /// <summary>
-    ///     2020-07-4 added slash
-    /// </summary>
+    
+    
+    
     internal static readonly List<char> specialChars2 = new(new[]
     {
 lq, rq, dash, la, ra,
@@ -108,96 +107,76 @@ ndash, slash
         }
     }
     #region from AllCharsConsts.cs
-    ///// <summary>
-    ///// char code 32
-    ///// </summary>
-    //internal const char space = ' ';
-    ///// <summary>
-    ///// Look similar as 32 space
-    ///// </summary>
-    //internal const char nbsp = (char)160;
-    //#region Generated with SunamoFramework.HtmlEntitiesForNonDigitsOrLetterChars
-    //internal const char dollar = '$';
-    //internal const char Hat = '^';
-    //internal const char ast = '*';
-    //internal const char quest = '?';
-    //internal const char tilda = '~';
-    //internal const char comma = ',';
-    //internal const char period = '.';
-    //internal const char colon = ':';
-    //internal const char excl = '!';
-    //internal const char apos = '\'';
-    //internal const char rpar = ')';
-    //internal const char lpar = '(';
-    //internal const char sol = '/';
-    //internal const char lowbar = '_';
-    //internal const char lt = '<';
-    ///// <summary>
-    ///// skip in specialChars2 - already as equal
-    ///// </summary>
-    //internal const char equals = '=';
-    //internal const char gt = '>';
-    //internal const char amp = '&';
-    //internal const char lcub = '{';
-    //internal const char rcub = '}';
-    //internal const char lsqb = '[';
-    //internal const char verbar = '|';
-    //internal const char semi = ';';
-    //internal const char commat = '@';
-    //internal const char plus = '+';
-    //internal const char rsqb = ']';
-    //internal const char num = '#';
-    //internal const char percnt = '%';
-    //internal const char ndash = '–';
-    //internal const char copy = '©';
-    //#endregion
-    //internal static readonly List<char> specialChars = new List<char>(new char[] { excl, commat, num, dollar, percnt, Hat, amp, ast, quest, lowbar, tilda });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     #endregion
     #region For easy copy from AllChars.cs
-    // my extension
-    /*
-    equal->equals
-    *
-    * Ascii - 128 chars - 7B
-    * ASCII + code page (e.g. ISO 8859-1) - 256 chars - 8B
-    *
-    * Unicode 11.0:
-    * * Basic Multilingual Plane - 65536 letters - table 16*16, in every cell 256 letters, all others (SMP, SIP, TIP) are part of this
-    * Supplementary Multilingual Plane (SMP) - Doplňková multilinguální rovina - 14000 chars -
-    * Supplementary Ideographic Plane (SIP) - 53424 chars -
-    * Tertiary Ideographic Plane (TIP) - 16672 chars
-    * Supplementary Special-purpose Plane (SSP) - 368 chars
-    * 15 PUA-A 65536
-    * 16 PUA-B 65536
-    *
-    * =  overall 264256 letters
-    *
-    * Surrogates - replacement, by two surrogates is coded one letter above BMP (surrogate pair). Is in UTF16. Benefit is less space (some letters have two bytes, others 4B). In UTF32 is every char 4bytes.
-    * char.IsSurrogatePair(low, right) - pair is formed by low and high
-    * *
-    */
-    // IsControl
-    //internal const List<int> controlKeyCodes =
-    // IsDigit - IsNumber + superset atd.
-    // IsHighSurrogate -
-    // IsLower
-    // IsLowSurrogate
-    // IsNumber - 0..9
-    // IsPunctuation
-    // IsSeparatorw
-    // IsSurrogate
-    // IsSurrogatePair
-    // IsSymbol
-    // IsUpper
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     #endregion
     #region For easy copy from AllCharsConsts.cs
-    /// <summary>
-    ///     char code 32
-    /// </summary>
+    
+    
+    
     internal const char space = ' ';
-    /// <summary>
-    ///     Look similar as 32 space
-    /// </summary>
+    
+    
+    
     internal const char nbsp = (char)160;
     #region Generated with SunamoFramework.HtmlEntitiesForNonDigitsOrLetterChars
     internal const char dollar = '$';
@@ -214,9 +193,9 @@ ndash, slash
     internal const char sol = '/';
     internal const char lowbar = '_';
     internal const char lt = '<';
-    /// <summary>
-    ///     skip in specialChars2 - already as equal
-    /// </summary>
+    
+    
+    
     internal const char equals = '=';
     internal const char gt = '>';
     internal const char amp = '&';
@@ -250,23 +229,23 @@ ndash, slash
     internal const char asterisk = '*';
     internal const char apostrophe = '\'';
     internal const char sc = ';';
-    /// <summary>
-    ///     quotation marks
-    /// </summary>
+    
+    
+    
     internal const char qm = '"';
-    /// <summary>
-    ///     Question
-    /// </summary>
+    
+    
+    
     internal const char q = '?';
-    /// <summary>
-    ///     Left bracket
-    /// </summary>
+    
+    
+    
     internal const char lb = '(';
     internal const char rb = ')';
     internal const char slash = '/';
-    /// <summary>
-    ///     backspace
-    /// </summary>
+    
+    
+    
     internal const char bs2 = '\b';
     #endregion
 }

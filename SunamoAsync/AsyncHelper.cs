@@ -3,6 +3,42 @@ namespace SunamoAsync;
 using System.Runtime.CompilerServices;
 public class AsyncHelper : AsyncHelperSEShared
 {
+    public static Dictionary<string, object> MergeDictionaries(Dictionary<string, VoidVoid> potentiallyValid,
+        Dictionary<string, TaskVoid> potentiallyValidAsync)
+    {
+        var actionsMerge = new Dictionary<string, object>(potentiallyValid.Count + potentiallyValidAsync.Count);
+        if (potentiallyValid != null)
+            foreach (var item in potentiallyValid)
+                actionsMerge.Add(item.Key, item.Value);
+        if (potentiallyValidAsync != null)
+            foreach (var item in potentiallyValidAsync)
+                actionsMerge.Add(item.Key, item.Value);
+        return actionsMerge;
+    }
+    public static
+#if ASYNC
+    async Task
+#else
+        void
+#endif
+        InvokeTaskVoidOrVoidVoid(object o)
+    {
+        var t = o.GetType();
+        if (t == TypesDelegates.tVoidVoid)
+        {
+            (o as VoidVoid).Invoke();
+        }
+        else if (t == TypesDelegates.TaskVoid)
+        {
+            var taskVoid = o as TaskVoid;
+#if ASYNC
+            await
+#endif
+            taskVoid();
+            ;
+        }
+    }
+
     public static AsyncHelper ci = new AsyncHelper();
     private AsyncHelper()
     {

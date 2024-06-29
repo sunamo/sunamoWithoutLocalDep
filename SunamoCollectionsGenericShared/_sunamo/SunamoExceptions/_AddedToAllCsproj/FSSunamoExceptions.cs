@@ -1,11 +1,10 @@
-namespace SunamoCollectionsGenericShared;
 
+namespace SunamoCollectionsGenericShared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 internal class FSSunamoExceptions
 {
     internal static void CreateUpfoldersPsysicallyUnlessThere(string nad)
@@ -27,7 +26,7 @@ nad
         while (true)
         {
             nad = Path.GetDirectoryName(nad);
-            // TODO: Tady to nefunguje pro UWP/UAP apps protoze nemaji pristup k celemu disku. Zjistit co to je UWP/UAP/... a jak v nem ziskat/overit jakoukoliv slozku na disku
+            
             if (Directory.Exists(nad))
             {
                 break;

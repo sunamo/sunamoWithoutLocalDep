@@ -1,6 +1,5 @@
+
 namespace SunamoGetFolders;
-
-
 internal class SHSunamoExceptions
 {
     internal static string JoinNL(List<string> l)
@@ -25,7 +24,7 @@ internal class SHSunamoExceptions
     }
     internal static string NullToStringOrDefault(object n)
     {
-        //return NullToStringOrDefault(n, null);
+        
         return n == null ? " " + Consts.nulled : AllStrings.space + n;
     }
     internal static string TrimEnd(string name, string ext)

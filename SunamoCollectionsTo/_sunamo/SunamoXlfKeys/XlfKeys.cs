@@ -1,12 +1,10 @@
 namespace SunamoCollectionsTo;
 
 
-/// < summary>
-///     Wont add to.xlf if is key in XlfKeys
-/// </summary>
+
 internal class XlfKeys
 {
-#pragma warning disable SA1303 // Const field names should begin with upper-case letter
+#pragma warning disable SA1303 
     internal const string GetOne = "GetOne";
     internal const string Done = "Done";
     internal const string Set = "Set";
@@ -3059,9 +3057,9 @@ internal class XlfKeys
     internal const string ThisAppHasBeenDisabled = "ThisAppHasBeenDisabled";
     internal const string NewestVersion = "NewestVersion";
     internal const string RecommendedVersion = "RecommendedVersion";
-    /// <summary>
-    ///     Had value App<span></span> - commented because contains html
-    /// </summary>
+    
+    
+    
     internal const string App = "App";
     internal const string NoAppImagesFound = "NoAppImagesFound";
     internal const string PleaseSignInToVote = "PleaseSignInToVote";
@@ -5169,5 +5167,5 @@ internal class XlfKeys
     internal const string WasCreatedListOfCachesWithNameColon = "WasCreatedListOfCachesWithNameColon";
     internal const string ToUseThisWebYouHaveToBeLogined = "ToUseThisWebYouHaveToBeLogined";
     internal static string Generate = "Generate";
-#pragma warning restore SA1303 // Const field names should begin with upper-case letter
+#pragma warning restore SA1303 
 }

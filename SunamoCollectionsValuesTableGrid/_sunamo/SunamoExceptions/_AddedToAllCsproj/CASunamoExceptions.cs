@@ -1,6 +1,5 @@
+
 namespace SunamoCollectionsValuesTableGrid;
-
-
 internal class CASunamoExceptions
 {
     internal static bool IsListStringWrappedInArray<T>(List<T> v2)
