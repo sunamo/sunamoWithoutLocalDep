@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoDotnetCmdBuilder;
 public class AllChars
 {
     public static List<char> vsZnakyWithoutSpecial;

@@ -1,5 +1,5 @@
 
-namespace SunamoValues;
+namespace SunamoDotnetCmdBuilder;
 public class AllStrings
 {
     public const string dot = ".";

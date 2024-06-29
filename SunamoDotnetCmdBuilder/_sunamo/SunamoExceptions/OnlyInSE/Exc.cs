@@ -1,5 +1,5 @@
 
-namespace SunamoExceptions;
+namespace SunamoDotnetCmdBuilder;
 using System.Diagnostics;
 using System.Text;
 

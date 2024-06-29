@@ -1,4 +1,4 @@
-﻿
+
 namespace SunamoGetFiles;
 public enum ComputerSizeUnitsGetFiles : byte
 {

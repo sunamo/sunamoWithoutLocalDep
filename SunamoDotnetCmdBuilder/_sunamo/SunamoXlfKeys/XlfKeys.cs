@@ -1,5 +1,5 @@
 
-namespace SunamoXlfKeys;
+namespace SunamoDotnetCmdBuilder;
 /// < summary>
 ///     Wont add to.xlf if is key in XlfKeys
 /// </summary>

@@ -8,7 +8,7 @@ namespace SunamoWikipedia;
 /// <summary>
 /// Protože klasický HtmlTableParser chce HtmlHelper který má miliardu deps
 /// </summary>
-internal class HtmlTableParser
+public class HtmlTableParser
 {
     internal HtmlTableParser(object item, bool v)
     {
