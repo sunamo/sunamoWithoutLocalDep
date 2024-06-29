@@ -8,6 +8,6 @@ using System.Threading.Tasks;
 
 internal partial class TypesDelegates
 {
-    internal static readonly Type tVoidVoid = typeof(VoidVoid);
-    internal static readonly Type tTaskVoid = typeof(TaskVoid);
+    internal static readonly Type tAction = typeof(Action);
+    internal static readonly Type tFuncTask = typeof(Func<Task>);
 }

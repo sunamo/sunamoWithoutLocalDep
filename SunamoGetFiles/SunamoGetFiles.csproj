@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -11,15 +11,5 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoGetFiles;ASYNC</DefineConstants>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Remove="_sunamo\**" />
-    <EmbeddedResource Remove="_sunamo\**" />
-    <None Remove="_sunamo\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="_sunamo\SunamoArgs\GetFilesArgs.cs" />
-    <Compile Include="_sunamo\SunamoArgs\GetFilesBaseArgs.cs" />
-    <Compile Include="_sunamo\SunamoArgs\GetFilesEveryFolderArgs.cs" />
-    <Compile Include="_sunamo\SunamoArgs\GetFilesMoreMascArgs.cs" />
-  </ItemGroup>
+
 </Project>

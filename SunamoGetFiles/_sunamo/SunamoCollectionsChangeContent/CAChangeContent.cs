@@ -3,7 +3,7 @@ namespace SunamoGetFiles;
 
 internal class CAChangeContent
 {
-    private static void RemoveNullOrEmpty(ChangeContentArgs a, List<string> files_in)
+    private static void RemoveNullOrEmpty(ChangeContentArgsGetFiles a, List<string> files_in)
     {
         if (a != null)
         {
@@ -31,7 +31,7 @@ internal class CAChangeContent
     /// </summary>
     /// <param name="files_in"></param>
     /// <param name="func"></param>
-    internal static List<string> ChangeContent0(ChangeContentArgs a, List<string> files_in, Func<string, string> func)
+    internal static List<string> ChangeContent0(ChangeContentArgsGetFiles a, List<string> files_in, Func<string, string> func)
     {
         for (int i = 0; i < files_in.Count; i++)
         {
@@ -50,7 +50,7 @@ internal class CAChangeContent
     /// <param name="func"></param>
     /// <param name="a1"></param>
     /// <returns></returns>
-    internal static List<string> ChangeContent1(ChangeContentArgs a, List<string> files_in, Func<string, string, string> func, string a1)
+    internal static List<string> ChangeContent1(ChangeContentArgsGetFiles a, List<string> files_in, Func<string, string, string> func, string a1)
     {
         var result = ChangeContent<string>(a, files_in, func, a1);
         return result;
@@ -64,7 +64,7 @@ internal class CAChangeContent
     /// <param name="a1"></param>
     /// <param name="a2"></param>
     /// <returns></returns>
-    internal static List<string> ChangeContent2(ChangeContentArgs a, List<string> files_in, Func<string, string, string, string> func, string a1, string a2)
+    internal static List<string> ChangeContent2(ChangeContentArgsGetFiles a, List<string> files_in, Func<string, string, string, string> func, string a1, string a2)
     {
         for (int i = 0; i < files_in.Count; i++)
         {
@@ -79,7 +79,7 @@ internal class CAChangeContent
     /// </summary>
     /// <param name="files_in"></param>
     /// <param name="func"></param>
-    internal static bool ChangeContentWithCondition(ChangeContentArgs a, List<string> files_in, Predicate<string> predicate, Func<string, string> func)
+    internal static bool ChangeContentWithCondition(ChangeContentArgsGetFiles a, List<string> files_in, Predicate<string> predicate, Func<string, string> func)
     {
         bool changed = false;
         for (int i = 0; i < files_in.Count; i++)
@@ -111,7 +111,7 @@ internal class CAChangeContent
     /// <param name="files_in"></param>
     /// <param name="func"></param>
     /// <param name="arg"></param>
-    internal static List<string> ChangeContent<Arg1>(ChangeContentArgs a, List<string> files_in, Func<string, Arg1, string> func, Arg1 arg, Func<Arg1, string, string> funcSwitch12 = null)
+    internal static List<string> ChangeContent<Arg1>(ChangeContentArgsGetFiles a, List<string> files_in, Func<string, Arg1, string> func, Arg1 arg, Func<Arg1, string, string> funcSwitch12 = null)
     {
         if (a == null)
         {
@@ -157,7 +157,7 @@ internal class CAChangeContent
     /// <typeparam name="TResult"></typeparam>
     /// <param name="files_in"></param>
     /// <param name="func"></param>
-    private static List<TResult> ChangeContent<T1, T2, TResult>(ChangeContentArgs a, Func<T1, T2, TResult> func, List<T1> files_in, T2 t2)
+    private static List<TResult> ChangeContent<T1, T2, TResult>(ChangeContentArgsGetFiles a, Func<T1, T2, TResult> func, List<T1> files_in, T2 t2)
     {
         List<TResult> result = new List<TResult>(files_in.Count);
         for (int i = 0; i < files_in.Count; i++)
@@ -177,7 +177,7 @@ internal class CAChangeContent
     /// <param name="func"></param>
     /// <param name="arg1"></param>
     /// <param name="arg2"></param>
-    internal static List<string> ChangeContent<Arg1, Arg2>(ChangeContentArgs a, List<string> files_in, Func<string, Arg1, Arg2, string> func, Arg1 arg1, Arg2 arg2)
+    internal static List<string> ChangeContent<Arg1, Arg2>(ChangeContentArgsGetFiles a, List<string> files_in, Func<string, Arg1, Arg2, string> func, Arg1 arg1, Arg2 arg2)
     {
         for (int i = 0; i < files_in.Count; i++)
         {
