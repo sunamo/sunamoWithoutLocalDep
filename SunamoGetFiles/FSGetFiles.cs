@@ -601,7 +601,7 @@ Dictionary<string, string>
     {
         return GetFiles(path, AllStrings.asterisk, SearchOption.TopDirectoryOnly);
     }
-    public static string GetFilesSize(List<string> winrarFiles, ComputerSizeUnits s)
+    public static string GetFilesSize(List<string> winrarFiles, ComputerSizeUnitsGetFiles s)
     {
         long size = 0;
         foreach (var item in winrarFiles)

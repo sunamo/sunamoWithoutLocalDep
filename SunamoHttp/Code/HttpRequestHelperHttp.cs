@@ -37,9 +37,9 @@ public static partial class HttpRequestHelperHttp
     /// <param name="folder2"></param>
     /// <param name="co"></param>
     /// <param name="ext"></param>
-    public static void DownloadAll(List<string> hrefs, BoolString DontHaveAllowedExtension, string folder2, FileMoveCollisionOption co, string ext = null)
+    public static void DownloadAll(List<string> hrefs, BoolString DontHaveAllowedExtension, string folder2, FileMoveCollisionOptionHttp co, string ext = null)
     {
-        if (co != FileMoveCollisionOption.Overwrite)
+        if (co != FileMoveCollisionOptionHttp.Overwrite)
         {
             ThrowEx.Custom("Is allowed only Overwrite. Due to deps FS.MoveFile is not possible to use.");
         }
