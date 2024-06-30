@@ -2,7 +2,7 @@
 
 
 namespace SunamoStringFormat;
-public partial class SHFormat
+public class SHFormat
 {
     /// <summary>
     /// Don't allow format when there is unfinished {

@@ -5,7 +5,7 @@ using System.Web;
 
 public partial class UriWebServices
 {
-    public static partial class TechSitesRss
+    public static class TechSitesRss
     {
         public static Type type = typeof(TechSitesRss);
 

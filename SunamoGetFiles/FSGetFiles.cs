@@ -1,6 +1,6 @@
 namespace SunamoGetFiles;
 
-public partial class FSGetFiles
+public class FSGetFiles
 {
     public static List<string> GetFiles(string v1, string v2, SearchOption topDirectoryOnly)
     {

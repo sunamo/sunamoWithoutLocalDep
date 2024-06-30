@@ -4,7 +4,7 @@ namespace SunamoWikipedia;
 /// <summary>
 /// 
 /// </summary>
-internal partial class DictionaryHelper
+internal class DictionaryHelper
 {
     internal static Dictionary<Key, Value> GetDictionary<Key, Value>(List<Key> keys, List<Value> values)
     {

@@ -3,9 +3,9 @@ namespace SunamoStringGetString;
 using System.Collections;
 using System.Text;
 
-internal partial class Types
+internal class Types
 {
-    
+
     internal static readonly Type tObject = typeof(object);
     internal static readonly Type tStringBuilder = typeof(StringBuilder);
     internal static readonly Type tIEnumerable = typeof(IEnumerable);
