@@ -1,11 +1,11 @@
 
 namespace SunamoDotnetCmdBuilder;
-/// < summary>
-///     Wont add to.xlf if is key in XlfKeys
-/// </summary>
+
+
+
 public class XlfKeys
 {
-#pragma warning disable SA1303 // Const field names should begin with upper-case letter
+#pragma warning disable SA1303 
     public const string GetOne = "GetOne";
     public const string Done = "Done";
     public const string Set = "Set";
@@ -3058,9 +3058,9 @@ public class XlfKeys
     public const string ThisAppHasBeenDisabled = "ThisAppHasBeenDisabled";
     public const string NewestVersion = "NewestVersion";
     public const string RecommendedVersion = "RecommendedVersion";
-    /// <summary>
-    ///     Had value App<span></span> - commented because contains html
-    /// </summary>
+    
+    
+    
     public const string App = "App";
     public const string NoAppImagesFound = "NoAppImagesFound";
     public const string PleaseSignInToVote = "PleaseSignInToVote";
@@ -5168,5 +5168,5 @@ public class XlfKeys
     public const string WasCreatedListOfCachesWithNameColon = "WasCreatedListOfCachesWithNameColon";
     public const string ToUseThisWebYouHaveToBeLogined = "ToUseThisWebYouHaveToBeLogined";
     public static string Generate = "Generate";
-#pragma warning restore SA1303 // Const field names should begin with upper-case letter
+#pragma warning restore SA1303 
 }
