@@ -1,13 +1,6 @@
 
 namespace SunamoXliffParser;
 using System.Xml.Linq;
-
-public enum XlfDialect
-{
-    Standard = 0,
-    RCWinTrans11 = 1,
-    MultilingualAppToolkit = 2
-}
 public class XlfDocument
 {
     [Flags]
@@ -77,7 +70,7 @@ public class XlfDocument
             entries.Sort();
         }
         ResXFile.Write(fileName, entries,
-            options.HasFlag(ResXSaveOption.IncludeComments) ? ResXFile.Option.None : ResXFile.Option.SkipComments);
+            options.HasFlag(ResXSaveOption.IncludeComments) ? ResXOption.None : ResXOption.SkipComments);
     }
     public UpdateResult UpdateFromSource()
     {

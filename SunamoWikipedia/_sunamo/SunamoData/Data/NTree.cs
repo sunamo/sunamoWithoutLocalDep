@@ -1,7 +1,7 @@
 namespace SunamoWikipedia;
 
 
-internal delegate void TreeVisitor<T>(T nodeData);
+internal delegate void Action<T>(T nodeData);
 /// <summary>
 /// Another big popular tree is on https://www.codeproject.com/Articles/12592/Generic-Tree-T-in-C
 /// </summary>
@@ -28,7 +28,7 @@ internal class NTree<T>
                 return n;
         return null;
     }
-    internal void Traverse(NTree<T> node, TreeVisitor<T> visitor)
+    internal void Traverse(NTree<T> node, Action<T> visitor)
     {
         visitor(node.data);
         foreach (NTree<T> kid in node.children)

@@ -676,10 +676,7 @@ List<string>
         }
         return vr.ToArray();
     }
-}
 
-public partial class FSGetFiles
-{
     /// <summary>
     /// Non recursive
     /// </summary>
