@@ -1,4 +1,4 @@
-﻿
+
 namespace SunamoXliffParser;
 
 public enum XlfDialect

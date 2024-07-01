@@ -1,4 +1,4 @@
-﻿
+
 namespace SunamoXliffParser;
 [Flags]
 public enum ResXOption

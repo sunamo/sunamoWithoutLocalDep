@@ -1,4 +1,4 @@
-﻿namespace SunamoXliffParser;
+namespace SunamoXliffParser;
 
 public enum Predefined
 {
